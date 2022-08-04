@@ -1,0 +1,408 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Portal UnrealEd Tutorial 3 - Adding a Door by Cableless</title>
+<style type="text/css">
+<!-- A:link {text-decoration: none} -->
+<!-- A:visited {text-decoration: none} -->
+<!-- A:active {text-decoration: none} -->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#C0C0C0" link="#FF0000"
+vlink="#800000" alink="#FFFFFF">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td><p align="center"><img src="images/main/title.gif"
+        align="left" hspace="0" width="534" height="109"></p>
+        </td>
+        <td><img src="images/main/titlebar.gif" width="76"
+        height="118"></td>
+    </tr>
+</table>
+</center></div>
+
+<blockquote>
+    <p><font size="2" face="Arial">Got a new tutorial? Mail the </font><a
+    href="mailto:jimcable@planetunreal.com;%20mindbomb@planetunreal.com"><font
+    size="2" face="Arial">Portal Team</font></a><font size="2"
+    face="Arial">!</font></p>
+</blockquote>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>UnrealEd Tutorial 3 - Adding a Door </b>by
+        </font><a href="mailto:jimcable@planetunreal.com"><font
+        size="2" face="Arial">Cableless</font></a></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p><font size="2" face="Arial">Now that we have our
+            room and hallway it is time to add a door. This
+            tutorial is a slightly more complex due to the
+            process that is required to create a <em>non-scaled</em>
+            mover that is the size of your door. You must perform
+            this process or you will be able to walk through your
+            door. Hopefully this process will go away in future
+            revisions of UnrealEd.</font></p>
+            <p><font size="2" face="Arial">Download </font><a
+            href="http://www.planetunreal.com/portal/files/tutorial/portaltutorial3.unr"><font
+            size="2" face="Arial">the map</font></a><font
+            size="2" face="Arial"> for this Tutorial and install
+            it in your C:\UNREAL\MAPS directory.</font></p>
+        </blockquote>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Creating the Wall and Door Jamb</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p align="center"><font size="2" face="Arial"><img
+            src="images/screenshots/tutorial3a.jpg" width="320"
+            height="240"></font></p>
+            <ol>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushbuildcube.gif"
+                    width="36" height="37"> <em>Build Cube </em>on
+                    the toolbar. <em>Shift-left Click</em> on the
+                    brush and <em>move</em> it so that it is
+                    centered in your hallway.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushscalesnap.gif"
+                    width="37" height="37"> <em>Snap Scale Brush </em>on
+                    the toolbar. <em>CTRL-Left Click</em> or <em>CTRL-Right
+                    Click </em>on the brush to <em>scale</em> the
+                    brush and create a wall that seals your
+                    hallway.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushaddtoworld.gif"
+                    width="36" height="36">Add Brush to World on
+                    the toolbar.</font></li>
+                <li><font size="2" face="Arial">Under the <em>Options</em>
+                    menu at the top of the screen select <em>Rebuild</em>.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushscalesnap.gif"
+                    width="37" height="37"> <em>Snap Scale Brush </em>on
+                    the toolbar. <em>CTRL-Left Click</em> or <em>CTRL-Right
+                    Click </em>on the brush to <em>scale</em> the
+                    brush to create the opening in the wall for
+                    your door.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushsubtractfromworld.gif"
+                    width="36" height="37"> <em>Subtract Brush
+                    from World</em> on the Toolbar.</font></li>
+                <li><font size="2" face="Arial">Texture the new
+                    wall and door jamb.</font></li>
+                <li><font size="2" face="Arial">Under the <em>Options</em>
+                    menu at the top of the screen select <em>Rebuild</em>.</font></li>
+                <li><font size="2" face="Arial">Save your level!</font></li>
+            </ol>
+        </blockquote>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Creating the Door</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p align="center"><font size="2" face="Arial"><img
+            src="images/screenshots/tutorial3b.jpg" width="320"
+            height="240"></font></p>
+            <ol>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushbuildcube.gif"
+                    width="36" height="37"> <em>Build Cube </em>on
+                    the toolbar. <em>Shift-left Click</em> on the
+                    brush to move it to the door jamb.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushscalesnap.gif"
+                    width="37" height="37"> <em>SnapScale Brush</em>
+                    on the toolbar. <em>CTRL-Left Click</em> or <em>CTRL-Right
+                    Click</em> on the brush to scale your door to
+                    the same size as your door jamb but thinner.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushaddtoworld.gif"
+                    width="36" height="36"> <em>Add Brush to
+                    World</em> on the toolbar.</font></li>
+                <li><font size="2" face="Arial">Texture your
+                    door.</font></li>
+                <li><font size="2" face="Arial">Under the <em>Options</em>
+                    menu at the top of the screen select <em>Rebuild</em>.</font></li>
+                <li><font size="2" face="Arial">Save your level!</font></li>
+            </ol>
+        </blockquote>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Creating the Mover</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p align="center"><font size="2" face="Arial"><img
+            src="images/screenshots/tutorial3c.jpg" width="320"
+            height="240"></font></p>
+            <ol>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushbuildcube.gif"
+                    width="36" height="37"> <em>Build Cube </em>on
+                    the toolbar.</font></li>
+                <li><font size="2" face="Arial">Select
+                    Brush&gt;Reset&gt;All from the top menu.</font></li>
+                <li><font size="2" face="Arial"><em>Right</em>
+                    Click <img
+                    src="images/toolbar/brushbuildcube.gif"
+                    width="36" height="37"> <em>Build Cube </em>on
+                    the toolbar. Select Properties. Set the size
+                    to 512,512,512. Click Build to create the
+                    large cube. Click Close.</font></li>
+                <li><font size="2" face="Arial"><em>Shift-Left
+                    Click</em> on the brush and move it outside
+                    of your map.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushsubtractfromworld.gif"
+                    width="36" height="37"> <em>Subtract Brush
+                    from World</em> on the Toolbar.</font></li>
+                <li><font size="2" face="Arial"><em>Right Click</em>
+                    on the edge of your door and select Copy
+                    Polygons&gt;To Brush.</font></li>
+                <li><font size="2" face="Arial">Press
+                    &quot;B&quot; to hide the brush.</font></li>
+                <li><font size="2" face="Arial"><em>Left Click</em>
+                    on your door and press <em>Delete</em>.</font></li>
+                <li><font size="2" face="Arial">Press
+                    &quot;B'&quot; to unhide the brush.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/cameramove.gif"
+                    width="36" height="37"> Camera Move. <em>CTRL-Left
+                    Click</em> on the brush ( the red box) and
+                    move it to the center of the cube that you
+                    just made outside your map.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushaddtoworld.gif"
+                    width="36" height="36">Add Brush to World on
+                    the toolbar.</font></li>
+                <li><font size="2" face="Arial">Right Click on
+                    the edge of the large cube and select <em>Copy
+                    Polygons&gt;To Brush</em>.</font></li>
+                <li><font size="2" face="Arial">Select <img
+                    src="images/toolbar/brushintersection.gif"
+                    width="36" height="36"> Brush Intersection.</font></li>
+                <li><font size="2" face="Arial"><em>Shift-Left
+                    Click</em> on the small red brush that was
+                    just created in the above operation and
+                    position it where you want your door used to
+                    be.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushaddmovable.gif"
+                    width="36" height="37"> Add Movable Brush.</font></li>
+                <li><font size="2" face="Arial">Under the <em>Options</em>
+                    menu at the top of the screen select <em>Rebuild</em>.</font></li>
+                <li><font size="2" face="Arial">Save your level!</font></li>
+            </ol>
+        </blockquote>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Setting up the Mover and the Triggers</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p align="center"><font size="2" face="Arial"><img
+            src="images/screenshots/tutorial3d.jpg" width="320"
+            height="240"></font></p>
+            <ol>
+                <li><font size="2" face="Arial"><em>Right Click</em>
+                    on the edge of the <em>mover</em> and select <em>Mover
+                    Keyframe&gt;Key 1</em>.</font></li>
+                <li><font size="2" face="Arial">Move the mover to
+                    the position that you want the door to open.</font></li>
+                <li><font size="2" face="Arial"><em>Right Click</em>
+                    on the edge of the <em>mover</em> and select <em>Mover
+                    Keyframe&gt;Key 0</em>.</font></li>
+                <li><font size="2" face="Arial"><em>Right Click</em>
+                    on the edge of the <em>mover</em> and select <em>Mover
+                    Properties</em>.</font></li>
+                <li><font size="2" face="Arial">Click <em>Object&gt;Initial
+                    State&gt;TriggerOpenTimed</em>.</font></li>
+                <li><font size="2" face="Arial">Click <em>Events&gt;Tag</em>
+                    and enter <em>door</em> in the box to the
+                    right of <em>Tag</em>. Close the popup menu.</font></li>
+                <li><font size="2" face="Arial">In the <em>Browse</em>
+                    window select <em>Classes</em>.</font></li>
+                <li><font size="2" face="Arial">In the <em>Browse</em>
+                    window, click on the &quot;-&quot; next to <em>Triggers
+                    </em>to expand the list. Select <em>Trigger</em>.</font></li>
+                <li><font size="2" face="Arial">Right Click near
+                    the door and select <em>Add Triggers Here</em>.</font></li>
+                <li><font size="2" face="Arial">Add another <em>trigger</em>
+                    on the other side of the door in the same
+                    manner.</font></li>
+                <li><font size="2" face="Arial">Click on a <em>trigger</em>
+                    symbol then press <em>CTRL</em> and select
+                    the other <em>trigger</em> symbol.</font></li>
+                <li><font size="2" face="Arial">Right Click on
+                    one of the triggers and select Trigger
+                    Properties( 2 selected ).</font></li>
+                <li><font size="2" face="Arial">Click <em>Events&gt;Event</em>
+                    and enter <em>door</em> in the box to the
+                    right of <em>Event</em>. Close the popup
+                    menu. You should now see red lines connecting
+                    the <em>mover</em> to the <em>triggers</em>.</font></li>
+                <li><font size="2" face="Arial">Under the <em>Options</em>
+                    menu at the top of the screen select <em>Rebuild</em>.</font></li>
+                <li><font size="2" face="Arial">Save your level!</font></li>
+                <li><font size="2" face="Arial">Select <em>Play
+                    Level</em> under the <em>File</em> menu at
+                    the top of the screen.</font></li>
+            </ol>
+            <p><font size="2" face="Arial">Next tutorial we will
+            add a monster and a weapon.</font></p>
+        </blockquote>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="right"><a href="index.html"><font size="2" face="Arial"><em><strong>Back
+to Tutorials</strong></em></font></a></p>
+
+<p>&nbsp;</p>
+
+<p><font size="2" face="Arial"><em><strong>.</strong></em></font></p>
+</body>
+</html>

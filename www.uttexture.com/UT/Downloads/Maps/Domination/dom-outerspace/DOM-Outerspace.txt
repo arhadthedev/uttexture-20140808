@@ -1,0 +1,54 @@
+================================================================
+Title                   : DOM-Outerspace
+Release Date            : 3.3.2000
+Filename                : DOM-Outerspace.zip
+Author                  : Dirk Ellerweg
+Email Address           : dirk.ellerweg@gmx.de
+Description             : A little island in space for 2-10 players
+Thanks to		: "Cooper"
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : DOM-OuterSpace
+
+Botmatch                : Yes
+Deathmatch              : No
+Dominationmatch		: Yes
+New Sounds              : No
+New Graphics            : No
+Known bugs              : I hope you don't find them!!
+
+--- Construction ---
+Editor(s) used          : UnrealEd 
+Base                    : New level
+Construction Time       : ???
+
+Installation
+------------
+Unzip the map in your unreal/maps directory!
+
+Author's Notes
+--------------
+Please mail me your opinion (dirk.ellerweg@gmx.de)!!
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Dirk Ellerweg, 2000.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+----------------------
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

@@ -1,0 +1,72 @@
+================================================================
+Title: NyLeve's Falls
+Version: 1.0
+Release Date: 2k+1/02/11
+Filename: DOM-NyLeve.unr
+Author: Juan Pancho Eekels - Conversion by Vasilios Papadimitriou 
+        a.k.a. Commander Assaulter Killer
+Web Page: no Internet connection (for the time being)
+Description: Deathmatch conversion of Unreal's 2nd level
+Content: DOM-NyLeve, At_Back.umx, NyLeveF.utx and this readme file
+Special Features: blastin' music (again)
+
+===============================================================
+--- Play Information ---
+Game: Unreal Tournament
+Level Name: DOM-NyLeve.unr
+Single Player: Yes (vs. bots)
+Cooperative: yes
+Assault: no
+Domination: yes
+Dark Match: No
+Difficulty Settings: for bots 
+New Sounds: Yes (new music)
+New Graphics: No
+New Models: No
+Known bugs: none 
+
+--- Construction ---
+Editor(s) used: UnrealEd 2.0 (upgraded with the 436 patch)
+Base: Unreal 2nd level (NyLeve.unr)
+Construction Time: less than 1h
+
+Installation
+------------
+Unzip "DOM-NyLeve.zip".  Place the .unr file into the MAPS folder,
+the utx file in the textures folder and the .umx file in the music 
+folder.
+
+Bugs
+----
+None
+
+Author's notes
+--------------
+I suggest you play this level with 32 players (2-4 teams - try with 4). 
+In order to add more bots, load the console by pressing the '~' key, type IAMTHEONE, then
+type ADDBOTS X. Where X the number of bots you wish to insert (for 32 players: select 15 bots,
+then, during gameplay, try the console command with X = 16). 
+
+Other levels
+------------
+DM/DOM/CT/AS-Vortex2
+DM-NyLeve
+
+Copyright / Permissions
+-----------------------
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.
+
+
+
+PS: Unreal Rocks (U know, U know...)
+PS1: Special thanx to these two lovely guys: Ioannis Pontikis and Kostis 'Titan' Tsaoussis 
+PS2: I thank all of you, Unrealheads. Long live Unreal!!!!!

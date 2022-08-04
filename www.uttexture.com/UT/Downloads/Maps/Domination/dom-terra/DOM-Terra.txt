@@ -1,0 +1,64 @@
+================================================================
+Title                   :Terra
+Version                 :0.99
+Release Date            :03/28/2001
+Filename                :DOM-Terra.unr
+Author(s)               :Nivlek (converted for UT by Luggage)
+Email Addresses         :Nivlek: ???
+			:Luggage: luggage@nedasfreedomfighters.com
+Web Page                :www.nedasfreedomfighters.com
+Where to get this map   :neda.virtualave.net/maps/DOM-Terra.zip
+Thanks to               :Nivlek, Epic Games, everyone
+			 at www.nedasfreedomfighters.com,
+			 especially Boggy|B
+
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :DOM-Terra
+Single Player           :no
+Cooperative             :no
+Deathmatch              :yes
+Difficulty Settings     :no
+New Music               :yes - Isotoxin.umx from Unreal 1
+New Sounds              :no
+New Graphics            :no
+NewUnrealScript         :no
+External DLLs           :no
+Known bugs              :There may be a problem with some bots and
+			 the lifts.
+
+--- Construction ---
+Editor(s) used          :UnrealEd (UT's and NaPali's)
+Base                    :DmTerra from "Return to Na Pali" UPak
+Conversion Time         :2 Days
+
+
+Installation
+============
+Where to put the files:
+	DOM-Terra.unr	- into your \Maps directory
+	Isotoxin.umx	- into your \Music directory
+
+Converter's Note
+----------------
+As I could not find out about Nivlek's eMail address, I decided
+to simply release this map without asking for his permission. If
+anyone knows more about him than I was able to find out, please
+eMail me. (luggage@nedasfreedomfighters.com)
+
+I think I should do something about the weapon placement, it
+doesn't somehow feel right yet.
+
+
+Coming up...
+------------------
+A Space-themed CTF map: CTF-ZeroG... (If I get it done this time...)
+
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.
+Distributed by GT Interactive Software, Inc. under license.
+UNREAL and the UNREAL logo are registered trademarks of Epic
+Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

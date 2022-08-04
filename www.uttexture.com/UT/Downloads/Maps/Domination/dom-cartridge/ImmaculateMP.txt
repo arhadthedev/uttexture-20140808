@@ -1,0 +1,170 @@
+
+If you like this map, check out the rest of the pack!
+www.unreality.org/utmp
+
+
+
+
+----------------------------------------------------------------
+"Immaculate Map Pack" (IMP) Unreal Tournament Map Pack
+Not to be distributed commercially without prior written consent
+----------------------------------------------------------------
+Release Date: 3/18/2000
+Filename: Immaculate.zip (Immaculate.umod, Readme.txt)
+
+
+-Installation:
+Open "Immaculate.zip" in your favorite ZIP program (preforably Winzip) and double click on
+"Immaculate.umod" to extract the umod file.  Follow the instructions to complete installation.
+
+
+-Playing the Immaculate Maps:
+**IMP Tournament
+The Immaculate Map Pack comes with a tournament mode similar to that of Unreal Tournament.
+Open the "Mod" menu and click on "Immaculate Tournament" to begin a new tournament.
+
+
+**Practice
+Open UnrealTournament and go into the "Practice Game" menu.  Pick your favorite IMP map,
+configure your bots/etc. and play.  We recommend you test each map before creating a rotation,
+as you may want to exclude some or include non Immaculate maps.
+
+
+**1 on 1 (Duels)
+DM-[Tournament1, and DM-[Tournament2 were created solely for the perpose of one on one DM.  The
+first map is primed for the UnrealTournament weapons, and a huge thanks goes out to Shane
+Caudle for THE best texture set ever made: Church.  The second is tweeked for the Infiltration
+mod (tested on v2.7) and is perfect for a one on one headshot-rockin' realworld weapon battle.
+The map also works with the UT weapons, but the full experience requires Infiltration.
+www.planetunreal.com/infiltration
+DM-[Tragedy also doubles as a 1 on 1 map, so give that a try as well.
+
+Load these maps in the same manner as a Practice session (see above) - because they're not
+in the IMP tournament!
+
+
+**HolyWars
+Download the HolyWars mod from "http://www.planetunreal.com/flatware", then load up a
+HolyWars game with any of the provided IMP DeathMatch maps.  This pack is in no way
+endorsed by the HolyWars team, so don't email them with anything pertaining to this pack,
+unless it's about how much fun you had :)
+
+
+-MapList [*Filename -Map Name- (Author)]:
+CAPTURE THE FLAG:
+*CTF-[Mane -Mane's World- (Wolf)
+*CTF-[MekongIII -Mekong ]|[: Arena- (getteW)
+
+DEATHMATCH:
+*DM-[Columnus -Columnus Monument- (getteW)
+*DM-[CyberWar -Cyber War- (Deadman)
+*DM-[Norova -Norova- (MarcEG)
+*DM-[Tournament1 -IMP Tournament I: 1 on 1- (getteW)
+*DM-[Tournament2 -IMP Tournament II: 1 on 1- (getteW)
+*DM-[Tragedy -Tragedy- (Wanderer)
+
+DOMINATION:
+*DOM-[Cartrige -Cartridge- (Fragswill)
+*DOM-[Flibbertigibet -Flibbertigibet- (Wanderer)
+*DOM-[GrievousVaultXL -Grievous Vault- (Deadman)
+*DOM-[Kilast][ -Kilast][- (MarcEG)
+*DOM-[Sangrel -Sangrel- (Wolf)
+
+
+-Who Made This Thing?:
+I want to clear this up from the start this time.  The Congregation of Plovers (TCP) DID NOT
+make this map pack.  I (gettewantannabe aka getteW) am the sole member of the TCP staff to 
+work on Immaculate.  I lead the team but contributed equally with the other very talented
+members of the IMP Staff - Fragswill, MarcEG, Wanderer, Wolf, and Deadman.
+We had a problem with FISSION, with people thinking Wolf was part of TCP - he is not, neither
+are anyone else on the team.  I mean, we wouldnt mind... :)
+
+Ob1-Kenobi provided the EXCELLENT code for the custom tournament ladder.  He is the key 7th
+member of the IMP Staff.  Not to mention the Umod install wizard...
+
+
+-Troubleshooting:
+Slow framerates means you have a average-to-crappy PC.  Turn some more system intensive Unreal
+features down in the Advanced Options menu, reachable from the UTed menus or edit your ini.
+Or you could buy a new 3dAccelerator... we all will sooner or later.  (Speaking
+of which, it's time to dump my Voodoo2... but I aint got no cizash)
+
+If your .umod extensions are not working, head back to www.unreality.org/utmp and grap the .zip
+version (which should be available shortly after the UMOD version.)
+
+Do you have version 405b?  That's what you need to play the ladder...
+
+
+-Extended Immaculate Tech Help:
+http://www.unreality.org/utmp/IMPbugs.htm
+
+
+-Immaculate Reviewed:
+In the near future, NaliCity, Unreality, and UTBooty will review Immaculate, here's where
+to check it out!
+http://www.planetunreal.com/nalicity/    (NaliCity)
+http://www.unreality.org/     (Unreality)
+http://utbooty.unrealism.com/     (UTBooty)
+
+
+-Contact us:
+http://www.unreality.org/utmp  (The IMP Homepage)
+
+
+-Individually:
+Deadman - 666deadman666@email.msn.com
+Fragswill - css@zerg.com
+getteW - gettew@ix.netcom.com
+MarcEG - marc@avatar.co.uk
+Ob1-Kenobi - ob1@planetunreal.com
+Wanderer - odc21@hotmail.com 
+Wolf - The_Wolf@prodigy.net
+
+-Other Works By The Authors:
+Wolf and TCP (getteW): FISSION (9/10 @ NC)
+TCP (getteW): Beyond Unreal (9.5/10 @ NC)
+MarcEG: CLASH (9/10 @ NC)
+Ob1: The UMOD install Wizard
+Deadman: The "SpaceX-" series
+
+
+-Thanks to:
+Preacher, Epic, DE, UnrealED... for you are god of all things, the muppets, all mexicans
+everywhere, the pittsburgh penguins, cletus the slack-jawed yokel, cast and crew of cupid
+expecially jeremy pivon-we all love you, bill (king of the universe and all things funny)
+murray, and planetunreal for giving me news about unreal and the planet we live on.  Blizzard
+and Id for showing me the way.  AtticBat, PsychoWalrus (brush up on yo ut mappin skills!,)
+QAPete, Wayne Gretzky THANKS FOR RETIRING>>> YOU'RE FRIEKIN OLD.  A big thanks to those in
+#unreality on gameslink, i loves me playtestin!  The mexican literary appreciation council 
+of mexico, this dog, and vertigo productions.  Another (second) thanks goes to AtticBat for 
+some crucial last minute (and i mean last) testing... you rock!
+
+Also to those who could not be with us for IMP: Entropy, DarkAngel, Spew, Clawfist, and all 
+those I forgot.
+
+And of course to Ob1 and the rest of the IMP Staff.
+
+
+-One Final Note:
+I (getteW) made all of the information for the ladder up.  Ob1 was the genius behind
+the code, but he should not be held responsible for the poor grammar and information
+included.
+I also have to say that Ob1 has been one of the best people I have ever worked with, on
+anything.  I've had alot of partners in the past that have been unbelievable, and now i
+have another to add to the list.  He got me new versions of the code daily, and sometimes
+twice a day.  He ironed out bugs 5 minutes after I ICQd him about it... he deserves big
+credit on this.
+
+
+=================================================
+please do not put the contents of this package on
+any storage medium without the authors' concent.  We
+will be very happy to oblige!!!  If you distribute
+this file, keep the archive in-tact with this txt and
+all.
+=================================================
+
+now let's stop runnin' ... well, deck16][ and curse][ (i mean, really... they're still the 
+best maps :) and cycle these bad boys.
+
+-gettewantannabe and everyone on the IMP Staff

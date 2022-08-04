@@ -1,0 +1,78 @@
+================================================================
+Title             : DOM-Arcturo
+Version           : 1.00
+Release Date      : 16 - 6 - 2000
+Fixes             : None
+Filename          : DOM-Arcturo
+Author            : Pagan Pete
+Email Address     : Bookerboy@simpsonp.greatxscape.net
+
+Web Page          : Http://www.planetunreal.com/utunderground
+
+Description       :  Once used as an earth federation waybase now bought by maxtech and put to a much better use !
+                     Now with added dom fun!                   
+                    Let me know what you think .
+
+Where to get
+this map          :http://www.planetunreal.com/nalicity/
+
+
+================================================================
+Other maps by author :
+
+DM -Duelar
+DM -Killarena
+DOM-Killarena
+CTF-Aquaduct
+CTF-Killing~Fields
+DM -Icebound
+CTF-Obsidian
+DM -Arcturo 
+
+================================================================
+--- Play Information ---
+Level Name           : DOM-Arcturo
+Single Player        : no
+Deathmatch           : no
+Capture the Flag     : no
+Domination           : yes
+Assault              : no
+Difficulty Settings  : no
+New Sounds           : no
+New Graphics         : no
+New UnrealScript     : no
+External DLLs        : no
+Known bugs           : No bugs
+
+--- Construction ---
+Editor(s) used       : UnrealEd
+Development time     : 8 hrs (+ 45 it took to make original deathmatch version)
+
+
+Installation
+------------
+DOM-Arctura     : DRIVE:\UnrealTournament\Maps
+
+
+
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Pagan Pete 2000.
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)2000 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

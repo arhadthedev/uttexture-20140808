@@ -1,0 +1,84 @@
+================================================================
+Title                   :CTFM-LittleBoxes
+Version                 :1
+Release Date            :07/18/01
+Filename                :CTFM-LittleBoxes.unr
+Author(s)               :Michael "The Shadow" Saager
+Email Address           :msaager@qwest.net
+Web Page                :none
+Description             :A 4 player CTF map set in Random Theme X
+
+Where to get this map   :http://www.planetunreal.com/multictf/ 
+
+Other levels by author  :DMholdarea for Unreal
+			 DM-Battleruins for UT
+			 CTFM-CruxCitadel
+			 CTFM-CrystalPower for MultiCTF UT
+Additional Credits to   :Rubic, Arcmage, Wolff for playtesting
+                         Wyzard for his MultiCTF Mod
+
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :LittleBoxes
+Assult			:no
+CTF                     :yes 
+Deathmatch              :no
+Difficulty Settings     :I play on Adept and win most of the time, play on whatever you like
+New Sounds              :New Music
+New Graphics            :Yes
+NewUnrealScript         :no
+External DLLs           :no
+Known bugs              :Bots don't understand central pipe,or sniper rifle.
+			 
+
+--- Construction ---
+Editor(s) used          :Ued2
+Base                    :none
+Construction Time       :Couple of Months on and off
+
+
+Installation
+------------
+Run the umod. 
+If you just have the files
+put CTFM-LittleBoxes.unr in your unrealtournament/maps directory
+put downhome.utx in your unrealtournament/textures directory
+put u4ia.umx in your unrealtournament/music directory
+
+
+Author's Notes
+--------------
+You need Wyzards MultiCTF mod to play this map get it here
+http://www.planetunreal.com/multictf/
+
+The Title Little Boxes comes from a Pete Seager song of the same name
+listen to it and you will understand.
+
+There is no real theme to this map as it is kind of a learning map
+that I thought was good enough to release.
+
+This map also works with CTF4 I think.
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Michael Saager
+
+I don't care what you do with this map, rebuild it make it better just give me 
+credit for the original level. (I feel that you should be good enough to create 
+your own level anyway)
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

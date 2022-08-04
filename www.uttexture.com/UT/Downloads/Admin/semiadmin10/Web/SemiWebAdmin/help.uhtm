@@ -1,0 +1,786 @@
+<HTML>
+	<HEAD>
+		<TITLE>Semi-Admin</TITLE>
+		<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<STYLE type="text/css"> <!-- .traditionalcommandnames { font: bold small-caps 14px Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase; color: #FF9933 }
+	.commandnames { font: bold small-caps 14px Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase; color: #66CC66 }
+	.defaulttext { font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-size: 16px }
+	.FunctionHeadings { font: bolder 24px Verdana, Arial, Helvetica, sans-serif }
+	.PrivilegeHeadings { font: bolder 22px Verdana, Arial, Helvetica, sans-serif }
+	.serveradmincommands { font: bold small-caps 14px Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase; color: #CCCCCC }
+	--></STYLE>
+	</HEAD>
+	<BODY bgcolor="#000000" text="#cccccc" link="#33cc66" vlink="#33cc66" leftmargin="0" topmargin="0">
+		<TABLE width="100%%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td colspan="3" bgcolor="#226474">
+					<img src="/images/1-1.gif" width="26" height="6" hspace="0" vspace="0" border="0" align="left">
+					<img src="/images/1-2.gif" width="114" height="6" hspace="0" vspace="0" border="0" align="right">
+				</td>
+			</tr>
+			<tr>
+				<td width="21" bgcolor="black"><img src="/images/2-1.gif" width="21" height="19" hspace="0" vspace="0" border="0" align="left"></td>
+				
+	<td width="100%%" align="left" bgcolor="black"> <font face="Verdana,Arial" color="white" size="-1"><b><a name="top"></a>Help 
+	  Page</b></font><br>
+				</td>
+				<td width="114" align="right" bgcolor="black">
+					<img src="/images/2-2.gif" width="114" height="19" hspace="0" vspace="0" border="0" align="right">
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#226474" colspan="3">
+					<img src="/images/3-1.gif" width="26" height="7" hspace="0" vspace="0" border="0" align="left">
+					<img src="/images/3-2.gif" width="114" height="7" hspace="0" vspace="0" border="0" align="right">
+				</td>
+			</tr>
+		</TABLE>
+		<table width="100%%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="26" align="right" bgcolor="black"><img vspace="0" hspace="0" src="/images/4-2.gif" width="26" height="26" align="right"></td>
+				<td align="left" bgcolor="black" width="100%%"><font face="Verdana,Arial" color="#33cc66"><b>SemiAdmin 
+							WebAdmin Usage &amp; Instructions</b></font></td>
+				<td width="67" align="left"><img vspace="0" hspace="0" src="/images/4-1.gif" width="67" height="26" align="left"></td>
+				<td width="1" align="right" valign="center">
+					<font face="Verdana,Arial" size="-1" color="white"><b>«</b><a href="mailto:%BugAddress%">Bugs?</a><b>»</b></font>
+				</td>
+				<td width="26" align="right"><img vspace="0" hspace="0" src="/images/4-2.gif" width="26" height="26" align="right"></td>
+			</tr>
+		</table>
+		<table width="100%%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/5-1.gif" width="24" height="21" align="left"></td>
+				
+	<td width="100%%" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width="1" height="1"></td>
+				<td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/5-2.gif" width="25" height="21" align="right"></td>
+			</tr>
+			<tr>
+				
+	<td width="100%%" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width="1" height="1"></td>
+			</tr>
+			<tr>
+				<td width="9" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width="1" height="1"></td>
+				<td width="15" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width="1" height="1"></td>
+				
+	<td width="100%%" bgcolor="#135565"> 
+	  <p class="defaulttext"><b><A href="#intro">Introduction</A> 
+		</b></p>
+	  <p class="defaulttext"><b> Game Settings </b>
+<ul type="square">
+		<li class="defaulttext"><a href="#gamepage">Game Page</a> </li>
+		<li class="defaulttext"><a href="#kickpage">Kick Page</a> </li>
+		<li class="defaulttext"><a href="#banpage">Ban Page</a> </li>
+		<li class="defaulttext"><a href="#botspage">Bots Page</a> </li>
+	  </ul>
+	  <p class="defaulttext"><b>User Settings</b></p>
+	  <ul type="square" class="defaulttext">
+		<li class="defaulttext"><A href="#addusers">Add Users</A></li>
+		<li class="defaulttext"><a href="#addgroups">Add Groups</a> </li>
+		<li class="defaulttext"><a href="#browseusers">Browse Users</a> </li>
+		<li class="defaulttext"><a href="#editusers">Edit Users</a></li>
+		<li><a href="#browsegroups">Browse Groups</a> </li>
+		<li><a href="#editgroupspage">Edit Groups</a></li>
+		<li class="defaulttext"><a href="#searchbyname">Search By Name</a> </li>
+	  </ul>
+	  <p class="defaulttext"><b>Reference</b></p>
+	  <ul type="square" class="defaulttext">
+		<li><a href="#groupsandusers">Users &amp; Groups</a> </li>
+		<li class="defaulttext"><span class="defaulttext"><a href="#ual">Security 
+		  Levels</a> </span> 
+		  <ul type="disc">
+			<li class="defaulttext"><A href="#ual">User Access Level</A> </li>
+			<li class="defaulttext"><A href="#gal">Game Access Levels</A></li>
+		  </ul>
+		</li>
+		<li><a href="#privileges">Privilege Descriptions</a> </li>
+	  </ul>
+	  <hr> <P><SPAN class="FunctionHeadings"><A name="intro"></A>Introduction</SPAN><SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">SemiAdmin is a mutator for Unreal Tournament that 
+		allows you to configure multiple username/password combinations for server 
+		administration. It is useful for situations in which you want to allow 
+		friends and clanmates to perform *some* of the functions of a server admin 
+		(such as changing maps or mutators) but not all of them (such as kicking 
+		other users). It also an extremely useful tool for all admins that lend 
+		their server to other clans to be used for matches and scrims, as you 
+		can configure those users so that they can access only match-related commands, 
+		and maintain the security of your server, without giving away the full 
+		server admin password.</P>
+	  <P class="defaulttext">SemiAdmin is a permission-based security system.&nbsp; 
+		Access to the various server admin commands is controlled by privileges.&nbsp; 
+		There are currently seven privileges you may use: User, Ban, Gameplay, 
+		Kick, Maps, Bots and Summon. In SemiAdmin, abbreviations are used for 
+		these permissions - (U)ser, (B)an, (G)ameplay, (K)ick, (M)aps, b(O)ts, 
+		and (S)ummon. Users are organized into groups (which you create). Groups 
+		are assigned permissions, and this is how you enable your users to have 
+		access to commands on your server. The SemiAdmin interface is completely 
+		seperate from the normal UT server admin, and you should take some time 
+		to acquant yourself with its operation before putting SemiAdmin into use.</P>
+	  <P class="defaulttext">The web administration interface for SemiAdmin has 
+		been added as of version 0.10, and should enable you to easily administer 
+		your server without having to remember extensive console commands. This 
+		help file is structured exactly like the web admin interface. If you find 
+		anything in the web interface unclear, you can click the help link to 
+		bring you directly to the appropriate section of this help file.</P>
+	  <P class="FunctionHeadings">Game Settings</P>
+	  <P class="PrivilegeHeadings"><a name="gamepage"></a>Game Page<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">You will only see settings that you have the game 
+		access level to modify. See <a href="#gal">Game Access Levels</a> for 
+		more information.</P>
+	  <P class="defaulttext">Settings common to all gametypes:</P>
+	  <blockquote> 
+		<p class="defaulttext"><b>No Monsters</b> - Check to disable monsters 
+		  during the game<br>
+		  <b>Mute Spectators</b> - Check to disable spectator's chat during the 
+		  game<br>
+		  <b>Humans Only</b> - Check to disable non-human player models<br>
+		  <b>Coop Weapon Mode</b> - Checked causes weapons to stay after they're 
+		  picked up in the game<br>
+		  <b>Classic Death Messages</b> - If unchecked, use weapon-specific kill 
+		  messages<br>
+		  <b>Low Gore</b> - Reduces gore<br>
+		  <b>Very Low Gore</b> - Greatly reduces gore<br>
+		  <b>No Cheating</b> - disables 'cheat' commands (fly, god, etc.)<br>
+		  <b>Allow FOV</b> - Allows players to adjust their FOV (field of view)<br>
+		  <b>Local ngStats</b> - Enables local ngStats logging<br>
+		  <b>World ngStats</b> - Enables internet ngStats logging<br>
+		  <b>Batch Local</b> - No Idea<br>
+		  <b>Max Spectators</b> - Maximum number of spectators allowed<br>
+		  <b>Max Players</b> - Maximum number of players allowed to connect<br>
+		  <b>Game Speed</b> - Game speed<br>
+		  <b>Game Password</b> - Password to enter game<br>
+		  <b>Admin Password</b> - Password to login as the server admin<br>
+		  <b>Minimum Players</b> - Bots will join the game until this number is 
+		  reached<br>
+		  <b>Frag Limit</b> - Game ends when someone score reaches this many frags<br>
+		  <b>Time Limit</b> - Game ends when this many minutes hass passed<br>
+		  <b>Auto-Advance Maps</b> - Checked causes the server to switch to next 
+		  map at game end<br>
+		  <b>Hardcore Mode</b> - See Game Style<br>
+		  <b>Mega Speed</b> - See Game Style<br>
+		  <b>Alternate Scoring</b> - Causes player to lose a point when killed<br>
+		  <b>MultiWeapon Stay</b> - Used only for Net games - this should set 
+		  the same as Coop Weapon Mode<br>
+		  <b>Force Respawn</b> - Checked forces players to respawn when killed<br>
+		  <b>Tournament Mode</b> - Checked enables Tournament Mode<br>
+		  <b>Start of Game Delay</b> - Seconds server will wait for more players 
+		  before beginning play <br>
+		  <b>Restart Delay</b> - Seconds server will wait at the end of a game 
+		  before starting the next map <br>
+		  <b>Enable Translocator</b> - Check to enable usage of the translocator</p>
+	  </blockquote>
+	  <p class="defaulttext">Additional settings for Team Games:</p>
+	  <blockquote>
+		<p class="defaulttext"><b>Disallow Team Change</b> - Check prohibts players 
+		  from changing teams during play<br>
+		  <b>Bots Balance Teams</b> - Bots will automatically switch to whatever 
+		  team is smallest<br>
+		  <b>Players Balance Teams</b> - Server will change players' team to smallest 
+		  team when joining<br>
+		  <b>Friendly Fire Scale</b> - Scale friendly fire damage by this value<br>
+		  <b>Maximum Number of Teams</b> - Maximum number of teams<br>
+		  <b>Team Score Limit</b> - Game ends when this is reached (caps in CTF, 
+		  points in DOM, etc.)<br>
+		  <b>Maximum Team Size</b> - Maximum number of players on each team<br>
+		</p>
+	  </blockquote>
+	  <p class="defaulttext">Additional Settings for Last Man Standing:</p>
+	  <blockquote> 
+		<p class="defaulttext"><b>HighDetailGhosts</b> - Checked allows players 
+		  that have been eliminated to be seen</p>
+	  </blockquote>
+	  <hr> 
+	  <P class="PrivilegeHeadings"><a name="kickpage"></a>Kick Page<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">The kick page displays information about each player 
+		connected to the game . To kick a player, place a check in the box next 
+		to the player's name, and click the &quot;Kick Player&quot; button. You 
+		can kick more than one player at a time using this method, by checking 
+		more than one box before clicking &quot;Kick Player&quot;.</P>
+	  <P class="defaulttext">Checkboxes are not displayed for bots. Also, team 
+		names are not displayed if the server is not currently running a team 
+		game.</P>
+	  <hr> 
+	  <P class="PrivilegeHeadings"><a name="banpage"></a>Ban Page<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <p class="defaulttext">The ban page displays information about each player 
+		connected to the game . To ban a player's IP, place a check in the box 
+		next to the player's name, and click the &quot;Ban IP Address&quot; button. 
+		You can ban more than one player at a time using this method, by checking 
+		more than one box before clicking &quot;Ban IP Address&quot;. At this 
+		time, there is no way to unban a player's IP address through WebAdmin.</p>
+	  <p class="defaulttext">Checkboxes are not displayed for bots. Also, team 
+		names are not displayed if the server is not currently running a team 
+		game.</p>
+	  <hr> 
+	  <P class="PrivilegeHeadings"><a name="botspage"></a>Bots Page<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">In Unreal Tournament, you can a certain number of 
+		bots, or you may add bots by name. SemiAdmin takes this one step furthur 
+		by allowing you to add multiple bots by name, remove multiple bots by 
+		name, or do both in the same step. You can, of course, also add or remove 
+		a certain number of bots with the SemiAdmin Web Interface.</P>
+	  <P class="defaulttext">The first set of controls is used to add/remove a 
+		particular number of bots. You choose whether you are adding or removing 
+		bots using the drop down box and choosing &quot;Add&quot; or &quot;Remove&quot;. 
+		Specify how many bots you are adding/removing in space provided, and click 
+		the upper &quot;Do It!&quot; button to apply the changes.</P>
+	  <P class="defaulttext">The next set of controls is for adding/removing bots 
+		by name. All of the bots on your server are listed here, with checkmarks 
+		next to the bots that are presently in the game. To add a bot that is 
+		currently not in the game, place a checkmark next to the bot's name. To 
+		remove a bot that is currently in the game, click the checkbox to remove 
+		the check next to the bot's name. You may add/remove as many bots as you'd 
+		like by checking/unchecking all the appropriate boxes before clicking 
+		the lower &quot;Do It!&quot; button. </P>
+	  <P class="defaulttext">It is important to remember, however, that adding 
+		or removing bots from this page will not affect the number of bots that 
+		join the server (the minimum number of players). To change this, you must 
+		do so from the &quot;Game Page&quot;, and must have the necessary priviliges 
+		to do so. This means that even should you decide to add 14 bots to the 
+		game from the bots page, if your minimum number of players is set at 6, 
+		when the map changes, bots will still only join the server until there 
+		are 6 players.</P>
+	  <hr> 
+	  <P class="FunctionHeadings">User Settings</P>
+	  <P class="PrivilegeHeadings"><a name="addusers"></a>Add Users Page<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <p class="defaulttext">This page is actually quite straight-forward. Here 
+		are a few key points to remember about adding users.</p>
+	  <p class="defaulttext">Users are not assigned privileges in SemiAdmin. Groups 
+		are assigned privileges, and users are then added to the appropriate group. 
+		A user may only be a member of one group at a time.</p>
+	  <p class="defaulttext">A group configured with the 'U' privilege can add/delete/modify 
+		other groups. For convenience, this type of group is called a Manager 
+		Group. The details of exactly how security is controlled for manager groups 
+		is covered in <a href="#ual">Security Levels</a>.</p>
+	  <p class="defaulttext">Only a member of the master admin group may modify 
+		a master admin group.</p>
+	  <p class="defaulttext">In order to add a user to a group, your User Security 
+		Level must be equal to or greater than the User Security Level of the 
+		group you are adding the user to.</p>
+	  <p class="defaulttext">Each username must be unique, and must not contain 
+		spaces. All other characters are valid.</p>
+	  <p class="defaulttext">The maximum number of users is 50. The maximum number 
+		of groups is 30.</p>
+	  <hr> <P class="PrivilegeHeadings"><font size="4"><a name="addgroups" id="addgroups"></a></font>Add 
+		Groups Page<SPAN class="defaulttext"> - <A href="#top">top</A></SPAN></P>
+	  <p class="FunctionHeadings"><font size="4">Creating Groups </font></p>
+	  <p class="FunctionHeadings"><span class="defaulttext">You must be a member 
+		of the master admin group to create a group.</span></p>
+	  <p class="defaulttext">There are four parameters you must provide when adding 
+		a group via WebAdmin.</p>
+	  <table width="97%%" border="0" cellspacing="0" cellpadding="1">
+		<tr> 
+		  <td class="defaulttext" valign="top" width="19%%" height="87">Group 
+			Name</td>
+		  <td class="defaulttext" width="81%%" valign="top" height="87"> <p>This 
+			  parameter is self-explanatory. It's best to use names that help 
+			  describe what function the group will have, such as "borrowserver" 
+			  for a group that will contain users of other clans that will borrow 
+			  your server for matches. The group name must be one word (no spaces) 
+			  and can be anything you like.</p></td>
+		</tr>
+		<tr> 
+		  <td class="defaulttext" valign="top" width="19%%" height="214">Privileges</td>
+		  <td class="defaulttext" width="81%%" height="214" valign="top"> <p>For 
+			  a detailed explanation of each privilege, see the section titled 
+			  <a href="#privileges">"Privileges"</a>. Place a checkmark next to 
+			  each privilege this group will be assigned. Some things to keep 
+			  in mind:<br>
+			  Groups configured with the U privilege will be able to execute commands 
+			  from any other privilege, except for the B privilege (for security 
+			  reasons). </p>
+			<p>Groups with the G privilege will be able to execute commands from 
+			  the M privilege as well.</p>
+			<p>Groups with the B privilege will also be able to execute commands 
+			  from the K privilege.</p>
+			</p></td>
+		</tr>
+		<tr> 
+		  <td class="defaulttext" valign="top" width="19%%" height="50">User Access 
+			Level</td>
+		  <td width="81%%" class="defaulttext" height="50" valign="top"> A number 
+			from 0 - 255. See <a href="#ual">"Security Levels"</a> for a detailed 
+			description of this security feature.</td>
+		</tr>
+		<tr> 
+		  <td class="defaulttext" valign="top" width="19%%" height="57">Game Access 
+			Level</td>
+		  <td width="81%%" class="defaulttext" height="57" valign="top">A number 
+			from 0 - 2. See <a href="#gal">"Security Levels"</a> for a detailed 
+			description of this security feature.</td>
+		</tr>
+	  </table>
+	  <hr> 
+	  <P class="PrivilegeHeadings"><a name="browseusers"></a>Browse Users Page<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">This page allows you to view and modify the user 
+		list for SemiAdmin. For each user configured in SemiAdmin, this page will 
+		display the user name and the group that the user belongs to. </P>
+	  <P class="defaulttext">You may select which user or group you want to modify 
+		by clicking the appropriate name. You may also permanently delete a user 
+		account from SemiAdmin by clicking the 'Delete' link next to a user's 
+		name.</P>
+	  <P class="defaulttext">The Browse Users page will only show users that you 
+		are able to modify. Users with a higher User Security Level than you will 
+		not appear at all. </P>
+	  <hr> 
+	  <P class="PrivilegeHeadings"><a name="editusers">Edit Users Page</a><SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">The Edit Users Page is essentially the same as the 
+		<a href="#addusers">Add Users Page</a>. All of the same principles apply 
+		- you cannot modify a user while that user is logged in; you may not modify 
+		a user that belongs to a group with a higher User Security Level than 
+		you do, etc.</P>
+	  <P class="defaulttext">The interface is also very similar to the &quot;Add 
+		Users&quot; page. All of the required fields will be filled in for you 
+		with the user's current username, password, and group membership. From 
+		here, you can modify any of these settings. Click 'Modify' to apply changes. 
+	  </P>
+	  <hr> 
+	  <P class="PrivilegeHeadings"><a name="browsegroups"></a>Browse Groups Page<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <p class="defaulttext">This page allows you to view configured groups for 
+		SemiAdmin. However, you will only be able to browse (and thus - modify) 
+		groups that have equal or lower User Security Levels.</p>
+	  <p class="defaulttext">There are 5 columns containing information about 
+		the groups configured on the server. The columns list the group name, 
+		privileges, game security level, user security level, and a delete column.</p>
+	  <p class="defaulttext">To modify a group from the Browse Groups page, you 
+		may click the name of the group in the first column to be taken to the 
+		Edit Groups page for that group.</p>
+	  <p class="defaulttext">The next three columns are read-only from this page. 
+		If you need to modify the security levels or privileges of a group, you 
+		should click the group name to be taken to the Groups Edit page, where 
+		you can modify these settings.</p>
+	  <p class="defaulttext">To delete a group, click the appropriate &quot;Delete&quot; 
+		link in the last column corresponding to the group you want to delete.</p>
+	  <hr> 
+	  <P class="PrivilegeHeadings"><a name="editgroupspage">Edit Groups Page</a><SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">The Edit Groups Page is essentially the same as the<a href="#addgroups"> 
+		Add Groups Page</a>. The required parameters are the same, and won't be 
+		discussed here. When editing a group, the current setting is entered into 
+		the input fields for you. Modify the settings to your liking, and click 
+		the 'Modify' button to apply the changes. Changes take effect immediately.</P>
+	  <hr> 
+	  <P class="PrivilegeHeadings"><a name="searchbyname"></a>Search By Name<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <p class="defaulttext">This page has not been implemented yet.</p>
+	  <hr> <P class="PrivilegeHeadings"><a name="groupsandusers"></a>Groups &amp; 
+		Users<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">Groups are how SemiAdmin assigns permissions. After 
+		changing the master admin username and password, the next thing you should 
+		is set up a few groups. It is impossible to assign a permission (such 
+		as Bots or Maps) to a user. Instead, you will put users into groups, and 
+		assign permissions to the group. Any user that is a member of this group 
+		will inherit whatever permissions are applied to the group they are in. 
+		A user may not exist in more than one group.</P>
+	  <P class="defaulttext">Once you have created the groups you want, you will 
+		create users to be in those groups. If you would like to see sample configurations 
+		of SemiAdmin, I have created a few hypothetical scenarios so that you 
+		can see how the various privileges and security levels interact with each 
+		other. <A href="/semiadmin/samples.htm"> Click here to view the scenarios.</A></P>
+	  <hr> <P class="FunctionHeadings"><A name="security"></A>Security Levels</P>
+	  <P><span class="PrivilegeHeadings"><A name="gal"></A>Game Access Level</span><SPAN class="defaulttext"> 
+		&nbsp; <A href="#g">Description</A></SPAN><SPAN class="defaulttext"> - 
+		<A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">Game Access Level is a way to control which of the 
+		various game functions a SemiAdmin user will have access to. For instance, 
+		perhaps we want Joe to be able to be able to change the <CODE>bHumansOnly</CODE> 
+		settings of <CODE>[Botpack.DeathMatchPlus]</CODE>, but do not want Joe 
+		to be able to turn off ngStats logging, you can configure a group with 
+		a game access level of 1, and add Joe to this group. Since <CODE>bHumansOnly</CODE> 
+		has a required game access level of 1, while the <CODE>bWorldLog</CODE> 
+		setting of <CODE>[Engine.GameInfo]</CODE> has a required game access level 
+		of 2, Joe would be able to change the first setting, but not the second. 
+		Each setting is assigned a game access level (future versions of SemiAdmin 
+		will allow administrators to set these levels themselves). In order for 
+		a user to be able to change a setting, the game access level of the group 
+		the user belongs to must be equal to or greater than the game access level 
+		for that setting. Following is a list of settings that exist in the default 
+		installation of Unreal Tournament, along with their required game access 
+		level.</P>
+	  <P class="defaulttext">The game access levels for each setting are each 
+		listed twice, in two different lists. The first list will be organized 
+		according to access level, sub-organized by section. The second list will 
+		simply list the settings exactly as they appear in the unrealtournament.ini, 
+		along with the required access level. I did this because you will use 
+		the game access levels at two different times. When you are creating and 
+		configuring your groups, adding users to these groups, etc. you will use 
+		the first list. When you are attempting to locate a specific setting your 
+		would like to change, along with its required access level, you may find 
+		the second list much easier to use.</P>
+	  <BLOCKQUOTE> 
+		<P class="PrivilegeHeadings"><u>By Access Level</u></P>
+		<TABLE width="85%%" border="0" cellspacing="1" cellpadding="2" align="center">
+		  <TR> 
+			<TD width="49%%"> <P class="traditionalcommandnames">Game Access Level 
+				255 - Highest</P>
+			  <blockquote> 
+				<P class="defaulttext"><B>[Engine.GameInfo]</B></P>
+				<P class="defaulttext">AdminPassword</P>
+			  </blockquote>
+			  <BLOCKQUOTE>&nbsp;</BLOCKQUOTE></TD>
+			<TD width="51%%"> <BLOCKQUOTE> 
+				<P class="defaulttext">&nbsp;</P>
+			  </BLOCKQUOTE></TD>
+		  </TR>
+		  <TR> 
+			<TD colspan="2"> <HR width="85%%"> </TD>
+		  </TR>
+		  <TR> 
+			<TD width="49%%"> <BLOCKQUOTE> 
+				<P class="defaulttext"> </P>
+			  </BLOCKQUOTE>
+			  <P class="traditionalcommandnames">Game Access Level 2 - High</P>
+			  <BLOCKQUOTE> 
+				<P class="defaulttext"><B>[Engine.GameInfo]</B></P>
+				<P class="defaulttext"> Autoaim<BR>
+				  GamePassword<BR>
+				  bLocalLog<BR>
+				  bWorldLog<BR>
+				  bBatchLocal</P>
+				<P class="defaulttext"><B>[Botpack.LastManStanding]</B></P>
+				<P class="defaulttext">bHighDetailGhosts<BR>
+				</P>
+			  </BLOCKQUOTE></TD>
+			<TD width="51%%"> <blockquote> 
+				<P class="defaulttext"><B>[Botpack.DeathMatchPlus]</B></P>
+				<P class="defaulttext"> bChangeLevels<BR>
+				  bAltScoring<BR>
+				  NetWait<BR>
+				  RestartWait</P>
+				<P class="defaulttext"><B>[Botpack.TeamGamePlus]</B></P>
+				<P class="defaulttext"> bNoTeamChanges<BR>
+				  FriendlyFireScale</P>
+			  </blockquote>
+			  <P class="defaulttext">&nbsp;</P></TD>
+		  </TR>
+		  <TR> 
+			<TD width="49%%" colspan="2"> <HR width="85%%"> </TD>
+		  </TR>
+		  <TR> 
+			<TD width="49%%"> <P class="traditionalcommandnames">Game Access Level 
+				1 - Medium</P>
+			  <BLOCKQUOTE> 
+				<P class="defaulttext"><B>[Engine.GameInfo]</B></P>
+				<P class="defaulttext"> bLowGore<BR>
+				  bVeryLowGore<BR>
+				  bMuteSpectators<BR>
+				  bNoCheating<BR>
+				  bAllowFOV<BR>
+				  bNoMonsters<BR>
+				  bHumansOnly<BR>
+				  bCoopWeaponMode<BR>
+				  bClassicDeathmessages</P>
+			  </BLOCKQUOTE></TD>
+			<TD width="51%%" rowspan="2"> <blockquote> 
+				<P class="defaulttext"><B>[Botpack.TeamGamePlus]</B></P>
+				<P class="defaulttext"> GoalTeamScore<BR>
+				  MaxTeams<BR>
+				  MaxTeamSize</P>
+				<P class="defaulttext"><B>[Botpack.DeathmatchPlus]</B></P>
+				<P class="defaulttext"> bHardCoreMode<BR>
+				  bUseTranslocator<BR>
+				  MinPlayers<BR>
+				  AirControl<BR>
+				  FragLimit<BR>
+				  TimeLimit<BR>
+				  MegaSpeed<BR>
+				  bMultiWeaponStay</P>
+			  </blockquote></TD>
+		  </TR>
+		  <TR> 
+			<TD width="49%%">&nbsp;</TD>
+		  </TR>
+		  <TR> 
+			<TD colspan="2"> <HR width="85%%"> </TD>
+		  </TR>
+		  <TR> 
+			<TD rowspan="2" width="49%%"> <P class="traditionalcommandnames">Game 
+				Access Level 0 - Low</P>
+			  <BLOCKQUOTE> 
+				<P class="defaulttext"><B>[Engine.GameInfo]</B></P>
+				<P class="defaulttext"> GameSpeed<BR>
+				  MaxSpectators<BR>
+				  MaxPlayers<BR>
+				</P>
+				<P class="defaulttext"><B>[Botpack.DeathMatchPlus]</B></P>
+				<P class="defaulttext"> bForceRespawn<BR>
+				  bTournament</P>
+			  </BLOCKQUOTE></TD>
+			<TD width="51%%"> <blockquote> 
+				<P class="defaulttext"><B><BR>
+				  [Botpack.TeamGamePlus]</B></P>
+				<P class="defaulttext"> bBalanceTeams<BR>
+				  bPlayersBalanceTeams</P>
+				<P class="defaulttext"><B>[Botpack.Domination]</B></P>
+				<P class="defaulttext"> bDumbDown</P>
+			  </blockquote></TD>
+		  </TR>
+		</TABLE>
+		<p>&nbsp;</p>
+		<P class="PrivilegeHeadings"><u>By Location In .ini</u></P>
+		<BLOCKQUOTE> 
+		  <TABLE width="85%%" border="0" cellspacing="1" cellpadding="2" align="center">
+			<TR> 
+			  <TD> <P><CODE><B>[Engine.GameInfo]<BR>
+				  </B>bLowGore - 1<BR>
+				  bVeryLowGore - 1<BR>
+				  bMuteSpectators - 1<BR>
+				  bNoCheating - 1<BR>
+				  bAllowFOV - 1<BR>
+				  bExternalBatcher - not implemented<BR>
+				  AutoAim - 2<BR>
+				  GameSpeed - 0<BR>
+				  MaxSpectators - 0<BR>
+				  AdminPassword - 255<BR>
+				  GamePassword - 2<BR>
+				  MaxPlayers - 0<BR>
+				  ServerLogName - not implemented<BR>
+				  bLocalLog - 2<BR>
+				  bWorldLog - 2<BR>
+				  bBatchLocal - 2<BR>
+				  DemoBuild - not implemented<BR>
+				  DemoHasTuts - not implemented<BR>
+				  bNoMonsters - 1<BR>
+				  bHumansOnly - 1<BR>
+				  bCoopWeaponMode - 1<BR>
+				  bClassicDeathMessages - 1</CODE></P>
+				<P><CODE><B>[Botpack.Assault]<BR>
+				  </B>Defenses - Not Implemented<BR>
+				  SavedTime - Not Implemented<BR>
+				  NumDefenses - Not Implemented<BR>
+				  CurrentDefender - Not Implemented<BR>
+				  bDefenseSet - Not Implemented<BR>
+				  bTiePartOne Not Implemented<BR>
+				  GameCode - Not Implemented<BR>
+				  Part - Not Implemented</CODE></P></TD>
+			  <TD rowspan="2"> <P><CODE><B>[Botpack.DeathMatchPlus]<BR>
+				  </B>bNoviceMode - not implemented<BR>
+				  bHardCoreMode - 1<BR>
+				  bUseTranslocator - 1<BR>
+				  MinPlayers - 1<BR>
+				  AirControl - 1<BR>
+				  FragLimit - 1<BR>
+				  TimeLimit - 1<BR>
+				  bChangeLevels - 2<BR>
+				  bMegaSpeed - 1<BR>
+				  bAltScoring - 2<BR>
+				  bMultiWeaponStay - 1<BR>
+				  bForceRespawn - 0<BR>
+				  bTournament - 0<BR>
+				  NetWait - 2<BR>
+				  RestartWait - 2<BR>
+				  MaxCommanders - not implemented<BR>
+				  InitialBots - not implemented<BR>
+				  </CODE> </P>
+				<P><CODE><B>[Botpack.TeamGamePlus]<BR>
+				  </B>bBalanceTeams - 0<BR>
+				  GoalTeamScore= - 1<BR>
+				  bPlayersBalanceTeams - 0<BR>
+				  bNoTeamChanges - 2<BR>
+				  FriendlyFireScale - 2<BR>
+				  MaxTeams - 1<BR>
+				  MaxTeamSize - 1<BR>
+				  </CODE> </P>
+				<P><CODE><B>[Botpack.LastManStanding]<BR>
+				  </B>bHighDetailGhosts - 2</CODE></P>
+				<P><CODE><B>[Botpack.CTFGame]<BR>
+				  </B>No configurable parameters specific to CTF</CODE></P>
+				<P><CODE><B>[Botpack.Domination]<BR>
+				  </B>bDumbDown - 0</CODE></P></TD>
+			</TR>
+			<TR> 
+			  <TD>&nbsp;</TD>
+			</TR>
+		  </TABLE>
+		  <P>&nbsp;</P>
+		  <P>&nbsp;</P>
+		</BLOCKQUOTE>
+	  </BLOCKQUOTE>
+	  <P class="PrivilegeHeadings"><A name="ual"></A>User Access Level &nbsp;<SPAN class="defaulttext"><A href="#u">Description</A></SPAN><SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">The User Access Level is used to control whether 
+		or not a particular user can make changes to other groups. Any group that 
+		is assigned the U privilege is what we call a "Manager" group. When the 
+		Master Admin creates a group, he will assign a "Game Access Level" as 
+		well as a "User Access Level". The User Access Level is used to limit 
+		which groups a user may modify. Manager groups can only modify groups 
+		that have the same or lower User Access Level. Members of a Manager Group 
+		that has a User Access Level of 100 would not be able to add users to 
+		a group that has a User Access Level of 200, for instance.</P>
+	  <P class="defaulttext">However, any member of the manager's group with a 
+		User Access Level of 100 would be able to modify groups with an access 
+		level of 100 or below. The exception to this is manager groups themselves. 
+		Only a master admin may add/delete users from a manager group (groups 
+		with U privilege).</P>
+	  <P class="defaulttext"><u class="serveradmincommands">Here is an example</u>:</P>
+	  <P class="defaulttext">I create 2 groups, one with K privilege and one with 
+		B privilege. The 'kickers' are configured with a User Access Level of 
+		100, while the 'banners' are configured with a User Access Level of 200. 
+		Kickers might be a group of players that have shown responsibility and 
+		maturity in the game, or perhaps friends of my clan. I would like these 
+		players to be able to kick offensive players from my server. I do not, 
+		however, want them to be able to ban anyone. For that, I will use the 
+		Banners group. This group would consist of players I know and trust to 
+		use good judgement should they decide to ban someone. I also believe that 
+		these players will do everything in their power to avoid banning someone, 
+		but will ban if it becomes necessary.</P>
+	  <P class="defaulttext"> I also assign the U privilege to the 'Banners' group. 
+		This allows members of the 'Banners' group to modify other groups. Since 
+		the User Access Level of 'Banners' is higher than the User Access Level 
+		of 'Kickers', 'Banners' are able to add/delete/modify users from the 'Kickers' 
+		group.</P>
+	  <P class="defaulttext">When a member of the 'Banners' group attempts to 
+		modify a group, SemiAdmin will check two things - first, it will check 
+		to see if the 'Banner' group has U privileges; if that checks out, it 
+		will then compare the User Access Levels of the two groups to make sure 
+		that the 'Banner' group has a higher {or equal} User Access Level than 
+		the group of the user he is trying to modify. Once both checks are passed, 
+		the command is executed. If one is not, the command is dismissed.</P>
+	  <P class="defaulttext">Thus, if the roles were reversed, and I had assigned 
+		the U privilege instead to the 'Kickers' group, instead of the 'Banners' 
+		group, 'Kickers' would be able to modify the 'Kickers' group, but would 
+		not be able to modify the 'Banners' group, since 'Kickers' User Access 
+		Level is below that of 'Banners'. 'Banners', on the other hand, wouldn't 
+		be able to modify any groups, without the U privilege.</P>
+	  <hr> <P class="FunctionHeadings"><A name="privileges"></A>Privileges<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="defaulttext">SemiAdmin commands are grouped into privileges, based 
+		on what they do. There are 8 privilege groups, each containing their own 
+		set of commands. This section will explain what each group does, and list 
+		the traditional admin commands each privilege handles.</P>
+	  <P class="defaulttext">The privilege groups are as follows:</P>
+	  <P class="defaulttext">U - <A href="#u">User Commands</A><BR>
+		B - <A href="#b">Ban Commands</A><BR>
+		G - <A href="#g">Game Commands</A><BR>
+		K - <A href="#k">Kick Commands</A><BR>
+		M - <A href="#m">Map Commands</A><BR>
+		O - <A href="#o">Bot Commands</A><BR>
+		S - <A href="#s">Summon Command</A></P>
+	  <P class="defaulttext">Privileges B K L M O and S are either on or off. 
+		A group that has M privilege, for instance, is able to use all of the 
+		commands of the maps privilege, and a group that does not have M privilege, 
+		is able to use none of the commands of the maps privilege. </P>
+	  <P class="defaulttext">U and G however, are unique, in that the commands 
+		for these groups are furthur limited by access levels. Each group that 
+		you create will have a user access level and a game access level. The 
+		User Access Level controls which groups that group may modify (there are 
+		also other implications of this security level - see <A href="#security">Security 
+		Levels</A> for more information), while the game access level controls 
+		which of the "Game" privilege commands the groups may access.</P>
+	  <P class="PrivilegeHeadings"><A name="u"></A>Privilege U - User<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="serveradmincommands">Corresponding Server Admin Commands</P>
+	  <P class="defaulttext">None - A configurable multi-user admin system does 
+		not exist in Unreal Tournament by default</P>
+	  <P class="serveradmincommands">Description</P>
+	  <P class="defaulttext">User Privilege allows members of a group to add players 
+		to a group, delete players from a group, or modify a player's login name 
+		or password. Of course, this can present a problem, so the <A href="#ual">User 
+		Access Level</A> was added to SemiAdmin to provide a way to control which 
+		groups a user with U privilege can modify. When you create a group, you 
+		must specify both a Game Access Level, and a User Access Level. The available 
+		settings for User Access Levels are 0 thru 254. 255 is reserved for the 
+		Master Admin Group. When you login to SemiAdmin for the first time, it 
+		creates an 'admin' group that has a User Access Level of 255, adds a user 
+		to this group with a name of "admin" and a password of "admin". The admin 
+		group is defined as having all privileges, is able to modify all parameters 
+		of SemiAdmin, and can use all commands on any player. See <A href="#ual">User 
+		Access Level</A> for a detailed explanation of the way the User privilege 
+		works.</P>
+	  <P class="defaulttext"><EM><STRONG>NOTE:</STRONG></EM> </P>
+	  <BLOCKQUOTE> 
+		<P class="defaulttext"><font size="2">Any group configured with U privilege 
+		  will also have access to the commands in all other privilege groups. 
+		  The only exception to this is the B privilege (this is by popular demand 
+		  - it seemed to cause trouble to allow users with User privilege to also 
+		  ban players). As a result, only groups configured specifically with 
+		  the B privilege will be able to ban players.</font></P>
+		<P class="defaulttext"><font size="2">Any group configured with B privilege 
+		  will also have access to the commands from the K privilege group.</font></P>
+		<P class="defaulttext"><font size="2">Any group configured with G privilege 
+		  will also have access to the commands from the M privilege group.</font></P>
+		<P class="defaulttext"><font size="2"> In future versions, this may be 
+		  changed. It is undecided whether User Access Levels will be applied 
+		  to limit this functionality, or whether it will be discarded entirely.</font></P>
+	  </BLOCKQUOTE>
+	  <P class="PrivilegeHeadings"><A name="b"></A>Privilege B - Ban Commands<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="commandnames"><FONT class="serveradmincommands">Corresponding 
+		Server Admin Commands</FONT></P>
+	  <P class="traditionalcommandnames">kickban &lt;player name&gt;</P>
+	  <P class="serveradmincommands">Description</P>
+	  <P class="defaulttext">Allows a user to Ban/Kick a player using either the 
+		player name or player id. The ability to ban a player by player id does 
+		not exist in Unreal Tournament. It was included in SemiAdmin to enable 
+		you to easily administrate players that use ascii symbols or control codes 
+		in their player name.</P>
+	  <P class="PrivilegeHeadings"><A name="g"></A>Privilege G - Game Commands<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="serveradmincommands">Corresponding Server Admin Commands</P>
+	  <P class="traditionalcommandnames">admin set &lt;game class&gt;.&lt;setting&gt; 
+		&lt;value&gt;<BR>
+		admin get &lt;game class&gt;.&lt;setting&gt;</P>
+	  <P class="serveradmincommands">Description</P>
+	  <P class="defaulttext">Allows a user to enumerate and modify default game 
+		parameters. All groups are configured with a game access level, though 
+		truly this parameter is only applicable to those groups with are given 
+		the G privilege. Different game parameters have different levels of importance 
+		and sensitivity to the server. SemiAdmin allows you to limit the amount 
+		of game settings a user can change by setting game access levels. For 
+		more information, see <A href="#gal">Game Access Levels</A>.</P>
+	  <P class="PrivilegeHeadings"><A name="k"></A>Privilege K - Kick Commands<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="serveradmincommands">Corresponding Server Admin Commands</P>
+	  <P class="traditionalcommandnames">kick &lt;playername&gt;</P>
+	  <P class="serveradmincommands">Description</P>
+	  <P class="defaulttext">Same as the Ban command, except allows only kicking 
+		a player, not banning them.</P>
+	  <P class="PrivilegeHeadings"><A name="m"></A>Privilege M - Map Commands<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="serveradmincommands">Corresponding Server Admin Commands</P>
+	  <P class="traditionalcommandnames">switchlevel &lt;mapname&gt;</P>
+	  <P class="serveradmincommands">Description</P>
+	  <P class="defaulttext">Map commands allow users to switch maps, enumerate 
+		the next 3 maps to be played on the server, and quickly restart the current 
+		map being played.</P>
+	  <P class="PrivilegeHeadings"><A name="o"></A>Privilege O - Bot Commands<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="serveradmincommands">Corresponding Server Admin Commands</P>
+	  <P class="traditionalcommandnames">addbots &lt;#&gt;<BR>
+		admin addbotnamed &lt;botname&gt;</P>
+	  <P class="serveradmincommands">Description</P>
+	  <P class="defaulttext">Bot commands allow the user to add or remove bots. 
+		Users may add/remove a certain number of bots, or specific bots by name.<BR>
+	  </P>
+	  <P class="PrivilegeHeadings"><A name="s"></A>Privilege S - Summon Command<SPAN class="defaulttext"> 
+		- <A href="#top">top</A></SPAN></P>
+	  <P class="serveradmincommands">Corresponding Server Admin Commands</P>
+	  <P class="traditionalcommandnames">summon unreali.&lt;pawn name&gt;</P>
+	  <P class="serveradmincommands">Description</P>
+	  <P class="defaulttext">Allows the user to summon pawns.</P>
+<td width="16" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width="16" height="1"></td>
+				<td width="9" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width="9" height="1"></td>
+			</tr>
+		</table>
+		<table width="100%%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td valign="bottom" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/7-1.gif" width="25" height="18" align="left"></td>
+				<td bgcolor="#226474" width="100%%" valign="top">
+				</td>
+				<td valign="bottom" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/7-2.gif" width="25" height="18" align="right"></td>
+				<td height="18" valign="top">
+					<font face='Verdana, Arial, Helvetica' size='-1'>Thanks&nbsp;to&nbsp;<a href="http://www.planetunreal.com/modcentral/ut" target="_top">Mod&nbsp;Central</a>&nbsp;for&nbsp;this&nbsp;design
+					</font>
+				</td>
+				<td align="right" valign="top"><img vspace="0" hspace="0" src="/images/7-3.gif" width="46" height="18" align="right"></td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>

@@ -1,0 +1,28 @@
+Name : Skaarj Dark Ship
+Author : Cedric "Snoop" Pierron aka Derdak2rot
+GameType : Multi CTF ( 4 teams )
+Ideal Player Count : 4 teams of 5 players max.
+
+This map is based on a Unreal 1 map "DKNightOp"
+Thanks to Cliff Bleszinski for the original layout
+The bot support works well, i watched them a long time , just they don't take the shieldbelt
+and the udamage in the central area . The bots defends very well . The fun factor in this 
+map is pretty good .
+
+
+I added some stuff like a central arena and the complet rebuild of lightning
+
+-------------------------------------------
+required : Textures :skaarj.utx
+                     UTtech1.utx
+                     GenFX.utx
+                     CTF.utx
+                     MultiCTFTex.utx
+                     Liquids.utx
+
+           Music : Run.umx
+---------------------------------------------
+
+Have fun !!!!!!!!
+
+By Derdak2rot

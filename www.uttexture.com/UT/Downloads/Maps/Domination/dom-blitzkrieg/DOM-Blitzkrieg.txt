@@ -1,0 +1,35 @@
+================================================================
+Title                      : DOM-Blitzkrieg
+Author                  : Caylo Gypsyblood
+Email Address   : caylo@softhome.net
+Web Page           :  http://members.tripod.com/Caylo/
+================================================================
+This map is big and complex, it will push your system to its max. I worked hard to make sure there were no places in the map that gave me less then a FPS of 20 (in game play), and I have a old voodoo2 and k6-475 cpu, so anyting newer then that should kick ass.  I also tested this map on a old p200mmx, in software mode and as long as you dont look UP at the extra complex geomitry, in 2 areas of the map, its perfectly playable at a top FPS of 23! hehe, low FPS of 8 (if your used to that type of chalange..) 
+IF you think the geomitry is complex now, you should have seen the HIGH POLY version , before I started triming the fat down for playability. Some of the extra fancy eye candy was cut, but its still stunningly beautiful, and viciously deadly. 
+
+ 
+
+Installation
+------------
+Copy DOM-Blitzkrieg to DRIVE:\UnrealTournament\Maps
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Caylo Gypsyblood, 2-00.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+----------------------
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

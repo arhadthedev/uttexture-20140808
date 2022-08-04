@@ -1,0 +1,169 @@
+JB-AF-Castell Vollversion 106 (DE-Readme.txt)
+__________________________________________________
+
+
+Entwickler: MasterBotAI & Badboy
+----------- support@action-force.de
+
+Vertrieb:   Action-Force© Studios
+---------   support@action-force.de
+
+__________________________________________________
+
+
+Information:
+------------
+
+	Diese Map unterstützt den UT-JB-Modus
+	(Unreal Tournament - Jail Break)
+	Mod-Download @ http://www.daikiki.com
+	
+	Alle Einzelteile und Komponenten der
+	Maps sind Copyright by Action-Force.
+	Action-Force & Daikiki haben das alleinige
+	Recht diese Maps zu vertreiben.
+	Onlinestellungen auf anderen
+	Servern im Netz sind ohne vorherige
+	Anfrage bei Action-Force untersagt!
+
+	Mail: support@action-force.de
+	oder auch: support@daikiki.com
+
+        Diese Map wurde ausschließlich mit
+        UnrealED 2.0 erstellt, darum kann man
+        sie unter Umständen nicht mit UnrealED 1.0
+	öffnen, wohl aber auf allen Versionen von 
+	UnrealTournament (mit UTJB) spielen!
+
+__________________________________________________
+
+
+Updates:
+--------
+
+	Deine direkte Update Site:
+	http://action-force.gamesweb.de/castell
+
+	oder: http://www.action-force.de
+
+__________________________________________________
+
+
+
+Installation:
+-------------
+
+	Falls es eine *.exe-Datei oder *.umod-Datei
+	ist, reicht ein einfacher Doppelklick, um
+	die Map zu installieren!
+
+	Falls es eine *.zip-Datei ist, müssen
+	entweder die Daten einzeln in die entspr.
+	Verzeichnisse kopiert werden (Mac/Linux)
+	oder aber es reicht ein Doppelklick auf 
+	auf "Install.exe" (PC) und es geht los!
+	
+	Bei der Vollversion von UT/UTJB reicht dann ein
+	Doppelklick auf die Map, um sie anzutesten,
+	die Demo verzichtet leider standardmäßig
+	darauf. Es empfielt sich auch ein Eintrag
+	in die "JB-Maplisting" unter "Advanced Options"
+	(leider recht gut versteckt in der Vollversion!)
+
+__________________________________________________
+
+
+Service:
+--------
+
+	
+	Getestet haben wir den Level
+	auf folgenden UT-Versionen:
+	
+	Vollversion UTJB 1.02
+
+	voraussichtlich wird die Map auch
+	auf allen zukünftigen Versionen
+	problemlos laufen. Falls nicht,
+	ist Action-Force dringend an einer
+	Benachrichtigung interessiert.
+	melde dich per
+	
+	Mail: support@action-force.de
+
+__________________________________________________
+
+
+bekannte Bugs:
+--------------
+	
+	- ??? -
+	
+	wenn dir selber noch etwas auffält,
+	das dich stört, schreib einfach eine
+	
+	Mail: support@action-force.de
+
+
+__________________________________________________
+
+
+Änderungen:
+-----------
+	
+	seit Version 100 (CTF-regular)
+	------------------------------
+	- neue Skybox erstellt
+	- vier neue Klippen erstellt
+	- verbesserte/erweiterte BotAI
+	- neue Ausleuchtung der Arena
+	- "ZoneLocations" erstellt
+
+	seit Version 101 (CTF-regular)
+	------------------------------
+	- Neue Schluchtbeleuchtung
+	- verbesserte Sound-FX'es
+	- neue Klippen erstellt
+
+	seit Version 102 (CTF-regular)
+	------------------------------
+	- komplett neue BotAI
+	- komplett neue Itemverteilung
+	- zwei neue Fels-Torbögen
+	- zwei neue Wege erstellt
+	- vier neue Felsspitzen
+
+	seit Version 103 (CTF-internal)
+	-------------------------------
+	- nur internal Release
+
+	seit Version 104 (JB-regular)
+	-----------------------------
+	- Umbau zur UTJB Map
+	
+	- 2 Gefängnisse erstellt
+	- 2 Jail-Release Schalter erstellt
+	- 2 Senkboden Mover erstellt
+	- unteren Geländeboden angehoben
+	- obere Geländeböden abgesenkt
+	- komplett neue BotAI
+	- neue Teleporter-Eingänge erstellt
+
+	seit Version 105 (JB-regular)
+	-----------------------------
+	- Flammeneimer-Bug geändert
+	- neues Preview-Bild erstellt
+	- neues PackScreen erstellt
+	- Bugs in der Readme entfernt
+	- US-Readme.txt erstellt
+
+	wenn du selber noch eine
+	Verbesserung anbringen würdest,
+	schreib einfach eine
+	
+	Mail: support@action-force.de
+
+__________________________________________________
+	
+	2001 Action-Force© Studios
+	http://www.action-force.de

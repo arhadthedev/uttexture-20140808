@@ -1,0 +1,141 @@
+------------------------------------------------
+
+               Title: Kamah - Tropical Paradise
+            Filename: DM-UTR-Kamah.unr
+              Author: Creavion
+       eMail Address: creavion@freenet.de
+         Website URL: -
+        Release Date: with the release of the UT99.org community Mappack 2
+         Last Update: ""
+             Version: 1.00 
+
+Level specific Credits:
+
+ - Hourences for his HourIndusX and Pitroes Texturepack, I slightly changed them for my map
+ - Alun Bestor(www.washboardabs.net/thief/)
+ - Thanks to Aalexanderrr again for a story
+ - Roman Switch` Dzieciol for the swJumppad.
+ - Daniel "KaMi" for the 2 tropical meshes (afaik I converted those 2 meshes from an "official"
+bonuspack 2 map by Epic, but regardless I credit him also)
+ - proof ... for the .. huge amount of tropical meshes.
+(Honor to whom honoris due)
+ - Hazel for her skybox texture packs
+ - sinot for his Far cry AGM, I used .. I guess 2 textures there (great stuff)
+ - aHoi for additional textures
+ - The Fuhrpark Mod team for their two ships
+
+
+Other levels by author (finished stuff):
+
+DM-Ryigiar and the other map(s) for this pack
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: Kamah - Tropical Paradise
+           Game Type: Deathmatch
+            Botmatch: True
+       Single Player: False
+            Teamplay: Optional
+        New Textures: Yes, mostly copyrighted by Epic Games (for details > credits part)
+          New Sounds: True, ozean sounds from Unreal 2, several jungle sounds from ut2004 
+           New Music: Mekalopolis
+        New Mutators: False
+                Mods: False
+
+====================================================================================
+Construction
+------------
+
+                Base: Built from scratch
+          Build Time: started the map july 2008 at the very beginning of the 
+		      mappack and ended it may 2009 
+		      this includes 2 big breaks (Morbias 4 and Nadaus)
+   Ideal Playercount: At least 16, I would not suggest you to play a 1on1 on this map :p
+      Editor(s) Used: Unreal Editor 2, Photoshop CS 2
+                      DB Amp Power Converter, Windows Audiorecorder 
+                      (for increasing of the volume)
+          Known Bugs: Sadly this map is full of bugs, at some point I was rather pissed.
+                      I didn't succeed at removing all those bugs. After several weeks
+		      of trying to fix whatever I could BSP became rather stable. 
+		      I did not find any serious bugs in the end which could affect
+		      the gameplay (mainly ICHs are meant). However, there's a BSP bug
+		      in the sky that can be seen from a certain prespective.
+		      I feel sorry for the perfectionists but I really tried my best.
+		      About many longer periods I really thought this map had to be 
+		      moved into the trash can, but the fact that I have already worked for months 
+		       on this thing pushed me everytime 
+		       towards the end .. well I guess I am anywise satisfied with the result.
+
+====================================================================================
+Installation
+------------
+
+ Copy DM-UTR-Kamah.unr into UnrealTournament/Maps folder
+ Copy XPickups.u, xpickups.int into UnrealTournament/System folder
+ Copy KamahT.utx into UnrealTournament/Textures folder
+
+====================================================================================
+Extended Description
+--------------------
+Story by Alex:
+According to official statistics, 72 % of all shipwrecks for the last 20 years
+occured in a vicinity of an island called Mehetia. Unfortunately no one knows about cause 
+of those wreckages but there are several whitnesses who saw abnormal things. However, those people 
+were considered mantally ill and were treated as such.
+
+Classified Document X456RT. Subject: Thomas Skinner ( 081264 ) 
+
+It was 2:23AM - I was smoking with my pal on the upper deck when freighter was on the move. Everything was
+allright. However, several minutes later when we were almost done with out cigarettes, all 
+the lights went out all of a sudden. I was rather puzzled - I have checked all the electricity
+generators before and they were functioning properly... by the time I have reached Energy
+Supply Room, I heard some weird noises behind me. I thought that someone of my fellow crew members
+was following me but when I turned around I saw no one. That scared the crap out of me... As  soon
+as I have restarted energy generators ( someone must have turned it off ), I went on the upper deck...
+but I found no one. The entire crew has disappeared. At first I thought that they were playing a joke on me 
+but as soon as I have found my captain's clothes, wallet with ID and more importanly his implanted bone, 
+I realized that it was not a joke at all. All other crew members have disappeared. I was alone on the ship!
+Off the record - I saw really strange shadows on my way out of Energy Supply Room... The last thing I remember
+seeing is helicopter and sinking freighter. Am I going to get sued?  
+
+Despite the fact that this person was transported into psychiatric nursing facility, government decided to organize a small 
+outpost on that island in order to prevent such accidents in a future. However, few weeks after establishment
+contact with island outpost team was lost. This time, military took over and started search and rescue operation
+which has never taken place. Entire Marine squad went missing as soon as they have reached the island.
+
+Now, ages later, this outpost is used as Tournament arena whose participants prefer to stay away from the ancient temple...
+
+
+====================================================================================
+Author's Notes
+--------------
+
+From all the maps I made for this pack this is my personal favorite. I have always
+wanted to make not so bad looking outdoor level so I tried myself at this big project. 
+The fact that I like jungle themed map a lot and that ut1 does not have similar map
+(surprise?) pushed me towards creation of this one. The goal was to make
+as much jungle in ut1 as possible and, well, this is a result.  Performance sucks
+a little bit .. as in any other map of mine. Still, it is quite playable.
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+
+Copyright 2008 Creavion
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.

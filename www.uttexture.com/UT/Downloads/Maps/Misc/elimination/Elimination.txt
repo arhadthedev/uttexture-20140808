@@ -1,0 +1,44 @@
+===============================================================
+<<<<<<<<<<<<<<<  Elimination Mod Version 1.20  >>>>>>>>>>>>>>>>
+===============================================================
+
+*==> Written by Q 
+     Email:  chsmith@mediaone.net
+
+If you have any requests for improvements or bugs to report, 
+feel free to contact me.  All of my mods and mutators are 
+available for download from the Quirky Bastards homepage 
+(www.quirkybastards.com).  
+
+*==> Notes
+
+This mod is a new gametype based on the scoring system in 
+Last Man Standing.  I played LMS quite a few times, and 
+although I enjoyed the scoring method, every time I played it
+I wished there was powerups on the map.  I also hated how 
+everyone used the same weapon (ie, rockets) because you started 
+with them all.  
+
+I highly recommend playing this with weapon stay off, it makes
+things much more interesting :).
+
+Now that this is complete, I will be working on a team version of
+the Elimination game.  
+
+Have fun!
+
+*==> Changes from Version 1.10->1.20
+    - Fixed bug that would declare spectators as winners if they
+      joined after the game started.
+
+*==> Changes from Version 1.00->1.10
+
+    - Fixed bug that declared the winner as the one with the most 
+      kills, not the one with the fewest deaths.
+
+*==> Features in Version 1.00
+
+    - Each player starts with X number of lives (configurable by setting
+      the Fraglimit in the options menu).
+    - Maps have their normal items/powerups layout.
+    - Scoreboard features kills, lives, ping, and packet loss.

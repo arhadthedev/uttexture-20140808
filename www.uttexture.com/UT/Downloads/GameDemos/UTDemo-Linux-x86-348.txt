@@ -1,0 +1,19 @@
+Unreal Demo v348 (Linux) Info
+ Download Unreal Demo v348 (Linux)
+Filename: UTDemo-Linux-x86-348.tar.gz
+Author: Epic Games
+Size: 51.3 MB
+Created: 10/20/1999
+Updated: 6/17/2002
+Downloads: 58,644
+Also known as: 
+
+
+Reader Rating
+4
+ 3.7/5.0 (19 votes total) 
+Rate this file: 
+ Select 1 - Terrible 2 - Poor 3 - Average 4 - Good 5 - Outstanding  
+
+Unreal Demo v348 (Linux) Details
+Linux client and server files for build 348 of the Unreal Tournament demo.

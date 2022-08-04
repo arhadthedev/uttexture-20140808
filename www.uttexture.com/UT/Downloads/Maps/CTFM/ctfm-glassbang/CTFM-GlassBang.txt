@@ -1,0 +1,71 @@
+================================================================
+Title                   :CTFM-GlassBang
+Version                 :2
+Release Date            :01/05/01
+Filename                :CTFM-Glassbang.unr
+Author(s)               :Jasper 'Weenydog' Lodder
+Email Address           :Jasper_lodder@hotmail.com
+Web Page                :none
+Description             :A spacecraft containing glass, glass, not to mention the glass it's containing at the 			 	 expense of the framerate
+
+Where to get this map   :http://www.planetunreal.com/multictf/ 
+
+Other levels by author  :Not yet, I'm just a starting mapper.
+Additional Credits to   :Everyone who feedbacks me and Wyzard of course
+
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :The Glass-Bang
+Assault			:No
+CTF                     :yes 
+Deathmatch              :Possible; Change the gametype first (In UnrealEd)
+Domination		:No
+Difficulty Settings     :Skilled is easy to win for die hards like me
+New Sounds              :No
+New Graphics            :The package GlassB.utx contains the coret walls (4 stripes) in Green and Gold. I don't know 			 whether that's graphics or not, but I just want to tell you.
+NewUnrealScript         :No
+External DLLs           :No
+Known bugs              :No major bugs, found some little stuff in the older version, fixed all of that. Mail me if 			 anything is wrong with it.
+
+--- Construction ---
+Editor(s) used          :UnrealEd 2
+Base                    :Version 1 of this map
+Construction Time       :Couple of Weeks
+
+
+Installation
+------------
+Unzip the file (This may take a while)
+put CTFM-GlassBang.unr in your unrealtournament/maps directory
+put GlassB.utx in your unrealtournament/textures directory
+
+Author's Notes
+--------------
+You need Wyzards MultiCTF mod to play this map, get it here
+http://www.planetunreal.com/multictf/
+
+MultiCTF; You gotta love it :p
+
+Bots will not take the lower way often so that's why there are so many gadgets down there, to lore bots to it.
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Jasper Lodder
+
+I don't care what you do to this map. It's a litle cheap to take someone's idea, though. I spent hard working to this map so if you do something with it, please give me credit for the original.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

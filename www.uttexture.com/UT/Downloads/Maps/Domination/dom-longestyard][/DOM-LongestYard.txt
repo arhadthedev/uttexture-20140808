@@ -1,0 +1,83 @@
+
+*************************************************************************************
+Version 2.0
+*************************************************************************************
+
+Release Date - April 11, 2000
+
+Title		The Longest Yard
+Filename		DOM-LongestYard2.zip
+Contains:		DOM-Longest Yard.unr
+		Longestyard.utx
+		Q3 texture base floor.utx
+
+Author		Sam "Mambo" Sutton
+Email		sutton@alphalink.com.au, mambo_69@email.com
+Website (Apehexer')s:	http://home.iprimus.com.au/277/crabtree
+
+-------------------------------------------------------------------------------------
+
+Installation	Simply extract the file DM-Longest Yard.unr into your 
+		UT/maps directory, and the texture package (.utx) into
+		your UT/texures folder.
+
+
+Author Info	This is the update on my longest yard level, which is a conversion
+		of one of the Quake III: Arena levels.  I decided to try and keep the
+		architecture fairly similar to that of Q3, but make the 
+		setting entirely different to give it that UT feel.
+
+Bugs		The only bug i know of, is it may run a bit slow on some machines - still
+		fun though!
+
+Fixes		Basically, i took the whole thing apart, and put it back together again
+		because some of the architecture was a bit screwed.
+
+		The biggest bug was the fact that the map wasn't playable over the net,
+		or network because of a texture package clash.  Also, the texture pack
+		a3text is used in some other maps, and my version was different.
+		To fix that, i just made a new texture package, so this should fix 
+		both problems.
+
+		Also, the bots can now get to the redeemer, and they shouldn't jump off the
+		level any more.
+		
+		Fixed all the jumppad sounds, and you can't hear them from the sniper post.
+		
+		IF YOU FIND ANY OTHER BUGS, PLEASE CONTACT
+		ME. ANY EMAIL WILL BE ANSWERED PROMPTLY.
+
+Level Info	Currently, this level works with...
+
+		Domination
+
+		I have also made a dm version of this level 
+
+Construction	I used the Unrealed beta version, and you don't want to know how long it took
+		to create! 
+
+The story		Not too far outside the earth's stratosphere, the original
+		function of this space arena is not certain, however the Liandri Mining
+		Corp. believe it to have been an abandoned space refuelling dock.  After 
+		deeming it an ideal place for space deathmatch, LMC added in some
+		of changed it to make it a fast and furious deathmatch arena. 
+
+-------------------------------------------------------------------------------------
+
+Thanks		Thanks to all the guys that gave me feedback, and told me about the bugs.
+		Also, thanks to the guys at planet unreal's forums that helped me out,
+		you know who you are.
+
+		Big thanks to Aphexer for helping me with the jumppads and bots. 
+
+		Big thanks to Deathlok, for giving me that important feedback.
+
+		I just want to say thanks to Epic, Digital Extremes and GT for 
+		making such a kick ass game.  
+		
+Well that's about it. If you have ANY ideas, bug reports, help with your maps etc. please
+contact me, and I will get back to you as soon as I can.
+
+I am happy to help with problems.
+
+Happy Fraggin! - Mambo

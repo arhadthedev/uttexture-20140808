@@ -1,0 +1,159 @@
+DOM-Azure
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: DOM-Azure
+
+Filename: dom-azure.zip
+
+Author: Simon 'Sighter' Amber
+
+eMail Address: si465@hotmail.com
+
+Website URL: http://www.geocities.com/sighterz/
+
+Release Date: Monday, September 03, 2001
+
+Last Update: Monday, September 03, 2001
+
+Version: 1.00
+
+Credits:
+
+Other levels by author: CTF-Place 
+
+DM-TheEdge
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Game: Unreal Tournament
+
+Level Name: DOM-Azure
+
+Game Type: UTDomination
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Only For Bots
+
+New Textures: No
+
+New Sounds: No
+
+New Music: No
+
+New Mutators: No
+
+Mods: No
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: Original Map
+
+Build Time: 3 days, 5 hours a day makes 15 hours
+
+Recommended # of Players: 6-10
+
+Editor(s) Used: UnrealEd 1 + 2
+
+Known Bugs: Unless you're looking for problems you won't find any.
+
+====================================================================================
+
+Inventory
+
+---------
+
+Weapons: Flak Cannon, Ripper, Sniper Rifle, Enforcer, Pulse Blaster, Minigun, ASMD
+Shock Rifle, Rocket Launcher
+
+Armor and PowerUps: Translocator, Thigh Pads, Health Packs, Anti Grav Boots, Health
+Vials, Armor
+
+====================================================================================
+
+Mods
+
+----
+
+====================================================================================
+
+Installation
+
+------------
+
+Unzip dom-azure.zip
+
+Store the *.unr file in your Unreal Tournament/Maps directory along with the others
+(see guide below), then either doubleclick on it, or type
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+Liandri have yet again employed The Edge Industries to make a Domination map of
+Sighterz own choice. Blah Blah, play the map to find out more....
+
+====================================================================================
+
+Author's Notes
+
+--------------
+
+Shoot the tops of the pillars in the upper room to change the music. 
+Aim at the upper most visibleparts of the pillars with something other than your
+enforcer.
+
+--------------
+
+Any probs e-mail me with:
+			Problems
+			Compliments :)
+			Requests for maps etc.....
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+This level is copyright 2001, by Simon 'Sighter' Amber
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================
+
+====================================================================================

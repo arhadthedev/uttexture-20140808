@@ -1,0 +1,81 @@
+>>>>>DOM-Disco<<<<<
+
+
+
+Title                   : Disco (DOM)
+Version                 : 1.0
+Release Date            : Janurary 30, 2000
+Filename                : DOM-Disco
+Author                  : TaroT (Mark Benton)
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             : A disco from hell where blood taints the lights :)
+trippy good fun...
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Domination
+Level Name              : DOM-Disco
+Player #'s		: 2 to 12 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No.
+Known bugs              : none found yet, please email me if you find any.
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.05
+Base                    : New level
+Construction Time       : a week to figure i screwed the others up :)
+                           
+
+
+>>>Installation<<<
+Unzip DOM-Disco.unr in your Unreal Tournament/maps directory.
+
+
+>>>Author's Notes<<<
+this is a public apology for the crap previous version of this and dm-disco
+due to an oversight on my part i included textures not found in unreal..
+then screwed the texture file..this version works fine for all and has no probs
+so slap me round the head and call me stupid please...if you downloaded the first
+version delete it and use this DO NOT copy over it will screw up for soem real weird reason
+again sorry for my mistake and happy fraggin
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+Dom Doorway
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+TaroT(aka mark benton)
+febuary 01, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

@@ -1,0 +1,31 @@
+Map Name : 4 worlds , 4 teams
+
+Gametype : Multi CTF
+
+Author : Cedric "Snoop" Pierron aka Derdak2rot
+
+Description : This is a old idea i decided to work on
+              There are four different worlds for each team
+              - Blue : a space orbital station ( coretFX , spaceFX )
+              - Red  : a earth military base down the rain ( rainFX , UTtech2 )
+              - Green: a old tech base on a slime planet ( decayeds , genearth )
+              - Yellow: a egypt pyramid on sahara ( egypt , egyptpan )
+
+Thanks to Steve Nabors for the script who allow me to concretise my old idea
+
+-Precipitation Generator
+-Multi Sky Box Zone 
+
+Custom Music : Chizra1 of Unreal1
+
+I have tested a long time the map , i don't find bugs.
+if you find it please raporte me on nalicity
+
+Edit : i think 3 players per team is more adapted
+       but you can play with four !  hehe !
+       The bots are very hard on this they took the flags
+       and score better than me ! aaarrgh !
+
+Have Fun !! 
+
+By Derdak2rot

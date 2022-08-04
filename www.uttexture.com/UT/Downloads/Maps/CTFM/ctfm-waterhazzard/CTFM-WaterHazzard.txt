@@ -1,0 +1,89 @@
+================================================================
+Title                   :CTFM-WaterHaZZard
+Version                 :1
+Release Date            :07/29/01
+Filename                :CTFM-WaterHaZZard.unr
+Author(s)               :Michael "The Shadow" Saager
+Email Address           :msaager@qwest.net
+Web Page                :none
+Description             :A 4 player CTF map set in a sewer system.
+			 and it's raining
+
+Where to get this map   :http://www.planetunreal.com/multictf/ 
+
+Other levels by author  :DMholdarea for Unreal
+			 DM-Battleruins for UT
+			 CTFM-CruxCitadel for MultiCTF for UT
+			 CTFM-CrystalPower for MultiCTF for UT
+			 CTFM-LittleBoxes For MultiCTF for UT
+
+Additional Credits to   :My Little Sister for saying "it's so cool"
+			 Rubic for Playtesting and telling me the gold base didn't close
+                         Wyzard for his MultiCTF Mod
+
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :Water HaZZard
+Assult			:no
+CTF                     :yes 
+Deathmatch              :no
+Difficulty Settings     :I play on Adept and win most of the time, play on whatever you like
+New Sounds              :No
+New Graphics            :Yes, but not many
+NewUnrealScript         :no
+External DLLs           :no
+Known bugs              :One BSP error in the red base, There are lights in
+			 the tunnels that have no source this is because
+			 the Stupid tunnels kept giving me bad BSP probs
+			 when I put the lights in, so I said "Screw it" And took
+			 them out, you don't notice when your playing
+			 anyway.
+			 A couple of textures are off, and I would have to rebuild 
+			 half the level to fix them, it's not worth it.
+
+--- Construction ---
+Editor(s) used          :Ued2
+Base                    :none
+Construction Time       :8 Days
+
+
+Installation
+------------
+put CTFM-WaterHazzard.unr in your unrealtournament/maps directory
+put Crymine.utx in your unrealtournament/textures directory
+If you have CTFM-CrystalPower installed you don't need to install 
+the texture file as they are identical
+
+Author's Notes
+--------------
+You need Wyzards MultiCTF mod to play this map get it here
+http://www.planetunreal.com/multictf/
+
+I wanted to try something that felt like Wyzard's CTFM-Incinerator.
+
+Thanks Wyzard at the last lan party I went to we had 8 players in 
+your map and we spent about 2 hours playing before a team finally 
+won. it was probably the most intense UT experience I've ever had.
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Michael Saager
+
+I don't care what you do with this map, rebuild it make it better just give me 
+credit for the original level. (I feel that you should be good enough to create 
+your own level anyway)
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  Unreal Tournament and the Unreal Tournament logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

@@ -1,0 +1,41 @@
+This map is made by Raimond Kuhlman and modified by topaz
+================================================================
+Title : Aztec Aristopolis
+Version : Variant of DMAristopolis, Unreal's DM level.
+Release Date : 13-05-00
+Filename : DOM-Aristopolis
+Author(s) : Original map by Raimond Kuhlman (Dominated by topaz)
+Email Address : kbmindkeep@hotmail.com
+Description : Nice and small Domination map for your pleasure!
+
+Remember: The map is made by Raimond Kuhlman. I (topaz) simply made it Domination. He is the great mapper, not I. :) 
+
+
+IF you like this conversion, I strongly suggest you to download the DOM-Pack that I have made, that includes some of the most interesting DOM-conversion that you can find over UT community. I also see many times that maps from this DOM-Pack, are played over the internet: DOM-GrooveMachine, DOM-Siberia and DOM-Ariza are the most popular. 
+
+Dominate the Aztecs!
+If you like the Aztec theme, then hold on: I am prepering a DOM-AztecPack with ten Domination maps that are gonna leave you sleepless! DOM-Aristopolis included at the DOM-AztecPack. For convinion reasons, the maps are gonna released seperatly and also together, as DOM-AztecPack.zip. You choose what method you like most.
+Oh, the maps that DOM-AztecPack will include (so you can find the seperatly:):
+DOM-SunPyramid
+DOM-Anka
+DOM-Aztec
+DOM-CorridorofChameleons
+DOM-ArcaneTemple
+DOM-Olden][
+DOM-Tagar
+DOM-Toooom
+DOM-Aristopolis
+DOM-LohmannsLair
+
+The maps are subject to change, according to their quality outcome.
+
+--- Construction ---
+Editor(s) used : UnrealEd
+Base : DM-ArcaneTemple by Shane Caudle
+Construction Time : One day for conversion and playtesting.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

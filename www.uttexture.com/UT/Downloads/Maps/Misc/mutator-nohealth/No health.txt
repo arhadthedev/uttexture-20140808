@@ -1,0 +1,23 @@
+No Health mutator for Unreal Tournament.
+
+Author : Joel 'Scorpion' Persson
+e-mail : joel.persson@mbox301.swipnet.se
+
+***SUMMARY***
+This mutator removes Helth vials, medboxes, mega health, thigh pads, armor and shieldbelts from any UT level.
+
+***WHY?***
+I think this is more fair in one-on-one games though you get credits for every time you hit your opponent and the game depends more on combat skills than camping around the shieldbelt or armor...
+
+And also if one is twice as good as the opponent he get twice as many points instead of 5-10 times as much, though he isn´t able to restore the health between each fight....
+
+And I suggest usinig it together with the "No Powerups"-mutator that comes with the game. It makes it even more fair and less reasons for camping...
+
+***BUGS***
+None that I know of.
+
+***INSTALLATION***
+put NoHealth.int and NoHealth.u in the ...\UnrealTournament\System directory
+
+***COPYRIGHT / PERMISSION***
+You may distribute this mutator as much as you want, provided you include this file and leave the archive intact.

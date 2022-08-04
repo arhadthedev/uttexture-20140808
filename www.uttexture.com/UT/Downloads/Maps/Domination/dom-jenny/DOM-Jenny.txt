@@ -1,0 +1,64 @@
+=============================================================================
+Title                : DOM-Jenny Temple
+Filename             : DOM-Jenny.unr
+
+Description          : Small fast DOM map for Unreal Tournament
+Author               : Luke "Theseus" Nockles
+Email Address        : Theseus@cpgaming.com
+
+                       
+Credits to           : Epic for the apogee that is UnrealED 2
+
+=============================================================================
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Maps                    : DOM-Jenny.unr
+Deathmatch              : Yes (rename to DM-Jenny.unr)
+Domination		: Yes
+CTF			: No
+Assault			: No
+New Sounds              : No
+New Graphics            : No
+Bot Support             : Yes
+
+-=[ Construction ]=-
+
+Build Time              : On and off
+Editors used            : UnrealEd 2.0
+
+Known Bugs:  Nothing worthy of note. (Nodes are a bit crazy, though should still run very fast)
+ 
+=============================================================================
+
+-=[ Installation ]=-
+
+Put DOM-Jenny into the /maps subdirectory of UT
+
+=============================================================================
+
+-=[ Description ]=-
+
+Fastish map created because I wanted to make a map with a reasonable portion underwater,
+and test some quick and fast outdoor area making techniques, I think next time
+I'll stick to importing DXF's.
+
+-=[ Copyright / Permissions ]=-
+-----------------------
+This level has my name on it, respect that.
+
+Authors may use this level as a base to build additional levels.
+You are allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

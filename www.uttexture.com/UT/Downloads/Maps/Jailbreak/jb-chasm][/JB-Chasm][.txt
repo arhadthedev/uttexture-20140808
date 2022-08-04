@@ -1,0 +1,76 @@
+================================================================
+Title                   : JB-Chasm][
+Version                 : Version 1
+Release Date            : 3-29-01
+Filename                : JB-JE-Chasm][.zip
+Author(s)               : Morgan 'Botman' Eves -- conversion by /=- aka John Egan
+Email Address           : john73580@hotmail.com
+Web Page                : None
+Description             : A small town with 2 opposing bases
+
+Where to get this map   : Breakout or Jailcrew
+Other levels by author  : CTF-Pooltable, JB-Madid
+Additional Credits to   : Morgan 'Botman' Eves for designing one of my favorite CTF maps
+			  and MasterBotAI for the UTJB texture package.
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Chasm][
+Single Player           : No
+Cooperative             : Yes
+Deathmatch              : No
+Difficulty Settings     : Reccomend Adept-Godlike
+New Sounds              : No
+New Graphics            : Yes
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : None 
+
+--- Construction ---
+Editor(s) used          : Unreal ED 2.0
+Base                    : CTF-Chasm
+Conversion Time         : 2 day
+
+
+Installation
+------------
+Put JB-Chasm into your maps directory
+
+Extended description:
+--------------------
+This takes place in a small town split in the middle by a chasm cut out by a river. On each
+side of the chasm are several buildings including a sniping tower, jail, team base, and other
+misc buildings. All the buildings are old and falling apart.
+
+Author's Notes
+--------------
+You need the UTJB mod to play this map you can pickup at www.daikiki.com
+Also you need JBArena.u which you can get from JB-LavaGiant many maps use this and dont
+include it in the pack.
+
+Copyright / Permissions
+-----------------------
+The author doesnt care what you do with the level as long as you give him credit so if you wanna
+convert it to another mod or something like I did just give Botman credit.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+
+UTJB (c)2001 This code is based on code that was originally reverse engineered from the beta5 
+release of the official Jailbreak by Team Reaction and Mongo, as is legal under European law, 
+and was extensively rewritten to represent what is in effect a new product. Subject to European 
+and Dutch law, this release may be distributed in a not-for-profit fashion over the internet in
+its original form with this copyright notice intact. All other uses are subject to explicit
+permission. This software is provided as-is. No warranty is made as to its suitability for
+any given purpose. All use is at the user's sole risk. [TAKEN FROM WWW.DAIKIKI.COM]

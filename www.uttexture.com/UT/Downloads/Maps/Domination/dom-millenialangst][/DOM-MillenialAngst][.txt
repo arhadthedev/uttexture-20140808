@@ -1,0 +1,75 @@
+================================================================
+Title                   : DOM-MillenialAngst][
+Version                 : 1.0
+Release Date            : 2/10/2000
+Filename                : DOM-MillenialAngst][
+Author(s)               : (Arbitrage) Staton Richardson
+Email Address           : staton@sprintmail.com
+Web Page                : www.unrealcontest.com/arbitrage
+Description             : The Millenial warehouse was once the a site of the liandri's short
+                          lived Nali slave trade. Where irreputable coporation purchased
+                          Nali for their obvious advantage in the manual labor force. When
+                          the slave trade was ended the warehouse sat empty for years. 
+                          A Liandri executive saw it's potential as a tournament arena
+                          and converted it. It's status as a tournament arena  remains
+                          in a state of protest by the Nali people. 
+			  
+Other levels by author  :DOM-FuryXXI][, DOM-11nthHourDomination][
+                        :DM-SchoolDamage, DOM-MillenialAngst][,
+			:Millenial Angst Pack(DOM-DM-CTF-MillenialAngst),
+			:DM-FuryXXI,DOM-FuryXXI,(WOT)Arena-shrineoftomes,
+			:DOM11nthHourFlightRisk, DM11nthHourFlightRisk,
+			-=older creata=-
+			:DmEnders, Flotsam, MoreReal, MoreRealPuzzle,
+			:Chess, BeaconisObscura(S3contest winner),DMFoundry,
+			:PriestInAPuzzle, FungusCircus,Lamer 
+Additional Credits to   : #unrealed (irc.gameslink.net:6667), EpicMegaGames
+
+================================================================
+--- Play Information ---
+Game                    : UnrealTournament
+Level Name              : DOM-MillenialAngst][
+Single Player           : No
+Domination              : Yes
+Cooperative             : No
+Deathmatch              : No
+Dark Match              : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : No
+
+--- Construction ---
+Editor(s) used          : UnrealED
+Base                    : None
+Construction Time       : Roughly a week in spare time
+Installation
+------------
+Unzip the .unr file into your Unrealtournament/maps/ directory and enjoy.
+
+Author's Notes
+--------------
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyright  James Staton Richardson 2000.
+
+Authors may not use this level as a base to build additional levels.
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL Tournament and the UNREAL Tournament logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

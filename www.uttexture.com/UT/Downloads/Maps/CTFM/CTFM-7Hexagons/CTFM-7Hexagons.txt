@@ -1,0 +1,102 @@
+CTFM-7Hexagons.txt
+======================================================================
+Title                  :CTFM-7Hexagons
+Version                :1.1
+Release Date           :2002-10-08
+Filename               :CTFM-7Hexagons.zip
+Author                 :Doctor Evil
+Email Address          :evilut@hotmail.com
+Web Page               :http://www.geocities.com/evilut/
+Description            :4 flags and 7 rooms = frantic action!
+Where to get this map  :If you're reading this, then you probably 
+                        know where by now (;-) 
+Other levels by author :DM-2OddRooms, DM-CircleMaze, DM-CircleMaze2, 
+                        DM-EvilHex, DM-EvilMaze6, DM-AdamlyRooms1, 
+                        DM-AdamlyRooms5, DM-EvilLabyrinths,
+                        DM-Escher, DM-Giger, DM-EvilSkyPad,
+                        CTF-EvilHex, CTF-EvilMaze4, CTF-EvilSkyPad,
+                        CTFM-EvilHex, DM-EvilDoorsSky, DM-EvilDoors5,
+                        DOM-EvilHex, DOM-EvilMaze, DOM-EvilDoors.
+Additional Credits to  :-Epic Megagames
+                        -Whoever designed the Unreal Editor 
+                         and all those nice textures and music. 
+                        -Various authors of web tutorials for 
+                         the Unreal Editor.
+
+======================================================================
+--- Play Information ---
+Game                   :Unreal Tournament
+Level Name             :CTFM-7Hexagons
+Single Player          :Yes, botmatch.
+Cooperative            :Four teams each of 3 or 4 seem to work best.
+Deathmatch             :No 
+Dark Match             :No
+Difficulty Settings    :No
+New Sounds             :The music track ("Danza.umx") is not 
+                        standard.
+New Graphics           :Some textures are not standard:
+                        "ATATAttackpf", "lestatpack") 
+NewUnrealScript        :No
+External DLLs          :No
+Known bugs             :None.
+
+--- Construction ---
+Editor(s) used         :UnrealEd2.0
+Base                   :New Level
+Construction Time      :4 hours total. 
+
+Installation
+-------------
+Unzip the file
+- CTFM-7Hexagons.unr  in the  UnrealTournament/Maps/     directory;
+- You're already reading this CTFM-7Hexagons.txt file, 
+  so you know where it goes!
+- start the game and choose the level under the Multi Capture the Flag
+  Game type.
+***********************************************************************
+*** NOTE:   if you do not have the texture files "ATATAttackpf.utx" 
+  and "lestatpack.utx" in your 
+  UnrealTournament/Textures/ directory, then obtain them from 
+  another web site.   
+  You also need the non-standard music file "Danza.umx" in your 
+  UnrealTournament/Music/ directory.
+Doctor Evil regrets that he has insufficient space on his web site 
+for these files  ...   yes, really ... riiiiight ...
+***********************************************************************
+
+Extended description:
+---------------------
+CTFM-7Hexagons was Doctor Evil's first MultiCTF map. 
+Six hexagonal rooms are arranged around a central hexagonal 
+chamber.   Four of the six peripheral hexagons are flag bases, 
+so that the red and green bases are adjacent, as are the blue 
+and gold bases.   This makes for some fast and furious action, 
+although there is no z-axis action at all on this map. 
+    
+There is enough room to take a redeemer on a long tour of the 
+seven chambers (if the bots will let you live long enough to 
+do so).
+
+Copyright / Permissions
+------------------------
+This level is copyrighted by Doctor Evil (real name on request), 
+2002.
+
+Authors MAY use this level as a base to build additional levels, 
+provided due credit is given to the original author.
+
+You are NOT allowed to commercially exploit this level, 
+i.e. put it on a CD or any other electronic medium that is sold 
+for money without my explicit permission!   
+For free is OK, though ...
+
+You MAY distribute this level through any electronic network 
+(internet, FIDO, local BBS etc.), provided you include this file 
+and leave the archive intact.
+
+-----------------------
+UNREAL TOURNAMENT (c)1998 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Interactive Software, Inc. under license.  
+UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are registered 
+trademarks of Epic Megagames, Inc. All other trademarks and trade 
+names are properties of their respective owners.

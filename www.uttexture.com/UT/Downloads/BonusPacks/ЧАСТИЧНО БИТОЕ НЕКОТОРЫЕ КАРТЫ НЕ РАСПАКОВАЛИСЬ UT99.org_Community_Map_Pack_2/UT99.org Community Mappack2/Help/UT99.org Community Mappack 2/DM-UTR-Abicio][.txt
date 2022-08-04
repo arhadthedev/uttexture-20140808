@@ -1,0 +1,34 @@
+Map:
+DM-UTR-Abicio][
+----------------------------------------------------------------------------------------------------
+Version 117 [Base: DM-Abicio-216]
+----------------------------------------------------------------------------------------------------
+Author:
+Elan "S'Calain" Maecaune
+----------------------------------------------------------------------------------------------------
+Email:
+scalain@freenet.de | maecaune@freenet.de
+----------------------------------------------------------------------------------------------------
+Play information:
+Bots:  yes 
+Playercount: 3 - 6
+----------------------------------------------------------------------------------------------------  
+Installation:
+Copy DM-UTR-Abicio][.unr into your UnrealTournament Maps folder
+Copy the xpickups.u/int files into your UnrealTournament System folder         
+----------------------------------------------------------------------------------------------------
+Material used
+Textures: Hourences, UT2004, Custom
+----------------------------------------------------------------------------------------------------
+Speacial thx to:
+- Swanky
+- shaman
+- Phyritox
+- Creavion
+- proof
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2005 Elan "S'Calain" Maecaune   
+All rights reserved.
+----------------------------------------------------------------------------------------------------
+Unreal Tournament is a registered trademark of 
+Epic Megagames and Digital Extremes

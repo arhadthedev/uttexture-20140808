@@ -1,0 +1,67 @@
+================================================================
+JB-LavaGiant-III
+================================================================
+
+Modified for the 'Classic Map Pack' by TheSpoonDog - 2002
+
+This is the original "readme" that came with the map long time ago !
+Informations in here may be outdated !
+
+Unreal Tournament JB Map
+
+================================================================
+Title                   : JB-LavaGiant-III
+Version                 : 300
+Release Date            : 10/12/2002
+Filename                : JB-LavaGiant-III.zip
+Author(s)               : Daikiki
+Email Address           : twitch@dds.nl
+Description             : A conversion of CTF-LavaGiant for the JB mod.
+Where to get this map   : http://www.daikiki.com/
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : JB-LavaGiant-III
+Ideal player count      : 10-16
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+CTF                     : No
+JBUT			: Yes
+Dark Match              : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd ver. 2
+Base                    : CTF-LavaGiant
+Construction Time       : 65 hours (incl. coding)
+
+
+Installation
+------------
+   Copy JB-Lavagiant-III.unr to your maps directory, that's all there is to it.
+
+Extended description
+--------------------
+
+  It's LavaGiant for JBUT. What more do you need to know?
+  For instructions on using JBArena in your own maps, please visit
+  http://www.daikiki.com
+  
+
+Copyright / Permissions
+-----------------------
+   Copyright on modifications Derrick Puckett (Daikiki) 2001
+
+   Authors may use this level as a base to build additional levels (with
+   restricitons, see above).
+
+   Archive or its contents may not be sold for profit in any form.
+   Archive may be distributed freely in its original form with this
+   copyright notice intact.

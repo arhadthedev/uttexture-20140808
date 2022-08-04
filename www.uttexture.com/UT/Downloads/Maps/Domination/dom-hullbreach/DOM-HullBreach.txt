@@ -1,0 +1,84 @@
+================================================================
+Title                   :DOM-HullBreach
+Version                 :1.0
+Release Date            :
+Filename                :DOM-HullBreach.zip
+Author(s)               :Ted Chauviere
+Email Address           :chauvier@utdallas.edu
+Web Page                :www.utdallas.edu/~chauvier/UT/
+
+Description		:
+The Intangible used to be the pleasure yacht of a space pirate
+whose career ended with a firefight near Vandaron IV that left half
+of the ship ruined.  The ship, which subsequently became government
+property, would have cost hundreds of millions of dollars to
+restore to a state that would meet even the minimum safety
+requirements of spacefaring vessels.  The Liandri corporation,
+whose tournaments are not required to meet such standards, picked
+up the ship at a scrapyard price.  After its hull was patched up,
+its engines repaired, and its life support systems restored to the
+(mostly) undamaged portion of its interior, The Intangible was sent
+into orbit around Earth, where Tournament contestants pound on its
+increasingly charred insides as it lives out its final days.
+
+Misc. Information	:
+This is a fairly small level, designed for 6-9 players.
+There is a shieldbelt behind the large door in the locker room.
+The switch to the door is located on the console next to the
+engine room domination point; to get to the shieldbelt before the
+door closes, you'll have to either leave your translocator in
+front of it or have a teammate hit the switch for you.
+The large red button on the panel in the cargo bay opens the airlock
+underneath the domination point for about four seconds.  You can
+either touch or shoot the button to activate it.
+
+================================================================
+--- Play Information ---
+Game: Unreal Tournament
+Level Name: DOM-HullBreach.unr
+Single Player: Yes (vs. bots)
+Cooperative: No
+Deathmatch: Yes
+Domination: Yes
+Dark Match: No
+Difficulty Settings: No
+New Sounds: No
+New Graphics: No
+New Models: No
+Known bugs: Bots rarely use the transporter chutes to go between
+levels, and they sometimes try to go down the wrong one and get
+stuck.  Either frag them or use some "friendly fire" to knock some
+sense into them if this happens.
+
+--- Construction ---
+Editor(s) used: UnrealEd
+Base: New level
+Construction Time: ~ 2 weeks
+
+Version History
+----------------
+1.0 Initial release
+
+Installation
+------------
+Place the DOM-HullBreach.unr file in your \maps directory.  You can
+also play this as a deathmatch level if you copy the file to
+DM-HullBreach.unr.
+
+Copyright / Permissions
+-----------------------
+This release is copyright 2000 by Ted Chauviere
+Authors may NOT use this level as a base to build additional levels.
+You are NOT allowed to commercially exploit this release, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.

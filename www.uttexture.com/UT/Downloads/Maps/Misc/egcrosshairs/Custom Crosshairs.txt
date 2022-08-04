@@ -1,0 +1,52 @@
+Put [EG]!Crosshairs.utx into UT\Textures
+
+
+
+Then go to UT\System and edit the User.ini...
+
+
+Version 400, 402, 405b
+
+[Botpack.ChallengeHUD]
+...
+...
+...
+CrosshairCount=9
+CrossHairs[0]=[EG]!Crosshairs.RM_Static.RMsCH_00
+CrossHairs[1]=[EG]!Crosshairs.RM_Static.RMsCH_01
+CrossHairs[2]=[EG]!Crosshairs.RM_Static.RMsCH_02
+CrossHairs[3]=[EG]!Crosshairs.RM_Ani_00.RMaCH_00_00
+CrossHairs[4]=[EG]!Crosshairs.RM_Ani_01.RMaCH_01_00
+CrossHairs[5]=[EG]!Crosshairs.RM_Ani_02.RMaCH_02_00
+
+
+Version 413+
+
+[Botpack.ChallengeHUD]
+...
+...
+...
+CrosshairCount=18
+CrossHairs[0]=Botpack.CHair1
+CrossHairs[1]=Botpack.CHair2
+CrossHairs[2]=Botpack.CHair3
+CrossHairs[3]=Botpack.CHair4
+CrossHairs[4]=Botpack.CHair5
+CrossHairs[5]=Botpack.CHair6
+CrossHairs[6]=Botpack.CHair7
+CrossHairs[7]=Botpack.CHair8
+CrossHairs[8]=Botpack.CHair9
+CrossHairs[9]=[EG]!Crosshairs.RM_Static.RMsCH_00
+CrossHairs[10]=[EG]!Crosshairs.RM_Static.RMsCH_01
+CrossHairs[11]=[EG]!Crosshairs.RM_Static.RMsCH_02
+CrossHairs[12]=[EG]!Crosshairs.RM_Ani_00.RMaCH_00_00
+CrossHairs[13]=[EG]!Crosshairs.RM_Ani_01.RMaCH_01_00
+CrossHairs[14]=[EG]!Crosshairs.RM_Ani_02.RMaCH_02_00
+
+
+--- --- ---
+-Rene Macleod
+-Rene~M
+-rene@realworldpc.com
+-ICQ UIN 4934372
+-ICQ Active List 69034431 UT Ed/Admin

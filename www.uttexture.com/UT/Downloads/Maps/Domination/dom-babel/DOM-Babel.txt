@@ -1,0 +1,101 @@
+
+
+DOM-Babel ReadMe
+Release Date: 11/21/1999
+
+The Tower of Babel, Unreal Style
+
+--------------------------------------------------------------------------------
+Title: The Tower of Babel
+Filename: DOM-Babel
+Version: 1.0
+Last Update: 1/14/2000
+Author: Sand Jack 
+E-mail address: Detslah@yahoo.com
+
+  
+Credits: All the little people
+
+Other levels by author: DMArbor, DM-Gates
+
+
+
+Play Information 
+--------------------------------------------------------------------------------
+ 
+Game: UnrealTournament
+Level Name: The Gates of Steel and Plastic
+Single Player: No 
+Cooperative: No 
+Team: Unquestionably
+Deathmatch: If you want to try it, be my guest 
+Darkmatch: No
+Domination: Hellyeah 
+Botmatch: The Bots don't seem to get it... 
+Difficulty Settings: Only for bots 
+New Sounds: None 
+New Graphics: None 
+New Unreal Script: None 
+External DLLs: None 
+Mods: None 
+
+
+
+Construction 
+--------------------------------------------------------------------------------
+ 
+Base: Scratch
+Build time: ROughly a week
+Editor(s) Used: UnrealEd Version 4.00
+Known Bugs: Colors go funny in certain video settings, not too pronounced.
+
+
+Inventory 
+--------------------------------------------------------------------------------
+ 
+Weapons: Sniper, Rocket, Redeemer
+
+
+
+Installation 
+
+--------------------------------------------------------------------------------
+
+
+Unzip the MAPNAME file in your Unreal/Maps directory, then doubleclick on it, type 'open MAPNAME' in the console or select the Map in a Botmatch or an Internet game.
+
+
+
+
+Author's Notes 
+
+--------------------------------------------------------------------------------
+
+Liandri corp. commisioned a group of Historians to oversee the reconstruction of the Biblical Tower of Babel, in traditional
+style, for use as an Arena for deathmatch. THough not quite yet complete -- scaffolds remain around the tower -- it has been 
+opened for combat
+
+
+Copyright / Permissions 
+
+--------------------------------------------------------------------------------
+
+
+This level is copyrighted by Sand Jack, 2000.
+
+Authors may NOT use this level as a base to build additional levels without consent.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet, FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+UNREAL and UNREAL TOURNEMENT are ©1998, 1999, 2000 Epic Megagames, Inc. All Rights Reserved. Distributed by GT Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are properties of their respective owners.
+
+

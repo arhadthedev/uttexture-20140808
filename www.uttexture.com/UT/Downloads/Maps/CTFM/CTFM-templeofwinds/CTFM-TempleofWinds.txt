@@ -1,0 +1,23 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+|	CTFM-TempleofWinds	|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+--------------------------------------------------------
+Map Name:			Temple of Winds
+Game Type:			MultiTeam CTF
+Recomended Player Count:	8-16
+Bot Pathing:			Yes
+New Graphics:			No
+New Sounds:			No
+
+Editor Used:			Unreal Editor 2
+Build Time:			1 week (about 15 hours)
+
+Author:				TheGreyWolfe
+E-Mail:				thegreywolfe@hotmail.com
+
+Other Levels by Author:		None released yet.
+--------------------------------------------------------
+
+Unreal Tournament (c)1999 Epic Megagames, Inc.

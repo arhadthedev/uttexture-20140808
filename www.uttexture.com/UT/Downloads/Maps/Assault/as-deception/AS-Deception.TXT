@@ -1,0 +1,98 @@
+================================================================
+Title                   : The Terran Deception
+Version                 : 1.2
+Release Date            : 5th May 2000
+Filename                : AS-Deception.unr
+Author(s)               : Simon West-Bulford (EZkeel)
+Email Address           : EZkeel@nikodemus.demon.co.uk
+Web Page                : http://www.nikodemus.demon.co.uk/
+Description             : Assault
+
+Other levels by author  : 	  Legacy maps for Unreal & UT
+				  Unreal: Joshua's Fortress, DMElijah, DMSizzler, DMdeCyberStore,
+				  DMdeCyberEscher, DMdeCyberSol, Invasion, deCyberDuel,
+				  Arachnopolis, Xerania's Fall, DMdeCyberator,
+			  	  DMPhotophobia
+			  Unreal Tournament: DM-DeCyberEscherUT, DM-TimeRip, DM-Capella, deCyberDuelUT
+					     The White Palace (SP), DM-Testimony, DM-Parousia, DM-Necrophobia
+
+Additional Credits to   : Ruth, my wife, for beta testing this with me and for the voice overs.
+			  Michael Lohmnann and Mark Austin for their support and friendship.
+			  The guys who put UT together.
+			  Last but by no means least, Jesus, the master designer.
+
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : AS-Deception
+Single Player           : Botmatch - Assault
+Cooperative             : Yes - Assault
+Deathmatch              : No
+Recommended players	: 8 - 10
+Difficulty Settings     : No
+New Sounds              : Yes, extra voice overs by my wife for the objectives (included in the UNR file).
+New Graphics            : A few extra signs for the objectives (included in the UNR file).
+NewUnrealScript         : No
+Known bugs              : I used Warpzones to create "monitors", whilst they do work and you can see what other
+			  players are doing elsewhere in the map, there are some BSP sheet errors when looking
+			  at them from an angle.
+
+--- Story ---
+
+Intrigues by the mystical abilities that the Nali race appear to possess, the government ordered "Black Ops"
+to investigate this for possible military potential. Black ops drew up plans to capture a Nali family and create
+a small Nali village. After being sedated and careful surgical removal of the abduction memories, the Nali would be
+introduced to the fake village where they would be secretly scrutinized by scientific researchers.
+The whole village was to be encased in a huge building where the walls would be lit by a hologramatic image of the sky.
+
+The information has been leaked to a rival government which is disgusted by this immoral plan and has launched an
+operation to destroy the village. The Nali village is very near completion. Your team will be smuggled into the last
+cargo shipment where you must follow the following objectives.
+
+1) Destroy the holo-emittor which is hiding the entrance to the base.
+2) Switch on the secondary power core. This will enable your team to send the specific co-ordinates of the Nali village
+   to a military strike force which will destroy the deception.
+3) Disable the security system door clamps allowing access to the lower part of the control tower.
+4) Enter the control tower and make your way to the com centre where the uplink to the strike force can be established.
+
+
+
+--- Construction ---
+Editor(s) used          : UnrealED for UT
+Base                    : Made from scratch
+Construction Time       : About 2 - 3 weeks
+
+
+Installation
+------------
+
+Unzip the file AS-Deception.UNR into your UnrealTournament\Maps folder.
+When UT is started, you will see the map in your menu under Deathmatch.
+
+
+
+Author's Notes
+----------------
+
+If you set bnomonster=false in your Unreal Tournament ini file, you should see some Nali in this level too. 
+
+
+Copyright / Permissions
+-----------------------
+
+Authors may not use this level as a base to build additional levels unless they
+get specific permission from me.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+This level may also be distributed on Cover CD's for Gaming magazines.
+
+----------------------
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+

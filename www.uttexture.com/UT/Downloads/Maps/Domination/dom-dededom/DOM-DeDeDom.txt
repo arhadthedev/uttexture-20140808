@@ -1,0 +1,60 @@
+================================================================
+Title                   : DOM-DeDeDom 
+Version                 : 3.0
+Release Date            : Saturday, 6th of May, 2000
+Filename                : DOM-DeDeDom.zip
+Author                  : Twrecks a.k.a. MidevalTwin/MadEvilTwin
+Email Address           : twrecks@west.net  twest@haascnc.com
+Web Page                : 
+Description             : DOM-DeDeDom uses ancient architecture and natural lighting
+			  as a colorful backdrop for the bloody struggle of Domination.
+			  Also plays pretty well as a Deathmatch, with lots of room.
+
+Other levels by author  : DM-Keep][ for UT and DM-Keep for Unreal (Twrecks)
+Additional Credits to   : 4Kicks(play testing) and Slayer(Web-Site)
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : DOM-DeDeDom
+Game Type               : Domination
+
+--- Construction ---
+Editor(s) used          : UnrealEd Beta
+Base                    : Dom-DeDeDom Version 2.0
+Construction Time       : 99+ hrs
+
+In
+Installation
+------------
+Unzip the the .unr file and place it into the maps directories under your Unreal Tournament directory.
+
+Author's Notes
+--------------
+Wasn't ever going to do a DOM map, but what the heck, I don't need to sleep.
+The name was inspired by the Intro music for UT, the content by a few fun ideas.
+Version 1.0: Made for the "Make something Unreal Contest, made the top 15, and
+even CliffyB had to play it as part of the final judging.
+Version 2.0: General release to Nali-City after minor zone tweaking.
+Now in version 3.0: increased connectivity by adding the drain pipe and Iceway.
+Cut the polys and increased the FPS. More Bot AI and weapons (Redeemer).
+***This map was made for internet/LAN play***
+
+Copyright / Permissions
+-----------------------
+This level is not copyrighted. Rights or Lefts over. 
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission! Not that you'd want to, or anyone would pay you anyway.
+
+You MAY distribute this .zip for free through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact. Or not. just play it.
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  Unreal Tournament and the Unreal Tournament logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

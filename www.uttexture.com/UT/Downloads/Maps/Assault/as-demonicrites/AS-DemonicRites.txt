@@ -1,0 +1,120 @@
+DEMONIC RITES
+-------------
+
+ 	    Filename: AS-DemonicRites.unr
+              Author: Chris Thomas
+       eMail Address: christhomaslives@hotmail.com
+        Release Date: 25/7/05
+             Version: 2.00
+
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: Demonic Rites
+           Game Type: Assault
+            Botmatch: Yes
+       Single Player: Yes
+            Teamplay: Yes
+        New Textures: Yes - in MyLevel package
+          New Sounds: No
+           New Music: Opal.umx from the original Unreal
+        New Mutators: No
+
+
+====================================================================================
+Construction
+------------
+
+          Build Time: 2 weeks
+   Ideal Playercount: 6-8
+      Editor(s) Used: UnrealEd 2
+
+
+====================================================================================
+Installation
+------------
+
+Unzip AS-DemonicRites.unr
+
+Place Opal.umx in your Music\ directory.
+Place DemonicRites.unr in your Maps\ directory, then either doubleclick on it, or type open Demonic Rites in 
+the console, or select the Map in a Botmatch or an Internet game.
+
+
+====================================================================================
+Story
+-----
+
+These events take place on an island of black rock, with a steeply rising hill at one end. On one side of the hill the rock is twisted into strange facial features, which people like to believe were carved by natural weathering. But many suspect a more sinister reason. For the island is the rumoured domain of Xj'kaapjk, a terrifying demon who if released would lay waste to the world.
+
+The village at the foot of the hill is long since abandoned. It is a desolate community - now none remain, except for the corpses in the church crypt. But the island is not totally abandoned. A group of guardians is stationed on the hillside, determined to ward off any evil influences. Unfortunately their numbers have been diminishing recently - nothing much grows here.
+
+Now the solstice is approaching and Xj'kaapjk calls his minions forth from the grave. They seek to light the five fires necessary to raise him. Each fire is located on an unholy pentagram in the precipitous rock face. With each fire the malign influence of the demon becomes stronger, and he enables the attackers to get up higher. Eventually he will rise from the stone circle located on a rock separated from the main island.
+
+The hill may look like a solid, imposing rock, but it is riddled with tunnels, both natural and constructed by the guardians. The natural tunnels are pervaded by a damp fog, and curious luminescent fungi provide lighting. Waypoints light the way from the crypt to the rock... and other dark forces have been at work as well, as can be seen in the razed village...
+
+The undead attackers must do the following:
+# Initially, light a fire in the mouth. This will give Xj'kaapjk enough strength to smash a boulder which is blocking passage into the hill.
+# Then light fires in the eyes. The demon can destroy a magic door erected by the guardians when they realised their tunneling had accidentally breached into the natural passages.
+# Then the horns must be ignited. Xj'kaapjk will rise again and the world will be destroyed.
+
+
+====================================================================================
+Notes
+-----
+
+A couple of important points:
+The outside is meant to look moonlit, and if it appears too bright/dark you could change your brightness until it looks good. The rest of the lights will look better as well.
+Also enabling fog would be a good idea.
+
+
+====================================================================================
+Version 2 Changes 
+-----------------
+
+# Brightened everything up
+# Improved fires
+# Better screenshots, hehe
+# Various other minor fixes
+
+
+====================================================================================
+Bugs
+----
+
+Making this taught me a hell of a lot about BSP! By the end I was holding it together with the equivalent of sellotape and string. There are still a few horrendous errors though.
+The framrate can be a real bitch in the village area... just try not to look at it too hard
+
+
+====================================================================================
+Acknowledgements
+----------------
+
+full moon texture: http://www.netaxs.com/~mhmyers/
+Texture maker (trial version): http://www.i-tex.de/
+
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+This level is copyright 2005, by Chris Thomas.
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any 
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp), 
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by 
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal 
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other 
+trademarks and trade names are properties of their respective owners.
+
+ReadMe based on the one created by NC3's ReadMe Generator.
+http://nalicity.beyondunreal.com/

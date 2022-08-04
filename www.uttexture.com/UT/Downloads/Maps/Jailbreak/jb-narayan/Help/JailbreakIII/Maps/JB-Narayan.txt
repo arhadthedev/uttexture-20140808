@@ -1,0 +1,110 @@
+ReadMe for JB-Narayan for Unreal Tournament
+-------------------------------------------
+
+               Title: JB-Narayan
+            Filename: JB-Narayan
+              Author: Chezdog
+       eMail Address: james_a_mclean@hotmail.com
+         Website URL:
+        Release Date: August 01, 2004
+         Last Update:
+             Version: 1
+
+Credits:
+Spoon for answering dumb questions, sexmachine for organising the mappers to 
+create this map pack.
+
+Other levels by author:
+
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: JB-Narayan
+           Game Type: Jailbreak
+            Botmatch: Yes
+       Single Player: No
+            Teamplay: Yes
+        New Textures: Yes
+          New Sounds: No
+           New Music: No
+        New Mutators: No
+                Mods: Jailbreak
+
+====================================================================================
+Construction
+------------
+
+                Base:
+          Build Time:
+   Ideal Playercount: 12
+      Editor(s) Used:
+          Known Bugs:
+
+====================================================================================
+Installation
+------------
+Unzip JB-Narayan.
+Store the *.unr or *.ut2 file in your Maps\ directory along with the others
+(see guide below), then either doubleclick on it, or type open JB-Narayan in
+the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+*.unr and *.ut2 files go in Maps\
+*.utx files go in Textures\
+*.umx and *.ogg files go in Music\
+*.uax files go in Sounds\
+*.u, *.int, and *.ini files go in System\
+*.usx files go in staticmeshes\
+*.ukx files go in animations\
+*.ka  files go in karma\
+*.upx files go in prefabs\
+
+====================================================================================
+Extended Description
+--------------------
+
+The ruins of the ancient crypt of Narayan take on a different feel by night, 
+it almost feels as though they are haunted......
+
+
+====================================================================================
+Author's Notes
+--------------
+
+
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+This level is copyright 2003, by Chezdog.
+
+Authors may NOT use this level as a base to build additional levels without 
+explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD 
+or any
+other electronic medium that is sold for money without my explicit 
+permission!
+
+You MAY distribute this level through any electronic network (internet 
+(web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive 
+intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. 
+Distributed by
+GT Interactive Software, Inc. under license. Unreal Tournament and the 
+Unreal
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================
+====================================================================================
+ReadMe created by NC3's ReadMe Generator.
+http://nalicity.beyondunreal.com/
+
+

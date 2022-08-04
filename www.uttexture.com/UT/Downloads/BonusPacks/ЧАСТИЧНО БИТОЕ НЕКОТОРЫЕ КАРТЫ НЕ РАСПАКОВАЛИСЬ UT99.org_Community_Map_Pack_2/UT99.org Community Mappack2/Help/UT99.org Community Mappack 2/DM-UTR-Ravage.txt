@@ -1,0 +1,86 @@
+------------------------------------------------
+
+               Title: Ravage Facility
+            Filename: DM-UTR-Ravage
+              Author: FrozenDozer
+       eMail Address: frozendozer@web.de
+         Website URL: -
+        Release Date: with the release of the UT99.org community Mappack 2
+         Last Update: ""
+             Version: 1.00 
+
+Level specific Credits:
+
+ - Epic Megagames for the UT series
+ - Kevin Riepl for the DM1 Music Track
+ - thanks to sklare, Lenvris, Revelation, Creavion, Swanky, 
+   the whole Unrealed.info and UT99.org Team for their awesome Feedback
+ - Thx to revelation for the Footstepsounds
+
+Other levels by author (finished stuff):
+
+DM-Reenoc (UT3)
+DM-Protebie (UT2k4)
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: DM-UTR-Ravage
+           Game Type: Deathmatch
+            Botmatch: True
+       Single Player: False
+            Teamplay: Optional
+        New Textures: Yes, Q4Method and HourIndusX
+          New Sounds: None
+           New Music: DM1 - by Kevin Riepl
+        New Mutators: False
+                Mods: False
+
+====================================================================================
+Construction
+------------
+
+                Base: Built from scratch
+          Build Time: a very long time
+   Ideal Playercount: 2-4
+      Editor(s) Used: Unreal Editor 2
+          Known Bugs: None
+
+====================================================================================
+Installation
+------------
+
+ Copy DM-UTR-Ravage.unr into UnrealTournament/Maps folder
+ Copy richrig.utx (and SGTech1.utx) into your UnrealTournament/System folder
+ Copy XPickups.u and xpickups.int into UnrealTournament/System folder
+
+====================================================================================
+Extended Description
+--------------------
+-
+====================================================================================
+Author's Notes
+--------------
+-
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+
+Copyright 2009 FrozenDozer
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.

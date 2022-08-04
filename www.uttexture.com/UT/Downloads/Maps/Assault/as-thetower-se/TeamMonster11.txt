@@ -1,0 +1,72 @@
+================================================================
+Title                   : TeamMonster version 1.1
+
+Author                  : Chris "Azathoth" Pryor
+
+Date                    : 5:33 PM 06/04/01
+
+Filename                : TeamMonster.u
+			
+Email Address           : othergods@bigfoot.com
+
+Home Page		: none
+
+Description		:  This script is a modification of the code
+			for the original Unreal monsters which allows
+			them to be assigned teams in UT team games.
+
+			To use them in a map either load the script
+			into the actor browser or include it in the
+			UnrealTournament.ini file under
+			Editor.EditorEngine (EditPackages=TeamMonster,
+			put it at the end).  You will find the monsters
+			under Pawn/Staticpawn/Teamcannon/Teamscriptedpawn.
+			They are under teamcannon so the bots will respond
+			appropriately towards them.
+
+			There is also a TeamCreatureFactory under 
+			Keypoint/CreatureFactory and a TeamSpawnPoint
+			under Navigationpoint/Spawnpoint.  These allow
+			the creation of monsters which will respawn when
+			killed.
+
+			When you have put a TeamMonster in a map assign it
+			to a team by using the "MyTeam" property under
+			teamcannon (all the other teamcannon properties 
+			are disabled however).  TeamCreatureFactories have
+			MyTeam under TeamCreatureFactory.
+
+			Please e-mail me when you release a map with
+			TeamMonsters in it so I can have a play of it.
+
+                        Version 1.1: Monsters can now be teleported
+                        (thanks dinwitty). This version should work
+                        with all maps made with the original.  This
+                        version supersedes the one distributed in
+                        AS-TheTower.
+
+KNOWN Bugs              : Monsters on opposing teams will not target 
+			each other except on damage or bump.
+
+			Death messages are not printed for monsters.
+
+
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this script for profit in any way,including but not limited to, putting it on a CD ROM or any other medium that is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this script through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

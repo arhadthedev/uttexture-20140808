@@ -1,0 +1,74 @@
+=============================================================================
+Important Note: You must have the CTF4 Mod and the CTF4 texture set from www.uncommonplace.com to play this map correctly.
+
+Title                : CTF4=NovemberCommand
+Filename             : CTF4-NovemberCommand.zip
+Version              : Version 2.0 11/10/00
+
+Description          : CTF4 map for Unreal Tournament
+Author               : Elliot "Myscha" Cannon 
+Conversion by        : Paul 'icepick59' Fritts
+Email Address        : icepick59@hotmail.com
+Web Site             : http://utfreedom.homestead.com/Home.html
+Other Maps by Author : CTF4-Absolution       
+
+Credits to           : Epic for a kickass game, Myscha for a two killer levels, and David 'uncommonplace' Cambell for a great mod
+                       I would also like to thank the beta testers without which this conversion would have been hell.
+                       Krazy Killar, Weasel, Eagle, Greytigar, LTJG rs8rules, and too many others to mention for their support.   
+
+=============================================================================
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : CTF4-NovemaberCommand
+Deathmatch              : Maybe?
+Domination		: No
+CTF			: Yes
+Assault			: No 
+New Sounds              : No,but choose differant music
+New Graphics            : No 
+Recommended Players:	: 8-16
+
+-=[ Construction ]=-
+
+Base                    : Two kickass maps that launched with UT
+Build Time              : 2 weeks (if you don't count work and outside life)
+Editors used            : UnrealEd 2.0 (432,436 versions)
+ 
+Known Bugs              : Occasional BSP and HOM glitches from certain angles (mostly in the new underwater tunnel).
+                          Bots don't use the new path's to escape with flag but will use them to 
+                          recover their flag.
+
+
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the .zip file.  Look in your UnrealTournament directory.
+The .unr file goes in your MAPS folder.
+
+===============================================================
+
+-=[ Description ]=-
+ This is based off of November and Command with new passages and teleport to go from one map to the 
+other. The Command part of it was chosen by me to be the Yellow(use to be Blue) and Green(old red base)
+
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+This level is copyright (c) 2000 Elliot Cannon and Paul Fritts
+This level is not supported by Legend Entertainment or Epic Games.
+
+Any reproduction or commercial distribution of the map file is prohibited
+without the prior permission of Paul Fritts 
+
+You are allowed to distribute this level on a non-commercial basis, for example
+over the internet and any other medium that is free of charge. You must distri-
+bute the whole ZIP with .unr and .txt file, though.
+
+
+-=[ Where to get this level ]=-
+
+http://utfreedom.homestead.com/Home.html
+Hell, if your reading this then you probably already downloaded the map.  :)

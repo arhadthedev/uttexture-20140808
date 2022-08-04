@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=CTFPlus.CTFPlusGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=CTFPlus.CTFPlusBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings)
+Preferences=(Caption="CTF+",Parent="Game Types",Class=CTFPlus.CTFPlusGame,Immediate=True)

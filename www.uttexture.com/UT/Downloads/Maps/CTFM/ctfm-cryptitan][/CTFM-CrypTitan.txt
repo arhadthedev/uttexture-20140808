@@ -1,0 +1,64 @@
+================================================================
+Title                   : CTFM-CrypTitan - The steel combat crypt of 
+			  the titan guardians.
+                          
+Author                  : Thespoondog 
+
+Date                    : 1 Feb 2001 
+
+Filename                : CTFM-CrypTitan.zip
+
+File contents           : CTFM-CrypTitan.unr
+			: CTFM-CrypTitan.txt
+			: UTDMT.utx
+			: UTDMT.u
+			: UTDMT.txt
+			
+Email Address           : thespoondog@hotmail.com
+Home Page		: http://www.unreal.thespoondog.com
+Description             : UT Multi-Capture the flag level.  First Multi
+			  CTF stage that involves titans that I'm aware
+			  of.  Very fast paced and one of the most fun
+			  maps you would have ever played!
+================================================================
+
+Play Information	
+
+Single Player           : Yep, have to with people like me who live
+			  about 2 million ping away from everyone else
+			  in the world!
+Deathmatch              : Nope
+Recommended No. Players : 8-12 
+
+Comments		: About my fifth or sixth released map.  This 
+			  map is really cool with good multiple paths
+			  and the bots function well and use all paths.
+
+=================================================================
+
+Installation instructions
+
+Unzip: CTFM-CrypTitan.unr file into your UnrealTournament\Maps folder.
+       UTDMT.utx file into your UnrealTournament\Textures folder.
+       UTDMT.u file to your UnrealTournament\System folder.
+
+KNOWN Problems:  It is unlikely that you will lose!
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd 2.0        
+
+Build Time              : Week or so
+
+===================================================================
+Other maps by Author:	DM-BeakersTemple, CTF-Fetid][, DOM-BlackMusk,
+			DM-Nerds, DM-Mitsubishi.
+
+=====================================================================
+(C) Copyright 2001 Cory Spooner
+
+You may distribute this map any way you like, providing that it is done so free
+of charge and that this text file is also included unchanged. Magazine coverdisks,
+etc. are okay too.  Hell play it on the net! (which is cool by the way)

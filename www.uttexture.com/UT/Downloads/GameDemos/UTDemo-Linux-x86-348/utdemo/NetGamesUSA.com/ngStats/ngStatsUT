@@ -1,0 +1,15 @@
+#!/bin/csh -f
+
+###########################################################
+# CHANGE THESE VARIABLES TO MATCH YOUR SYSTEM CONFIGURATION
+
+setenv NGHOME /home/swink/ngStats
+setenv JAVA /usr/local/java/bin/java
+
+#
+###########################################################
+
+setenv CLASSPATH $NGHOME/ngusa.jar
+setenv NGCONFIG $NGHOME/ngStatsUT.cfg
+echo $JAVA ngStatsUT -c $NGCONFIG -j $NGHOME $*
+$JAVA ngStatsUT -c $NGCONFIG -j $NGHOME $*

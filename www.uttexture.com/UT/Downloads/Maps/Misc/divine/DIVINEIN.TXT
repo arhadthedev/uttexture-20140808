@@ -1,0 +1,80 @@
+
+                       Divine Intervention- by Dark Elf
+
+                       This level is dedicated to, EZkeel, from 
+                       http://decyber.com/unreal/. Thanks for your 
+                       help and kind words!:)
+    
+
+PLAY INFORMATION
+================
+
+    GameType                : UTDeathmatch
+    Single Player           : Yes,bots
+    Cooperative             : Yes, teamDm    
+    Difficulty Settings     : yes
+    New Sounds              : No
+    New Music               : No
+    New Graphics            : Yes- see author's notes below:
+    Known Glitches          : NONE KNOWN
+
+    File Instruction        : Please unzip the Map file (.unr) to the map file. 
+                              Unzip the texture file (.utx) to the texture file.
+                              Also- read Author's notes about textures (below).
+
+                               
+    Editor(s) used          : UnrealED
+    Build Time              : About 1 week, give or take.
+
+AUTHOR'S NOTES 
+==============
+
+Author-      Bryan J. Hernandez (Dark Elf) E-mail: shadowBow@earthlink.net
+
+Map Setting- An evil shrine of an unknown origin. Made of metal and stone, 
+             this metalic beast sits in the middle of a vast ocean. Surrounded
+             by darkness, the only signs of life come from the structure 
+             itself; a low hum of unyielding energy.
+
+Bots-        Another pathing job complete... I think I'm losing my hair!
+
+Secrets-     One-. 1) Not really a secret but might be hard to find- Under the structure 
+                   is a air tight compartment which holds the nuke! Hehe...
+
+                     
+Special Features- The crusher trap- At the very top of the level you can find the 
+                  shield belt which is protected by a crusher trap that sets off anytime any
+                  player steps on one of the 8 panels located throughout the
+                  map. This makes it totally unpredictable much like the 
+                  trap in DM-Healpod for the first Unreal. The map also features jump pads 
+                  which, once again, I was able to get the bots to use (yes! My hair is
+                  falling out!).
+
+Author's notes- Credit goes to, Rich (@kuma) Eastwood, for the texture pack included
+                with this map- they are the same ones used in his outstanding map,
+                DM-Brutality. Thank's Rich!
+
+Special thanks-  Thanks to all the folk's who E-mailed me about DM-Oracle and
+                 DM-Rage. The kind words are appreciated!!
+    
+COPYRIGHTS/PERMISSIONS
+======================
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+     
+
+
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

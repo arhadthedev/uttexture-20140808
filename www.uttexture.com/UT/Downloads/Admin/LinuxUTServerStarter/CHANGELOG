@@ -1,0 +1,42 @@
+106
+- fixed a bug in the configuration back up restoring
+- configuration files are now also checked before going into the start cycle
+- maps are checked for existsance
+
+105
+- added more sanity checks:
+  - you can no long start a UT server when you are root
+  - configuration files are checked for existing content
+  - now a check is performed if -RANDOM- map has resulted in a map name
+- added a new option: BACKUPINI
+  this will back up the configuration files before the server starts, when
+  a server restarts the original files are check if they exists (and are not empty),
+  if not then the back up configuration files are copied. If there are not backup
+  a mail will be send.
+- the mapselect script is now implemented in the main script, randgen is still used
+  to calculate the random number
+
+104
+- made a kill sig an option (-15 by default
+- core dump files are limited to 0 bytes (so won't be created)
+- the last 25 lines of the log file are added to the email
+- when a server restarts 5 times within 5 minutes it will completele shut down (no more 1000 emails over the weekend)
+
+103 (with some improvements from el Tenedor CP)
+- crash log files will only be gziped now, no tar
+- also the files inside the compressed file have a .crash.date at the end
+- fixed the problems on some system where the server just couldn't shut down
+- now uses loki's ucc wrapper script
+- configuration will only be displayed when started with `start` or `config`
+- signal 2 and 15 will shutdown the server
+
+102
+- Added an option to compress the crash log files
+- Added an option for a maximum number of crash logs
+- The email will contain a little more information
+- Added an option to prevent a server start\restart when there's not enough free diskspace
+
+101
+- the script will now work when started from any directory (you don't have to start it anymore from the directory where the script is located)
+- you can now also use it witout the "-nohomedir" options (the right directory structure has to be there)
+- the server PID is now found everytime

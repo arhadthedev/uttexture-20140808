@@ -1,0 +1,36 @@
+==============================================
+Map for mod MultiTeam CTF of Unréal Tournament
+==============================================
+-----------------------------------------------------------------------------
+
+	CTFM-Modern
+
+-----------------------------------------------------------------------------
+Map name:			Modern
+Game type:			MultiTeam CTF
+Recomended player count:	16 (4x4)
+Height:				Very large
+Weapons available:		[ ]
+Téléporteur:			[x]
+
+New Sounds: 			No
+New Graphics: 			No
+
+Editor used:			UnrealEd v2.00 (UTv436)
+Release Date:			04/03/01
+Build time:			1 day (8heures)
+-----------------------------------------------------------------------------
+Author:				Crokx
+E-Mail:                  	Crokx@Infonie.fr
+
+Other levels by author:		CTFM-FatalDecks
+				CTFM-LavaForme
+				CTFM-Mortal
+				CTFM-Rédemption
+				CTFM-SlimeRotor
+				CTFM-SnipeDream
+				CTFM-Tutorial][
+-----------------------------------------------------------------------------
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ -=> Unreal Tournament (c)1999 Epic Megagames, Inc. <=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

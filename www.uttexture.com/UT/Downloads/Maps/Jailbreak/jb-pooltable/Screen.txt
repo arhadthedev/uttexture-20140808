@@ -1,0 +1,120 @@
+===============================================================================
+Screen 121
+Copyright 2001 by Mychaeel <mychaeel@0x01.net>
+===============================================================================
+
+Mail all bug reports and suggestions to Mychaeel <mychaeel@0x01.net>
+Visit the Screen website at http://www.0x01.net/members/mb/screen/
+
+
+Note to Mappers
+===============
+
+Please always include the most recent version of the Screen component (see
+below for the download link) with your map releases. Your maps will be fully
+compatible to newer versions of the Screen component, and this way you will
+help to minimize version conflicts for your map's users.
+
+There are a couple of Windows utilities available that make your life easier
+when adding screens to your map. Check the Screen website for more information.
+
+
+===============================================================================
+Umod Installation
+===============================================================================
+
+Before installing this package, please make sure you don't already have a newer
+version installed, particularly if you didn't download this package directly
+from the official Screen website. You can determine which Screen version you
+have installed by checking the About tab in the Configure Screens dialog box in
+the Mod menu.
+
+Double-click the umod file and follow the instructions on the screen.
+
+
+===============================================================================
+Zip Installation
+===============================================================================
+
+Before installing this package, please make sure you don't already have a newer
+version installed, particularly if you didn't download this package directly
+from the official Screen website. You can determine which Screen version you
+have installed by checking the About tab in the Configure Screens dialog box in
+the Mod menu.
+
+The zip file includes information about in which subdirectories the files
+should be placed; simply extract all files in your UnrealTournament folder, and
+all files should go where they belong to.
+
+If that doesn't work out, extract the files manually into the following
+directories:
+
+  UnrealTournament\Help      Screen.txt
+  UnrealTournament\Maps      DM-ScreenDemo.unr
+                             ScreenDemo.t3d
+  UnrealTournament\System    Screen.u
+                             Screen.int
+                             Screen.ini
+  UnrealTournament\Textures  ScriptedScreen.utx
+                             ScreenFonts.utx
+
+In order to make the Screen-related actors show up in UnrealEd's actor browser,
+you'll have to edit the UnrealTournament.ini file that is located in your
+UnrealTournament\System directory. Add the following lines in the given section
+of UnrealTournament.ini:
+
+  [Editor.EditorEngine]
+  EditPackages=Screen
+
+If you're running a server with a map using the Screen component in your map
+rotation, add the following line to your UnrealTournament.ini:
+
+  [Engine.GameEngine]
+  ServerPackages=Screen
+
+
+===============================================================================
+Info
+===============================================================================
+
+Scripted textures used to be good for two things: Display your ammo count on
+various weapons, and tell the currently leading player on a scrolling banner in
+Morpheus. But that just scratched the surface of the potential of scripted
+textures.
+
+Screens provide a very general approach to including dynamic textures in maps:
+A scripted texture that is connected to a Screen actor can display any number
+of so-called slides which can in turn show anything ranging from simple
+formatted text to complex dynamic game-related information.
+
+For more information, the complete documentation and tutorials see the Screen
+homepage at
+
+  http://www.0x01.net/members/mb/screen/
+
+
+===============================================================================
+Bugs
+===============================================================================
+
+None known yet. If you find any, please drop me a line. Thanks.
+
+
+===============================================================================
+Copyright/Permissions
+===============================================================================
+
+Screen Component  (c) 2001 by Mychaeel <mychaeel@0x01.net>
+Demo Map          (c) 2001 by ElBundee <elbundee@gmx.net>
+
+This component is freely available for noncommercial use and distribution 
+through any electronic network, provided you include this documentation file.
+For any other use and distribution please contact me for permission.
+
+
+===============================================================================
+
+UNREAL (c) 1998 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

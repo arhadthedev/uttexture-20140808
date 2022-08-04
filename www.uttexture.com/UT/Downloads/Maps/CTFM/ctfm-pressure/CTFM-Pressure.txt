@@ -1,0 +1,60 @@
+================================================================
+Title                   : Multi-CTF Pressure
+Version                 : 1.0
+Release Date            : January 25th 2002
+Filename                : CTFM-Pressure.unr
+Author(s)               : Hugues 'Merkalinam' Beauchemin
+Email Address           : gollum68@hotmail.com
+			  beauchh@ircm.qc.ca
+
+Other Maps		: CTFM-Gate of Ages
+			  DM-Forbidden Dump
+
+
+
+** NOTE **
+
+================================================================
+
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Multi-CTF Pressure
+Single Player           : Botmatch (full bot path noding)
+Cooperative             : MultiTeam Capture the Flag
+Deathmatch              : no
+MultiTeam CTF   	: 12-16 players
+Difficulty Settings     : In this level, the translocator is turned On
+New Sounds              : No
+New Music		: Yes ("he has no face" by Skaven/FC 6/95; file noface.umx)
+New Textures            : No
+
+Known bugs              : the bots will take the redeemer but very rarely.
+
+--- Construction ---
+Editor used 	        : UnrealED2
+Base                    : DM-Pressure by Juan Pancho 'XceptOne' Eekels
+Construction Time       : 2 weeks
+
+Installation
+------------
+Just unzip the CTFM-pressure.unr file in the maps folder and the noface.umx file 
+in the music folder in your UnrealTournament directory
+
+  
+
+Author's Notes
+--------------
+
+To play this game you need the MultiTeamCTF mod by Wyzard that you can download from:
+http://www.planetunreal.com/MultiCTF/
+
+This level is a convertion of the excellent DM-Pressure. Each base are reachable by many 
+ways and leads to a furious match where you will die often!!! The four bases were 
+equilibrated with teams of 4 players in mind and with smarter bots.. setting a 
+heavy defense mod will give a strong advantage to the red base. Omniscience will help 
+a lot to find your way in the maze of the level to recover your flag.
+
+
+
+
+

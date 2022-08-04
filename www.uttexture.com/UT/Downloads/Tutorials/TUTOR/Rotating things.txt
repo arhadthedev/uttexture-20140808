@@ -1,0 +1,86 @@
+Rotating Objects
+
+By: Knives
+
+Knives
+
+Dated: 12/8/98 
+
+Download: Download Map - 467K
+
+Click here for a printable version of this Tutorial.
+
+For our example, we're just gonna make a simple rotating column in a small square room. Not very useful in the real world, but will be easy enough for you to follow to the letter.
+
+1: Fire up Unrealed, and carve out a 512 cube room. (if you don't know how to do this or anything else in this tutorial, you need to back to the basics. I reccomend the basic room tutorials on unrealed.net.) Put your player start and one light in your room.
+
+2: Next, while you still have a 512 cube tool, carve out another room completely seperate from your player area. 
+ 
+
+3: Next we'll make the brush you're going to use as your rotator.. We'll make an 8-sided cylindar, 16 high and 128 radius (128-16 inner). Don't add it yet! Move this into the center of your second room, making sure it's not touching any walls in any view. Add the brush to the world, and texture it the way you want it to look. 
+
+ 
+
+4: Right-Click the CUBE button -> Properties again, this time making the brush a 360 unit cube. If you started from a clean slate, following my instructions completely, the red builder cube should completely surround the cylindar, and be completely inside your second room. Make sure you look at the following screenshot. 
+
+ 
+
+*IMPORTANT NOTE: At this point you should not have used the scale, resize, or rotation tools. But many times you will have, so this is what you need to do before continuing:
+a: click on the brush tool so it's all red -> right-click -> Reset -> Scaling
+b: click on the brush tool so it's all red -> right-click -> Reset -> Rotation
+If you have manually resized or rotated the red brush tool, YOU MUST RESET rotation and scaling of the red brush tool before continuing this tutorial! If you don't reset the size and rotation, the mover WILL NOT WORK!
+
+5: Click the button below the Subtract button, "Intersect." If you've followed my instructions correctly, the red builder tool will now be the same size and shape as the cylinder. Move the red builder tool into your player area and align it so it touches the floor, in the center of the room. Click the colunm 3, 6 from the top, "add mover" (white cube with swirlys coming out of it.) 
+
+ 
+
+6: Now that we've created our mover, there's really only one remaining step, setting up the Mover Properties. Click in the Top View and hit B. This will hide the tool brush, revealing your mover as a blue cylinder. click on the edge of this brush, and it will become bright blue. Next, right-click -> Mover Properties. Change to the following properties:
+
+
++Brush:
+CsgOper: CSG_Active
+
++Events:
+Tag: ThisMover (can be anything, just make sure it's unique)
+
++Movement:
+bFixedRotationDir: True
++Desired Rotation //as far as i can tell this is just -1, 0, 1
+Pitch=0 //down/up
+Yaw=1 //left/right
+Roll=0 //banking left/right
+Mass: 0.000000
+Physics: PHYS_Rotating
++Rotation: (Pitch=0, Yaw=0, Roll=0) //this is positioning. you shouldn't need this.
++RotationRate: (Pitch=0, Yaw=5000, Roll=0) //turn speed.
+
++Mover: 
+bDamageTriggered: True (i set this to true and set damage to 10000000; u may not need)
+BumpType: BT_PlayerBump
+DamageThreshold: 100000000.000000 (again you may not need.)
+KeyNum: 0
+MoverEncroachType: ME_IgnoreWhenEncroach //Optional action when player blocks
+MoveTime: 0.000000
+NumKeys: 0
+Other Time: 0.000000
+
++Object:
+InitialState: None //this is the important one! this makes the brush ignore the player.
+
+Rebuild the map and give it a try! I think that should do it! 
+ 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+

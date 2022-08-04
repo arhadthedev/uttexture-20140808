@@ -1,0 +1,236 @@
+          ___   ___     _____      _____     _____     _____
+         /   | /   |   / __  \    / __  |   / __  \   / __  \
+        / /| |/ /| |  / /  | |   / /  | |  / /  | |   \ \ |_|
+       / / | , / | | | /   / |  / /   / | | /   / |  _ \ \
+      / /  |__/  | | | |__/ /  / /___/ /  | |__/ /  | |_\ \
+     /_/         |_| \_____/  /_______/   \_____/   \_____|
+                     UTils v2.5 by [TTH]PJMODOS
+
+
+[=====------··········      WHO WHAT WHY       ··········------=====]
+MODOS Utils are server actors that was originaly created by me for
+my UT server:
+TeamBalancer - actor that balance teams when any user writes 
+               "MUTATE BALACETEAMS" in console.
+AutoRecorder - actor for automatic serverside demo recording.
+MODOS ScoreBoard - changes ScoreBoard to show more info.
+SplashLogo - Allows you to display texture (logo) at begin play.
+             If you don't know how to create UT texture package
+             with logo see LogoHowto.txt.
+             It will NOT show logo on servers with UTPureRC5b, 
+             but should work with UTPureRC5b2 and later.
+
+See History for latest changes.
+
+
+[=====------·········       INSTALLATION       ··········------=====]
+Installation is easy, just place the MODOSUtilsV25.u file in your
+system directory and start editing the server .ini file.
+
+Add the following lines to the [Engine.GameEngine] section:
+ServerActors=MODOSUtilsV25.TeamBalanceActor
+ServerActors=MODOSUtilsV25.AutoRecorder
+ServerActors=MODOSUtilsV25.MODOSSBServerActor
+ServerActors=MODOSUtilsV25.SplashLogoSA
+
+First line is for TeamBalancer, second is for Autorecorder, third
+is for MODOS Scoreboard and fourth is for SplashLogo.
+
+If you use MODOS ScoreBoard or SplashLogo you must include
+this line too:
+ServerPackages=MODOSUtilsV25
+
+And if you use SplashLogo you must include this:
+ServerPackages=logopackage
+(replace logopackage with name of your texture package)
+
+Now the AutoRecorder configuration, add the following section to the
+same server .ini:
+[MODOSUtilsV25.AutoRecorder]
+bAutoActivate=False
+Password=
+DemosDir=../Demos/
+DemoNameFormat=%L_%M-%D-%Y_%H-%I
+
+MODOS ScoreBoard configuration -  add the following section to the
+same server .ini:
+[MODOSUtilsV25.MODOSSBServerActor]
+ShowClickBoard=True
+ShowBonusInfo=0
+
+And SplashLogo configuration -  add the following section to the
+same server .ini:
+[MODOSUtilsV25.SplashLogoSA]
+LogoTexture=logopackage.logotexture
+LogoDrawTime=6.0
+CaptionLineOne=
+CaptionLineTwo=
+CaptionLineThree=
+CaptionLineFour=
+(replace logopackage with name of your package and logotexture with name of your texture)
+
+
+[=====------·········          SETUP          ··········------=====]
+Detailed description of configuration.
+
+AutoRecorder configuration:
+- bAutoActivate : If set to True then auto demorecording will start
+                  at the begining of every map, otherwise it will
+                  record demo when user writes "MUTATE SERVERDEMO"
+                  in console.
+- Password : If you allow users to start demorecording you can set
+             password, so only users that have password can start
+             recording. I you leave this empty password is not
+             required for start recording. Syntax for recording if
+             password is set is "MUTATE SERVERDEMO PASSWORD".
+             Password is case sensitive.
+- DemosDir : Directory where to place demos (with trailing slash and without spaces).
+- DemoNameFormat : Pattern for demo name. Following flags are
+                   replaced:
+                   %L - Level Name
+                   %M - Month
+                   %D - Day
+                   %Y - Year
+                   %H - Hour
+                   %I - Minute
+                   %S - Seconds
+                   %N - ServerName
+
+MODOS ScoreBoard configuration:
+- ShowClickBoard : If you want to see green flag at playername
+                   in tournament mode when player is ready set
+                   this to True. If you are using UTPure and want
+                   ClickBoard I recommend to set ClickBoard in UTPure
+                   to False and in MODOS ScoreBoard to True.
+- ShowBonusInfo : 0 = Nothing, 1 = NetSpeed, 2 = Efficiency.
+                  This work only if 16 or less players are on server
+                  and resolution of player is 800x600 or more.
+                  In DeathMatch and LMS can't be showed both PL and
+                  BonusInfo, so if you set this to 1 or more then only 
+                  BonusInfo is showed in DM and LMS.
+
+SplashLogo configuration:
+- LogoTexture : Package and texture name.
+- LogoDrawTime : How long is logo showed in seconds.
+- CaptionLineOne   : Text
+  CaptionLineTwo   : that will be
+  CaptionLineThree : displayed
+  CaptionLineFour  : under logo.
+
+
+[=====------·········         CONTACT         ··········------=====]
+If you find bugs, or think of changes/new features feel free to
+email me.
+
+email: ut servers mailing list or pjmodos@parba.cz
+IRC:   #UT.CZ on QuakeNet (irc.quakenet.org) or 
+       #Unrealscript on ETG (irc.enterthegame.com) after 21:00 GMT
+
+
+[=====------·········        THANKS TO        ··········------=====]
+UsAaR33 - DemoNameFormat parsing code, old NetSpeed replication code
+TheCatcher - "Eagle Head" bug fix
+TNSe - PureFlag code (used in clickboard)
+Larathiel the Death Elf - suggestions and betatesting
+Coop - suggestions and betatesting
+[TTH]xbungie - alphatesting
+
+
+[=====------·········         LICENCE         ··········------=====]
+You may freely distribute this archive, as long as it remains PERFECTLY intact.
+
+If you wish to create a modification based upon the code contained within the
+MODOSUtils.u package then you may contact me first.
+
+You may not sell, broadcast, or otherwise market this mod without permission.
+You may advertise and encourage the use of this mod as much as you see fit.
+
+This modification is provided completely as is. You run this modification
+completely at your own risk. I accept no liability for loss or damage
+(to your equipment or sanity) due to the installation/use of this modification.
+
+
+[=====------·········     VERSION HISTORY     ··········------=====]
+v2.5
+* Final release for UT1
++ Right team name shown when swicthed by TeamBalancer
++ Logo now shows on every connect and on every mapchange
++ Bad LogoText possitioning fixed
+
+v2.3
++ Fixed bug in ClickBoard - green flag didn't show in DM and LMS in
+  tournament mode
++ Fixed bug in TeamBalancer - now never change the team of a person
+  carrying the flag
+
+v2.2
++ Fixed bug in ClickBoard
++ Fixed bug in SplashLogo
+
+v2.1
++ Completely rewritten demoenhacing code. This mean that bug with 
+  crashing UT when spectator was in game while recording is fixed.
+  Also "unlimited spectators can join when maxpectators is more than zero"
+  bug is fixed. And last thing changed with new demoenhacing code is
+  that MODOSViewFC now don't work (I'm not replacing spectator but only
+  scoreboard and hud so I can't write functions which can be called from console)
++ Changed ShowNetSpeed to ShowBonusInfo (you can select netspeed or efficiency,
+  for more read documentation above). If you want more options than netspeed 
+  and efficiency write me (with my new replication code I can add anything now).
+
+v2.0
++ Fixed problems with my custom spectator used for demoenhacing
++ Added function for spectators to fast switch to FlagCarrier or
+  best fragged (type MODOSViewFC in your console or bind it to some key)
+  in my custom spectator in MODOS ScoreBoard (also work in demos)
+
+v2.0b3
++ Fixed problems with Valhala Avatar (new NetSpeed replication code from UsAaR33)
++ Serverside demos recorded with MODOS ScoreBoard will be enhaced with it
+  (Standard server demos have DM HUD without ScoreBoard, demos with 
+  MODOS ScoreBoard have correct HUD and MODOS ScoreBoard)
++ Information message when player is forced to change team in TeamBalancer
++ Months(%M), Days(%D), Hours(%H), Minutes(%I) and Seconds(%S) are now 
+  with leading zeros in AutoRecorder
+
+v2.0b2
++ Fixed "Clickboard is active even if tourney mode is not" bug
++ Option to turnoff Clickboard
++ SplashLogo should now work but it seems that it will not show logo
+  in first map (after starting server) after first join.
++ Another bug in configuration of MODOS ScoreBoard fixed (netspeed should now work)
++ Any "mutate" command cause "Cannot start demorecording now" message bug fixed
+
+v2.0b
++ Added SplashLogo
++ Added clickboard (green flag shows at player name when he is ready in
+  tournament mode) to MODOS ScoreBoard (thx to TNSe who gives me code for PureFlag)
++ NetSpeed is showed properly in MODOS ScoreBoard from now
++ Each teams average ping and packet loss in MODOS ScoreBoard
+- Removed limitation for user request only after game starts - now
+  user requested demos can be recorded before game starts in tournament mode
++ Information if demo can be recorded or not when user request it
++ Posbility of password protected user requested demorecording
+  (MUTATE SERVERDEMO PASSWORD)
++ Added some bugs I am sure :)))
+
+v1.7
++ Bug in configuration of MODOS ScoreBoard fixed
+
+v1.6
++ Fixed "Eagle Head" bug
++ Added option to show NetSpeed in MODOS ScoreBoard (requested by coop)
++ Some small improvements in code.
+
+v1.5b
++ Added MODOS ScoreBoard (requested on UT servers mailing list)
+
+v1.0
++ Added DemoNameFormat configuration in AutoRecorder
++ Fixed bug in TeamBalancer
+
+v0.7
+* First release 
+
+
+Copyright (c) Petr Jelinek (PJMODOS)

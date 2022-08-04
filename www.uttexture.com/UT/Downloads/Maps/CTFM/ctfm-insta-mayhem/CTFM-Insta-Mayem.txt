@@ -1,0 +1,37 @@
+================================================================
+Title                   :CTFM-Insta-Mayem
+Version                 :1.5
+Release Date            :9/1/00
+Filename                :CTFM-Insta-Mayem.unr
+Author(s)               :Annihilator
+Description             :A 4 player MultiCTF map 
+Where to get this map   :http://www.planetunreal.com/multictf/ 
+Game  			:Unreal Tournament
+
+
+Notes
+--------------
+You need Wyzard's MultiCTF mod to play this map 
+Get it here: http://www.planetunreal.com/multictf/
+
+Version Notes
+----------------------
+Replaced MCTFFlagBases with FlagBases.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Clan Mortal Killers / Clan FAT
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

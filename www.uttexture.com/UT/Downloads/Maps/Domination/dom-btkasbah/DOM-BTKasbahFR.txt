@@ -1,0 +1,88 @@
+==============================================================================
+Titre                   : La Kasbah du sud
+Nom de fichier          : DOM-BTKasbah.unr
+Version                 : 6 janvier 2000
+
+Auteur                  : Bernard TEXIER
+Addresse e-mail         : btexier@club-internet.fr
+
+Description             : Map construite avec l'éditeur d'Unreal. 
+                          A partir d'une vue d'une Kasbah du sud marocain
+                          j'ai eu l'idée de construire cette "map" pour
+                          UT. En plaçant 3 points de controle : un au dernier
+                          étage (TOP), un au premier étage (MIDDLE
+                          et le dernier au rez de chaussée (LOWER),
+                          on dispose d'une arène pour le mode DOMINATION.
+
+
+Autres niveaux UT publiés:
+                          DM-BTDaikatan-UT  (Deathmatch Daikatana-like)
+                          CTF-BTGoldenKrall (Capture du drapeau)
+                           
+Remerciements           : Epic Megagames pour l'excellent software diffusé.
+                          Tous les gens qui ont passé pas mal de temps a créer
+                          les "tutorials" et "FAQ" pour Unreal et UnrealED.
+                          
+                          Peter (QAPete) pour l'acceuil des Maps sur Planet-
+                          Unreal (Nali City)
+  
+                          Les testeurs de cette map  : 
+                          Götz, Andy et FTX
+
+                          Remerciements pour leurs tests et critiques construc-
+                          -tives.
+===============================================================================
+
+* Informations de jouabilite *
+
+Jeu                     : UNREAL TOURNAMENT
+Mode Solo               : Non
+Mode Coopératif         : Non
+Mode équipe             : Non
+Mode Deathmatch         : Non
+Mode Domination         : OUI
+Implementation de difficultés : Non
+Nouveaux sons           : Non
+Nouveaux graphiques     : Non
+Demos                   : Non
+Copies d'ecran          : 4
+
+* Construction *
+
+Base                    : aucune base précédante.
+Temps de réalisation    : Plusieurs jours 
+Editeur utilisé         : UnrealED (UT)
+Bugs connus             : Aucun (je l'espère). Testée sur ma machine avec
+                          UT + patch 402.
+                          
+Micro de realisation    : Realisé et testé avec un PII 350, SB64, 64MB
+                          Carte 3DFx "TechWorks board" Voodoo 1
+                          testée (efficacement) jusqu'a 16 bots avec
+                          la version UT Pachs 402 (française).
+
+* Comment utiliser ce niveau *
+                        : Extraire le fichier DOM-BTKasbah.unr et le  
+                          recopierdans la "directory"  ..\Maps de Tournament
+                          Le fichier est initialise en Domination par défaut.
+                          
+                          Vous pouvez également le lancer de la manière
+                          habituelle à partir du menu déroulant en mode 
+                          "entrainement" (mode DOM)
+                          
+                          Utiliser 5 ou 7 bots. Nombre de points = 150
+
+* Copyright / Permissions *
+
+The niveau est (c) Bernard Texier 1999.
+Si vous le trouvez sur le Net il est sensé être testé correctement.
+Vous n'êtes pas autorisés a utiliser ce niveau a des fins commerciales
+c'est à dire à le recopier sur un CD ou tout autre support électronique
+pouvant être vendu, sans la permission explicite de l'auteur.
+
+Si vous avez aimé ce niveau, vous avez le droit de la diffuser sur le
+le réseau (internet, FIDO, local BBS etc.), dans la mesure ou vous 
+laissez l'ensemble des fichiers intactes, y compris cette déclaration.
+
+===============================================================================
+                
+

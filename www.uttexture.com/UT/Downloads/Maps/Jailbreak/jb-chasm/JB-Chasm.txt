@@ -1,0 +1,67 @@
+================================================================
+Title                   : JB-Chasm
+Version                 : Version 1
+Release Date            : 
+Filename                : JB-Chasm.zip
+Author(s)               : Morgan 'Botman' Eves -- conversion by /=-
+Email Address           : john73580@hotmail.com
+Web Page                : None
+Description             : A small town with 2 opposing bases
+
+Where to get this map   : 
+Other levels by author  : CTF-Pooltable
+Additional Credits to   : Morgan 'Botman' Eves for designing one of my favorite CTF maps
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Chasm
+Single Player           : No
+Cooperative             : Yes
+Deathmatch              : No
+Difficulty Settings     : Reccomend Adept-Godlike
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : None 
+
+--- Construction ---
+Editor(s) used          : Unreal ED
+Base                    : CTF-Chasm
+Conversion Time         : 1 day
+
+
+Installation
+------------
+Put JB-Chasm into your maps directory
+
+Extended description:
+--------------------
+This takes place in a small town split in the middle by a chasm cut out by a river. On each
+side of the chasm are several buildings including a sniping tower, jail, team base, and other
+misc buildings. All the buildings are old and falling apart.
+
+Author's Notes
+--------------
+You need the Breakout mod to play this map.
+Getting the jail zone to work was a bitch
+
+Copyright / Permissions
+-----------------------
+The author doesnt care what you do with the level as long as you give him credit so if you wanna
+convert it to another mod or something just give Botman credit.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

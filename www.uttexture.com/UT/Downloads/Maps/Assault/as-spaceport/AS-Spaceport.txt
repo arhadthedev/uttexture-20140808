@@ -1,0 +1,24 @@
+		   AS-SPACEPORT
+
+
+
+==================================================
+
+          Map:  AS-Spaceport 
+         Type:  UT Assault
+      Players:  10-16
+       Author:  Apollo X
+Single-Player:  true
+         Bots:  true
+Time to build:  about 1 month
+ Editors used:  UnrealEd / UnrealEd 2.0
+
+==================================================
+
+Of course you are allowed to dublicate the map and
+give it to friends, but you mustn't change it or
+build other maps on its base.
+
+HAVE FUN PLAYING THE SPACEPORT
+
+		APOLLO X

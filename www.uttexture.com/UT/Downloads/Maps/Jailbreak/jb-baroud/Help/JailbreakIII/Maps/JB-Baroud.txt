@@ -1,0 +1,56 @@
+================================================================
+Title                   : Baroud d'honneur !
+Version                 : 1.0
+Release Date            : 01 August 2004
+Filename                : JB-Baroud.unr
+Author                  : Robin 'Rob' Pamart
+Email Address           : robert.pamart@wanadoo.fr
+                          thekrallmaster@msn.com
+Other maps by author    : CTFM-AncientTitanV110, CTFM-JadePyramid][, CTFM-Drearylike
+                          JB-AncientTitan-III, JB-Gauntlet-III-130, JB-Dreary-III, JB-Command, JB-Community, JB-Darkarix, JB-Pandora, JB-SkyTitan, JB-Darkarix][, JB-PhimosisIV
+                          MH-Kittara
+
+================================================================
+--- Play Information ---
+Game Type               : Jailbreak
+Single Player           : yes
+Multiplayer             : yes
+New Sounds              : no
+New Graphics            : no
+New Music		: no
+Known bugs              : none
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : new level
+Construction time       : about 2 weeks
+
+Installation
+------------
+Place the file JB-Baroud in your UnrealTournament/Maps. You can either doubleclick the file, or start a practice session.
+
+Credits
+-------
+Screen by Mychaeel.
+CrokxAdds by Crokx.
+Thanks to CoolDude for finding the cause of a nasty bug.
+
+Copyright / Permissions
+-----------------------
+
+This level is copyrighted by Robin Pamart, 2004.
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

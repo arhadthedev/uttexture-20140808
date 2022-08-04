@@ -1,0 +1,59 @@
+Unreal Tournament JB Map
+
+================================================================
+Title                   : Babylon
+Release Date            : 16th April 2002
+Filename                : JB-Babylon.unr
+Author                  : Aaron "RevBillyG" Tuxford
+Email Address           : revbillyg@btinternet.com
+Web Page                : http://www.revbillyg.com
+
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : Babylon
+Game Type               : Jail Break
+Single Player           : yes
+Multiplayer             : yes
+JB Arena		: yes
+Escape Route		: no
+New Sounds              : no
+New Graphics            : yes - New textures takem from Serious Sam 2
+New Decorations		: yes
+New Music		: no
+Known bugs              : None
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : New level
+
+=========================================
+Special thanks
+
+A special thanks to:
+SexMachine for suggestions and bug testing.
+ElBundee for the cool HeroStatues.
+Mychaeel for the amazing screens and helping me out when I couldn't get the hi-rez screenmaps to work.
+All the Jailbreak team for creating a fantastic mod.
+
+
+Copyright / Permissions
+-----------------------
+
+This level is copyrighted by Aaron Tuxford
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

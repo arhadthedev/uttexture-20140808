@@ -1,0 +1,64 @@
+================================================================
+Title                   : DOM-11nthHourDomination
+Version                 : 1.0
+Release Date            : December 09, 1999
+Filename                : DOM-11nthHourDomination.unr
+Author(s)               : (Arbitrage) Staton Richardson
+Email Address           : staton@sprintmail.com
+Web Page                : www.unrealcontest.com/arbitrage
+Description             : Domination
+Other levels by author  : DM-FuryXXI, DOM-FuryXXI, (WOT)Arena-shrineoftomes
+Additional Credits to   : #unrealed
+
+================================================================
+--- Play Information ---
+Game                    : Unreal
+Level Name              : DOM-11nthHourDomination
+Single Player           : Botmatch
+Domination              : yes
+Cooperative             : Not Really
+Deathmatch              : No
+Dark Match              : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : No
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Base                    : None
+Construction Time       : day or so
+
+
+
+Installation
+------------
+Unzip the .unr file into your Unrealtournament/maps/ directory and enjoy.
+
+Author's Notes
+--------------
+I found a way to get bots to use Kickers in the path.
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyright Staton Richardson 1999.
+
+Authors may not use this level as a base to build additional levels.
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

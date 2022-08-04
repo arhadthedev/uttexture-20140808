@@ -1,0 +1,68 @@
+================================================================
+Title                        : CNQ-Overlord
+Version                      : 1.0 (v1.0 CNQ)
+Release Date                 : 18/09/2000
+Filename                     : CNQ-Overlord.Zip
+Original Author (CTF Version): Dave Ewing 
+Author (CTF4 Version)        : Paul 'Red_Dwarf' Taylor
+Email Address                : mr@paulta@force9.co.uk
+Web Page                     : www.reddwarfut.com
+Description                  : A CNQ map conversion of Dave Ewing  'AS-Overlord'.
+Additional Credits to        : Dave Ewing (Hope he likes it :-)) ,Thanx to Major Disaster for the Mod, Dufustle for starting the idea and to Oli and all the rest for testing.
+
+================================================================
+--- Play Information ---
+Game                         : Unreal Tournament CNQ
+Level Name                   : CNQ-Overlord
+
+Single Player                : No
+Cooperative                  : No
+Deathmatch                   : Wheres he gone? :-)
+Dark Match                   : Not by design, but there is a Darkmatch mutator (thanks Eavy!)
+Difficulty Settings          : No
+New Sounds                   : No
+New Graphics & Textures      : Yup quite a few
+Additional Brushes           : A few
+Known bugs in map            : Killed 'em all!  But you never REALLY know....
+ 
+
+--- Construction --- 
+Editor(s) used               : UnrealEd 1 & 2 Beta for UT
+Original Base                : AS-Overlord by Dave Ewing
+Converted Base               : CNQ-Overlord by Red_Dwarf
+Conversion Time              : 2 Days on and off with testing and feedback (to convert to CNQ)
+
+
+Installation
+------------
+Unzip the CNQ-Overlord.unr (map) into the \Map folder under the Unreal Tournament folder.
+Unzip the SignOver.utx (texture) into the \Texture folder under the Unreal Tournament folder.
+
+Author's Notes
+--------------
+Red_Dwarf:       This first came to me when I read a thread on the GT forum. Dufustle had converted Face into a 1 Control point
+		 Domination map. Time went by and then the theme came up again, this time a guy called Major Disaster took up the 
+		 idea and started a mod called Conquest. The game play was like the original King of the hill in Unreal. I basically
+		 took the assault map and made it smaller. Added more routes in added allot more brushes and this is the outcome of it all.
+
+
+Copyright / Permissions
+-----------------------
+This level and textures are copyrighted by Red_Dwarf (Dave Ewing original level). 
+
+Authors may use this level as a base to build additional levels, but please just confirm with us first :-).
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from 3D Realms to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

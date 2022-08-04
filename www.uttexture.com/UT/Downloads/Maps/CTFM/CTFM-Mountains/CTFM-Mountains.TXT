@@ -1,0 +1,64 @@
+	    ====================================================
+	     Map for the mod MultiTeam CTF of Unréal Tournament
+	    Site official <http://www.PlanetUnreal.com/MultiCTF>
+	    ====================================================
+-----------------------------------------------------------------------------
+
+			    CTFM-Mountains.unr
+
+-----------------------------------------------------------------------------
+Map name:			Mountains
+Game type:			MultiTeam CTF
+Recomended player count:	4x4 => 16
+Stature:			Large
+Weapons available:		[ ]
+Translocator:			[x]
+Rejoin Teams:			[x]
+Use texture 'CTF4Team.utx':	[ ]
+
+Capture bonus:			No
+Team out -> Base close:		No
+
+New Scripts:			No
+New Sounds: 			No
+New Textures: 			Yes, in 'MyLevel'.
+
+Editor used:			UnrealEd v2.00 (UTv436)
+Release Date:			10/10/01
+Build time:			3 days (10 hours)
+
+-----------------------------------------------------------------------------
+Author:				Crokx
+E-Mail:                  	Crokx@Infonie.fr
+Site:				http://perso.infonie.fr/crokx
+
+Other levels by author:		CTFM-5Cubes_CrokxMapPack (9 small maps)
+				CTFM-Bunker
+				CTFM-Classik
+				CTFM-FatalDecks
+				CTFM-GiantsTowers
+				CTFM-InoxxStation
+				CTFM-InstaGIB
+				CTFM-LavaForme
+				CTFM-LavaForme][
+				CTFM-Modern
+				CTFM-Modern][
+				CTFM-Mortal
+				CTFM-Rédemption
+				CTFM-Sewer
+				CTFM-SkaarjShip
+				CTFM-SkaarjShip][
+				CTFM-SlimeRotor
+				CTFM-SlimeStation
+				CTFM-Snare
+				CTFM-SnipeDream
+				CTFM-StationSpaciale
+				CTFM-TestRoom]I[
+				CTFM-Tutorial][
+
+-----------------------------------------------------------------------------
+
+		MultiTeamCTF (c)2000/2001 Colin McCann.
+	        Unreal Tournament (c)1999 Epic Megagames, Inc.
+
+-----------------------------------------------------------------------------

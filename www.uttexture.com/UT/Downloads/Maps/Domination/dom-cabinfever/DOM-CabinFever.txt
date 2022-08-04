@@ -1,0 +1,61 @@
+================================================================
+Title                  	: Cabin Fever
+Version                 : 1.0
+Release Date            : February 7, 2001
+Filename                : DOM-CabinFever.unr
+Author(s)               : Dan "Chimaeros" Genovese
+Email Address           : chimaeros@worldnet.att.net
+Web Page                : http://chimaeros.home.att.net
+Description             : A mountain lodge, a blizzard, and lethal weapons of destruction.
+			  Mayhem ensues.  A whole new meaning to "Cabin Fever."
+
+Other levels by author  : CTF-Arboreal
+Additional Credits to   : Ken Cleary, for reminding me that snow falls downward and doesn't just float in space :P
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Cabin Fever
+Single Player           : Botmatch
+Cooperative             : Yes
+Deathmatch              : 8-12 players suggested (plenty of player starts for more)
+Domination		: 8-12 players suggested (plenty of player starts for more)
+Difficulty Settings     : None
+New Sounds              : None
+New Graphics            : Some, Trail map is from Windham, NY
+NewUnrealScript         : None
+External DLLs           : None
+Known bugs              : One HOM that I am aware of in the Dining Room--should be rare to 
+			: see it--I moved, tweaked, deleted--still there.  Any suggestions welcome :)
+			: Framerates may drop in the central areas, depending on your system
+
+--- Construction ---
+Editor(s) used          : UnrealED 2.0
+Base                    : None
+Construction Time       : 3 weeks (approx 60 hours)
+
+Installation
+------------
+Unzip the .unr file into your UnrealTournament/maps/ directory.  To play as Deathmatch, rename (or make an additional copy) to DM-CabinFever.
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyright Dan Genovese 2001.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+Unreal Tournament (c) 1999 and UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo 
+are registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

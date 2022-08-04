@@ -1,0 +1,80 @@
+===============================================================
+Title                   : CTFM dwang
+Version                 : 1
+Release Date            : 17/May/2001
+Filename                : CTFM-dwang.zip
+Author                  : SS_DeCoNtRoL
+Email Address           : fred_bickford@yahoo.com 
+Web Page                : n/a
+			
+================================================================
+
+--- Play Information ---
+
+Game                    : Unreal Tournament
+Level Name              : DM 
+Single Player           : No
+Cooperative             : No
+Botmatch		: Yes
+Deathmatch              : YES
+Capture the Flag 	: No
+Assault			: No
+Domination              : No
+Other			: No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Known bugs              : None
+
+Level Info
+----------
+
+
+--- Construction ---
+
+Editor(s) used          : Map was brought in as a quake.bsp and rebuitl and textured in UnrealEd v2
+Base                    : 
+Construction Time       : No Idea.
+
+Files Included
+--------------
+
+dm-dwang4m8.unr
+dwang4m8_readme.txt
+
+Installation
+------------
+
+Unzip .unr file into \maps folder under the Unreal Tournament folder.
+
+Where to get this Map
+---------------------
+
+Nali City 
+
+Thanks To
+---------
+The original map creator,  this map always played well with a small one-on-one in Quake1, so
+I felt compelled to rebuild it for all newbies to enjoy .... 
+
+
+Copyright / Permissions
+-----------------------
+
+This level isnt copyrighted by anyone, who could I sue, it wasnt mine in the first place..
+
+Authors may not NOT use this level as a base to build additional levels., sure go ahead
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

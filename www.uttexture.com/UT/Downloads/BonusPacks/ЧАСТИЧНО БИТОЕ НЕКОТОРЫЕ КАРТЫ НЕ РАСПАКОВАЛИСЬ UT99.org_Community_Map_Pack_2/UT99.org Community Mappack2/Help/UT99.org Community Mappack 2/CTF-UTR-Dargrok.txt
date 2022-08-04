@@ -1,0 +1,66 @@
+CTF-UTR-Dargrok Readme File.
+============================================================================
+Title                   :CTF-UTR-Dargrok
+Version                 :v1.0 
+Author                  :editor Dave
+Email Address           :david.rauh@web.de
+Web Page                :coming soon
+============================================================================
+--- Level Info ---
+Level Name              :Castles Of Dargrok
+Gameplay Style          :Capture The Flag
+Player Count            :10-16 players
+New Sounds              :No
+New Music               :Yes (in MyLevel)
+New Textures            :Yes, but copyrighted by Epic (everything in MyLevel)
+NewUnrealScript         :Yes, the new PickUps-System
+New Meshes              :Yes (MyLeveled)
+Bugs                    :BSP holes may appear if you contol reedeemer rocket
+============================================================================
+--- Credits ---
+- Thanks to Creavion, GenMoKai, Feralidragon, FrozenDozer, Mr. Tom and Aalexanderrr for giving me Feedback
+- Thanks to Epic, who made the great game Unreal and the UT series
+- Again, to Epic for their Castle1.utx package from their early Unreal version (it was included in Unreal Gold)
+- Thanks to Creavion for pimping the main wall texture
+- Thanks to Feralidragon for his XPickups 
+- Thanks to Mr. Tom, who made the great music track I called "Battle For Dargrok"
+- Thanks to everyone else, who I might have forgotten.
+============================================================================
+--- Construction ---
+Editor(s) used          :UnrealEd 2.0, XnView
+Base                    :None - built from scratch
+Construction Time       :Uh, building the map took me three months, Bug Fixing, and making the map better took me 11 months on and off.
+============================================================================
+--- Installation ---
+Copy the CTF-UTR-Dargrok.unr file to your UnrealTournament/Maps directory
+Copy xpickups.u and xpickups.int to your UnrealTournament/System directory
+============================================================================
+--- Story Line ---
+Every time whenever king dies a new one has to be found. The problem is that the Kingdom of Dargrok has two princes- Everald III, and Rhobar XI. Each one of them has their own castle.  However, only one prince may govern the lands of Dargrok. Of course, none of them wants to give up their power, so they decide to organize a tournament in which its winner may overtake the predecessor 's throne. Today the old king of Dargrok has died and the battle is about to begin...
+============================================================================
+--- Author's Notes ---
+Like I said before this map is quite high-poly. It is fun with ten players; bigger amount of those you have, more action you will get. 
+I wanted to build a similar to CTF-Face map, and I think, I succeeded. There are quite a lot of possibilities for sniping. Very simple routes between bases and quite a lot of space - all that was featured in Face, too.
+CTF-UTR-Dargrok contains also the new Weapon-Lockers from the XPickups-System. If you want you can write an E-Mail with all the feedback you have. This is going to be the only MP-map by me -  Singleplayer maps are much more fun to make. I hope you enjoy my map :)
+============================================================================
+--- Other levels by author ---
+-SP-Vulkantempel: Please don't search for it; it is my first map. Looks ugly.  
+-SP-UTR-Unforchers: The first map of an yet unnamed episodial releasing MOD. 
+
+============================================================================
+--- Copyright / Permissions ---
+This level is copyrighted by editor Dave.
+You MAY NOT use this map as a base for other levels unless you ask me about that.
+
+You MAY NOT commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+============================================================================
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

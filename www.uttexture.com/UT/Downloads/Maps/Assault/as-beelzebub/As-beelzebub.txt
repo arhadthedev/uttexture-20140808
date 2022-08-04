@@ -1,0 +1,85 @@
+================================================================
+Title                   : AS-Beelzebub
+
+Author                  : Tynan "Dr. Crowbar" Sylvester
+
+Date                    : 26 June 2000
+
+Filename                : AS-Beelzebub.zip
+
+File contents           : AS-Beelzebub (Map)			  
+                          AS-Beelzebub.txt (This file) 	
+
+			
+Email Address           : dsylvester@sympatico.ca
+
+
+Description             : A virus known only as the Beelzebub virus has been engineered by Liandri
+			  For use in biological warfare. Other efforts to destroy it have been 
+			  successful, so the only specimen remaining is on a high-security spacetrain 
+			  heading from a military base on an asteroid to Liandri space, where it
+			  will be secure. The spacetrain must be stolen.                 
+  				
+Comments		: I tried to put in a screenshot, and spent about a week tring to make it
+			  work, but all my efforts have gone unsuccessful. Its a problem with 
+			  UED2: I cannot access a "none" category in my texture packages.
+			
+================================================================
+
+Play Information	
+
+Single Player Assault   : Yes 			 
+Deathmatch              : No
+Assault			: Yes
+Recommended No. Bots    : 3-15
+Comments		: I spent a LONG time making the bots work right. Enjoy them.
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "AS-Beelzebub.unr" into your UnrealTournament/Maps folder.
+
+KNOWN Problems: Sometimes a few minor HOM effects...
+		Performance could be a bit better on the bridge 
+		If you find any bugs grumble and complain to yourself.
+
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd2
+
+Build Time              : You dont want to know...
+
+
+===================================================================
+
+Other maps by Author:
+
+AS-Deathrow
+SW-Ghetto
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.) or through any other means, provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file or AS-DeathRow.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

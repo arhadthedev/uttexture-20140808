@@ -1,0 +1,46 @@
+                        Unreal Tournament Voice Pack:
+
+                                   Joschi
+
+Autor: Markus Wallmüller
+Email: JKiller@gmx.at
+Datum: 10.4.2001
+Version: Fertig !
+Files: Joschi.u
+       Joschi.int
+       Joschi.uax
+       Joschi.txt
+Installation: 
+
+Joschi.u and Joschi.int in den System Ordner
+Joschi.uax ind den Sound Orndner
+Joschi.txt in den Help Orndner
+
+Andere Sachen von mir: 
+
+UT-maps:
+
+DM-Aila
+DM-ThallerDeathmatchArena
+DM-Tika
+DM-April
+DOM-Satan
+CTF-OldHouse
+Ctf-Kirche
+DM-BatsGalleon
+DM-DeadlyDream
+CTF-War
+und noch viele anderen....
+
+Beschreibung: Joschi, vieleicht kennt ihn jemand. Der sympathische Prolo aus dem Kaisermühlen Blues. 
+Das ist mein erstes Voicepack für UT. Ich hoffe es gefällt euch !
+Schreibt mir doch ne mail: was euch gefällt und was euch nicht gefällt !!
+
+JKiller@gmx.at
+
+Credits: Markus Thaller, Vortexx (www.Vortexx.de.vu), Bernhard Böhm...
+         Entschuldige falls ich jemand vergessen habe !
+
+Copyrighted (c) 2001 by Markus Wallmüller
+All Rights reserved.
+ 

@@ -1,0 +1,171 @@
+=========================================================================
+
+Title         	: Planeshifter - SP
+			: (part two in the Warlock trilogy)
+Filename          : AS-Planeshifter.zip
+Version           : Version SP1.1   3/10/2000
+
+Description     : Assault map for Unreal Tournament, single player
+		: only.
+		: It's almost the same layout as the multiplayer
+		: version, with far less inventory.  It's a great way
+		: to learn the level if you intend on playing it multi,
+		: or a challenge all its own!
+		:  This may be the most complex map you've
+		: played- I suggest reading through this document!
+
+Author            : NarkyBark, aka Damon Psarris
+Email Address     : psarris@cesium.clock.org
+Misc. Author Info : http://www.clock.org/~psarris
+Recent author maps: AS-Resurrection, DOM-Chessboard, DM-Ether, others
+Credits to        : Everyone on the boards for amazing feedback!
+		  : The architecture in the Water plane is from the
+		  : Unreal level 'Dark Arena'.  Heavily modified, of
+		  : course.  All other content original.
+
+=========================================================================
+
+-=[ Play Information ]=-
+
+Game              : Unreal Tournament
+Maps              : AS-Planeshifter
+Singleplayer      : Yes
+Multiplayer       : No
+Deathmatch        : No
+Domination		: No
+CTF			: No
+Assault		: Yes!
+New Sounds        : Yes
+New Graphics      : Yes
+Recommended Players: One.
+
+-=[ Construction ]=-
+Base              : new map from scratch
+Build Time        : about two months building time
+Editors used      : UnrealEd
+Known Bugs        : None.  This version is not intended for bots.
+			: See below for performance issues.
+			: There is no defensive mode to this level; once
+			: offense is completed, you will respawn as defense-
+			: even though you may run through the level in this
+			: mode, you cannot trip the crystals.
+Files included		: This .txt file, AS-PlaneshifterSP.unr, and
+			: AscTex.utx.  Note: AxcTex is the exact same file
+			: as the multiplayer version.  Either one may be
+			: used.
+
+=========================================================================
+
+-=[ Installation ]=-
+
+Unzip the .zip file.  Look in your UnrealTournament directory.
+The .unr file goes in your MAPS folder, and the .utx file goes in your TEXTURES folder.  Voila!
+
+===============================================================
+
+-=[ Description and Goals]=-
+
+Be ready for battle!  This isn't a single player map about finding the
+button and opening the door.  This is about COMBAT, and lots of it!
+Learn how to gain ground, fight selectively and dance like the pros,
+you'll need it!
+
+PROLOGUE:
+The Warlock has been resurrected by the forces of Chaos.  Needing time to regain his power, he has banished you and other forces of Order to the Nether Planes to face indefinite imprisonment.  The Warlock has made many
+enemies over the years, enemies which now help you in your fight.  The
+Nali are a race of mystical beings with the innate ability to planeshift. 
+Using meditative energies, they can phase in and out of planes as they
+need to, usually to escape danger.  While they can't teach others how to do this, they have built portals and safe pockets between planes where the forces of Chaos cannot reach you.  Using their portals, you will be able to traverse the planes and ultimately return to your Material plane in order to defeat the Warlock before he regains his might.
+
+OFFENSE:
+You start in Haven, a hub of portals built by the Nali to allow others to traverse planes. Chaos cannot reach you here.  Two portals have already been opened to you- the planes of Fire and Water.  Your ultimate goal is to reach and open the plane which houses the Material Gateway, shown here.  There are several routes to get there, experience will teach you which is best.  Note that each plane also contains portals to other planes- they link together in a daisy-chain pattern.
+
+Each plane also contains a crystal.  When the energy from a crystal is released, it can be used to open a doorway to that plane directly from Haven.  It is therefore very wise to activate a crystal when you see one, for it will give you more options for travel.  Note that the crystals in Fire and Water have already been activated; their doors are open to you from the start.  Crystals are activated by merely touching them; they also may be activated by inflicting large amounts of damage on them, fracturing them and causing a release of energy.
+
+This is the final Material Gateway, your goal.  Here there are seven crystals; all seven must be activated.  You will then be able to return to your origin, the Material Plane, where the Warlock must be defeated once and for all.  The game ends when you activate all seven crystals in the Gateway.
+
+DEFENSE:
+Note that there is NO defensive mode to this Assault level.  Once you
+complete the offensive attack, the game is over!  You will respawn as
+defense, but there is no point, for although you can run through the
+level, you cannot trip the crystals.
+
+========================================================================
+
+-=[ Finish Times ]=-
+
+You have 25 minutes to complete your task.  See how fast you can do it!
+
+Within 25 minutes:  Acceptable.
+Within 20 minutes:  Good.  You have strong fighting skills.
+Within 15 minutes:  Excellent!  You will be a warrior against Chaos!
+Under 10 minutes:  Superb!  You are truly an avatar!
+
+========================================================================
+
+-=[ Performance Issues ]=- I made sure that you should not have any framerate problems due to polygons or node count.  They are low within most areas, and acceptably high in two areas.  What MAY instead cause stuttering is due to the massive texture usage used by this level.  The more RAM or texture memory you have, the better.  This is extremely noticable when you first start the level, and any time you enter a new plane- a new texture set must be loaded.  Once the textures load, you should be fine.  The same may also apply to music tracks, there are a few used throughout- there should only be a second pause when the song loads (usually when you enter a new plane).  I recommend that when the game starts, you fire a round of all weapons you intend to use, this will load the textures for the firing animations and not give you a surprise stutter later on when you're in a firefight.  This will vary depending on the user's system of course, but I expect that a bit of texture stuttering will be encountered.  This is normal, and should become nonexistant as the game progresses.  This level also contains an insane
+amount of computer controlled enemies, and so may have lower framerates
+than the multiplayer version if you don't have the CPU power to handle
+it.  Again, they are optimized to hopefully minimize this effect.
+
+=========================================================================
+
+-=[ Strategies and Hints ]=-
+
+You may not want to read this section if you like discovery.  But since this IS a complex level, here are some pointers and things you may not realize at first.
+
+1.  Most importantly:  traversing the planes.  This seems very complex and chaotic at first, but it's not.  They actually follow a linear path, with the option of reversing your direction, so that's what you need to take care not to do.  In the correct order, here is how the planes are set up.
+Tier One: FIRE and WATER
+Tier Two: HIVE
+Tier Three: AIR and STONE
+Tier Four: TEMPLE
+Tier Five: GATEWAY
+From each plane, you will have the option of travelling to the next tier, or to another plane in the same tier.  You cannot travel to a lower tier.  
+
+2.  Some people do not like fighting in strange atmospheric conditions; water, gravity, etc. The game is planned out so that if you do not like fighting in such environments, you do not have to.  Those planes can be avoided altogether!
+
+3.  Sometimes the crystals are a little off the beaten path, and you may wonder if you should just run for the portals.  Big risk, but big reward.  If you make it, and are able to activate the crystal in the NEXT plane, you just skipped an entire section and saved that much time.  However, if you are caught and are killed, since you didn't activate the crystal and open the door from Haven, you will lose that much ground when you respawn. Some of the planes are very large; it is usually wiser to go for the crystals, but hey...
+
+4.  Ammo is very precious, do not waste it.  Weapons, health and armor are also difficult to come by.  If you're having difficulty with a plane that you need to get through, it may be worth your while to go one plane back and pick up a weapon you may do better with...
+
+5.  The Nali have placed a few little shrines around the planes, which hold artifacts that are powerful version of other items.  These are usually very out of your way to get, but your playing style may make it worthwhile.  There are fewer artifacts in the SP version than there are
+in the multiplayer version.
+
+6.  If defense is totally blocking you from reaching a crystal, remember that you can also shoot them, although it will take a few shots.  This makes a seemingly impossible configuration like the Gateway much easier to finish.
+
+7.  You must make constant decision on whether to run or fight.  If you try a pure running game, you will fail; if you try a pure fighting game, you will run out of time.  Do what you must to gain as much ground as possible.
+
+8.  If you shift into a plane on the same tier, you will end up in the central area of that plane.  In some situations, that may be useful.
+
+9.  You do not start out with the power weapons, but the ones you do start with will always be available to you and can be quite useful in a lot of the planes.  Be wary of the minigun- although it is a useful weapon, it runs through ammo fast, and ammo is precious.
+
+10.  You may notice that when shifting, sometimes it will a mere fraction of a second, and sometimes several seconds.  You have control over this- if you want to get there immediately, just head to the light.  It also depends on what setting you have AirControl at.  Also, if you're being chased by enemies, don't be suprised if they shift with you!  You won't be able to hit them while shifting, but be ready when you rematerialize!
+
+11.  It is extremely unlikely that you will be able to clear out an entire plane of foes.  However, it is possible, and desirable, to clear out a good portion of enemies in each plane.
+
+12.  Some creatures, like the Skaarj, are very aggressive and will even fight with each other.  Use this to your advantage.  
+
+-=[ Author Notes ]=-
+
+This level was such a labor of chaos for me... I started out with extremely high expectations, and then of course realize I pushed the engine further than I should have, and so had to tone things down.
+For example, for those of you who know what these levels are made of,
+it currently exists of 21,000 polys, 63 zones, a long rebuild time... to make it short, I basically had to leave things in a little rougher shape than I had intended.  It's getting too big!  So I figured I'd keep the size, and keep the detail low.  I also chose not to include custom sound effects for the Warlock this time around, and not to animate him.  I also originally intended for this level to be bot compatible.  After
+toying with it for a month, I realized that bots were probably going to
+be impossible.  I had redone the entire pathnode, trigger and inventory networks about six times.  Needless to say, it got redundant after a while.  So I figured I'd just specialize in a multiplayer experience, and then I could add little things like the "shifting", which would just complicate botplay.  I thought about chopping up pieces of the level, it was certainly easily enough to dissect- but I felt like I was breaking up a unique piece of work, and decided to keep it all together.  I do think I'll make seperate levels exclusively on two plane themes, but I'll keep silent on that for now!  I just hoped I could get close to a single-player "explorer" experience with gameplay- there's a lot to see,
+and you don't even need to see it all through a whole game.  All in all, it was a great learning experience, especially with trying to make large outdoor areas and keeping poly rates down.  Plus, in trying different environments.  I hope they inspire just a little sense of wonder and exploration.  
+
+I don't expect I'll make a map like this again- it was very difficult and fraught with problems, working on a map this size.  But I always have been on to try what hasn't been done before... much to the chagrin of my lack of sleep!  ;)  You'll be seeing my next map soon- and of course, I love feedback!  Let me know what you think.  Have a good one!
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+This level is copyright (c) 2000 Damon Psarris.
+This level is not supported by Legend Entertainment or Epic Games.
+Any reproduction or commercial distribution of the map file is prohibited without the prior permission of Damon Psarris.  Ask me, I'll probably say yes. (altho I'd have to modify something first...)
+
+You are allowed to distribute this level on a non-commercial basis, for example over the internet and any other medium that is free of charge. You must distribute the whole ZIP with .unr and .txt file, though.
+
+-=[ Where to get this level ]=-
+
+Hopefully you have it already!
+http://www.clock.org/~psarris/levels
+I HOPE YOU LIKE THE MAP!  I Put many hours into making it, and I hope that it is enjoyable for you.  Cheers!

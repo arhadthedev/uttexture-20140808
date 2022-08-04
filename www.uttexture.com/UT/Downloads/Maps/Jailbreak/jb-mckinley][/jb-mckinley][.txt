@@ -1,0 +1,144 @@
+JB-McKinley
+
+ReadMe for Unreal Tournament
+----------------------------
+
+Title: McKinley Base
+
+Filename: jb-mckinley][.zip
+
+Author: Grant 'Tahngarth[DK]' Dotter
+
+eMail Address: tahngarthdk@hotmail.com
+
+Website URL: http://communities.msn.com/tahngarthmapdesign <-(very bad :) )
+
+Release Date: Monday, August 05, 2002
+
+Last Update: Monday, August 05, 2002
+
+Version: 1.00
+
+Credits:Original map by Swartz; I really can't take much credit for this as most of the geometry
+is untouched from Swartz's map. Thanks Swartz for creating this in the first place :p
+
+Other levels by author: 
+
+UT2003- DOM-OneOnOne
+
+====================================================================================
+
+Play Information
+----------------
+
+Game: Unreal Tournament
+
+Level Name: JB-McKinley
+
+Game Type: UTOther
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Bots Only
+
+New Textures: Yes
+
+New Sounds: No
+
+New Music: No
+
+New Mutators: No
+
+Mods: Yes
+
+====================================================================================
+
+Construction
+------------
+
+Base: Conversion of CTF-McSwartzly by
+
+Build Time: at least 5 hours making the JB modifications, several more for the arena
+
+Recommended # of Players: 8-12
+
+Editor(s) Used: UnrealEd, Photoshop for the map radar in the jails
+
+Known Bugs: None
+
+====================================================================================
+
+Inventory
+---------
+
+Weapons: Impact Hammer, Flak Cannon, Ripper, Sniper Rifle, Enforcer, Pulse Blaster,
+GES Bio Rifle, Minigun, Other, ASMD Shock Rifle, Rocket Launcher
+
+Armor and PowerUps: Translocator, Thigh Pads, Health Packs, Shield Belt, Anti Grav
+Boots, Health Vials, Damage Amplifier, Scuba Gear, Armor, Keg O' Health
+
+====================================================================================
+
+Mods
+----
+
+JailBreak III
+
+Frag the enemy team in prison while keeping yours out and rescuing those that are in
+this teamplay mod. If for some strange reason you downloaded this map not having the
+mod, go here to get it: 
+
+http://www.planetjailbreak.com 
+
+====================================================================================
+
+Installation
+------------
+
+Unzip jb-mckinley][.zip
+
+Store the *.unr file in your Unreal Tournament/Maps directory, then either doubleclick
+on it, or type
+
+open JB-McKinley
+
+in the console, or select the Map in a Botmatch or an Internet game.
+
+
+====================================================================================
+
+Extended Description
+--------------------
+
+This is a conversion of CTF-McSwartzly, which is derived from CTF1M1 "McKinley
+Base," the first map in Quake's first CTF mod.
+
+====================================================================================
+
+Copyright / Permissions
+-----------------------
+
+This level is copyright 2002, by Grant 'Tahngarth[DK]' Dotter.
+Original map design is copyrighted by Swartz.
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL TOURNAMENT (c)1999 Epic Games, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================
+
+

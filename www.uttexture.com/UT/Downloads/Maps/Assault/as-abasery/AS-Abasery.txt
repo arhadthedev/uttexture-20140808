@@ -1,0 +1,65 @@
+AS-Abasery  
+Author: 	David "Integer" Veld 
+  
+File name: 	Abase.zip 
+  	
+Release date: 	7-7-2000 
+  
+File contents: 	AS-Abasery.unr
+		Abasetx.utx
+		AS-Abasery.html
+		AS-Abasery.txt(this file) 
+  
+Email Adress : 	andav@hetnet.nl 
+  
+Home page: 	www.davidveld.net
+  
+constuction time: about two month.... 
+  
+known bugs: 	Tiny HOMM. 
+
+Objectives 
+Main objective is to destroy the enemy base. Why you ask?
+You are a member of a large underground army called: 'The Dozens Army of Ten'. 
+This organization has bases all over the world and has all kind of weapons available, 
+but the US army has set up a small operation in order to locate all the bases and 
+destroy them. The map where all the locations of the bases are printed on hangs 
+in a bunker somewhere in the Rocky Mountains. 
+You and your theme must breach the base and destroy the base and the map with it. 
+Of course you can't do this without help from the organization. 
+You must send the coordinates of the bunker to the artillery located somewhere in the north.
+ After that a helicopter will come and pick you up. 
+After that the artillery will finish the job. 
+
+Notes.
+Making a map on a P. 200 MMX is a hard job -After testing my map for the hundredth time, 
+finding a little bug, fixing it in UnrealED 2.0, rebuilding it in 6 minutes- 
+takes a lot of time. Spending more time on UnrealED than at homework lets me think of 
+stopping with this waste of time... But once your map is completed you really look forward 
+to the next one that will be bigger and better than the previous one!
+And so shall it be....  
+
+Installation 
+Unzip AS-Abasery.unr (and the readme file) in your unrealtournament\maps folder.
+Unzip the Abasetx.utx in your Unrealtournament\textures folder.
+
+Copyright / Permissions
+-----------------------
+This level and html document is copyrighted by David "Integer" Veld 2000.
+Authors may NOT use this level as a base to build additional levels. 
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission! 
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact. 
+
+----------------------
+UNREAL TOURNAMENT (c) 2000 Epic Megagames, Inc. 
+All Rights Reserved. Distributed by GT Interactive Software, Inc. under license. 
+UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are registered trademarks 
+of Epic Megagames, Inc. All other trademarks and trade names are properties of their 
+respective owners. 
+ 
+

@@ -1,0 +1,79 @@
+================================================================
+Title		: Vertigo Ridge
+Version		: 1.00
+Release Date	: February 5, 2000
+Filename	: DOM-VertigoRidge.unr
+Author(s)	: Sapient6 (Jonathan D Campbell)
+Email Address	: sapient6@mediaone.net
+Web Page	: http://www.unrealkingdom.com/sapient6
+Description	: Catwalks and floating buildings set in a 
+		  gigantic midcontinental ridge.
+
+Other levels by author  : Dm-FearsHollow (Unreal)
+			  Dm-FearsHollowSE (Unreal)
+			  Dm-TorqueArena (Unreal)
+			  Dm-{DvT}Playground (Unreal)
+			  DM-AcidBurn (Unreal Tournament)
+Additional Credits to   : My wife for all her support and
+			  suggestions
+			  {DvT}Oldman and {DvT}ZOT, play testing
+================================================================
+--- Play Information ---
+Game		: Unreal Tournament
+Level Name	: Vertigo Ridge
+Game Type	: Domination
+Ideal Player Count: 6-10
+New Sounds	: None
+New Graphics	: None
+NewUnrealScript	: None
+External DLLs	: None
+Known bugs	: None
+
+--- Construction ---
+Editor(s) used	: UnrealEd
+Base		: From Scratch
+Construction Time	: Approximately one week of very concentrated
+			  and lengthy brain melting
+
+Installation
+------------
+Download DOM-VertigoRidge.zip (which you already did)
+Unzip DOM-VertigoRidge.unr to your UnrealTournament\Maps directory
+
+Extended description
+--------------------
+The search for exotic settings for Tournament matches is viciously 
+competitive. Construction crews will go anywhere and to any lengths 
+in order to have possession of arenas to sell to Liandri.
+
+VextArc Inc. is no different. And their latest exploit is a fine 
+example. Construction crews and Tournament Engineers braved brutal 
+and dangerous Na Pali for a one of a kind setting. Na Pali sports 
+a mid-continental ridge that puts Earth's Midatlantic Ridge to shame. 
+And this one isn't under water.
+
+Vertigo Ridge is set deep into the ridge far from the probing rays 
+of the sun, and far from view of the ridge's hot floor. Watch your 
+step, because it's a long way down.
+
+
+Author's Notes
+--------------
+I have not discovered any bugs in this map. I hope you don't either.
+
+Bots are fully implemented, including strategic pathing for 
+translocator jumps and specially chosen defence points.
+
+This map really doesn't work well with more than ten players. Enough 
+so that I have only included 10 spawn points (really, there just isn't
+room for more spawn points). So play with a higher player count at
+your own risk.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Jonathan D Campbell 1999.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You MAY distribute this level through any means (internet, CD, etc.), 
+provided you include this file and leave the archiveintact.

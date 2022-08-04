@@ -1,0 +1,83 @@
+>>>>>DOM-Q3meetsUT<<<<<
+
+
+
+Title                   : Q3meetsUT (DOM)
+Version                 : 1.0
+Release Date            : april 4, 2000
+Filename                : DM-Q3meets UT
+Author                  : TaroT (Mark Benton)
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             : multi room domination map which is all hard work and fun
+ive used q3 textures and a few tricks like teleporters and secrets so its
+not just a run and hold proposition,
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Deathmatch
+Level Name              : DOM-Q3meets UT
+Player #'s		: 2 to 12 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : NO
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No.
+Known bugs              : none that i an find after testing emil me if you have trouble
+or find anything please
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.13
+Base                    : New level
+Construction Time       : 2 days give or take
+                           
+
+
+>>>Installation<<<
+Unzip DM-Q3meetsUT.unr in your Unreal Tournament/maps directory.
+uzip the quack.utx to the textures folder
+unzip hades.umx to music folder
+
+>>>Author's Notes<<<
+ive added new music and graghics so it should have a good feel i hope
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+AS-alcatraz
+AS-officeworks
+As-space
+Dom-Rings
+
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+TaroT (aka Mark Benton)
+april 4, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

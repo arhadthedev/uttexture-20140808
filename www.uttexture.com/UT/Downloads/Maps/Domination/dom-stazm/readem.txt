@@ -1,0 +1,10 @@
+Author:  minimal
+Title:  Stazm
+Game Type:  Domination
+Editor Used:  UnrealED2 436
+
+Build Time: ?
+
+
+
+Bugs:  None that I know of

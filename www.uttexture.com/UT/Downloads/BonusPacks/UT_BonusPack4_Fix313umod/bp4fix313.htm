@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head><title>UT Bonus Pack 4 models fix</title>
+<style type="text/css">
+body {color:black;background:white;font-family:Tahoma,sans-serif}
+tt {color:navy;font-family:"Courier New",Courier,monospace} 
+</style></head>
+<body>
+<address>fixed by Psychic_313 at Paradox Productions<br />
+e-mail <a href="mailto:psychic_313@bigfoot.com">psychic_313@bigfoot.com</a><br />
+website <a href="http://www.pseudorandom.co.uk/paradox">http://www.pseudorandom.co.uk/paradox</a><br />
+backup website (only if pseudorandom is down) <a href="http://www.bigfoot.com/~psychic_313">http://www.bigfoot.com/~psychic_313</a>
+</address>
+<hr />
+<h1 class="bighd">
+Bonus Pack 4 skinnable models fix
+</h1>
+<h2>Summary</h2>
+<p>A fix to allow skin makers to produce and use custom skins for the WarBoss and Xan Mk.2 models supplied with Epic Games' Unreal Tournament Bonus Pack 4, released December 2000.</p>
+<ul>
+<li>Skinnable versions of WarBoss and Xan Mk.2 models</li>
+<li>Talktexture support</li>
+<li>New HUD status icon for WarBoss</li>
+<li>Enables WarBoss and Xan Mk.2 to use any male voicepack</li>
+<li>Enables any model which uses male voicepacks to use the Robot (Xan) voice</li>
+<li>Requires <tt>SkeletalChars.u</tt> from <a href="http://www.unrealtournament.com">Epic Bonus Pack 4</a></li>
+</ul>
+
+<h2>Installation</h2>
+<p>Just to state the obvious: you need to install the 14MB Bonus Pack 4 first! The UMOD checks for the presence of  Bonus Pack 4, so if you used the non-UMOD version of the Bonus Pack, you have to use the non-UMOD version of this fix as well.</p>
+<p><b>UMOD version</b> (<tt><a href="http://www.pseudorandom.co.uk/paradox/unreal/bonuspack4fix313umod.zip">bonuspack4fix313umod.zip</a></tt>): double-click to install on Windows systems. [A UMOD installer is also available for Linux, I think.] Download the "separate files" version below if it doesn't work.</p>
+<p><b>Separate Files version</b> (<tt><a href="http://www.pseudorandom.co.uk/paradox/unreal/bonuspack4fix313files.zip">bonuspack4fix313files.zip</a></tt>): extract all the files from the ZIP file to {your Unreal Tournament folder}<tt>\System</tt>.</p>
+<p><b>Both versions</b>: open {your Unreal Tournament folder}<tt>\System\UnrealTournament.ini</tt> in Notepad or equivalent and find the heading <tt>[Engine.GameEngine]</tt>. Look for a block of lines which start with "<tt>ServerPackages=</tt>" and paste in either of the following if they aren't already there:</p>
+<pre><tt>ServerPackages=SkeletalChars
+ServerPackages=SkeletalCharsFix313</tt></pre>
+<p>The first should be added by Bonus Pack 4 and the second should be added by the UMOD version of this fix, but check them anyway.</p>
+<h3>Male/Xan voices</h3>
+<p>By default, two versions of each fixed model appear, one which can use the Robot (Xan) voice and any custom Robot voices, and one which can use any Male voice including custom voices. Another fix is included which places the Robot voice in the Male list as well, and both models default to this voice.</p>
+<p>If your Class list is too full and you wish to remove one of these versions, use Notepad or the equivalent to open {your Unreal Tournament folder}<tt>\System\SkeletalCharsFix313.int</tt> and place a semicolon "<tt>;</tt>" before any of the lines starting with "<tt>Object=</tt>" to remove that variant of the model from the user interface. You will still be able to play against users of the variant you removed.</p>
+<p>If you wish to remove the Robot voice from the Male voice list, for example if you already have another fix which does the same thing, delete <tt>System\BossVoiceFix313.int</tt> or rename it to <tt>BossVoiceFix313.txt</tt>.</p>
+<h2>Making skins</h2>
+<p>For either model, a skin package should include the following textures, replacing "<tt>wxyz</tt>" with any four-letter code of your choice.</p>
+<ul>
+<li><tt>wxyz1</tt> - Main skin, 256x256 pixels<br  />(all parts of the model use a single skin, export the Epic ones from <tt>SkeletalChars.u</tt> for  examples)</li>
+<li><tt>wxyz1T_0</tt> to <tt>wxyz1T_3</tt> - Team-colour variants of the main skin. If these are not included, the Epic skin will appear instead.</li>
+<li><tt>wxyz5</tt> - "Talktexture" for chat messages, 64x64 pixels. If not included, the Epic talktexture will be used.</li>
+<li><tt>wxyz5T_0</tt> to <tt>wxyz5T_3</tt> - Team-colour variants of the talktexture. If these are not included, <tt>wxyz5</tt> will appear instead.</li>
+</ul>
+<p>The packages for these skins should be called <tt>WarMachineBossSkins_*.utx</tt> for the WarBoss and <tt>NewXanSkins_*.utx</tt> for Xan Mk.2 (replace the <tt>*</tt> with the name of your skin). <i>The package names <tt>WarMachineBossSkins_Fix313</tt> and <tt>NewXanSkins_Fix313</tt> are used by the fix, don't use them.</i></p>
+<p>The INT file for your skin should be like this:</p>
+<p><tt>
+[public]<br />
+Object=(Name=WarMachineBossSkins_NameOfPackage.wxyz1,Class=Texture,Description="Skin name")
+</tt></p>
+<p>Replace "<tt>NameOfPackage</tt>" with the rest of the package name, <tt>wxyz</tt> with the same 4-letter code you used in the texture names, and "<tt>Skin name</tt>" with the human-readable name of your skin.</p>
+<p><b>Important:</b> The texture names used by Epic in <tt>SkeletalChars.u</tt> will <b>not</b> work if used in an add-on skin. Use the ones listed here instead. Don't say I didn't tell you.</p>
+<p>Apart from this, skinning these models should be the same as any others. If you want a set of "normal" skins to see the format, you can look at <a href="http://www.pseudorandom.co.uk/paradox/unreal/bp4fixtest.htm">my test skins</a>, but please note that these were not intended to be used in-game except to test the fix and were not designed to look nice. I may make some proper skins in future.</p>
+
+<h2>Credits</h2>
+<p>Original models by <a href="http://www.epicgames.com">Epic Games</a>.</p>
+<p>Fixes and WarBoss status icon by <a href="http://www.pseudorandom.co.uk/paradox">Simon "Psychic_313" McVittie</a>.</p>
+<p>Thanks to <a href="http://www.unreality.org/usaar33">usaar33</a> for telling me how to kill the warning messages and stop "skin hack" cheating, <a href="http://www.burnitbaby.co.uk">Burnt Kona</a> for his status icon tutorial, and DarkByte[S&D] for online testing.</p>
+
+<h2>The legal bit</h2>
+<p>This fix may be distributed in any way (disk, CD, network, Internet etc), as long as you distribute the whole UMOD or zip file, unmodified. Please <a href="mailto:psychic_313@bigfoot.com?subject=Bonus%20Pack%204%20fix%20mirror">contact me</a> if your site provides a mirror download for the fix, so I can notify you if I update it in future.</p>
+<p>You may include this fix with skins which require it. The UMOD version is preferred in this situation. Please do not package your skin and the fix in the same UMOD as this could lead to problems if I have to update it.</p>
+<p>By installing or using this fix, you accept responsibility for any problems it causes and agree that I am not responsible for any consequences of use.</p>
+<p>Having said that, please <a href="mailto:psychic_313@bigfoot.com?subject=Bonus%20Pack%204%20fix">contact me</a> if you have any problems and I'll see what I can do.</p>
+
+</body></html>

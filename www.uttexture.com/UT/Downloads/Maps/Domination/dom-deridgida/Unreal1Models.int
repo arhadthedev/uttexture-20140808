@@ -1,0 +1,8 @@
+[Public]
+Object=(Name=Unreal1Models.TMaleTwo,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Ash")
+Object=(Name=Unreal1Models.TMaleOne,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Carter")
+Object=(Name=Unreal1Models.TMaleThree,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Bane")
+Object=(Name=Unreal1Models.TFemaleOne,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Drace")
+Object=(Name=Unreal1Models.TFemaleTwo,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Demitra")
+Object=(Name=Unreal1Models.TournamentNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali")
+Object=(Name=Unreal1Models.TournamentSkTrooper,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="SkTrooper")

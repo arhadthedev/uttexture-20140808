@@ -1,0 +1,81 @@
+Game Information
+----------------
+Title                        : DOM-Sesmar'sRevenge
+Version                      : 1.0
+Release Date                 : 02/11/2000
+Filename                     : DOM-Sesmar'sRevenge.unr
+Original Author (DM Version) : Bjørn "The Emperor" Stenfeldt, Amplified by {LoD}Ultron
+Author (DOM conversion)      : {LoD}Ultron
+Email Address                : harlan.carroll@juno.com
+Web Page                     : www.planetunreal.com/nalicity
+Description                  : An Egyptian DOM map conversion of Bjorn's 'DM88'
+Additional Work              : Thanks to Paul "Red_Dwarf" Taylor's optimizations, 
+                             : and the {LoD} clan for their rigorous testing
+Additional Credits to        : The Emperor, for making the original Unreal map!
+
+Play Information
+----------------
+Game                         : Unreal Tournament Domination
+Level Name                   : Sesmar's Revenge
+Single Player                : No
+Cooperative                  : No
+Deathmatch                   : Rename it "DM-Sesmar'sRevenge" and have fun!
+Dark Match                   : If you use Eavy's Darkmatch mutator
+Difficulty Settings          : No
+New Sounds                   : No
+New Graphics & Textures      : Changed to UT Egyptian textures
+Additional Brushes           : None
+Known bugs in map            : None
+
+Construction
+------------
+Editor(s) used               : UnrealEd Beta for UT
+Original Base                : DM88 by Bjørn "The Emperor" Stenfeldt
+Converted Base               : DOM-Sesmar'sRevenge by {LoD}Ultron
+Conversion Time              : 2 evenings
+
+Installation
+------------
+Unzip the "DOM-Sesmar'sRevenge.unr" (map) into the \Maps folder.
+
+History
+-------
+Upon his death, Sesmar's trap was set.  He would still have his Revenge!
+After his untimely demise, his greatest enemies were hunted down and 
+trapped in a small arena, forced to fight to the death.  Liandra Corp 
+quickly bought the newly uncovered arena after it was found and 
+renovated it for frenzied Domination combat.
+
+Author's Notes
+--------------
+Ultron: I loved the original Unreal map and felt that it could be a good,
+small Domination map.  I used the Epyptian theme because it fit the map.
+This map is PURE DOMINATION.  It's all too easy to spend a few seconds 
+fragging away, but while you're busy doing that, someone else is quickly 
+adding to their score.  This map really shines with 8 people and four 
+teams!
+
+I'd also like to thank Red_Dwarf for his quick work with his finishing 
+touches.  And many thanks to The Emperor for providing the perfect base 
+for this map!
+
+Copyright / Permissions
+-----------------------
+This level is NOT copyrighted by me or Bjorn.  But I ask that authors NOT 
+use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from 3D Realms to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.  You can also
+distribute this map via CD or any other storage medium as long as there
+is no charge for anything other than shipping and/or handling.
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

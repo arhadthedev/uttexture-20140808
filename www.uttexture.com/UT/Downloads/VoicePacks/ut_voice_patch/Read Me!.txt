@@ -1,0 +1,58 @@
+This File And Patch Were Created By "Yo Moma" ©'99
+
+Members:
+o1. CodeShark
+    [codeshark@programmer.net]
+
+o2. ZekeTPA
+    [adiem@tampabay.rr.com]
+
+o3. pRoXoSoS
+    [despirited@home.com]
+
+    NOTE: Follow These Steps To Add The Boss Voice Into Your Male Character Selection
+
+o1. Unzip The BotPack.int To ?:\Unreal Tournament\System Folder [?= Drive Letter]
+
+o2. Goto The ?:\Unreal Tournament\System Folder [?= Drive Letter]
+
+o3. Open The User.ini File
+
+o4. Goto The Bottom Of The File
+
+o5. Look For These Lines
+   
+    [UTMenu.SlotWindow]
+    Saves[0]=? [?= Some Data]
+    Saves[1]=
+    Saves[2]=
+    Saves[3]=
+    Saves[4]=
+
+o6. Delete The Data Following Any Of The Saves[?]= Lines
+
+o7. Add The Following Line At The Bottom Of The File
+
+    [Botpack.Ladder]
+    HasBeatenGame=True
+
+o8. It Should Now Look Like The Following
+
+    [UTMenu.SlotWindow]
+    Saves[0]=
+    Saves[1]=
+    Saves[2]=
+    Saves[3]=
+    Saves[4]=
+
+    [Botpack.Ladder]
+    HasBeatenGame=True
+
+
+o9. Make Sure There Are 2 Blank Lines At The End Of The File If They Are Not Already There
+
+1o. Save The File
+
+11. Now Enjoy Using The Boss Voice For Any Male Character
+
+NOTE: We Decided To Name The New Voice "War Machine" Since That Is The Male Robot Charater

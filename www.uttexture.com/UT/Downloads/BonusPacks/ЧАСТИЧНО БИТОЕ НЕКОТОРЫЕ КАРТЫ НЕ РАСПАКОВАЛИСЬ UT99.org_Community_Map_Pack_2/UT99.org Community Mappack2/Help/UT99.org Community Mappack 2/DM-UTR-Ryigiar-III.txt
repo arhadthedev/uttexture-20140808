@@ -1,0 +1,99 @@
+------------------------------------------------
+
+               Title: Ryrigar III - Mappack Edition with Xpickups... 
+            Filename: DM-UTR-Ryigiar-III.unr
+              Author: Creavion
+       eMail Address: creavion@freenet.de
+         Website URL: -
+        Release Date: with the release of the UT99.org community Mappack 2
+         Last Update: ""
+             Version: 2.50 ?
+
+Level specific Credits:
+
+My biggest "Thank you" goes to Swanky. He helped me with layout.
+Texture Credits: Pandemonium, Hourences, 
+TheMatrixer (http://files.filefront.com/thematrixertexturepackszip/;4851345;/fileinfo.html), 
+Phyrotox, Somian, S'Calain, aHoi and Celticwarriors.net/unrealtexture.com (DieHard)
+for Highres Unreal Texturen, cgtextures.com und Alun Bestor(www.washboardabs.net/thief/)
+Other Credits:
+Doc for his RandomTriggerEx and his "ReTriggerDelay" Hotfix 
+Shadow for the script of the New Health Vials. (now part of Xpickups without any change)
+Roman Switch` Dzieciol for the swJumppad.
+Mychaeel <mychaeel@planetunreal.com> for his MeshMaker. 
+I hope I listed all... 
+
+Other levels by author (finished stuff):
+
+DM-Ryigiar and the other map(s) for this pack
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: DM-Ryigiar-III
+           Game Type: Deathmatch
+            Botmatch: True
+       Single Player: False
+            Teamplay: Optional
+        New Textures: Yes, partially copyrighted by Epic Games (for details look into credits part)
+          New Sounds: Several sounds from ut04 indoor ambience or so.. also by Epic Games
+           New Music: KR-Roughinery - by Kevin Riepl
+        New Mutators: False
+                Mods: False
+
+====================================================================================
+Construction
+------------
+
+                Base: Built from scratch
+          Build Time: 3 weeks or so
+   Ideal Playercount: up to 5
+      Editor(s) Used: Unreal Editor 2, Photoshop CS 2, 
+                      DB Amp Power Converter, Windows Audiorecorder 
+                      (for increasing of the volume)
+          Known Bugs: some HOMs, but mostly not visible... no bug known which can
+		      cause any serious problems.
+
+====================================================================================
+Installation
+------------
+
+ Copy DM-UTR-Ryigiar-III.unr.unr into UnrealTournament/Maps folder
+ Copy XPickups.u and xpickups.int into UnrealTournament/System folder 
+ Copy KamahT.utx into UnrealTournament/Textures folder
+
+====================================================================================
+Extended Description
+--------------------
+I guess I need a story here. But here I make it really short: This is a Tarydium
+processing plant located on Na Pali. With the time, however, it was rendered useless 
+and was transformed into Tournament arena.
+
+====================================================================================
+Author's Notes
+--------------
+
+ A re-re-release of my first DM map from fall 2007. It was supposed to have something 
+like Xpickups since the beginning.
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+
+Copyright 2008 Creavion
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.

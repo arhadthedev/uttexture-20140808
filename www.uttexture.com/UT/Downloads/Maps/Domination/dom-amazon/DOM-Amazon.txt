@@ -1,0 +1,101 @@
+===========================================
+Title: DOM-Amazon Domination/Deathmatch Level for Unreal Tournament
+Version: 1.0
+Release Date: 2-11-00
+Filename: DOM-Amazon.unr, AmazonTEX.utx
+Author: Sean Bonney
+Email Address: sbonney@anvil-studio.com
+Web Page: http://www.anvil-studio.com
+Description: Domination level based on ancient Amazon city. 
+Can be played as a Deathmatch map by copying the file "DOM-Amazon.unr" 
+in the Maps directory, and renaming the duplicate "DM-Amazon.unr".
+Where to get this release: http://www.anvil-studio.com
+
+--- Special Features ---
+The giant Amazon statues were modelled in 3D Studio MAX and
+imported into UnrealEd for texture mapping. This task could have
+made much more straightforward if there were some way to
+export brushes from MAX, while retaining the mapping coordinates.
+Anyone wishing to collaborate on the creation of such a tool is
+encouraged to contact the author.
+
+--- Play Information ---
+Game: Unreal Tournament
+Level Name: DOM-Amazon.unr (and DM-Amazon.unr)
+Single Player: Yes (vs. bots)
+Cooperative: No
+Deathmatch: Yes
+Domination: Yes
+Dark Match: No
+Difficulty Settings: No
+New Sounds: No
+New Graphics: Yes (AmazonTEX.utx)
+New Models: No
+
+Note that the "title" texture in the AmazonTEX texture set is not
+entirely original. It is largely based on a texture from Shane
+Church texture set.
+
+--- Construction ---
+Editor(s) used: UnrealEd, 3D StudioMAX
+Base: New level
+Construction Time: 50 hours level editing
+
+--- Version History ---
+1.0 Initial release
+
+--- Installation ---
+Unzip "DOM-Amazon.zip".  Place the .unr file into the MAPS folder.
+Place the .utx file into the TEXTURES folder.
+To play as a Deathmatch map, copy "DOM-Amazon.unr" in the Maps 
+directory, and rename the duplicate "DM-Amazon.unr".
+
+--- Developer Notes ---
+Level designers may use the Amazon statue brushes and textures included
+in this release in their own work, with the following restrictions:
+1. You may NOT use this content in a commercial product, contest or 
+    competition without the author's permission.
+2. You must credit the author in any text files, web pages, or other
+    publicity which accompanies your product.
+3. I would like to see what you're doing with it. Please send me URLs 
+    to where I can see your work.
+Note that the statue brushes are very complex. simply placing the entire
+statue in a big cube will result in very high node counts. It is recommended
+that you break the statue up, use only part of it, or place other brushes
+in such a way that only a portion of the whole is visible at one time.
+Another version of the statue is available in a neutral pose, which may
+make it easier to use. Contact the author for more information.
+
+--- Other Maps ---
+DM-Faith - Deathmatch level for Unreal Tournament based on altars, 
+cathedral spaces, and gothic architecture. First place, Make Something
+Unreal Deathmatch Contest. http://www.unrealcontest.com/dm_winners.html
+
+DMRockNRoll - Deathmatch level for Unreal1 based on and under 
+surface of giant asteroid. Outside areas feature craters, low gravity, 
+and field of rolling asteroids overhead. Other areas include crashed 
+alien spacecraft, underground waste treatment facility, surface 
+pressure dome, and bottomless chasm. Includes 76 new textures
+and directional work lamp object. First place, Make Something
+Unreal Texture Set Contest. http://www.unrealcontest.com/ts_winners.html
+
+--- Author's Notes ---
+Please feel free to send any and all feedback, raves, complaints, or
+awesome screenshots to sbonney@anvil-studio.com
+
+--- Copyright / Permissions ---
+This release is copyright 2000 by Sean Bonney
+Authors may NOT use this level as a base to build additional levels.
+You are NOT allowed to commercially exploit this release, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.

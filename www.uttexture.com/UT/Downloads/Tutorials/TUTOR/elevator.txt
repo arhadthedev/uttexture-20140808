@@ -1,0 +1,156 @@
+b   
+  
+ 
+  News  Submissions  Prefabs  Levels  Staff  Links 
+  
+ 
+ 
+ 
+
+ 
+ 
+   
+
+ Main 
+News 
+Submissions 
+Prefabs 
+Staff 
+Levels 
+Links 
+ 
+Editing 
+Main Page 
+Tutorials 
+Ued Errors 
+Files 
+Shortcut Keys 
+#unrealed 
+Reference 
+Edit Master 
+ 
+Scripting 
+Main Page 
+Tutorials 
+Online Classes 
+Reference 
+Code Master 
+ 
+Modelling 
+Main Page 
+Tutorials 
+Reference 
+Model Master 
+ 
+Skinning 
+Skinning Guide 
+ 
+Prefabs 
+Brushes 
+Textures 
+ 
+Hosted Sites 
+Heph's Music 
+3D Model Emporium 
+Millennium 
+VerMoorD 
+Rage TC 
+Hosting Info 
+ 
+Network Sites 
+Unrealnation 
+S.U.M.E. 
+Honor Guards 
+World of Dreams 
+ 
+Your Unrealed.net 
+If you have a Tutorial, Tip, Hint or whatever! then feel free to send it down, and we will be happy to post it on the site. 
+ 
+ 
+   
+ 
+    
+   
+   
+ 
+
+ 
+ 
+
+ 
+   
+ Basic Elevators
+
+By: Verxion
+
+Verxion
+
+Dated: 16/6/98 
+
+Download: Download Map - 463K
+
+Click here for a printable version of this Tutorial.
+
+Welp, this is my very first tutorial for UnrealED. I sincerely hope people will like it. If you find any problems with it, PLEASE email me at jc83151@goodnet.com, and I will make every effort to improve the tutorial. Before I go any further, let me explain that I am very new to Unreal, and to the "editting" scene as well. I am currently a programmer/security analyst at Boeing. But I used to do desktop publishing for a living, and I have found that a lot of what I learned there is applying to UnrealED. I am also hopeful that the fact that I am new to editting levels in general will make my tutorials more useful for people new to this program. 
+
+
+ABSTRACT:
+
+
+This first tutorial is going to go over simple elevators. Let us consider what the pieces are that we need to get elevators to work, and what some of the terms are that we will be using. The elevator itself will be a "mover". A mover is simply a "brush" that is purple in color, and is capable of moving. The mover will move through a series of positions called "keyframes". 
+
+
+ASSUMPTIONS:
+
+
+You know how to make a room, put a playerstart in it, how to move and shape your brush, and deal with textures. 
+
+
+TUTORIAL:
+
+
+First off, make a room at least 256x256x256 (although this will be somewhat cramped). Next, reset your brush, and make a cube that is squashed such that it would be short enough to walk onto. Make sure there is enough height and width that you can stand on it. Put this brush in mid air. Choose a texture, and "add" it into the room. 
+
+
+caption: here, you see the textured elevator floor in mid-air 
+
+Now, right click on your brush. Choose "reset -> reset scaling" This step was very important. Let me explain why. If you did not reset the scaling at this point, the elevator would not work properly, instead, it would allow you to walk THROUGH it instead of on top of it. So if, after making your elevator, you find that you can walk through it and it doesn't work right, this was probably the step you messed up on. :-) 
+
+Next, move your brush so that it surrounds your elevator floor piece. Once you are certain the brush fully surrounds it intersect the elevator floor. (To do this, you can either click on the intersect button in the toolbar, or go to the "brush" menu, and choose "intersect). Now, right click on the brush, and choose "Copy polygons -> To brush". This will copy the textures and the shape of your elevator floor into memory. 
+
+The step I am about to give you can happen anytime that you choose. If you are confident that you did the previous steps right, you can do this step now. If you think something may have gone wrong or are unsure, you can wait to do this step until after you try your elevator. This step involves the elevator floor you just copied. It is hanging in the middle of your room. You need to delete this at some point. :-) You can either do it now, or after you know your elevator works. 
+
+Next, place your brush onto the floor where you want the elevator to be. (This is the spot the person will walk onto in order to activate the elevator.) Once you have the brush positioned where you want it, click on the "add mover" icon in the toolbar. (The box with swirling mist coming out of it.) Move your original brush out of the way, and you should see the purple "brush" that is called the "mover". 
+
+
+caption: Here, in purple, you can see the mover at keyframe zero. 
+
+Next, we need to tell UnrealED where the elevator is going to go. Right click on the purple mover, and choose "Mover keyframe -> Key 1". Now, in the perspective view, while the mover is selected, hold both mouse buttons down and translate the mover vertically. I recommend doing this in the perspective view because you can see clearly where you are placing the elevator, and you can easily restrict the motion of the mover to the Z axis only. 
+
+
+caption: Here, in purple, you can see the mover at keyframe one. 
+
+Almost done. Just right click on the mover one last time, and put the keyframe back to zero (mover keyframe -> Key 0). This sets the initial position of the mover for when the map starts. Now, you can F8, rebuild map, and ctrl-p it to try your new elevator out! 
+
+Good luck. :-)  
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

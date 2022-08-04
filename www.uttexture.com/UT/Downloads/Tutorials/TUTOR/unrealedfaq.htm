@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>The Unofficial Unreal Editing FAQ - Preliminary Information</TITLE>
+<LINK REV="made" HREF="mailto:klaus@planetunreal.com">
+<META NAME="author" content="Klaus Breuer">
+<META name="generator" content="By hand. HTML Editors suck">
+<META name="description" content="FAQ for Unreal map editing">
+</HEAD>
+
+<BODY>
+
+<H1>Preliminary Information</H1>
+This chapter explains some of the basics behind creating an Unreal Map.
+<P>
+<A HREF="#audience">Intended Audience for this chapter</A><BR>
+<A HREF="#basics">The Basics</A><BR>
+
+<H2><A NAME="audience">Intended audience for this chapter</A></H2>
+I guess all of you have heard of the game QUAKE by id Software :)<BR>
+Well, many of you have created add-on maps for QUAKE. You know how
+a door works, what a brush is, what to look out for while
+creating a level.<BR>
+While the Unreal engine is rather more powerful than id's (see
+below for a list of differences), it is similar enough for all
+the experts to skip this chapter.
+<P>
+What? You've never created a QUAKE map? Never heard of brushes? Don't
+know how a light source works?<BR>
+Ok, this chapter here's for you.
+<P>
+First off, let me explain that I've created quite a few
+maps. Thus if I take some things for granted you don't know
+about, please write me and ask! That way I'll be able to work it
+into this chapter, making it easier to understand.
+
+<H2><A NAME="basics">The Basics</A></H2>
+Let's start by taking a look at the basics behind map building.
+<P>
+Do yourself a favour and don't skip this section!
+<P>
+I know many of you have met computers through Windoze or some
+other GUI toy and don't know much about the underlying
+intricacies of your system, but please - the more you know about
+how Unreal works, the better your maps will be.
+<P>
+Besides, it's fun to learn things :)
+
+<H3>What's an <I>engine</I>?</H3>
+Since I'm going to use the term <I>Engine</I> or (better) <I>Game Engine</I>
+a lot, allow me to quickly explain to you I mean.<P>
+A game like Unreal consists of two parts: the engine and the game data.
+While the game data defines what the game is (the monsters, the weapons, the sounds,
+the maps, the textures, etc), the engine is the bit responsible for actually
+showing the game to you. Thus you could license the engine and write your very
+own game data for it (in fact, that's what some people did with Quake: Hexen II uses
+the Quake engine, but has it's very own weapons, textures, etc).
+<P>
+The engine is therefore of great interest to us, as it defines what we can and
+can not do with the game.<BR>
+(This, btw, makes discussions like 'The Quake Engine has better weapons than Unreal'
+rather pointless, as the weapons are part of the game data. You can create a exact
+copy of the BFG in Unreal as well).
+
+<H3>Differences between the Unreal and Quake II Engines</H3>
+Those of you who don't know Quake (gasp!), feel free to skip this
+section.
+<DL>
+<DT><B>Large Areas</B></DT>
+<DD>
+The biggest problem in Quake were the size of the maps.<BR>
+Perhaps I should clarify this a bit: while you could make very large maps,
+you couldn't really create very large <I>rooms</I>. Not only would the engine
+run very slowly, the compilation time was abysmal. This made outside areas very difficult.<BR>
+Unreal is capable of displaying extremely large rooms - witness the different village maps or
+the waterfall area in the beginning of the game.
+</DD>
+<DT><B>32 bit Textures</B></DT>
+<DD>
+Textures are now in 32 bit color, which actually makes quite a large difference: we are now
+no longer limited to a certain palette of colors but can create whatever we feel like.
+</DD>
+<DT><B>Light</B></DT>
+<DD>
+Light have received a major face lift: not only is quite a number of different effects
+possible (not just strobing, but disco lights, interference patterns, and the like), but you
+can now also create coronas around bright lights.
+</DD>
+<DT><B>Skybox</B></DT>
+<DD>
+The skies look quite a bit better. Backgrounds can be more or less uniquely designed for each
+level, and the result looks quite photo realistic.
+</DD>
+<DT><B>Fog</B></DT>
+<DD>
+Areas can be foggy, which allows us to create some truly creepy effects.
+</DD>
+<DT><B>Translucency</B></DT>
+<DD>
+Now not only Brushes can be translucent, but objects and creatures as well. This has many
+uses, the most obvious one being ghosts.
+</DD>
+<DT><B>Mirrors</B></DT>
+<DD>
+Finally, mirrors are possible. This allows many effects, from bathroom mirrors to highly
+polished floors. 
+</DD>
+<DT><B>Liquids</B></DT>
+<DD>
+Liquids are not in brush form anymore - instead, you have to create closed-off
+Zone and mark that as liquid. Has advantages and disadvantages over the Quake method.
+</DD>
+<DT><B>Light-emitting Brushes</B></DT>
+<DD>
+In Quake II, a brush face could emit light (making glowing lava particularly easy to do,
+as well as realistic colored lights), whereas in Unreal this is not possible.<BR>
+A major disadvantage.
+</DD>
+<DT><B>Texture Skinning</B></DT>
+<DD>
+Texture skinning is much better now. While Quake II simply textures an object from two
+sides (for example, a creatures front and back), Unreal textures each polygon separately.
+This doesn't sound like much, but a Skinner will immediately see why textures both look 
+much better now and are easier to create.
+</DD>
+<DT><B>Map Editing</B></DT>
+<DD>
+The Quake .BSP files have two major disadvantages: they take ages to create (some of the
+maps took a whole <I>night</I> to compile on my P200), and they were very hard to 
+reverse-engineer to find out how a cool trick was produced.<BR>
+Unreal maps compile in a few seconds and can be edited at any time - this makes learning
+new and interesting tricks quite a bit easier.
+</DD>
+<DT><B>Scripting</B></DT>
+<DD>
+While not really an engine difference, I should note that creature scripting is very well
+implemented, allowing many new behaviour s for your monsters. This is especially interesting 
+for singleplayer maps.
+</DD>
+</DL>
+
+<H3>Useful cheats for testing levels</H3>
+Read the handbook for a list of all Unreal cheats, but here is a quick list of the ones I
+find myself using while testing levels. All cheats are activated by typing them into the
+console.
+<P>
+<TABLE BORDER="1">
+
+<TR>
+<TD>GOD</TD>
+<TD>Toggles invincibility.</TD>
+</TR>
+
+<TR>
+<TD>SUMMON</TD>
+<TD>Allows you to create anything defined in the game.<BR>
+    For example, <I>SUMMON EIGHTBALL</I> will create the Eightball Launcher
+    in front of you.</TD>
+</TR>
+
+<TR>
+<TD>FLY</TD>
+<TD>Allows you to fly around at will.</TD>
+</TR>
+
+<TR>
+<TD>GHOST</TD>
+<TD>Activates non-clipping mode (allows you to walk through walls).</TD>
+</TR>
+
+<TR>
+<TD>WALK</TD>
+<TD>Turns off the FLY and GHOST modes.</TD>
+</TR>
+
+<TR>
+<TD>INVISIBLE 1</TD>
+<TD>Makes you invisible (until you attack somebody). Turn it off via INVISIBLE 0.</TD>
+</TR>
+
+<TR>
+<TD>ALLAMMO</TD>
+<TD>Fills all weapons with ammo.</TD>
+</TR>
+
+</TABLE>
+
+<H3><A NAME="mapconsists">What a map consists of</A></H3>
+Maps consist of Brushes, Textures and Objects:
+
+<H4>Brushes</H4>
+A brush is simply a three dimensional object, like a cube. The whole map architecture
+consists of such brushes: a high narrow rectangle is a wall, a broad flat one a roof,
+a thin cylinder forms a column, and so on.<BR>
+When you start up UnrealEd (the program used to create Unreal worlds), think of the blank
+sheet as a single, solid block. You can form a simple room just by carving a rectangular
+brush out of it.<BR>
+By adding or subtracting brushes from each other, you can create pretty much any shape
+you want - a major advantage over the pseudo-3D games like DOOM or Duke Nukem 3D.
+<P>
+Brushes can also move, creating anything from moving escalators to elevators or doors.
+
+<H4>Textures</H4>
+Textures define what the surface of a wall, a floor or the ceiling actually looks like.
+They make the difference between a wall looking like a brick wall or a steel slab. 
+<P>
+Unreal has quite a lot of textures for us, ranging from plush red
+wall-to-wall carpeting to green alien slime. Some textures are
+even animated, meaning they look as if they were moving - water
+is a nice example of this.
+<P>
+Textures always make me feel a bit like a magician - with a wave
+of my wand (ok: mouse) I can change a wall from flimsy straw to
+solid steel and back.
+<P>
+Any face of a brush can be textured.
+
+<H4>Objects</H4>
+Objects are everything else: player start positions, monsters, weapons, waypoints, and
+so on.<BR>
+Basically, they can be subdivided into two parts: visible objects (like a box of ammunition)
+and invisible objects (like a sound source).
+
+<P>
+<HR>
+<P>
+<A HREF="index.html">Return to the Table of Contents</A>
+
+</BODY>
+</HTML>

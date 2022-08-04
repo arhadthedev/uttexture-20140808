@@ -1,0 +1,53 @@
+==============================================
+Map for mod MultiTeam CTF of Unréal Tournament
+==============================================
+-----------------------------------------------------------------------------
+Map inspire of:
+
+	DM-'MOR'bias][  +  DM-Frac'TAL' 
+		\		/
+		 \	       /
+		  \	      /
+		   \	     /
+		    \       /
+		     \     /
+		      \   /
+			=
+	   	      MorTal
+
+-----------------------------------------------------------------------------
+Version of UT tested:		436
+Map name:			CTFM-Mortal		
+Game type:			MultiTeam CTF
+Recomended player count:	8 (4x2)
+Height:				little (but fast)
+Weapons available:		[ ]
+Téléporteur:			[x]
+
+BUGS:				...	any one HA Ha ha !!!
+
+Editor used:			UnrealEd v2.00 (UTv436)
+Release Date:			02/04/01
+Build time:			2 days
+-----------------------------------------------------------------------------
+Author:				Crokx
+E-Mail:                  	Crokx@Infonie.fr
+
+Other levels by author:		CTFM-LavaForme
+				CTFM-Tutorial][
+-----------------------------------------------------------------------------
+Thanks:				Colin 'Wyzard' McCann for the better mod d'UT
+				-=> MuliTeam Capture the falg.
+
+				Epic for have put UnrealED with UT.
+				-=> Without this more nobody played UT.
+-----------------------------------------------------------------------------
+Notes:				Scabrous lenflares => Before 987 ko
+						      After 1414 ko
+				Super MOD + Super MAP = Super F U N !!!
+-----------------------------------------------------------------------------
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ -=> Unreal Tournament (c)1999 Epic Megagames, Inc. <=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

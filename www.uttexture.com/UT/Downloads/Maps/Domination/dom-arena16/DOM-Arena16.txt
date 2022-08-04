@@ -1,0 +1,59 @@
+================================================================
+Title                   : DOM-Arena16
+Version                 : 1.0
+Release Date            : 3.9.2001
+Filename                : DOM-Arena16
+Author(s)               : Jerry "{LoD} Dr. Doom" Welch
+Email Address           : jerry@jerrywelch.com
+Web Page                : www.jerrywelch.com
+Description             : A Domination conversion of my DM Map.
+Where to get this map   : http://207.90.222.44/DOM-Arena.zip  if that doesn't work, try 
+                          http://www.jerrywelch.com/DOM-Arena.zip
+Other levels by author  : CTF-Doom's Justice, CTF-Deck32][, 
+Additional Credits to   : {LoD}, the premiere UT Clan!  And especially to Ultron for the Nick Filter!
+			  
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Arena 16
+Gametype		: DOM
+New Sounds              : Yes
+New Graphics            : Yes
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : 
+
+--- Construction ---
+Editor(s) used          : UnrealEd 
+Base                    : None; made from scratch
+Construction Time       : One week of free time
+
+Installation
+------------
+   Simply copy the appropriate files to their directories (i.e., the unr. to your UT\Maps directory, .umx to the UT/Music directory and .utx to the UT/Texture directory).  Then, fire up UT and start.
+
+Extended description:
+--------------------
+This is the first Domination Temple built by Liandri.  Since it is the easiest to follow architecturally, it is the favorite of beginner and advanced tournament players alike.  The ultimate in balance, this design was later phased out in favor of more gruesome, misbalanced Domination levels.
+
+There is a rumour that Liandri also built a Deathmatch temple with these same blueprints.   
+  
+Copyright / Permissions
+-----------------------
+This level is copyright 2001, Jerry Welch.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+written permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)2001 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

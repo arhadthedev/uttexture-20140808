@@ -1,0 +1,159 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Tutorial #6 - Portals</title>
+
+
+<meta name="Microsoft Theme" content="none"><meta name="Microsoft Border" content="none"></head>
+
+<body bgcolor="#000000" text="#00FF00" link="#FFFF00" vlink="#00FFFF" alink="#FFFFFF">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><table border="0" width="100%">
+      <tr>
+        <td width="33%"><strong><font face="Verdana"><small>Tutorial #6: Portals</small><br>
+        <a href="http://www.creativecarnage.com/unreal/tutorial6.unr"><small><small><small>(click
+        to download .UNR)</small></small></small></a></font></strong></td>
+        <td width="33%" align="center"><a href="mailto:mrsin@creativecarnage.com"><strong><small><font face="Verdana">Author: Dr. SiN</font></small></strong></a></td>
+        <td width="34%" align="right"><strong><small><font face="Verdana">Last Updated: May 26th</font></small></strong></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><b><font color="#0000FF" face="Verdana" size="6"><u>Unreal Tutorial #6<br>
+    </u></font><font size="3" color="#0000FF" face="Verdana"><strong>Portals to Hell</strong></font></b><font size="4"><p></font><font SIZE="2"><font face="Verdana">Portals.. what are they. We have
+    all seen Unreal&#146;s Portal effect in their execelent DM level DMRADIKUS and this has
+    been the hardest tutorial to write. Not because creating portals are all the difficult,
+    but tell you how to do has proven to be a task.</font></p>
+    <p><font face="Verdana">What is a portal? A portal is a gateway between 2 areas. As you
+    view in to a portal you see what is happening in the other area. These allows you to
+    create some truly wild geometry that defies the laws of space and phsyics. But how do we
+    make them. I think it&#146;s important to get an over view of how portals work before we
+    build one.</font></p>
+    <p><font face="Verdana">You actually need to build 3 separate actors in Unreal for each
+    portal. There is the portal housing, the gateway and the room where it sits. The portal
+    housing is sort of a small room within the main room (like a closet) that can have only 1
+    exit. The gateway is the space inside the housing. Of course, all of this sits in the
+    room.</font></p>
+    <p><font face="Verdana">Portals are created by setting up a zone between the gateway and
+    the room. If your not convertible with what a zone is, I suggest you go read the Epic
+    tutorial on zone as I will not be going in to them here. Inside the gateway (once it has
+    been zoned off) you need to place a ZoneInfo called WarpZoneInfo. This tag is how
+    Unreal&#146;s engine connects portals together.</font></p>
+    <p><font face="Verdana">So are you ready to begin.. good!</font></p>
+    <p><font face="Verdana">Let&#146;s start by making the room that will contain the first
+    portal. Right click on <font color="#FFFFFF">Use Cube Brush</font> and select <font color="#FFFFFF">Cube Properties</font>. We want to create a large room that&#146;s not too
+    high. I suggest using <font color="#FFFFFF">Heigth=320, Width=1024, Breadth=1024</font>.
+    Enter these values and click on build, then close the window. Your brush should now be a
+    nice big room. You could pick any values you wish, but for easy, I suggest sticking with
+    even 64 pixel values. Subtract your room and texture to taste.</font></p>
+    <p align="center"><img src="6-1.jpg" alt="6-1.jpg (14032 bytes)" WIDTH="171" HEIGHT="317"></p>
+    <p><font face="Verdana">You have just build 1 part of the portal&#133; the room where it
+    exists. Next step is to build the actual portal housing. The portal housing can be of any
+    shape, but keep 2 things in mind when you build one. First you are going to have to put a
+    single flat plane in there and create the zone and second, you will need enough room to
+    fit the WarpZoneInfo tag actor as well.</font></p>
+    <p><font face="Verdana">For this example, we will just create a simple box frame. Right
+    click on <font color="#FFFFFF">Use Cube Brush</font> and select <font color="#FFFFFF">Cube
+    Properties</font>. Set <font color="#FFFFFF">Heigth=192, Width = 128, Breadth = 128</font>
+    and press enter (then close the Build a Cube Window). This will shrink your brush. The
+    next step is to place the portal housing on the ground. Now make the brush an actor. Since
+    we are already working in a created space, we want to click on <font color="#FFFFFF">Add
+    Brush to World</font>. This will create a solid block&#133; the frame of the portal
+    housing. When you are finished, you should end up with the following</font></p>
+    <p align="center"><img src="6-2.jpg" alt="6-2.jpg (27023 bytes)" WIDTH="337" HEIGHT="441"></p>
+    <p><font face="Verdana">We have have two of the three parts to a portal. All that&#146;s
+    left is to carve the gateway from the solid portal housing. Once again bring up the <font color="#FFFFFF">Cube Properties</font>. We want to contract our current brush so we can
+    cut it from the cube. Set <font color="#FFFFFF">heigth=160, width=96, breadth=96</font>.
+    Click on build and close the Build a Cube window</font></p>
+    <p><font face="Verdana">Now you have a choice. You can leave the gateway with a border
+    around it, or you can set it on the floor. However you must move the gateway so it touches
+    the main room. If you don&#146;t you will be creating a gateway INSIDE a solid block.. not
+    good. For this tutorial, we will leave a frame. Simple drag the gateway so it touch any
+    edge of the portal housing. Once it&#146;s in place.. pick your textures and ckick on
+    Subtract Brush from World. There should now be a contained space within your portal
+    housing. Your portal should look like this&#133;</font></p>
+    <p align="center"><img src="6-3.jpg" alt="6-3.jpg (99384 bytes)" WIDTH="662" HEIGHT="518"></p>
+    <p><font face="Verdana">Now is a good time to make sure your geometry is ok. Add some
+    lights around the portal housing and press <font color="#FFFFFF">F8</font> to rebuild your
+    map. Now would also be a good time to save your map (and you can even test it).</font></p>
+    <p><font face="Verdana">Phase 2:</font></p>
+    <p><font face="Verdana">So we now have a complete portal setup. We have the room it exists
+    in, we have the portal housing, and we have the gateway. But we need two of them. No
+    problem, we will just make a copy of the current room. If you read tutorial #2 you know
+    how simple this is. Let&#146;s do it a different way though. Create a cube brush that big
+    enough to cover the current room. Once it covers your entire room&#133; click on <font color="#FFFFFF">Select all Inside</font>. Yep.. you guessed it. In UnrealED your brush is
+    not only your method of building, it&#146;s your selection box as well. Once you click on
+    that icon, everything in the room will be selected. Make a duplicate of the room by press <font color="#FFFFFF">CTRL-W</font> and move it somewhere else. If you find you cant move the
+    copy right away.. try pressing B to hide the brush (remember to press it again to bring
+    the brush back later).</font></p>
+    <p><font face="Verdana">Once you have moved the copy somewhere else, we want to rotate the
+    room so the portals face each other. So while the whole room is still selected, rotate it
+    180 degrees. Rebuild!</font></p>
+    <p><font face="Verdana">We should now have 2 rooms that mirror each other. I suggest
+    changing the wall textures in one of them so it&#146;s easy to tell them apart.</font></p>
+    <p><font face="Verdana">Now it&#146;s time to define the zones and ad the zone info. Right
+    click on <font color="#FFFFFF">Use Plane Brush</font> and select <font color="#FFFFFF">properties</font>.
+    We need to build a Plane that will completely cover the gateway and form our zone. In this
+    example, our gateway is 160 high by 96 wide. Enter these numbers and set the orientation
+    to which side of the portal housing you built your gateway on. Click on <font color="#FFFFFF">build</font> and close the window. You should now have a single pixel
+    Plane that&#146;s ready to be placed!</font></p>
+    <p><font face="Verdana">An important note.. sometimes UnrealED doesn&#146;t reset the
+    scaling position. If you use the Properties box and the plane looks HUGE or mal-formed..
+    simply select the plane, right click, select reset and reset all.</font></p>
+    <p><font face="Verdana">When we place our plane, we want to move it slightly in to the
+    gateway. This will create a good looking lip before the portal. Move it in 1 square. Now
+    it&#146;s time to define the zone. Select <font color="#FFFFFF">Add Special Brush</font>
+    to World and under <font color="#FFFFFF">Predefined</font>, select <font color="#FFFFFF">Zone
+    Portal</font>. Click on <font color="#FFFFFF">Add Special</font> and you now have a new
+    zone. Do not close the Add Special Brush window.</font></p>
+    <p><font face="Verdana">Without changing any of the dimentions of the Plane, drag it and
+    place it to form the other zone in the other Portal Housing/Gateway. Using the same
+    settings, add another Zone portal. You can now close this window.</font></p>
+    <p><font face="Verdana">Now for the very important part. It seems that the actual gateway
+    must be EXACTLY the same size on both portals. This means the two portals should 100%
+    mirror themselves. When you done making the zones this is what you should have&#133;</font></p>
+    <p align="center"><img src="6-4.jpg" alt="6-4.jpg (63103 bytes)" WIDTH="656" HEIGHT="566"></p>
+    <p><font face="Verdana">Now for the final setep.. adding the WarpZoneInfos. Here&#146;s
+    the deal. Go to the browser and switch to <font color="#FFFFFF">classes</font>. The <font color="#FFFFFF">WarpZoneInfo</font> is located under <font color="#FFFFFF">INFO|ZONEINFO</font>.
+    Hightlight it and go back to the map. Right click somewhere in the gateway and select Add
+    WarpZoneInfo here. You should now have a Little ? and a box in your gateway. Hightlight it
+    (till it&#146;s green) and right click. Select<font color="#FFFFFF"> properties</font>. Go
+    to <font color="#FFFFFF">Advanced</font> and toggle <font color="#FFFFFF">bDirectiona</font>l
+    to true. Next go to <font color="#FFFFFF">WarpZoneInfo</font>.</font></p>
+    <p><font face="Verdana">Under this field, there are 3 options. The first isn&#146;t
+    important for our purpose. The <font color="#FFFFFF">OtherSideUR</font>L will hold the
+    name of the other portal. For now put &quot;P2&quot; in that field. The <font color="#FFFFFF">ThisTag</font> hold the name of this portal. Put &quot;P1&quot; here.</font></p>
+    <p><font face="Verdana">Close the window. Notice our little ? and box have an arror
+    pointing off of it. Make sure this arror is point in to the back of the gateway (ie:
+    it&#146;s pointing in the direction you would walk to enter the portal). Make sure the <font color="#FFFFFF">WarpZoneInfo</font> is still highlight and press <font color="#FFFFFF">CTRL-W</font>
+    (create a duplicate). Drag this duplcate over to the other portal. Place it somewhere
+    inside the gateway (where it doesn&#146;t matter, as long as it&#146;s inside). Rotate the
+    WarpZoneInfo so it&#146;s directional arrow points in the right direction (ie: points in
+    to the portal). Now right click on it. Select properties and go to WarpZoneInfo. Swap the <font color="#FFFFFF">OtherSideURL</font> and the <font color="#FFFFFF">This Tag</font> fields.
+    Close the dialogue and rebuild. </font></p>
+    <p><font face="Verdana">Your portals are now ready to test. Make sure a player start is in
+    your level before you test it.</font></p>
+    <p><font face="Verdana">Some things to remember&#133;</font></p>
+    <p><font face="Verdana">1) All portals have 3 parts. The portal housing, the gateway and
+    the room in which the portal resides. Multiple portals may share the same room.</font></p>
+    <p><font face="Verdana">2) The gateway in both portals must be EXACTLY the same
+    dimensions.</font></p>
+    <p><font face="Verdana">3) The zoneportal plane must 100% seal off the gateway.</font></p>
+    <p><font face="Verdana">4) The WarpZoneInfo actors must point in to the gateway (ie: in
+    the direction you must travel to enter the portal).</font></p>
+    </font><p><font face="Verdana" size="2">See if you can figure out how to add the cool
+    texture effects (hint: Make the plane and make it visible).</font></p>
+    <p>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,203 @@
+================================================================
+JB-Coloraido-III
+================================================================
+
+Modified for the 'Classic Map Pack' by TheSpoonDog - 2002
+
+This is the original "readme" that came with the map long time ago !
+Informations in here may be outdated !
+
+Unreal Tournament JB Map
+
+================================================================
+
+JB-Coloraido-III
+__________________________________________________
+
+Entwickler: MasterBotAI / UnrealED.de
+----------- webmaster@unrealed.de
+
+__________________________________________________
+
+Vertrieb:   Action-Force© Studios
+---------   support@action-force.de
+
+__________________________________________________
+
+Information:
+------------
+
+	Diese Map unterstützt den UT-JB-Modus
+	(Unreal Tournament - Jail Break)
+	Mod-Download: http://www.daikiki.com
+	
+	Alle Einzelteile und Komponenten der
+	Maps sind Copyright by Action-Force.
+	Action-Force hat auch das alleinige
+	Recht diese Maps zu vertreiben.
+	Onlinestellungen auf anderen
+	Servern im Netz sind ohne vorherige
+	Anfrage bei Action-Force untersagt!
+
+	Mail: support@action-force.de
+
+        Diese Map wurde ausschließlich mit
+        UnrealED 2.0 erstellt, darum kann man
+        sie unter Umständen nicht mit UnrealED 1.0
+	öffnen, wohl aber auf allen Versionen von 
+	UnrealTournament spielen (siehe unten)!
+
+__________________________________________________
+
+Updates:
+--------
+
+	Deine direkte Update Site:
+	http://action-force.gamesweb.de/coloraido
+
+	oder: http://www.action-force.de
+
+__________________________________________________
+
+Installation:
+-------------
+
+	Falls es eine *.exe-Datei ist, reicht
+        ein einfacher Doppelklick, um die Map
+        zu installieren! (PC)
+
+	Falls es eine UMOD-Datei ist, reicht
+	ein Doppelklick auf die *.umod-Datei,
+	um sie zu installieren!
+
+	Falls es eine *.zip-Datei ist, reicht
+        Doppelklick auf "Install.exe" (PC) oder 
+	die "JB-AF-Coloraido.unr" Map einfach
+	in das "Maps" Verzeichnis von Unreal
+	Tournament kopieren (Linux/Mac).
+
+	Es empfielt sich auch ein Eintrag in die
+	"CTF-Maplisting" unter "Advanced Options".
+
+__________________________________________________
+
+Service:
+--------
+	
+	Getestet haben wir den Level
+	auf folgenden UT-Versionen:
+	
+	Betaversion 235 - nfd
+	Betaversion 267 - nfd
+	-----------------------
+	Demoversion 322 + patch
+	Demoversion 338 + patch
+	Demoversion 348 + patch
+	-----------------------
+	Vollversion 400
+	Vollversion 402
+	Vollversion 405
+	Vollversion 413
+        Vollversion 418
+        Vollversion 419
+        Vollversion 420
+        Vollversion 425
+        Vollversion 428
+        Vollversion 430
+        Vollversion 432
+        Vollversion 436
+
+	voraussichtlich wird die Map auch
+	auf allen zukünftigen Versionen
+	problemlos laufen. Falls nicht,
+	ist Action-Force dringend an einer
+	Benachrichtigung interessiert.
+	melde dich per
+	
+	Mail: support@action-force.de
+
+__________________________________________________
+
+bekannte Bugs:
+--------------
+	
+	kein bekannter Fehler vorhanden!
+
+	Wenn Du selber noch etwas feststellst,
+	daß uns noch nicht aufgefallen ist,
+	dann melde dich per
+	
+	Mail: support@action-force.de
+
+
+__________________________________________________
+
+Änderungen seit Version 100:
+----------------------------
+
+	Version:050 (CTF-Betaversion)
+	-------------------------
+	- Veröffentlicht als Beta
+	  (exclusiv auf UnrealED.de)
+	
+	Version:100 (CTF-Vollversion)
+	-------------------------
+	- Komplett neue BotAI wurde
+	  erstellt
+	- Hauptarena wurde stark
+	  abgedunkelt
+	- Arena wurde um 2 Plattformen
+	  erweitert
+	- Die Basen-Healzh-Pools wurden
+	  entfernt
+	- Neue, angepasste Skybox wurde
+	  erstellt
+	- Zwei neue Teleporter-Räume
+	  wurden erstellt
+	- Der komplette Level erhielt
+	  neue SoundFX'es
+	- Basen wurden um je einen
+	  Teleporter erweitert
+	- Zwei neue Brücken wurden in	
+	  der Arena erstellt
+
+	Version:101 (CTF-Intern)
+	-------------------------------
+	- neue Texturen in der Arena
+	- ZoneTags hinzugefügt
+	  (verbessert die BotAI im SP)
+
+	Version:102 (CTF-Vollversion)
+	-------------------------
+	- Bugfix in ZoneTags ;)
+	- neues Preview Bild
+	- Neue Level Props.
+
+	Version:103 (CTF-Vollversion)
+	-------------------------
+	- komplett neue Sounds
+	- 4 neue Gänge in der Basis
+	- 4 Smoking-Lava FX'es erstellt
+	- erweiterte BotAI erstellt
+	- neuer ReadMe.txt ;)
+
+	Version:104 (JB-Vollversion)
+	-------------------------
+	- 2x Flaggenbasen entfernt
+	- 2x Jail-Räume angefügt
+	- 2x JailTrigger erstellt
+	- Alle PlayerStarts getauscht
+	- 2x Mover Props geändert
+
+	Version:105 (JB-Vollversion)
+	-------------------------
+	- 2x Neue Jail-Fenster
+	- 2x Neue JailZone erstellt
+	- neue Pick-Ups verteilt
+
+	Mail: support@action-force.de
+
+__________________________________________________
+	
+	1999 Action-Force© Studios
+	http://www.action-force.de

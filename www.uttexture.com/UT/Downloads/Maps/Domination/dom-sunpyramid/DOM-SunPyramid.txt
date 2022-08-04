@@ -1,0 +1,40 @@
+This map is made by Enrique and Jorge Salgado and modified by topaz
+================================================================
+Title : DOM-SunPyramid
+Version : Variant of DMSunPyramid, Unreal's DeathMatch level.
+Release Date : 30-04-00
+Filename : DOM-SunPyramid
+Author(s) : Original map by Enrique and Jorge Salgado (Dominated by topaz)
+Email Address : kbmindkeep@hotmail.com
+Description : DMSunPyramid is an excellent example of Domination map. Set back in time, with an Aztec Theme, I am sure you are gonna have major fun playing this level. I added some things to the original map, but the full credit goes to Enrique and Jorge Salgado. 
+
+Remember: The map is made Enrique and Jorge Salgado. I (topaz) simply made it Domination. They are the great mappers, not I. :) 
+
+
+IF you like this conversion, I strongly suggest you to download the DOM-Pack that I have made, that includes some of the most interesting DOM-conversion that you can find over UT community. I also see many times that maps from this DOM-Pack, are played over the internet: DOM-GrooveMachine, DOM-Siberia and DOM-Ariza are the most popular. 
+
+Dominate the Aztecs!
+If you like the Aztec theme, then hold on: I am prepering a DOM-AztecPack with ten Domination maps that are gonna leave you sleepless! DOM-SunPyramid is included at the DOM-AztecPack, and so is DOM-Anka. For convinion reasons, the maps are gonna released seperatly and also together, as DOM-AztecPack.zip. You choose what method you like most.
+Oh, the maps that DOM-AztecPack will include (so you can find the seperatly:):
+DOM-SunPyramid
+DOM-Anka
+DOM-Aztec
+DOM-CorridorsofChameleons
+DOM-AztecArena
+DOM-Olden][
+DOM-Tagar
+DOM-Toooom
+DOM-Torture
+
+The maps are subject to change, according to their quality outcome.
+
+--- Construction ---
+Editor(s) used : UnrealEd
+Base : DMSunPyramid by Enrique and Jorge Salgado
+Construction Time : One day for conversion and playtesting.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

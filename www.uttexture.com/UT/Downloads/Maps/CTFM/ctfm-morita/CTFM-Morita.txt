@@ -1,0 +1,107 @@
+================================================================
+Title                   : CTFM-Morita
+Version                 : 1
+Release Date            : 12/July/2003
+Filename                : CTFM-Morita.zip
+Author                  : David Montwe - Conversion by Karlos
+Email Address           : karl34uk@yahoo.co.uk 
+Web Page                : None
+			
+================================================================
+
+--- Play Information ---
+
+Game                    : Unreal Tournament
+Level Name              : andACTION (CTFM-andACTION.unr)
+Single Player           : No
+Cooperative             : No
+Botmatch		: Yes
+Deathmatch              : No
+Capture the Flag 	: Yes
+4 Team Capture the Flag : Yes (Recommended)
+Assault			: No
+Domination              : No
+Other			: No
+Difficulty Settings     : No
+New Music               : No
+New Graphics            : No
+Bugs			: Yes - There is usually major 'pop-up' inbetween crossing
+				from one base to another. This only tends to
+				happen if you run along the outside walls though.
+				Bar that, nothing too serious that will stop you
+				enjoying this map! :)
+
+Level Info
+----------
+
+This map is a CTFM Conversion of the original CTF-Morita, that was originally made by
+David Montwe. It is a 4 way crossroad map with many different paths and routes...
+The reason I say there are so many, is because it is a type of maze!
+(Not that hard to get lost in, so don't worry!) ;)
+
+Thank you very much for the original map Dave. I had a good laugh trying 
+to convert it into a 4-team map, but nonetheless I got there in the end! :)
+
+--- Construction ---
+
+Editor(s) used          : UnrealEd 2 
+Base                    : CTF-Morita
+Construction Time       : 5 hours + (On CTFM Modification)
+
+Files Included
+--------------
+
+CTFM-Morita.unr
+CTFM-Morita.txt
+
+Installation
+------------
+
+Unzip .unr file into \maps folder under the Unreal Tournament folder.
+Unzip .txt file into the Unreal Tournament folder. (Optional)
+
+Where to get this Map
+---------------------
+
+Nali City - http://nalicity.beyondunreal.com/
+
+Other Maps by myself already released
+----------------
+
+CTFM-andACTION (UT) - Please go download this if you haven't already. 
+		      You will be sure to have a great laugh, like the map or not! :)
+
+Other Maps by myself currently in development
+----------------
+
+CTFM-4Pyramids (UT)
+CTFM-4WayMayhem (UT) My very first map. Been ready for a very long time. (May still revise).
+CTFM-5base (UT)
+CTFM-Alivio (UT)
+CTFM-CarPark (UT) - Work in progress. (A lot has changed from the original map).
+CTFM-Deathstar (UT)
+CTFM-Esprit_CE (UT)
+CTFM-FirstToTheTop (UT) - This map is a joke, you'll see why if I ever decide to release it!
+CTFM-FirstToTheTopV2 (UT) - Erm, read the above! LOL :)
+CTFM-MultiStory (UT)
+CTFM-Mythos (UT)
+CTFM-Niven (UT)
+CTFM-Orbital (UT) - Probably be scrapped soon. It is too hard trying to convert the middle!
+CTFM-SkyDamage (UT) - Been ready for release for sometime but still considering adding more.
+
+
+
+Thanks Too...
+-------------
+
+Everyone who made the UnrealEd2 Tutorials! :)
+And thanks to David Montwe once again for the making of the original map!
+
+
+Copyright / Permissions
+-----------------------
+
+This level is not of Copyright to myself. 
+However, I would appreciate it if you would notify me first 
+before you make any modifications to this already modified map!
+

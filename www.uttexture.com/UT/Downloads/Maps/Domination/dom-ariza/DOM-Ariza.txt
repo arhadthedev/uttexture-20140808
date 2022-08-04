@@ -1,0 +1,29 @@
+THIS MAP IS MADE BY MYSCHA THE SLED DOG AND MODIFIED BY TOPAZ
+================================================================
+Title : DOM-Ariza
+Version : Variant of DMAriza, Unreal's DeathMatch level.
+Release Date : 22-01-00
+Filename : DOM-Ariza.unr
+Author(s) : Original map by Myscha the Sled dog ("Egyptiazed and dominated" by topaz)
+Email Address : kbmindkeep@hotmail.com
+Description : Some maps that you could play back at the old days with Unreal, are simply
+too good to be forgotten. There is a way to remake them, for UT. Change the textures, put 
+some Domination Points, add Bot Teamplay and you can have really great fun with them. The story
+will continue, since I have already some Domination conversions for the Greatest Maps that 
+we all saw and played to death with Unreal. 
+Remember: The map is made by Myscha the Sled dog. I (topaz) simply made it Domination. He is 
+the great mapper, not I. :) 
+
+
+--- Construction ---
+Editor(s) used : UnrealEd
+Base : DMAriza by Myscha the Sled dog
+Construction Time : 100 hours for conversion and playtesting.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+ 
+

@@ -1,0 +1,47 @@
+ Path Nodes
+
+By: Sharky
+
+Sharky
+
+Dated: 12/8/98 
+
+Download: Download Map - 7K
+
+Click here for a printable version of this Tutorial.
+
+
+
+First off i hope you know how to use the editor and understand the basics of good design and wepon placement. Also you should know how to add actors to your level.
+
+
+First, take a level that is setup the way you want it to look. Make a backup of you level. Then goto classes and under NavigationPoint find pathNode. You start adding path nodes by figuring out the best path through you level. Start placing them far enough apart that they are evenly space but close enough that they are visible from one another. Also try to go past the wepons in your level (when you generate the path it will connect to the wepons). Now that you have all your nodes evenly spaced go into the 3d view and "walk" through your level and make sure they are visible as you go from node to node. 
+
+If you have any elevators/lifts in your level you must place a lift exit where you want the bot to wait for the lift/elevator and a liftcenter where the lift is on the ground. Next you assign their lift event to the name of the mover's tag. 
+
+If you have any Portals in your level you must place a node inside the portal on each side or the bots will not use the portal. Im not sure about how teleporters work yet but ill add to this once i figure it out..
+
+Any doors you have in your level should have path nodes right next to the door if you want the bot to use the door.
+
+Also if you have any dead end hallways the bots will probably not go down them unless there is a wepon at the end
+
+Now that everything is setup as you want it. Hit f8 to bring up rebuild and goto the lighting tab and click on generate path. Rebuild your level and you should be all set to play it with bots.
+
+
+Well thats it for this edition of the path node tutorial... i will add more to it when i get a better understanding of how they work and any little tricks i figure out about them will be added 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+

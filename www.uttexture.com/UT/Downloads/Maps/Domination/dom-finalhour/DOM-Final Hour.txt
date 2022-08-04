@@ -1,0 +1,66 @@
+================================================================
+Title                          : DOM-Final Hour
+Version                    : 1.0
+Filename                  : DOM-Final Hour
+Author(s)                : No ReMoRsE
+Email Address        : yd_productions@yahoo.com
+Description              : wide open, camping haven, but dont stop, killin spree=]
+Special thanks          : me, cause i have no friends to test this one...........................
+ ================================================================
+"author notes"-pleez email me with comments!!!!!!!!!!!!!!!!!!!"
+This is my first domination map, but also play it reg. dm, and this is a conversion from an earlier map i made for unreal let me say something, some ppl complain and say, 
+oh, that map isnt as "pretty" as that map, etc. etc. , and i will be the first to admit, i dont
+have the prettiest maps, but there is a reason to this.  most of my maps are done shortly, concentrating
+on the gameplay.  that is what makes a good map, is gameplay, not how pretty it is, granted, that is 
+an added plus,but it shouldnt be the main factor in this type of game. i would love to hear what you ppl
+have to say about my maps, but try to concentrate, on gameplay, that will help me the most=]
+- celery 300"a". ovrclked to 450,  128 mgs, ram, TNT, monster sound
+
+--- Play Information ---
+Game                         : Unreal
+Level Name              : DOM-Final Hour
+Bot Match                : Yes 
+Single Player            : No
+Cooperative             : No
+Deathmatch              : 5-9
+Domination              : oh yeah
+Known bugs            : none?!
+
+
+*I always recommend the "weapon stay" "hardcore", and bot learning on
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Construction Time  : 3days, or so, with a couple hours of playtesting and stuff, i think i got
+the bots pretty good, i still hate these pathnode things though!!!
+
+Installation
+------------
+	
+Copy and paste the DOM-Final Hour.unr  file into your "C:/Unreal Tournament/Maps" directory.  and the 
+techno.utx,and finalhour.utx, put those in the "C:/Unreal Tournament/textures/ dir, then go and hopefully have some fun=]
+
+
+
+
+---Copyright / Permissions---
+
+-----------------------
+This level is copyrighted by No ReMoRsE
+
+Authors may NOT use this level as a base to build additional levels.
+(Autor's permission required).
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+            
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

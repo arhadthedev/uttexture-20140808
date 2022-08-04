@@ -1,0 +1,10 @@
+Title Submarine Assoult
+Filename Submarinebase.zip
+Description          : Assault map for Unreal Tournament
+Author Grzegorz Kubicki
+Email Address: gkubicki@hotmail.com
+
+Build Time 2 Days
+
+Unzip submarine.unr to UnrealTournament/maps directory
+Unzip Mylevel.utx to UnrealTournament/Texture directory

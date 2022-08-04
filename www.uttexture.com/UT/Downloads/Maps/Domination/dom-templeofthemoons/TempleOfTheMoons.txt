@@ -1,0 +1,82 @@
+Title: The Temple of the Moons
+Filename: DOM-TempleOfTheMoons.unr
+This Archive: DOMTempleOfTheMoons.zip
+Version: 1
+Last Update: 4th June 2000
+Author: Orion(Co30), aka Francois Lacombe
+E-mail address: asimov@globetrotter.net
+
+Other levels by author: For Unreal: DmTempleOfTheMoons, DMTempleOfTheMoons_V2
+                        DmSkaarjArena, DmHellRaisersCaverns, DmSkySnipping_V5
+                        
+                        For Unreal Tournament: DM-SkySnipping][.
+
+--------------------------------------------------------------------------------
+Play Information 
+--------------------------------------------------------------------------------
+Game: Unreal Tournament
+Level Name: DOM-TempleOfTheMoons
+Single Player: No 
+Cooperative: No 
+Botmatch: Yes, Domination. 
+New Music: no 
+New Graphics: Yes, two new texture files
+New Unreal Script: no
+External DLLs: None 
+Mods: None
+Request: If you decide to run this map on a server, please email me the server's
+         name or IP address, I'd like to see how it plays online. Thank you
+         very much. 
+
+--------------------------------------------------------------------------------
+Construction 
+--------------------------------------------------------------------------------
+Base: Conversion to UT Domination of an Unreal Deathmatch level I made previously
+Build time: about 3 weeks total time.
+
+Editor(s) Used: UnrealEd
+Known Bugs: No major bug detected. The bots will have some difficulties with the
+            lift platforms, but they can use them if conditions are good. They
+            also will go for the redeemer, but not very often. There are a few
+            strangely shadowed surfaces. This is the result of compromises in
+            rebuilding the map's rather complex architecture. 
+
+--------------------------------------------------------------------------------
+Installation 
+--------------------------------------------------------------------------------
+Unzip the .unr file to your UnrealTournament/Maps directory and the .utx files
+your UnrealTournament/textures directory.
+
+--------------------------------------------------------------------------------
+A few comments
+--------------------------------------------------------------------------------
+This is the latest incarnation of my first published map. When Unreal Tournament 
+came out, I thought it would be interesting to convert it to UT format. However,
+I decided not to make it into a straight DM map. My experience with it in Unreal
+showed that it is just too big for that. I had a choice between CTF and DOM. I
+chose DOM, mainly because I could not figure out a really good placement for the
+flag bases, not without altering the map's layout more than I wanted too. So it
+became a DOM map. It works very well in that format. The control points are
+placed well apart, can be attacked from many different routes and yet can be
+defended with some ease. I find it challenging, but not frustrating. I hope you
+like it. 
+
+--------------------------------------------------------------------------------
+Author's Notes 
+Copyright / Permissions 
+--------------------------------------------------------------------------------
+This level is copyright by Francois Lacombe, June 2000.
+
+Authors may use this level as a base to build additional levels.
+
+You MAY distribute this level through any electronic network (internet, FIDO, local BBS etc.), provided you include this file, tell me you are doing so, and you leave the archive intact.
+
+--------------------------------------------------------------------------------
+
+
+UNREAL and UNREAL TOURNAMENT are ©1998, 1999 Epic Megagames, Inc. All Rights Reserved. Distributed by 
+GT Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered trademarks of 
+Epic Megagames, Inc. All other trademarks and trade names are properties of their respective owners.
+
+
+

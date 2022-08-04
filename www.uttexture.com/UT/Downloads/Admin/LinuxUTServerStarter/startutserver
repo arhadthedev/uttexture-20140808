@@ -1,0 +1,482 @@
+#!/bin/bash
+#
+# Linux Unreal Tournament server starter v106
+# by El Muerte [TDS] (thekiller@cyberjunkie.com)
+# with help from: el Tenedor CP and Daniel Vogel
+#
+# lines that begin with # are comments
+
+# EMAIL - the email address where an email containing
+# information about a server crash\restart will be send to, 
+# leave blank when not to send emails
+# EMAIL="webmaster@localhost"
+
+# GAMETYPE - what gametype to start the server
+GAMETYPE="BotPack.DeathMatchPlus"
+# GAMETYPE="BotPack.TeamGamePlus"
+# GAMETYPE="BotPack.Assault"
+# GAMETYPE="BotPack.Domination"
+# GAMETYPE="BotPack.CTFGame"
+# GAMETYPE="BotPack.LastManStanding"
+# GAMETYPE="SFGame.SFTeamDM"
+
+# MUTATORS - the list with the default mutators, seperated by commas
+# MUTATORS="BotPack.InstaGibDM"
+
+# MAP - the start map
+# you can use "-RANDOM-" to randomly choose a map when the server
+# starts, or just a map name, don't add the .unr extention
+# MAP="-RANDOM-"
+MAP="DM-Morpheus"
+
+# INI - the server configuration file
+INI="UnrealTournament.ini"
+
+# USERINI - the user configuration file
+USERINI="User.ini"
+
+# LOG - the server log file
+LOG="UTserver.log"
+
+# CRASHLOG - when the server crashes the log file will be 
+# renamed to this name. The crash date-time will be added to 
+# the end of of this file name
+# example of the crash log filename: "UTserver.log.crash.200010311708"
+CRASHLOG=$LOG".crash."
+
+# COMPRESLOG - compres the crash logs
+# leave this value empty to not to compress the log file
+COMPRESLOG="true"
+
+# MAXCRASHLOG - maximum number of crash log files
+# Leave blank for no limit
+MAXCRASHLOG=5
+
+# CRITICALSPACE - minimum amouth of megabytes to be free
+# on the drive (where UT is located) needed in order to start
+# the server. An email will be send (if the email address is
+# defined) when there's not enough space
+CRITICALSPACE=10
+
+# IP - this is the IP of the first NIC
+# DO NOT EDIT THIS LINE, it is used by other commands
+IP=`/sbin/ifconfig eth0 |grep 'inet addr:' | cut -f 2 -d: | cut -f 1 -d " "`
+
+# MULTIHOME - the multihome setting
+# You can use the $IP variable to use the IP of the
+# first NIC or you can just enter a raw IP address
+# leave blank if you want to use the multihome feature
+# MULTIHOME=$IP
+
+# NOHOMEDIR - use the "-nohomedir" parameter when starting the
+# server. If you leave this parameter empty UT will try to use
+# the .loki/ut directory in your home dir.
+# NOHOMEDIR="true"
+
+# SIGKILL - this is the kill signal used to kill the running UT server
+# here's a list of prefered kill signals
+# SIGQUIT -3
+# SIGTERM -15
+# SIGHUP  -1
+SIGKILL=-15
+
+# BACKUPINI - setting this option will back up the configuration 
+# files before starting the server. 
+BACKUPINI="true"
+
+#######################################################################################
+#                                  END OF CONFIGURATION                               #
+#                       you should not edit anything below this lime                  #
+#######################################################################################
+
+# Function to find the real directory a program resides in.
+# Feb. 17, 2000 - Sam Lantinga, Loki Entertainment Software
+FindPath()
+{
+    fullpath="`echo $1 | grep /`"
+    if [ "$fullpath" = "" ]; then
+        oIFS="$IFS"
+        IFS=:
+        for path in $PATH
+        do if [ -x "$path/$1" ]; then
+               if [ "$path" = "" ]; then
+                   path="."
+               fi
+               fullpath="$path/$1"
+               break
+           fi
+        done
+        IFS="$oIFS"
+    fi
+    if [ "$fullpath" = "" ]; then
+        fullpath="$1"
+    fi
+    # Is the awk/ls magic portable?
+    if [ -L "$fullpath" ]; then
+        #fullpath="`ls -l "$fullpath" | awk '{print $11}'`"
+        # modified for use without awk installed - by El Muerte
+        fullpath="`ls -l "$fullpath" | tr ' ' '\n' | tail -n 1`"
+    fi
+    dirname $fullpath
+}
+
+# MoveLog function by el Tenedor CP
+MoveLog() {
+    # $1 - log name, $2 - max num of this type of log
+
+    DT=`date +'%Y%m%d%H%M'`
+    echo "-> moving log"
+    DLOG="${1}${DT}"
+    mv -f $LOG $DLOG
+    CRASHEDLOG="$DLOG"
+    if ! [ -z $COMPRESLOG ]; then
+        echo "-> Compressing log"
+        gzip -f $DLOG
+	CRASHEDLOG="${DLOG}.gz"
+    fi
+    if ! [ -z $2 ]; then
+        echo "-> Deleting extra log files (if any)"
+        CRSCNT=`ls -1 | grep $1 -c`
+        while [ $CRSCNT -gt $2 ];
+        do
+            DELFILE=`ls -1 | egrep "$1.[0-9]+" | head -n 1`
+            rm $DELFILE
+            CRSCNT=`ls -1 | egrep "$1.[0-9]+" -c`
+        done
+    fi
+}
+
+# this function will select a random map from file $1
+MapSelect() {
+    NR=`cat ${UTDIR}/${1} | grep -c -`
+    NR=`${UTDIR}/randgen ${NR}`
+    echo `cat ${UTDIR}/${1} | cut -d . -f 1 | tail -n $NR | paste -s | cut -f 1`
+}
+
+# this will check the configuration files
+CheckINI() {
+    echo "-> Checking configuration files"
+    if ! [ -s "${UTSDIR}/${INI}" ]; then
+	if [ -s "${UTSDIR}/${INI}.back-up" ]; then
+	    echo "-> Original main configuration file does not exist or is empty"
+            echo "-> restoring back-up"
+            cp $UTSDIR"/"${INI}.back-up $UTSDIR"/"$INI;
+        else
+            echo "+> Original main configureation file does not exist or is empty"
+            echo "+> There was no back-up ... shutting down server"
+            if ! [ -z $EMAIL ]; then
+                echo -e "Could not (re)start ut server because the MAIN configuration file does not exist or is empty and there's no back-up file to restore.\nServer has been shutdown." | mail -s "UT Server @ "$HOSTNAME" ("$SNAME")" $EMAIL
+            fi
+            exit 255;
+        fi
+    fi
+    
+    if ! [ -s "${UTSDIR}/$USERINI" ]; then
+	if [ -s "${UTSDIR}/${USERINI}.back-up" ]; then
+	    echo "-> Original user configuration file does not exist or is empty"
+            echo "-> restoring back-up"
+            cp ${UTSDIR}/${USERINI}.back-up ${UTSDIR}/$USERINI;
+        else
+            echo "+> Original user configureation file does not exist or is empty"
+            echo "+> There was no back-up ... shutting down server"
+            if ! [ -z $EMAIL ]; then
+                echo -e "Could not (re)start ut server because the USER configuration file does not exist or is empty and there's no back-up file to restore.\nServer has been shutdown." | mail -s "UT Server @ "$HOSTNAME" ("$SNAME")" $EMAIL
+            fi
+            exit 255;
+        fi
+    fi
+}
+
+SNAME=`echo ${0} | tr / '\n' | tail -n 1`
+UTDIR=`FindPath $0`
+if [ -e "$PWD/$UTDIR/$SNAME" ]; then    
+    UTDIR="$PWD/$UTDIR"                
+fi
+UTSDIR=$UTDIR"/System"
+cd $UTSDIR
+LOCKFILE=$UTDIR"/"$SNAME".lock"
+PIDFILE=$UTDIR"/"$SNAME".pid"
+CRASHEDLOG=""
+WARNCRS="0"
+# trap these signals as a server shutdown
+trap ABORT=1 15
+trap ABORT=1 2
+# don't create any core dumps
+ulimit -c 0
+
+echo -e "\n###########################################################"
+echo "#  Linux Unreal Tournament server starter v106            #"
+echo "#  By El Muerte [TDS] (thekiller@cyberjunkie.com)         #"
+echo "#  with help from: el Tenedor CP and Daniel Vogel         #"
+echo "###########################################################"
+echo "-> UT base directory is "$UTDIR
+echo "-> UT System directory is "$UTSDIR
+echo "-> checking configuration"
+
+if [ -z $GAMETYPE ]; then
+    echo "+> error: No game type specified"
+    exit 255;
+fi
+if [ -z $MAP ]; then
+    echo "+> error: No map start map specified"
+    exit 255;
+fi
+if [ -z $INI ]; then
+    echo "=> warning: No ini specified, using default \"UnrealTournament.ini\""
+    INI="UnrealTournament.ini"
+fi
+if [ -z $USERINI ]; then
+    echo "=> warning: No userini specified, using default \"User.ini\""
+    USERINI="User.ini"
+fi
+if [ -z $LOG ]; then
+    echo "=> warning: No log specified, using default \"UTserver.log\""
+    LOG="UTserver.log"
+fi
+if [ -z $CRASHLOG ]; then
+    echo "=> warning: No crash log specified, using default \""$LOG".crash.<DATE>\""
+    CRASHLOG=$LOG".crash."
+fi
+#if ! [ -s $UTSDIR"/"$INI ]; then
+#    echo "+> error: the file $UTSDIR/$INI does not exist, or is empty"
+#    exit 255;
+#fi
+#if ! [ -s $UTSDIR"/"$USERINI ]; then
+#    echo "+> error: the file $UTSDIR/$USERINI does not exist, or is empty"
+#    exit 255;
+#fi
+if ! [ -x $UTSDIR"/ucc-bin" ]; then
+    echo "+> error: the file $UTSDIR/ucc-bin does not exist, or can not be executed"
+    exit 255;
+fi
+if ! [ -x $UTDIR"/ucc" ]; then
+    echo "+> error: the file $UTDIR/ucc does not exist, or can not be executed"
+    exit 255;
+fi
+
+CheckINI
+
+echo "-> configuration past"
+
+DisplayConfig()
+{
+    echo "###########################################################"
+    echo "#  starting with the following settings:"
+    echo "#  EMAIL         " $EMAIL
+    echo "#  GAMETYPE      " $GAMETYPE
+    echo "#  MAP           " $MAP
+    echo "#  MUTATORS      " $MUTATORS
+    echo "#  INI           " $INI
+    echo "#  USERINI       " $USERINI
+    echo "#  LOG           " $LOG
+    echo "#  CRASHLOG      " $CRASHLOG"<DATE>"
+    echo "#  COMPRESLOG    " $COMPRESLOG
+    echo "#  MAXCRASHLOG   " $MAXCRASHLOG
+    echo "#  CRITICALSPACE " $CRITICALSPACE"MB"
+    echo "#  IP            " $IP
+    echo "#  MULTIHOME     " $MULTIHOME
+    echo "#  NOHOMEDIR     " $NOHOMEDIR
+    echo "#  LOCKFILE      " $LOCKFILE
+    echo "#  PIDFILE       " $PIDFILE
+    echo "#  BACKUPINI     " $BACKUPINI
+    echo "###########################################################"
+}
+
+RUNS=0
+
+case "$1" in
+
+    start)
+	if [ $UID -eq "0" ]; then
+	    echo "+> error: You are currently root, it's not wise to run the server as root"
+	    exit 255;
+	fi
+	DisplayConfig
+	if [ -e $PIDFILE ]; then
+	    OLDPID=`cat $PIDFILE`
+	    TEST=`ps ${OLDPID} | grep ${SNAME} | paste -s | cut -f 1 | head -c 5 | tr ' ' '\n' | tail -n 1`
+	    if ! [ -z $TEST ]; then
+		echo "+> error: already an instance of ${SNAME} running"
+		exit 255
+	    fi
+	    rm $PIDFILE
+	fi
+
+      #CPID=`ps -C ${SNAME} -o "%p" --no-headers` <-- nobody told me about $$
+      echo $$ > $PIDFILE
+      while [ -z $ABORT ];
+	do
+
+	cd $UTSDIR
+	RUNS=$(( RUNS+1 ))
+	if [ $MAP == "-RANDOM-" ]; then
+	    echo "-> Selecting random map"
+	    NEWMAP=`MapSelect ${GAMETYPE}`
+	    if [ "$MAP" == "$NEWMAP" ]; then
+		echo "+> Random MapSelect failed, returned map was ${NEWMAP}";
+		exit 255;
+	    fi;
+	    if [ -z "$NEWMAP" ]; then
+                echo "+> Random MapSelect failed, returned no map";
+                exit 255;
+            fi;
+	    else
+	    NEWMAP=$MAP
+	fi
+
+	if ! [ -s "${UTDIR}/Maps/${NEWMAP}.unr" ]; then
+	    if [ $MAP == "-RANDOM-" ]; then
+		while ! [ -s "${UTDIR}/Maps/${NEWMAP}.unr" ]; do
+		    echo "-> Selecting random map"
+		    NEWMAP=`MapSelect ${GAMETYPE}`
+		    if [ "$MAP" == "$NEWMAP" ]; then
+			echo "+> Random MapSelect failed, returned map was ${NEWMAP}";
+		    exit 255;
+		    fi;
+		    if [ -z "$NEWMAP" ]; then
+			echo "+> Random MapSelect failed, returned no map";
+			exit 255;
+		    fi;
+		done;
+	    else
+		echo "+> Error: could not find map: ${UTDIR}/Maps/${NEWMAP}.unr";
+		exit 255;
+	    fi
+ 	fi
+
+	CMD=$UTDIR"/ucc server "$NEWMAP"?game="$GAMETYPE"?mutator="$MUTATORS" INI="$INI" USERINI="$USERINI" LOG="$LOG
+	if ! [ -z $MULTIHOME ]; then
+	    CMD=$CMD" MULTIHOME="$MULTIHOME
+	fi
+	if ! [ -z $NOHOMEDIR ]; then
+            CMD=$CMD" -nohomedir"
+        fi
+
+	# check for free diskspace
+        FREESPACE=`df -m $PWD | tail -n 1 | tr ' ' '\n' -s | paste -s | cut -f 4`
+        echo "-> Free space is "$FREESPACE"MB"
+        if [ $FREESPACE -lt $CRITICALSPACE ]; then
+            echo "+> Not enough space left to start the server (less then "$CRITICALSPACE"MB)"
+            if ! [ -z $EMAIL ]; then
+                echo -e "Could not start the server because there was not enough space left on the device.\nFree space : "$FREESPACE"MB\nCritical space : "$CRITICALSPACE"MB" | mail -s "UT Server @ "$HOSTNAME" ("$SNAME")" $EMAIL
+            fi
+            exit 255;
+        fi
+	
+	CheckINI
+
+	if ! [ -z $BACKUPINI ]; then
+	    echo "-> backing up configuration files to <filename>.back-up"
+	    cp $INI ${INI}.back-up
+	    cp $USERINI ${USERINI}.back-up
+	fi
+
+	echo "-> Starting the Unreal Tournament server (run: "$RUNS")"
+	echo "-> CMD: "$CMD
+	echo -e "\7"
+
+	echo $CMD \
+            | sed s/'\['/'\\['/g | sed s/'\]'/'\\]'/g \
+            | sed s/'('/'\\('/g | sed s/')'/'\\)'/g  \
+            | cut -d ' ' -f 2- > $LOCKFILE
+
+	STTIME=`date +%s`
+	
+	$CMD > /dev/null
+	
+	SPTIME=`date +%s`
+	SPTIME=$(( $SPTIME - 60 ))
+	if [ $SPTIME -le $STTIME ]; then
+	    WARNCRS=$(( $WARNCRS + 1 ));
+	    else 
+	    WARNCRS="0"
+	fi
+	if [ "5" -le $WARNCRS ]; then
+	    echo "+> error: The server crashed more then 5 times the last 5 minutes"
+	    
+	    if ! [ -z $EMAIL ]; then
+		DT=`date +'%Y-%m-%d %H:%M'`
+		echo -e "Unreal Tournament server on "$IP" crashed more then 5 times the last 5 minutes, on ${DT}\nThe server has been shutdown, please fix the problem and restart the server. \n\nThe last 25 lines from the log file: \n${LASTTEN}" | mail -s "UT Server @ "$HOSTNAME" ("$SNAME")" $EMAIL
+		echo "-> Email send to "$EMAIL
+	    fi
+	    exit 255; 
+	fi
+	
+
+	if ! [ -z $ABORT ]; then
+	    if [ -e $LOCKFILE ]; then
+		rm $LOCKFILE
+	    fi
+	    if [ -e $PIDFILE ]; then
+		rm $PIDFILE
+	    fi
+	    echo "-> Linux UT Server starter shut down"
+	    exit 0
+	fi
+
+	LASTTEN=`tail -n 25 ${LOG}`
+        MoveLog $CRASHLOG $MAXCRASHLOG
+
+	if ! [ -z $EMAIL ]; then
+	    DT=`date +'%Y-%m-%d %H:%M'`
+	    echo -e "Unreal Tournament server on "$IP" crashed, or was shutdown and restarted, on ${DT}\nLog file copied to ${CRASHEDLOG} \n\nThe last 25 lines from the log file: \n${LASTTEN}" | mail -s "UT Server @ "$IP" ("$SNAME")" $EMAIL
+	    echo "-> Email send to "$EMAIL
+	fi
+      done
+	
+;;
+
+    stop)
+	if [ -e $LOCKFILE ]; then
+	    UTPID=`ps ax --columns 9999 | grep -f ${LOCKFILE} | paste -s | cut -f 1 | head -c 5 | tr ' ' '\n' | tail -n 1`
+	    echo "-> UT Server running with PID "$UTPID
+	    else
+	    echo "+> error: no .lock file found, so can't kill the running UT server"
+	fi;
+	if [ -e $PIDFILE ]; then
+	    OLDPID=`cat ${PIDFILE}`
+	    TEST=`ps ${OLDPID} | grep ${SNAME} | paste -s | cut -f 1 | head -c 5 | tr ' ' '\n' | tail -n 1`
+	    if [ -z $TEST ]; then
+		echo "+> error: no previous instance running";
+	    fi;
+	    else
+	    echo "+> error: no previous instance running, no .pid file";
+	fi
+	if ! [ -z $OLDPID ]; then
+	    kill -15 $OLDPID
+	    echo "-> previous instance stopped"
+	fi
+	if ! [ -z $UTPID ]; then
+	    kill $SIGKILL $UTPID
+	    echo "-> running UT server stopped"
+	fi
+	
+    ;;
+
+    restart)
+	if [ -e $LOCKFILE ]; then
+	    UTPID=`ps ax --columns 9999 | grep -f ${LOCKFILE} | paste -s | cut -f 1 | head -c 5 | tr ' ' '\n' | tail -n 1`
+	    echo "-> UT Server running with PID "$UTPID
+	    else
+	    echo "+> error: no .lock file found, so can't kill the running UT server"
+	fi;
+	if ! [ -z $UTPID ]; then
+	    kill $SIGKILL $UTPID
+	    echo "-> running UT restarted"
+	fi
+    ;;
+    config)
+	DisplayConfig
+    ;;
+
+    *)
+	echo -e "\nusage: $0 {START|STOP|RESTART}"
+	echo -e "\n\tSTART\tStarts the server"
+	echo -e "\tSTOP\tStops the server and launchare script"
+	echo -e "\tRESTART\tRestarts the server"
+	echo -e "\tCONFIG\tVerifies and displays the config"
+    ;;
+
+esac
+
+exit 0;

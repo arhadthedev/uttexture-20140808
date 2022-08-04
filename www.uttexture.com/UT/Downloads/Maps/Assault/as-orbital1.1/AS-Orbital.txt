@@ -1,0 +1,123 @@
+============================================================================
+Title                   :AS-Orbital
+Version                 :1.1
+Release Date            :12 June 2000 (Happy Birthday Bruv!!)
+Filenames               :AS-Orbital.zip containing
+                         AS-Orbital.unr
+                         AS-Orbital.txt
+Author                  :Graham "Lovepump" Pritchard
+Email Address           :biggprit@aol.com
+Web Page                :http:\\members.aol.com\biggprit
+                        
+Description             :A big metal doughnut in space.... with guns....
+
+Where to get this map   :http:\\members.aol.com\biggprit or
+                         www.aceclan.co.uk(soon)
+
+Other levels by author  :None yet, this is my first level, give me a chance,
+                         jeez.. there's no pleasing some people... heheheh!
+
+Additional Credits to   :Wolf's Unreal at www.gamedesign.net, the best set 
+                         of unreal tutorials on the net.
+                         The guys at the forums on www.gamedesign.net for
+                         answering my stupid newbie questions.
+
+Playtesting and         :My bro Kevin "Ventura" Pritchard
+general abuse            Paul "Dwarfslapper" Furse
+                         The aceclan mob at www.aceclan.co.uk
+                         Jon "Jono" Jennings
+                         Lee "Turnip" Hackett
+                         Darius "Captain Camper - in a dark skin, hiding in
+                                              the darkest areas of the map"
+                         The Beta Map Guys at UT City   
+============================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :Orbital Space Station
+Gameplay Style          :Assault
+New Sounds              :nope
+New Graphics            :level screenshots only
+NewUnrealScript         :no
+Bugs                    :probably..
+			 A few small areas where the skybox shows through
+                         (the design is a bit too adventurous for a first
+                         attempt at level design!!!) 
+
+--- Construction ---
+Editor(s) used          :UnrealEd, Amapi, a wing and a prayer
+Base                    :None - built from scratch
+Construction Time       :2 and a half months (very conservative estimate!!!)
+
+
+--- Installation ---
+copy the AS-Orbital.unr file to your unrealtournament/maps directory
+
+
+--- Gameplay notes --- (deep breath...)
+Defenders can try stopping the attackers reaching the second quadrant block
+by sniping them across the outer ring. If an attacker makes it past the last
+window on the outer ring then the defenders should use the teleporters to
+travel into the second quadrant block to head them off and protect the blast
+door fuses. There are two autocannons in the second quadrant block to assist
+the defenders. Attackers need to shoot the two fuses to open the blast doors
+Once the blast doors have been opened the defenders should try to stop the
+attackers from reaching the door at end of the corridor. If they reach this
+the autocannons will deactivate and the attackers will spawn in the second
+quadrant block. Defenders should then try to keep the attackers in the inner
+corridor . Once the attackers have reached the end of the inner corridor the
+defenders should try to protect the four reactor controls. The attackers
+must deactivate all four controls to destabilize the reactor and gain access
+to the main hangar bay. A well aimed rocket can blast an ememy off the
+walkways to the reactor controls into oblivion. Once all reactor controls
+have been deativated then the attackers spawn point moves again closer and
+the defenders spawn in the hangar bay. Defenders then have to stop the
+attackers reaching the escape shuttle.
+
+6 to 12 players seem to work best, any more and it gets a bit too frantic..
+
+
+--- Author's Notes ---
+This is my first level so constructive feedback is welcome. If you find
+anything weird (or plain stoopid) or if you like what I've done please email
+me and let me know.
+
+Although I don't think it exceeds the 350 node/160 poly guide limits, the
+poly count is pretty high throughout the level (need to work on my zoning
+and detail levels) so it needs a reasonably powerful machine. It runs fine
+on my PIII 550 +128Mb RAM +TNT and my Bro's Celeron 400 +128Mb RAM +Voodoo2.
+
+The AS-Orbital.unr file weighs in at hefty 19.4Mb, dunno why, all other
+similar sized maps seem to be around 3 to 4 Mb, still it zips up ok. Might
+cause problems for users with 64mb or less. 
+
+--- Version History ---
+Version 1.1 - 12 June 2000
+Thanks for the feedback which inspired most of the changes
+	- got the bots to snipe across the outer ring
+	- changed a few weapons around
+	- added teamcannons to shoot across the outer ring
+	- added hollow box with shield belt
+	- added jumpboots and the ledge with the big keg o'health
+	- fixed a problem with defenders alternate spawn points
+	- tarted up a few drab textured places and added a few lights
+	- added a third set of attackers spawn points
+	- decreased the door opening times
+	- made doors triggered one way only to stop defenders backtracking
+
+Version 1.0 - 12 May 2000 - Initial Beta release 
+
+============================================================================
+--- Copyright / Permissions ---
+This level is copyrighted by G D Pritchard - May 2000.
+
+Do what ya like with it (you know you would anyway!)
+If ya use it for anything useful credit would be nice.
+
+If you distribute this level through the internet please include this file
+and leave the archive intact.
+
+============================================================================
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

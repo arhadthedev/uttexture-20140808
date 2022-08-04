@@ -1,0 +1,251 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+
+<HEAD>
+<TITLE>The Unofficial Unreal Editing FAQ - How To...</TITLE>
+<LINK REV="made" HREF="mailto:klaus@planetunreal.com">
+<META NAME="author" content="Klaus Breuer">
+<META name="generator" content="By hand. HTML Editors suck">
+<META name="description" content="FAQ for Unreal map editing">
+</HEAD>
+
+<BODY>
+<H1>How To...</H1>
+This chapter is the main body of the FAQ - it explains to you, like a cookbook, how to
+create different effects in your worlds.
+<P>
+Every section consists of three parts: a description of what you're looking at, an
+explanation on how to do it, and some common questions.
+<P>
+<A HREF="#skybox">SkyBox</A><BR>
+<A HREF="#mover">Movers</A><BR>
+<A HREF="#water">Water</A><BR>
+<A HREF="#glass">Glass</A><BR>
+
+
+<P>
+...many more to follow...
+
+
+<H2><A NAME = "skybox">Skybox</A></H2>
+
+<H3>What is it?</H3>
+
+Noticed how much better the skies look in Unreal than in the previous 3D shooters?<BR>
+The secret is in the so-called Skybox: a camera is placed in a small room mapped to look
+like the sky (complete with surrounding mountains, moons, clouds, etc), and whatever the
+cameras sees is mapped onto your sky.
+<P>
+The sky is created using two rooms: the skyroom (defining where the sky is) and the skybox
+(defining what the sky looks like).
+
+<H3>How to do it</H3>
+
+The following image shows a courtyard open to the sky:<BR>
+<IMG SRC="images\howto\skybox.gif" ALT="Skybox [3K]" WIDTH=342 HEIGHT=206><BR>
+Note that the sky has its very own room: it is not simply mapped to the ceiling of the
+courtyard. Instead, it is mapped to every wall of the skyroom - this allows for very
+realistic skies.
+<P>
+So: select every wall in the skyroom and set activate the surface property <B>Environment Map</B>.
+<P>
+Now, this isn't all: so far, we have just defined <I>where</I> the sky will be, not
+<I>what</I> it'll look like.<BR>
+For that, create a room somewhere away from your actual map: the Skybox itself. It can
+be any size, but I recommend making the XY size larger than your largest skyroom.<BR>
+(If your skybox is a lot smaller than the skyroom, you'll have to scale the textures inside
+the skybox down so they don't look too big in the game).
+<P>
+Texture the skybox any way you please. For example, you could texture the ceiling with 
+ShaneSky.Stars (Stars), and hang a sheet underneath it, masked with SkyBox.NCld (Clouds).<BR>
+This way, you would get a cloud cover with stars shining through it.
+<P>
+Don't forget to texture the walls and floor too (I recommend having a look at the SkyBox
+texture set, it contains some nice mountains for that very purpose).
+<P>
+Now, place a Info.ZoneInfo.SkyZoneInfo into the skybox. This is your camera: place it in the
+middle near the floor.<BR>
+If you like, you can also place sheets with masked decorations (moons, mountains) around it.
+
+<H3>Questions</H3>
+
+<H4>Changing the cloud movement speed</H4>
+If you've activated the <B>UPan</B> or <B>VPan</B> property (or both) on your clouds to get
+them moving, you'll usually notice them moving too fast.
+<P>
+Two solutions: firstly, your skybox could be too small - try increasing its size.<BR>
+Secondly, the SkyZoneInfo has the Property <B>ZoneLight</B>, in which you can change the
+sub-properties <B>TexUPanSpeed</B> and <B>TexVPanSpeed</B> from their default of 1.0 to
+something smaller.
+
+<H4>How do I make the sky swallow projectiles?</H4>
+Place a sheet underneath the skyroom and make it into its own zone. Place an 
+Info.ZoneInfo.CloudZone into it. Voila.
+
+<H4>The clouds are too dark</H4>
+Set the <B>Unlit</B> property for the clouds - this corresponds to the <B>Fullbright</B>
+setting in Quake and means that it's always shown as fully lit.
+
+<H4>The sky slows down the game</H4>
+Here are two things you shouldn't put into the sky: Coronas (especially large ones) and
+Dynamic Lights - both eat processor power like crazy up there.
+
+<H4>How do I create windows looking out at the sky?</H4>
+No problem: simply create something like a small skyroom in front of your window, set all the
+rooms texture properties to <B>Fake Backdrop</B> and you're set. If you've textured your
+skybox properly, you can see different backdrops depending on the direction the window looks.<BR>
+Thus, a window looking north would see something different from a window looking east.
+
+<H2><A NAME = "mover">Movers</A></H2>
+
+<H3>What is it?</H3>
+Movers are moving brushes. They can do anything, from the floor sliding aside to drop the
+player into a lava pit, to moving doors and lifts.<BR>
+Let's take a simple lift as an example (all movers are done the same way).
+
+A lift is simply a moving brush. When triggered (typically by player proximity), it moves
+from position one (top) to position two (bottom), delays for a moment, and moves back up.
+
+<H3>How to do it</H3>
+The lift consists of two parts: the area the lift moves in, and the lift itself.<BR>
+First build the lift area. Texture it right, add some black/yellow warning stripes (if it's
+in an industrial area), add the guidance rails, and so on.
+<P>
+Next, create the lift itself - hanging in midair. Simply build it in the middle of an empty room
+(I like creating a 'building room' somewhere off the map). <BR>
+This has the advantage that you can move all around the lift, texturing and sizing it just right.
+You'll also need some space around it for the intersection brush later.
+<P>
+When you've created a good-looking lift, you'll have to intersect it: select the cubs tool and
+design a cube which totally encompasses the lift without touching anything else (think of it as
+packing the lift in a crate).<BR>
+<B>Don't</B> actually build the cube, though. You don't want to add it to the world - you want
+to intersect it with the lift by pressing this button:
+<IMG SRC="images\howto\intersect.gif" ALT="Intercept Icon [0.3K]" ALIGN="TOP" WIDTH=34 HEIGHT=35>
+<P>
+This intersection turns the current brush into a brush that looks just like the lift - in effect
+turning the many brushes of the lift into a single brush.<BR>
+Now move to your lift area, position the brush exactly where you want the lift to start and add a
+moving brush by clicking this button:
+<IMG SRC="images\tutorial\movingbrush.gif" ALT="Add Movable Brush Icon [2K]" WIDTH=34 HEIGHT=35 ALIGN=top><BR>
+You'll see your lift appear as a blue outline. This is the first keyframe: keyframe 0. It's the
+start position of your mover.<BR>
+Select the mover (you might want to hide the red brush first as it'll be in the way), right-click
+it and select the option <B>Mover <U>K</U>eyframe</B>. From there, choose <B>Key <U>1</U></B>.<BR>
+Now move the mover to the second position.
+<P>
+Again, right-click it, and set the keyframe back to 0: you'll see the mover jump back to it's
+original position.
+<P>
+And that's all - pretty simple, isn't it?
+
+<H3>Questions</H3>
+
+<H4>Explain the overview again?</H4>
+Okay. You create the lift original, hanging in mid-air in your construction box. You intersect
+it, and add a mover at the lift start position. Select keyframe 1 (the second keyframe, first
+one's called 0), shift the mover, select keyframe 0 again and that's that.<BR>
+You might want to keep the original lift hanging around if you need it again somewhere else.
+
+<H4>What's keyframing?</H4>
+Keyframing is a way to define the movement of an object. You place several examples of it along
+its path (complete with different rotation, if you want), and the computer automagically moves
+it between these points.
+
+<H4>How do I retexture the lift once I've added it as a mover</H4>
+Ummm...you don't. You'll have to delete it, retexture your original (you still have it in your
+building room, right? Right?), and recreate the mover.
+
+<H4>Can I have more than two positions?</H4>
+Yes. Simply position some other keyframes as well, and change the Move.Numkeys property of the
+mover.
+
+<H4>So how does a simple door work?</H4>
+In exactly the same way as the lift. A DOOM-style door (which lowers into the ground) is simply a
+lift that drops into the floor (brushes can move through each other without problems). A rotating
+door has two keyframes: one showing it closed, and the other simply rotated open.<BR>
+(Change the rotation point by moving the little cross of the brush about - simply leftclick and
+drag).
+
+<H4>How do I set the movers speed?</H4>
+Look at Mover.Movetime - it gives the time in seconds between the keyframes. You can't change the
+speed between different keyframes (sadly), but you can use several keyframes at varying distances,
+forcing the mover to 'hurry' over the larger distances.
+
+<H2><A NAME = "water">Water</A></H2>
+
+<H3>What is it?</H3>
+Water is Unreal is different from water in Quake (which simply uses a 'water' brush).<BR>
+Not it is a separate zone containing an Info.ZoneInfo.WaterZone class. The zone is
+separated from the rest of the map by a flat nonsolid sheet (add special brush: water).
+
+<H3>How to do it</H4>
+Let's use a simple example: an open pool.<BR>
+First, create an empty pool. Feel free to texture it properly, add some water plants, perhaps
+some fish (they don't <I>need</I> to be aggressive, after all).<BR>
+Next, use the <B>Build a Sheet</B> button
+<IMG SRC="images\tutorial\sheet.gif" ALT="Build a Sheet Icon [0.3K]" WIDTH=34 HEIGHT=35 ALIGN=top>
+to create the water surface.
+<P>
+Don't add it yet - instead, use the <B>Add Special Brush</B> icon:
+<IMG SRC="images\tutorial\special.gif" ALT="Add Special Brush Icon [0.3K]" WIDTH=34 HEIGHT=35 ALIGN=top><BR>
+From the menu popping up now, choose the predefined <I>Water</B> and click on <B><U>A</U>dd 
+Special</B>.
+<P>
+And that's all. You will, of course, want to texture the water surface nicely.
+
+<H3>Questions</H3>
+
+<H4>How do I do lave, slime, etc?</H4>
+In exactly the same way, but use the Info.ZoneInfo.LavaZone or Info.ZoneInfo.SlimeZone.<BR>
+You can also edit the properties of the ZoneInfo to change the amount of damage and the like.
+
+<H4>My whole level is flooded!</H4>
+Looks like your water surface isn't watertight. Make sure you close the water zone off
+completely. It's best to make the sheet a bit too big, just to be on the safe side.
+
+<H2><A NAME = "glass">Glass</A></H2>
+
+<H3>What is it?</H3>
+While you can make an entire brush transparent to create a glass pane, I do not recommend
+doing so: it slows the engine down, causes HOM errors on the edges (where the glass touches the
+wall), and monsters sometimes act strangely next to it.
+<P>
+Instead, we cheat: create a masked wall with the glass texture and place an invisible collision
+brush over it to stop the player from walking through it.
+
+<H3>How do I do it?</H3>
+First, create a sheet where the glass should be. Make sure to use either an X-Wall or a Y-Wall
+sheet.<BR>
+Next, select a nice glass texture, like <B>GenLn.Glass.Glass</B><BR>
+Once the sheet is in position, click on <B>Add Special Brush</B> and select <I>Transparent Window</I>,
+<I>2-Sided</I> and <I>Non-solid</I>. Click on the <B><U>A</U>dd Special</B> button to actually create
+your sheet.
+<P>
+So far, so good, but creatures can still walk through this window - a sheet can never be solid, even
+if you select <I>Solid</I> in the menu. Thus we'll have to place an invisible brush over it.
+<P>
+Create a brush using any texture you've already used (by not using a different texture you keep the
+final size of your map down - why should the engine load the invisible texture if it doesn't get
+shown anyway?). Make <I>very</I> sure that it doesn't touch any other geometry (make it a bit smaller than
+the window frame).<P>
+Add it to the world using <B>Add Special Brush</B> with the option <I>Invisible
+collision hull</I>. It'll still be visible in the editor, but not in the game itself.
+<P>
+And that's all!
+
+<H3>Questions</H3>
+
+<H4>Can I build grates, cobwebs, etc using the same method?</H4>
+Yes! Just use the option <I>Masked Wall</I> instead of <I>Transparent Window</I>. For cobwebs,
+simply leave out the invisible collision hull (unless they're very strong cobwebs...).
+
+
+<P>
+<HR>
+<P>
+<A HREF="index.html">Return to the Table of Contents</A>
+
+</BODY>
+</HTML>
+

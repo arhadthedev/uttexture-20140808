@@ -1,0 +1,68 @@
+================================================================
+Title             : The Eye 3
+Version           : 1.00
+Release Date      : 11-07-2002
+Fixes             : None
+Filename          : JB-TheEye3.zip
+Author            : Rev Billy G
+Email Address     : revbillyg@btinternet.com
+Web Page          : www.revbillyg.com
+Description       : Like nothing you've ever seen :)
+Other maps by 
+author            : DM-Humanity, CTF-TrainYard, DM-Deceptionist, The Eye Pack
+Where to get
+this map          
+                  :http://www.revbillyg.com
+================================================================
+--- Play Information ---
+Level Name           : The Eye 3
+Single Player        : um..
+Deathmatch           : no
+Capture the Flag     : no
+Domination           : no
+Assault              : no
+JailBreakIII	     : yes
+Difficulty Settings  : no
+New Sounds           : no
+New Graphics         : no
+New UnrealScript     : yes
+External DLLs        : no
+Known bugs           : none
+
+--- Construction ---
+Editor(s) used       : UnrealEd
+
+
+Installation
+------------
+Put the .unr files into your maps directory.
+
+Author Notes
+------------
+	A conversion of CTF-TheEye][ for UT Jailbreak III.
+
+	
+
+Aaron Tuxford
+(Rev Billy G)
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Rev Billy G 2002.
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)2000 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

@@ -1,0 +1,54 @@
+================================================================
+Title                   : 4 By 4 Symmetrical Arena
+Author                  : Lacerate
+Email Address           : freefroghurt@hotmail.com
+Version                 : 1.0
+Release Date            : 08/27/2001
+
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : CTFM-4by4
+New Sounds              : No
+New Graphics            : No
+New Music:		: No
+Known bugs              : None 
+Player Count		: 12 - 16 
+ 
+--- Construction ---
+Editor(s) used          : UnrealEd 2
+Construction Time       : 3 Hours
+
+
+Installation
+------------
+Unzip "CTFM-4By4.unr" into the UnrealTournament/Maps folder.
+
+
+Minimum System requirements:
+
+Low
+
+Tested On:
+
+Athlon Thunderbird 850, 384 Mb Ram, Kyro 2 64Mb
+
+
+4 By 4 Symmetry inf:
+
+This map is inspired by another similiar map I saw somewhere else that had no name and no credits. It is designed to run very fast with no unusual geometry or special effects. Colors used could be described as 'tacky' in places.
+
+Average polygon counts for this map generally stay below the 100 mark. 
+
+Textures Used : NaliCast
+              : SkyCity
+              : Starship
+Sounds Used   : AmbOutside
+Music         : Nether
+
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  Unreal Tournament and the Unreal Tournament logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

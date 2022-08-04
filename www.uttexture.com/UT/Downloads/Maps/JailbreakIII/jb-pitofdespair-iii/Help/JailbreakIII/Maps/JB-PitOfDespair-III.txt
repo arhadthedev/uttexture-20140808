@@ -1,0 +1,66 @@
+================================================================
+JB-PitOfDespair-III
+================================================================
+
+Modified for the 'Classic Map Pack' by WillySurvive - 2002
+
+This is the original "readme" that came with the map long time ago !
+Informations in here may be outdated !
+
+Unreal Tournament JB Map
+
+================================================================
+Title                   : JB Pit of Despair
+Version                 : 300
+Release Date            : 10/12/02
+Filename                : JB-PitofDespair-III.unr
+Author                  : Bill 'DireIce' Hamilton
+Email Address           : Zone@Battlezinc.com
+Web Page                : http://www.battlezinc.com/utmaps
+
+Description             : The Pit of Despair consists of a large underground cavern
+			  with opposing bases on each side of the cave. New in Version
+			  2: Custom Chain-Driven Jail Releases, Custom Torches, Added
+			  water, overall lighting changes.
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : JB Pit of Despair (JB-PitofDespair-III.unr)             
+Game Type               : Jail Break
+JB-Arena		: no
+Single Player           : yes
+Multiplayer             : yes
+New Sounds              : No
+New Graphics            : No
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : New level
+
+
+Installation
+------------
+Unzip the file JB-PitofDespair-III.unr into your UnrealTournament\maps directory.
+You can then choose JB-PitofDespair-III from the "start practice session\UTJB" menu. 
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Bill Hamilton, 2001.
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

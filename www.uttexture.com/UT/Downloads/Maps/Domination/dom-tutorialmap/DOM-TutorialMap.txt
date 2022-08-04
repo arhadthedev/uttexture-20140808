@@ -1,0 +1,38 @@
+_____________________________________________________
+Title:            	DOM-TutorialMap
+Version:                1.0
+Release Date:           SEPTEMBER 2006
+Filename:             	DOM-TutorialMap.zip
+Author:           	Cliff Bleszinski
+                        (modified by alexanderpas)
+_____________________________________________________
+Play information:
+
+Game:                   Unreal Tournament (UT99)
+Gametype:		Domination
+Players:	        2-4 (supporting up to 6)
+Bots:            	Yes (improved support)
+New sounds:      	No
+New graphics:    	No
+New music:       	No
+_____________________________________________________
+Installation:           Put DOM-TutorialMap.unr in
+                        your UnrealTournament/Maps
+                        folder.    
+                                                            
+_____________________________________________________
+Construction:
+
+Base:           	DOM-Tutorial
+Editor:         	UnrealED 2.0  
+Other programs:    	No             
+Known bugs:     	None 
+Construction time:     	15 minutes
+_____________________________________________________
+Short description:      Basically this is the
+                        Domination tutorial edited to
+                        be played as a usual map, and
+                        with improved bot support.
+
+( no screenshots are included in the .zip file since
+  everyone should know what this level looks like )

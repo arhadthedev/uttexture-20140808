@@ -1,0 +1,152 @@
+I advice you to visit http://unreal.snt.utwente.nl/ to check for a new version of this 
+mutator.                                                              current version 155
+
+             !!! IMPORTANT: REMOVE THE SERVERPACKAGE `tdsautolagkickmsg` !!!
+
+          _____ ___  ___     _       _         _                _  ___    _    
+         |_   _|   \/ __|   /_\ _  _| |_ ___  | |   __ _ __ _  | |/ (_)__| |__ 
+           | | | |) \__ \  / _ \ || |  _/ _ \ | |__/ _` / _` | | ' <| / _| / / 
+           |_| |___/|___/ /_/ \_\_,_|\__\___/ |____\__,_\__, | |_|\_\_\__|_\_\ 
+                                 U T   M U T A T O R    |___/                  
+                                   
+TDS Auto Lag Kick is a Unreal Tournament mutator. This mutator does not change game play
+what so ever. The mutator monitors every player's ping, if the player's ping is above a 
+certain level for a predefined time he/she will be kicked. This mutator is written to 
+improve gameplay, because nobody likes a laggy server. This is a server only mutator,
+so your clients don't have to download it.
+
+Installation is easy, just install the .umod or unzip the zip file to the \System 
+directory. This is a server only mutator, so clients don't have to download it.
+To enable the Web based administration you have to add the following to the 
+UnrealTournament.ini. In the section [UWeb.WebServer] add the following lines:
+  Applications[##]=tdsautolagkick.TDSWebAdmin
+  ApplicationPaths[##]=/tdsautolagkick
+where ## is the first unused number, by default 2. After this you can access the
+web based admin via http://your.ip.here:port/tdsautolagkick
+
+TDS AutoLagKick will be listed in the mutator list and thus make your server be listed
+as a "mod" server in ngWorldStats, if you don't want TDS AutoLagKick to be listed in
+the mutator list install it as an ServerActor, add the following line to your
+server .ini file:
+
+[Engine.GameEngine]
+ServerActors=tdsautolagkick.tdsautolagkick
+
+If you do this you can no longer use the `mutate` commands to configure the TDS 
+AutoLagKick from within the game. the WebAdmin is still possible.
+
+Configuring is easy. Just open de tdsautolagkic.ini file with your favorite text editor 
+and change the values of the options.
+KickPing	is the ping from where players will be kicked. Set this to a high number 
+		to disable and only use the other functions
+KickTime	is the time in seconds that the player has have to have the KickPing in 
+		order to get kicked.
+StartTime	is the time that a new player will be left alone, this is build in 
+		because new players will have a high ping for a couple of seconds. If 
+		the player is playing Starttime seconds then he will be monitored for lag.
+IllegalChars	is a string with illegal characters, if a player has used one fo these
+		chars in his name, he will be kicked. This was put in here to prevent 
+		the ~ in players names.
+PacketLoss	is the PacketLoss value after which the mutator will monitor the player
+PackTime	the player will be kicked after he had the above packet loss for this 
+		time
+NoKickIP[##]	these are IPs that will never be kicked.
+Then in the section [tdsautolagkick.TDSWebAdmin] you have the following options:
+AdminUsername	this is the username for the Web Admin
+AdminPassword	well this is the password to use with the name
+AdminRealm	this is the name of the internet section where this part belongs to.
+		If you give this the same name as for the usual Web Admin you don't
+		have to retype the passwords (as long as you have the same Usernames
+		and passwords)
+
+It's also possible to change these settings from within the game. You have to be 
+administrator in order to change it. When you are in the game, open the console (~) and 
+type "mutate <setting> <value>". <setting> is one of the following: SetTime, SetPing, 
+SetStart. <value> is a plain number.
+The following commands can also be used with "mutate"
+SaveIP <playername>	adds the players IP to a list with IP that will never be kicked
+SaveIPNR <ipmask>	adds the IP to the list of IPs that won't be kicked, this must
+			have the following form: 130.89.228.50 or something like 130.89.*
+			You can add up to 50 IPs.
+GetConfig		will display the current configuration of this mutator
+GetVersion		returns the version number of TDSAutoLagKick
+TDSDisable		will disable the mutator
+TDSEnable		will enable the mutator
+AddChar	<char>		add <char> to the Illegal Chars list
+			if <char> is <tilde> then it's replaced by a ~
+			if <char> is <sqoute> then it's replaced by  a `
+SetChar <string>	set the Illegal chars list to <string>
+
+This mutator is still under construction, if you happen to find a bug please let me know 
+(thekiller@cyberjunkie.com) (send log files if possible)
+New versions of this mutator can be downloaded from : 
+http://unreal.snt.utwente.nl
+Visit the Drunk Snipers UT server at:
+130.89.238.28:7777 (CTF InstaGib)
+130.89.238.28:10777 (Strike Force TDM)
+130.89.232.53:7777 (DM InstaGib)
+130.89.232.53:9777 (DM)
+
+Have Fun.... El Muerte [TDS]
+
+YOU ARE FREE TO USE AND DISTRIBUTE THIS MUTATOR (AS LONG AS YOU KEEP THE PACKAGE COMPLETE)
+     YOU MAY NOT DECOMPILE THE SOURCE OR VIEW IT IN ANY WAY WITHOUT MY AUTORISATION
+
+----------------
+Changes in 153
+- added PacketLoss kick
+
+Changes in 152
+- changed only a little bit, I've made the array which stores the info about the players
+  a little larger. Usualy the player ID would not exceed 50 but just in case I extented
+  it to 100.
+
+Changes in 151
+- when you disable the TDS Auto Lag Kick, people will still see the message that their
+  ping is too high.
+- it now includes a Web based admin. Add the following lines to the UnrealTournament.ini to
+  enable it. In the section [UWeb.WebServer] add the following lines:
+  Applications[##]=tdsautolagkick.TDSWebAdmin
+  ApplicationPaths[##]=/tdsautolagkick
+  where ## is the first unused number, by default 2
+
+Changes in 150
+- I've slip the the package in to 2 packages, this should fix the slowdown bug when 
+  clients download the package. !!! You should change the serverpackage to
+  tdsautolagkickmsg !!!
+
+Changes in 112
+- fixed the "accesed none" warning (in log files only) when using this mutator on an
+  assault server.
+- NOTE: this mutator is continued again, a webadmin will be added soon
+
+Changes in 111
+- this is the final release
+- clients will now get a message that their ping is too high in the middle
+  of the screen.
+
+Changes in 110
+- scanning for illegal characters in players name
+- AddChar, SetChar functions added to "mutate"
+- removed a few little bugs
+- <tilde> and <sqoute> are replaced by ~ and ` when using AddChar
+
+Changes in 109
+- added new "mutate" commands
+  TDSDisable, TDSEnable
+- optimized the IP check routine
+- removed the "none" player warning
+
+Changes in 108
+- possibility to protect IPs from being kicked
+- added new "mutate" commands
+  GetConfig, GetVersion, SaveIP, SaveIPNR
+
+Changes in 107
+- changed settings will besaved (when using mutate <setting> <value>)
+- changed settings will be recorded in the log
+- kicked player will get a message in the console
+- made a few optimizations
+
+Chnages in 106
+- first public release

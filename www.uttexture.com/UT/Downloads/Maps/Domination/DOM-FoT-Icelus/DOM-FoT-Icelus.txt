@@ -1,0 +1,125 @@
+ReadMe for Icelus for Unreal
+----------------------------
+
+               Title: Icelus
+            Filename: DOM-FoT-Icelus
+              Author: Rakiayn
+       eMail Address: danielgeurts@hotmail.com Danielgeurts@gmail.com
+         Website URL: 
+        Release Date: august/september 2006
+         Last Update: 
+             Version: 1.0
+
+Credits:
+BetaTesting
+derdak2rot
+xyz8000
+swanky
+misterrioes
+Genmokai
+overrandom
+sabbathcat
+solar-implosion
+pandemonium
+bonta-kun
+Larkin
+Thnx all!
+
+
+Other levels by author:
+DM-FoT-Netu
+Ctf-flythroughthew00t
+ctf-cupaw00t
+others..
+
+
+
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal
+          Level Name: Icelus
+           Game Type: Domination
+            Botmatch: Yes
+       Single Player: Yes
+            Teamplay: Yes
+        New Textures: No
+          New Sounds: No
+           New Music: No
+        New Mutators: No
+                Mods: 
+
+====================================================================================
+Construction
+------------
+
+                Base: Scratch
+          Build Time: some weeks
+   Ideal Playercount: 4-6
+      Editor(s) Used: unrealed2.0
+          Known Bugs: none
+
+====================================================================================
+Installation
+------------
+Unzip DOM-FoT-Icelus.
+Store the *.unr or *.ut2 file in your Maps\ directory along with the others 
+(see guide below), then either doubleclick on it, or type open Icelus in 
+the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+*.unr and *.ut2 files go in Maps\
+*.utx files go in Textures\
+*.umx and *.ogg files go in Music\
+*.uax files go in Sounds\
+*.u, *.int, and *.ini files go in System\
+*.usx files go in staticmeshes\
+*.ukx files go in animations\
+*.ka  files go in karma\
+*.upx files go in prefabs\
+
+====================================================================================
+Extended Description
+--------------------
+
+This map is for the FoT mappack
+A castle kind of map,
+Actually way to small of a layout
+Im going to release a DM version soon, because this layout surves better for DM
+This will probally my last map for a long while
+
+
+====================================================================================
+Author's Notes
+--------------
+
+Enjoy the map,
+feel free to send me an email with your opinion
+cheers
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+This level is copyright 2003, by Rakiayn.
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any 
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp), 
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT 
+Interactive Software, Inc. under license. Unreal and the Unreal logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are 
+properties of their respective owners.
+
+====================================================================================
+====================================================================================
+ReadMe created by NC3's ReadMe Generator.
+http://nalicity.beyondunreal.com/
+

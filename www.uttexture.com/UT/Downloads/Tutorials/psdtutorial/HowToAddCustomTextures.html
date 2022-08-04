@@ -1,0 +1,320 @@
+<script id="hostedAdCode" type="text/javascript"></script><script type="text/javascript" src="http://ads.gamespyid.com/ad.aspx?S=PDSX&A1=HOSTED&G1=RPG&T=3&A2=0&A3=PRESTITIAL&alt=http%3A%2F%2Fadcontent%2Egamespy%2Ecom%2Fprestitial%2FdisabledAds%5Falt%5F1x1%2Ejs"></script><!--INSERTADTHISPAGE -->
+<html>
+<head>
+<title>How to add custom textures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body bgcolor="#FFFFF4" text="#00172F" link="#007171" vlink="#003737" alink="#CC6666" topmargin=0>
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#999999"> 
+    <td td width=2000 valign="top" align="right"> <script type="text/javascript" src="http://ads.gamespyid.com/ad.aspx?S=PDSX&A1=HOSTED&G1=RPG&T=3&A2=0&A3=IAB_FULL_BANNER&alt=http%253A%252F%252Fadcontent%252Egamespy%252Ecom%252Fhosted%252FdisabledAds%255FaltBanner%252Ejs"></script><!--ACCIPITERADINSERT /SITE=PDSX/GENRE=RPG/AREA=HOSTED/AAMSZ=IAB_FULL_BANNER--> 
+    </td>
+</tr>
+</table>
+<h2>How to add custom textures</h2>
+<p>Prerequisites:<br>
+  Everything under <a href="index.html#TheBasics">The Basics</a><br>
+  <a href="HowToAddCustomPackages.html">How to add custom packages</a> (for import 
+  method 2 only)</p>
+<p>Overview:<br>
+  Adding at least some of your own textures is a must for giving your map a unique 
+  look.&nbsp;&nbsp;There are two basic methods for importing them. </p>
+<p>&nbsp; </p>
+<h1 align="left">1. Create your textures</h1>
+<p> How you actually create your textures is up to you, but you'll typically want 
+  to use one of these products:</p>
+<p><a href="http://www.jasc.com/">Paint Shop Pro</a> costs about $100 and seems 
+  to do much of what Photoshop does, at a drastically cheaper price.&nbsp;&nbsp;For 
+  creating textures, it should be *more* than enough.<br>
+  <a href="http://www.adobe.com/products/photoshop/main.html">Photoshop</a> usually 
+  goes for around $500.&nbsp;&nbsp;If you're lucky enough to have access to this, 
+  it is very nice and is an industry standard.&nbsp;&nbsp;I was lucky enough to 
+  be able to upgrade to the full version of Photoshop from Photoshop: LE for $100, 
+  but since then they've bumped up the price of that upgrade significantly.<br>
+  <a href="http://www.adobe.com/products/photoshople/main.html">Photoshop: LE</a> 
+  goes for around $100 and is another good choice. &nbsp;It's a scaled down version 
+  of Photoshop, which is cool because you'll be able to follow the many Photoshop 
+  tutorials and books that are out there.<br>
+</p>
+<p>There are a number of other photo editing programs that come bundled with scanners, 
+  web cams, and digital cameras that may very well do the trick as well.&nbsp;&nbsp;You 
+  could theoretically use Windows Paint to create 8-bit BMP files, but you'll 
+  be *severely* limited.&nbsp;&nbsp;You could also render images using a 3D animation 
+  package.&nbsp;&nbsp;For example, Lightwave has a feature called SkyTracer, which 
+  could be used to generate SkyBox textures. </p>
+<p><b>NOTE:</b> There are certain types of effects textures that you create within 
+  UnrealEd.&nbsp;&nbsp;I'm not going to cover that topic here, but you can go 
+  to <a href="http://unreal.epicgames.com/Fire/AnimatingTextures.htm">Unreal Animating 
+  Real-time Textures Manual</a> for more info. &nbsp;These are for creating &quot;algorithmic&quot; 
+  animated textures for things like fire, sparks, lightning, and water.&nbsp;&nbsp;They're 
+  very cool.</p>
+<p>Anyway, even if you initially create textures from scanned-in photographs or 
+  from a digital camera, you'll still need to use photo editing software to crop, 
+  enhance, and convert the images.</p>
+<p> The height and width of your textures need to be &quot;powers of 2.&quot; 
+  &nbsp;In other words, both the height and the width need to be one of these 
+  numbers: 1, 2, 4, 8, 16, 32, 64, 128, or 256. &nbsp;UnrealEd will let you import 
+  higher res images (512, 1024, etc), but the Unreal 1 engine will not render 
+  those correctly. &nbsp;The height and width do not need to be the same, so a 
+  64 x 32 image is fine.</p>
+<p>&nbsp;</p>
+<h1><b>2. Convert your textures</b></h1>
+<p>If your textures are already .BMP or .PCX files in 8-bit color, you can skip 
+  to step 3.&nbsp;&nbsp;If not, you'll need to use your photo editing software 
+  or an image converter to get them into that format.&nbsp;&nbsp;You want to convert 
+  your images to 8-bit (256 colors) and save them as either .BMP or .PCX files.</p>
+<p>The procedure for this is different depending on which software you use, but 
+  I'll give an example of what I do from Photoshop to give you the basic idea.</p>
+<p>If I have a 24-bit color image in Photoshop that is cropped and ready to go, 
+  this is what I do:</p>
+<p>* Select &quot;Save For Web&quot; from the File menu. &nbsp;Though that is 
+  designed for conversion to JPG and GIF files, I find the GIF conversion to be 
+  excellent.&nbsp;&nbsp;Since GIF files are in 8-bit color, conversion from GIF 
+  to PCX is easy.<br>
+  * Set output format to GIF and adjust dithering options until I have something 
+  that looks decent.<br>
+  * Pull up the GIF file and then choose &quot;Save As&quot; to save it as a PCX 
+  file. </p>
+<p>If you have a lot of images you need to convert, you might instead use an image 
+  conversion utility.&nbsp;&nbsp;A really excellent Freeware image viewer/converter 
+  is called <a href="http://www.irfanview.com/">IrfanView</a>.&nbsp;&nbsp;The 
+  cool thing is that you can do &quot;batch&quot; conversions of entire folders 
+  full of files.</p>
+<p>The next step is to actually import your textures.</p>
+<p>&nbsp;</p>
+<h1 align="left"><b>3a. Import method 1: Using the UnrealEd user interface</b></h1>
+<p align="left">In UnrealEd, make sure &quot;Textures&quot; is selected in the 
+  <i> <b>Browse</b></i> drop-down.&nbsp;&nbsp;Press the Import button at the bottom-right 
+  of UnrealEd. &nbsp;Select your texture file (or multiple texture files) and 
+  then you'll see this window:</p>
+<p align="center"><img src="Images/ImportTexture.gif" width="334" height="250"></p>
+<p align="left">The name of the texture will default to the filename (minus the 
+  .pcx or .bmp).&nbsp;&nbsp;The first time you import textures, you'll want to 
+  create a new texture package that you'll put all of the textures related to 
+  your map in.&nbsp;&nbsp;If you're using this method, you'll need to distribute 
+  this .utx file with your map.&nbsp;&nbsp;So make up a name for your new texture 
+  package - perhaps the same name as your map or some meaningful category - and 
+  type that in the &quot;Package&quot; value.&nbsp;&nbsp;You can also create multiple 
+  texture packages, but unless you have a huge number of textures, that's not 
+  necessary.</p>
+<p align="left">You can type something in the Group value to categorize your texture.&nbsp;&nbsp;This 
+  is strictly for convenience when selecting textures in the editor, but it's 
+  a good idea.&nbsp;&nbsp;Organize your textures into a small number of categories 
+  like &quot;Skins&quot;, &quot;Weapons&quot;, &quot;UserInterface&quot;, &quot;Misc&quot;, 
+  or whatever.&nbsp;&nbsp;Also, if you type &quot;Ladder&quot; as the Group, your 
+  texture will act like a ladder in your map.</p>
+<p align="left">Don't worry about the Masked check box for now - masked textures 
+  will be covered in a separate tutorial.&nbsp;&nbsp;Also don't worry about the 
+  bump map option - I'm pretty sure the Deus Ex version of the Unreal engine does 
+  not implement bump mapping.</p>
+<p align="left">You usually want to keep &quot;Generate Mipmaps&quot; checked; 
+  that option will generate a number of smaller versions of your texture that 
+  will automatically be used by Unreal 3D engine.&nbsp;&nbsp;The only time it 
+  makes sense to uncheck this is for 2D elements like HUD display icons or DataVault 
+  images.</p>
+<p align="left">Hit Ok or &quot;Ok to All&quot; and then be sure to press the 
+  Save button at the bottom of the Texture Browser to actually save your .utx 
+  texture package.</p>
+<p align="left">&nbsp;</p>
+<h1><b>3b. Import method 2: Use a .uc file to import the textures into your own 
+  package</b></h1>
+<p> An alternate method is to use import files to import textures into your own 
+  .u package. &nbsp;If you're using your own package anyway, this can be an advantage 
+  since that means one less file to distribute.&nbsp;&nbsp;I tend to use this 
+  method, but there's no right or wrong way to do it.</p>
+<p>For information on setting up your own packages, see <a href="HowToAddCustomPackages.html">How 
+  to add custom packages</a>.</p>
+<p>Under your package folder, you may want to add a &quot;Textures&quot; folder 
+  or something like that.</p>
+<p>Create a text file in Notepad or your favorite text editor and type in a texture 
+  import line for each texture you want to import.&nbsp;&nbsp;Here's an example 
+  of a texture import file:</p>
+<p><font face="Courier New, Courier, mono" color="#000000">class Textures expands 
+  Object abstract;</font></p>
+<p><font face="Courier New, Courier, mono" color="#000000">// Weapon textures<br>
+  #exec TEXTURE IMPORT NAME=LaserGunTex1 FILE=Textures\raygun_barrel.pcx GROUP=Skins 
+  FLAGS=2<br>
+  </font></p>
+<p><font face="Courier New, Courier, mono" color="#000000">// DataVault images<br>
+  #exec TEXTURE IMPORT FILE=Textures\Image01_LibertyIsland_1.pcx NAME=Image01_LibertyIsland_1 
+  GROUP=UserInterface MIPS=Off<br>
+  #exec TEXTURE IMPORT FILE=Textures\Image01_LibertyIsland_2.pcx NAME=Image01_LibertyIsland_2 
+  GROUP=UserInterface MIPS=Off<br>
+  #exec TEXTURE IMPORT FILE=Textures\Image01_LibertyIsland_3.pcx NAME=Image01_LibertyIsland_3 
+  GROUP=UserInterface MIPS=Off<br>
+  #exec TEXTURE IMPORT FILE=Textures\Image01_LibertyIsland_4.pcx NAME=Image01_LibertyIsland_4 
+  GROUP=UserInterface MIPS=Off </font></p>
+<p>The value after NAME= is the name that you will reference in UnrealEd. &nbsp;It 
+  doesn't have to be the same as the filename.&nbsp;&nbsp;The value after FILE= 
+  is the filename.&nbsp;&nbsp;Note that the location is relative to your package 
+  folder, so if your textures are in a folder called Textures under your package 
+  folder, you'll have to put a &quot;Textures\&quot; in front of the filename.&nbsp;&nbsp;The 
+  value after GROUP= is the same as the Group value described in Import Method 
+  1 above.</p>
+<p>Save your file as Textures.uc (or whatever you want) in the Classes folder 
+  under your package folder.&nbsp;&nbsp;Be sure that the filename matches what's 
+  after the word &quot;class&quot; at the top of the file, or you'll get an error 
+  when you build your package.&nbsp;&nbsp;You can organize your textures in as 
+  many .uc files as you'd like.&nbsp;&nbsp;You can also put texture import statements 
+  in with other import statements and even script code if you want to.</p>
+<p>There are a couple of optional things you can add to a texture import line.&nbsp;&nbsp;The 
+  FLAGS= value is optional.&nbsp;&nbsp;If you don't use a FLAGS value, your texture 
+  will be set up with the normal defaults.&nbsp;&nbsp;Here are the valid values 
+  you can use:</p>
+<table width="40%" border="1" cellspacing="2" cellpadding="2" bordercolor="#666666" vspace="0" hspace="0" bordercolorlight="#666666" bordercolordark="#666666" height="46" align="center">
+  <tr> 
+    <td width="57%" valign="top" height="14"> 
+      <div align="center"><b>Texture setting</b></div>
+    </td>
+    <td width="43%" valign="top" height="14"> 
+      <div align="center"><b>FLAGS value</b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="12">Masked</td>
+    <td width="43%" valign="top" height="12">2</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="13">Transparent<br>
+    </td>
+    <td width="43%" valign="top" height="13"> 
+      <p>4</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="10">Environment mapped</td>
+    <td width="43%" valign="top" height="10">16</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="10">Modulated</td>
+    <td width="43%" valign="top" height="10"> 
+      <p>64</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="4">Fake Backdrop</td>
+    <td width="43%" valign="top" height="4">128</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="10">Two-sided</td>
+    <td width="43%" valign="top" height="10">256</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="8">Auto U pan</td>
+    <td width="43%" valign="top" height="8">512</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="8">Auto V pan</td>
+    <td width="43%" valign="top" height="8">1024</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="8">No smooth</td>
+    <td width="43%" valign="top" height="8">2048</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="8">Big wavy</td>
+    <td width="43%" valign="top" height="8">4096</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="8">Small wavy</td>
+    <td width="43%" valign="top" height="8">8192</td>
+  </tr>
+  <tr> 
+    <td width="57%" valign="top" height="8">Water wavy</td>
+    <td width="43%" valign="top" height="8">16384</td>
+  </tr>
+</table>
+<p>Even if you don't set any of these, a surface with your texture on it can still 
+  be manually set to any of these later.&nbsp;&nbsp;The &quot;Masked&quot; setting 
+  is the most common option.</p>
+<p>Another option is the MIPS= value.&nbsp;&nbsp;This works just like the &quot;Generate 
+  Mipmaps&quot; option in Import Method 1.&nbsp;&nbsp;If you don't include this, 
+  mipmaps *will* be generated.&nbsp;&nbsp;So put MIPS=Off in your import statement 
+  if you're importing a 2D element like a HUD icon or DataVault image.&nbsp;&nbsp;(it 
+  actually doesn't hurt anything to have the mipmaps generated, but it's a bit 
+  of a waste)</p>
+<p>To rebuild your package, exit UnrealEd if necessary, delete your .u package 
+  file from your \DeusEx\System folder and do a &quot;ucc make&quot; from an MS-DOS 
+  command prompt.&nbsp;&nbsp;Fire UnrealEd back up, and your textures will be 
+  ready to use.</p>
+<p>&nbsp;</p>
+<h1>4. Animated textures (optional)</h1>
+<p>Importing animated textures is very easy.&nbsp;&nbsp;Creating them is the hard 
+  part.&nbsp;&nbsp;I'm not going to go into a lot of detail about how to create 
+  animated textures - that's up to you.&nbsp;&nbsp;You could take a few frames 
+  from some video footage, render some frames with a 3D package, or manually create 
+  individual frames in a paint or photo editing package.</p>
+<p>For some examples of animated textures, look at the CoreTexMisc package.&nbsp;&nbsp;There 
+  are a variety of textures for using on display screens and video screens, such 
+  as the ones starting with &quot;News_A&quot;.</p>
+<p>Using &quot;Texture Import Method 1&quot; described above in step 3a, import 
+  a series of textures for your animation frames (that are the same size).&nbsp;&nbsp;Be 
+  sure to put 01, 02, 03, etc at the end of the file names.&nbsp;&nbsp;If you 
+  do, UnrealEd will automatically detect the sequence as an animation and assign 
+  the correct animation values to each texture.</p>
+<p>After the textures import, right-click on the first texture in the sequence 
+  (in the texture browser). &nbsp;If your textures imported properly, the Animation 
+  -&gt; AnimNext value should be set to the second image in the sequence.</p>
+<p align="center"><img src="Images/AnimatedTextureProperties.gif" width="333" height="175"></p>
+<p align="left">Each &quot;AnimNext&quot; value will point to the next image in 
+  the sequence until the last texture, which will not have an &quot;AnimNext&quot; 
+  value.&nbsp;&nbsp;If you're not seeing any animation when you play your map, 
+  you may want to double-check these values.</p>
+<p>You may need to experiment with the frame rate of your sequence.&nbsp;&nbsp;A 
+  typical animated texture is around 5 - 20 frames long, so a good starting point 
+  is around 5 - 10 frames per second.&nbsp;&nbsp;If you don't change the MaxFrameRate 
+  and MinFrameRate values, the frame rate will default to a very fast value, and 
+  the animation may play faster than you can see it.</p>
+<p>To use an animated texture on a brush (or whatever), just use the first texture 
+  in the sequence.</p>
+<p>To preview the animated texture &quot;in action&quot; in the UnrealEd 3D view, 
+  hit the real-time preview button (it looks like this: <img src="Images/RealTimePreviewButton.gif" width="20" height="20"> 
+  ) </p>
+<h1>&nbsp;</h1>
+<h1>5. Detail textures (optional)</h1>
+<p>Detail textures are additional textures that can be &quot;added&quot; to a 
+  regular color texture to give it a bit more, uh, texture.&nbsp;&nbsp;They are 
+  usually grayscale images that are tiled independently of the main texture and 
+  sort of fade in as you get closer to a surface. &nbsp;You could think of them 
+  as fake bump mapping, though even that isn't really accurate.&nbsp;&nbsp;They 
+  are used to give a texture a bit more depth, such as a stony or metallic surface.</p>
+<p>To see an example, load in the HK_VersaLife texture package and select the 
+  &quot;cube1&quot; texture.&nbsp;&nbsp;Right-click on it, pull up its properties, 
+  and expand the Texture category.&nbsp;&nbsp;Notice that the DetailTexture value 
+  is filled in.</p>
+<p align="center"><img src="Images/DetailTexture.gif" width="350" height="223"> 
+</p>
+<p align="left">Now load in the CoreTexDetail texture and check out the DMetal_A 
+  texture.&nbsp;&nbsp;Go ahead and use the cube1 texture in a map to see how it 
+  looks.&nbsp;&nbsp;Notice how it changes as you get closer?</p>
+<p align="left">The basic idea is to take a base texture and assign it a detail 
+  texture.&nbsp;&nbsp;The detail texture gets tiled separately from the main texture, 
+  and its scaling and visibility changes with the distance from the player.</p>
+<p align="left">The final result looks crappy here since the screenshot is reduced, 
+  but in the game it looks pretty decent:</p>
+<p><img src="Images/cube1.gif" width="128" height="128">&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;<img src="Images/DMetal_A.gif" width="128" height="128">&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;<img src="Images/DetailTextureExample.jpg" width="128" height="128"></p>
+<p>One thing you can do to if you have a &quot;video display&quot; type of texture 
+  is set its DetailTexture value to the CoreTexDetail.DScanline texture.&nbsp;&nbsp;That 
+  will give it an &quot;interlaced video&quot; look, though you'd think that in 
+  30 years (or whenever Deus Ex is supposed to be), we'd all be using non-interlaced 
+  displays.</p>
+<p>You can create your own detail textures; they are just normal textures.&nbsp;&nbsp;For 
+  best results, try to make them so they look good when tiled.&nbsp;&nbsp;Also, 
+  you may want to make them grayscale, but that's not a requirement.</p>
+<h1>&nbsp;</h1>
+<h1>6. Ladder textures (optional)</h1>
+<p>As I mentioned briefly, you can make your own ladder textures.&nbsp;&nbsp;If 
+  you set the Group value to &quot;Ladder&quot; when you import a texture (using 
+  either import method), your texture will act like a ladder in the game.&nbsp;&nbsp;You'd 
+  naturally want to use it on a vertical surface. :)&nbsp;&nbsp;For best results, 
+  you may want to investigate &quot;masked textures&quot; which I'll eventually 
+  be covering.<br>
+</p>
+<hr>
+<p align="center"><a href="index.html">Back to main page</a></p>
+<hr>
+<p>&nbsp; </p>
+</body>
+</html>

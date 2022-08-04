@@ -1,0 +1,34 @@
+Map Title :  The Forge
+
+Author    :  Walrus(ShaMaN) aka Tony Collins
+             psykowalrus@eidosnet.co.uk
+Release
+Date      :  03 January 2000
+
+
+
+
+Game Type :  Domination, Deathmatch and Team deathmatch.
+	     There is a DM version and a DOM version of this map, which
+             is a tweaked and slightly revised update of the original
+             DM-Forge I made for Unreal 1.  
+             
+Description :  Deathmatch or Domination action in a moodily lit indoor
+               setting with great flow and connectivity.  Plenty of
+               multiple floor levels (walkways and ramps) add to the
+               fun, but watch out for all that lava !  A note to anyone
+               who has not played the original Unreal - the Asbestos
+               suit I've placed in the map is lava-proof armour :-)
+               
+Ideal Loads :  This really comes into it's own as a fast paced DOM game
+               with 3 teams fighting over the 3 evenly spaced control
+               points. Be sure to check that your DOM score limit isn't 
+               set at a wussy 100 points !
+               Deathmatches are good for anywhere between 6 and 12 
+               players.  Team DM play suits 5-7 players per team.
+
+Shouts !       All my superb colleagues in the ShaMaN UT Clan. I must
+               thank the Nali City reviewer who reviewed the Unreal 1 
+               original DM Forge and gave it a 10/10 score :-)
+               Also a shout to YOU for trying this map out - mail me 
+               some feedback please !

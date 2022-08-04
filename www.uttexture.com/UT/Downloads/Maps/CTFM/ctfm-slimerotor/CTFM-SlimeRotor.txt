@@ -1,0 +1,34 @@
+==============================================
+Map for mod MultiTeam CTF of Unréal Tournament
+==============================================
+-----------------------------------------------------------------------------
+
+	CTFM-SlimeRotor
+
+-----------------------------------------------------------------------------
+Version of UT tested:		436
+Map name:			CTFM-SlimeRotor		
+Game type:			MultiTeam CTF
+Recomended player count:	16 (4x4)
+Height:				remedy
+Weapons available:		[ ]
+Téléporteur:			[x]
+
+BUGS:				?
+
+Editor used:			UnrealEd v2.00 (UTv436)
+Release Date:			02/06/01
+Build time:			2 days
+-----------------------------------------------------------------------------
+Author:				Crokx
+E-Mail:                  	Crokx@Infonie.fr
+
+Other levels by author:		CTFM-LavaForme
+				CTFM-Mortal
+				CTFM-Tutorial][
+-----------------------------------------------------------------------------
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ -=> Unreal Tournament (c)1999 Epic Megagames, Inc. <=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

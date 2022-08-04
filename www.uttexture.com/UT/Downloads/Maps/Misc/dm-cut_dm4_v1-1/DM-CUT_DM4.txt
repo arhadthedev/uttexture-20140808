@@ -1,0 +1,51 @@
+================================================================
+Title                   : Jump
+Filename                : DM-CUT_DM4
+Author                  : MassChAoS
+                           * Original Level Design by Nat, nat@planetquake.com, 
+                             of Chaotic Dreams. Map was for Quake 2.
+Email Address           : mcasterix@fullassault.net
+================================================================
+
+--- Play Information ---
+Game                    : Unreal Tournament
+Game Type               : Chaos UT
+
+Single Player           : yes 
+Multiplayer             : yes
+New Sounds              : No
+New Graphics            : Yes
+Known bugs              : None.
+Credits			: Most of all, Holymoo for all the great texture work she did 
+                          on the level.  Jezz and LoQtUS for their tricks they mentioned to
+ 			  me.  The rest of the Chaos Develoment team for suggestions.
+			: Extreme thanks to R.Flagg, the Chaos fanatic, who helped me test this map.
+Other maps by author    : None currently
+
+--- Construction ---
+Editor(s) used          : UnrealEd & UnrealEd2
+Base                    : The Chaos Q2 map ChaosDM4, titled Jump.
+Build Time		: Forever
+
+
+Information
+------------
+     "Jump," in my opinion, is the most loved and most hated map of Chaos Q2.  
+Loved for great gameplay and hated for all those who can't walk straight. ;)  
+Jump is a space map comprised of many walkways and some platforms.
+
+
+Installation
+------------
+     You know the drill, DM-CUT_Jump.unr in <install directory>\Maps\ 
+and CUT_DM4.utx in <install directory>\Textures\
+
+
+Copyright/Permission
+------------
+You must contact the original developer, nat@planetquake.com, to use this map as a base.  
+The Chaos UT logo belongs to Chaotic Dreams and is work of SPA and Holy{moo}.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!

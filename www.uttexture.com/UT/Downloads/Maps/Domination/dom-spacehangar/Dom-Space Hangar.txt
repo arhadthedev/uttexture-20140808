@@ -1,0 +1,34 @@
+Unreal Tournament Map                                  6.11.2000
+
+============================================================================================
+Author  : Markus Wallmüller
+Levelname  : Space Hangar
+Version  : 1
+Filename  : DOM-Space Hangar.unr.
+New Sounds : No
+New Textures  : No
+New Music : No
+Editors Used  : Unreal Ed and Paint Shop Pro 5.0
+Base : None
+Construction Time : 2 Days
+Known Bugs : The Bots don´t use the Space Shuttles.
+Gametyp : Domination
+Other Levels by author: DM-Dangerous Crypt
+                        DM-Apokalypse
+                        CTF-RocketTemple
+                        CTF-War
+                        CTF-Heal Pod
+                        DM- Lost Paradies
+                        DM-Garage
+                        DOM-Tournament Temple
+                        DM-FogTower
+                        DM-Chaos Fight
+                        CTF-Anonym Place
+                        CTF-Lava
+                        DM-AmokPalast
+
+Describtion: Small Domination map for 4 - 6 players.
+             The Map represent a small Space Station anywhere in Space.
+             The Space Station was made for watching a Black Hole (also anywhere in Space).
+
+Special Thanks to : Me (for this great Map), Markus Thaller (for nothing, but its routine to                     thank everybody you know ), Bernhard Böhm (also routine) and all the                        peoples who play my Maps, !! FRAG ON BROTHERS !! (and kill all the                          fucking Bots)

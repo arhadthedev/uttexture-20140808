@@ -1,0 +1,54 @@
+-------------------------------------------------------
+Title			: DOM-Hideout
+Author			: Mike Abbotts (Mike3894)
+E-Mail			: Mike3894@hotmail.com
+Homepage		: http://www.angelfire.com/mi3/unreal/
+Version			: Final
+Beta Tester(s)		: None
+Date			: March 10, 2001
+
+-------------------------------------------------------
+PLAY INFO:
+
+Deathmatch		: Yes, if you download DM-Hideout from: http://www.angelfire.com/mi3/unreal/
+Domination		: Yes
+Other game types	: Not yet. Hahaha
+New Sounds		: No sounds atall.
+New Graphics		: No but there are old graphics.
+New Music		: Not this time.
+Recommended No. Players	: 2-6, if any.
+
+CONSTRUCTION:
+
+Base			: DM-Hideout
+Build Time		: Less than a half an hour.
+Editor(s) Used		: Notepad and MS Paint.
+
+Known Bugs		: No.
+
+-------------------------------------------------------
+INSTALLATION:
+
+Put DOM-Hideout.unr in your Maps directory. Put DOM-Hideout.txt on your Desktop.
+
+-------------------------------------------------------
+DESCRIPTION:
+
+Not needed.
+
+-------------------------------------------------------
+CREDITS:
+
+Thanks to DavidM for giving me the idea to convert this to a DOM map. Hehe..
+
+-------------------------------------------------------
+WHERE TO FIND MORE STRAIGHTNESS:
+
+Go to http://www.angelfire.com/mi3/unreal/ for more of my maps.
+
+-------------------------------------------------------
+COPYRIGHTS:
+
+(c) Copyright Michael Abbotts 2000
+
+You can distribute this level, along as it is the ZIP file, with the UNR and TXT files, and both files are not changed. You can distribute this level only by non-commercial means. Do not plagiarize it, or steal ideas from it, either.. Don't use this level as a base for another level. Also, it wouldn't be a good idea to do anything with it that would anger me, in any way shape or form. Okay, now I'm done.

@@ -1,0 +1,31 @@
+Carte pour le jeu Unréal Tournament.
+-----------------------------------------------------------------------------
+
+			    CTFM-Astéroïde.unr & CrokxFX.utx
+
+-----------------------------------------------------------------------------
+
+	Nom de la carte:		Astéroïde
+	Type de partie:			MultiTeam CTF
+	Nombre de joueur idéal:		4x4 => 16
+	Taille:				Grande
+	Armes disponible:		[ ]
+	Téléporteur:			[ ]
+
+	Nouveaux Scripts:		Non
+	Nouveaux Sons: 			Non
+	Nouvelles Textures: 		CrokxFX et dans 'MyLevel'
+
+	Editeur utilisé:		UnrealEd v2.00 (UTv436)
+	Temps de construction:		2 jours (9 heures)
+	Date:				19/11/01
+
+	Auteur:				Crokx
+	E-mail:                  	Crokx@Infonie.fr
+	Site:				http://perso.infonie.fr/crokx
+
+-----------------------------------------------------------------------------
+
+	        Unreal Tournament (c)1999 Epic Megagames, Inc.
+
+-----------------------------------------------------------------------------

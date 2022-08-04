@@ -1,0 +1,68 @@
+================================================================
+Title                   :    stm-QuerulantQuaternary ( somethin like a war era)
+Version                 :    1th 
+Release Date            :    07-04-2001 (dutch)
+Filename                :    Dom-QuerulantQuaternary
+Author(s)               :    Cursed Soul (help from Sinister J-NL and Fuzzpilz
+Email Address           :    Cursed_soul666@hotmail.com
+Web Page                :    http://cursedsoul.homestead.com/headindex.html
+Description             :    About what?????
+
+Where to get this map   :    Uhmmm dunno yet
+Other levels by author  :    CTF-JungleTemples 
+Additional Credits to   :    J-NL Fuzzpilz,Gengo and others
+
+================================================================
+--- Play Information ---
+Game                    :    Unreal Tournament
+Level Name              :    Dom-QuerulantQuaternary
+Single Player           :    Nope
+Cooperative             :    No
+Deathmatch              :    Domination
+Dark Match              :    What?????
+Difficulty Settings     :    Dunno
+New Sounds              :    Nope
+New Graphics            :    Yup some textures 
+NewUnrealScript         :    Nope
+External DLLs           :    What??????
+Known bugs              :    im gonna find out bout that soon
+
+--- Construction ---
+Editor(s) used          :    Editor v2.0,Unreal tournament,TarquinBrushBuilderPack,fantasy.paint paint shop pro 7.01.
+Base                    :    dunno where u talkin bout
+Construction Time       :    1 month 
+
+
+Installation   
+------------
+Figure out ureself (just kiddin)
+Put the map under Unrealtournament/maps
+and the UTemple.umx 2 the music folder. 
+
+Extended description:
+--------------------
+Dunno
+
+Author's Notes
+--------------
+Well im proud of it, so i dont care what ya'all think, but if u have suggestions etc tell me.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Blablabla 2001.
+
+Authors may use this level as a base to build additional levels But they have to ask permission!!
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

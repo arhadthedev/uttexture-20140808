@@ -1,0 +1,28 @@
+Kick Idle-Players Version 2.0
+Upgrade by Chad (m0rpheusman@yahoo.com)
+
+Instructions:
+
+Place the files KickIdlePlayers2.u, KickIdlePlayers2.int and KickIdlePlayers2.ini in your UnrealTournament\System directory. You can edit the KickTime variable in the KickIdlePlayers2.ini to be the number of seconds to allow a player to be idle. Default is 300 seconds = 5 minutes.
+
+Edit your UnrealTournament.ini by adding the line:
+
+ServerPackages=KickIdlePlayers2
+
+to the bottom of the [Engine.GameEngine] section. Leave a blank line before the next section.
+
+Start a server using the 'Kick Idle-Players V2' mutator.
+
+
+Version 2.0 Updates:
+Kick Idle-Players V2 fixed the problem of the first version only recognizing fire/altfire.  Now it can tell if the player has fired/altfired, jumped, ducked, moved (forward,back,strafe left/right), changed weapons, and even if the player is looking around.  Basically any movement keeps the program from bothering the player.
+
+Detecting the 'mouse look' has been made so that it's not too ultra sensitive in cases which a player might have a 'shaky' mouse or mouse sensitivity is so high it can detect a slight breeze hehe.
+
+It never bothers flag carriers since they are obligated to camp when hiding.  Best of all it no longer annoys administrators that are logged in.  So if you are working on your server (fixing bugs etc.) all you need to do is log in as admin and Kick Idle-Players V2 won't bother you.
+
+Since it now recognizes mouse movements you can go back to flying redeemers for extended amounts of time without hassle.
+
+A message beep added when the Kick warning comes up to help get the idle player's attention.
+
+The Kick Idle-Players V2 mutator has been upgraded to still kick true idle players and yet not interfere with gameplay.  I had to fix it since it has bothered me during games especially when hiding out with the flag or trying to be sneaky when entering a base.  Also for those that try to keep a high shot accuracy percentage in their ngStats.  They shouldn't have to shoot aimlessly, reducing their accuracy, just so they can keep playing.

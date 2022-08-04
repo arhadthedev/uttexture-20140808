@@ -1,0 +1,38 @@
+Duke Nukem Voice 2.0 for Unreal Tournament
+by, Tracker (tracker21stcent@aol.com)
+Come visit us at UTTERANCE (http://www.geocities.com/tracker_90505/index.html
+
+
+Model:  Male
+uses:	Best used with the Duke Nukem Skin available at unreality.org/painfuldetail		
+Content:Useful for bots and for players, contains all order sounds
+
+
+
+Intructions
+
+Place the .int and .u files into your Unreal Tournament system folder. Put the .uax file
+into your UT sounds folder.
+Make sure you have a male character selected.  Look for "Duke Nukem" under 
+the voice drop down menu.  This voice replaces the previous version of the 
+Dukem Nukem Voice.  
+
+
+Updates to version 2.0
+
+1.  Added order sounds - sounds that work for "defend", "assault", "cover me", etc.
+2.  Added all "other" sounds- sounds that work for messages like "Somebody get our flag back" etc.
+3.  Added significantly more taunts
+4.  Reduced the sound quality to "telephone quality" to reduce memory usage
+5.  Corrected and replaced some of the "out of place" sounding messages i.e. messages that
+	just did not seem to fit like when Duke tells you to "Blow it out your ass" after
+	you give him a direct order. Hilarious but just doesn't work.
+
+Note:  I created the original Duke Nukem voice for UT (now at over 15,000 downloads, 
+wooo hoo!). It took a long time to find all of the sounds for this update of the voice.  
+I even found some recordings that the guy who is Duke Nukem's voice made for the upcoming 
+"Duke Nukem Forever".  Have fun with it!   - Tracker
+
+
+This voice is an original and may be freely distrubuted.  
+All rights reserved 2000.  Duke Nukem's voice is copyright 1995-2000 3D Realms.

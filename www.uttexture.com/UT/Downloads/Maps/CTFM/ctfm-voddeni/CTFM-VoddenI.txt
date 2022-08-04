@@ -1,0 +1,99 @@
+================================================================
+Title                   : Vodden I	
+Version                 : 1
+Release Date            : 17th January 2002	
+Filename                : CTFM-VoddenI.zip
+Author                  : Bram 'Leto II' Verbiest
+Email Address           : biesie@wanadoo.be 
+Web Page                : http://biesie.i8.com
+Where to get this map   : hopefully http://www.planetunreal.com/MultiCTF
+                          and other sites where this txt-file is included
+Other things by author  : DOM-AbandonedSilos 
+                          CTFM-Penta
+                          CTFM-Atoll
+                          RumikoSkins_Freya for Unreal Tournament
+			
+================================================================
+
+--- Play Information ---
+
+Game                    : Unreal Tournament
+Level Name              : CTFM-VoddenI
+Game Type               : MultiTeam Capture The Flag
+                          Visit http://www.planetunreal.com/MultiCTF for more info !
+Botmatch		: Yes
+Recommended No. Bots    : 12-20 in 4 teams
+Translocator            : Not a must, but can be handy sometimes.
+New Sounds              : Music track (made in a few hours with samples from tracks created
+                          by Michiel van den Bos)
+New Graphics            : Yep, some textures of the original game I modified to fit in my map,
+                          especially for the 4 colors.
+Known bugs              : Bots not very often take the redeemer.
+
+--- Construction ---
+
+Editor(s) used       : UnrealEd 2.0
+Base                 : started from scratch
+Construction time    : a few hours
+
+--- Level Info and Author's Notes ---
+
+I just wanted to create a small hardcore MultiCTF map, I like to play those too sometimes, just
+to kick some fraggin' ass :). 
+Lighting is ugly, but I didn't had the intention to spend more time for the lighting than I did
+for the construction itself, so ... hehe. 
+
+The word "vodden" (dutch) means literally : dirty pieces of cloth, but in my dialect it is used 
+in the meaning of damaged, destroyed, etc ... (in other words : gibs everywhere !)
+I added a I, so I won't have to invent other names later when I am in the mood of making another
+small fragfest map :).
+
+
+Files Included
+--------------
+
+CTFM-VoddenI.unr
+CTFM-VoddenI.txt
+Kuile.umx
+Leto1.utx
+
+
+Installation
+------------
+
+(Assuming you have installed the great MCTF mod of course)
+Unzip CTFM-VoddenI.unr file into \maps folder under the Unreal Tournament folder.
+Unzip Kuile.umx file into \music folder under the Unreal Tournament folder.
+Unzip Leto1.utx file into \textures folder under the Unreal Tournament folder.
+
+
+Credits to...
+-------------
+
+Epic for making the game of the century, Colin McCann for making the awesome mod.
+Michiel van den Bos, for using his samples from other Unreal and Age of Wonders tracks.
+
+Also thanks to...
+-----------------
+
+Panalcinder, Fhomasson The Magnificent and Party-Pooper for fragging some serious ass on my 
+little LAN :).
+
+
+Copyright / Permissions
+-----------------------
+
+This level is copyrighted by Bram Verbiest 2002.
+
+Authors may not NOT use this level as a base to build additional levels without permission of
+the author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+===============================================================

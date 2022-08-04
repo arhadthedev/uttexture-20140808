@@ -1,0 +1,759 @@
+WHAT IS SEMIADMIN:
+------------------
+
+SemiAdmin is a SERVER SIDE ONLY mutator that integrates with Unreal Tournament
+for reducing the load of managing a game server and allows for delegation and
+automation of such tasks.
+
+
+WHAT'S NEW IN BETA 0.10:
+------------------------
+
+NEW WEB INTERFACE:
+
+SemiAdmin now comes with SemiWebAdmin. A cool looking web interface that will
+make it easier to make big changes to the game. This web admin interface doesnt
+have all the nifty features of the current admin system like the Console, but if you're
+the server owner, you can still login to the standard admin and use its console since
+SemiWebAdmin doesnt replace your current ServerAdmin web pages. I would like
+to issue a very big thank you to "Evolution" who began the SemiWebAdmin add-on.
+He approached me with questions about interfacing with SemiAdmin, and we decided 
+to work together and integrate the two projects, in order to make sure that everything
+worked properly.
+
+BUG FIXES
+
+I believe I have addressed all bugs from 0.07, but there may have been one or two that
+were missed.  I welcome feedback from server admins regarding this.  If you find any bugs
+carried over from 0.07, as well as anything new, drop me a line.
+
+
+WHAT'S NEW IN BETA 0.07:
+------------------------
+
+COMMANDS ARE EASIER TO REMEMBER
+
+This version of SemiAdmin features grouped commands which will be easier to
+remember. By grouping commands and giving subcommands, you just have to remember
+similar and intuitive subcommand syntax. For example, the map selection commands
+which where known as NEXTMAP, GOTOMAP and RESTART are now divided into MAP NEXT,
+MAP <mapname> and MAP RESTART which i believe make more sense.
+
+
+PRIVILEGES REORGANIZATION: USERS AND GROUPS
+
+The previous version of SemiAdmin allowed you to manage a list of users giving
+them privileges. In this version, i decided to go further and added groups
+management to the list. This will allow to eventually be able to have settings
+that disallow users of certain groups to login during specific events like clan
+matches and such.
+
+In addition to groups, i've added 2 different kind of Security levels. One is
+responsible to control how much of the game setting you can change. The other
+one is responsible for privileges order and currently only serves the need of
+deciding what kind of privileges a user manager can give/revoke. I will try to
+explain later how to use both of these group parameters
+
+Please note that for security reasons, groups can only be managed by server
+admins or Master Admin. See details at the end of the document for more
+information.
+
+NEW PRIVILEGE GROUP: SUMMON (S)
+
+I was asked to add a new privilege group to the current list of privileges that
+would allow a semi adminitrator to summon items just like the current summon
+command does.
+
+
+HOW TO INSTALL:
+---------------
+
+Add the line: ServerActors=SemiAdmin.SemiAdminSA
+
+to the [Engine.GameEngine] section of your server ini file and that’s all.
+SemiAdmin is ngStats friendly and will not show in the MOD section of ngStats
+due to its use.
+
+HOW TO INSTALL SEMI WEB ADMIN:
+--------------------------------
+
+Find the [Uweb.WebServer] section of your server ini file. Find the line that begins
+
+Applications[2]=
+
+Enter SemiAdmin.ServerSemiAdmin for the value here.  Next, find the line that begins
+
+ApplicationPaths[2]=
+
+Enter /SemiWebAdmin for the value here.  If have previously installed another mod or
+mutator that uses WebAdmin (such as XMaps), then the Applications[2] line may already
+be used by something else.  If so, enter the values for SemiWebAdmin on the first
+available line.
+Here is an example of what your [UWeb.WebServer] may look like after successfully 
+installing the SemiWebAdmin add-on for SemiAdmin:
+
+[UWeb.WebServer]
+Applications[0]=UTServerAdmin.UTServerAdmin
+ApplicationPaths[0]=/ServerAdmin
+Applications[1]=UTServerAdmin.UTImageServer
+ApplicationPaths[1]=/images
+DefaultApplication=0
+bEnabled=True
+ListenPort=80
+Applications[2]=SemiAdmin.ServerSemiAdmin
+Applications[3]=
+Applications[4]=
+Applications[5]=
+Applications[6]=
+Applications[7]=
+Applications[8]=
+Applications[9]=
+ApplicationPaths[2]=/SemiWebAdmin
+ApplicationPaths[3]=
+ApplicationPaths[4]=
+ApplicationPaths[5]=
+ApplicationPaths[6]=
+ApplicationPaths[7]=
+ApplicationPaths[8]=
+ApplicationPaths[9]=
+MaxConnections=30
+ServerName=
+
+To access SemiWebAdmin, the URL is:
+
+http://server.ip:adminport/SemiWebAdmin
+
+
+LIST OF PRIVILEGE GROUPS:
+-------------------------
+
+The following privilege groups exist (in alphabetic order):
+
+  B - Ban group. Gives the user the ability to ban players.
+  G - Game play. Allows to control settings of the game and game types.
+  K - Kick group. Gives the user the ability to kick players.
+  L - Ladder group. Will allow to setup the server for ladder play (To do)
+  M - Maps group. Gived the user the ability to change current map.
+  O - bOts group. Allows to control bots in the currently played map.
+  S - Summon group. Only 1 command in this one, but it has its use.
+  U - User Management. Allows to add/remove SemiAdmin users to the server.
+
+
+COMMANDS DOCUMENTATION CONVENTIONS:
+-----------------------------------
+
+< >         means that the parameter is mandatory
+
+< a | b >   denotes a choice. Either use a or b, but not both.
+            This parameter is mandatory.
+
+[ ]         means that the parameter or parameter part is optional
+
+[ a | b ]   denotes a choice. Either use a or b, but not both.
+            This parameter is optional.
+
+...         means that the last parameter can be repeated
+
+
+
+LIST OF AVAILABLE COMMMANDS BY GROUP:
+-------------------------------------
+
+---------------------
+LOGIN/LOGOUT
+---------------------
+
+
+command: ALI
+syntax : mutate ali <username> <password>
+
+    This command will allow you to login to the server as a limited admin. A
+    message is broadcasted to all users about your login.
+
+parameters:
+    username: Text - The name you use to login
+    password: Text - The password you use to login
+
+---------------------
+
+command: ALO
+syntax : mutate alo
+
+    This command will allow you to give up your limited admin abilities. A
+    message is broadcasted to all users about your logout.
+
+
+---------------------
+NO PRIVILEGE REQUIRED
+---------------------
+
+
+command: SAVER
+syntax : mutate saver
+
+    This will report the version of SemiAdmin installed on the server.
+
+---------------------
+
+command: NEXTMAPS
+syntax : mutate nextmaps
+
+    This command will report up to 3 of the next maps in the rotation list.
+
+
+-------------------------
+PRIVILEGE B - Ban players
+-------------------------
+
+Note: These will be replaced in the next version to follow the object type
+      syntax convention dicussed at the beginning.
+
+
+command: BAN
+syntax : mutate ban <playername>
+
+    Allows to ban the specified player using his player name.
+
+parameters:
+    playername : Text - The player name as seen on the scoreboard
+
+---------------------
+
+command: BANID
+syntax : mutate banid <playerid>
+
+    Allows to ban the player who's id matches the given player id. Players id
+    can be acquired using the KICKLIST command described lower.
+
+parameters:
+    playerid : Numeric - The player id acquired using the KICKLIST command
+
+
+-----------------------
+PRIVILEGE G - Game Play
+-----------------------
+
+
+command: GAME        subcommand: EDIT
+syntax : mutate game edit [gamename|gameclass]
+
+    This subcommand will make you the current game editor and will allow you to
+    start using the GAME SET and the GAME APPLYCHANGES subcommands. With these
+    commands, you can modify the parameters for many game types. A summary list
+    of gamename and gameclass will be listed later in this documentation. If you
+    dont isse any
+
+parameters:
+    gamename : Text - The short or long version of the game name.
+    gameclass: Text - The class name of the game type you want to edit.
+
+---------------------
+
+command: GAME        subcommand: SET
+syntax : mutate game set <setting> <value>
+
+    This command will allow you to change the different settings of the game
+    type you have selected to modify using the GAME EDIT COMMAND
+
+parameters:
+    setting: Text - The setting that you want to change.
+    value  : Varies - The value you want to assign to the setting.
+
+---------------------
+
+command: GAME        subcommand: GET
+syntax : mutate game get <*|setting>
+
+    This command will allow you to see the current value of 1 or all settings
+    that you can modify.
+
+parameters:
+    *      : Use * to see all settings.
+    setting: Text - The setting for which you want the value returned to you.
+
+---------------------
+
+command: GAME        subcommand: APPLYCHANGES
+syntax : mutate game applychanges <restart>
+
+    This will apply the changes that you made and while in GAME EDIT mode.
+
+parameters:
+    restart: Bool - Whether the server should restart once the settings are
+                    saved.
+
+---------------------
+
+command: GAME        subcommand: CHANGETO
+syntax : mutate game changeto <gamename|gameclass>
+
+    This command will restart the server using the name or class you specify.
+
+parameters:
+    gamename : Text - The short or long version of the game name you want to
+                      restart the server with.
+    gameclass: Text - The class name of the game type you want to restart the
+                      server with.
+
+
+***********************
+*** Coming commands ***
+***********************
+
+command: GAME        subcommand: SAVE
+syntax : mutate game save [slot] [MUTATORS] [MAPLIST]
+
+---------------------
+
+command: GAME        subcommand: LOAD
+syntax : mutate game load [slot]
+
+---------------------
+
+command: MUTATORS
+syntax : mutate mutators <mutator [mutator] ...>
+
+---------------------
+
+command: MUTATORS    subcommand: ADD
+syntax : mutate mutators add <mutator [mutator] ...>
+
+---------------------
+
+command: MUTATORS    subcommand: DEL
+syntax : mutate mutators del <mutator [mutator] ...>
+
+---------------------
+
+command: MUTATORS    subcommand: CLEAR
+syntax : mutate mutators clear
+
+---------------------
+
+command: MUTATORS    subcommand: LIST
+syntax : mutate mutators list
+
+---------------------
+
+command: MUTATORS    subcommand: USED
+syntax : mutate mutators used
+
+---------------------
+
+command: MAPLIST
+syntax : mutate maplist
+
+---------------------
+
+command: MAPLIST     subcommand: ADD
+syntax : mutate maplist add <mapname [mapname] ...>
+
+---------------------
+
+command: MAPLIST     subcommand: DEL
+syntax : mutate maplist del <mapname [mapname] ...>
+
+---------------------
+
+command: MAPLIST     subcommand: CLEAR
+syntax : mutate maplist clear
+
+---------------------
+
+command: MAPLIST     subcommand: LIST
+syntax : mutate maplist list
+
+---------------------
+
+command: MAPLIST     subcommand: USED
+syntax : mutate maplist used
+
+
+--------------------------
+PRIVILEGE K - Kick Players
+--------------------------
+
+Note: These will be replaced in the next version to follow the object type
+      syntax convention dicussed at the beginning.
+
+
+command: KICK
+syntax : mutate kick <playername [playername] ...>
+
+    Allows to kick the specified players using their player name.
+
+parameters:
+    playername : Text - The player name as seen on the scoreboard
+
+---------------------
+
+command: KICKID
+syntax : mutate kickid <playerid [playerid] ...>
+
+    Allows to kick the player who's id matches the given player id. Players id
+    can be acquired using the KICKLIST command described lower.
+
+parameters:
+    playerid : Numeric - The player id acquired using KICKLIST command
+
+---------------------
+
+command: KICKPART
+syntax : mutate kickpart <[*]<mask>[*] [[*]<mask>[*]] ...>
+
+    Allows to kick users using only a part of their name. It is done using a
+    special type of mask format defined to make the task a little easier. The *
+    is simply replaced by anything and is considered a wild token. See the
+    explanations later in the document.
+
+parameters:
+    *    : Token that can represent any part of a player name.
+    mask : Text - Mask is meant to represent only part of a name not including
+                  spaces.
+
+---------------------
+
+command: KICKLIST
+syntax : mutate kicklist
+
+    This command will simply return to you a list of player names and their
+    associated id. You can use the listed id with the KICKID and BANID commands.
+    The output will be formatted formatted accordingly:, using 1 line per
+    player playing on the server. Bots are not included in the list:
+
+    9999 : playername
+
+    where 9999 represents the space allocated for the player id and is padded to
+    the left with spaces. The number 1 will show as '   1' without the quotes.
+
+
+---------------------
+PRIVILEGE L - Ladders
+---------------------
+
+    *** Nothing implemented yet.
+
+------------------
+PRIVILEGE M - Maps
+------------------
+
+Note: I will implement a way to tell only partial map names in a future version.
+
+
+command: MAP
+syntax : mutate map <mapname>
+
+    This command will restart the game using the specified map name.
+
+parameters:
+    mapname : Text: The name of the map to restart the game with. The .unr
+                    extension is optional
+
+---------------------
+
+command: MAP    subcommand: NEXT
+syntax : mutate map next
+
+    This subcommand will restart the game using the next map in the map rotation
+    list.
+
+---------------------
+
+command: MAP    subcommand: RESTART
+syntax : mutate map restart
+
+    This subcommand will restart the game using the map currently being played.
+
+
+------------------
+PRIVILEGE O - Bots
+------------------
+
+Note: These will be replaced in the next version to follow the object type
+      syntax convention dicussed at the beginning.
+
+
+command: KILLBOTS
+syntax : mutate killbots
+
+    This will remove all bots from the current game but only for the duration of
+    the current map.
+
+---------------------
+
+command: ADDBOT
+syntax : mutate addbot [<#>|<botname [botname] ...>]
+
+    This command will add bots to the current game but only for the duration of
+    the current map. If you dont specify any parameters, only 1 bot will join.
+    But you can also specify a specific number of bots using a number. You can
+    also call bots by their name. Humm ... addbot Loque ... mouhahahah. If a bot
+    name was mispelled it will simply add any bot.
+
+parameters:
+    #       : Numeric - The number of bots to call in.
+    botname : Text - The name of a bot to call in.
+
+---------------------
+
+command: DELBOT
+syntax : mutate delbot [#|<botname [botname] ...>]
+
+    This command will remove bots from the current game but only for the
+    duration of the current map. If you dont specify any parameters, only 1 bot
+    will leave. If you use a number, that number of bots will leave. I have not
+    yet implemented removing bots by their name.
+
+    #       : Numeric - The number of bots to remove.
+    botname : Text - The name of a bot to remove.
+
+
+--------------------
+PRIVILEGE S - Summon
+--------------------
+
+
+command: SUMMON
+syntax : mutate summon <objectclass>
+
+    I won't elaborate much on this one, its use is the same as the more
+    protected version of it.
+
+parameters:
+    objectclass : Text - The class name of the type of object to summon.
+
+
+-------------------
+PRIVILEGE U - Users
+-------------------
+
+
+command: USERS     subcommand: ADD
+syntax : mutate users add <username> <password> <group>
+
+    This command will allow you to add a new user that you allow to have
+    privileges on your server.
+
+    username: Text - The username that the user will use to login.
+    password: Text - The password that the user will use to login.
+    group   : Text - The group that the user will be assigned privileges from.
+
+---------------------
+
+command: USERS     subcommand: DEL
+syntax : mutate users del <username>
+
+    This command will remove the user from the list of users that have
+    privileges on the server.
+
+    You cannot remove the last
+
+parameters:
+    username: Text - The name for the user that you want to remove.
+
+---------------------
+
+command: USERS     subcommand: MOD
+syntax : mutate users mod <username> name <newname>
+         mutate users mod <username> pass <newpassword>
+         mutate users mod <username> group <newgroup>
+
+    These commands will allow you to modify the information associated with a
+    user.
+
+parameters:
+    username   : Text - The name of the user you want to modify.
+    newname    : Text - The new name of the user.
+    newpassword: Text - The new password of the user
+    newgroup   : Text - The new group this user will be assigned to.
+
+---------------------
+
+command: USERS     subcommand: LIST
+syntax : mutate users list
+
+    This command will list all the defined users. The list will show all users
+    in no specific order.
+
+
+------------------------------------------
+COMMANDS THAT ONLY A MASTER ADMIN CAN USE:
+------------------------------------------
+
+
+command: GROUPS    subcommand: ADD
+syntax : mutate groups add <groupname> <privileges> <seclevel> <gamelevel>
+
+    Allows you to add a group name, which will hold the privileges and the
+    security level given to the members that will be assigned to that group. The
+    privileges, seclevel and gamelevel will be explained better later in the
+    documentation.
+
+parameters:
+    groupname : Text - The name you want to give to the group.
+    privileges: Text - The privileges that users of this group will have.
+    seclevel  : Numeric - A level of security between 0 and 255
+    gamelevel : Numeric - A level of game settings privileges between 0 and 255.
+
+---------------------
+
+command: GROUPS    subcommand: DEL
+syntax : mutate groups del <groupname>
+
+    Allows you to remove a group from the list. The group must not have any
+    users assigned to it.
+
+parameters:
+    groupname : Text - The name of the group.you want to remove.
+
+---------------------
+
+command: GROUPS    subcommand: MOD
+syntax : mutate groups mod <groupname> name <newname>
+         mutate groups mod <groupname> priv <[+|-]<newprivs>
+         mutate groups mod <groupname> seclevel <newseclvl>
+         mutate groups mod <groupname> gamelevel <newgamelvl>
+
+parameters:
+    groupname : Text - The name of the group that you want to modify.
+    newname   : Text - The new name you want to give to the group.
+    newprivs  : Text - The privileges that users of this group will have.
+                       use + or - to add or remove only certain privileges.
+    newseclvl : Numeric - A level of security between 0 and 255
+    newgamelvl: Numeric - A level of game settings privileges between 0 and 255.
+
+---------------------
+
+command: GROUPS    subcommand: LIST
+syntax : mutate groups list
+
+    This command will list all the defined groups. The list will show all groups
+    in no specific order.
+
+
+SUMMARY OF THE COMMANDS IN SYNTAX FORMAT:
+-----------------------------------------
+
+mutate ban <player>
+mutate banid <playerid>
+
+mutate game edit [gamename|gameclass]
+mutate game set <setting> <value>
+mutate game get <*|setting>
+mutate game applychanges <restart>
+mutate game changeto <gamename|gameclass>
+
+mutate kick <playername [playername] ...>
+mutate kickid <playerid [playerid] ...>
+mutate kickpart <[*]<mask>[*] [[*]<mask>[*]] ...>
+mutate kicklist
+
+mutate map <mapname>
+mutate map next
+mutate map restart
+
+mutate killbots
+mutate addbot [<#>|<botname [botname] ...>]
+mutate delbot [#|<botname [botname] ...>]
+
+mutate summon <objectclass>
+mutate users add <username> <password> <group>
+mutate users del <username>
+mutate users mod <username> name <newname>
+mutate users mod <username> password <newpassword>
+mutate users mod <username> group <newgroup>
+mutate users list
+
+mutate groups add <groupname> <privileges> <seclevel> <gamelevel>
+mutate groups del <groupname>
+mutate groups mod <groupname> name <newname>
+mutate groups mod <groupname> priv <[+|-]<newprivs>
+mutate groups mod <groupname> seclevel <newseclvl>
+mutate groups mod <groupname> gamelevel <newgamelvl>
+mutate groups list
+
+
+LIST OF GAME NAMES AND CLASSES:
+--------------------------------
+
+Deathmatch:
+short: DMP
+long : DeathMatchPlus
+class: Botpack.DeathMatchPlus
+
+Last Man Standing:
+short: LMS
+long : LastManStanding
+class: Botpack.LastManStanding
+
+Team Deathmatch:
+short: TDM
+long : TeamDeathMatch
+class: Botpack.TeamGamePlus
+
+Assault:
+short: ASS
+long : Assault
+class: Botpack.Assault
+
+Catch the flag:
+short: CTF
+long : CatchTheFlag
+class: Botpack.CTFGame
+
+Domination:
+short: DOM
+Long : Domination
+class: Botpack.Domination
+
+
+USERS AND GROUPS - HOW TO MANAGE:
+---------------------------------
+
+[This documentation is far from complete and will be improved, any fixes or
+suggestions should be posted in the SemiAdmin forum.]
+
+The first time you try to login, a new MasterAdmin account will be created. A
+MasterAdmin group is known as a group for which SecLevel is set to 255. The
+first thing created is a group with SecLevel 255. The name of that group is
+admin. Then, a user is created. The name is admin, the password is admin and the
+group assigned to it is admin. It is highly recommended that you either change
+the password and or the name of the MasterAdmin acount or that you create a new
+MasterAdmin user account and delete the default one. Remember that you cannot
+Delete the last MasterAdmin account.  If you have created more than one Master
+Admin group, and you delete the last MasterAdmin of that group, the corresponding
+MasterAdmin group will be deleted as well.
+
+I strongly suggest that you study all the privileges and make groups that will
+hold combinations of these. The more privileges the group give, the higher its
+SecLevel should be. Also, I had a request to disallow the User Managers to give
+or revoke the Ban privilege. This is controlled by the Security Level. Just make
+sure all group with Ban privilege have a higher SecLevel than the ones with User
+privilege.
+
+A User Manager cannot reassign the group of a user with the User privilege. Only
+a MasterAdmin can do so. Also, only a MasterAdmin can create another
+MasterAdmin.
+
+I have decided that groups would only be created by MasterAdmins for security
+reasons.
+
+Note to the MasterAdmins:
+
+Please choose carefully who you will give User Management right to. The system
+is highly protected but as with any protection system, the protection is as good
+as its managers are. But in the worst case scenario, you can always clear the
+list of users in the unrealtournament.ini file
+
+GameLevel security:
+
+This security value will control which settings a user with Game privilege
+can modify. Basically, the higher the setting, the more settings he can change. I
+currently only use 0 to 2 and 255. 255 is set only on the Admin Password and
+should be held only by a MasterAdmin group to which only the server owner will
+have access.  
+
+Refer to the WebAdmin Help page for more detailed information.
+
+
+

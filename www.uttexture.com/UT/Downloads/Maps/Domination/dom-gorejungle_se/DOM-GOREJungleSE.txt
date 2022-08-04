@@ -1,0 +1,88 @@
+G.O.R.E. JUNGLE SPECIAL EDITION
+
+ 
+
+map title: G.O.R.E. Jungle Special Edition
+release date: 02/25/2k+2
+author(s): Vasileios Papadimitriou a.k.a. Cdr A. Killer
+e-mail address: akiller@hol.gr 
+web address: http://users.hol.gr/~akiller/ 
+
+>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>><<>><<
+
+filename: DOM-GOREJungleSE.zip
+map description: UT DOM map
+difficulty settings: for bots
+new graphics/sounds/music/script: a couple of new textures, music from Unreal (Surface.umx)
+special brushes: none
+construction tool: UnrealEDitor 2.00 (ugh)
+construction time: about a week
+base: DOM-GoreJungle, my first domination map. Quite sucky.
+
+>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>><<>><<
+
+To play this map you'll have to install Surface.umx from Unreal to UT's \Music directory. 
+
+Finally, my old shitty DOM-GoreJungle has been totally screwed! G.O.R.E. Jungle Special Edition is 
+totally unique and features new technologies! Prepare for breath-taking atmosphere and realistic terrain 
+that kicks ass! And bugs? Dead! All of them! Just load this map with many players (20 start locations) 
+and hunt your enemies down! 4 control points, nice bot gameplay (although they sometimes get confused, 
+but blame Epic for the AI) and pretty smooth gameplay. I own a P3, 256MB, Voodoo3-3000 and I noticed that 
+fps were decreasing only in the great fall/river cross area (due to the fog effect perhaps) and even then, 
+movement was not getting awfully choppy. It appears that UT engine is still alive and kicking. 
+
+ 
+
+*You will need the following packages in order to run the map properly:
+
+Textures (UTX): Botpack, city, Detail, Editor, Engine, GenEarth, genfluid, GenFX, GenIn, Indus5, Indus6, 
+LadrArrow, Liquids, ShaneDay, ShaneSky, SkyBox, SkyCity, UBrowser, UMenu, UnrealI, UnrealShare, UTtech1, 
+UTtech3, UTMenu.
+Sounds (UAX): AmbAncient, AmbModern, AmbOutside, Announcer, BossVoice, Botpack, Female1Voice, Female2Voice, 
+Laddersounds, Male1Voice, Male2Voice, UMenu, UnrealI, UnrealShare, UTMenu.
+
+ 
+
+>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>><<>><<
+
+OTHER LEVELS BY AUTHOR (SORTED BY DAY OF DEVELOPING):
+
+DOOM2_Entryway (SP level)
+AS-KingoftheHill
+DOM-GoreJungle
+DM-MMI_July
+DM-MMI_July NoFog version
+DM-Morfbias
+DOM-feuereisundTNT
+CTF-Norad
+AS-DDayOfTheOverlord
+AS-Achtung v1.01
+DM-SkaarjanPeak (This one has a special triggerlight property!)
+DOM_Blackwindfireandsteel (Special MANOWAR music sample!!)
+DM-WAD_Arena][
+CTF-Swampy (real time non-stop day-night cycles!!!)
+DM-WAD_BFGspaz
+DM-WAD_Frozen
+DM-WAD_Boxing
+DM-WAD_Prison
+DM-WAD_Fragem
+DM-WAD_D2pod1
+DM-WAD_Bludbath
+DOM-SacredGarden
+DM-SAtlantis3+E
+
+and still developing...
+
+>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>><<>><<
+
+Please do NOT alter my work in any way without asking me first. Thank you.
+This map is the intellectual property of Vasileios Papadimitriou aka Cdr A.Killer , c2001, and is subject to 
+all applicable copyright laws.
+You may distribute the original .zip file freely by any means, as long as its contents remain intact. 
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT Interactive Software, Inc. 
+under license. UNREAL and the UNREAL logo are registered trademarks of Epic Megagames, Inc. All other trademarks 
+and trade names are properties of their respective owners. 
+Unreal Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by GT Software, Inc. under 
+license. Unreal Tournament and the Unreal Tournament logo are registeredtrademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.

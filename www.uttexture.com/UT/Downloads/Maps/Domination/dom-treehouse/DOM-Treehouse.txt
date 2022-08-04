@@ -1,0 +1,50 @@
+================================================================
+Title                   : DOM-Treehouse
+Version                 : 1.0
+Release Date            : February 11, 2000
+Filename                : DOM-Treehouse.unr
+Author                  : Neil Weber 'Dufusyte'
+Email Address           : dufusyte@yahoo.com
+Web Page                : http://www.crosswinds.net/princeton/~nweber
+Description             : A giant treehouse
+Where to get this map   : Try http://www.planetunreal.com/nalicity or 
+                          http://www.fileplanet.com for all your UT map needs.
+
+===============================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : Treehouse
+Deathmatch              : No
+Domination              : Yes
+Assault                 : No
+Capture the Flag        : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Known bugs              : None
+Recommended players     : 6-12
+
+--- Construction ---
+Editor(s) used          : UnrealEd, QME
+Base                    : Original map from scratch
+Construction Time       : Days (and nights!)
+Other maps by Dufusyte  :   DOM-Face = a modified version of Facing Worlds for Domination.
+                            DOM-Deck16][ = a modified version of Deck16][ for Domination.
+                            DOM-Conveyor = a modified version of DM-Conveyor for Domination.
+                            DOM-Barricade = a modified version of DM-Barricade for Domination.
+
+Installation
+------------
+   Unzip the the files.  DOM-Treehouse.unr goes in the "Maps" directory.
+
+Author's Notes
+--------------
+A really fun map - enjoy!
+
+
+----------------------
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

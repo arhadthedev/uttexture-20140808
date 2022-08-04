@@ -1,0 +1,42 @@
+     ** LEVEL INFORMATION ***
+-----------------------------------
+
+* Title:  Omega Station
+
+* Release Date: 2.8.00
+
+* For: Unreal Tournament
+
+* Game Type: Domination
+
+* Number of Players: 6-12
+
+* Author: Dave "GrandPappy" Pletcher
+ 	   davep@gte.net 
+	   http://home1.gte.net/davep/Frameset1.html
+
+* Other Levels by Author: Alter of Ascension, Snipe Hunt
+
+* Description: The Liandri Corporation has acquired a deserted scientific station orbiting a dead planet. Nicknamed the "Ring of Death" this has proved to be an ideal environment for DOMINATION.
+
+* Single Player: Yes, with bots
+
+* Multi Player: Yes
+
+* New Textures: Yes
+
+* New Graphics: No
+  
+* New Sounds: no
+
+* Hint: Just in case you're reading this, here's a tip. You can't fall out of the station.               
+
+
+   *** AGREEMENT ***
+-----------------------
+I agree that you may publish this level on any site, server, and cd . . .. Etc., if you include this text-file (Alter.txt) and e-mail me if you're going to publish it.
+
+Dave "GrandPappy" Pletcher
+
+davep@gte.net 
+http://home1.gte.net/davep/Frameset1.html

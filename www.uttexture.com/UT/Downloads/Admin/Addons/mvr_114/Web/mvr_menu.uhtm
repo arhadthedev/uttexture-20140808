@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="Black" text="Silver" link="33cc66" vlink="33cc66"><center>
+<table bgcolor="#000000" width="100%%" cellspacing="4" cellpadding="0" border="0">
+<tr>
+    <td width="1"><img src="/mvr_pic/1.gif" width=1 height=1 hspace=0 vspace=0></td>
+    <td>
+
+<table width="100%%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td width="111" rowspan="5" valign="TOP"><img src="/mvr_pic/image.gif" width=111 height=109 hspace=0 vspace=0></td>
+    <td valign="TOP" width="100%%"><img src="/mvr_pic/logo.gif" width=527 height=34 hspace=0 vspace=0 align="left"> </td>
+    <td width="76" rowspan="5" valign="TOP"><img src="/mvr_pic/right.gif" width=76 height=109 hspace=0 vspace=0></td>
+</tr>
+<tr>
+    <td width="100%%" height="6" valign="TOP" bgcolor="#3a7c8c"><img src="/mvr_pic/1.gif" width=1 height=1 hspace=0 vspace=0></td>
+</tr>
+<tr>
+    <td width="100%%" height="59" bgcolor="#226474">
+<table width="100%%" cellspacing="0" cellpadding="0" border="0"><tr><td align=left valign="center"><font size="5" face="Verdana, Arial" color="33cc66">[Mv] Reporter Admin
+</font></td>
+<td align="right" valign="top"><font face="Verdana, Arial, Helvetica" size="-2" color=white><b>Choose&nbsp;Your&nbsp;Options:</b></font>
+<font face="Verdana, Arial, Helvetica" size="-1" color=white><br>
+<a href="/ServerAdmin" target="_top"><b>Main Server Admin</b></a> «<br>
+<a href="%ReporterURI%" target="_top"><b>[Mv] Reporter Admin</b></a> «<br>
+</font></td></tr></table>
+</td>
+</tr>
+<tr>
+    <td height="6" width="100%%" bgcolor="#3a7c8c"><img src="/mvr_pic/1.gif" width=1 height=1></td>
+</tr>
+<tr>
+    <td height="6" width="100%%" bgcolor="black"><img src="/mvr_pic/1.gif" width=1 height=1></td>
+</tr>
+</table>
+</td></tr></table>
+</body>
+</html>

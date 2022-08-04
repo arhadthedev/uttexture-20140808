@@ -1,0 +1,25 @@
+Package Name   :  Tobio Trees
+File Name      :  TobioTrees.u
+Release Date   :  2001.11.29
+Description    :  Contains 6 new models for Unreal Tournament. 4 trees and 2 bushes.
+Installation   :  Copy 'TobioTrees.u' to your '..\UnrealTournament\System\' folder.
+
+How to use it  :  In the Unreal Editor open the 'Actor Class Browser', and choose
+                  'Open Package'. Mark the file 'TobioTrees.u' under your
+                  '..\UnrealTournament\System\' folder and click 'OK'. The new
+                  models should now appear in the 'Actor Class Browser' directory,
+                  under 'Actor\Decoration\TobioTrees\', and are added like any other
+                  UT model.
+
+Notes          :  Remember that other people need to have this file installed too,
+                  to be able to play the level using it. You can include it in the
+                  zip-file with your level if you want (or your mod). Please just
+                  remember to give us credit for our work. If you like, you can just
+                  include this document.
+
+Models         :  Bjørn "Cyber Emperor" Stenfeldt
+Email          :  cyber_emperor@unrealfortress.com
+Homepage       :  http://www.planetunreal.com/cyber-emperor/
+
+Textures       :  Bo "Lord Selmer" Selmer Hansen
+Email          :  lord_selmer@hotmail.com

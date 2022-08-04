@@ -1,0 +1,124 @@
+(Client) Chat Logger 1.0 for Unreal Tournament
+Author: UsAaR33
+eMail Address: usaar33@yahoo.com
+Website URL: http://www.usaar33.com
+Release Date: Thursday, January 31, 2002
+Version: 1.00
+Files in UMOD: chatlog.u, chatlog.dll, chatlog.txt, chatlog.int
+Credits:
+-BDB (http://www.planetunreal.com/bdbunreal): for allowing me to use his HTML format generating code from his WebChatLog mod.
+-Mongo: For all of the help that he has given me with the C++ side of this mod.  Without him, I doubt I could have completed ChatLogger.
+-Swedix at the beyond unreal forums (http://www.beyondunreal.com) for originally challenging me to write this mod. :)
+-All the folks at #unrealscript (DarkkByte, TNSe, etc.) for the help they have given me in the past. :)
+
+Other mods by author:
+OldSkool Amp'd 
+Unreal Tournament Demo Manager (my first mod w/ DLLs) 
+Valhalla Avatar 
+Water War 
+Little Tweaker 
+Many model conversions and fixes 
+
+Member of: 
+-Team Vortex (http://www.planetunreal.com/teamvortex) which is currently making
+Operation: Na Pali. 
+-Legacy (http://www.ezkeel.com/Design/Legacy/legacy.htm): The well-rated
+SinglePlayer Partial conversion for UT. 
+-CSHP/UTPure teams: Stopping cheats dead :)
+
+====================================================================================
+
+Information
+
+----------------
+
+BDB's webchatlogger is a wonderful mod; unfortunately, it can only be used on a server.  Swedix "challenged" me to write a client-side chat logger and in consequence this is what came out.  
+
+This chat logger creates HTML files, with a similar format to webchatlog v 2.2.   As levels change, new logs are opened.  However, there are some differences, such as coloring different message types, rather than saying the type.  Color key is as follows (I was too lazy to make this customizable :p):  
+-Green: A message sent to all players (with the say command)
+-Light Blue: A message sent to all teammates (with the teamsay command)
+-Red: A message indicating someone died (known as a deathmessage)
+-Brownish red: A message that has to do with a kill.  This includes headshots, first bloods, killing sprees, and multikills.
+-Purple: A "pickup" message.  These messages inform the user that he picked up something (weapon, ammo, inventory, etc.)
+-Black: Any other event that does not fit the above catagories (flag capture, player joins/exits, etc.)
+
+Note that you may configure which of the above message types are logged or not.  Time messages, "you killed x", and "you were killed by x" messages are never logged.  Also never logged are "console" type messages, such as "unrecognized command".
+
+The player name column in the HTM file is filled for say and teamsay messages.  The name is the same color as the players team (white for spectators and in deathmatch games).
+
+
+Another advantage of a client-side chat logger is that it enables you to take chat logs of demos. :)  A message summary was long requested with Unreal Tournament Demo Manager.  While it would be hard to pull it straight off the demo file, it should be quite easy to simply run through the demo file with chat logger enabled, which will generate a log from the demo. (which would be identical to a log taken in the real game).
+====================================================================================
+
+Installation
+
+------------
+
+Please note that the use of Chat Logger 1.0 requires that you are running Windows and have Unreal Tournament at version 432 or 436.  I am willing to send the DLL source to anyone who wishes to port it another Operating System.
+
+Simply run the UMOD file in the ZIP directory to install the chat logger.  Upon starting UT afterward, a "Chat Logger" menu will be present in the mod menu.
+
+If UMOD files are not accociated with UT or are with something else, simply extract the umod file to the SYSTEM directory of UT.  Then goto run and type in the UT system directory path, followed by (no quotes!) setup.exe install chatlog.umod
+====================================================================================
+
+Using Chat Logger
+--------------------
+
+First note that for the logger to start, you must open the chat log menu EVERY time you start Unreal Tournament.
+
+The interface should be pretty self-explainatory.  Nonetheless, I will describe the buttons here:
+
+Take Logs: This controls when logs should or should not be taken.  (on a per-level basis)
+Message Types: Choose what "message types" you wish to log.  See information about them above.
+Game Summary: If checked, a "game summary" will be logged when the game ends.  This includes players, their frags, their deaths (DM only), and team/team score (Team Games only).
+
+Log Directory: You may customize the directory that the chat logs will be saved in.  The directory will be auto-generated when a log starts.
+
+Log Format: This is very simiar to Udemo's log formats.  A description of "flags" that are replaced when starting the log are shown below the window.  You need not worry about over-writing old logs; if another log exists that matches the format a -2 is added to the file name (and if that exists, a -3, and so forth).
+IMPORTANT: The %L parameter will be replaced with the demo file name when logging a demo playback.  thus, I do not recommend using it with demos.  
+
+START: Only shows when the logger is not enabled.  This will start the logger which will log all maps in the UT session.  Upon depressing, all options are saved and windows closed.
+SAVE: Only shows when the logger is not enabled. This saves the options in the window and closes all windows.
+CONTINUE: Only shows when logger is enabled.  Saves options and closes all windows.
+STOP: Only shows when logger is enabled.  Disables the logging system until START is hit again.  Saves options and closes all windows.
+Close box and ESC key: this simply closes the chatlog window and DOES NOT SAVE any changes.
+
+Enjoy logging your games!
+
+====================================================================================
+
+Known Bugs
+--------------------
+
+Generally, chat log is clean of bugs.  However, here is a list of known ones.
+-Messages will not be colored/filtered correctly if the HUD being used is not a derivative of the normal UT one. (Basically, anything will work except the OldSkool Amp'd HUD and True single player maps.
+-Do not use spaces in directory names or file formats. It simply won't work right.
+-If UT crashes, a log will probably be cut off mid-message.  This is because a log memory buffer is used to reduce file writing.  Files are only dumped once this buffer is filled.
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+Chat Log is copyright 2002, by UsAaR33.
+
+Authors may use the source code from ChatLog, so long that credit is given me.
+
+You are NOT allowed to commercially exploit this modification, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this mod through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================

@@ -1,0 +1,104 @@
+------------------------------------------------
+
+               Title: 1on1-Nadaus
+            Filename: DM-UTR-Nadaus.unr
+              Author: Creavion
+       eMail Address: creavion@freenet.de
+         Website URL: -
+        Release Date: with the release of the UT99.org community Mappack 2
+         Last Update: ""
+             Version: 1.00 
+
+Level specific Credits:
+
+ - Aalexanderrr for the layout.. yes, HIS layout
+ - and thanks to Aalexanderrr also for his story
+ - Epic Megagames for the UT series
+ - Kevin Riepl for the Deadbolt Track 
+ - Phyritox - Additional textures
+ - Feralidragon - Extra Level Effects
+
+Other levels by author (finished stuff):
+
+DM-Ryigiar and the other map(s) for this pack
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: 1on1-Nadaus
+           Game Type: Deathmatch
+            Botmatch: True
+       Single Player: False
+            Teamplay: Optional
+        New Textures: Yes, mostly copyrighted by Epic Games (for details > credits part)
+          New Sounds: False
+           New Music: Deadbolt - by Kevin Riepl
+        New Mutators: False
+                Mods: False
+
+====================================================================================
+Construction
+------------
+
+                Base: Alex 1on1-Nadaus Layout, which had at the beginning 
+	              only Shane Church textures.
+		      And also thanks for his story
+          Build Time: I guess.. 5 or 6 weeks.. again
+   Ideal Playercount: 2.. maybe 3 but I think this would be to much
+      Editor(s) Used: Unreal Editor 2, Photoshop CS 2, 
+                      DB Amp Power Converter, Windows Audiorecorder 
+                      (for increasing of the volume)
+          Known Bugs: A small "sometimes appearing" HOM near the Healthcharger
+		      which is near the Shock Rifle. The try to remove it makes
+		      anywise everything worse, 
+		      so I tried it not by hook or by crook anymore.
+
+====================================================================================
+Installation
+------------
+
+ Copy DM-UTR-Nadaus.unr into UnrealTournament/Maps folder
+ Copy XPickups.u, xpickups.int and NadausEffects.u into UnrealTournament/System folder
+ Copy KamahT.utx into UnrealTournament/Textures folder
+
+====================================================================================
+Extended Description
+--------------------
+Story by Alex:
+Millenia ago, this planet, also known as RT-598J, used to be a tropical paradise. 
+Its huge rainforests, massive oceans, simply eronomous mountain chains and wide variety 
+of different lifeforms would definitely make a good place for exploration. 
+However, NEG Mining Corporation found quite rare radioactive element that could be used for a weapon 
+of mass destruction. Since then planet became a huge weapon testing site. 
+Massive nuclear explosions evaporated all the rainforests and contributed to climate change.
+Now that the planet has turned into cold and snowy rock whose inhabitants enjoy constant night, 
+Liandri decided to take over and use one of CR's recearch labs for their Tournament. 
+
+====================================================================================
+Author's Notes
+--------------
+
+Anywise .. I am currently on a Unreal Championship 2 level design trip,...
+BTW: Snow works only during offline matches! 
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+
+Copyright 2008 Creavion
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.

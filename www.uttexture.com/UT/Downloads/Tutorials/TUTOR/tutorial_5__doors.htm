@@ -1,0 +1,110 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Theme" content="none">
+<meta name="Microsoft Border" content="none">
+<title>Tutorial #5 - Doors</title>
+</head>
+
+<body bgcolor="#000000" text="#00FF00" link="#FFFF00" vlink="#00FFFF" alink="#FFFFFF">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><table border="0" width="100%">
+      <tr>
+        <td width="33%"><strong><font face="Verdana"><small>Tutorial #5: Doors</small><br>
+        <a href="http://www.creativecarnage.com/unreal/tutorial5.unr"><small><small><small>(click
+        to download .UNR)</small></small></small></a></font></strong></td>
+        <td width="33%" align="center"><p align="center"><a href="mailto:hku@slip.net"><strong><small><font
+        face="Verdana">Author: Crymson</font></small></strong></a></td>
+        <td width="34%" align="right"><strong><small><font face="Verdana">Last Updated: May 25th</font></small></strong></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><font face="Verdana" color="#0000FF" size="6"><u><b>Unreal Tutorial #5</b></u></font><br>
+    <font size="3" color="#0000FF" face="Verdana"><strong>Crymson&#146;s Guide to Gooder
+    Unreal Door/Lift Making</strong></font><font SIZE="2"><p><font face="Verdana">(The
+    following guide is a tutorial on making doors; however, a similar process is used for
+    making elevators/lifts: only the mover brush and direction changes&#133;)</font></p>
+    <p align="center"><font face="Verdana">&nbsp;</font><img src="DoorR-1.jpg" width="646"
+    height="485" alt="DoorR-1.jpg (116457 bytes)"><br>
+    </font><a href="http://www.creativecarnage.com/unreal/DoorR-1.jpg"><font face="Verdana"
+    size="1">(click here to view full screen)</font></a><font SIZE="2"></p>
+    <p>&nbsp;</p>
+    <p><font face="Verdana">Okay, so you have your nice little level but you want to make a
+    door. This is how you do it.</font></p>
+    <p><font face="Verdana">First thing first, we need to design our door. There&#146;s
+    nothing special about this, you can choose any style you want. For this level I&#146;m
+    just going to use a thin rectangular slice for the door:</font></p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="DoorR-2.jpg" width="616" height="447"
+    alt="DoorR-2.jpg (125485 bytes)"><font face="Verdana">&nbsp;<br>
+    </font></font><a href="http://www.creativecarnage.com/unreal/DoorR-2.jpg"><font
+    face="Verdana" size="1">(click here to view full screen)</font></a><font SIZE="2"></p>
+    <p><font face="Verdana">To make this door I just created a thin slice with my brush,
+    selected my texture, and added it to the level.</font></p>
+    <p><font face="Verdana">Now we need to make it move. To make a mover that looks the same
+    as our door we need to intersect it with a large, off-level bounding box. The door we just
+    created is nothing but a template, and will be discarded in the final version. To make the
+    bounding box you <b>need</b> to use cube properties. If you don&#146;t, your final mover
+    will have ghost zones (It looks like its there, but when you touch it you fall/pass
+    through). Why would it do this? I&#146;m not sure, but it has to do with scaling. If you
+    make your huge bounding box by scaling then your eventual mover door will be scaled by the
+    same proportions (as your huge bounding box); and where there&#146;s scaling on a mover,
+    there&#146;s ghost zones. All of that being said, lets get back to making the bounding
+    box. <b>Make sure your cube brush has reset all transforms (use right-click -&gt; reset
+    -&gt; reset scaling) before making the bounding box. If not, some scaling transforms can
+    sneak into your final bounding box (even though you used cube properties to define its
+    size).</b> Usually a cube of 1000/1000/1000 is sufficient, but if you have a huge door you
+    can easily make the cube bigger. Move this cube brush off to the sides and subtract it.
+    You should have something like this going on in your level:</font></p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="DoorR-3.jpg" width="629" height="456"
+    alt="DoorR-3.jpg (110279 bytes)"><br>
+    </font><a href="http://www.creativecarnage.com/unreal/DoorR-3.jpg"><font face="Verdana"
+    size="1">(click here to view full screen)</font></a><font SIZE="2"></p>
+    <p>&nbsp;</p>
+    <p><font face="Verdana">Now, make your door template into a brush (use right-click -&gt;
+    copy to polygons -&gt; to brush) and place the brush in the bounding box. Add the brush
+    and delete the original door template. When you do this you need to reapply textures and
+    other effects. (You don&#146;t have to do it the way I did it, you can make the door in
+    the middle of the bounding box straight off, but I prefer making it in the level first so
+    I can see how it fits/looks.) Now, select the huge bounding box and make a brush out of it
+    (use right-click -&gt; copy to polygons -&gt; to brush). Then, click on the intersection
+    button on your toolbar (far right, third down). The resulting red outline is your mover
+    brush. Move it to any part in a level where you want a door and hit the add-mover button
+    (far right, sixth down). For this level we&#146;ll just move it to where the door was and
+    stamp it. It should look something like this:</font></p>
+    <p>&nbsp;</p>
+    <p align="center"><img src="DoorR-4.jpg" width="633" height="459"
+    alt="DoorR-4.jpg (126770 bytes)"><br>
+    </font><a href="http://www.creativecarnage.com/unreal/DoorR-4.jpg"><font face="Verdana"
+    size="1">(click here to view full screen)</font></a><font SIZE="2"></p>
+    <p>&nbsp;</p>
+    <p><font face="Verdana">There&#146;s your door mover.</font></p>
+    <p><font face="Verdana">Making it move is the easy part. Select keyFrame 1 (right click
+    -&gt; mover keyframe -&gt; key 1), move it to where you want to go, then select keyFrame
+    0. It&#146;s done: compile and run. See Unreal/Help/ReadMe.txt for more info on setting
+    different triggers up.</font></p>
+    <p><font face="Verdana">&nbsp;Now, the beauty of this method is that it doesn&#146;t
+    matter how you created your door. You can skew, rotate, and scale to your hearts content.
+    Just as long as you make your mover brush by intersecting with the <b>non</b>-scaled, huge
+    bounding box.</font></p>
+    <p><font face="Verdana">Happy Editing&#133;</font></p>
+    <p><font face="Verdana">crymson (hku@slip.net)</font></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></font>&nbsp;</p>
+    <p>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

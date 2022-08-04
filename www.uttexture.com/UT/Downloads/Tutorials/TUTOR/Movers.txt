@@ -1,0 +1,38 @@
+Movers
+What is it?
+Movers are moving brushes. They can do anything, from the floor sliding aside to drop the player into a lava pit, to moving doors and lifts.
+Let's take a simple lift as an example (all movers are done the same way). A lift is simply a moving brush. When triggered (typically by player proximity), it moves from position one (top) to position two (bottom), delays for a moment, and moves back up. 
+How to do it
+The lift consists of two parts: the area the lift moves in, and the lift itself.
+First build the lift area. Texture it right, add some black/yellow warning stripes (if it's in an industrial area), add the guidance rails, and so on. 
+Next, create the lift itself - hanging in midair. Simply build it in the middle of an empty room (I like creating a 'building room' somewhere off the map). 
+This has the advantage that you can move all around the lift, texturing and sizing it just right. You'll also need some space around it for the intersection brush later. 
+
+When you've created a good-looking lift, you'll have to intersect it: select the cubs tool and design a cube which totally encompasses the lift without touching anything else (think of it as packing the lift in a crate).
+Don't actually build the cube, though. You don't want to add it to the world - you want to intersect it with the lift by pressing this button:  
+
+This intersection turns the current brush into a brush that looks just like the lift - in effect turning the many brushes of the lift into a single brush.
+Now move to your lift area, position the brush exactly where you want the lift to start and add a moving brush by clicking this button: 
+You'll see your lift appear as a blue outline. This is the first keyframe: keyframe 0. It's the start position of your mover.
+Select the mover (you might want to hide the red brush first as it'll be in the way), right-click it and select the option Mover Keyframe. From there, choose Key 1.
+Now move the mover to the second position. 
+
+Again, right-click it, and set the keyframe back to 0: you'll see the mover jump back to it's original position. 
+
+And that's all - pretty simple, isn't it? 
+
+Questions
+Explain the overview again?
+Okay. You create the lift original, hanging in mid-air in your construction box. You intersect it, and add a mover at the lift start position. Select keyframe 1 (the second keyframe, first one's called 0), shift the mover, select keyframe 0 again and that's that.
+You might want to keep the original lift hanging around if you need it again somewhere else. 
+What's keyframing?
+Keyframing is a way to define the movement of an object. You place several examples of it along its path (complete with different rotation, if you want), and the computer automagically moves it between these points. 
+How do I retexture the lift once I've added it as a mover
+Ummm...you don't. You'll have to delete it, retexture your original (you still have it in your building room, right? Right?), and recreate the mover. 
+Can I have more than two positions?
+Yes. Simply position some other keyframes as well, and change the Move.Numkeys property of the mover. 
+So how does a simple door work?
+In exactly the same way as the lift. A DOOM-style door (which lowers into the ground) is simply a lift that drops into the floor (brushes can move through each other without problems). A rotating door has two keyframes: one showing it closed, and the other simply rotated open.
+(Change the rotation point by moving the little cross of the brush about - simply leftclick and drag). 
+How do I set the movers speed?
+Look at Mover.Movetime - it gives the time in seconds between the keyframes. You can't change the speed between different keyframes (sadly), but you can use several keyframes at varying distances, forcing the mover to 'hurry' over the larger distances. 

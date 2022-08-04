@@ -1,0 +1,17 @@
+Can you get a Woot Woot?!
+
+WWw.wootabulous.com
+
+INSTALLATION
+
+Extract the .unr files into your UNREAL/MAPS dir
+Extract the .umx files into your UNREAL/Music dir
+Extract the .utx files into your UNREAL/TEXTURES dir (if there are any)
+
+Greetz and thanks 2 the mapbuilder and site-owner: ICaRuS
+
+Contact: info@wootabulous.com
+
+Thnx 2 Nalicity for the upload off my maps!
+www.nalicity.com
+

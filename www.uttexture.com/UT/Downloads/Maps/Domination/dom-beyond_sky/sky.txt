@@ -1,0 +1,69 @@
+================================================================
+Title                   : DOM - Beyond Sky		
+
+Author                  : Karsten "Shaman" Janz
+
+Date                    : 17.06.2001
+
+Filename                : Dom - Beyond Sky.zip
+
+File contents           : DOM - Beyond Sky.unr                                                	
+			  Sky.txt (this file)
+			
+Email Address           : Kiffersparadise@t-online.de
+
+Home Page for download	: www.unrealed.de or www.planetunreal.com/nalicity
+
+other Maps by the author: DM - TheTemple
+
+Comments		: thx to Krull who gave me feedback on this map
+			
+================================================================
+
+Play Information	
+
+Single Player 		: Yes (with bots)
+Deathmatch              : No
+Assault			: No
+CTF                     : No
+DOM			: Yeah !
+Recommended No. Players : 4 - 8
+                          
+=================================================================
+
+Installation instructions
+
+Just unzip the .unr file in your UT - Maps directory.
+
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd 2.0
+
+Build Time              : Don´t ask !!!! ;))
+
+===================================================================
+
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

@@ -1,0 +1,110 @@
+JB-Antipody-][
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: Antipodean Worlds 2
+
+Author: Cory 'SpoonDog' Spooner
+
+eMail Address: thespoondog@planetunreal.com
+
+Website URL: http://www.planetunreal.com/spoondog/
+
+Release Date: Tuesday, August 01, 2004
+
+Version: 1.00
+
+Credits: Big thanks to CoolDude for doing lots of fixes due to my lack of time!  Thanks to Sexmachine, Rob, RevBillyG, ZedMaestro, Snowdog and all the other beta testers.  Thanks to UT2k3 for some of the textures :)  Thanks to Mychaeel for Meshmaker that was used to make a few meshes for this map.
+
+Other levels by author: Lots, go look at www.mapraider.com or my website.
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Game: Unreal Tournament
+
+Level Name: JB-Antipody2
+
+Game Type: JailBreak
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Only For Bots
+
+New Textures: No
+
+New Sounds: No
+
+New Music: Yes
+
+New Mutators: No
+
+Mods: No
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: Original Map
+
+Build Time: Dunno
+
+Recommended # of Players: 8-12
+
+Editor(s) Used: UnrealEd, PhotoShop.
+
+====================================================================================
+
+Mods
+
+----
+
+UT JailBreak - The best mod ever.
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+This is the sequel/remake of the original JB-Antipody, and it's just as crazy.  Some cool stuff like fire traps and cannons that shoot you into the sky.  Essentially the same but less teleporters than the original, changed teleporter layout.
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+This level is copyright 2004, by Cory Spooner 'TheSpoonDog'
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================

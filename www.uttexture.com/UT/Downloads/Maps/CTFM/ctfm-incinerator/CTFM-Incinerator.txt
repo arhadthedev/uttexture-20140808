@@ -1,0 +1,44 @@
+CTFM-Incinerator for MultiTeam CTF for Unreal Tournament
+===============================================================
+Title                   :CTFM-Incinerator
+Version                 :1
+Release Date            :2/10/01
+Filename                :CTFM-Incinerator.unr
+Author(s)               :Colin "Wyzard" McCann
+Email Address           :wyzard@planetunreal.com
+Web Page                :http://www.planetunreal.com/MultiCTF
+
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :The Incinerator
+Gametype:		:MultiTeam CTF
+Recommended Players	:4-8
+CTF                     :yes 
+New Sounds              :no
+New Graphics            :no
+NewUnrealScript         :no
+
+
+Description:  
+This map is an improvement of the map CTFM-TestRoom][.  The improvements are that now people trapped in bases can escape via the teleporters in the back of the bases, and now the bots can get the items in the middle of the map.  Also, the biorifle was replaced by
+a ripper.
+
+Originally, this was another simple map I made to test and showcase the new MCTF Trigger types available.  When a team has reached 25 percent of the max score, a bridge is extended for that team to the damage amp and keg of health in the middle.  50 percent means a shieldbelt, and 75 percent means a redeemer for the lucky team.  When a team is out, its base closes after 13 seconds.  Very fast-paced excitement that can get frustrating with too many people.
+
+------------------------------------------------------------------
+
+Author's Note:  Really, really should only be played with about 8 people.  Any more and its just crazy.
+Must be played with the MultiCTF mod, which can be obtained at the web site above.
+
+------------------------------------------------------------------
+
+Thanks to:
+Epic Megagames
+'Burger Pimp, Jay, Spicy, and the rest of the boyz
+
+-- Copyright Info --
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

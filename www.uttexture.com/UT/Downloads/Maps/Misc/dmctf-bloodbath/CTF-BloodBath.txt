@@ -1,0 +1,56 @@
+================================================================
+Title                   : [CTF] - Blood Bath                     
+Author                  : Lord Dill
+Date                    : 4-29-01
+Filename                : CTF-BloodBath
+		
+Email Address           : lord_dill@hotmail.com
+Home Page		: none
+                         
+================================================================
+Play Information	
+
+Single Player           : No.
+Deathmatch              : No.  not yet... ill make one
+Recommended No. Bots    : 6-12
+Comments		: 4th map... got the idea from Michael
+			  (^]Dious_/\cts[]|||) Thanx.  Watch out for
+			  the lava at the bottom of the pool.  It was
+			  a flaw but i liked it.  Bots like the island
+			  alot too!
+Description             : Small, open CTF with a huge pool of blood
+			  in the middle of the level.  have fun making 
+			  more blood for the thristy pool. 
+New Textures            : No
+			 
+New Music               : No. wanted to keep the file small
+=================================================================
+Installation instructions
+
+Unzip "CTF-BloodBath" in your UnrealTournament/Maps folder.
+KNOWN Problems: ?  E-mail me if you find any, or just want to talk
+		   about UT.
+
+=================================================================
+Editor used             : UnrealEd 2 (UnrealTournament V4.36)         
+Build Time              : 2 Days (very fast for me)
+
+Copyright / Permissions
+
+-----------------------
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from Jack Gilson to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+----------------------
+Unreal Tournament (c)1998/2000 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.  	

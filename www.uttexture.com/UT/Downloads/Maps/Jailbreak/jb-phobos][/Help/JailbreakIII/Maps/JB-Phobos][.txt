@@ -1,0 +1,148 @@
+JB-Phobos][
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: JB-Phobos][
+
+Author: Cory 'SpoonDog' Spooner
+
+eMail Address: thespoondog@planetunreal.com
+
+Website URL: http://www.planetunreal.com/spoondog/
+
+Release Date: Saturday, July 19, 2003
+
+Version: 1.00
+
+Credits: Thanks to Sexmachine and the JB testers.  Thanks to Inoxx for a coupla of brushes and the leet idea he first created!
+
+Other levels by author: Lots, go look at www.mapraider.com or my website.
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Game: Unreal Tournament
+
+Level Name: JB-Phobos][
+
+Game Type: JailBreak
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Only For Bots
+
+New Textures: No
+
+New Sounds: No
+
+New Music: No
+
+New Mutators: No
+
+Mods: No
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: Original Map
+
+Build Time: Few days
+
+Recommended # of Players: 10-12
+
+Editor(s) Used: UnrealEd, PhotoShop 7.0
+
+====================================================================================
+
+Mods
+
+----
+
+UT JailBreak - The best mod ever.
+
+====================================================================================
+
+Installation
+
+------------
+
+Unzip the map
+
+Store the *.unr file in your Unreal Tournament/Maps directory along with the others
+(see guide below), then either doubleclick on it, or type
+
+open JB-Phobos][
+
+in the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+
+*.unr files go in Maps/
+
+*.utx files go in Textures/
+
+*.umx files go in Music/
+
+*.uax files go in Sounds/
+
+*.u and *.int files go in System/
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+Liandri marvelled when the deserted space station in orbit around phobos moon was prepared for the tournament, they looked on in glee as the battle was on, aboard the Deathmatch arena where a wrong step can be fatal...
+
+While all this was happening, and the 'til now victorious human warrior was battling it out against the dreaded war machines, most were completely unaware of the totally forgotten about space station on the opposite side of the moon, that is... MOST were unaware... all except Liandri, who had already prepared the second space station into a deadly CTF playground, fit to be as chaotic as it's Deathmatch brother.  The arena is ready for play, you have been pre-chosen as a combatant in the facility's debut match, good luck soldier...
+
+
+====================================================================================
+
+Author's Notes
+
+--------------
+
+This map was built from scratch - I tried to recreate the atmosphere and style of play of the original DM-Phobos (lots of Z-axis).  The only things from the original are the "wing" brushes and some other deco brushes, such as the windows, and underneath the space station. Lots of different routes and levels, really fun to play!
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+This level is copyright 2001, by Cory Spooner 'TheSpoonDog'
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================

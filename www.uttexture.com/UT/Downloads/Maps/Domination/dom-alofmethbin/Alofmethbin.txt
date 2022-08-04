@@ -1,0 +1,109 @@
+================================================================
+Title                   :DOM-Alofmethbin
+Version                 :1.6
+Release Date            :01/16/99
+Files	                :DOM-Alofmethbin.UNR
+Unreal Type:		:Unreal Tournament
+Author(s)               :Jennifer Diane Reitz
+Email Address           :lupa@otakuworld.com
+Web Page                :http://Otakuworld.com
+Description             :My Anime and Manga site
+
+Where to get this map   :www.planetunreal.com/nalicity
+Other levels by author  :DM-Escherland][, CTF-SpacePirates, DOM-ModStation5
+
+================================================================
+--- Play Information ---
+Game                    :Unreal Tournament
+Level Name              :The World Of Tiers
+Single Player           :No. Bots are at a TOTAL loss here. Humans ONLY!
+Cooperative             :Definately
+New Sounds              :None
+New Graphics            :None
+NewUnrealScript         :None
+External DLLs           :None
+Known bugs              :Humans only level. Eight unique universes, each with their own
+			 physical laws, utterly alien to each other, connected by a maze
+			 of dimensional gates, and FIVE domination control points. 
+			 Bots? I don't think so. I doubt even the folks at Epic could
+			 make bots work here: this is serious environment time.
+
+--- Construction ---
+Editor(s) used          :Unreal Tournament version UnrealEd
+Construction Time       :Roughly one month.
+Art Programs used	:None 
+
+
+
+Installation
+--------------------------------------------------------------------------------------
+Put DOM-Alofmethbin.UNR in your Unreal Tournament/maps directory
+
+
+
+
+Extended description:
+--------------------------------------
+Based on the brilliant series of Multiple Universe novels by golden age science fiction master 
+Phillip Jose Farmer, 'Alofmethbin' includes far more than just the one pocket universe
+of that name. Included also are the famous 'Lavalite World', 'Urizen's Universe' and 
+even the artificial universe that is Earth.
+
+The story behind all of this is that some 50 millenia in the past, pocket universes were
+manufactured to suit the whims of an untold number of customers. These universes, ruled by
+their immortalized Lords, gradually fell into ruin as their human masters gradually went insane
+from both the power of playing gods, and from the complexities of immortality. Now the Lords
+play deadly games with each other, trying to kill each other off, and risking death in return,
+with the pocket universes themselves as the ultimate prize! 
+
+This Unreal Tournament level is directly based on the 'Tiers' series of books 
+by Philip Jose Farmer:
+
+The World Of Tiers
+A Private Cosmos
+Behind The Walls Of Terra
+The Lavalite World
+More Than Fire
+
+These books have also been collected in collection form by Guild America Books
+with 'More Than Fire' published by Tor
+
+Phillip Jose Farmer is one of the most respected science fiction authors in the world, a contemporary
+of such notables as Issac Asimov and Robert Heinlein. Good luck finding his works, though,
+in an age where 'sci-fi' about 'elves in space' dominates the marketplace. 
+
+
+Author's Notes
+--------------
+There is, as mentioned no attempt whatsoever to even imagine bots working with this level.
+I did try, however, but the process is hopeless. 
+
+In this level there are countless secrets, including an entire hidden universe. Each pocket universe
+is not only vast, but also has unique physics...in some universes the gravity is so strong that stepping
+off a curb will kill, and universes where everything is slippery. There is a universe with a planet
+built like a tower of Babel, and a universe of floating blobs of earth. These are just for starters.
+Amidst the universes are five -rather than the usual three- domination points, and more will be required
+of the player than simply running about blasting away. This is not intended to be a fast frag map,
+and I make no apology for this: there is enough room in the vastenss of Unreal Tournament for a severe
+challenge of tactics. Multiple universes fit that bill.
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Jennifer Diane Reitz, 1999.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

@@ -1,0 +1,74 @@
+Subject: Make Something Unreal Contest Submissions
+   Date: 
+     To: Jacob Robinson <darkviper@xtremenetwork.com>
+Organization: Xtreme Network
+   From: gwierman@pacbell.net
+
+I found a bug in the lower conveyor in my first submission when I tried it on a local net that occurred on clients but not on  the server. Sorry I missed it.  This version corrects the bug and adds some recommendations from friends.
+
+DolgoprudnenskyB.unr  supercedes Dolgoprudnensky.unr
+
+The included UT domination map file is being submitted for the Make Something Unreal Contest to Xtreme Network in order to be presented upon the Xtreme Network website per your instructions.
+
+Title: Dolgoprudnensky  
+Author: Guy "Hemlock" Wierman
+              gwierman@pacbell.net
+
+Size: 3069 KB
+Date: 1/27/00
+Version Compatibility: UT ver 4.02
+Recommended number of players/bots: 6 to 12; 2 to 4 teams
+
+Included files: DOM-Dolgoprudnensky.unr  (map file) (Place in the Ut map folder)
+                       Dolgoprudnensky.txt     (this file)
+I don't think I used any non standard texture or sound files. Please notify me soonest if I missed a file!              
+
+Premise: Five flag Domination with a an attempt to maximize access and interconnection in all three dimensions to each flag area (in lieu of the linear layout; upper, middle, lower, three flag game).
+
+General description:  The map consists of a tower with five rooms, number first floor at bottom, 5th at top. The central tower is surrounded by two conveyor rings.  The lower conveyor ring surrounds the 1st floor. The upper conveyor ring surrounds the 3rd floor. These areas are interconnected in a variety of ways. The 5th floor can be reached from the 1st floor by taking the ramp (slow but you get pickups), using either of two lifts (fast but no pickups), using the personal teleporter to climb the central pillars up through the water areas (most direct and dangerous) or leave a teleporter destination on the ledge above the pillars on the outside edge of the 5th floor and teleport in one jump (fastest and no pickups but escapes immanent danger).
+
+The flags are located on top of the central pillars in room 2 and room 4 and 180 degrees apart on the upper conveyor ring and in the lower conveyor ring room.
+
+Several drop shafts connect the upper conveyor ring to the lower conveyor ring.  They are found in the fire tubs in the upper conveyor ring room.
+
+There are 3 secret areas and 2 semi-secret areas.  Four of these areas are hidden behind one way materials.
+ One of these is behind the red stained glass in the central pillar area between the crossed swords door and the crossed swords flag. Find a HealthPack. 
+One is behind the blue stained glass in the central pillar area between the spiked circle door and the spike circle flag. Find a HealthPack. 
+One is on the 5th floor through the wall between the lamps. Find ammo, armor2 and ShockRifle. 
+One is on 5th floor through demon door then straight on through  slightly off colored wall section at ramp top. Find ammo, armor2 and UT-Eightball (rocket launcher). 
+The last secret area is in the central pillar on the 1st floor. Enter through the water. Find HealthPack.
+
+Inventory: most of this is obvious, I'm detailing so no one looks for what isn't there.
+
+Health:
+90 Health vials: follow the trails
+3 health pack: see secret areas above
+1 med box: on boxes 1st floor
+
+Weapons:
+0 ChainSaw: 
+0 doubleenforcer: 
+1 minigun2: on shelf on outer edge of room 4.
+3 PulseGun: one between barrels on floor in room 1, one on shelf on outer edge of room 4, one under pillar in water just above upper control point flag.
+1 ripper: in lower conveyor ring.
+2 ShockRifle: secret area, see above, one on top of central pillar of room 3.
+2 SniperRifle: one on top of green ring in room 2, one on top of shelf on outer edge of room 4.
+2 ut-biorifle: one on green ring in room 2, one on central pillar in room 1.
+2 UT-Eightball (rocket launcher):  One just under pillar in water above lower control point flag , one in secret area see above.
+1 UT-FlackCannon: lower conveyor ring.
+0 WarheadLauncher (Redeemer): 
+
+Powerups:
+6 ThighPads: 4 on connecting ramp, 1 on top of green ring in room 2, 1 in pool in room 1 
+2 armor2: see secrets above
+2 ut_shieldbelt: 2 on upper conveyor ring 180 degrees apart on the shields.
+0 UT_invisibility: 
+0 ut_jumpboots: 
+
+I would appreciate your thoughts, good or bad. E-mail me at gwierman@pacbell.net   
+
+That's it.  
+
+Thank you,
+
+Guy "Hemlock" Wierman

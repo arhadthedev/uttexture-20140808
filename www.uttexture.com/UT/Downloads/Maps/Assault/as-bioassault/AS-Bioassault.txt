@@ -1,0 +1,60 @@
+=============================================================================
+Title                : Bioassault
+Filename             : AS-Bioassaut (AS-Bioassault.unr, AS-Bioassault.txt, BioAss.utx, Citytex.utx,HmmwvPrefab.utx and Bio.umx)
+Version              : 1.0
+
+Description          : Assault map for Unreal Tournament
+Author               : Tom Beaumont / Grzegorz Kubicki
+Email Address        : wupdeedoo@yahoo.co.uk / gkubicki@hotmail.com
+
+Misc. Author Info    : Previous UT assault level: AS-Escape, AS-Submarinebase , AS-Riverbed, AS-Riverbed][ and AS-WOLF
+                      
+Thanks to            : The WAM staff.
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the .unr to your unrealtournament/maps directory.
+Unzip the BioAss.utx, Citytex.utx and HmmwvPrefab.utx to your unrealtournament/textures directory.
+Unzip the Bio.umx to your unrealtournament/music directory.
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : AS-Bioassault
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : No
+New Music               : Yes, It´s a couple of mods remixed.
+New Graphics            : Some textures, and screenshots
+Ideal Player Load       : 12-14
+ 
+=============================================================================
+
+-=[ Notes ]=-
+
+Botplay should be ok.
+This map was made mainly by EVILTOM but I finished things of at the end makeing some of the geometry
+, music some lighting and bot pathing.
+
+
+-=[ Construction time ]=-
+
+EVILTOM - Way too long and i had to give it to GRZ because i went on my hollidays and he is a great mapper!
+GRZ - Well I think Eviltom made an exellent work on the map geometry, he got a great technique on his mapping.
+
+
+
+Hope you like the music, I think its pretty cool....it fits the map.
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Feel free to do whatever you want with this level, as long
+as you ask us first. 
+
+
+
+

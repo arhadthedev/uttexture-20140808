@@ -1,0 +1,35 @@
+===============================================================================
+JB-Argos
+===============================================================================
+
+(c) 2002 by Matthias [ElBundee] Kath
+
+Jailbreak3-GOLD strongly recommended - get it at www.planetjailbreak.com !
+
+thx to Mychaeel for testing and usefull hints and Hourences for his
+very usefull ambient sound tutorial at
+
+http://www.planetunreal.com/phalanx/hourences/tutorials/tutorial_sound.htm
+
+
+===============================================================================
+Screen
+===============================================================================
+
+(c) 2001 by Mychaeel <mychaeel@planetunreal.com>
+
+http://www.planetunreal.com/screen/
+
+
+===============================================================================
+Copyright/Permissions
+===============================================================================
+
+UNREAL (c) 1998 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+
+===============================================================================
+You may be right - I may be crazy
+===============================================================================

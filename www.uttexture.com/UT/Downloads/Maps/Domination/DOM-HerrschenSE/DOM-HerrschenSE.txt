@@ -1,0 +1,61 @@
+================================================================
+Title                   : DOM-HerrschenSE	
+Version                 : Special Edition
+Release Date            : June 02, 2003
+Filename                : DOM-Dragons.unr
+Author(s)               : Rich "GroundZero" Edwards	
+Email Address           : richinvb@yahoo.com	
+Web Page                : http://members.cox.net/richisinvb
+Description             : Remake of Herrschen.  Changes include better bot support, brush alignment, texture changes
+                          added brushes for better structural architecture as well as floor cover.  Changed CP bases for 
+                          easier communication.  Dramatically increased lighting in the Upper Garret area and corrected 
+                          lighting issues specified in Unreal Playground review.  Thanks to all who offered feedback.
+
+Other levels by author  : DOM-Grayatta, CTF-Watchakatella, DM-ItComes, CTF-BriarHorn DOM-CenterCityView
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament	
+Level Name              : DOM-HerrschenSE
+Number of Players       : 10-20
+Single Player           : Botmatch
+Domination              : Yes
+Deathmatch              : No
+Assault                 : No
+CTF                     : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+Known bugs              : Let me Know!
+New Music               : Adenali.umx
+
+--- Construction ---
+Editor(s) used          : UnrealED 2.0
+Base                    : None
+Construction Time       : Rework time 3 hours
+
+Installation
+------------
+Unzip the .unr file into your Unrealtournament/maps/ directory, the .umx in your Unrealtournament/music/ directory and frag away. Put the readme where you want.
+
+Author's Notes
+--------------
+Thanks to UnrealPlayground HortonsWho for your constructive review, Napalm, Jolt, DagneyT and others who contributed to the playability of this map as well as it's exposure.  Enjoy!!!
+
+Right/Permission
+--------------------
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.  You may not use this level as a base to build new maps.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

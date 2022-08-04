@@ -1,0 +1,44 @@
+James McDaniel <JamesMcDaniel@msn.com> writes:
+
+After a bit of hacking around in the advanced configuration options, I've
+configured Unreal to
+work quite well with my Logitech Cyberman 2. Make these changes to the
+UNREAL.INI file (or
+through the little Advanced Configuration window):
+
+----------
+UNREAL.INI
+----------
+[Engine.Input]
+JoyX=Axis astrafe speed=2
+JoyY=Axis aBaseY speed=2
+JoyZ=
+JoyR=Axis aBaseX speed=2
+JoyU=Axis aLookUp speed=2
+JoyV=
+[WinDrv.WindowsClient]
+ScaleXYZ=1000.000000
+ScaleRUV=1000.000000
+----------
+
+That's all there is to it. Given that Unreal uses DirectInput, it handles
+most (if not all)
+6-degrees-of-freedom controllers "natively", but the default configuration
+(and default
+entries in UNREAL.INI) is for the Assassin or some such controller.
+
+Change the "speed=2" to a lower number, like "speed=1.5", to slow down the
+movement, or to a
+higher number, like "speed=4", to speed up the movement.
+
+I wish Unreal had an easy-to-use option to pick from the most common "3D
+controllers" like the
+Cyberman and SpaceOrb 360.
+
+By the way, does anybody have a complete list of these "Axis aMmmmmm"
+commands?
+
+James McDaniel
+JamesMcDaniel@msn.com
+
+

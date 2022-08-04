@@ -1,0 +1,74 @@
+================================================================
+Title             : DOM-TwoMoons
+Version           : 1.00
+Release Date      : 17th Nov 2000
+Fixes             : None
+Filename          : dom_twomoons.zip
+Author            : Jaspos
+Email Address     : jaspos@planetunreal.com
+Web Page          : www.planetunreal.com/jaspos
+Description       : Mansion . Indoor / Outdoor .
+
+Where to get
+this map          :www.planetunreal.com/jaspos
+                   www.ozunreal.com
+                   via links .
+
+================================================================
+--- Play Information ---
+Level Name           : DOM_TwoMoons
+Single Player        : no
+Deathmatch           : Yes - Change map name to DM-TwoMoons .
+Capture the Flag     : Yes - Change the map name to CTF_TwoMoons
+Domination           : Yes
+Assault              : no
+Difficulty Settings  : no
+New Sounds           : no
+New Graphics         : 2 ' palm ' textures .
+New UnrealScript     : no
+External DLLs        : no
+Known bugs           : Find 'em , let me know so I can deduct wages from the beta crew (:
+
+--- Construction ---
+Editor(s) used       : UnrealEd 2
+
+
+Installation
+------------
+DOM_TwoMoons.unr         : DRIVE:\UnrealTournament\Maps
+
+Author notes
+------------
+Thanks to those who helped fine tune the map .
+
+ Elroy
+ AtticBat 
+ Glimmer2k
+ Fµ®!ØU$
+ Tarot
+ Harmonics
+
+Special thanks to DiaShan for comments , and letting me watch testing online with all beta versions . This helped improve the map a lot . 
+
+There are no switches , or hidden items . 
+Well...I lied . I hid 4 sets of jump boots . Perhaps they wont help the play much , but they are there if you want .
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Jaspos 2000.
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)2000 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

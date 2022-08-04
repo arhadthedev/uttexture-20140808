@@ -1,0 +1,6 @@
+This is just another reminder that the Screen mod is required to run this map.
+
+Screen is a mod that allows map makers to put cool scripted textures in there maps
+Screens - "Imagine the possibilities"
+
+get the screen mod UMOD at "http://www.planetunreal.com/screen"

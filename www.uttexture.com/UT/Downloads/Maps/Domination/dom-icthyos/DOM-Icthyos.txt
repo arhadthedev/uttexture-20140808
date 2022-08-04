@@ -1,0 +1,69 @@
+Chamber of Icthyos (V.1.0)
+
+================================================================
+Title                   : Chamber of Icthyos
+Date                    : March 2001
+Filename                : DOM-Icthyos.zip
+
+Author                  : Andrew Beeken
+Email Address           : Fancyabrew@aol.com OR a_beeken@hotmail.com
+Home Page		: www16.brinkster.com/fancyabrew
+
+Description             : The chamber of Icthyos is a former military
+                          training compound, devised by one of Liandri's
+                          top military strategists. The circular flow of
+                          the compound proved useful for a Domination
+                          style match, and the arena was soon implemented
+                          into the Deathmatch Tournament.
+
+Credits to              : GT, Epic MegaGames, and Ed for assisting me
+                          with my shoddy pathnoding. Cheers mate!
+
+Playtesters             : Ed "Nice Guy Eddie" Duke-Cox
+                          John "Poly" Spence
+
+================================================================
+
+* Build Time *
+
+About 1 week
+                         
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Deathmatch              : No
+Capture the Flag	: No
+Assault			: No
+Domination              : Yes
+Last Man Standing	: No
+
+=================================================================
+
+* Know bugs *
+
+While not really a bug, John and Ed complained about slowdown on their
+machines. While I can understand this on Ed's entry level machine, John
+has a 900Mhz processor and ridiculous ammounts of RAM. This makes no sense
+when the map plays fine on my lowly 450Mhz PIII. Still...
+
+=================================================================
+
+* Installation *
+
+Unzip the map to the /map/ directory within your Unreal Tournament directory
+
+=================================================================
+
+* Other Maps by the Author *
+
+March 2000
+==========
+DOM-Azrael (Nali City score - 7.5/10)
+DM-DeathChurch (N/A)
+
+March 2001
+==========
+DM-Azrael-TOURNEY (N/A)
+DOM-Icthyos (N/A)

@@ -1,0 +1,28 @@
+
+INFO____________________________________________________________________________________
+
+Map Title			: Roman Arena
+File Name			: DOM-Arena.unr
+Author				: Xenon
+				  XenonXe54@hotmail.com
+Version				: 1.00.0005 (27-Jan-2000)
+Map Type			: Domination (DOM)
+Recommended No. of Players	: 4-8
+File Size			: 1.54 MB
+
+COMMENTS/BUGS___________________________________________________________________________
+
+- Simple Map to reach high speed-gameplay
+- Special thanks to Icehawk!
+
+VERSION NOTES___________________________________________________________________________
+
+- 1.00.0003 - I made the lower hallways a little wider and added Enforcers to the 
+              respawnpoints in the Hall
+- 1.00.0004 - Fixed the Zone problems and BSP-Errors from V_1.00.0003. Hope I got them
+              all...
+- 1.00.0005 - Tried to fix the *VERY BAD* illumination of the map. Hope it helped.
+
+(C)OPYRIGHT_____________________________________________________________________________
+
+(C) Copyright 2000 by Xenon: This map (DOM-Arena) is protected by copyright

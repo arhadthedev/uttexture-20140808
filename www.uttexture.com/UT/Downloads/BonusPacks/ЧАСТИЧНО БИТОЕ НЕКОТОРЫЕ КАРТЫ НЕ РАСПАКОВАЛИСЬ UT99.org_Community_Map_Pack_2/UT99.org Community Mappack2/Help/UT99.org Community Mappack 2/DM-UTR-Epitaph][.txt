@@ -1,0 +1,52 @@
+UT99.org
+
+This map was desinged for the UT99.ORG Community Map Pack.
+
+Map & Music DyingTimes: DM-UTR-Epitaph][
+Version : 1.00
+Playercount: 6 - 10 Player
+Author : Rob 'Master Builder' Parker
+Email address : robmasterbuilder@tiscali.co.uk
+Release Date : 22/04/09
+
+
+Special Thanks
+
+Everyone at the UT99 community Creavion, Feralidragon, Shadow, Editor Dave, GenMokai, Sgt Todd, Smeerkat. (No order)
+Sorry If I've forgotten anyone. :-/
+ 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Installation
+------------
+
+ Copy DM-UTR-Epitaph][.unr into UnrealTournament/Maps folder
+ Copy XPickups.u and xpickups.int into UnrealTournament/System folder
+ Copy DC-Pawns3.u, Epitaph_Decor.u, Epitaph_DecorUpdate.u 
+      and Epitaph_Update3.u into UnrealTournament/System folder
+ Copy EpitaphTextures.utx.utx into UnrealTournament/Textures folder
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Other maps by author :
+
+DM-Gothrock
+DM-Ruins
+CTF-Forsaken
+DM-Epitaph
+DM-Missing Link (to be finished)
+DM-Moonlight
+
+Also
+
+Unreal Level Design's Nocturnal Map Pack
+
+These maps can be found on Smeerkats website soon. :-)
+http://www.kens.net/rob.html
+
+Enjoy the map pack.
+
+Rob
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

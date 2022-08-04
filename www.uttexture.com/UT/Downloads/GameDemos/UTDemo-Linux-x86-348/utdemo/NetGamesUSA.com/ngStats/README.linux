@@ -1,0 +1,13 @@
+To make ngStats run properly under linux
+
+1)edit the file 'ngStatsUT' and set the 2 environment
+  variables.
+  'NGHOME' should be the directory that this README file is in 
+  'JAVA' should be the location of the java executable on your system
+         (just type 'which java' to find out if you have it, and where it is)
+         www.blackdown.org has a good version of java for linux.
+
+2)if you have netscape installed, edit the 'spawnBrowser.exe' file
+  and set the value of 'BROWSER' to be the location of your netscape
+  executable.  If you don't have netscape, don't touch this file.
+

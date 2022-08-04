@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>door part 1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000" text="#FF0000" link="#0000FF">
+<H1 align="center">
+  <p align="center"><FONT COLOR="ffff00">THE DOOR<FONT COLOR="FF0000">~</FONT>MOVING 
+    DOOR! </FONT> </p>
+</H1>
+<div align="center"><font color="#33FF00" size="4"><strong>Author: Kick! </strong></font></div>
+<HR align="center">
+<P align="center"> 
+<div align="center"><font size="4"> ok, so you want to know how to make a door 
+  that opens and closes, and with sound huh? <br>
+  Well, let's do just that ok! </font></div>
+<font size="+1"> 
+<P align="center"><font size="4"> I learned everything i know by another tutorials 
+  that i've seen and now i'll put it in my own words.<br>
+  (is that even posible???) </font> 
+<P align="center"><BR>
+<H2 align="center"><font color="FFFF00"> This is a TWO part tutorial: </font></H2>
+<div align="center"><font color="#00FF00">PART 1 - Making The Mover <BR>
+  PART 2 - Adding Sound</font> </div>
+<font color="FFFF00"></font></font> 
+<HR align="center">
+<H2 align="center"><FONT COLOR="FFFF00" size="5"> Overview... </FONT></H2>
+<div align="center"><font size="4"><br>
+  Doors are brushes with textures, moving doors are mover brushes with textures 
+  built into them....... <BR>
+  in a nutshell, moving doors are a textured brush that has been created into 
+  a mover brush! <BR>
+  When you walk up to a door, it opens (makes an opening sound or not), pauses, 
+  then closes (makes a closing sound or not). </font></div>
+<P align="center"> 
+<HR align="center">
+<H2 align="center"><FONT COLOR="FFFF00" size="5"> Asumptions... </FONT></H2>
+<div align="center"><font size="4"> I asume that you know how to make rooms, connect 
+  them, put the lights, player start, zoneinfo into it and compile the map to 
+  be opened in unreal and if not, you need to go get the tutorials for these first 
+  and then come back here...ok...READY.....SET.......HERE WE GO!!!! </font></div>
+<P align="center"> 
+<HR align="center">
+<P align="center"> <font color="#FFFF00" size="5"><strong>PART 1 - MAKING THE 
+  MOVER! </strong></font> 
+<P align="center"> <font size="4">Let's start by opening unrealED and creating 
+  two rooms with the dimentions of 512 x 512 x 512 and connect them with another 
+  room 256 x 256 x 512 "Hight x Width x Depth" and light it, add the playerstart 
+  and zoneinfo's, taxture the walls and hall as you like then compile it! </font> 
+<P align="center"> <font size="4"><BR>
+  <FONT COLOR="FFFF))">It should be like this but with the textures that you've 
+  picked when your done!</FONT></font> 
+<P align="center"> <BR>
+  <IMG HEIGHT="480" WIDTH="640" IMG SRC="dt1.jpg"> 
+<P align="center"> <font size="4"><BR>
+  Ok, now make a square box with the diameters of: 256 x 256 x 16 and texture 
+  it for a door, try something like the "dth_dr" in the door catagory of the Ancient 
+  textures, if there not in the list of textures to the right, then hit the import 
+  button and select the Ancient.utx and import it! <BR>
+  now drag the box you just made into the middle of one of the rooms so it floats 
+  just above the ground </font> 
+<P align="center"> <BR>
+  <FONT COLOR="FFFF00" size="5"> like this.....</FONT> 
+<P align="center"><IMG HEIGHT="350" WIDTH="350" IMG SRC="Box_ctrd.jpg"> 
+<P align="center"> <font size="4">Now, make your brush 272 x 272 x 24 and suround 
+  the door you just made. </font> 
+<P align="center"> <BR>
+  <FONT COLOR="FFFF00" size="5">Like this...</FONT> 
+<P align="center"> <IMG HEIGHT="400" WIDTH="400" IMG SRC="suround.jpg"> 
+<P align="center"><BR>
+<div align="center"><font size="4">Now, these next steps are what counts, if you 
+  do them right then it's a piece of cake! ;-) Go to the Brush menu at the top 
+  and go to "INTERSECT". </font> </div>
+<P align="center"><BR>
+  <IMG HEIGHT="400" WIDTH="400" IMG SRC="intersect.jpg"> 
+<P align="center"> <font size="4">Then </font> 
+<P align="center"><font size="4"> Go to the 3d window and <FONT COLOR="FFFF00">right 
+  click</FONT> on the red wire brush and select "COPY POLYGONS-TO BRUSH". </font> 
+<P align="center"><BR>
+  <IMG HEIGHT="450" WIDTH="550" IMG SRC="Copy_Polys.jpg"> 
+<P align="center"><BR>
+  <font size="4">You now have (if you did it right) a brush you can make a mover 
+  brush out of!<BR>
+  <FONT COLOR="FFFF00">"CONGRADULATIONS!!!!</FONT>... <BR>
+  BUT WE'RE NOT DONE YET! </font> 
+<div align="center"><font size="4">Move the RED brush in front of the door that 
+  you just intersected with and on the left there is a button with a box that 
+  has swirls coming off of it, <IMG HEIGHT="32" WIDTH="32" IMG SRC="Mover_btn.jpg"> 
+  hit this button. You should now see a PURPLE brush,<BR>
+  this is your new mover brush... <FONT COLOR="FFFF00"> (YOUR MOVING DOOR!)</FONT>. 
+  </font><font size="+1"> </font></div>
+<P align="center"><font size="+1"><BR>
+  I know it does not look like a door right now but you won't see the actual door 
+  until your in the map after you compile it! </font> 
+<P align="center"><BR>
+  <IMG HEIGHT="450" WIDTH="550" IMG SRC="New_mover.jpg"> 
+<P align="center"><font size="4"><BR>
+  We are going to save the brush (MOVER THAT YOU'VE JUST MADE) because By exporting 
+  it, you can use it in another map if you want by just importing it back into 
+  the unrealED and use it then, let's save it shall we...... </font> 
+<P align="center"> <font size="4"><BR>
+  Select the purple brush that you've just created and then go to the brush menu 
+  and select : "<FONT COLOR="FFFF00">EXPORT</FONT>", </font> 
+<P align="center"><BR>
+  <IMG HEIGHT="400" WIDTH="500" IMG SRC="export.jpg"> 
+<P align="center"><font size="4"><BR>
+  a dialog box comes up. </font> 
+<P align="center"><BR>
+  <IMG HEIGHT="325 WIDTH="425" IMG SRC="export_diag.jpg"> 
+<P align="center"><BR>
+  <font size="4">Now name it <FONT COLOR="FFFF00">"Door1"</FONT> and hit save! 
+  Now you have it for any other map you want that exact door in, just import it 
+  in to the map that you want and hit the mover button to add it like you did 
+  here!<FONT COLOR="FFFF00"> =)</FONT></font> 
+<P align="center"><font size="4"><BR>
+  position your purple mover brush like this, right click on it and select <FONT COLOR="FFFF00">"Mover 
+  Keyframe-Key1"</FONT></font> 
+<P align="center"><BR>
+  <IMG HEIGHT="475" WIDTH="475" IMG SRC="PositionDoor1.jpg"> 
+<P align="center"><BR>
+  <IMG HEIGHT="475" WIDTH="475" IMG SRC="key1.jpg"> 
+<P align="center"><BR>
+  <font size="4">now it needs to be moved to it's opened position now so move 
+  it into the wall like so <BR>
+  (or the way you want it opened) <BR>
+  and right click it again and select <FONT COLOR="FFFF00">"Mover Keyframe-Key 
+  0 (Base)"</FONT></font> 
+<P align="center"><BR>
+  <IMG HEIGHT="375" WIDTH="475" IMG SRC="key2b.jpg"> 
+<P align="center"><font size="4"><BR>
+  At this point, the mover has re-positioned itself back to the start position 
+  and now is the time to rebuild your map and check out what you've done........ 
+  <BR>
+  What are ya wait'n 4, "GO,GO,GO!!!!"........(<FONT COLOR="FFFF00"> and come 
+  back of course to finish this tut. =) </FONT> ) </font> 
+<p>&nbsp;</p>
+<p align="center"><strong><font size="5"><a href="door-part-2.htm">Go to part 
+  2!</a></font></strong></p>
+</body>
+</html>

@@ -1,0 +1,52 @@
+================================================================
+Title                   :AS-Guardia][
+Version                 :100,000 or so.
+Release Date            :12/8/00
+Filename                :AS-Guardia][, Guardia2.utx
+Author(s)               :Just a SmartAss
+Email Address           :smartass@home.com (when it works)
+Web Page                :
+Description             :Why do you need this, just assault the darn base.
+
+Where to get this map   :This is silly, if your reading this you already know.
+
+Other levels by author  :None, not even this one I stole it. :p
+
+			
+Additional Credits to   :KingKilla|pi8| for being a pain in my ass to get this done. Thanks CliffB for making the original Guardia.
+
+==============================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :Guardia][
+Single Player           :I guess you could but it wouldn't be that much fun.
+Cooperative             :Ummmmmm what do you think.
+Deathmatch              :You could but it would be kinda silly.
+Dark Match              :Dont know what that is, so I guess it's no.
+New Sounds              :ya 1
+New Graphics            :some
+NewUnrealScript         :nope
+External DLLs           :nope
+Known bugs              :The bot suck but I didn't change this map so you could play with yourself. Get online and have some fun.
+
+--- Construction ---
+Editor(s) used          :Ued2
+Base                    :
+Construction Time       :About that long.
+
+Installation
+------------
+AS-Guardia.unr put in your unrealtournament/maps directory
+Guardia.utx put in your unrealtournament/textures directory
+--------------------
+
+
+
+Copyright / Permissions
+-----------------------
+Who knows, this was an oraginal UT map that I ripped off.  
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

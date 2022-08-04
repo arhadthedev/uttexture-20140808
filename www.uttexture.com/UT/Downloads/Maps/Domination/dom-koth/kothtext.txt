@@ -1,0 +1,67 @@
+================================================================
+Title             : DOM-Koth
+Version           : 1.00
+Release Date      : 1-6-2000
+Fixes             : None
+Filename          : dom_koth.zip
+Author            : Jaspos
+Email Address     : jaspos@planetunreal.com
+Web Page          : www.planetunreal.com/jaspos
+Description       : Open / Terrain King of the Hill .
+
+Where to get
+this map          :www.planetunreal.com/jaspos
+                   via links .
+
+================================================================
+--- Play Information ---
+Level Name           : Dom_Koth
+Single Player        : no
+Deathmatch           : Could be . See author notes
+Capture the Flag     : no
+Domination           : Yes
+Assault              : no
+Difficulty Settings  : no
+New Sounds           : no
+New Graphics         : Some palms !
+New UnrealScript     : no
+External DLLs        : no
+Known bugs           : There must be 1 !
+
+--- Construction ---
+Editor(s) used       : UnrealEd
+
+
+Installation
+------------
+dom_koth.unr         : DRIVE:\UnrealTournament\Maps
+kothtex.utx          : DRIVE:\UnrealTournament\Textures
+
+
+Author notes
+------------
+This map is a product of my fiddlings with terra edit . It began as practice terrain , but evolved into Dom_Koth . The map has high poly counts ( 300+) from viewing from some spots , so slower pc's may experience slowdown . My P266 voodoo 3000 128ram pc handles it ok . I understand the debate on high poly counts , and I think I could achieve a similar result with less , but I am really not concerned this time , and as I say , it does run ok on my system . My apologies if you download this map , and are unable to play it . During tests , players made no mention of major slowdown . 
+ Also of note , is that unlike some Dom games , there is 1 control point in Dom_Koth . This is a way I think , to achieve a King of the Hill type game . 
+ Also , also of note , is that you can play Dom_Koth , as a Dm game , by changing the name to Dm_Koth , and then selecting it from the Dm menu in UT . Though , it was completed with Dom in mind .
+
+Thanks to Static , Paul , Dia shan , garF , Shade , browndog , TaroT , RedRaven , Atticbat , and anyone else who helped with testing , and providing input .
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Jaspos 2000.
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)2000 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

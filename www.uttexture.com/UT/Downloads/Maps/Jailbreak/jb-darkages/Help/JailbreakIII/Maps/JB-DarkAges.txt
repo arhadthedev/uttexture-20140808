@@ -1,0 +1,145 @@
+JB-DarkAges
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: JB-DarkAges
+
+Author: Cory 'SpoonDog' Spooner
+
+eMail Address: thespoondog@planetunreal.com
+
+Website URL: http://www.planetunreal.com/spoondog/
+
+Release Date: Saturday, July 19, 2003
+
+Version: 1.00
+
+Credits: Thanks to Sexmachine and the JB testers.
+
+Other levels by author: Lots, go look at www.mapraider.com or my website.
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Game: Unreal Tournament
+
+Level Name: JB-DarkAges
+
+Game Type: JailBreak
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Only For Bots
+
+New Textures: No
+
+New Sounds: No
+
+New Music: No
+
+New Mutators: No
+
+Mods: No
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: Original Map
+
+Build Time: Few days
+
+Recommended # of Players: 10-12
+
+Editor(s) Used: UnrealEd, PhotoShop 7.0
+
+====================================================================================
+
+Mods
+
+----
+
+UT JailBreak - The best mod ever.
+
+====================================================================================
+
+Installation
+
+------------
+
+Unzip the map
+
+Store the *.unr file in your Unreal Tournament/Maps directory along with the others
+(see guide below), then either doubleclick on it, or type
+
+open JB-DarkAges
+
+in the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+
+*.unr files go in Maps/
+
+*.utx files go in Textures/
+
+*.umx files go in Music/
+
+*.uax files go in Sounds/
+
+*.u and *.int files go in System/
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+Outdoor map set in a secluded valley. Red base is an ancient/gothic castle where the Blue base is a slightly more modern fortress. Plays nicely with high player-loads.
+
+====================================================================================
+
+Author's Notes
+
+--------------
+
+Tried my hardest to balance this map - there may be some advantages for one team but the other team will have some advantage to make up for it.
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+This level is copyright 2001, by Cory Spooner 'TheSpoonDog'
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================

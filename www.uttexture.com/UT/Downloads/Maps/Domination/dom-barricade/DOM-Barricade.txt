@@ -1,0 +1,99 @@
+================================================================
+Title                   : DOM-Barricade
+Version                 : 1.0
+Release Date            : February 2, 2000
+Filename                : DOM-Barricade.unr
+Author                  : The original DM-Barricade by Cliff Bleszinski was
+                          modified by Neil Weber 'Dufusyte' for Domination (DOM-Barricade)
+Email Address           : dufusyte@yahoo.com
+Web Page                : http://www.crosswinds.net/princeton/~nweber
+Description             : DM-Barricade made into a Domination Map
+Where to get this map   : Try http://www.planetunreal.com/nalicity or 
+                          http://www.fileplanet.com for all your UT map needs.
+
+===============================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : Orion's Barricade (DOM)
+Deathmatch              : No
+Domination              : Yes
+Assault                 : No
+Capture the Flag        : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd
+Base                    : DM-Barricade.unr
+Construction Time       : Modified a previous level, so editing time was only a few days.
+Other maps by Dufusyte  :   DOM-Face = a modified version of Facing Worlds for Domination.
+                            DOM-Deck16][ = a modified version of Deck16][ for Domination.
+                            DOM-Conveyor = a modified version of DM-Conveyor for Domination.
+
+Installation
+------------
+   Unzip the the files.  DOM-Barricade.unr goes in the "Maps" directory.
+
+Author's Notes
+--------------
+Many DM maps can be converted to Domination with just a few tweaks.  
+I chose to convert DM-Barricade because the soaring towers are a 
+dream for the translocator and should be lots of fun for Domination 
+players who love mobility.  DOM-Barricade really shines as a Domination map 
+because the translocator is enabled by default, and you can just fly 
+from parapet to parapet.  Also, the Control Points give the map focus: DM-Barricade
+is a very large map, and the Control Points really pull the map together.
+The map is large, but the fighting spaces are tight, so you always seem 
+to be duking it out at close quarters.  Beware of ghosts: the castle is 
+haunted with two invisibility power-ups!
+
+The Control Points cater to three different playing styles: 
+
+- The Control Point in the "Cellar" room is fairly defensible, and players who 
+like to sit and defend will enjoy guarding this point.  Nevertheless, it is not
+a slow paced Point, since there are many respawns nearby, so enemies keep 
+arriving.  Your best bet on defense is to grab the ASMD and stay loaded with 
+the shock cores up above.
+
+- The Control Point on top of the "Tower" is for players who have mastered 
+precise mobility; they will enjoy the thrill of translocating from tower 
+to tower, duking it out with their enemies high above the ground.  Grab the 
+ripper at the base of the tower and you can bounce your enemies off the 
+tower using alt-fire.  If you have mastered the art of the "double-translocation," 
+you can get from the ground (courtyard) up to the top of the tower with this 
+move.  It comes in very handy on this map: shoot the translocator up, and 
+when it is at its peak, hit "jump" and immediately translocate to it and 
+shoot the translocator again over the tower and translocate to it again.  
+Good luck.
+
+- The Control Point at the "Courtyard" is the main focus of contention.  
+This Control Point switches hands the most, and players who like fast 
+paced action will enjoy fighting around this Control Point.  It is like 
+a small rocket arena.  Grab the ASMD on the castle wall and hide in 
+the shadows to combo anyone who comes near.
+
+Changes
+-------
+
+Changes from the DM-Barricade version:
+
+1.  Added Control Points.
+2.  Tweaked bot paths for Domination gameplay.
+3.  Rearranged PlayerStarts.
+4.  Rearranged weapons & ammo & items for Domination gameplay.
+5.  Changed a ZoneInfo location description.
+
+
+Copyright / Permissions
+-----------------------
+Since this is merely a modification of a map that shipped with the retail UT, 
+all bets are off on the Permissions; query Epic Megagames.
+
+----------------------
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

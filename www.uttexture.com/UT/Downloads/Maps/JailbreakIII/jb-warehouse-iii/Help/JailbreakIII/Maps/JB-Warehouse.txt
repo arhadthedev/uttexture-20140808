@@ -1,0 +1,46 @@
+Unreal JB Map
+
+================================================================
+Title                   : Warehouse
+Version                 : Release 1.0
+Release Date            : 2/20/02
+Filename                : JB-Warehouse-III.unr
+Author                  : Bill 'DireIce' Hamilton
+Email Address           : Zone@Battlezinc.com
+Web Page                : http://www.battlezinc.com/utmaps
+
+
+Description             : Original JB map with a warehouse motif.
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : JB Warehouse (JB-Warehouse-III.unr)             
+
+Game Type               : JailBreak
+Single Player           : Yes
+Multiplayer             : Yes
+New Sounds              : No
+New Graphics            : No
+JB Arena		: Yes
+JB Custom Death		: Yes
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : Modification/Conversion
+
+
+Installation
+------------
+   Unzip the file JB-Warehouse-III.unr into your UnrealTournament\maps directory.
+
+You can then choose JB-Warehouse-III from the "start practice session\JB" menu. 
+
+
+Copyright / Permissions
+-----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

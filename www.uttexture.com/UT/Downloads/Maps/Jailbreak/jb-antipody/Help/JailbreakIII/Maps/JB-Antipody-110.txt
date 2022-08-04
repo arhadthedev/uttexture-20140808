@@ -1,0 +1,169 @@
+JB-Antipody-110
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: JB-Antipody-110
+
+Filename: jb-antipody-110.zip
+
+Author: Cory Spooner - 'TheSpoonDog'
+
+eMail Address: thespoondog@hotmail.com
+
+Website URL: http://unreal.thespoondog.com
+
+Release Date: Sunday, June 24, 2001
+
+Last Update: Sunday, June 24, 2001
+
+Version: 1.10
+
+Credits: Big thanks to KrazyK, Snow, Daikiki, Thoth, Chez, Jared, Bear, and everyone else who tested the beta for me!
+
+Other levels by author: DM-Nerds, DM-BeakersTemple, DM-Toastbeast, DM-Mitsubishi, CTF-Fetid, DOM-Blackmusk, CTFM-Cryptitan, CTFM-Aquamid, CTFM-Obsession, CTFM-Morpheus, DM-Yoda, DM-Glare, JB-Hydro16, DM-Stealth, CTF-Antipody.
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Game: Unreal Tournament
+
+Level Name: JB-Antipody-110
+
+Game Type: UTOther
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Only For Bots
+
+New Textures: No
+
+New Sounds: No
+
+New Music: Yes
+
+New Mutators: Yes
+
+Mods: Yes
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: Original Map
+
+Build Time: hmm has taken me at least a couple of months I spose with gradual work.
+
+Recommended # of Players: 10-16
+
+Editor(s) Used: UnrealEd, Adobe Photoshop 5.0
+
+Known Bugs: Uh, I haven't pathed the bots to get the redeemer, invisibility or damage amp because they are in hard to find places and they require a timed transloc or impact jump to get there - besides I wouldn't have been able to get them to do it right anyway!
+
+====================================================================================
+
+Inventory
+
+---------
+
+Weapons: Enhanced Shock Rifle, Flak Cannon, Ripper, Sniper Rifle, Enforcer, Pulse Blaster, Minigun, ASMD Shock Rifle, Rocket Launcher
+
+Armor and PowerUps: Translocator, Thigh Pads, Invisibility, Health Packs, Shield Belt, Anti Grav Boots, Health Vials, Damage Amplifier, Armor, Keg O' Health
+
+====================================================================================
+
+Mods
+
+----
+
+UTJailBreak
+
+The mod is JailBreak for UT (UTJB) courtesy of Daikiki http://www.daikiki.com 
+
+The mutator is the Screen Mutator courtesy of Mychaeel
+http://www.0x01.net/members/mb/screen/ which allows map surveillance screens and live web content to be viewed in UT.
+
+====================================================================================
+
+Installation
+
+------------
+
+Unzip jb-antipody-110.zip
+
+Store the *.unr file in your Unreal Tournament/Maps directory along with the others (see guide below), then either doubleclick on it, or type
+
+open JB-Antipody-110
+
+in the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+
+*.unr files go in Maps/
+
+*.utx files go in Textures/
+
+*.umx files go in Music/
+
+*.uax files go in Sounds/
+
+*.u and *.int files go in System/
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+After the destruction of the Facing Worlds Asteroid Liandri, under Xan Kreigor's command, started the grueling search for another set of ruins that were appropriate for the Tournament JailBreak. After only one week, Liandri's main combat ship, Oblivion, was reported crashed. The head command ship homed in on the locator beacon and stumbled upon a miracle. There lied the crumbling ruins of the Antipodean Worlds. Xan, without so much as a grunt, gave approval for adopting these ruins as
+his next Tournament venue... 
+
+After much modification and blasting, the ultimate JailBreak battleground was ready - not only was this an appropriate replacement for Facing Worlds, but it brought with it an entirely new game - requiring more tactics than before - there would be no hiding on this asteroid, Xan would make sure, and YOU will find out....
+
+====================================================================================
+
+Author's Notes
+
+--------------
+
+This map has been bloody annoying to say the least! I should have known really - the construction isn't the tidiest and I ran into A LOT of BSP holes and framerate problems - nevertheless I have it finished! This map is actually made specifically for JailBreak, but I thought it would be nice as a CTF aswell :)
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+This level is copyright 2001, by Cory Spooner - 'TheSpoonDog'
+
+Authors may NOT use this level as a base to build additional levels without explicit permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp), FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are properties of their respective owners.
+
+====================================================================================
+
+====================================================================================
+
+ReadMe Template generated by UTReadMeTemplate.cgi
+
+created by Fuzzbuster{G3} <fuzzbuster@planetunreal.com> for NaliCity
+
+Please e-mail me any suggestions or improvements you may have.. my ears are open
+
+Store this file in '/UnrealTournament/Help/' for best results. 

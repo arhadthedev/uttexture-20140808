@@ -1,0 +1,78 @@
+                    
+CTF4-Acrophobia
+~~~~~~~~~~~~
+File			: CTF4-Acrophobia.zip
+Author			: Maarten "Eagle" Tops
+Email			: Eagle@Veldhoven.every1.net
+Released		: 18-12-2000
+
+
+Play Info
+~~~~~~~~~~~~~~~~
+Single Player (Botmatch): Yes    
+Cooperative             : Yes    
+Deathmatch              : No
+Capture The Flag	: Yes
+Assualt			: No
+Domination		: No
+New textures		: ctf4team.utx
+New music		: bodyhammer.umx (Fear Factory - Bodyhammer)
+Known Problems		: The bots sometimes get stuck between two pathnodes on a ramp behind a base.
+			  When the bots have a flag, they always use the boats to get back to the base.
+
+
+Play Info
+~~~~~~~~~~~~~~~~
+Editor used		: UnrealED 2.0
+Build Time         	: far too long...
+
+Installation
+~~~~~~~~~~~~~~~~
+Place the CTF4-Acrophobia.unr file in your \UnrealTournament\maps directory.
+Place the bodyhammer.umx file in your \UnrealTournament\music directory.
+Place the jumppad.u file in your \UnrealTournament\system directory.
+
+I assume you have CTF4 and the CTF4 textures installed. If this is not the case, visit http://www.uncommonplace.com/games to get them!
+
+
+Author's Notes
+~~~~~~~~~~~~~~~~
+Hi there! Here it is... The newest CTF4 map. It's theme is set in a big tower. There are three routes to an enemy base, including one with moving platforms. I've spent a lot of time on this one to make everything perfect. I hope you like it.
+
+
+Other Maps by Author
+~~~~~~~~~~~~~~~~~~~~
+DM-LavaPyramid
+DM-LegoDisco
+CTF-Moden
+CTF4-Lego4Ever
+CTF4-DiamondSword
+CTF4-Scandinavium
+CTF4-Meltdown (unreleased)
+CTF4-Backfire (unreleased)
+
+Credits
+~~~~~~~~~~~~~~~~~~~
+Epic Games - For the great editor
+Bram "Hawk" Tops - For his great ideas
+John Paul 'Decker' Jones - The 'boat' idea from CTF-Noonraid
+My friends at UT Booty and UT Unlimited - For all their support
+You - For reading this!
+
+
+Copyright/Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You may distribute this map via electronic means, providing that it is done so free
+of charge and that this text file is also included unchanged.
+
+You may not include or distribute this map in any sort of commercial or non-comercial
+product without permission from the author.  You may not mass distribute this level
+via any non-electronic means, including but not limited to compact disks, and floppy disks.
+This map may not be used, in whole or in part, as the basis of another map, without the
+author's permission.
+
+All other trademarks acknowledged.
+
+
+        
+

@@ -1,0 +1,120 @@
+#================================================================
+#=                  T E R R A I N (UT Assault version)
+#================================================================
+Title                   : Terrain (UT Assault)
+Version                 : Infiltration AS-Terrain Build 029
+Release Date            : None yet until Infiltration 3.0
+Filename                : AS-Terrain.unr
+Author(s)               : Bastard'O aka Mike Young
+Email Address           : mike.y@zetnet.co.uk
+Web Page                : http://www.planetunreal.com/realworld/
+Description             : Unreal Tournament Assault mode level
+Where to get this map   : http://www.planetunreal.com/realworld/terrain.html
+Other levels by author  : DMChurch220408, DMHillBase, DMSubBase, BridgeTooFar
+
+Additional Credits to   : Chris Robbers for his excellent Infiltration Unreal mod.
+                          Warren T. for his excellent real world models.
+
+                          http://www.planetunreal.com/infiltration/
+			  
+#================================================================
+#--- Level plot & some hints ---
+
+Plot
+Intelligence services report that they have located the stolen state-of-the-art plasma
+fuel consignment that needs to be destroyed so it can't be sold to the highest bidder.
+A special service team has been sent to intercept the consignment.
+The timetable and route of the train was known so an ambush was set, the
+track was destroyed at the ambush point forcing the train to stop.
+
+
+Mission
+To destroy all mission objectives and destory all evidence taking no prisoners.
+
+Deployment
+Because of the hostile barren terrain, the special service team had to be dropped off
+with their equipment at different locations surrounding the train.
+
+Intelligence report
+It is known that the train is defended by a special weapon housed on the second 
+carriage so beware.
+
+Hints
+
+The plasma fuel itself is very explosive so Intelligence advises the use of genades
+to destroy all targets.
+
+For the three CRM movers stand just behind them a message will appear saying that
+you now control the weapon, then standing still use your controls for the left/right
+up/down movement to control where the weapon will fire, all weapons have alt and primary
+firing, hope you like the Rocket.
+
+The train has three ladders (invisible steps) to get up to various parts of it, hope you
+can find them.
+
+#================================================================
+#--- Play Information ---
+Game                    : UT
+Version                 : Any
+Level Name              : AS-Terrain
+Mod necessary           : yes, UT Infiltration 2.7+ (not included in zip)
+                          yes, UT NBSpecials, NBCRM (Beppo mods)
+Single Player           : no
+Cooperative             : no
+Deathmatch              : no
+TeamPlay		: no
+Assault			: yes
+Dark Match              : no
+Difficulty Settings     : no
+New Sounds              : no
+New Graphics            : yes NWorld.utx (not included in zip)
+                              rwTP_A.utx (included in zip)
+NewUnrealScript         : yes realworld.u - StingerRocket projectile (included in zip)
+External DLLs           : none
+Known bugs              : None that I know of...
+
+#================================================================
+#--- Construction ---
+Editor(s) used          : UnrealEd
+Base                    : none, from scratch
+Construction Time       : Unknown seemed a very long time :)
+
+Installation
+#------------
+
+unr go in unreal/maps
+utx go in unreal/textures
+int & u go in unreal/system
+
+
+NOTES:
+#------
+Please reuse any brushes you find and like within the level, if you do please 
+e-mail me a 640x480 jpg file of the brush as used plus the t3d, I will then add
+the image and file to my unreal brush pages for others to use as well.
+
+
+#================================================================
+Copyright / Permissions
+#-----------------------
+Authors may not NOT use this level as a base to build additional levels, without
+prior permission and appropriate credits applied.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+
+#================================================================
+#----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+#----------------------
+#- End of text file
+#----------------------

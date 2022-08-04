@@ -1,0 +1,50 @@
+================================================================
+Title                   : CTFM-Morpheus - Morpheus
+                          
+Author                  : Thespoondog 
+
+Date                    : 20 March 2001 
+
+Filename                : CTFM-Morpheus.zip
+
+File contents           : CTFM-Morpheus.unr
+			: CTFM-Morpheus.txt
+			
+Email Address           : thespoondog@hotmail.com
+Home Page		: http://www.unreal.thespoondog.com
+Description             : UT Multi-Capture the flag level.  A 			  conversion of the original DM-Morpheus by 			  Dave Ewing, large pretty level in space which 			  is awesome to play on!
+================================================================
+
+Play Information	
+
+Single Player           : Of Course!  What kind of a mapper doesnt 			  allow for bots?
+Deathmatch              : Nope
+Recommended No. Players : 12-16 
+
+Comments		: When I first started playing UT, I loved 			  DM-Morpheus (hell, who didnt?) and I thought 			  a CTFM version of this, properly constructed 			  would be absolutely mean.
+=================================================================
+
+Installation instructions
+
+Unzip: CTFM-Morpheus.unr file into your UnrealTournament\Maps folder.
+       
+KNOWN Problems:  People who dont like this level are the problem.
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd 2.0        
+
+Build Time              : A While.
+
+===================================================================
+Other maps by Author:	DM-BeakersTemple, CTF-Fetid][, DOM-BlackMusk,
+			DM-Nerds, DM-Mitsubishi, CTFM-Cryptitan, 			DM-ToastBeast, DM-Stealth, DM-Yoda,  				CTFM-Aquamid, CTFM-Obsession.
+
+=====================================================================
+(C) Copyright 2001 Cory Spooner
+
+You may distribute this map any way you like, providing that it is done so free
+of charge and that this text file is also included unchanged. Magazine coverdisks,
+etc. are okay too.  Hell play it on the net! (which is cool by the way)

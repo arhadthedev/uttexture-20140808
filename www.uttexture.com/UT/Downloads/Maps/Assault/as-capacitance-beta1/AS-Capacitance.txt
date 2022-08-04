@@ -1,0 +1,67 @@
+================================================================
+Title                   :AS-Capacitance 
+Version                 :Beta 1
+Release Date            :10/7/06
+Filename                :AS-Capacitance-Beta1.unr
+Author(s)               :Chris "Noss" Norval
+Email Address           :nos4488@gmail.com
+Web Page                : - 
+Additional Credits to   :The HaK guys, especially html and Sonic, everyone at Unrealplayground who helped me with
+			:all the small problems I've ever crossed, and everyone who ever helped my mapping progress
+			:in the past. I never thought I'd ever release this map, but thanks to everyone who gave
+			:me a reason to.
+
+================================================================
+--- Play Information ---
+Game                    :Unreal Tournament
+Level Name              :Capacitance
+Single Player           :no
+Cooperative             :yes
+Deathmatch              :no
+Dark Match              :no
+Difficulty Settings     :-
+New Sounds              :no
+New Graphics            :yes
+NewUnrealScript         :no
+External DLLs           :no
+Known bugs              :The ending sequence has not been set up yet, and the dynamite in the first encounter
+			:will give more of a destructive sequence to the underground area.
+
+--- Construction ---
+Editor(s) used          :Ued 2
+Base                    :
+Construction Time       :Too long
+
+
+Installation
+------------
+put it in your unrealtournament/maps directory
+
+Extended description: a short assult map with variable objecctives and hopefully smooth gameplay.
+--------------------
+
+
+Author's Notes
+--------------
+the map plays best with more than 10 people
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Chris Norval 2006.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

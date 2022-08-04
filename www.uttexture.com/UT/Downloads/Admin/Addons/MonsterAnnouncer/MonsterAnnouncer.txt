@@ -1,0 +1,23 @@
+Monster Announcer 1.0 by TNSe
+
+This serverside mod will announce for the rest of the server when a player makes
+a multikill (double, multi, ultra & monster).
+
+To install, simply copy the .u file to the system dir,
+and add this line to your server .ini file under [Engine.Engine]:
+
+  ServerActors=MonsterAnnouncer.MA_ServerActor
+
+The only configuration you can do, is which level the announcing should start at.
+Inside the server .ini file, you can find the following (It will be added first time you run the mod)
+
+[MonsterAnnouncer.MA_ServerActor]
+AnnounceLevel=1
+
+The numbers are used for when announcing starts.
+1 = Announcing starts at double kill
+2 = Multi kill
+3 = Ultra kill
+4 = Monster kill.
+
+Have fun.

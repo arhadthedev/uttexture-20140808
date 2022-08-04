@@ -1,0 +1,973 @@
+<html>
+<title>MapVote Version 3.02 ReadMe</title>
+<body bgcolor=#000000 text=#FFFFFF link="#7070FF" VLINK="#A0A0FF" ALINK="#FF0000">
+<table border=0>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Title</font></td><td bgcolor=#404040>Map-Vote 3</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Game</font></td><td bgcolor=#404040>Unreal Tournament</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Version</font></td><td bgcolor=#404040>3.02</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Release Date</font></td><td bgcolor=#404040>5/4/2002</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Filenames</font></td><td bgcolor=#404040>BDBMapVote302.u, BDBMapVote302.int, BDBMapVote302.u.uz , MapVoteHistoryX16.u, ServerInfo.u, ServerInfo.htm</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Author</font></td><td bgcolor=#404040>Bruce Bickar aka BDB</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Email Address</font></td><td bgcolor=#404040>
+Please check my <a href="http://forums.beyondunreal.com/forumdisplay.php?s=bbff0c71adb76a16960a2196267627f3&forumid=32">
+Message Board
+</a>
+and the 
+<a href="http://www.planetunreal.com/BDBUnreal/MapVoteTrouble.htm">
+trouble shooting guide  
+</a> before emailing me.<br>
+I get way too many emails asking the same questions over and over. Thanks<br>
+<a href="mailto:BDB@planetunreal.com">BDB@planetunreal.com</a> 
+</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Web Page</font></td><td bgcolor=#404040><a href="http://www.planetunreal.com/BDBUnreal">http://www.planetunreal.com/BDBUnreal</a></td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Description</font></td><td bgcolor=#404040>This mutator allows players to control what maps are played on a server through voting.</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow><b>Features</b></font></td>
+<td bgcolor=#404040><pre>
+- Graphical user interface. At the end of each game a Voting Window will pop up automatically,
+  so no key binding is required and there are no console commands to remember.
+  
+- Screen-Shot preview. When a map is selected a screen-shot (picture) of the map will be displayed 
+  along with information about the map such as the author and the recommended number of players. 
+  If the player doesn't have the selected map file on their computer then it will indicate that 
+  downloading is required.
+  
+- Mid game map change option. The players can vote for a map at any time during the course of the 
+  game. If the required percentage of players place votes a Mid-Game vote will be initiated and all
+  of the players voting windows will be opened. They will have a limited time to vote.
+  
+- Players can configure a keyboard key that can be used at any time during the game to open the 
+  voting window. This is not required because the voting window can/will automatically open it 
+  self at the end of each game. But if the players want to take advantage of the player kick voting
+  or the early map voting features then this would be required. Also, the key configuration does not
+  require any console commands or opening of the preferences menu. This key configuration is built 
+  in to the voting window which makes it much easier to do. It also will work with-out a Mod Menu 
+  INT file, this is important because INT files are not automatically downloaded from the server in 
+  network play and Mod Menu configuration windows require an INT file.
+  
+- A KeyBinder window will automatically pop-up when a player joins to the server. This KeyBinder 
+  will allow the player to select a keyboard key by pressing the key and then clicking the 
+  "Set/Save" button. If a player joins a server and already has a key bound the window will pop up
+  and remind him/her what the hot-key is and the close it self after 4 seconds. They can also 
+  prevent the keybinder from poping up.
+  
+- Tie breaker feature. Each player can only vote for one map. If all of the players vote the votes
+  will be counted and the map with the highest vote count will win. If there is a tie, then a map 
+  will be choosen at random from the maps that tied for first place. 
+  
+- Player Kick feature. Players can place "kick" votes against other players. If the percentage of
+  players that vote against a particular player reaches the configurable kick requirement 
+  percentage then that player will be disconnected from the server. If the kicked player reconnects
+  to the server during the same game that he was kicked from, he/she will be re-kicked automatically.
+  To clairify, This kick/ban only lasts until the end of the current game, or until the map is 
+  changed. Note: The server administrator can not be kicked. Also, kick votes are tracked by 
+  PlayerID and not name so changing names will not affect it.  
+  
+- Remote dedicated server configuration window, which can be used by remote administrators to 
+   configure Map-Vote. There are no console configuration commands to look up and remember.
+  
+- Works with all games types. The server administrator can configure which types of maps will be 
+  loaded in to the map voting list. The following Map types can be turned on or off:
+  - Auto Detect - Automatically detects the game type that the server was started with.
+  - Death Match (DM)
+  - Team Death Match (DM)
+  - Last Man Standing (DM)
+  - Assault (AS)
+  - Capture The Flag (CTF)
+  - Domination (DOM)
+  - Other Game Type - This is a configurable game type. It can be used for Mods like Rocket-Arena,
+    Tactical-Ops, Strike-Force and any other mod. (It has only been tested with Rocket-Arena 
+    ,Tactical Ops, Strike-Force, and Unreal Fortress)
+    
+- Configurable message expiration time. Players can use this feature to change the amount of time
+  that messages remain on their HUD/screen. This is good for people who can't speed read messages
+  in 3 seconds.
+  
+- Voting status. The main window displays a list of maps that were voted for and the amount of 
+  votes for each. It also shows player names that were had kick votes cast against them.
+  You can now click the name of a map or player and it will select that map in the map list.
+  
+- Configurable End-Game voting time limit. At the end of a game the players have a set about of 
+  time to place their votes. If all players have not voted with in this time limit then a map 
+  change will be forced.
+  
+- MapVoteHistory - MapVote now keeps track of all winning maps and supplies a report that shows 
+  how many times each map has been played. Note: running the report take a bit of time. It was 
+  made to be slow on pupose to avoid adding lag to the server.
+  
+- Welcome Window - MapVote now has an optional welcome window the will open up when a player 
+  joins the server. This welcome window can be used to communicate server specific information
+  , schedules, rules, etc. Note: it requires an HTTP web server. (more details below)
+  
+- New Modes: MapVote now has 4 voting modes: 
+  1. Majority - Each player gets to place 1 vote and the map with the most votes wins.
+  2. Elimination - Maps are removed from the list until there are only X number of maps left.
+  3. Accumulation - If the map that a player has voted for does not win that vote is carried 
+     to the next game.
+  4. Score - Player scores are used as the ammount of votes placed. So basically, the top 
+     players get choose the map.
+  
+- Configurable No Repeat limit - You can now configure MapVote to remove the last X number 
+  of maps that have been played. X being some number.
+</pre></td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Requirements</font></td><td bgcolor=#404040>Required version 413 or better of Unreal Tournament. (This include the players as well as the server)</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Installation Instruction</font></td> 
+<td bgcolor=#404040>
+<ol><li>Place BDBMapVote302.int in the \UnrealTournament\System directory.</li>
+    <li>Place BDBMapVote302.u in the \UnrealTournament\System directory.</li>
+    <li><font color=yellow>***Note: this if very important, it will not work without this.</font><br>
+    Add "ServerPackages=BDBMapVote302" to the \UnrealTournament\system\UnrealTournament.ini file under 
+    the "[Engine.GameEngine]" section.</li>
+</ol>               
+<u><b>Other files:</b></u><br>
+<ul>
+<li>BDBMapVote302.u.uz - this is the compressed version for servers that have redirected downloads enabled.</li>
+<li>ServerInfo.htm   - this is an example server information file for the Welcome Window</li>
+</ul>
+
+<u><b>Upgrading from 3.00 or 3.01 to 3.02</b></u>
+To Keep you existing MapVote configuration settings follow these steps: 
+<pre>
+Server.bat - change mutator=BDBMapVote3.BDBMapVote3 to BDBMapVote302.BDBMapVote
+
+UnrealTournament.ini - change "[BDBMapVote3.BDBMapVote3]" to "[BDBMapVote302.BDBMapVote]"
+                     - change "MapVoteHistoryType=BDBMapVote3.MapVoteHistory1" to
+                              "MapVoteHistoryType=BDBMapVote302.MapVoteHistory1"
+                     
+MapVoteHistory1.ini - Change [BDBMapVote3.MapVoteHistory1] to
+                             [BDBMapVote302.MapVoteHistory1]
+</pre>
+</td></tr>
+<tr><td valign=top bgcolor=#404040><font color=yellow>Server Setup</font></td>
+<td bgcolor=#404040>
+<ol><li>Set the settings that you want for each game type using the normal UT menus or edit the UnrealTournament.ini file.</li>
+    <li>For example set the number of frags in deathmatch before the match ends and then change to CTF and change the number of flag capture's before the match ends.
+       Close the Multiplayer window to save the settings.</li>
+    <li>Select any mutators that you want plus the "Map-Vote" mutator.</li>
+    <li>Start the game. (see dedicated server setup below for dedicated servers)</li>
+</ol>
+</td></tr>
+<tr><td rowspan=5 valign=top bgcolor=#404040><font color=yellow>Configuration</font></td>
+<td bgcolor=#404040>There are two ways to configure Map Vote on a server.
+                Configuration Methods: (choose one and only one) 
+                Note: There is No MOD menu configuration menu with version 3.
+<tr><td bgcolor=#404040>A. 
+<ol>
+<li>Open the UnrealTournament.ini file, located in the \UnrealTournament\System directory, with any text editor.</li>
+<li>Modify the values for each configuration setting.</li>
+</ol>
+</td></tr>
+<tr><td bgcolor=#404040>
+Example UnrealTournament.ini file contents (Note: do not add this to your ini file):<br>
+<pre>-----------------------------------------
+[BDBMapVote302.BDBMapVote]
+bAutoDetect=True          <= used this to automatically set the gametype to what ever gametype the server was 
+                             started with
+bDM=False                 <= Load DeathMatch maps only
+bLMS=False                <= Load Last Man Standing Maps  (DM-* , shows in list as LMS-*)
+bTDM=False                <= Load Team Death Match Maps 
+bDOM=False                <= Load Domination maps
+bCTF=False                <= Load CTF maps
+bAS=False                 <= Load Assault Maps
+bOther=False              <= Load the specified Custom MOD (use this for Mods like RocketArena, UnF, etc...
+OtherClass=               <= This would be the Package name and the Class name of the MOD. 
+                             Example "SFGame.SFDM" for StrikeForce.
+PreFixSwap=               <= This can be used to change the way the map names show for the OtherGame type.
+                             This swapps the map name prefix of the maps to this value.
+bSortWithPreFix=True      <= Set to True to sort the map list with the mapname prefix (this is faster) or
+                             Set to False to sort the map list with out the mapname prefix (much slower loading).
+VoteTimeLimit=50          <= Number of seconds to allow for voting at the end of the game. 
+                             After this time is expired a map switch is forced.
+KickPercent=51            <= The percentage of Player votes that are required to kick someone
+bUseMapList=False         <= If True it will use the default MapList for the gametype to load the map names from, 
+                             if False it will load all maps for the game type
+ScoreBoardDelay=6         <= Number of seconds to show the Score board at the end of the game before opening 
+                             the mapvote windows
+bAutoOpen=True            <= if True it will automatically open the MapVote windows at the end of the game. 
+                             If false the server will just travel to the next map in the cycle
+bKickVote=True            <= If true players can place votes against other players to kick them
+bCheckOtherGameTie=True   <= For MODs there is no way for MapVote to know if there can be Sudden Death Overtime 
+                             when there is a tie game. If there is a tie and the game goes into Overtime MapVote
+                             might think it is the end of the game and open the windows. 
+RepeatLimit=4             <= This will cause MapVote to disable (shows in red) the last 4 maps that were played 
+                             from the list of maps that you can vote for.
+MapVoteHistoryType=BDBMapVote3.MapVoteHistory1   <= This points to the MapVoteHistory code. 
+                                                    Read the MapVote History section. 
+MidGameVotePercent=75     <= This is the percentage of players that must place votes to initiate a Mid Game vote. 
+Mode=Majority             <= This is the voting mode that effects how many votes each player gets. 
+                             See documentation or Admin window for possible values.
+MinMapCount=1             <= This is for Elimination Mode only. In Elimation mode maps are removed from the list 
+                             after being played. When the map list count reaches this limit, it will reload the 
+                             list with all available maps. 
+ServerInfoURL=www.planetunreal.com/bdbunreal/serverinfo.htm  <= this is the Web site URL to use in the Welcome 
+                             window (see doc) Leave this blank if you are not goint to use this option.
+                             (Note: This URL is an example only. Please do not point your server at this URL.)
+MapInfoURL=www.planetunreal.com/bdbunreal/  <= This is the web site url to look for Map Information (see doc)
+                                               Leave this blank if you are not going to use this option.
+MapPreFixOverRide=        <= This can be used for the Other game types  (MODs) only. 
+                             It allows you to specify a different Map Prefix. eg. "DM-", "CTF-"
+AccName[0]=               <= Dont mess with these Acc settings. They are used to store player names and vote
+                             counts when Accumulation Mode is enabled.
+AccName[1]=
+~~~~~~~~~~~~              <= Same as above.
+AccVotes[0]=0
+AccVotes[1]=0
+~~~~~~~~~~~~
+HasStartWindow=Auto       <= This is only for the Other Game types (Mods). It indicates if the Mod has a 
+                              Starting window or not. For Example, Unreal Fortress has a starting window. 
+                              Valide valuse are - Yes, No, or  Auto. 
+bEntryWindows=True        <= If you set this to false it will not open the Welcome Window or the KeyBinder 
+                             window when a player joins the server.
+MsgTimeOut=30             <= This changes the amount of time that messages stay on the HUD, 
+                             This is Client Side only and is not dictated by the server.
+bLoadScreenShot=True      <= If True it shows the screen shot of the map when it is selected, if false it does not.
+                             This is a Client side only setting.
+bDebugMode=False          <= Dont mess with this unless I tell you too. It is used for debugging problems.
+                             If you set this to True it will increase the size of your log file.
+
+------------------------------------------
+Note: This section will not be present until you run UT wiht MapVote.
+</pre>
+</td></tr>
+<tr><td bgcolor=#404040>
+<u><b>MapVote INI file configuration settings reference.</b></u><br>
+<pre>
+<hr>
+bAS=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Load map names that start with AS in the map list.(Assault)
+   <font color=red>False</font> = Do not load map names that start with AS in the map list. 
+<hr>
+bAutoDetect=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Automatically detects the game-type that the server
+          was started with and loads only the maps that were made for it.
+   <font color=red>False</font> =  Uses the gametypes specified by bDM,bLMS,bTDM,bCTF,bDOM,bAS and bOther settings.
+   Note: Do NOT set this to True if bDM,bLMS,bTDM,bCTF,bDOM,bAS or bOther is set to true.
+<hr>
+bAutoOpen=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Automatically open the voting windows at the end of each game.
+   <font color=red>False</font> = Do not automatically open the voting windows at the end of each game.
+           At the end of each game the server will switch to the next map in the
+           rotation list. Users can initiate Mid-Game voting by placing a vote.
+<hr>
+bCheckOtherGameTie=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = When playing the OtherClass gametype, check for Sudden Death Overtime
+          and do not open the MapVote window if the scores are tied and the end
+          of the end of the game has been reached. 
+   <font color=red>False</font> = Do Not check for Sudden Death Overtime and always open the MapVote window
+          when the end of the game has been reached. (except if bAutoOpen is False)
+<hr>
+bCTF=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Load map names that start with CTF in the map list.(Capture The Flag)
+   <font color=red>False</font> = Do not load map names that start with CTF in the map list. 
+<hr>
+bDebugMode=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Write extra debugging information to the log file.
+   <font color=red>False</font> = Do not Write extra debugging information to the log file.
+   Warning: Do NOT turn this on unless I ask you to. Only I can understand the the debug log data.
+<hr>
+bDM=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Load map names that start with DM in the map list.(DeathMatch)
+   <font color=red>False</font> = Do not load map names that start with DM in the map list. 
+<hr>
+bDOM=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Load map names that start with DOM in the map list.(Domination)
+   <font color=red>False</font> = Do not load map names that start with DOM in the map list. 
+<hr>
+bEntryWindows=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Open the Welcome Window and the KeyBinder window 
+                                   when a player joins the server.
+   <font color=red>False</font> = Do Not open the Welcome Window or the KeyBinder window.
+
+<hr>
+bKickVote=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Allow players to place kick votes against other players.
+   <font color=red>False</font> = Do not allow players to place kick votes against other players.
+<hr>
+bLMS=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Load Last Man Standing maps (starts with DM) in the map list and 
+                                   change their prefixes to LMS.
+   <font color=red>False</font> = Do not load LMS maps in the map list. 
+<hr>
+bOther=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Load map names that belong to the OtherClass GameType in the map list.
+   <font color=red>False</font> = Do not load map names that belong to the OtherClass GameType in the map list. 
+<hr>
+bSortWithPreFix=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Sort the map list with the mapname prefix (faster loading).
+   <font color=red>False</font> = Sort the map list without the mapname prefix (slower loading). 
+<hr>
+bTDM=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Load Team Death Match maps (starts with DM) in the map list and 
+                                   change their prefixes to TDM 
+   <font color=red>False</font> = Do not load map names that start with SFHR in the map list. 
+<hr>
+bUseMapList=&lt;<font color=green>True</font>|<font color=red>False</font>&gt; 
+   <font color=green>True</font> = Load the list of available map names from the map rotation list.
+   <font color=red>False</font> = Load the list of available map names with all available maps on the
+            server that have the specified gametype map prefix. 
+<hr>
+HasStartWindow=&lt;<font color=green>Auto | Yes | No</font>&gt; 
+      This is only for the OtherClass Game types (Mods). It indicates if the Mod has a 
+      Starting window or not. 
+<hr>
+KickPercent=&lt;<font color=green>1 - 100</font>&gt; 
+   The percentage of players that are required to place kick votes against one player before
+   that player is kicked from the server. Set this to 100 to disable kick voting since most players
+   will not place a kick vote against them selves.
+<hr>
+MapInfoURL=&lt;<font color=green>www.servername.com/subdirectory</font>&gt; 
+   The web URL address to use to get the Map Information html file. See MapInfo section of doc.
+<hr>
+MapPreFixOverRide=&lt;<font color=green>DM</font>&gt; 
+      This can be used for the OtherClass game types  (MODs) only. 
+      It allows you to specify a different Map Prefix. eg. "DM-", "CTF-"
+      Use this setting to load a different type of map than the default.
+<hr>
+MapVoteHistoryType=&lt;<font color=green>BDBMapVote302.MapVoteHistory1</font>|
+                    <font color=green>BDBMapVote302.MapVoteHistory2</font>|
+                    <font color=green>BDBMapVote302.MapVoteHistory3</font>|
+                    <font color=green>BDBMapVote302.MapVoteHistory4</font>&gt; 
+   Defines the class that contains the code for managing the Map Vote History data.
+   See the MapVoteHistory section of this document for more details.
+   This can also be set to name a custom made 3rd party class in a different package.
+<hr>
+MidGameVotePercent=&lt;<font color=green>0 - 100</font>&gt; 
+   The percentage players that are required to place votes for any maps before a 
+   "Mid-Game Vote" is initiated. When a Mid-Game vote is initiated all the voting
+   windows will be forced open and the voting time limit clock will start.
+   When time runs out the server will switch to the winning map.
+<hr>
+MinMapCount=&lt;<font color=green>1 - 1000</font>&gt; 
+   Only used when the Mode is set to "Elimination". It is the number of map names that will
+   be present before the map list is refreshed with all the maps.
+<hr>
+Mode=&lt;<font color=green>Majority | Elimination | Accumulation | Score</font>&gt; 
+   Majority - Each player gets to place 1 vote and the map with the most votes wins.
+   Elimination - Maps are removed from the list until there are only X number of maps left.
+   Accumulation - If the map that a player has voted for does not win that vote is carried 
+                  to the next game. Therefore players can multiple accumulate votes.
+   Score - Player scores are used as the amount of votes placed. So basically, the top 
+           players get choose the map.
+<hr>
+OtherClass=&lt;<font color=green>WFCode.WFGame</font>&gt; 
+         This would be the Package name and the Class name of the MOD, See the documentation
+         that came with the MOD that you are trying to use MapVote with for the name of the
+         Game class. Leave this setting blank if bOther is False.
+<hr>
+PreFixSwap=&lt;<font color=green>MyPreFix</font>&gt; 
+      This can be used to change the way the map names show for the OtherClass Gametype.
+      This value can be blank. This swaps the map name prefix of the maps belonging to the 
+      OtherClass gametype to this value.
+<hr>
+RepeatLimit=&lt;<font color=green>0 - 1024</font>&gt; 
+   The number of previously played maps to remove from the list of available maps.
+   This is used to prevent players from voting for the same maps over and over.
+   Set this to 0 to disable it and show all available maps or maps in the rotation list.
+<hr>
+ScoreBoardDelay=&lt;<font color=green>1 - 300</font>&gt; 
+   The number of seconds after the end of the game to delay the automatic opening of the voting windows.
+   During this delay the players have a chance to view the score board. If bAutoOpen is set to false
+   then this setting does nothing. 
+<hr>
+ServerInfoURL=&lt;<font color=green>www.servername.com/subdirectory/HTMLFileToShow.htm</font>&gt; 
+   The web URL address to use to fill the ServerInfo window.
+   Leave this blank to disable the server info window. 
+   This is also used in the Welcome Window that can pops up when a player joins 
+   the server. See the Welcome Window instructions for more details.
+<hr>
+VoteTimeLimit=&lt;<font color=green>1 - 300</font>&gt; 
+   The number of seconds to allow players to place votes after the end of a game or after
+   a mid-game vote was initiated. When this time limit expires the server will be forced to swich
+   to the map with the highest votes. If there are no votes then a map will be chosen at random.
+<hr>
+</pre>
+</td></tr>
+<tr><td bgcolor=#404040>B. (This method is for configuring a remote dedicated server)<br>
+<ol>
+<li>Start the server with the "Map-Vote" mutator. (See decicated server setup instructions below)</li>
+<li>Connect to your server with UT. </li>
+<li>Login as Admin with the "ADMINLOGIN password" console command.
+Note: If you don't see a message like "YourPlayerName has become the administrator" then the password was wrong.</li>
+<li>Press you MapVote HotKey. You should have seen the KeyBinder window when you first joined the server.</li>
+<li>Click the "Admin" tab which should be all the way to the right. 
+If there is No "Admin" tab then you have not successfully logged in as administrator, close the window and go back to step 3.</li>
+<li>Change the options in the scrolling Admin window. There is a second half of the page which does not show.
+Just use the scroll bar on the far right to scroll down.</li>
+<li>Click the "Save" button. This will save your selected options on the remote server and reload the maplist 
+on the server.</li>
+<li>Now close and reopen the voting window to refresh the map list.</li>
+</ol>
+</td></tr>
+<tr><td rowspan=2 valign=top bgcolor=#404040><font color=yellow>OtherGame Classes</font></td>
+<td bgcolor=#404040>If you want to use Map-Vote with a MOD then you can just use the Auto Detect option.
+This will setup the game class automatically when the server is stared.<br>
+                   
+You still have the option of specifing the Other Game Class option and Check the Other Mod Game 
+check box in the Configuration window. You would have to do this if you wanted to have a MOD
+and UT maps/games types available for voting in the same list at the same time.
+</td></tr>
+<tr><td bgcolor=#404040>
+<pre>Known Mod Game Classes:
+-----------------------
+Rocket-Arena      - RocketArena.RocketArenaGame
+Tactical-Ops      - Download TOMapVote from my site
+Strike-Force      - SFMapVote is included with the StrikeForce download
+Unreal-Fortress   - UnrealFortress.Game_UnrealFortress
+Infiltration 2.85 - InfiltrationUT.InfilDeathMatchPlus
+                    InfiltrationUT.InfilTeamGamePlus
+                    InfiltrationUT.InfilCTFGame
+                    InfiltrationUT.InfilDomination
+                    InfiltrationUT.InfilAssault
+                    InfiltrationUT.InfilLastManStanding
+WeaponsFactory    - WFCode.WFGame 
+Multi-CTF         - MultiCTF.MultiCTFGame
+</pre>
+</td></tr>
+<tr><td rowspan=8 valign=top bgcolor=#404040><font color=yellow>Advanced Server Setup</font></td>
+<td bgcolor=#404040>For decicated server owners.
+Put the appropriate command and parameters (found below) in your server batch file.</td></tr>
+<tr><td bgcolor=#404040><pre>Unreal-Tournament Game Types:
+----------------------------
+UCC server DM-Morpheus.unr?Game=Botpack.DeathMatchPlus?mutator=BDBMapVote302.BDBMapVote 
+UCC server DM-Morpheus.unr?Game=Botpack.TeamGamePlus?mutator=BDBMapVote302.BDBMapVote 
+UCC server DM-Morpheus.unr?Game=Botpack.LastManStanding?mutator=BDBMapVote302.BDBMapVote 
+UCC server AS-Guardia.unr.unr?Game=Botpack.Assault?mutator=BDBMapVote302.BDBMapVote 
+UCC server CTF-LavaGiant.unr?Game=Botpack.CTFGame?mutator=BDBMapVote302.BDBMapVote
+UCC server DOM-Cinder.unr?Game=Botpack.Domination?mutator=BDBMapVote302.BDBMapVote 
+</pre></td></tr>                  
+<tr><td bgcolor=#404040><pre>Rocket-Arena:
+-----------------------------
+UCC server RA-Cliffyb.unr?Game=RocketArena.RocketArenaGame?mutator=BDBMapVote302.BDBMapVote 
+Note: There is a small conflict with the MapVote Welcome & KeyBinder windows and the 
+      RocketArena Start Menu. So you will want to disable these windows in the Admin 
+      configuration window under the Advanced section.
+</pre></td></tr>                  
+<tr><td bgcolor=#404040><pre>Tactical Ops: 
+-----------------------------
+BDB MapVote is not compatible with Tactical Ops version 2 and higher. 
+Download TOMapVote from my site.
+</pre></td></tr>                  
+<tr><td bgcolor=#404040><pre>Strike-Force:
+-----------------------------
+A special version of MapVote (SFMapVote) was included with the StrikeForce download.
+See the SFMapVoteReadMe.htm file for instructions.
+</pre></td></tr>                  
+<tr><td bgcolor=#404040><pre>Unreal-Fortress:
+---------------------------
+UCC server UNF-Cliffside.unr?Game=UnrealFortress.Game_UnrealFortress?mutator=BDBMapVote302.BDBMapVote
+***Note: UnrealFortress games can have Sudden Death OverTime during a tied game,
+therefore you need to change the "Check Sudden Death Overtime" option in the configuration.
+Or change bCheckOtherGameTie to True in the UnrealTournament.ini file.
+</pre></td></tr>                  
+<tr><td bgcolor=#404040><pre>Infiltration 2.85:
+-----------------------------
+UCC server CTF-Face.unr?Game=InfiltrationUT.InfilCTFGame?mutator=BDBMapVote302.BDBMapVote
+***Note: You must enable the "Check Sudden Death Overtime" option in the configuration
+         for MapVote to work correctly with Infiltration. 
+</pre></td></tr>                  
+<tr><td bgcolor=#404040><pre>Weapons-Factory:
+-----------------------------
+UCC server CTF-Face.unr?Game=WFCode.WFGame?mutator=BDBMapVote302.BDBMapVote
+***Note: You must enable the "Check Sudden Death Overtime" option in the 
+         configuration for MapVote to work correctly with Weapons-Factory. 
+</pre></td></tr>                  
+<tr>
+<td valign=top bgcolor=#404040><font color=yellow>MapVoteHistory</font></td>
+<td bgcolor=#404040>
+<pre>MapVote now keeps a record of maps played , the number of times each was played 
+and the sequence each was played. This information is stored separate from the default 
+UT ini file because of the potential large size (up to 1020 maps). By default this
+information is stored in the MapVoteHistory1.ini file. I do not recommend editing 
+this file manually, but if you do here is the layout: 
+Example: MapVoteHistory1.ini
+------------------------------------------------------------------------------
+[BDBMapVote302.MapVoteHistory1]
+M[0]=                <== Note: this is left blank on purpose
+M[1]=AS-Coldsteel    <== M = MapName, maintained in alphabetic order
+M[2]=CTF-2symple                  
+M[3]=CTF-4Faces
+M[4]=CTF-AAhuNui
+...etc.
+M[1022]=
+M[1023]=
+P[0]=0
+P[1]=1               <== P = PlayCount
+P[2]=7
+P[3]=11
+P[4]=9
+...etc.
+P[1022]=0
+P[1023]=0
+S[0]=0
+S[1]=41              <== S = Sequence
+S[2]=197
+S[3]=166
+S[4]=10
+S[1022]=0
+S[1023]=0
+LastMapIndex=251                 <== This is the index nuber of the last map
+----------------------------------------------------------------------------
+If you run multiple servers on the same computer and want to keep history 
+information separated, you can do so by configuring the MapVoteHistory 
+type in the Advanced section of the Admin configuration window.
+You have 4 options:
+- BDBMapVote302.MapVoteHistory1  - stores history info in MapVoteHistory1.ini
+- BDBMapVote302.MapVoteHistory2  - stores history info in MapVoteHistory2.ini
+- BDBMapVote302.MapVoteHistory3  - stores history info in MapVoteHistory3.ini
+- BDBMapVote302.MapVoteHistory4  - stores history info in MapVoteHistory4.ini 
+
+If are running more than 4 UT servers on the same physical server then you can 
+do this. 
+Included in the Zip file is a MapVote History plug-in that allows you to keep 
+up to 16 different history files (one for each instance of UT on a single server). 
+You Do Not need this if you are only running 4 or less servers on the same computer.
+Just save the MapVoteHistoryX16.u file to your \UnrealTournament\System directory.
+Then in the UnrealTournment.ini file for each server change the 
+"MapVoteHistoryType" setting under the  "[BDBMapVote302.BDBMapVote]" section 
+to "MapVoteHistoryX16.MapVoteHistoryZZ"
+Change the last "ZZ" to a unique number between 1 and 16.
+ 
+So you might have (for example):
+ 
+Server1.ini
+MapVoteHistoryType=MapVoteHistoryX16.MapVoteHistory1
+ 
+Server2.ini
+MapVoteHistoryType=MapVoteHistoryX16.MapVoteHistory2
+ 
+Server3.ini
+MapVoteHistoryType=MapVoteHistoryX16.MapVoteHistory3
+ 
+....
+Server16.ini
+MapVoteHistoryType=MapVoteHistoryX16.MapVoteHistory16
+
+Additional Feature:
+-------------------
+There are two in-game console command that you can use to set
+the Play Count and Sequence of each map in the History.
+You have to login as Admin with the ADMINLOGIN command first.
+MUTATE BDBMAPVOTE SETPC mapname play_count
+MUTATE BDBMAPVOTE SETSEQ mapname sequence_number
+examples:
+MUTATE BDBMAPVOTE SETPC CTF-FACE 10
+MUTATE BDBMAPVOTE SETSEQ CTF-FACE -1
+
+Note: Setting the Sequence of a map to -1 forces it to never show in the 
+map list. This can come in handy if you discover have a bad or just 
+ill conceived map on your server but don't want to actually delete the 
+file.
+</td></tr>
+
+<td valign=top bgcolor=#404040><font color=yellow>Welcome Window</font></td>
+<td bgcolor=#404040>
+<pre>The Welcome Window is a new feature that allows server owners to post
+information for the players to see when they join the server.
+When configured the Welcome Window will open as soon as the player 
+joins the server. The player can then read the inforamation or just close
+the window by clicking the "Close" button. 
+Note: The window only opens the first time they join a server.
+
+Requirements: 1. HTTP Web server (Micro$oft IIS, HTTP server, etc.)
+              2. An HTML file.
+      
+Welcome Window Setup:
+---------------------
+First you need to make the Welcome Window HTML source file.
+
+*** The in-game web browser is very very limited.
+You can not use images,tables tags,java-script, style-sheets, etc.
+
+So, What can you use ?
+Here are the comments directly from the "UWindowHTMLTextArea" class 
+that is used to render the HTML:
+-------------------------------------------------------------------
+HTML Currently Supported
+========================
+Parsed on add
+-------------
+&lt;body bgcolor=#ffffff link=#ffffff alink=#ffffff&gt;...&lt;/body&gt;
+&lt;font color=#ffffff bgcolor=#ffffff&gt;...&lt;/font&gt;
+&lt;br&gt;
+&lt;center&gt;....&lt;/center&gt;
+&lt;p&gt;
+&lt;h1&gt;...&lt;/h1&gt;
+
+Parsed on add and display
+-------------------------
+&lt;nobr&gt;...&lt;/nobr&gt;
+&lt;a href="..."&gt;...&lt;/a&gt;
+&lt;b&gt;...&lt;/b&gt;
+&lt;u&gt;...&lt;/u&gt;
+&lt;blink&gt;...&lt;/blink&gt;
+
+Parsed only on display
+----------------------
+& gt;
+& lt;
+& amp;
+& nbsp;
+
+Planned improvements
+--------------------
+&lt;ul&gt;&lt;li&gt;item 1&lt;li&gt;item 2...&lt;/ul&gt;
+&lt;table&gt;...&lt;/table&gt;
+
+Bugs
+----
+The parsing is pretty slack!
+------------------------------------------------------------------ 
+
+So create an HTML and place it on your HTTP web server.
+Note: Do not use FrontPage or Visual Interdev to create this page.
+Then goto the Admin configuration window in MapVote and scroll down to 
+the Advanced section.
+In the "Welcome Page Web Server URL" text box enter the web server address,
+port, path, and filename.
+Syntax:
+webservername.domainname:port/path/filename.htm
+
+Note: The port is not required, the default is 80. 
+      Do Not include "http://" 
+
+Example: www.planetunreal.com:80/BDBUnreal/serverinfo.htm
+
+Note: Leaving the URL blank disables the Welcome Window.
+
+Also, I have include an example ServerInfo.htm file in the zip file.
+
+---------------------------------------------------------------------
+<font color=yellow>New</font><br>
+If you want to use the Welcome Window or the ServerInfo window and do
+not have access to an HTTP web server or software then you can try 
+the ingame web server included in ServerInfo.u.
+
+This is something I whipped up real quick and have not tested it under a 
+full load, so be warned. If this causes lag on your server remove it.
+It will make you UT server act as a web server for the Server information 
+page in mapvote. 
+It will only serve one page and that page has to be named ServerInfo.htm
+ 
+Installation Instructions:
+1. Save the ServerInfo.u file to the \UnrealTournament\System directory.
+2. Save the ServerInfo.htm file to the \UnrealTournament\Web directory.
+3. Edit the ServerInfo.htm file with a text editor and change it to show what you want to show.
+4. Edit UnrealTournament.ini file with a text editor and change the following: (marked with <font color=orange><==== *</font>)
+ 
+   [UWeb.WebServer]
+   Applications[0]=UTServerAdmin.UTServerAdmin
+   ApplicationPaths[0]=/ServerAdmin
+   Applications[1]=UTServerAdmin.UTImageServer
+   ApplicationPaths[1]=/images
+   DefaultApplication=0
+   bEnabled=True                           <font color=orange><==== *</font>
+   Applications[2]=ServerInfo.ServerInfo   <font color=orange><==== *</font>
+   ApplicationPaths[2]=/ServerInfo         <font color=orange><==== *</font>
+   .....~
+                 
+   Note: if Applications[2] is already in use by another 
+         addon then change it to one that isnt in use.(ie, 3 or 4)
+ 
+   [BDBMapVote3.BDBMapVote3]
+   .....~
+   ServerInfoURL=192.168.1.100/ServerInfo/ServerInfo.htm     <font color=orange><==== *</font> 
+                               Note: Replace "192.168.1.100" with the IP address of your server.
+   ....~
+     
+</pre></td>
+</tr>
+<tr>
+<td valign=top bgcolor=#404040><font color=yellow>Map Info</font></td>
+<td bgcolor=#404040>
+<pre>Map Info is a new feature in MapVote that can be setup to provide 
+players with information about about maps. There are two ways the player
+can request information about a map.
+
+1. Select a map in the Map List on the Map Voting window and click the
+   "Info" button. This will cause the window to switch to the "Info" tab
+   and then use the in game web browser to display information if 
+   it is avaliable.
+   
+2. Select the "Info" tab window in the Map Voting window and click the 
+   "Map Info" button. This will cause the in game web browser to display
+   information about the current map if it is avaliable.  
+
+Map Info Setup:
+---------------
+You will need an HTTP web server to provide the map information.
+You will also need to take all the ReadMe text files that are were provided
+with custom maps and convert them to HTML format.
+I have ask someone to write a converter program that will do this for you
+and will make it available for download when it is ready.
+The name of the map information file has to follow this scheme:
+
+MapName.htm
+
+For example: If there was a readme file for CTF-Face.unr then the info file 
+would be have to be named CTF-Face.htm
+
+All of the map info files must be in the same directory on the web server.
+
+To enable this go to the Admin configuration window in MapVote and scroll
+down to the Advanced section.
+Enter your web server URL and the path to the map info directory in the 
+"Map Information Web Server URL" text box.
+Note: do not use "http://" and end the path with a "/"
+Example: www.myserver.com:80/MapInfoDirectory/
+</pre></td>
+</tr>
+<tr>
+<td valign=top bgcolor=#404040><font color=yellow>Trouble Shooting</font></td>
+<td bgcolor=#404040>
+Check the Online MapVote Trouble Shooting Guide at 
+<a href="http://www.planetunreal.com/BDBUnreal/MapVoteTrouble.htm">
+  http://www.planetunreal.com/BDBUnreal/MapVoteTrouble.htm
+</a>
+</td>
+</tr>
+<tr>
+<td valign=top bgcolor=#404040><font color=yellow>Known bugs</font></td>
+<td bgcolor=#404040><pre>
+1. When tested with "DOM-LittleThings" map , it always played under 
+   DeathMatch and dropped the mutator. I couldnt figure out the problem , 
+   but it works fine with all the other maps. I might have a corrupted map file.
+
+2. Both the Welcome window and KeyBinder window hide the RocketArena and 
+   the UnrealFortress Starting Menu Window when they are closed. 
+   This is acceptable with UnrealFortress because the player just has to
+   click his/her fire button to bring back the menu. But with RocketArena
+   that doesnt work. To solve this problem you can turn off the welcome 
+   window and keybinder windows in the MapVote Admin configuration window
+   (option is at bottom).
+
+3. The BDBMapVote mutators HandleEndGame() function does not call the Next mutators
+   HandleEndGame function. This breaks any other mutator the uses this function 
+   if it is loaded after mapvote. 
+   Doh, sorry. I will fix this in the next version.
+   Meanwhile if you have this problem just load the other mutator before MapVote. 
+
+4. I broke the map name quick search box under the maplist in this version.  
+
+</pre></td></tr>
+<tr>
+<td valign=top bgcolor=#404040><font color=yellow>Version History</font></td> 
+<td bgcolor=#404040>
+<pre>1.0 DM-MapVote.unr Map (3D Voting, cool idea but not practical)
+
+2.0 Initial Testing Version (Dropped the Map and used UWindows and Mutator)
+
+2.1 Fixed the Assault mid-game RestartWait problem. (game waited 5 minutes 
+    before continuing to second half of match) Add a Config tab window to 
+    the MapVote window for players who autodownloaded the mutator and do 
+    not have the .int file. This will allow them to configure a keyboard 
+    key to launch the voting window.
+    
+2.2 Added a 20 second voting restriction at the beginning of the game so 
+    that the first player to enter the game after a level switch can not
+    vote and force a level switch before the other players have joined the 
+    game. Also changed the voting message type from critical to normal so 
+    that others can see the message that tells which map you voted for.
+    
+2.3 Added a 20 second timer at the end of the game that when triggered 
+    forces open the players voting window if they have not voted and the 
+    window is not already open. This will help out any player who has 
+    closed the window and dont have a key bound to reopen it.
+    
+2.4 a. Fixed the RestartWait-ini problem by setting bDontRestart to true
+       instead of messing with the RestartWait.
+    b. Add a configurable "Message Expiration Time" option. This allows 
+       you to configure the amount of time a Say & TeamSay message stays 
+       on your HUD. 
+    c. Also added a little note at the bottom of the config screen that 
+       explains that the Load Map options only apply on the server.
+    d. Added "Download Required" text to the map screenshot window to 
+       indicate when a player doesn't have the map that he/she selected.
+    f. Add client message to tell the player that they can not kick 
+       the server.
+    g. Changed tie detection function so that it always returns false 
+       for Domination games because once during testing I encountered
+       a tie game and it did not go into over-time.
+       
+2.5 a. Added a configurable Kick Vote Requirement percentage.  
+    b. Added a configurable voting time limit at game end. 
+    c. Increased the size of the map list box and screen shot.
+    d. Moved the game type configuration options to an "Admin" tab that
+       only shows up for the player that is logged in as the admin. 
+       (via adminlogin console command). This Admin tab can save the 
+       configuration values to a remote server.
+    e. Added LMS, Team Deathmatch, and an "Other" game type. The Other
+       game type can be configured to work with custom Mods such as 
+       Rocket-Arena,Tactical Ops, and Strike-Force. 
+       (These are the only Mods that have been tested.)
+    f. Added a "Status" tab that shows a report of the maps and players 
+       that were voted for and the number of votes for each.
+    k. Added an "About" tab and renamed the "Players" tab to "Kick" to 
+       make more room for tabs.                          
+       
+2.6 Fixed the problem that prevented voting windows from opening when 
+    connected to a listening server.                          
+          
+2.7 - Added an option to load map names from the map cycle list instead
+      of all maps.
+    - Added mouse wheel and keyboard (up,down,pageup,pagedown) scrolling
+      support for list boxes.
+    - Added a 1 second screen-shot loading delay to the map window. This
+      reduces scrolling delays caused by the loading of the screen-shot image. 
+    - Integrated message sender. Pops up when the Talk button is pressed.
+    - After placing a vote the window will now switch to the "Status" tab.
+    - Moved the configuration settings into UnrealTournament.ini instead of 
+      MapVote.ini.
+    - Add a configurable Score Board time Delay. This is the amount of time 
+      that it waits before opening the voting windows after the end of the 
+      game. This will allow players to look at the final scores before voting. 
+    - Added an option to disable player kick voting.
+    - Added an option to disable End-of-Game voting. Allows server to run as
+      normal and cycle through the map list. Players can only vote during 
+      the game. 
+    - Added code that eliminates the currently played map from a tie. 
+      This was requested by a user.
+    - The "Remove Save" button on the "Admin" configuation window will now 
+      reload the map list with the new configuation. In other words you can
+      change game types and the map list will change right away.
+      Note: Any open voting windows will have to be closed and reopened to
+      refresh the map list on the player/client side.
+    - Added a 3 second delay between the closing of all voting windows to 
+      the switching of the level on the server. 
+    - Fixed the "Failed to load 'NULL': Can't resolve package name" error 
+      log message by preventing the loading of the Other game class if the
+      Other Game type has not been checked.
+    - Changed the WRI class back to the original code. This will break 
+      compatiblity with V400 of UT.
+    - Added a fix for the Tactical Ops v1.6 Tie Game problem where the 
+      voting window would not open at game end because of sudden death 
+      overtime. Also added a config option to disable this if needed.
+    - Added an option that determines if a tie game is checked for when 
+      using a Other Game type (Mods). This is used to tell Map-Vote if 
+      the Mod game can go into OverTime so that it will not open the voting 
+      windows during a sudden death overtime situation.
+
+2.8 - Added an "Auto Detect" option that will automatically detect the game 
+      type that the server was started with and load the appropriate maps. 
+      This will make configuration incredibly easy, especially for MODs.
+    - Fixed Spectator voting problem. Spectators can not vote now.
+
+2.9 - Fix the 256 map limit bug. In network play the Unreal engine will not 
+      replicate arrays that have more than 256 items in them. So, I created
+      4 arrays. The limit is now 1020 maps. 
+    - Removed the ".unr" from map names. 
+    - The map list is now sorted correctly and NOT case sensitive. 
+    - Client side GPF crash fix - Removed the MyWRI variable from the 
+      MapVoteTabWindow to eliminate the GPF crash caused by garbage 
+      collection and converted all Client-To-Server replicated function 
+      into Mutate console commands. 
+         
+2.9a - Fixed the Map Rotation list problem that was introduced in 2.9
+
+3.0 - Main Voting Window redesigned. Consolidated the Map, Kick, Status,
+      and Message sending windows into one.(Thanks to Ouch for the idea.)
+    - Added Welcome Window
+    - Added KeyBinder Window
+    - Moved code for detecting players entering the game from the 
+      ModifyPlayer() fuction to Tick().
+      This fixes StrikeForce,TactOps, and UnF Kick vote problems.
+    - Added Accumulation,Scoring, and Elimination modes.                
+    - Added MapPreFix OverRide. So that users playing MODs 
+      can filter out maps.
+    - Added Configurable Mid-Game voting percentage.               
+    - Added Configurable Map Repeat limit. (Don't load previous X maps)
+    - Added PlayerIDs to the KickVote player list.
+    - Added MapVoteHistory which keeps track of how many times each map
+      has been played.
+    - Added Double Click voting. Just double click the name of the map 
+      in the list.
+    - Doesn't broadcast a message when the player votes for the same 
+      map again. 
+    - Fixed Spectator detection so that Dead Tactical Ops players can 
+      still vote.
+    - Added client side option to disable screen shot loading.
+    - You can now click the name of a map or player in the voting 
+      Status list and it will select the map or player for you in
+      the main list.
+    - Map Search option. Users can type the beginning of a maps name
+      to find it faster.
+    - Added the total map count to display on the window.
+    - Spectators now show in the kick vote list box, (in gray) so 
+      that you can kick them.
+    - Player names are shown in Red or Blue to indicate which team 
+      they are on.
+    - Fixed Player Kick percentage detection. Had a rounding error
+      in version 2.x.
+    - Added Map Information viewer.
+
+3.01- Added a Debug Logging option (to the mutator code) that logs extra 
+      code execution flow identification information  to the log. 
+    - Fixed the Keybinder button on the Config tab.
+    - Added a 20 tick delay in the processing of new players that join the server.
+    - Changed the KeyBinder Window so that it is only opened if the player doesn't 
+      have a hot key bound. Once he binds a key it will never pop up again.
+    - Added a new "Reload Maps" button to the Admin tab window and moved the 
+      reloading of maps out of the "Save" button code. Now you can save configuration 
+      changes without reloading maps. This was a problem with servers that have a 
+      large number of maps, it would cause bad lag while reloading maps.
+
+3.02- Fixed the OtherGame type PreFixOverride option. 
+    - Added map name prefix swapping. This allows you to change the map prefix when
+      displayed in the maplist. For example you could show all CTF-* maps as FLAG-*.
+    - Added Debug config option to Admin window.
+    - Added option to specify sorting with or with out prefixes. 
+    - Automatically closes admin window after reloading maps.
+    - Added ability to load LMS, TDM, and DM maps at the same time.
+      It changes the map names for TDM and LMS 
+      (ie , DM-Conveyor would become TDM-Conveyor and LMS-Conveyor)
+    - Removed "show welcome window" check box from config window tab
+    - Admin override that will allow an instant map changes and kicks by the server admin.
+    - Added automatic suicide and disconnect if "AIMCHEAT" keybind is detected.
+    - Change Eliminated maps names instead of removing them from the list.
+      Displays them in red and prevents players from voting for them.
+      Note: The admin can vote for them.
+    - Limited history reports to 100 map names results to prevent lag
+    - Detects Map Switch failure. Sometimes map switching fails because the server is
+      missing a texture or music file that the map depends on. When this happened the
+      server would keep retrying the map switch and end up in an infinite loop.
+      If a map switch failure is detected then MapVote automatically select another map
+      from the list at random and switch to it instead.
+    - Included the new MapVoteHistoryX16 addon that allows you to keep your map history
+      information separated for up to 16 servers on the same physical server.
+    - Included the new ServerInfo UT web server addon that allows you to server up a 
+      single HTML page for the Welcome Window without web server software. 
+      
+</pre></td></tr>
+<tr>    
+<td valign=top bgcolor=#404040><font color=yellow><u>Thanks To:</u></font></td>
+<td bgcolor=#404040>
+<ul>
+<li>Mongo and DrSin for the WindowReplicationInfo (WRI) code which allows the server to open windows on the client.<br>
+FYI, WRI is available for download at <a href="http://www.creativecarnage.com/unreal/files/">www.creativecarnage.com/unreal/files/</a></li>
+<li>[CTCR]TheCatcher for Beta testing on his server and multiple suggestions.
+<a href="http://www.ohnosoftware.com/catchersctf/">www.ohnosoftware.com/catchersctf/</a></li>
+<li>Ouch for lots and lots of good suggestions. <a href="http://illuminati.guildhappy.com/">illuminati.guildhappy.com/</a></li>
+<li>StealHorn and Phear from Assault.Net for suggestions and early beta testing. <a href="http://utassault.mapct.com/">utassault.mapct.com/</a></li> 
+<li>ProfessorGib and RexxLaw from UTC Project for early beta testing. <a href="http://www.planetunreal.com/utc/">UT Classes Project</a> , <a href="http://www.planetunreal.com/thelaboratory/">ProfessorGibs Laboratory</a></li>
+<li>And everyone else who has provided suggestions and helped out.</li>
+</ul>
+</td>
+</tr>
+<tr><td colspan=2 bgcolor=#404040><pre>
+Copyright / Permissions
+-----------------------
+Copyright Bruce D. Bickar 2000 - 2002
+Authors may NOT use this code with out my permission.
+You are NOT allowed to commercially exploit this release, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.
+</td></tr>
+</table>
+</body>
+</html>

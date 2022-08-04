@@ -1,0 +1,93 @@
+================================================================
+Title                  : DOM-Diva
+Version                : 1.0
+Release Date           : 12:03 AM 1/28/01
+Filename               : DOM-Diva.zip
+Author(s)              : Matthew 'Shade' Ramshaw
+Email Address          : ramshawm@iinet.net.au
+Web Page               : http://www.iinet.net.au/~ramshawm/shade.htm
+                         http://www.iinet.net.au/~ramshawm/index.htm
+                                      
+			
+Description             DOMINATION  for 8 to 14 players
+
+Beta Tester:		Nexx,Cybermatic,[TDC]Chopper and Phantomas for their excellent beta testing feedback. :) And always: Epic for one heck of a configurable and enjoyable game!!!(Can't wait 'til the next game!!!)
+			
+Other levels by author  Unreal: DM-Rammy                       S/P 
+				DM-Chase
+                                DM-Max                         Rare 
+				DM-Shade                        Ohm
+				DM-SkaarjSewer
+				DM-Ll'Saru
+
+			Unreal Tournament :
+				DM-Aspire
+				DM-Beng
+                                DM-ChildhoodsEnd
+				DM-Hegemony
+				(*The above four UT maps have been updated earlier last year 
+and are available on my site also.The map names have not been changed. Certain things needed to be addressed and so I dutifully updated them and thought it would be right to inform you as one site in particular didn't update them because I had not changed the map names to include a new version number;Of which I was only recently aware.But now I know*) 
+                                DM-Way_2_to_4
+                                DM-Declare_2_to_4
+	                        DM-T 
+				DOM-T 
+			        DM-Diva (available from my site as a seperate download*see notes)
+                                DOM-Diva (This file)
+
+Additional Credits to : Nexx,Cybermatic,[TDC]Chopper and Phantomas for their excellent beta testing feedback. :) And always: Epic for one heck of a configurable and enjoyable game!!!(Can't wait 'til the next game!!!)
+
+================================================================
+--- Play Information ---
+Game     	    :	  UT        
+Level Name          :	  DOM-Diva.unr
+Single Player       :     No
+Cooperative         :     No
+Domination          :     Yes!
+Deathmatch          :     'DM' version available on my site..or at Ozunreal
+Dark Match          :     NO
+Difficulty Settings :     No
+New Sounds          :     No
+New Graphics        :     No
+NewUnrealScript     :     No
+External DLLs       :     None
+Known bugs          :     None known
+
+--- Construction ---
+Editor(s) used          UnrealEd2 (436 patch version)
+
+Base                    Scratch
+
+Construction Time       months
+
+
+Installation:            Put DOM-Diva.unr in your Unreal Tournament/Maps directory
+			
+------------
+
+
+                  
+--------------------
+
+
+Author's Notes          
+--------------         A Domination Map inspired by the ancient texture set. The objective was to make a nice size map for 14 players that wouldn't chug too much on my old p2 300 Voodoo2 - but would still be relatively nice to look at. Some special effects were purposefully left out for the sake of fps on similair 'mid' spec systems; in an attempt to balance the 'play' and 'eyecandy'. Lighting was a bitch on this one...! :0 *A DeathMatch Verison is also available as a seperate download on my page;I like to tweak certain pathnodes and things for bots to suit the two different gametypes; rather than just rename the 'DOM' version to a 'DM'. Anyways, I hope You Enjoy DOM-Diva. :)  Feedback always welcome.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Matthew 'Shade' Ramshaw  2001. 
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

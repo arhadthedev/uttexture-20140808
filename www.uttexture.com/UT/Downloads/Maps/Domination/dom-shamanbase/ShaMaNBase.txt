@@ -1,0 +1,46 @@
+Map Title :  ShaMaN Clan Facility
+
+Author    :  Walrus(ShaMaN) aka Tony Collins
+             psykowalrus@eidosnet.co.uk
+Release
+Date      :  20 February 2000
+
+
+
+
+Game Type :  Deathmatch, Domination and Team deathmatch.
+	     You can make a copy of this map and rename it DOM-ShaMaNBase.unr
+             to play it in DOM mode if you don't want to download the
+             DOM zip file !
+	     
+             
+Description :  This is a very large map, with an outdoor complex and
+	       an extensive underground network of rooms and natural
+               chambers.  Weapons and goodies are distributed evenly
+               across the entire map, with certain weapons placed in
+               areas suited to their use.  The map is ideal for team 
+               play (at least 4 a side) as there are many opportunities
+               to hold particular areas and rooms.
+	       The idea behind this level is to give me and ShaMaN clan
+               buddies somewhere to hang around and practice in : there are 4 
+	       distinct sectors to the map - the outdoor area, the 
+               power station, the central hub and the Cauldron.  If you 
+               are hosting an online game just message your fellow players
+               that all the action is happening in one particular sector
+               if you don't want to be roaming all over the facility.
+               
+Ideal Loads :  Free for all DM = 6 to 12
+	       Team DM         = 4 to 8 per side
+               Domination      = 3 teams of 4, or 2 teams of 4-8
+               
+               
+Shouts !       All my superb colleagues in the ShaMaN UT Clan. This one
+               is for you guys and girl so enjoy it !
+               Also a shout to YOU for trying this map out - mail me 
+               some feedback please !
+
+Legal Crap  :  Don't be a sad git and pirate this map to make your own 
+               levels unless I've given you permission to do so :-)
+ 	       Also, this map is NOT to be distributed on any media 
+	       (CD's. floppies, etc etc) except from UT site file archives
+               without my express permission.  Thanks.

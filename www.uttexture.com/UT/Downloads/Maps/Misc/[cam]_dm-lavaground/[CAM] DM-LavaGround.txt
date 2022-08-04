@@ -1,0 +1,25 @@
+*MAP001
+
+------------------------------------------------------------------------------------------------
+*Game: Unreal Tournament (2000)
+================================================================================================
+*Level Name: 	Lava Ground
+*Level Type:	DEATHMATCH, DEATHMATCH 1-on-1
+
+*Author: 	Conrad McLaughlin [CAM]
+*Date:		September 2006
+------------------------------------------------------------------------------------------------
+*Imported Textures: 	No
+*Imported Music: 	No
+*Imported Sound: 	No
+------------------------------------------------------------------------------------------------
+*Players:	2 - 8
+*Description: 	Lava Ground. My first map for Unreal Tournament. With three areas each with their 
+                own obstacles mainly the lava pit in the main room. Every weapon is featured 
+                (except the redeemer), and invisibility and mega health pack is included.
+			
+                Good places on the map for snipers. Think this map is best played one on one, or 
+                with six competitors.
+
+	
+=-=-=-=-=-=-=--==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-			

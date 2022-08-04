@@ -1,0 +1,144 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Exploding Glass - unrealed.net</title>
+</head>
+
+<body bgcolor="#29476B" topmargin="0" leftmargin="0"
+rules="none">
+
+<table border="0" cellpadding="0" cellspacing="0" width="600" text="#3EADB7" bgcolor="#29476B">
+
+<style>
+<!--
+A:link {text-decoration: none; color: #00ffff}
+A:visited {text-decoration:none; color:#00ffff}
+A:hover {text-decoration:none; color:#00bfff}
+-->
+</style>
+
+    <tr>
+        <td valign=top background="../../images/head_back_01.jpg"><table border="0" bgcolor="#53657B" cellpadding="0" cellspacing="0" border="0" text="#3EADB7">
+            <tr>
+                <td bgcolor="#53657B"><img src="../../printable/header.jpg"width="600" height="60"></td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+        <td><table valign=top border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+            <tr>
+
+                </td>
+                <td width="15"><br>
+                </td>
+                <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+                    <tr>
+                        <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+                            <tr>
+                                <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+
+
+<tr><td><br></td></tr><tr>          <td>
+                                       <table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7" bgcolor="#53657B">
+                                       <tr><td width="100%" bgcolor="#29476B"><img src="../../../images/edit.jpg"></td></tr><tr><tdbgcolor="#29476B"><br></td></tr>
+                                    <tr>
+                                        <td colspan="3"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#53657B" text="#3EADB7">
+                                        <tr>
+                                        <td background="../../images/news_bord/ls.jpg"><img src="../../images/news_bord/ls.jpg" width="10" height="2"></td>
+                                        <td><table border="0" cellpadding="0" cellspacing="0" bgcolor="#53678B" text="#3EADB7">
+                                        <tr>
+                                        <td bgcolor="#53657B">
+
+ 
+ 
+<font color="#00ffff" size=4>Exploding Glass</font><br>
+
+
+
+                                        <font color="#E6E6E6">
+
+
+
+<P>By: Sharky</P>
+<P><a href="mailto:jneta@ez-net.com?subject=Tutorials">Sharky</a></P>
+<P>Dated: 12/8/98 </P>
+<p>Click <a href="../exp_glass.phtml">here</a> to return to the main tutorial or <a href="../../../edtutes.phtml">here</a> to go back to the main Tutorials page.</p>
+
+<br><br>
+<h3><font color="#00ffff">ASSUMPTIONS:</font></h3><br>
+This tutorial assumes you know how to make a mover and set it up with a trigger.  If you don't, I suggest reading the trigger tutorials on unrealed.net.. This is a nice thing to have in DM games for fun.  I don't know why some people I've talked think its dumb but i think it was one of the funnest parts of DM games in GoldenEye (n64).  Another note if this looks like the Exploding wall tutorial.. well... it is :p i just used it as a base cuz im lazy :)<br>
+<h3><font color="#00ffff">TUTORIAL:</font></h3>
+	<P>&nbsp; &nbsp; &nbsp;First make your level... now make your glass you want to have break... make it into a mover.. Now put the mover in your level.. set its KeyFrame1 to someplace outside your level.. Now add a BreakingGlass next to it.. (its under effects)... next set your mover to the folowing properties..</P>
+<br><br>
+	<U>Events:<br></U>
+	&nbsp; &nbsp; &nbsp;Event - B1 (or whatever name you want for the breaking glass event)<br>
+	<U>Mover:<br></U>
+	&nbsp; &nbsp; &nbsp;bDamageTriggered = TRUE<br>
+	&nbsp; &nbsp; &nbsp;bTriggerOnlyOnce = FALSE (this should be false by default but ya never know.. side <i>note: if you set this to true the glass will only break once which would be nice for a SP level..)</i><br>
+	&nbsp; &nbsp; &nbsp;DamageThreshold = 10.00000 (put whatever you want to stop wepons from breaking it.. this works for stopping the ctrl fire blaster from breaking it but not the alt fire...)<br>
+	&nbsp; &nbsp; &nbsp;MoverEncrochType = Ignore<br>
+	&nbsp; &nbsp; &nbsp;MoveTime = 0.000000<br>
+	&nbsp; &nbsp; &nbsp;StayOpenTime = 30.0000 - 60.0000 (figure out the right time for the glass to stay gone)<br>
+	<U>Object<br></U>
+	&nbsp; &nbsp; &nbsp;InitState = TriggeredOpenTimed<br>
+<br>
+	Set these properties on BreakingGlass..<br>
+	<U>Advanced<br></U>
+	&nbsp; &nbsp; &nbsp;bNoDelete = TRUE (if you dont set this the shatter effect will only happen the first time you break the glass.. after that the wall will just disappear.. so you wanna set this :)<br>
+	<U>Collision<br></U>
+	&nbsp; &nbsp; &nbsp;bBlockPlayers = FALSE<br>
+	&nbsp; &nbsp; &nbsp;bProjTarget = FALSE<br>
+	<U>Effects<br></U>
+	&nbsp; &nbsp; &nbsp;bOnlyTriggerable = TRUE<br>
+	<U>Events<br></U>
+	&nbsp; &nbsp; &nbsp;Tag - B1 (should be the same as Event on the mover)<br>
+	<U>ExplodingWall<br></U>
+	&nbsp; &nbsp; &nbsp;bTranslucentGlass = TRUE<br>
+	&nbsp; &nbsp; &nbsp;bUnlitGlass = TRUE<br>
+<br><br>
+	You should now be all set.. rebuild and test out your level..Have fun.. and read the Exploding Wall tutorial for the standard dont make particle size to large.. :)
+</tr>
+                                        </table>
+                                        </td>
+                                        <td background="../../images/news_bord/rs.jpg"><br></td>
+                                        </tr>
+                                        <tr>
+<td><br></td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                        </td>
+                                    </tr>
+
+<tr><td><br></td></tr>
+
+<tr><td><br></td></tr>
+
+
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+</td><td width="10"><br></td></tr></table>
+                                </td>
+                            </tr>
+                        </table>
+                        </td>
+                        <td><br></td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

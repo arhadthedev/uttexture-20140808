@@ -1,0 +1,57 @@
+ReadMe for DM-EuroHellfunnel_II for Unreal Tournament
+-----------------------------------------------------
+
+               Title: DM-EuroHellfunnel_II
+            Filename: DM-EuroHellfunnel_II.unr
+              Author: JonnyMellis
+       eMail Address: mellis@d00m.com
+         Website URL: http://www.users.se/mellis
+      
+
+Description
+------------
+
+This is an old "Funnel-map" I made a couple of years ago...
+At the time I thought it sucked too much for being on my server,
+but when my first "(euro)Hellfunnel" map got popular I decided to upload this to NC3... 
+
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: DM-EuroHellfunnel_II
+           Game Type: Deathmatch
+            Botmatch: Yes
+       Single Player: Yes
+            Teamplay: Yes
+        New Textures: Yes
+          New Sounds: No
+           New Music: No
+        New Mutators: No
+                Mods: 
+
+====================================================================================
+Installation
+------------
+Unzip DM-EuroHellfunnel_II.unr.
+Store the *.unr or *.ut2 file in your Maps\ directory along with the others 
+(see guide below), then either doubleclick on it, or type open DM-EuroHellfunnel_II in 
+the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+*.unr and *.ut2 files go in Maps\
+*.utx files go in Textures\
+*.umx and *.ogg files go in Music\
+*.uax files go in Sounds\
+*.u, *.int, and *.ini files go in System\
+*.usx files go in staticmeshes\
+*.ukx files go in animations\
+*.ka  files go in karma\
+*.upx files go in prefabs\
+
+
+====================================================================================
+ReadMe created by NC3's ReadMe Generator.
+http://nalicity.beyondunreal.com/

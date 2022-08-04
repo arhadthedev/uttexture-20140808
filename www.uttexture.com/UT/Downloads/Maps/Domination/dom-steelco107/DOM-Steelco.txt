@@ -1,0 +1,83 @@
+================================================================
+Title                   :DOM-Steelco
+Version                 :1.07 now with stupid unused texture file included
+Release Date            :6/30/2K
+Filename                :DOM-Steelco.unr
+Author(s)               :Andrew "slamdrew" Rink
+Email Address           :slamdrew@hotmail.com and slamdrew@excite.com
+Web Page                :None at the moment but visit <shameless plug> www.hexenworld.net ! </shameless plug>
+Description             :<Lame attempt at storyline>
+			Two(or more....) factions have been looking to purchase this company headquarters.
+			The conflict has been getting rather bloody.  They have decided to fight it
+			out in the arena to decide who wins the structure.
+
+Where to get this map   :You have this file so you must have the map.....
+Other levels by author  :I'm a first time UT author so none :v)
+Additional Credits to   :Epic of course for the best game out there!  Tim Robson for beta testing,
+			 ideas, and texturing.  John Hayes for beta testing.
+
+================================================================
+--- Play Information ---
+Game                    :Unreal Tournament
+Level Name              :Company Takeover
+Single Player           :Ya mean botmatch? Yep bot support included.
+Cooperative             :Cooperate with your teammates to control the HQ
+Deathmatch              :Well if you rename it i guess so
+Dark Match              :NO!
+Difficulty Settings     :Depends what the bot skill is set too
+New Sounds              :nope
+New Graphics            :level screenshot...if that counts
+NewUnrealScript         :nope
+External DLLs           :nope, have no idea what this means anyway :v)
+Known bugs              :well, bots dont go for the megahealth on the sign even tho ive
+			 put in a jumpspot and 2 liftexits and set the tags, also i realize
+			 the outside area is kinda dull looking, but i was too unimaginitive
+			 to think of much else to put in....but other than that none really
+
+-- Construction ---
+Editor(s) used          :Unrealed2
+Base                    :Scratch
+Construction Time       :hmmm...about 27 days
+
+
+Installation
+------------
+Put it in your unrealtournament/maps directory
+citytex.utx goes in unrealtournament/textures
+
+I was using textures in citytex.utx in early builds of the map, after I realized this wasn't
+one of the textures packages included with the game, I took out the textures, but for some
+reason, UT keeps look for the unused textures!?!?!  I know its not used because I put the
+texture on a wall and right-clicked and selected matching textures, no other textures were
+highlighted.  I have no idea what happened.
+
+Extended description: A simple domination map in a city atmosphere.  Flickering street lights,
+a nice garden, and howling winds.
+--------------------
+
+
+Author's Notes
+--------------
+I'm just a 14 year old first time UT author.  I play UT, Q3A, Tribes, and Hexenworld (for Hexen II).
+Feedback on this map is welcome, I need to learn as much as I can.  I read as many tutorials
+as a could to keep this from being your typical lousy, slipshod newbie map.  Not much else to say.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Andrew Rink 2000.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

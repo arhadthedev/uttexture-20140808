@@ -1,0 +1,48 @@
+Map Title :  Psykosis Sector
+
+Author    :  Walrus(ShaMaN) aka Tony Collins
+             psykowalrus@eidosnet.co.uk
+Release
+Date      :  29 December 1999
+
+
+
+
+Game Type :  Domination, Deathmatch and Team deathmatch.
+
+             The default map file is labelled DOM-Psykosis.  To play
+             in either Deathmatch game mode simply copy the map file,
+             paste the copy back into your /maps folder and rename the
+             copy DM-Psykosis.
+
+Other
+Files     :  An earlier version of this map featured some custom 
+             textures.  They are not in this version, but UnrealED makes
+             it well on impossible to remove the record of their use in
+             a map - so I've had to include 2 small .utx files which
+             you should paste into your /textures folder.
+             Also, one of my favourite music tracks from Unreal provides
+             a pumping backround for the action - paste the .umx file
+             into your /music folder.
+
+Description :  Hard-hitting action in an urban setting with both indoor
+               and outdoor areas.  A network of catwalks is suspended
+               above the main outdoor square linking buildings and
+               rooftops.  There is plenty of scope for strategy in the
+               map with some good sniper spots, shadowy lighting, tight
+               indoor killing zones and 2 (yes, 2) Redeemers.  Neither
+               of them is easy to get to but they provide team players
+               with an invaluable tool to clear out well defended spots
+               before your teammates move in.
+               
+Ideal Loads :  In DOMination games, 2 teams of 4 or 5 are good but do yourself 
+               a favour and play with 9 players spread over 3 teams for
+               a dose of total carnage.
+               Deathmatches are good for anywhere between 3 and 8 
+               players.  Team DM play suits 3-5 players per team.
+
+Shouts !       All my superb colleagues in the ShaMaN UT Clan, in
+               particular Shadrach(ShaMaN) for the great playtesting !
+               (Don't worry mate, I've left the ASMD's in there !)
+               Also a shout to YOU for trying this map out - mail me 
+               some feedback please !

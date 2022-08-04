@@ -1,0 +1,51 @@
+//=============================================================
+// Compiler : Unreal Services // UMOD Tool v.2.0
+// Date/Time : 27/08/2003 23:37:22
+// 
+//=============================================================
+
+[Setup]
+Product=MPUK-ServerTab100
+Version=100
+Language=int
+Archive=MPUK-ServerTab100.umod
+MasterPath=
+SrcPath=C:\Working\iseries\games\ut\mods
+Requires=UnrealTournament
+Group=ini
+
+[UnrealTournament]
+Product=UnrealTournament
+Version=436
+
+[ini]
+Copy=(Src=System\Manifest.ini,Master=System\Manifest.ini,Flags = 3)
+Copy=(Src=System\Manifest.int,Master=System\Manifest.int,Flags = 3)
+ini=System\UnrealTournament.ini,UBrowserMPUK.ListFactories[0]=UBrowser.UBrowserGSpyFact,MasterServerAddress=master1.multiplay.co.uk,MasterServerTCPPort=28900,Region=0,GameName=ut
+ini=System\UnrealTournament.ini,UBrowserMPUK.bHidden=False
+ini=System\UnrealTournament.ini,UBrowserMPUK.bFallbackFactories=True
+ini=System\UnrealTournament.ini,UBrowserMPUK.ServerListTitle=Multiplay
+ini=System\UnrealTournament.ini,UBrowserMPUK.URLAppend=
+ini=System\UnrealTournament.ini,UBrowserMPUK.AutoRefreshTime=0
+ini=System\UnrealTournament.ini,UBrowserMPUK.bNoAutoSort=True
+ini=System\UnrealTournament.ini,UBrowser.UBrowserMainClientWindow.ServerListNames[10]=UBrowserMPUK
+[Setup]
+LocalProduct=Multiplay Server Tab
+ReadMe=
+SetupWindowTitle=Multiplay Server Tab Install
+AutoplayWindowTitle=Multiplay Server Tab Options
+ProductURL=http://gaming.multiplay.co.uk/
+VersionURL=http://gaming.multiplay.co.uk/
+Developer=Steven ( Killing ) Hartland
+DeveloperURL=http://gaming.multiplay.co.uk/
+Logo=
+License=
+DefaultFolder=D:\Games\UnrealTournament
+
+[UnrealTournament]
+LocalProduct=UnrealTournament
+ProductURL=http://www.unrealtournament.com/
+VersionURL=http://unreal.epicgames.com/
+Developer=Epic Games, Inc.
+DeveloperURL=http://www.epicgames.com/
+System\Manifest.ini          System\Manifest.int   I     £≈„üN  •     brkÅ

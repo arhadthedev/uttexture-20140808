@@ -1,0 +1,52 @@
+=============================================================================
+Title                : Riverbed
+Filename             : Asriverbed.ZIP (AS-Riverbed.unr, AS-Riverbed.txt, MTextSetA.utx, floatingdeath.utx and River.umx)
+Version              : 1.0
+
+Description          : Assault map for Unreal Tournament
+Author               : Grzegorz Kubicki
+Email Address        : gkubicki@hotmail.com
+
+Misc. Author Info    : Previous UT assault level: AS-Escape, AS-Submarinebase
+                      
+Thanks to            : Mickal Krall, Johan Sjostrand and David Anderson who playtested my map.
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the .unr to your unrealtournament/maps directory.
+Unzip the MTextSetA.utx and floatingdeath.utx to your unrealtournament/textures directory.
+Unzip the River.umx to your unrealtournament/music directory.
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : AS-Riverbed
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : No
+New Music               : Yes, It´s a remixed Vortex and Warlord music from Unreal game.
+New Graphics            : Some textures, and screenshots
+Ideal Player Load       : 12-14
+ 
+=============================================================================
+
+-=[ Notes ]=-
+I have noted a couple of bugs, but I´m pleased with the map (lots of action).
+As a defender you should take advantage of the base internal defense( mines, Missile turret)
+Bots play pretty solid, give it a try on a network game.
+Take notice that team colors shows pretty bad on the first floor in the main base,
+in a network game you can sneak in if you are lucky.
+Bots see you as a enemy though!
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Feel free to do whatever you want with this level, as long
+as you give me credit. 
+
+
+
+

@@ -1,0 +1,149 @@
+CTFM-AF-CyberFace Vollversion 100
+__________________________________________________
+
+
+Entwickler: 	Badboy / MasterBotAI
+----------- 	support@action-force.de
+
+Vertrieb: 	Action-Force© Studios
+--------- 	support@action-force.de
+
+__________________________________________________
+
+
+Information:
+------------
+
+	Diese Map unterstützt die UT-CTFM-Mod
+	(UT - Multi Team Capture the Flag)
+	Download: http://www.planetunreal.com/MultiCTF
+	
+	Alle Einzelteile und Komponenten der
+	Map sind Copyright by Action-Force.
+	Action-Force hat auch das alleinige
+	Recht diese Map zu vertreiben.
+	Onlinestellungen auf anderen
+	Servern im Netz sind ohne vorherige
+	Anfrage bei Action-Force untersagt!
+
+	Mail: support@action-force.de
+
+        Diese Map wurde ausschließlich mit
+        UnrealED 2.0 erstellt, darum kann man
+        sie nicht mit UnrealED 1.0 öffnen, wohl
+        aber auf allen Versionen von UT spielen!
+
+__________________________________________________
+
+
+Updates:
+--------
+
+	Deine direkte Update Site:
+	http://www.action-force.de/cyberface
+
+	oder: http://www.action-force.de
+
+__________________________________________________
+
+
+
+Installation:
+-------------
+
+	Einfach ein Doppelklick auf "Install.exe"
+	und dann den Anweisungen folgen, oder
+	die "CTFM-AF-CyberFace.unr" Map einfach in
+	das "Maps" Verzeichnis von
+	Unreal Tournament kopieren.
+
+	Falls es eine *.exe-Datei ist, reicht
+        ein einfacher Doppelklick, um die Map
+        zu installieren!
+	
+	Bei der Vollversion reicht dann ein
+	Doppelklick auf die Map, um sie anzutesten,
+	die Demo verzichtet leider standardmäßig
+	darauf. Es empfielt sich auch ein Eintrag
+	in die "CTFM-Maplisting" unter "Advanced Options"
+
+__________________________________________________
+
+
+Service:
+--------
+
+	
+	Getestet haben wir den Level
+	auf folgenden UT-Versionen:
+	
+	Betaversion 235 - nfd
+	Betaversion 267 - nfd
+	-----------------------
+	Demoversion 322 + patch
+	Demoversion 338 + patch
+	Demoversion 348 + patch
+	-----------------------
+	Vollversion 400
+	Vollversion 402
+	Vollversion 405
+	Vollversion 413
+        Vollversion 418
+        Vollversion 419
+        Vollversion 420
+	Vollversion 425
+	Vollversion 428
+        Vollversion 430
+        Vollversion 432
+        Vollversion 436
+
+	voraussichtlich wird die Map auch
+	auf allen zukünftigen Versionen
+	problemlos laufen. Falls nicht,
+	ist Action-Force dringend an einer
+	Benachrichtigung interessiert.
+	melde dich per
+	
+	Mail: support@action-force.de
+
+__________________________________________________
+
+
+bekannte Bugs:
+--------------
+	
+	- ??? -
+	
+	wenn dir selber noch etwas auffält,
+	daß dich stört, schreib einfach eine
+	
+	Mail: support@action-force.de
+
+
+__________________________________________________
+
+
+Änderungen:
+-----------
+
+	seit Version 025 (beta)
+	--------------------------
+	 8x neue Player-Starts
+	20x neue Path Nodes
+	 1x neue Skybox
+	 3x Grafikfehler minimiert
+	
+	seit Version 100 (regular)
+	--------------------------
+	keine Änderungen vorgenommen!
+
+	wenn du selber noch eine
+	Verbesserung anbringen würdest,
+	schreib einfach eine
+	
+	Mail: support@action-force.de
+
+__________________________________________________
+	
+	2001 Action-Force© Studios
+	http://www.action-force.de

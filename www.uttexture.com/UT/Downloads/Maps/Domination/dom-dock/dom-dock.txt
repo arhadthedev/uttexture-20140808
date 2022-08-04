@@ -1,0 +1,24 @@
+File Name: DOM-Dock
+Map Title: Danger Dock
+Author: Roberto 'Homeslice' Tobar
+Ideal Player Load: 8
+Map Music: Nether.umx
+Email address: roberto_tobar@yahoo.com
+Website: None yet....
+
+This map is tricky. You're trying to control 3 points in this dock of hazard. There is a Sea Shack, a Docking Bay and a Rooftop. The roof is where some of the most valuable goodies are.
+The map can run a bit on the slow side, but it won't be a problem for superfast computers. All you do when you download this is to simply extract the map onto the maps folder in C:\UnrealTournament. 
+(You can do whatever the hell you want with this readme file.) 
+
+Other maps by me, soon to be released:
+
+DM-Upsidedown
+DM-Purgatory
+DM-Aquarius
+DM-Junkyard
+DOM-Alleys
+DM-Cellblock
+
+....and any others if I decide on it. I'll make a website soon. 
+
+Happy fragging!

@@ -1,0 +1,79 @@
+================================================================
+Title                   : Buddah Temple Domination
+Version                 : 1.0
+Release Date            : September, 2000
+Filename                : DOM-Buddha
+Author                  : BIgCHeez
+Email Address           : none
+Web Page                : http://www.sonic.net/~djones/pc/
+Description             : A mountain temple made and maintained by the Buddhas
+
+Other levels by author  : A handfull of Quake 2 maps used heavily in LAN party circuits.
+Additional Credits to   : The Phrozen Crew, Brother in arms OuT, and some other fools.
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : DOM-Buddha
+New Sounds              : No
+New Graphics            : No
+New Music:		: No
+Known bugs              : None yet.
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : From scratch
+construction Time       : About a week, couple hours a day.
+
+Installation
+------------
+Unzip the the .unr file and place it into the maps directories under
+your Unreal Tournament directory. Type in "open <mapname>" to run
+the map. Alternatively, double-click the map, or start a practice
+session and select the map from the menu.
+
+Author's Notes
+--------------
+The Buddhas were a hard working people.  They spent MANY long,
+tedious years chiseling out their sacred temple from the
+mountains, using nothing but measely rock hammers.  Alas, all
+of the time and effort the Buddhas invested in this spiritual shrine
+was spent in vain.  Not more than a month after the temple was
+errected, the Liandri Corporation came and stole it from them, using
+an extreme type of violence the Buddhas did not condone.
+
+The Buddhas now pray, nobody knows where.  They pray for the
+forgiveness of the tormented souls who massacred the Buddhas and
+stole the temple.  The purity of mind that the Buddhas possess
+allows them to see past the wretchedness that most humans cannot.
+As you battle in their temple and upon sacred ground, remember
+the innocent Buddhas that were slain so that you may fight in
+these mountains.
+
+
+Copyright / Permissions
+-----------------------
+This level is not copywrited.  Most of the user made maps, if not
+all of them, are also not copywrited.  Map authors use this
+section of their readmes to intimidate people and encourage them
+not to steal/reuse/take-credit-for their maps or any parts of them
+because they would not like you to do that.
+
+Although I do not want you to use my level or parts of it for
+use in/as your own level, I cannot stop you from doing it.
+You would not be breaking the law if you did.  You would
+not be breaking the law (probably, I cannot guarantee) if you
+used parts or levels made by other map authors.
+
+Using someone else's work is not good without their permission.
+If you don't give the original author credit, then not only is it
+wrong, but it is also lying.  Howerver, pretending that a level is
+copywrited is also lying.
+
+Lying begets lying.
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.
+Distributed by GT Software, Inc. under license.  Unreal Tournament
+and the Unreal Tournament logo are registered trademarks of Epic
+Megagames, Inc. All other trademarks and trade names are properties
+of their respective owners.

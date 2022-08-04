@@ -1,0 +1,121 @@
+================================================================
+JB-Freya-III
+================================================================
+
+Modified for the 'Classic Map Pack' by Sexmachine - 2002
+
+This is the original "readme" that came with the map long time ago !
+Informations in here may be outdated !
+
+Unreal Tournament JB Map
+
+================================================================
+Title                   : Freya-III
+Finished on             : 12-10-2002
+Filenames               : JB-Freya-III.unr
+			: Dusk.umx
+			: JBArena.u
+Author                  : Eric "SnowDog" Ettes
+Email Address           : EricEttes@Freeler.Nl
+Where to get it         : www.Daikiki.com
+			: www.PlanetUnreal.com/Breakout (Great work, Thoth :)
+			: www.PlanetUnreal.com/Jailmaps (Great work, Caution :)
+Additional Credits to   : Wolf for creating an excellent tutorial
+			: Greygore and his website www.Unrealized.com for even more tutorials
+			: Daikiki & Mugsy for the Jailbreak scripting
+			: Caution of Jailmaps for hosting/promoting/reviewing my maps, you're the man !!
+			: Thoth of Breakout for promoting/reviewing my maps
+			: All users of the Daikiki message board for their great feedback :P
+			  (especially the GOOD feedback) :P
+			: The testing team
+================================================================
+
+--- Play Information ---
+Game                       : Unreal Tournament
+Level Name                 : Freya
+Single Player              : JailBreak
+Cooperative                : Yes
+Deathmatch                 : No 
+Dark Match                 : No
+Difficulty Settings        : No
+New Sounds                 : Dusk Horizon by Alexander Brandon, "borrowed" from Unreal
+New Graphics               : No
+NewUnrealScript            : Yes, JBArena.u scripted by Daikiki
+External DLLs              : The Jailbreak Mod (www.Daikiki.com)
+Recommended no. of players : 12-20 (using the Addbots X command)
+Known bugs                 : Fixed all I could find
+
+================================================================
+
+--- Story ---
+
+Four millennia ago, a prosperous town on Freya became victim of a meteor rain.
+Little inhabitants survived the horrible twist of nature, and the few who 
+remained, quickly started claiming the barren landscape to grow food and
+build their new shelter....They worked hard for their new life, and soon 
+grass and other plants started to sprout....
+
+The village started to grow, but not every place on Freya was as pure as 
+the other, and people aggressively started to steal, even murder. Two 
+clans were eventually formed. People, once loving and caring for eachother 
+now slaughtered and emprisoned their former allies. Brutal ways of torture awaited 
+for the jailed....
+
+This war, dividing the town into two little villages continued until now.
+The reason of this neverending battle has already been forgotten a long time,
+but the people never think of stopping the war of their ancestors... for many sick 
+minds it has become a sort of twisted game...
+
+....A game of Slaughter....
+		          ....Torture....
+				          ....Revenge....
+
+....the game of Jailbreak....
+
+================================================================
+
+--- Description ---
+
+Read story :P
+
+It took me some time because of the BSP's and the instant Crater(tm) bug (all fixed)
+It supports about 20 players and JBArena so I hope you like the result.
+
+Plz send some feedback to EricEttes@Freeler.Nl
+
+AAhhhhh time for some rest.....
+
+================================================================
+
+--- Construction ---
+Editor(s) used          : UED v1.0
+Base                    : Scratch
+Construction Time       : About 25 Hours
+
+--- Installation ---            
+
+First of all, you must have the Jailbreak mod installed. (Available at www.Daikiki.com)
+After that you should :
+1> Put the .Unr file in your /maps   directory
+2> Put the .U   file in your /system directory
+3> Put the .Umx file in your /music  directory
+
+This extra .U file has been coded by Daikiki. It adds a new feature to the Jailbreak game :
+the Arena mode. Check out www.Daikiki.com for more info.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Eric Ettes 2001.
+You may use anything from it as long as you give me some credit.
+
+JBArena.u is copyrighted by Daikiki & Mugsy 2001... Don't modify without asking the authors 
+- Twitch@Dds.nl
+- Mugsy@Barking-Dog.com
+
+Dusk.umx done by Alexander Brandon of Straylight productions
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

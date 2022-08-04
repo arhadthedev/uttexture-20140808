@@ -1,0 +1,64 @@
+Unreal Tournament JB Map
+
+================================================================
+Title                   : JB Without Purpose
+Version                 : Release 1.0
+Release Date            : 7/20/01
+Filename                : JB-WithoutPurpose.unr
+Author                  : Bill 'DireIce' Hamilton
+Email Address           : Zone@Battlezinc.com
+Web Page                : http://www.battlezinc.com/utmaps
+
+Description             : A double base layout with a large gapping abyss 
+                          separating each.
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : JB Without Purpose (JB-WithoutPurpose.unr)
+
+Game Type               : JB
+Single Player           : yes
+Multiplayer             : yes
+New Sounds              : yes
+New Graphics            : no
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : New level
+
+
+Installation
+------------
+
+Execute the withoutpurpose.umod
+
+You can then choose JB-WithoutPurpose.unr from the "start practice session\UTJB" menu. 
+
+
+Copyright / Permissions
+-----------------------
+Special Thanks to Sidney 'Clawfist' Rauchberger (http://www.planetunreal.com/clawfist/)
+for his CTF-Gazpacho, which was inspiration and design modle for CTF-WithoutPurpose!
+
+NOTE:To play a multiplayer game using the JBSpecials add the following line to 
+   your UnrealTournament\System\UnrealTournament.ini
+   
+This level is copyrighted by Bill Hamilton, 2001.
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

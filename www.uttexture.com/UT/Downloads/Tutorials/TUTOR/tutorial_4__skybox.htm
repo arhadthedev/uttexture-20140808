@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Tutorial #4 - SkyBox</title>
+
+
+<meta name="Microsoft Theme" content="none"><meta name="Microsoft Border" content="none"></head>
+
+<body bgcolor="#000000" text="#00FF00" link="#FFFF00" vlink="#00FFFF" alink="#FFFFFF">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><table border="0" width="100%">
+      <tr>
+        <td width="33%"><strong><font face="Verdana"><small>Tutorial #4: SkyBoxes</small><br>
+        <small><small><small>(.UNR not yet available)</small></small></small></font></strong></td>
+        <td width="33%" align="center"><p align="center"><a href="mailto:escarcho@home.com"><strong><small><font face="Verdana">Author: Orion</font></small></strong></a></td>
+        <td width="34%" align="right"><strong><small><font face="Verdana">Last Updated: May 25th</font></small></strong></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><font face="Verdana" color="#0000FF" size="6"><u><b>Unreal Tutorial #4<br>
+    </b></u></font><font face="Verdana" color="#0000FF">SkyBoxes</font><p><font face="Verdana">Before
+    you begin, please have your display set to 1024x768 if possible. It is absolutely
+    dreadful, in my opinion, to run UnrealEd at any other resolution. Also, if this seems
+    confusing in any way, feel free to come to Efnet #unrealed and ask me there, please do not
+    email me. I use the nick Orion. </font></p>
+    <p><font face="Verdana">Also, PLEASE read the readme.txt that came with your unreal game
+    and the first two tutorials. They are extremely invaluable, and will help you
+    tremendously.</font></p>
+    <p><font face="Verdana">If you are in a quake/duke3d/doom mindset about skies, please
+    remove yourself from this mindset right now. A sky in unreal is much different. Think of
+    it this way: The ceiling of any room can be used as a television set, and there is a
+    camera way off in space somewhere aimed at a sky. If that sounds confusing, dont fret. You
+    will understand. Let's Proceed.</font></p>
+    <u><p><big><strong><big><font face="Verdana">Step 1</font></big></strong></big></u></p>
+    <p><font face="Verdana">Create your basic square room. Resize it so that it suits you and
+    subtract it. I have found that all of my favorite textures are in the PlayerShp texture
+    file. Now, in the 3d view, right click on the ceiling of your newly created room and bring
+    up it's surface properties. Be sure that you only have the ceiling selected, or it will
+    cause problems later. In the surface properties, click on the <em><strong><font color="#FFFFFF">Effects</font></strong></em> tab, and click the checkbox <font color="#FFFFFF"><em><strong>Fake Backdrop</strong></em></font>. Close the surface
+    properties window.</font></p>
+    <p><font SIZE="2">&nbsp;</p>
+    <p></font><img src="first.jpg" alt="first.jpg (73261 bytes)" WIDTH="533" HEIGHT="577"><u></p>
+    <p><big><strong><big><font face="Verdana">Step 2</font></big></strong></big></p>
+    <p></u>&nbsp;</p>
+    <p><font face="Verdana">Now move your brush somewhere else, completely unrelated to the
+    room you just constructed. Make the room shorter than the room you just build off to the
+    side, and select a sky texture (there is a nice cloud texture at the bottom of SkyBox).
+    Subtract. You should now have something that looks like this:</font></p>
+    <p><img src="second.jpg" alt="second.jpg (18966 bytes)" WIDTH="371" HEIGHT="347"></p>
+    <p><u>&nbsp;</p>
+    <p><strong><big><big><font face="Verdana">Step 3</font></big></big></strong></u></p>
+    <p><font face="Verdana">Now you will add a <font color="#FFFFFF"><em><strong>SkyZoneInfo</strong></em></font>
+    tag into the room that looks like a sky. This is in
+    &quot;Classes-Info-Zoneinfo-SkyZoneInfo.&quot; Right click inside of your skybox, and
+    select <em><font color="#FFFFFF"><b>Add SkyZoneInfo here</b></font></em>.</font></p>
+    <p><u>&nbsp;</p>
+    <p><strong><big><big><font face="Verdana">Step 4</font></big></big></strong></u></p>
+    <p><font face="Verdana">Right click on the ceiling of your skybox and select Surface
+    Properties. In the far right column, click the checkbox that reads <strong><em><font color="#FFFFFF">U-Pan</font></em></strong>. Add a playerstart in the first room that you
+    created, some lights in both rooms, rebuild, and run your level.</font></p>
+    <p><font face="Verdana">When you ran your level, were you able to see a &quot;box&quot; of
+    sky, and able to see 3 sides of your skybox? If so, here is how to fix it. Simply delete
+    your skybox and create a much shorter one. Move the lights into it as well as the
+    zoneinfo, and you are set. If that does not fix the problem, you can make your original
+    room a little taller.</font></p>
+    <p><font face="Verdana">Here is what my final product looked like:</font></p>
+    <p><img src="third.jpg" alt="third.jpg (24364 bytes)" WIDTH="360" HEIGHT="342"></p>
+    <p><u>&nbsp;</p>
+    <p><big><big><strong><font face="Verdana">What did I just do?</font></strong></big></big></u></p>
+    <p><font face="Verdana">You just used a technique known as a &quot;skybox&quot; to emulate
+    a sky in unreal. The ceiling of your first room acted as a television set, looking through
+    a camera (SkyZoneInfo actor) pointed towards the sky. Now, any other wall that you select
+    a &quot;fake backdrop&quot; on will look through the same camera.</font></p>
+    <p><u>&nbsp;</p>
+    <p><strong><big><big><font face="Verdana">What if I want to use another sky somewhere,
+    with a different texture?</font></big></big></strong></u></p>
+    <p><font face="Verdana">You will have to create a new room directly over the room you want
+    to have a different sky on, and subtract square brushes inbetween to make
+    &quot;windows&quot; to your new sky.</font></p>
+    <p>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

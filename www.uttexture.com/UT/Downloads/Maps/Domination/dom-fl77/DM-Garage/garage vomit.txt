@@ -1,0 +1,69 @@
+================================================================
+Title                   : garage shootout 
+Version                 : it's not perfect but its final(for me)	
+Release Date            : 1/16/2000
+Filename                : DM-Garage shootout 
+Author(s)               : sleepyhead
+Email Address           : magicsleeper@aol.com
+Web Page                : http:/homtown.aol.com/magicsleeper/myhomepage/games
+Description             : A "medium sized" deathmatch
+
+Where to get this map   : me or nali city 
+Other levels by author  : DOM-Flathouse
+Additional Credits to   : The guys at Epic for making a kickass game!
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Dm-garage
+Single Player           : (Botmatch)
+Cooperative   (team)    : yes
+Deathmatch              : YES
+Dark Match              : no
+ctf                     : no
+assault                 : no
+domination              : no
+Difficulty Settings     : no 
+New Sounds              : no
+New Graphics            : no
+NewUnrealScript         : no
+External DLLs           : no
+Known bugs              : maybe. the level. it plays.
+
+--- Construction ---
+Editor(s) used          : UnrealEd Beta
+Base                    : n/a
+Construction Time       : 3 days to make 3days to test
+
+
+
+Installation
+------------
+Unzip this map into your \unreal tounament\maps directory and then select it from the Deathmatch or team deathmatch
+Extended description: i used DM-Stalwart by alan (talisman) wilard for inspiration
+--------------------
+
+
+Author's Notes
+--------------
+I hope you enjoy this map and please send me feedback on it. Level designers live and die by feedback. Good or bad, tell me what you think of this map.
+Thanks to everyone who helped me play test this map. (death circus check out his web sight)
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Joe Wharton (a.k.a. Sleepyhead)
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL TOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

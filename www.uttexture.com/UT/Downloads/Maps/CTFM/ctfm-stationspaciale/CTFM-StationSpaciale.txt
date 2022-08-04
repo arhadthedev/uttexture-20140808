@@ -1,0 +1,44 @@
+==============================================
+Map for mod MultiTeam CTF of Unréal Tournament
+==============================================
+-----------------------------------------------------------------------------
+
+	CTFM-StationSpaciale
+
+-----------------------------------------------------------------------------
+Map name:			StationSpaciale
+Game type:			MultiTeam CTF
+Recomended player count:	4x3 => 12
+Stature:			small
+Weapons available:		[ ]
+Téléporteur:			[ ]
+Rejoin Teams:			[x]
+
+New Sounds: 			No
+New Graphics: 			Yes, in 'MyLevel'
+
+Editor used:			UnrealEd v2.00 (UTv436)
+Release Date:			19/05/01
+Build time:			1 days (12 hours)
+-----------------------------------------------------------------------------
+Author:				Crokx
+E-Mail:                  	Crokx@Infonie.fr
+
+Other levels by author:		CTFM-FatalDecks
+				CTFM-GiantsTowers
+				CTFM-InoxxStation
+				CTFM-LavaForme
+				CTFM-LavaForme][
+				CTFM-MarsStation
+				CTFM-Modern
+				CTFM-Mortal
+				CTFM-Rédemption
+				CTFM-Sewer
+				CTFM-SlimeRotor
+				CTFM-SnipeDream
+				CTFM-TestRoom]I[
+				CTFM-Tutorial][
+-----------------------------------------------------------------------------
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ -=> Unreal Tournament (c)1999 Epic Megagames, Inc. <=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

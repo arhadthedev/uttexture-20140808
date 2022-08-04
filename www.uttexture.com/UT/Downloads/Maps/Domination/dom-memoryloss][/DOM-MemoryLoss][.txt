@@ -1,0 +1,62 @@
+Unreal Tournament Map
+
+================================================================
+Title                   : Memory Loss
+Version                 : 1
+Filename                : DOM-MemoryLoss][.unr
+Author                  : Niall Moody AKA FunnyG
+Email Address           : moodyfamily@madasafish.com
+Web-Site                : http://scorpius.spaceports.com/~funnyg/
+Description             : A fairly simple outdoor domination level.  I'd recommend you play 			  with the translocator.  This version has a couple of things fixed 			  that I hadn't noticed at first, mostly to do with bots.
+
+Additional Credits to   : Epic Megagames (http://unreal.epicgames.com/)
+			  The Deltron 3030 album, for the name.                          
+			  
+			  
+Date:11/05/01
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : Memory Loss][          
+
+Game Type               : Domination
+Single Player           : yes
+Multiplayer             : yes
+New Sounds              : No
+New Graphics            : No
+Max Polys               : About 160, but only in one place I think.  Mostly they're OK.
+Known Issues/Bugs       : Bots use the translocator more than they did, but it still 			  doesn't happen that often.
+			  There's a small hole in the cliff with the round cave.  I only 			  noticed it after I'd finished building the level, but it won't 			  detract from the gameplay.
+			  When looked at from above, the catwalks surrounding the round 			  platform look a bit like a swastika.  This was an accident, and 			  does NOT indicate Nazi sympathies on my part.
+			  Bots can't get to the sniper position above the waterfall, but 			  that's ok I think, as I can't get there myself most of the time.
+
+--- Construction ---
+Editor(s) used          : UnrealEd 
+Base                    : New level
+
+
+Installation
+------------
+   Unzip the file DOM-MemoryLoss][.unr into your UnrealTournament\maps directory.  You can      then choose 'DOM-MemoryLoss][' from the "start practice session\domination" menu.
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Niall Moody 2001.
+Authors are free to use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

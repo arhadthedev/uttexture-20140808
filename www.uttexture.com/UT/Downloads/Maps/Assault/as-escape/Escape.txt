@@ -1,0 +1,57 @@
+=============================================================================
+Title                : Escape
+Filename             : AsEscape.ZIP (AS-Escape.unr, AS-Escape.txt, HmmwvPrefab.utx, Escape.umx)
+Version              : 1.2
+
+Description          : Assault map for Unreal Tournament
+Author               : Grzegorz Kubicki
+Email Address        : gkubicki@hotmail.com
+
+Misc. Author Info    : Previous UT assault level: Submarinebase
+                      
+Thanks to            : A few sites that gave Submarinebase a "great" review.....:)
+                       for those who didn´t know It was my first created level with
+                       Unreal editor engine.
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the .unr to your unrealtournament/maps directory.
+Unzip the HmmwvPrefab.utx to your unrealtournament/textures directory.
+Unzip the Escape.umx to your unrealtournament/music directory.
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Maps                    : AS-Escape
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : No
+New Music               : Yes, It´s a remixed Moroset mod from Napali
+New Graphics            : Some textures, and screenshots
+Ideal Player Load       : 8-14
+ 
+=============================================================================
+
+-=[ Notes ]=-
+Ver 1.2
+Some Bug fixes, and a couple small additions.
+Tired to make the map run smoother but it´s just impossable do to the large outdoor area..sorry.
+Softer eartquakes, and some of the autominigus are gone.
+If you suffer low framerate it depends on the large outdoor areas, I tried to optimize the
+level but didnt help much.
+
+
+
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Feel free to do whatever you want with this level, as long
+as you give me credit. 
+
+
+
+

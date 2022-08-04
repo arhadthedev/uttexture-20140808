@@ -1,0 +1,75 @@
+================================================================
+Title                   : Slipstream
+Version                 : 1.0
+Release Date            : August 01, 2004
+Filename                : JB-Slipstream.unr
+Author(s)               : THE ]V[ATTerminator (CTF version)
+                          CoolDude (JB conversion)
+Email Address           : cooldude@12move.nl
+                          cooldudes1999@hotmail.com
+Web Page                : www.planetjailbreak.com
+Description             : See the notes section
+Other levels by author  : JB-Nucleus, JB-Cybrosis-][
+================================================================
+
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Slipstream
+Game Type               : JailBreak
+New Sounds              : Embedded
+New Graphics            : Embedded
+NewUnrealScript         : Embedded
+External DLLs           : N/A
+Known bugs              : One very small BSP problem which I could not get 
+rid off
+                          (I'm not gonna tell you where)
+
+--- Construction ---
+Editor(s) used          : UnrealED 2
+Construction Time       : Way too long
+Base                    : CTF-SlipStream (THE ]V[ATTerminator)
+
+
+Special thanks to
+-----------------
+THE ]V[ATTerminator for making CTF-Slipstream.
+Rob for the use of some of his screenshots.
+Everybody in the JailBreak community, who inspired me to do something 
+usefull with my spare time.
+
+
+Notes
+-----
+THE ]V[ATTerminator used DM-Hyperblast for the base of CTF-Slipstream in 
+which he mirrored the HyperBlast ship.  I liked playing CTF-Slipstream and 
+thought it would be a nice JailBreak level.  Sure, there already was a 
+JB-HyperBlast available, but in that map the bases were too close together.  
+I left most of CTF-SlipStream in tact (why change a good map), and I just 
+added the JailBreak components (Jails, Release Mechanisms, Arena, etc.).
+
+I'm not really a mapper, I'm not really a coder, I just love JailBreak.
+Never played JailBreak before? Shame on you!
+Get the Mod at www.planetjailbreak.com
+
+Installation
+------------
+Unzip the the .unr file and place it into the maps directories under your 
+Unreal Tournament directory. Start a practice session, choose JailBreak and 
+select the map from the menu.
+
+
+Copyright / Permissions
+-----------------------
+Authors may use this level as a base to build additional levels, both 
+]V[ATTerminator and I did.
+You may distribute this level through any electronic network, provided you 
+include this file and leave the archive intact.
+
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by
+GT Software, Inc. under license.  Unreal Tournament and the Unreal 
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other 
+trademarks and trade names are
+properties of their respective owners.

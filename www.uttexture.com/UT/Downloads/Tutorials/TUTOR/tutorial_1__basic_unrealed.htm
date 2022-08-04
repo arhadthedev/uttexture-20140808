@@ -1,0 +1,313 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Tutorial #1 - Basic UnrealED</title>
+
+
+<meta name="Microsoft Theme" content="none"><meta name="Microsoft Border" content="none"></head>
+
+<body bgcolor="#000000" text="#00FF00" link="#FFFF00" vlink="#00FFFF" alink="#FFFFFF">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><table border="0" width="100%">
+      <tr>
+        <td width="33%"><strong><font face="Verdana"><small>Tutorial #1: Basic UnrealED</small><br>
+        <a href="http://www.creativecarnage.com/unreal/tutorial1.unr"><small><small><small>(click
+        to download .UNR)</small></small></small></a></font></strong></td>
+        <td width="33%" align="center"><a href="mailto:mrsin@creativecarnage.com"><strong><small><font face="Verdana">Author: Dr. SiN</font></small></strong></a></td>
+        <td width="34%" align="right"><strong><small><font face="Verdana">Last Updated: May 24th</font></small></strong></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><font face="Verdana"><font color="#0000FF"><u><b><font size="6">Unreal
+    Tutorial #1<br>
+    </font></b></u>Getting to know UnrealED (revision 5.24)</font><b><p><font color="#FF0000">Introduction:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>This is the first tutorial in a set I&#146;m working. It&#146;s actually an update of
+    one I released late yesterday. We have found out a lot more information about the editor
+    and the effects.</p>
+    <p>In this tutorial, we will go over some of the basics of Unreal Editing, how to use the
+    engine, the tools, etc. We will also cover some of the terminology. Some of the
+    information may be incomplete as we are just figuring everything out myself. If you have
+    any suggestions, corrections or additional information please drop me some email at </font><a HREF="mailto:mrsin@creativecarnage.com"><font SIZE="2">mrsin@creativecarnage.com</font></a><font FACE="Verdana" SIZE="2">. It&#146;s my hope that tutorials like this will help us all
+    figure out UnrealED faster.</font><b><font FACE="Verdana"></p>
+    <p><font color="#FF0000">The Editor:</font></font></b><font FACE="Verdana" SIZE="2"></p>
+    <p>When you first start UnrealED, you will be presented with a complex set of windows and
+    toolbars. That will look something like the following&#133;</p>
+    <p align="center"><a href="http://www.creativecarnage.com/unreal/main.gif"><img src="main.gif" width="623" height="349" alt="main.gif (84116 bytes)" border="0"></a><br>
+    </font><font FACE="Verdana" size="1">(click on the image to view full size)</font><font FACE="Verdana" SIZE="2"></p>
+    <p>Now your screen layout may very (ie: I&#146;ve changed mine around to suit me). The
+    first thing you will notice are the 4 view windows on the left. These are Top (upper
+    left), Side (upper right), front (lower right) and 3D view (lower left). It&#146;s in here
+    you will see the actual blueprints to your level. </p>
+    <p>On the very right edge of your layout is your browser. Here you can view the differnet
+    objects within Unreal. By default, this browser shows you all the textures you have
+    currently loaded. </p>
+    <p>Between the views and the browser is your command toolbar. Here is where you select any
+    of the action you are going to perform. Everything from rotate to adding/subtracting a
+    brush is selected from here.</p>
+    <p>Finally a standard Win95 menu bar is found on the top of the screen.</p>
+    </font><b><font FACE="Verdana"><p><font color="#FF0000">The Command Toolbar:</font></font></b><font FACE="Verdana" SIZE="2"></p>
+    <p>The command toolbar is very important. It&#146;s here where you will go to select how
+    to interact with the level you are designing. Many of the icons are self-explanatory and
+    some of the more dificult ones will be covered in later tutorials. Let&#146;s look at the
+    most commonly used icons:</p>
+    <p align="center"><img src="toolbar.gif" alt="toolbar.gif (30869 bytes)" WIDTH="432" HEIGHT="555"></p>
+    <b><p></font><font FACE="Verdana" size="3">Move/Move Faster:</font><font FACE="Verdana" SIZE="2"> </b>These 2 icons reset the controls of the editor to their default (move). I
+    don&#146;t suggest ever using Move Faster as you tend to lose whatever it is your working
+    on.<b></p>
+    <p></font><font FACE="Verdana" size="3">Rotate Brush:</font><font FACE="Verdana" SIZE="2">
+    </b>Select this icon when you wish to rotate your current brush.</p>
+    <b><p></font><font FACE="Verdana" size="3">Scale Brush (No Snap):</font><font FACE="Verdana" SIZE="2"> </b>Select this icon to scale your current brush without snapping
+    it&#146;s movement to your current grid size.<b></p>
+    <p></font><font FACE="Verdana" size="3">Scale Brush (Snap):</font><font FACE="Verdana" SIZE="2"> </b>Same as above, but snaps it to your current grid size.</p>
+    <b><p></font><font FACE="Verdana" size="3">Constrained Scale:</font></b><font FACE="Verdana" SIZE="2"> This icon allows you to scale an object from a given edge.&nbsp; </p>
+    <b><p></font><font FACE="Verdana" size="3">Skew Brush:</font></b><font FACE="Verdana" SIZE="2"> This allows you to skew a brush in order to deform it&#146;s shape.</p>
+    <b><p></font><font FACE="Verdana" size="3">Position Texture:</font></b><font FACE="Verdana" SIZE="2"> This icon allows you to quickly reposition a selected texture
+    move scrolling it up/down/left/right.</p>
+    <b><p></font><font FACE="Verdana" size="3">Rotate Texture:</font></b><font FACE="Verdana" SIZE="2"> This icon allows you to rotate a selected texture.</p>
+    <b><p></font><font FACE="Verdana" size="3">Use Cube/Sphere/etc:</font></b><font FACE="Verdana" SIZE="2"> These icons (the bottom 8 on the very right of the toolbar) are
+    used to select which BRUSH you are going to be working with. The place down very basic
+    shapes that can then be used to design your world.</p>
+    <b><p></font><font FACE="Verdana" size="3">Add Brush to World:</font></b><font FACE="Verdana" SIZE="2"> Click on this icon to add a brush to the world. What this
+    actually does will become very clear in a minute.</p>
+    <b><p></font><font FACE="Verdana" size="3">Subtract Brush from World:</font></b><font FACE="Verdana" SIZE="2"> This will remove a brush from the world. Like the icon above,
+    it&#146;s purpose will become clear in a minute.</p>
+    </font><font FACE="Verdana"><b><p></b><big><font color="#FF0000"><big>Controls:</big></font></big></font><font FACE="Verdana" SIZE="2"></p>
+    <p>The first thing you need to learn about the editor is how to move around in it. There
+    are some specifics that you need to know and they will be covered here.</p>
+    <b><p></font><font FACE="Verdana" size="3">Scrolling around your map (2D views):</font></b><font FACE="Verdana" SIZE="2"> When you are in one of the 2D views (top, front, side) you use
+    the mouse to move your viewpoint. Simply click (left or right) on the map and move the
+    mouse to change your view. If you wish to zoom in or out, you need to hold both mouse
+    buttons down.</p>
+    <b><p></font><font FACE="Verdana" size="3">Scrolling around your world (3d view):</font></b><font FACE="Verdana" SIZE="2"> The controls to move around in your 3D view are a bit different
+    depending on which mouse button you use. If you press the left mouse button, horizontal
+    mouse movement will turn you left and right while vertical mouse movement will move your
+    viewpoint in and out. If you press the right mouse button you will be locked in place, but
+    be able to turn in any direction (left/right or up/down). This is good for reorienting
+    yourself. Finally, hold down both mouse buttons and you now strafe in the direction you
+    move the mouse.</p>
+    <p>So the mouse buttons effect how you move around in the view&#133; well how do you
+    interact and move brushes/actions? It&#146;s simple&#133; you use the CTRL and ALT keys!</p>
+    <b><p></font><font FACE="Verdana" size="3">Interacting with Brushes/Actors:</font></b><font FACE="Verdana" SIZE="2"> To interact with a brush/actor, select it then hold down <b>CTRL</b>
+    while performing a function upon it. In this mode, your mouse buttons restrict the
+    directions in which you can modify the brush. For example, to scale your brush, select it,
+    click on the scale ICON, hold down CTRL. You are now ready to scale it. If you hold down
+    the left mouse button, you can only scale the brush left to right. If you hold down the
+    right mouse button, you can only scale the brush up and down. Hold down both buttons and
+    you can scroll them in any direction.</p>
+    <p>Notice I stayed away from X/Y/Z! When you make an adjustment to a brush the adjustment
+    is relative to the view you are using. For example, on the side view, up/down motion makes
+    the brush taller while on the top view, the same up/down motion makes the brush wider.</p>
+    <b><p>ALT</b> is an EXTREMELY important key used to modifying brushes. This toggle allows
+    you to directly modify the vertexes that make up the brush. You will use this feature to
+    create slopes and other strange shapes.</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">WHAT... Only 1 Brush?</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>I know many of you reading this have been building Quake and Quake 2 levels for
+    years&#133; working with UnrealED is VERY different than building a level in Q/Q2!
+    UnrealED works much more like the Build editor that came with Duke Nukem (made by 3D
+    Realms). Unlike Q/Q2 editors you do not simply place polygons in space and hope you
+    don&#146;t have any leaks. In UnrealED you start with a huge solid mass and carve rooms
+    out of it.</p>
+    <p>Think of it this way.. instead of building a house of cards (like in Quake/Quake2) you
+    have a huge block of clay. You create your level by cutting rooms out of the block of
+    clay. Of course at any time you can add clay in to the empty spaces you created.</p>
+    <p>With this said, you really only have 1 brush. This brush is more like a cookie cutter
+    in that it is used to shape the world before you delete (or add) part of it.
+    Confusing&#133; a little but once you start working with them, everything will become
+    clear.</p>
+    <p>The best difference between UnrealED and Q/Q2 editing is little to no compile time. A
+    huge map in Unreal takes less than 1 minute to rebuild on my P2-333 where even a medium
+    map in Q/Q2 would take 20-30 minutes. Of course with UnrealED you also see exactly what
+    you are going to get.</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">On Tap for Today:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>So now that we have a good idea of how to use the editor. What are we going to do with
+    it. In this tutorial we will create 2 rooms connected by a hallway. We will go over basic
+    editing principles, learn how to add lights and actors. We will also take a quick look at
+    altering the geometry of a brush through vertex manipulation. So, let&#146;s being.</p>
+    <p>&nbsp;</font><font color="#FF0000" FACE="Verdana" size="3"><b>Building Our First Room:</b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>Let&#146;s place down our first room. On the command toolbar, select the <font color="#FFFFFF"><i><b>Use Cube Brush</b></i></font> icon. A cube will now appear on your
+    view windows. Move your view until you see the cube brush. You will probably want to move
+    the cube to a new location so click on the <font color="#FFFFFF"><i><b>Move</b></i></font>
+    icon, select your brush in one of the 2D views and hold down both mouse buttons. Position
+    it until your happen. Remember to adjust it&#146;s position in all 3 views.</p>
+    <p>Once you have your room where you want it, you need to carve it out. But before we do
+    this step, we should decide what texture we want to assign to them.</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">Picking your Textures:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>It&#146;s a good time to take a look at the browser. On the very right side of the
+    layout you have the browser. It&#146;s here where you go to pick textures or select actors
+    to add to the game, etc. To select which set of objects to browse you use the pick list at
+    the very top. By default this list is set to TEXTURES. The other types are Classes (actors
+    and effects), SoundFX (sounds) and Music. For right now we are concerned with the Textures
+    so let&#146;s talk about them.</p>
+    <p>When you select textures, you will be shown a listing of the textures in the current
+    texture set. You can use the scrollbar to view them all. Underneath the pick list for the
+    browser (when browsing textures) is a pick list that will display all of the textures
+    groups currently being used in this map. You can quickly use this to jump between the
+    different texture groups.</p>
+    <p>To load a new texture group (so you can pick textures from it), you want to click on
+    the <b>LOAD</b> button at the bottom of the browser. You will then be given a list of .UTX
+    files. These are Unreal TeXture files and have the graphics stored in them. You can use
+    textures from inside ANY of these files.</p>
+    <p>You will notice on the browse that right above the display of textures there are 6
+    buttons. The middle 3 determine how textures are displayed in the list. either 1 at a
+    time, side by side or several at once.</p>
+    <p>Now that you know how to pick textures, let&#146;s finish off our first room. Load the
+    texture group STARSHIP.UTX. Now pick a nice wall texture. For our example I choose <i><b>BLUE1</b></i>.
+    Highlight Blue1 and then click on the <font color="#FFFFFF"><i><b>Subtract from World</b></i></font>
+    icon. BOOM&#133; you should now see a room on your 3D view. This is a good time to
+    practice moving around in the 3D view to get used to how it works. In time, it will become
+    very natural.</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">Changing Textures:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>We now have a hollow block (ie: a room) that&#146;s all one texture. Preaty damn ugly.
+    Well it&#146;s very simple to change the appearance of a wall, etc. Let&#146;s start by
+    changing the ceiling to a better texture. In the 3D view, click on the ceiling of the
+    room. Notice how it highlights. Now go to browser and pick a new texture. For this example
+    I chose <i><b>BASE_SHD</b></i>. Double-click on the texture and you will see it change in
+    the 3D view. But wait&#133; UnrealED scales the texture to fit the whole ceiling and now
+    it&#146;s too big.</p>
+    <p>To alter the scale or rotation of a texture, select it, right-click and select Surface
+    Properties (Alt-P). You will be given a menu with 6 different options.. Effects, Rotate,
+    Pan, Align, Scale and Editor. For this example, we are only interested in Scale so click
+    on it. The quickest way to scale the texture is to use simple scaling. This will adjust
+    both the U and V scale by a given percent. </p>
+    <p>It&#146;s important to remember that UnrealED trying to fit the texture to the plane.
+    This means the numbers you see here the first time you come to this menu MAY or MAY NOT be
+    correct. In our case, they probably are not. So click on <font color="#FFFFFF"><i><b>Apply</b></i></font>
+    under the simple Scaling and see what it does. Ah... much better. Take some time and
+    change the floor to something better.</p>
+    <p>Ok, so the ceiling are floor are now preaty but you don&#146;t like the texture you
+    chose for the walls. It&#146;s ok.. changing them is just as easy, especially since
+    UnrealED allows you to select and work on more than one surface at a time. In the 3D
+    view&#133; move your viewpoint inside of the room. Point at the first wall and click on
+    now. Now rotate around and hold down <i><b>CTRL</b></i> while clicking on all of the other
+    walls. You will notice that they will all get selected and you can now work on them all at
+    once.</p>
+    <p>What some of your textures on the wall didn&#146;t line up? There are 2 icons on the
+    command toolbar that are used to align textures. These are <font color="#FFFFFF"><i><b>Position
+    Texture</b></i></font> and <font color="#FFFFFF"><i><b>Rotate texture</b></i></font>. Take
+    some time and play with them and get used to how they work.</p>
+    </font><font FACE="Verdana"><b><p><font color="#FF0000">On to the Hall:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>Ok we built and textured our first room so let&#146;s keep moving and build the hall.
+    Remember that with Unreal you only have 1 brush and that brush is probably already on the
+    screen. Click on the <i><b>Move</b></i> icon and select the room you just build in any of
+    the 2D views. You should now be able to move the brush to a new location.</p>
+    <p>Reshape the brush so it&#146;s hall shaped (a long cube should be good and position it
+    where you want the hall to go. Make sure one end of the cube touches one of the walls of
+    your first room. You also want to go to the side or front view and make sure the hallway
+    sits on the ground or close enough so the player can get in to it (for this example, place
+    it right on the ground).</p>
+    <p>Once your brush is in place, pick a texture and <font color="#FFFFFF"><i><b>Subtract
+    Brush from World</b></i></font>. You should now be able to see in to the hallway from your
+    original room. If not the rooms where not touching. If you made a mistake, press <font color="#FFFFFF"><i><b>UNDO</b></i></font> and try it again.</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">Two rooms with a view:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>It&#146;s time to create the second and final room. Follow the steps above for a
+    hallway, but this time, don&#146;t line up the floors. We the hallway to enter this room
+    above ¼ of the way up the wall (you will see why in a minute). Remember it&#146;s
+    important that the room touches the hallway at the points of intersection.</p>
+    </font><font FACE="Verdana"><b><p><font color="#FF0000">Vertex Manipulation:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>At this point.. SAVE YOUR MAP!&nbsp; Vertex manipulation in UnrealED is buggy at best.
+    &nbsp; I suggest always saving right before you do any.&nbsp; The biggest bug is that you
+    cannot drag a vertex on to another vertex.&nbsp; Try it for kicks.. crashes the editor
+    toot-sweet!</p>
+    <p>Right now you are probably wondering why I had you make the hallway enter ¼ the way up
+    the wall. Simple, we are going to build a ramp that allows a player to walk up to the
+    hallway. This is an important step since it&#146;s teaches how to do Vertex Manipulation.</p>
+    <p>Vertex Manipulation allows you to modify the shape of a brush. You can make a cube in
+    to the slope, etc. So how do we do this! You should already have a cube brush selected.
+    Click on the <font color="#FFFFFF"><i><b>MOVE</b></i></font> icon and move the brush so
+    one end of it touch the wall connected to the hallway. Now <font color="#FFFFFF"><i><b>Scale</b></i></font>
+    the brush until it is grid block higher than the lip under the hall. Stretch it out a bit
+    to make a subtle slope. </p>
+    <p>Once your block is set, you need to perform some vertex manipulation to make the slope.
+    Click on <i><b>MOVE</b></i> then click on the brush until it&#146;s selected (you might
+    have to slide the mouse slightly while holding down <i><b>CTRL</b></i>). Once the brush is
+    selected, go to the upper corner that is furthest away from the hallway. Hold down <i><b>ALT</b></i>
+    and click on it. You should notice a little + sitting on that vertex. This means that
+    vertex is select and you can now move it.</p>
+    <p>While holding down <i><b>ALT</b></i>, drag the vertex until it is 1 grid above the
+    floor. While your doing this, you will notice a diagonal line will be drawn. This is
+    showing the change in the brush. You will also notice you may not be able to move it all
+    the way down (you run out of mouse space). That&#146;s ok&#133; just reselect the vertex
+    and move it again! Keep going until it is one grid above the floor.</p>
+    <p>You should now have a box with a line going from the vertex closest to the hallway to
+    the close to the&nbsp; floor. You need to pull down the other vertex to make a true slope.
+    Try it now. Hold <i><b>ALT</b></i> and click on the other vertex and drag it in to place.</p>
+    <p>For some reason, you must have 4 sides on the cube. Everytime I tried to make a perfect
+    slope through vertex manipulation, UnrealED would crash. This is why we left the 1 grid
+    square block at the bottom (and why we started 1 square above the lip). Move the block in
+    to position so it starts right at the top of the lip.&nbsp; </p>
+    <p>If you did everything right, you should now have a slope the go 1 grid square under the
+    floor. Because we don&#146;t want to waste this space, we want to Deintersect the brush
+    with the world. Click on the 4 icon down and the further to the right (see the list
+    above). Bingo, your brush now fits the room perfectly.</p>
+    <p>Now what.. well we need to add material back to the world. So click on the <font color="#FFFFFF"><i><b>Add Brush to World</b></i></font> icon and your ramp will be added.
+    Texture to taste!</p>
+    </font><font FACE="Verdana"><b><p><font color="#FF0000">The Rebuilding Process:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>So you have created your 2 rooms and a hall, textured them and now it&#146;s time to
+    compile your level. GOD... don&#146;t we all just hate compiling&#133; I had one Q2 level
+    that took hours on my P2-333 to recompile. Well.. forget it! Rebuilding in UnrealED takes
+    seconds. I suggest rebuilding after you build each room or so.</p>
+    <p>Press F8 and you will be presented with the rebuilding menu. Click on the rebuild
+    button and bingo.. your done! </p>
+    <p>WAIT.. my level disappeared from the 3D View. It&#146;s ok.. read on..</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">Let There Be Light:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>The reason your level disappeared in your 3D view is because it&#146;s pitch black. The
+    3D view by default shows the level with Dynamic lighting on. Since we haven&#146;t put in
+    any lights, you can&#146;t see anything.</p>
+    <p>Go to the 3D View and select mode. The first two options on the mode menu are Dynamic
+    Lighting and Textures. Select textures and bingo, now you can see everything again. I tend
+    to work with just Textures on, then switch to Dynamic light when we place the lights.
+    Switch it back to Dynamic lighting.</p>
+    <p>So how do we place a light. It&#146;s really simple. Pick on room on one of your views
+    (I suggest using front or side) and right click. Select the option Add Light.</p>
+    <p>That&#146;s it. You now have a light in the room. You should notice on your 3D view
+    that you can now see something. If not, move your eye point around until you can. You can
+    move the light source like any other object. Click on it, hold down CTRL and move it to
+    the ceiling.</p>
+    <p>Place a few more lights around the level until you set the mood (I&#146;ll deal with
+    lighting in a later tutorial).</p>
+    </font><font FACE="Verdana"><b><p><font color="#FF0000">It&#146;s Almost Time:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>We are almost ready. All that&#146;s left is to place the Player start location. Each
+    map must have a player start location. Go to the Browser and click where it says <font color="#FFFFFF">TEXTURES</font>. The player start location is under <font color="#FFFFFF">CLASSES</font>
+    in the drop down box (I&#146;ll deal with this area in much more detail in a later
+    tutorial) so select <font color="#FFFFFF">CLASSES</font>.</p>
+    <p>Now you will see a bunch of different classes in the game. Select <i><font color="#FFFFFF">NAVIGATION POINT</font> </i>and down on the list you will see <i><font color="#FFFFFF">PlayerStart</font>.</i> Click on player start and go to your views. Pick
+    which room you want the start in, right click in the room and select <font color="#FFFFFF"><i>Add
+    PlayerStart</i></font>. DO NOT TRY DRAGGING the class over as on my machine it will crash
+    the editor.</p>
+    <p>Once again rebuild your level (so the lights take effect) and save it to disk. I
+    suggest creating a UserMap directory under your UNREAL\MAPS dir and storing all maps
+    there. It&#146;s now time to test your level.</p>
+    </font><font FACE="Verdana"><b><p><font color="#FF0000">Learn From My Mistakes:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>If you have a GLIDE capable video card AND a voodoo/voodoo2 card... DO NOT... I REPEAT
+    DO NOT&#133; try playing the level from inside the editor. You will get a mutal exclusion
+    error and total screw up your Unreal settings. Instead save the level, close the editor
+    and find your level using my computer. Just double click on the level to load it in
+    Unreal.</p>
+    <p>A couple of other things that might help you. Make sure you have plenty of RAM. When I
+    first tried the editor I had only 64 meg.. and it ran like SHIT! After upgrading to 128meg
+    of ram.. it runs great.</p>
+    <p>Also, make sure you have no other background takes loaded. Press CTRL-ALT-DEL to bring
+    up the Close Program menu. The only 2 tasks you want active are EXPLORER and SYSTRAY.
+    Close everything else. This will greatly help speed up the editor.</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">CONTACTING ME:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>If you need more help or have some ideas, information, etc, you can reach me at </font><a HREF="mailto:mrsin@creativecarnage.com"><font SIZE="2">mrsin@creativecarnage.com</font></a><font FACE="Verdana" SIZE="2">. I can also be found on #UnrealED on EFNET irc.</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">CREDITS:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>There are a bunch of us working on figuring everything out. Some of this information
+    was discovered by the many people on #unrealED including MegaHertz, Freakscne and Orion.</font></td>
+  </tr>
+</table>
+
+<p align="center"><font face="Verdana" color="#008000"><small><small>This page is
+copyright 1998, Creative Carnage, LLC.</small></small></font></p>
+</body>
+</html>

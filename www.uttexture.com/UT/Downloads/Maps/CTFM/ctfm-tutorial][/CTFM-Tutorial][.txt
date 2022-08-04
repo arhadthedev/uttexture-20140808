@@ -1,0 +1,30 @@
+Map for mod MultiTeam CTF d'Unréal Tournament.
+
+
+O R I G I N A L   A U T H O R  -=>Cliff Bleszinski<=-
+
+
+		CTFM-Tutorial][
+		===============
+
+Map name:			CTFM-Tutorial][	
+Game type:			MultiTeam CTF
+Recomended player count:	8 (4x2)
+Height:				little
+Weapons available:		[ ]
+Téléporteur:			[x]
+
+Editor used:			UnrealEd v2.00 (UTv436)
+Release Date:			02/02/01
+Build time:			1 days
+
+Author:				Crokx
+E-Mail:                  	Crokx@Infonie.fr
+
+Other levels by author:		CTFM-LavaForme
+				CTFM-Mortal
+				CTFM-SlimeRotor
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ -=> Unreal Tournament (c)1999 Epic Megagames, Inc. <=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

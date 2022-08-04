@@ -1,0 +1,96 @@
+================================================================
+Title                  : DOM-T
+Version                : 1.0
+Release Date           : 10:50 PM 12/6/00
+Filename               : DOM-T.zip
+Author(s)              : Matthew 'Shade' Ramshaw
+Email Address          : ramshawm@iinet.net.au
+Web Page               : http://www.iinet.net.au/~ramshawm/index.htm
+  
+Credits:                Epic for an enduring game and gamestyles.
+And thanks to QAPete and Harmonics for their dedicated service to the Unreal and UT communities.                              
+			
+Description             DOMINATION  for 6 to 12 players
+
+Beta Tester:		David Peebles. 	
+			
+Other levels by author  Unreal: DM-Rammy                       S/P 
+				DM-Max                         Rare 
+				DM-Shade                        Ohm
+				DM-SkaarjSewer
+				DM-Ll'Saru
+
+			Unreal Tournament :
+				DM-Aspire
+				DM-Beng
+                                DM-ChildhoodsEnd
+				DM-Hegemony
+				DM-Way_2_to_4
+                                DM-Decalre_2_to_4
+	                        DM-T (DM version available from OzUnreal)
+				DOM-T (This file)
+			
+
+Additional Credits to   
+
+================================================================
+--- Play Information ---
+Game     	    :	  UT        
+Level Name          :	  DOM-T.unr
+Single Player       :     No
+Cooperative         :     No
+Domination          :     Yes!
+Deathmatch          :     NO
+Dark Match          :     NO
+Difficulty Settings :     No
+New Sounds          :     No
+New Graphics        :     No
+NewUnrealScript     :     No
+External DLLs       :     None
+Known bugs          :     None known
+
+--- Construction ---
+Editor(s) used          UnrealEd2 (436 patch version)
+
+Base                    Scratch
+
+Construction Time       a while longer 
+
+
+Installation:            Put DOM-T.unr in your Unreal Tournament/Maps directory
+			
+------------
+
+
+                  
+--------------------
+
+
+Author's Notes          
+--------------          An older style domination map for 6 - 12 players. The design requires that
+you play with atleast the jumpboots \ but even better with the translocator and jumpboots.The reason:
+There is only one access to the upper story (the left hand side stairs and playing without trans and
+jumpboots might be a bit frustrating i.e., having to run all the way around to the stairs to get back
+up to the upper section.) The bots behave really nicely in this map and I'm sure you will find them a 
+challenge on your skill setting. Hope you enjoy the map. :) 
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Matthew 'Shade' Ramshaw  2000. 
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

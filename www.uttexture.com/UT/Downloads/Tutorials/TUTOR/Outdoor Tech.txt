@@ -1,0 +1,41 @@
+Outdoor Techniques
+
+By: Millennium 2002
+
+Millennium 2002
+
+Dated: 15/11/98 
+
+Click here for a printable version of this Tutorial.
+
+Out Door Techniques
+
+Many people want to create out door levels, and I have recently posted a few tute's about how to create them, but I have not really explained what you should keep in mind when you are actually creating them. It is a MUST to remember that you have to keep your levels as low in Poly's as you can. Let's face it. Yopu might have a PII 450 with 256 Mb ram, and all the attachements that go with it, but not everyone has got that type of PC at home, and certainly not everyone laying Unreal has got a 3D Card to go with it either. If you wanted to follow the guildelines as set by Epic in Level design, you would never have more then 150 poly's in the players frame of veiw. Now I personally do go over that limit, bet certainly I try not to go too far over it.Let me use an little example here. I was doing a small village in a large outside area, and the village was visible from the outside, I first create the houses. I made them to look nice, but simple from the outside, and then spent a large amount of ploygons on the indise of them so that when a player walked inside, they would feel like it was really a nice hut, but the outside of the house would not slow down the frame rate too much when a player saw the entire village from afar with a few houses there.
+
+If you are doing large vast areas, and you want to have the next best thing to a plain there, why not create a fairly basic plain, and include a few little bumps here and there, but do not try to make the entire landscape bumpy and mottled. Doing that might look very nice, but if I was to try and play it on a smaller PC perhaps a P200 without MMX or 3D Card then I would think that it is a really hopeless level. It doesn't matter how nice it might look if it is unplayable for people.
+
+Cut things off. If you can, include a few larger mountains or fences or anything like that that will help to break up the level. You can have as many polygons as you like - Just make sure that the player cannot see all of them at the same time. You can have a maze that has more poly's then a natural sphere but you simply have to limit how much the player will see at one time. Have a look at some og the inside levels in Unreal. You will find them to be quite detailed. There is a lot of intricate little things inside each room, and the entire levels are generally very full of cool little things to play with and gawk at. However now take a look at some of the outside levels, and see if you can find anything at all that will make the level slow down at all. The levels are almost bleak although due to the design of them, they still look great. If you remember the first outside level, the one with the nice falls and the outside of the spaceship etc, then you will see that the level is in fact very bleak, and simple on the outside, but as soon as you start going on the inside of the mines there, the geometry used suddenly gets a lot more complicated and "Eye Candy" intensive. This can be done as you will still have a much smaller limit of Poly's that you can see in the level at one time.The same thing with any level really. If you can hide all of the complex geometry to a smaller area where the player can only see a set limit of poly's ata time, then it will not hamper your levels playability and you can go to all sorts of lengths to create great eye condy and graphic feats.
+
+This tutorial may seem like a lot of rablimg really, and as I read over it, I am wondering if I should post it at all, but I guess that it will help some poeple out there, so it may as well go up :) 
+ 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

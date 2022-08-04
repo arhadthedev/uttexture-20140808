@@ -1,0 +1,74 @@
+================================================================
+Title                   : JB-Cybrosis-][
+Version                 : 1.0
+Release Date            : August 01, 2004
+Filename                : JB-Cybrosis][.unr
+Author(s)               : Alan Willard (CTF version, part of Epic Bonus Pack 1)
+                          CoolDude (JailBreak conversion)
+Email Address           : cooldude@12move.nl
+                          cooldudes1999@hotmail.com
+Web Page                : www.planetjailbreak.com
+Description             : See the notes section
+Other levels by author  : JB-Slipstream, JB-Nucleus
+================================================================
+
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Cybrosis-][
+Game Type               : JailBreak
+New Sounds              : Embedded
+New Graphics            : Embedded
+NewUnrealScript         : Embedded
+External DLLs           : N/A
+Known bugs              : None that I know off.
+
+--- Construction ---
+Editor(s) used          : UnrealED 2
+Construction Time       : Too long, as usual
+Base                    : CTF-Cybrosis-][ (Alan Willard)
+
+
+Special thanks to
+-----------------
+Epic for releasing the CTF-Cybrosis-][.
+Everybody in the JailBreak community, who inspired me to do something 
+usefull with my spare time.
+
+
+Notes
+-----
+This is a conversion of CTF-Cybrosis-][, which Epic released themselves in 
+BonusPack 1.
+I added the JailBreak components (Jails, Release Mechanisms, Arena, etc.) 
+and fixed some anoying
+botpathing and texture alignments.
+
+Never played JailBreak before? Shame on you!
+Get the Mod at www.planetjailbreak.com
+
+Installation
+------------
+Unzip the the .unr file and place it into the maps directories under your 
+Unreal Tournament directory.
+Start a practice session, choose JailBreak and select the map from the menu.
+
+
+Copyright / Permissions
+-----------------------
+Authors may use this level as a base to build additional levels (I did the 
+same).
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD 
+or any other electronic
+medium that is sold for money without my explicit permission.
+
+You may distribute this level through any electronic network, provided you 
+include this file and leave
+the archive intact.
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by
+GT Software, Inc. under license.  Unreal Tournament and the Unreal 
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other 
+trademarks and trade names are
+properties of their respective owners.

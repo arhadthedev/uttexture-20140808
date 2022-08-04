@@ -1,0 +1,27 @@
+                              Temple of Kaffeine
+                                (DOM-tok1.unr)
+
+                            by Nick Herres, aka Kruel
+
+                               December 14, 1999
+
+	After playing the UT demo I knew I'd be making levels for the final
+	version of the game, and sure enough I did.  This is my first level, 
+	though certainly not my last.  The layout is actually taken from one
+	of my old Decent levels, "Kaffinated".  Those of you who played it
+	might recognize the Tent room, though everything else is new.
+	I didn't know what game mode I should design it for, but about half
+	way in the making I decided that this would make a good Domination
+	level, and I think it turned out nicely.
+
+	I spent a lot of time optimizing this level and trying to make
+	everything perfect.  In fact I spent 6 hours alone just trying to
+	squeeze a few more FPS out of the map.  The end result is a bit less
+	decoration, but more playability.  Side note: sometimes getting the
+	BSPs right without screwing up your level can be a pain in the neck!
+	Good thing I saved under 2 different files!
+
+	Thanks to all of those who's tutorials I've read, especially those at
+	UnrealEd.com.  Also thanks to Epic for a great game!
+
+	-Kruel

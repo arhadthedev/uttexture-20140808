@@ -1,0 +1,336 @@
+   		              DM-Iceotoxin
+                     by MaxModule - the one and only
+                     Released September 16 year 2000.
+
+		       maxmodule@planetunreal.com
+
+                    Dedicated to the love of my life
+                        - whoever she might be -
+=============================================
+                         (Dominated by: JiveTurkey)
+ReDid: Player starts & Weapons, along with adding Control points
+=============================================
+-------------------------------------------------------------------------------------
+DOM-Iceotoxin-LE
+           LE'd by: JiveTurkey
+-------------------------------------------------------------------------------------
+Changes include... 
+added more boxes at hte corner CP to add as cover for the spawn kills at the hallway. 
+added NEW spawn area / hallway system & added mini gun there. 
+added spawn points on the roof tops 
+removed 1 or 2 player starts from the 2 big clusters (corner/sniper tower) 
+removed the keg-o-life
+removed some ammo
+relocated the AMP 
+
+as for for NEW structure add on:
+only reasoning for this new add on was to less the spawn kill factor in that area.
+
+------------------------------------------------------------------------------------
+
+DOM-Iceotoxin-LSE
+           Special Ed'd by: JiveTurkey
+-----------------------------------------------------------------------------------
+Changed textures to make the map appear Thawed out.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================
+Title                       : DM-Iceotoxin - Real World Gone Bad [SE]
+Release Date                : 10/09/2000
+Author                      : Anton "MaxModule" Wiegert
+Email Address               : maxmodule@planetunreal.com
+Web Page                    : http://www.planetunreal.com/maxmodule
+Additional Credits to       : No. 1 Son for feedback
+Other Maps by Author        : DM-Cypress, DM-RealWorldGoneBad
+		       
+Description                 : It's just damn cool, plays great, perfect for duels
+================================================================
+--- Play Information ---
+Game                        : Deathmatch
+Level Name                  : Iceotoxin - Real World Gone Bad [SE]
+
+Domination	            : No
+Capture the flag            : No
+Deathmatch                  : Yes
+Assault			    : No
+New Sounds                  : No
+New Graphics                : Well, sorta, 90% of the ones used are mine -
+			      they are in the texture-package FRZ_Iceotope.utx
+Known bugs                  : None
+
+--- Construction ---
+Editor(s) used              : Unreal Ed 2
+Base                        : Well, it is a remix of my old map DM-RealWorldGoneBad
+Construction Time           : Kinda short, 12 hours (during many weeks)
+
+Installation
+------------
+Unzip the map into the \maps folder under the UnrealTournament folder
+and the textures into the \textures
+and enter the game. 
+
+Author's Notes
+--------------
+Just made for good gameplay ;)
+
+I had nothing better to do...
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Anton Wiegert a.k.a. MaxModule a.k.a. MaxMod.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me, Anton Wiegert, to exploit this level commercially.
+
+-----------------------
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+----------------------
+Unreal Tournament (c)1998/2000 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

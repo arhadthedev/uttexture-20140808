@@ -1,0 +1,14 @@
+For the UMOD version (protector_230_umod.zip)
+
+1. Unzip the protector_230_umod.zip file in an empty folder on your HD (NOT in the Unreal folder!).
+2. Read the protector230.html file for last-minute info.
+3. Uninstall the previous Protector version (strongly reccomanded, see protector230.html for details)
+4. Click on the UMOD file to install protector. The destination folder is where you installed Unreal Tournament, ie c:\unrealtournament. DON'T type the System folder, the installer will find it for itself. 
+
+
+For the NON UMOD version (protector_230_noumod.zip)
+
+1. Read the protector230.html file for last-minute info.
+2. Uninstall the previous Protector version (strongly reccomanded, see protector230.html for details) 
+3. Extract protector230.html to the Help folder in UT.
+4. Extract protector230.u, protector230.u, protector230.u to the System folder in UT.

@@ -1,0 +1,69 @@
+================================================================
+Title                   : DOM-Epitaph
+Version                 : 1.0
+Release Date            : 6-17-2000
+Filename                : DOM-Epitaph.zip
+Author(s)               : Brian 'DarkCalm' Buchta
+Email Address           : darkcalm66@hotmail.com
+Web Page                : http://members.xoom.com/utblood
+Description             : Domination in a Renovated Observation base on a distant alien planet.
+Other levels by DarkCalm: CTF-LastRites, CTF-RitesRequiem, DM-CemetaryGates
+Special Thanks		: hellmaker, Itchytraggahfangah, The Nali City BBS DOODS! and my girlfriend for words of encouragement
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Baethorn's Epitaph
+Single Player           : Botmatch
+Cooperative             : depends on the player ;)
+Deathmatch              : 6 - 10 players 
+Dark Match              : no
+Difficulty Settings     : no
+New Sounds              : no
+New Graphics            : no
+NewUnrealScript         : no
+External DLLs           : no
+Known bugs              : none, please email if you find any
+
+--- Construction ---
+Editor(s) used          : UnrealED 2.0
+Base                    : none
+Construction Time       : 2 weeks
+
+Installation
+------------
+unzip then place DOM-Epitaph.unr in maps folder
+
+
+Author's Notes
+--------------
+This is my first domination and is IMO the best map I've made so far.  I got a lot of inspiration for it from CliffyB's map Gearbolt.  All the good items are there, Redeemer, Shieldbelt, invisibility, and keg o' health.  I am very happy with the way this map came out and hope you enjoy it. /Z
+
+Beta Testers
+---------
+hellmaker, Itchytraggahfangah 
+
+Story
+---------
+Edmond Baethorn was a fledgling arena designer for what we would call the "farm leagues" of Liandri's Deathmatch games.  Liandri Co. noticed the potential in Baethorn's style of design and hired him to construct arenas for the tournament.  Unfortunately while Baethorn was walking around going over little details of his new arena (the one you're about to play), he  tripped over the shock riffle in the reactor core room and fell into the energy beam which supplied power to the arena.  Needless to say, no remains of Baethorn could be recovered.  Liandri Co., in a unusual act of remorse and respect, dedicated Baethorn's nearly finished arena to him as an act of rememberance.  This new arena became Baethorn's grave, tombstone, and Epitaph.
+
+Copyright / Permissions
+-----------------------
+This level is copyright Brian Buchta 2000.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+Unreal Tournament (c) 1999 and UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo 
+are registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

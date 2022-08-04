@@ -1,0 +1,60 @@
+Unreal Tournament Map
+
+================================================================
+Title                   : Akhenaten
+Version                 : 1
+Release Date            : 2/11/00
+Filename                : DOM-Akhenaten.unr
+Author                  : ThunderBear
+Email Address           : ThunderBear@teamorbit.org
+Web Page                : teamorbit.org
+                           
+Description             : Many of the maps released are so small that you 
+                          cannot have the 20 to 30 player games you sometimes see
+                          online.  Two large teams facing each other 
+                          in this map would enjoy the typical domination
+                          experience.  With smaller teams, it becomes a 
+                          frenetic hunt.  It's recommended that you set the
+                          number of points for victory to 200.  Hopefully
+                          this map will meet the needs of the larger clans
+                          in the Unreal Community.  
+                          
+Where to get this map   : teamorbit.org
+					
+Other levels by author  : LowOrbit
+Additional Credits to   : The other members of TeamOrbit who all 
+                          unselfishly contributed their talents to
+                          this effort.
+
+Date                    : 2/11/00
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : Akhenaten           
+
+Game Type               : Domination
+Single Player           : yes
+Multiplayer             : yes
+New Sounds              : No
+New Graphics            : No
+
+Copyright / Permissions
+-----------------------
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

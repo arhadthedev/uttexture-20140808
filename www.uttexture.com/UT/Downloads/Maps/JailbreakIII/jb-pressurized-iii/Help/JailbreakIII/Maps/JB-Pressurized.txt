@@ -1,0 +1,118 @@
+================================================================
+Title			: Pressurized
+Version			: 100
+Release Date		: 28 Nov 2001
+Filename                : JB-Pressurized.unr
+Author(s)               : tarquin
+Email Address           : tarquin@planetunreal.com
+Web Page                : http://www.planetunreal.com/tarquin/
+Description             : original map for UT jailbreak, slightly reminiscent of the style of DM-Pressure
+Other levels by author  : DM-Windermere
+Additional credits		: the makers of UT jailbreak; Mychaeel the maker of the Screen component for answering all my dumb questions.
+
+** NOTE **
+This map requires the Screen component from http://www.planetunreal.com/screen/ , and the Jailbreak mod from http://www.planetjailbreak.com/
+
+================================================================
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Pressurized
+Single Player           : Botmatch
+Cooperative             : UT Jailbreak
+Deathmatch              : No
+Dark Match              : No
+Difficulty Settings     : Nil
+New Sounds              : Nil
+New Graphics            : blueprint & player icons & map banner for Jailbreak III
+NewUnrealScript         : Escape route anti-llama device
+JB Arena		: Yes
+JB Custom Death		: pressurization chamber, from the JB specials.
+External components     : Screen component & the Jailbreak Mod (www.planetjailbreak.com)
+External DLLs           : Nil
+Known bugs              : slight BSP glitch on the blue base ramp. blink and you'll miss it :)
+
+--- Construction ---
+Editor(s) used          : UnrealED2 Beta
+Tools used			: can I resist mentioning my brush builders? nope! :D
+Base                    : I borrowed the pink metal tunnels that go from the atrium to the central area from DM-Pressure, and I've followed the architectural style... to some extent
+Construction Time       : layout & basic architecture: 4 days. Then about 4 weeks of tinkering & adding things like the armoury, sniper den, arena, redeemer secret, etc.
+
+Installation
+-----------------------
+Unzip the .unr file into your Unreal Tournament/maps/ directory.
+
+Author's Notes
+-----------------------
+
+============
+Bots
+============
+I finally gave in and removed the jump pads in the bases. Bot action is now fast and furious.
+There are still a couple of minor problems, but these only crop up occasionally.
+* they sometimes ride the express lifts back down, and then have trouble getting off at the bottom. From what I can tell with MindReader, this happens when they decide to change their objective while in riding the lift up. I hope that speeding the lifts up slightly may help.
+* they never take the upper jail exit, but I don't think this is too much of a problem.
+* they very rarely go for the U-Damage.
+* they have no idea where the Redeemer is.... do you? ;)
+
+============
+Strategy
+============
+It takes me ages to learn a map. In real life I have an excellent sense of direction, but in UT I'm not so good. Given that, I really thought that maps I make would be relatively simple to understand...
+Several of the Mothership regulars have commented they find this map hard to understand at first.
+So here are some basic tips:
+
+The map is essentially made of three areas: two large bases and a no-mans-land in the middle.
+This central area is a large square with the jails in the middle. There are two smaller rooms each side: to the North the service lift area, to the south an area that overlooks the arena.
+Each base consists of:
+Atrium: 
+This is the large room where the pillars are connected with curved bars. There's a walkway at the top, a large open shaft leading to the main base, a lift that comes up from the main base, and a small passage at one end where you'll find the Sniper Rifle.
+The Atrium is connected to the central area by two short tunnels. This is the bottleneck: I'd recommend defending from here.
+Main Base:
+Consists of two interconnected tunnels with arched ceilings. From here, there's a lift up to the Atrium, two express lifts that go right up to the Atrium walkway, the release switch, and the Armoury.
+Armoury:
+Small area behind the release switch that hold the armour and the minigun. One of the exits from jail is here.
+
+Jail:
+When you are released from jail, two doors will open.
+Lower exit: looking at them from the Screen display, this is the one on the left. Take this to get to your base's Armoury.
+Upper Exit: the door on the right opens onto a shaft with a jump pad. Hop up, and you get to a small room. From here there are two tunnels. They're both the same: follow them and you'll drop out onto the Atrium walkway.
+The idea is that you can use the Screen map display in jail to decide where your team needs support the most: if your base is under direct threat, take the Lower exit. If your team needs support in the Atrium, the Central area or the enemy base, the Upper exit is best.
+
+There's also a 3rd way out of jail: the escape route.
+One of the grilles in the ceiling has a gap that you can get through. Once you are above the grille, you are out of jail so you'll have to use the Impact Hammer to get up there, as translocating out of jail kills you automatically. Be careful once you are in the ventilation room: the fans are dangerous :)
+From this point on, you'll need to use the translocator. There's a very small aperture from the ventilation room to another shaft: you need to find this & translocate through it.
+The escape route sends you back to jail after 90 seconds. This is an anti-llama device, as idiots have apparently been camping up there to prevent team captures. You know who you are. 
+
+There are couple of other surprises, which I've mentioned elsewhere in this document ;)
+
+================================================================
+Copyright / Permissions
+-----------------------
+This level is copyright tarquin 2001.
+
+Authors may not NOT use this level as a base to build additional levels.  This map may 
+NOT be modified in any way without the author's express, written permission.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL TOURNAMENT and the UNREAL TOURNAMENT 
+logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+

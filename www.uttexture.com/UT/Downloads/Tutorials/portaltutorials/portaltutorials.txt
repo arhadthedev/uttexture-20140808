@@ -1,0 +1,19 @@
+================================================================
+Title                   : Portal Tutorials
+Date                    : 06/21/98
+Filename                : portaltutorials.zip
+
+Author                  : Jim Cable
+Email Address           : jimcable@planetunreal.com
+Home Page		: http://www.planetunreal.com/portal/
+
+Description             : Zipped collection of tutorials from Portal.
+
+================================================================
+
+This archive and its contents may not be commercially reproduced or distributed.
+
+Thanks,
+Jim Cable
+Portal
+http://www.planetunreal.com/portal/

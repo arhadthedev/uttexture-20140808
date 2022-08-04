@@ -1,0 +1,132 @@
+Unreal Tournament CTF-Plus Map
+NOTE
+CTF+ is a works in progress, new versions may be available.
+Do not install the CTFPlus files if you have a newer version.
+Visit
+http://www.planetunreal.com/vortex/ctfplus/ctfplus.html
+for latest version
+================================================================
+Title: CTF4-ExtremeCore
+Version: 1.1
+Release Date: 4-15-2001
+Filename: CTF4-ExtremeCore.zip
+Author: dinwitty
+Email Address: dinwitty@qtm.net
+Web Page: http://www.qtm.net/~dinwitty/
+Description: 4 color Capture the flag based on Unreal ExtremeCore singleplayer level.
+
+
+===============================================================
+--- Play Information ---
+Game: Unreal Tournament
+Level Name: CTF4-ExtremeCore.unr
+Single Player: Yes (vs. bots)
+Cooperative: No
+Deathmatch: NO
+Domination: No
+Assault: No
+Capture The Flag : Yes (4 color CTF+ only)
+Difficulty Settings: None, have fun!
+Number of Players : 2-16
+New Sounds: No
+New Graphics: Yes included in CTF+ *.u file
+New Models: none
+Known bugs: Do not run this level using 2nd disk compressed textures (at this time)
+            if you are using the D3DDdrv.dll from epic. OpenGL version NOT tested. 
+            This is CLIENTside only if running dedicated server.
+--- Construction ---
+Editor(s) used: UnrealEd
+Base: ExtremeCore.unr  (from Unreal)
+Construction Time: About 5 days for the conversion)
+
+Version History
+----------------
+ExtremeCore.unr comes from the game Unreal developed by EPIC MegaGames (their name then noe EPIC Games) and comes from the moment when the player is entering and passing thru the queen  mothership. It is a single player level with puzzles and Skaarj enemies.
+Previous name was CTFP-ExtremeCore, only compatible with CTFPlus, THIS version
+is compatible with CTF4, CTFPlus, and MultiCTF mods.
+Latest CTFPlus version included here. (as of April 15, 2001)
+
+Installation
+------------
+Unzip "CTF4-ExtremeCore.zip" in your UnrealTournament directory
+using the use folder name option listed (some of you like me install UT in in modified name folders, you know what to do)
+
+The zip file contains :
+- CTF4-ExtremeCore.unr (map) (Maps folder)
+- CTFPlus.u (The Mod CTF+) (System folder)
+- CTFPlus.int (System folder)
+- Unreal4.umx (Music folder)
+- This document (CTF4-ExtremeCore.txt)- (Help folder)
+- CTFPlus.txt  CTF+ help file/info (help folder)
+
+
+Author's Notes
+--------------
+This is an Unreal1 level modified by me, dinwitty for the
+4 way ctf mod made by EntropicLiquid. (CTF+)
+This level WILL work with the CTF4, and MultiCTF mods.
+Dedicated CTFPlus Flagbases are removed and the standard flagbase is used.
+
+Play with 2 to 16 players.
+
+Changes in the level.
+
+Buttons used for puzzle now do something else (gotta play it to discover!)
+Doors opened by the buttons now open themselves and stay open after player opens them.
+Door opened by defeating skaarj sequence opens itself.
+A few surprises added to the level.
+
+Unreal1 weapons/ammo/pickups left INTACT! as UT replaces them
+except for some specific UT items added, so Unreal1/UT mods aughta work on it.
+
+ShieldBelt from original level at start removed.
+
+Some level tweaks to avoid falling into inescapeable traps.
+
+No, you CANNOT get to the pickups behind the barriers! (like the original level)
+
+Music order changes with flag grabs and captures.
+
+Unreal4 music used and included in zip not supplied in UT.
+
+I played with the idea of having a wandering Skaarj be a hazard, naw, I gave up.
+Play as a Skaarj mutator.
+
+As this design is, there are no discreet bases, just rooms, making this something like a DM-CTF.
+
+There are no color spawns, everybody spawns anywhere, even next to the opponent flag.
+It may seem odd you can grab a flag quick, but so can the opponent, so its a fast flag chase.
+
+when setting game max score, set it around 20, scoring can be quick especially with multiflag captures.
+
+Did you know about the Jumpboots in the original level? I didnt  8-}
+They're there and grabable, (but thats the surprise)
+
+Recommended Server Configuration (but use any desired!)
+Gametype      :Hardcore 
+Speed         :100%
+Air Control   :35%
+Translocator  :Yes
+Mutator       :experiment!
+Capture Limit :10-30
+Timelimit     :20 (experiment!)
+Weapon Stay   :Yes and no (for variation)
+Friendly Fire :No (I find some people abuse this priviledge 8-P  )
+
+Copyright / Permissions
+-----------------------
+This release is copyright 2000 by dinwitty
+Authors may NOT use this level as a base to build additional levels. (without permission)
+You are NOT allowed to commercially exploit this release, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Games, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Games, Inc. 
+All other trademarks and trade names are properties of their respective owners.

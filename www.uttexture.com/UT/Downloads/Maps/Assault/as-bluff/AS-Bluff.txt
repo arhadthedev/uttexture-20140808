@@ -1,0 +1,119 @@
+================================================================
+Title                   : The liberation of Bluff Eversmoking
+
+Author                  : Original map Myscha the sled dog
+			  Assault edit by Azathoth
+
+Date                    : April 2000
+
+Filename                : as-bluff.zip
+
+File contents           : AS-Bluff.unr (Map)
+                          AS-Bluff.txt (This file) 	
+
+			
+Email Address           : othergods@bigfoot.com
+
+Home Page		: none
+
+Description             : Assault edit of the Unreal map Bluff
+
+Comments		: I must have suffered some sort of brain damage 
+		and forgot how difficult the edit of TheSunSpire had been
+		becaues I've had another go, this time with Bluff.  And yes,
+		it was just as hard as the first time.  I think I did a bit 
+		better a job with the bots this time though as they will
+		actually complete the level in an all-bot team - eventually.
+		They still can get stuck at certain points in the level 
+		and are also very easily picked off with the sniper rifle.
+
+		There are quite a few hidden compartments in the map so have
+		a careful look round.  There is also a Redeamer in the map
+		but it takes a while to reach it.  A lot of advantage can 
+		be gained by hammer jumping a couple of the barriers so if
+		the map gets a bit easy too attack play it with the hammer
+		replaced by the chainsaw (Chairsaw arena mutator IIRC).
+		AS-Bluff also tends to chug a bit on lower-end 
+		machines - sorry about that.
+		
+		This WILL be my last SP edit though I will have a play with
+		building a level from scratch and hell, I might even send it
+		to Nali City if it looks good enough.
+
+Note to Server Admins	:  Make sure that your server is set up to display
+		creatures or else the Fish, Livestock and the friendly Nali
+		ghost will not appear.
+
+================================================================
+
+Play Information	
+
+Single Player Assault   : They might kick your ass the first time
+Deathmatch              : Not really
+Assault			: YES!!!
+Recommended No. Bots    : As much as your server will handle, up to 30
+ 
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "AS-Bluff.unr" into your UnrealTournament/Maps folder.
+
+
+KNOWN Bugs		: Random texture glitches on some of the 
+		movers.  A few HOM's which would not have been seen
+		in the SP map.  Bots sometimes get stuck.
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd
+
+Build Time              : Too long
+
+
+
+=================================================================
+
+Other Maps by Azathoth
+
+AS-Sunspire (Edit)
+
+
+===================================================================
+
+Acknowledgements:	Myscha the sled dog for original map.
+			Epic for obvious reasons.
+			narky for advice even if I didn't take it.
+			All the Reviewers who praised AS-SunSpire
+		and inspired me (oops - bad pun) to have another go.
+
+Play Testers:		Pigman
+			Toad
+			sTaTic
+			Bacon
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

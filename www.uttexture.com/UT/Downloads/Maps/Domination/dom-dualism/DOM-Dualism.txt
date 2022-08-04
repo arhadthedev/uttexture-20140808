@@ -1,0 +1,76 @@
+Dualism - An Unreal Tournament Domination Map
+
+================================================================
+Title                   : Dualism
+Version                 : 1
+Release Date            : Final - June 20, 2k
+Filename                : DOM-Dualism.unr
+Author                  : Dave "Duality" Lecraw
+Email Address           : dlecraw@excite.com or dlecraw@yahoo.com
+Web Page                : http://homepages.go.com/~dlecraw/index.html
+                           
+Description:
+
+The world's elite once used Dualism as a galaxy viewing station, but to 
+everyone's misfortune it became a popular spot for jumpers during the stock 
+crash of 2102 and was closed soon after. After a recent auction, it has become 
+the property of Mr. Slippery Enterprises and is now exploited as a Domination Arena. 
+					
+Other levels by author:
+
+DOM-Repentance for UT
+
+Credit Hell Episodes I & II for Bungie's Marathon Infinity. 
+It got an honorable mention in their map making contest.
+
+Thanks to:
+
+Epic Megagames for the game. Specifically the beta testers; UTCity, Jerkboy, 
+Moron, Freaky, BTex, and [LaW]WhiteRaven.
+
+Author's Note:
+
+This is my first UT map. After many failed concepts and levels, I've finally finished one.
+I tried to make a level I'd like to play AND would keep a decent frame rate.
+
+The zapper works and the bots do use it. You can also shoot the power source
+to set it off, but it only works with the plasma gun primary. I tried to make
+the bots as sneaky as players.
+
+Request:
+
+Please select 5 things you don't like about the level and a few things you do.
+
+Thank you for your support !!
+
+Level Information
+
+Game                    : Unreal Tournament
+                                 
+Level Name              : Dualism             
+
+Game Type               : Domination
+Single Player           : NA
+Number of Players	: 8 or 10 seem optimum.
+Multiplayer             : Yes
+New Sounds              : No
+New Graphics            : No
+Known bugs              : The jump pads kill the bots sometimes, but only noticable in 				spectator mode. 
+
+Constructed with:
+
+Editor			: UnrealEd 1 & 2
+Base                    : New level
+Time			: At least 2 months
+
+Copyright / Permissions
+-----------------------
+Copyright by Dave Lecraw 2000.
+
+You are not allowed to commercially distribute this level without my explicit permission.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

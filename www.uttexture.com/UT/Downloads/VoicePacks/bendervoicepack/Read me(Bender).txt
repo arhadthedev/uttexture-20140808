@@ -1,0 +1,28 @@
+
+
+BENDER PLAYER MODEL FOR UT:
+
+He's loud, he's in charge, and he has "a dream to destroy all humans".  He's BENDER, the alcohol-fueled, cigar-chomping bending unit from Futurama, coming to you in Unreal Tournament!  Not satisfied with killing humans in the video games of the 30th century, Bender has joined the Liandri Tournament to fulfill his dream of wiping out us organic "coffin-stuffers", one championship at a time.  
+This model comes with its default skin from the show, and also comes in 4 different flavors for team games, Strawberry, Blueberry, Lemon and Lime.  He has an additional "Borg" skin full of cool looking exposed circuitry.  He also comes with my selection of custom taunt/death wavs for your listening enjoyment.  Subject to alteration if better sound bites come out for season three, of course....
+This represents my second model for UT - the first was TOM SERVO, who was favorably recieved.  I hope Bender is, too.  I also hope that the community finds my work improving.  This model went a lot faster and a LOT smoother than Servo did, mostly because I managed to avoid the mistakes that I made with Servo by learning from him.  Enjoy - and look for more modelling goodness soon.
+
+Installation:  Just extract the UMOD from it's zip file and run it.  The appropriate files should be placed into their directories.  Then just pick BENDER from the CLASS drop-down menu of your PLAYER SETUP screen, and enjoy!  The custom voice should be his by default. (Set bots to be Bender from the Practice session/bots/configure button)
+
+Technical info for the pedantically curious:
+Polys: 957 - a bit higher than some, but I think you'll agree it was worth it.
+Skins: Default from the show, Borg skin, plus team colors for each.
+Custom Sounds: Yes
+Custom HUD doll: No
+Bot support: Yes
+Animations: mostly originals, some are heavily modified versions of Steed's VISOR biped file from Quake3.
+This model was made with: 3DSMAX, Character Studio, UTexporter, UNST, UTskin and UnrealEditor.  The sound packs were made with PLAY THIS!
+Construction time: 2 days: 
+Animaton time: About 2-3 days steady graft (I have a full time job you know).
+Knows bugs/issues:  Uhhhh - I couldn't find any this time out.  I'll leave that to you guys.  (there may be something I missed that will only show up on someone else's system)  But so far as I can tell, we got it right the first time.
+
+Special Thanks to:  ~Phoenix~Mage~ - who served as co-importer and de-bugger thru ICQ instruction.  Paul Steed, for supplying the .bip files to help those of us who know how to tinker around.  Usaar33, for some judicious coding.  To the creators of UNST, UTexporter, Play This! and UTSkin.  Your programs, while not perfect, are a GREAT help. 
+
+Slyrr
+gefisk@itsnet.com
+www.itsnet.com/~gefisk/
+Unreal Tournament by Epic Games

@@ -1,0 +1,22 @@
+DOM-Khorne Readme!
+
+Author: Tomas 'Drevlin' Lidström
+	website: http://drevlin.unrealcenter.com
+	contact: tomas.lidstrom@home.se
+
+The map
+	Playcount: 6-12
+	Size: Medium -> Big
+	Tools: UnrealED 2.0
+
+New Features since DM-Khorne
+* A ventilation shaft that leads to the top floor.
+* MegaHealth Removed (It was messing with balance)
+* MiniGun on middle floor moved (For control point)
+* Ripper in the cave moved (For control point)
+* New Screenshot in the preview when starting a game
+
+
+
+
+Dedicated to Manne 'Khorne' Danneman Lundqvist.

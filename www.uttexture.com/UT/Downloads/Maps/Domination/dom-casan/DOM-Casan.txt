@@ -1,0 +1,43 @@
+                     DOM-Casan                               04-04-2000
+                     ===============
+PLAY INFORMATION
+================
+    AUTOR                   :SANDOR [John Nijhuis]
+    COUNTRY                 : HOLLAND 
+    Email                   : janijhuis@wish.net
+    HomePage                :http:/home.wish.net/~janijhuis/sandors dutch ut levels.htm
+    =============================================  
+    GameType                : Domenation
+
+    Single Player           : Yes
+    New Sounds              : No
+    New Graphics            : No
+                            
+    ===============================
+    This level can be best play'd with min. p-2-300 and a voodoo3 VGA and 64mb!!!                         
+    i play'd it on a AMD-K6-2-400 voodoo3 and 128MB                     
+    ==============================================================================                       
+
+    Special thanks for testing my level to: Nick CLARK  (THE_BAKER)                     
+                               
+                              
+                           
+   =====================================================                          
+    Other LEVELS made by me : DM-Fragsome2 and this LEVEL is their also in DM!!!
+                            :DOM-Sandun
+                            :Dm-Sandun  
+                            :CTF-Sandax
+                            The levels can all be downloaded from my side!!!
+    Editor(s) used          : UnrealED
+    Build Time              : About 14 days on and off build time.
+
+AUTHOR'S NOTES
+================
+This is my second Unreal Tournament DOM-level and it was fun building it!!! so the only thing i
+can say = HAVE FUN with it!!! and get the flag!!!(Give me a mail iff you like it )
+
+================================
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

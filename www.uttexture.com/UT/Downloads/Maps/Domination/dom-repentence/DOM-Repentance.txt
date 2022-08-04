@@ -1,0 +1,72 @@
+An Unreal Tournament Domination Map
+
+================================================================
+Title                   : Repentance Threshold
+Version                 : Final
+Release Date            : Aug12, 2k
+Filename                : DOM-Repentance.unr
+Author                  : Dave "Duality" Lecraw
+Email Address           : dlecraw@excite.com or dlecraw@yahoo.com
+Web Page                : http://homepages.go.com/~dlecraw/index.html
+                           
+Description
+------------
+After the purchase of Dualism Viewing Station, Mr. Slippery Enterprises' corporate law firm discovered it had also gained ownership of this remote retreat in the snowny highlands. Not allowing any profit taking opportunity to remain unattended, it has converted it to another Domination Arena.
+
+Other levels by author
+-----------------------
+DOM-Dualism, and Credit Hell, Episodes I & II, for Marathon Infinity by Bungie. Episodes I got an honorable mention in their map making contest.
+
+Thanks to
+----------
+Epic Megagames, UTCity, and the UTCity beta testers; -Mental -Citizensmith -Silencer -Jerkboy. Specifically Shane Caudle for the texture set and brushes that I used as guidance or outright copied (doors, stairway, and some arches). I sent an email to Shane asking permission and he replied with a yes (What a relief).
+
+Author's Note
+--------------
+This is my second complete UT map. I've finally gotten comfortable with the editor and I hope it shows. There is only one secret area.
+
+Request
+--------
+Play this level and before you start critiquing just comment on your first impression. Then ...
+
+Please select 5 things you don't like about the level and a few things you do. No detail is too small.
+
+Thank you for your support !!
+
+
+Level Information
+------------------
+
+Game                    : Unreal Tournament
+Level Name              : Repentance Threshold
+Game Type               : Domination
+Single Player           : No
+Number of Players	: 8 - 12 seem optimum, but I've played 3 teams with 16 and it worked well.
+Multiplayer             : Yes
+New Sounds              : No
+New Graphics            : No
+Known bugs              : No bugs I'm aware of.
+
+Constructed with
+-----------------
+Editor			: UnrealEd 
+Base                    : New level
+Time			: Two months on and off.
+
+Installation
+-------------
+Unzip the file DOM-Repentance.unr into your UnrealTournament\maps directory.
+You can then choose DOM-Repentance from the domination section.
+
+
+Copyright / Permissions
+------------------------
+This level is copyrighted by Dave Lecraw 2000.
+
+You are not allowed to commercially distribute this level without my explicit permission.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

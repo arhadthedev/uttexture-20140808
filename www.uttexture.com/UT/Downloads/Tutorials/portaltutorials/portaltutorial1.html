@@ -1,0 +1,446 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>UnrealEd Tutorial 1 - A Basic Room by Cableless</title>
+<style type="text/css">
+<!-- A:link {text-decoration: none} -->
+<!-- A:visited {text-decoration: none} -->
+<!-- A:active {text-decoration: none} -->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#C0C0C0" link="#FF0000"
+vlink="#800000" alink="#FFFFFF">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td><p align="center"><img src="images/main/title.gif"
+        align="left" hspace="0" width="534" height="109"></p>
+        </td>
+        <td><font size="2" face="Arial"><img
+        src="images/main/titlebar.gif" width="76" height="118"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<blockquote>
+    <p><font size="2" face="Arial">Got a new tutorial? Mail the </font><a
+    href="mailto:jimcable@planetunreal.com;%20mindbomb@planetunreal.com"><font
+    size="2" face="Arial">Portal Team</font></a><font size="2"
+    face="Arial">!</font></p>
+</blockquote>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>UnrealEd Tutorial 1 - A Basic Room </b>by
+        </font><a href="mailto:jimcable@planetunreal.com"><font
+        size="2" face="Arial">Cableless</font></a></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        Before we get started there are some things you should
+        know. <em>UnrealEd</em> is a resource hog in the extreme.
+        If you are serious about editing <em>Unreal</em> maps
+        then you need as much RAM as you can afford. If you want
+        to edit maps that are the size of the stock <em>Unreal</em>
+        maps, then 128MB is <em>almost</em> livable. Hard disk
+        space is also at a premium. Make sure the amount of free
+        space on C: is at least twice the amount of available
+        RAM. This will give the windows swap file some breathing
+        room. Above all you will need patience. <em>UnrealEd</em>
+        is still in beta. It will crash at the worst times. Save
+        your work repeatedly!</font><p><font size="2"
+        face="Arial">Creating maps in<em> UnrealEd</em> is much
+        different than in <em>WorldCraft</em> and <em>QERadiant</em>.
+        In <em>UnrealEd</em> you use brushes to carve out hollows
+        in <em>Unreal</em> worldspace for a player to exist in.
+        In <em>WorldCraft </em>and <em>QERadiant</em> you must
+        build structures using brushes to enclose the <em>Quake</em>
+        playerspace. This can lead to the possibility of hard to
+        find leaks between the playerspace and worldspace. The<em>
+        UnrealEd</em> method is much easier on the map maker.</font></p>
+        <p><font size="2" face="Arial">Rather than just giving
+        you a list of command definitions, this series of
+        tutorials is designed to teach by example. Each will be a
+        little more advanced than the last.</font></p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Installing Support Files</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><ol>
+            <li><font size="2" face="Arial">Download both the </font><a
+                href="ftp://ftp.cdrom.com/pub/unreal/utils/level_edit/editors/vbrun50.zip"><font
+                size="2" face="Arial">Visual Basic 5.0 Runtime</font></a><font
+                size="2" face="Arial"> and the </font><a
+                href="http://unreal.epicgames.com/Files/RichTextFix.zip"><font
+                size="2" face="Arial">RichText Control Fix</font></a><font
+                size="2" face="Arial">.</font></li>
+            <li><font size="2" face="Arial">Unzip </font><a
+                href="ftp://ftp.cdrom.com/pub/unreal/utils/level_edit/editors/vbrun50.zip"><font
+                size="2" face="Arial">vbrun50.zip</font></a><font
+                size="2" face="Arial"> into a temp directory and
+                run setup.exe.</font></li>
+            <li><font size="2" face="Arial">Unzip </font><a
+                href="http://unreal.epicgames.com/Files/RichTextFix.zip"><font
+                size="2" face="Arial">RichTextFix.zip</font></a><font
+                size="2" face="Arial"> into C:/WINDOWS/SYSTEM.</font></li>
+            <li><font size="2" face="Arial">Download </font><a
+                href="maps/portaltutorial1.unr"><font size="2"
+                face="Arial">the map</font></a><font size="2"
+                face="Arial"> for this Tutorial and install it in
+                your C:\UNREAL\MAPS directory.</font></li>
+        </ol>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Creating a Room with Parametric Solids</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><p align="center"><font size="2" face="Arial"><img
+        src="images/screenshots/tutorial1a.jpg" width="320"
+        height="240"></font></p>
+        <ol>
+            <li><font size="2" face="Arial">Launch <em>UnrealEd</em>
+                and go have a snack.</font></li>
+            <li><font size="2" face="Arial">Click <img
+                src="images/toolbar/brushbuildcube.gif"
+                width="36" height="37"> <em>Build Cube </em>on
+                the toolbar. <em>Shift-left Click</em> on the
+                cube to <em>move</em> your room where you want
+                it.</font></li>
+            <li><font size="2" face="Arial">Click <img
+                src="images/toolbar/brushscale.gif" width="36"
+                height="37"> <em>Scale</em> on the toolbar. <em>CTRL-Left
+                Click </em>on the cube to <em>scale</em> the room
+                to the approximate size that you want.</font></li>
+            <li><font size="2" face="Arial">Click <img
+                src="images/toolbar/brushstretch.gif" width="36"
+                height="37"> <em>Stretch</em> on the toolbar. <em>CTRL-Left
+                Click</em> or <em>CTRL-Right Click</em> on the
+                cube to <em>stretch</em> your room to it's exact
+                dimensions.</font></li>
+            <li><font size="2" face="Arial">Click <img
+                src="images/toolbar/brushscalesnap.gif"
+                width="37" height="37"> <em>SnapScale Brush</em>
+                on the toolbar. <em>CTRL-Left Click</em> or <em>CTRL-Right
+                Click</em> on the cube to stretch your room so
+                that it snaps to the nearest gridpoints. Zoom in
+                on each vertex by <em>CTRL-Left Clicking and
+                CTRL-Right Clicking</em> while moving the mouse.
+                Verify that each vertex is exactly on a grid
+                point. This will make adding detail to your room
+                easier.</font></li>
+            <li><font size="2" face="Arial">Click <img
+                src="images/toolbar/brushsubtractfromworld.gif"
+                width="36" height="37"> <em>Subtract Brush from
+                World</em> on the Toolbar.</font></li>
+            <li><font size="2" face="Arial">Save your level!</font></li>
+        </ol>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Texturing</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><p align="center"><font size="2" face="Arial"><img
+        src="images/screenshots/tutorial1b.jpg" width="320"
+        height="240"></font></p>
+        <ol>
+            <li><font size="2" face="Arial">In the <em>Browse</em>
+                window click on the <em>Load</em> button. Select
+                a texture collection filename.</font></li>
+            <li><font size="2" face="Arial">Click on your room in
+                the <em>Perspective</em> window. One face will be
+                shaded.</font></li>
+            <li><font size="2" face="Arial">Now click on a
+                texture in the <em>Browse</em> window.</font></li>
+            <li><font size="2" face="Arial">Click <img
+                src="images/toolbar/texturepan.gif" width="37"
+                height="37"> <em>Texture Pan</em> on the Toolbar.
+                <em>CTRL-Left Click</em> or <em>CTRL-Right Click</em>
+                on the face to move the texture where you want
+                it.</font></li>
+            <li><font size="2" face="Arial">Click <img
+                src="images/toolbar/texturerotate.gif" width="36"
+                height="36"> <em>Texture Rotate</em> on the
+                Toolbar. <em>CTRL-Left Click </em>or <em>CTRL-Right
+                Click</em> on the face to rotate the texture
+                where you want it.</font></li>
+            <li><font size="2" face="Arial">Notice that you can <em>Right
+                Click</em> on a face in the <em>Perspective
+                window</em> and bring up a context menu. <em>Surface
+                Properties</em> and <em>Apply xxx</em> are
+                powerful tools here.</font></li>
+            <li><font size="2" face="Arial">Save your level!</font></li>
+        </ol>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Lighting</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><p align="center"><font size="2" face="Arial"><img
+        src="images/screenshots/tutorial1c.jpg" width="320"
+        height="240"></font></p>
+        <ol>
+            <li><font size="2" face="Arial">Right click on your
+                room in one of the side views and select <em>Add
+                Light</em>.</font></li>
+            <li><font size="2" face="Arial">Click <img
+                src="images/toolbar/cameramove.gif" width="36"
+                height="37"> <em>Move Camera</em>. Find your new
+                light in the <em>Perspective</em> view. It is
+                symbolized by a torch. You can position your
+                light in the Perspective view by <em>CTRL-Left
+                Clicking</em> and/or <em>CTRL-Right Clicking</em>
+                on the light and then dragging the mouse.
+                Position it near the top of your room.</font></li>
+            <li><font size="2" face="Arial">Save your level!</font></li>
+        </ol>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font
+        color="#FFFFFF" size="2" face="Arial">&nbsp;</font><font
+        size="2" face="Arial"><b> Adding a Player Start</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><p align="center"><font size="2" face="Arial"><img
+        src="images/screenshots/tutorial1d.jpg" width="320"
+        height="240"></font></p>
+        <ol>
+            <li><font size="2" face="Arial">Find the box that
+                currently reads<em> Textures</em> in the <em>Browse</em>
+                window. Select <em>Classes</em>.</font></li>
+            <li><font size="2" face="Arial">In the <em>Browse</em>
+                window, click on the &quot;-&quot; next to <em>Navigation
+                Point</em> to expand the list. Select <em>PlayerStart</em>.</font></li>
+            <li><font size="2" face="Arial"><em>Right Click</em>
+                in one of the side views and select <em>Add
+                PlayerStart here</em>. You should see a small
+                joystick appear in the <em>Perspective</em>
+                window.</font></li>
+            <li><font size="2" face="Arial"><em>CTRL - Right
+                Click</em> on the <em>PlayerStart</em> and then
+                using the red arrow as a reference, rotate the <em>PlayerStart</em>
+                in the direction you want it.</font></li>
+            <li><font size="2" face="Arial">Save your level!</font></li>
+        </ol>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Building the Level</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><ol>
+            <li><font size="2" face="Arial">Under the <em>Options</em>
+                menu at the top of the screen select <em>Rebuild</em>.
+                You should now see your Perspective window darken
+                to reflect the placement and intensity of your
+                light. Change the <em>Mode</em> on the <em>Perspective</em>
+                window to <em>Texture</em> to see the difference.</font></li>
+            <li><font size="2" face="Arial">Save your level!</font></li>
+            <li><font size="2" face="Arial">Select <em>Play Level</em>
+                under the <em>File</em> menu at the top of the
+                screen. </font></li>
+        </ol>
+        <p><font size="2" face="Arial">Next tutorial we will add
+        another room and a hallway.</font></p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="right"><a href="index.html"><font size="2" face="Arial"><em><strong>Back
+to Tutorials</strong></em></font></a></p>
+
+<p><font size="2" face="Arial"><em><strong>.</strong></em></font></p>
+</body>
+</html>

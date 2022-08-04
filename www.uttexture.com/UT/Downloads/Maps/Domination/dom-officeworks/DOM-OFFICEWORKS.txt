@@ -1,0 +1,79 @@
+>>>>>DOM-OFFICEWORKS<<<<<
+<<<<<<<UPDATE>>>>>>>>
+
+
+Title                   : OFFICEWORKS (DOM)
+Version                 : 1.1
+Release Date            : march 11, 2000
+Filename                : DOM-officeworks
+Author                  : TaroT (Mark Benton)
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             : What everyone wants to do at work....get a big gun ehehe
+
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Domination
+Level Name              : DOM-officeworks
+Player #'s		: 6 to 12 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No.
+Known bugs              : there were  few bugs pointed out to me
+so i redid the lvl added some paths now the bots go for the points..although still not the best
+but they do defend them damn hard hehe
+i also redid a few textures hopefully it looks a little better
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.05
+Base                    : New level
+Construction Time       : 3 hours on the update including testing
+                           
+
+
+>>>Installation<<<
+Unzip DOM-officeworks.unr in your Unreal Tournament/maps directory.
+unzip the utx file to textures :)
+
+
+>>>Author's Notes<<<
+this is a remake hopefully it will play better and i cna get a new review hint hint:)
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+Dom Doorway
+DOM-Disco
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+TaroT(aka mark benton)
+march 11, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

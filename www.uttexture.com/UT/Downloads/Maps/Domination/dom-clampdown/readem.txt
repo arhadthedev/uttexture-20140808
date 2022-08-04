@@ -1,0 +1,10 @@
+Author:  minimal
+Title:  clampdown
+Game Type:  Domination
+Editor Used:  UnrealED2 436
+
+Build Time: 34 h ?
+
+
+
+Bugs:  None that I know of

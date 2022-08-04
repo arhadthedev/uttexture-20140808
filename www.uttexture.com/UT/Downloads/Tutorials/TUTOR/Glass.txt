@@ -1,0 +1,15 @@
+What is it?
+While you can make an entire brush transparent to create a glass pane, I do not recommend doing so: it slows the engine down, causes HOM errors on the edges (where the glass touches the wall), and monsters sometimes act strangely next to it. 
+Instead, we cheat: create a masked wall with the glass texture and place an invisible collision brush over it to stop the player from walking through it. 
+
+How do I do it?
+First, create a sheet where the glass should be. Make sure to use either an X-Wall or a Y-Wall sheet.
+Next, select a nice glass texture, like GenLn.Glass.Glass
+Once the sheet is in position, click on Add Special Brush and select Transparent Window, 2-Sided and Non-solid. Click on the Add Special button to actually create your sheet. 
+So far, so good, but creatures can still walk through this window - a sheet can never be solid, even if you select Solid in the menu. Thus we'll have to place an invisible brush over it. 
+
+Create a brush using any texture you've already used (by not using a different texture you keep the final size of your map down - why should the engine load the invisible texture if it doesn't get shown anyway?). Make very sure that it doesn't touch any other geometry (make it a bit smaller than the window frame).
+
+Add it to the world using Add Special Brush with the option Invisible collision hull. It'll still be visible in the editor, but not in the game itself. 
+
+And that's all! 

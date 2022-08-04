@@ -1,0 +1,59 @@
+Unreal Music (UMX) Ripper by Tom Grandgent
+------------------------------------------
+
+Intro/Notes
+-----------
+
+This program will extract music files (S3M and IT) from Unreal's UMX files.
+I have noticed that certain players (such as MikIT) have difficulty with
+the resulting S3M files, and I am not sure why.  However, WinAmp seems to
+be able to play them.  The IT files seem ok with any decent player.
+This program works with all of the UMX files that come with the retail
+version of Unreal, except for one.  I cannot guarantee that it will
+work with future UMX files, but it probably will.
+
+Usage
+-----
+
+Copy the umxrip.exe file to your \unreal\music directory and run it
+with the filespec of the UMX files you want to extract from.  For
+example:
+
+umxrip *.umx
+
+If you need more detailed instructions, do this:
+
+Open a DOS window, and type the following commands followed by enter
+on each line:
+
+c:                 (or whatever drive Unreal is installed on)
+cd \Unreal\music   (substitute the proper Unreal directory if needed)
+copy e:\temp\umxrip.exe   (substitute wherever you put umxrip.exe)
+umxrip *.umx
+
+And now you should have a bunch of IT and S3M files.  Enjoy!
+
+Players
+-------
+
+WinAmp will play all of the music included with the retail version of
+Unreal.  However, there are higher quality players out there.  My
+favorite is MikIT, but it has trouble with most of the S3Ms (the ITs
+play perfectly though).  It can be found at:
+
+http://www.stack.nl/~mikmak/mikit.htm
+
+Another good player is the Unreal Player (no relation to the game, heh):
+
+http://www.303tek.com/products/unrealplayer/index.html
+
+A good DOS player is Cubic Player.  It also has the capability to
+record music to WAV files.  It can be found at:
+
+http://www.geocities.com/SiliconValley/Vista/4107/e_index.html
+
+Contact
+-------
+
+You can email me at tgrand@canvaslink.com if you have any questions,
+comments, complaints, etc.

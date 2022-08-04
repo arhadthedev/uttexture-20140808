@@ -1,0 +1,40 @@
+
+File Name		: DOM-SnI
+File Size		: 2.48MB
+Version                 : 1.00
+Release Date            : 09.08.2000
+Author                  : michal "ptaq" j.
+Email Address           : michalj@box43.gnet.pl
+Web Page                : http://www.unreal.hg.pl
+
+==[ Play Information ]==
+Game                    : Unreal Tournament
+Bot Support		: YES
+Deathmatch		: -
+Domination		: YES
+CTF			: -
+Assault			: -
+New Sounds              : -
+New Graphics            : -
+NewUnrealScript         : -
+External DLLs           : -
+Known bugs              : Sometimes bots can't pull out of wagons.
+
+
+==[ Construction ]==
+Editors used		: UnrealEd 
+Textures used		: UTtech1, Mine, Slums, StarShip, PlayerShp.
+
+
+
+
+==[ Copyright / Permissions ]==
+
+Authors may use this level as a base to build additional levels. 
+You are NOT allowed to commercially exploit any part or parts of this level, i.e. put it 
+on a CD or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.

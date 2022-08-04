@@ -1,0 +1,144 @@
+   
+  
+ 
+  News  Submissions  Prefabs  Levels  Staff  Links 
+  
+ 
+ 
+ 
+
+ 
+ 
+   
+
+ Main 
+News 
+Submissions 
+Prefabs 
+Staff 
+Levels 
+Links 
+ 
+Editing 
+Main Page 
+Tutorials 
+Ued Errors 
+Files 
+Shortcut Keys 
+#unrealed 
+Reference 
+Edit Master 
+ 
+Scripting 
+Main Page 
+Tutorials 
+Online Classes 
+Reference 
+Code Master 
+ 
+Modelling 
+Main Page 
+Tutorials 
+Reference 
+Model Master 
+ 
+Skinning 
+Skinning Guide 
+ 
+Prefabs 
+Brushes 
+Textures 
+ 
+Hosted Sites 
+Heph's Music 
+3D Model Emporium 
+Millennium 
+VerMoorD 
+Rage TC 
+Hosting Info 
+ 
+Network Sites 
+Unrealnation 
+S.U.M.E. 
+Honor Guards 
+World of Dreams 
+ 
+Your Unrealed.net 
+If you have a Tutorial, Tip, Hint or whatever! then feel free to send it down, and we will be happy to post it on the site. 
+ 
+ 
+   
+ 
+    
+   
+   
+ 
+
+ 
+ 
+
+ 
+   
+ Sky Boxes
+
+By: Millennium 2002
+
+Millennium 2002
+
+Dated: 7/11/98 
+
+Click here for a printable version of this Tutorial.
+
+Skyboxes
+I have been asked quite a few times about skyboxes, so this tutorial should hopefully explain just what is the go with em ;)
+Assumptions
+There is nothing really all the hard about skyboxes, so I am assuming that if you want to build a basic skybox, then you should easily be able to follow what I am talking about here.
+The Theory
+A skybox is simply another place in the level that will show up as the "outside" edge of your level. You will often see a nice level that is based in the underground, and with a few places that show light (or the sky) and yet they all look identical, and seem to actualy be made of the same sky. This is because the thing that the player is seeing IS the same peice of sky. A lot of people who start making a level, and try to have a nice sky will try to create a Sky for each part of the level, but this is certainly the wrong thing to do here. Wouldn't it be so much easier if we were able to create a little "room" with a sky in it, and then simply click on a property of a texture, and say "Don't show this texture here, but show what is inside the little room with the sky in it". ? Well that is basically just what we can do.
+
+The Sky Itself To make the sky itself is probably the hardest part. Sure, it's easy to make one that will do the trick, but it's a lot harder to make a really good looking sky that is worthy of a real level.
+
+There are a few guidelines that you should stick to when you are making a good skybox.
+
+
+Size
+The size of the actual skybox is the most common mistake that is made by people when they first start. Most people assume that the skybox will have to be large enough to cover the entire "sky" of the level itself. This is not the case at all. It is a norm to make the skybox about 1024x1024x768 or that is the size that should work well with most levels. This is large enough not to get too tricky, but at the same time, it's also not too large to start getting messy with lights and the like, and will not hog too much system resources when the level is being played. 
+Shape
+Did anyone ever say that the shape of a skybox HAD to be an actualy "box"? No! I do often use a box for simplicity, but if you have a level that will only be showing one side of a skybox, what is to say that you can't make it in a wedge shape, or perhaps a nice spherical shape? There are limitless possibilities that you can use here but I just wanted to piont that out, as it seems to be a "assumption" that most people make - wrongly. 
+Lighting
+Lights are of course very important to use in a skybox, and there are a number of things that you will want to consider before you start throwing them in. 
+Dynamic Lighting : While there is nothing to say that you can't use dynamic lights in the skybox, and they certainly look really nice, you will find that they are actually rarely used in the main Unreal levels, as they do hog resources like little else. Think about just how much resources Dynamic Lights can use when they are in a level itself. If you use one that is slightly larger you will notice that it will really slbog down a smaller machine, and the same goes for their use in a Skybox, although it is actually multiplied somewhat. When you place on in a skybox, it greatly increases the amount of resouces that will have to be assigned to it, and can really slow down a smaller unit when the person is playing. This is one of those tricky things however, because if the level generally plays VERY well, and the skybox will only bee seen from a place that has little "happening" around it, then sure, throw something nice in and give the players a little more eyecandy, but if you have a huge open (or outdoor) level where the skybox is seen from a lot of places and there will be fighting etc, then you might want to hold off the eye candy and simply go for better playability. 
+Fog : Please don't use fog in your skybox. It won't work. It will however still slow down your level quite a bit. The reason that you level will slow down but the fog won't be seen is simply becuase to see fog in a level it the player HAS to be in the same Zone as the fog. Now if you place fog into the skybox, you will still have the fog there, and if by cheating the player actually "flew" into the skybox, then technically yes, it could be seen there, but if the player is normally playing the level, they would of course not be in the same zone as the fog, so it would not be seen at all. However becuase the fog "technically is there", the PC still has to do all the horrible calculations for it, in the case that the player was to fly into the area. Once again, I am simply going to say Don't! 
+Colored Lighting : Colors will normally add in quite a bit to make your sky look a lot nicer, and it will also not hog too many system resources. Most good skyboxes (You know the ones that you stare at for ages, until some monster creeps up and shoots you, at which point you have to "snap out of it" and start playing again) will use quite a few colors, and you might even hink that they are somewhat "psychadelic" if you look at them for too long, and try to "work them out", but if you simply look at them, then you will think "Yikes, what a lovely sky there is here...". That is the effect that we are trying to get here. Feel free to use lots of nice colors in your sky, and if you want to have a level that looks realistic rather then painting it with splashes of many colors, why not create a sunset, or sunrise and have the sky painted with a myrad of yellows, organges and reds. 
+Movers
+You can place movers into your skybox, but once again, it can be a little straining on resources and keep in mind that whatever you put there, will most likely be MUCH larger when you see it in the actual game. However a good use of a mover in the skybox, is a VERY good way to add in that little "extra" to make your level stick out above the normal that most people are putting out. For example, if you have a good level that is set ina futuristic timeframe, why not create a space ship, or fighter plane (whatever) that is triggered by something in the level, and it flies across the sky, then dissapears not to be seen again. If you have played Quake 2 (I guess that most people have done so) you wil most likely remember the first level, when there is all sorts of braodcasts going on, and you can see and hear the fighters as they fly over the base, then are not seen again. This may seem like a LOT of wrok for one simple thing that will never be seen again, but the "shiver" that most player will get, will be worth the work you put into it. 
+The way to make a skybox.
+
+I have left this to last, as I really wanted you to read all of the stuff that I have written about them first, and to keep it in mind as you are creating your own sky box, as all of the stuff there has been learnt from many hours both playing and editing levels, and it would seem like an awful waste for you to read this bit first, then miss out on all of the "little tricks" that I have written there. 
+Ok enough crap here on my part. You have waited (and read) enough. Here is the go...
+
+A skybox is a simple thing to create. All you need is a "room" (which as I said, can be a box, and sphere, whatever) as long as it does not have any holes in it. When you have made you sky to look like whatever you want, click on the class browser and then open the zoneinfo menu (click on the little + sign next to it). Choose Skybox info and then place that into the skybox, by right clicking in the 3D view and selecting it from the drop menu.
+
+When the zoneinfo is in the skybox itself, all you have to do, is to open the "advanced properties" of a texture, and then highlight the "fake backdrop" option. This will not appear to do much at all. It will only work in the actual game, or when you test it out from within the editor. If you have any further questions about the tutorial, then please contact me | Millennium 2002 | and I will see what I can do to help you further. 
+ 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

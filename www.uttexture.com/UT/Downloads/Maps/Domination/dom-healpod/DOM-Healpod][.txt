@@ -1,0 +1,82 @@
+>>>>>DOM-Healpod][<<<<<
+
+
+
+Title                   : DOM-Healpod][ (DOM)
+Version                 : 1.0
+Release Date            : april 23, 2000
+Filename                : DM-Healpod UT
+Author                  : cliff b *ported by TaroT*
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             : redid most of the textures added a room redid all weapons and health from unreal version
+put in the 3 points and nastied it up  little :)
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Deathmatch
+Level Name              : DOM-Healpod][
+Player #'s		: 2 to 10 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : yes if you rename to dm-healpod
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : redone textures nothing new.
+Known bugs              : how could there be...its a cliffy B map :)
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.13
+Base                    : dm-Healpod][ the UT version of his unreal dethmatch map
+Construction Time       : 1 hour
+                           
+
+
+>>>Installation<<<
+Unzip DM-Healpod][.unr in your Unreal Tournament/maps directory.
+
+
+>>>Author's Notes<<<
+need more fast maps bored with old ones servers get your asses into gear
+watch the centre control point trapsville baby :)
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+AS-alcatraz
+AS-officeworks
+AS-space
+AS-spacemars..soon to be released
+As-space
+Dom-Rings
+DOM-q3meetsUT
+DOM-officeworks
+
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+not my map so ask cliffy B :)
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

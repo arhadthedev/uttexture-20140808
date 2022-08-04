@@ -1,0 +1,66 @@
+================================================================
+Title                   :CTFM-Cores
+Version                 :2
+Release Date            :02/23/01
+Filename                :CTFM-Cores.unr
+Author(s)               :Jasper 'Weenydog' Lodder
+Email Address           :Jasper_lodder@hotmail.com
+Web Page                :none
+Description             :A reactor with 4 cores (4 bases (duhuh))
+Where to get this map   :http://www.planetunreal.com/multictf/ 
+
+Other levels by author  :CTFM-Glassbang
+			 CTFM-Catacomb
+Additional Credits to   :All of the testers and Wyzard, off course.
+
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :The Reactor Cores
+Assault			:no
+CTF                     :yes 
+Deathmatch              :no
+Difficulty Settings     :Skilled is easy to win for diehards like me
+New Sounds              :no
+New Graphics            :Colored walls
+NewUnrealScript         :no
+External DLLs           :no
+Known bugs              :The glass is not visible everywhere but to make it visible it will take another MB and it's 			 fine as it is.
+
+--- Construction ---
+Editor(s) used          :UnrealEd 2
+Base                    :version 1 of this map
+Construction Time       :Too long, about a month. That's way to long for such a map.
+
+Installation
+------------
+Unzip the file
+put CTFM-Cores.unr in your unrealtournament/maps directory
+put Coretex.utx in your unrealtournament/textures directory
+
+Author's Notes
+--------------
+You need Wyzards MultiCTF mod to play this map get it here
+http://www.planetunreal.com/multictf/
+
+MultiCTF; You gotta love it :p
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Jasper Lodder
+
+Do with this map whatever you want, but please give me credit for the original.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

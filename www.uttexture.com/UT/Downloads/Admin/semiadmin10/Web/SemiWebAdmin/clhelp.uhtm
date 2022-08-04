@@ -1,0 +1,1229 @@
+<HTML>
+<HEAD>
+<TITLE>Semi-Admin</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<STYLE type="text/css"> <!-- .traditionalcommandnames { font: bold small-caps 14px Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase; color: #FF9933 }
+	.commandnames { font: bold small-caps 14px Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase; color: #66CC66 }
+	.defaulttext { font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-size: 16px }
+	.FunctionHeadings { font: bolder 24px Verdana, Arial, Helvetica, sans-serif }
+	.PrivilegeHeadings { font: bolder 22px Verdana, Arial, Helvetica, sans-serif }
+	.serveradmincommands { font: bold small-caps 14px Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase; color: #CCCCCC }
+	--></STYLE>
+</HEAD>
+<BODY bgcolor="#000000" text="#cccccc" link="#33cc66" vlink="#33cc66" leftmargin="0" topmargin="0">
+<TABLE width="100%%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td colspan="3" bgcolor="#226474"> <img src="/images/1-1.gif" width="26" height="6" hspace="0" vspace="0" border="0" align="left">
+	  <img src="/images/1-2.gif" width="114" height="6" hspace="0" vspace="0" border="0" align="right">
+	</td>
+  </tr>
+  <tr>
+	<td width="21" bgcolor="black"><img src="/images/2-1.gif" width="21" height="19" hspace="0" vspace="0" border="0" align="left"></td>
+	<td width="100%%" align="left" bgcolor="black"> <font face="Verdana,Arial" color="white" size="-1"><b><a name="top"></a>Command
+	  Line Help Page</b></font><br> </td>
+	<td width="114" align="right" bgcolor="black"> <img src="/images/2-2.gif" width="114" height="19" hspace="0" vspace="0" border="0" align="right">
+	</td>
+  </tr>
+  <tr>
+	<td bgcolor="#226474" colspan="3"> <img src="/images/3-1.gif" width="26" height="7" hspace="0" vspace="0" border="0" align="left">
+	  <img src="/images/3-2.gif" width="114" height="7" hspace="0" vspace="0" border="0" align="right">
+	</td>
+  </tr>
+</TABLE>
+<table width="100%%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td width="26" align="right" bgcolor="black"><img vspace="0" hspace="0" src="/images/4-2.gif" width="26" height="26" align="right"></td>
+	<td align="left" bgcolor="black" width="100%%"><font face="Verdana,Arial" color="#33cc66"><b>SemiAdmin
+	  Command Line Usage & Instructions</b></font></td>
+	<td width="67" align="left"><img vspace="0" hspace="0" src="/images/4-1.gif" width="67" height="26" align="left"></td>
+	<td width="1" align="right" valign="center"> <font face="Verdana,Arial" size="-1" color="white"><b>«</b><a href="mailto:%BugAddress%">Bugs?</a><b>»</b></font>
+	</td>
+	<td width="26" align="right"><img vspace="0" hspace="0" src="/images/4-2.gif" width="26" height="26" align="right"></td>
+  </tr>
+</table>
+<table width="100%%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/5-1.gif" width="24" height="21" align="left"></td>
+	<td width="100%%" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width="1" height="1"></td>
+	<td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/5-2.gif" width="25" height="21" align="right"></td>
+  </tr>
+  <tr>
+	<td width="100%%" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width="1" height="1"></td>
+  </tr>
+  <tr>
+	<td width="9" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width="1" height="1"></td>
+	<td width="15" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width="1" height="1"></td>
+	<td width="100%%" bgcolor="#135565">
+<P class="FunctionHeadings">Table of Contents </P>
+<OL type="1">
+  <LI class="defaulttext"><A href="#intro">Introduction</A></LI>
+  <LI class="defaulttext"><A href="#installation">Installation</A></LI>
+  <LI class="defaulttext"><A href="#gettingstarted">Getting Started</A>
+	<OL>
+	  <LI type="A" class="defaulttext"><A href="#logginin">Logging In/Out &amp;
+		General Access Commands</A></LI>
+	  <LI class="defaulttext"><A href="#groups">Creating Groups</A></LI>
+	  <LI class="defaulttext"><A href="#users">Creating Users</A></LI>
+	</OL>
+  <LI class="defaulttext"><A href="#privileges">Privileges</A>
+	<OL type="a">
+	  <LI class="defaulttext"><A href="#u">User</A></LI>
+	  <LI class="defaulttext"><A href="#b">Ban</A></LI>
+	  <LI class="defaulttext"><A href="#g">Game Play</A></LI>
+	  <LI class="defaulttext"><A href="#k">Kick</A></LI>
+	  <LI class="defaulttext"><A href="#l">Ladder</A></LI>
+	  <LI class="defaulttext"><A href="#m">Maps</A></LI>
+	  <LI class="defaulttext"><A href="#o">Bots</A></LI>
+	  <LI class="defaulttext"><A href="#s">Summon</A></LI>
+	</OL>
+  </LI>
+  <LI class="defaulttext"><A href="#commands">Commands</A>
+	<OL type="a">
+	  <LI class="defaulttext"><A href="#privu">User</A></LI>
+	  <LI class="defaulttext"><A href="#privb">Ban</A></LI>
+	  <LI class="defaulttext"><A href="#privg">Game Play</A></LI>
+	  <LI class="defaulttext"><A href="#privk">Kick</A></LI>
+	  <LI class="defaulttext"><A href="#privl">Ladder</A></LI>
+	  <LI class="defaulttext"><A href="#privm">Maps</A></LI>
+	  <LI class="defaulttext"><A href="#privo">Bots</A></LI>
+	  <LI class="defaulttext"><A href="#privm">Summon</A></LI>
+	</OL>
+  </LI>
+  <LI class="defaulttext"><A href="#security">Security Levels</A>
+	<OL type="a">
+	  <LI class="defaulttext"><A href="#ual">User Access Level</A></LI>
+	  <LI class="defaulttext"><A href="#gal">Game Access Level</A></LI>
+	</OL>
+  </LI>
+  <LI class="defaulttext">Examples</LI>
+  <LI class="defaulttext">Troubleshooting</LI>
+  <LI class="defaulttext">To Do</LI>
+</OL>
+<P>&nbsp;</P>
+<P><SPAN class="FunctionHeadings"><A name="intro"></A>Introduction</SPAN><SPAN class="defaulttext">
+  - <A href="#top">top</A></SPAN></P>
+<P class="defaulttext">SemiAdmin is mutator for Unreal Tournament that allow you
+  to setup usernames and passwords with varying levels of access to the server
+  administration commands in Unreal Tournament. It is useful for situations in
+  which you want to allow friends and clanmates to perform *some* of the functions
+  of a server admin (such as changing maps or mutators) but not all of them (such
+  as kicking other users). It also an extremely useful tool for all admins that
+  lend their server to other clans to be used for matches and scrims, as you can
+  configure those users so that they can access only match-related commands, and
+  maintain the security of your server, without giving away the full server admin
+  password. All commands are accessed with the &quot;mutate &lt;command&gt; &lt;parameters&gt;&quot;
+  syntax.</P>
+<P><BR>
+  <SPAN class="FunctionHeadings"><A name="installation"></A>Installation</SPAN><SPAN class="defaulttext">
+  - <A href="#top">top</A></SPAN></P>
+<P class="defaulttext">Open the .ini file you're using for your server. Unless
+  you have renamed it, this is the unrealtournament.ini file, found in the UnrealTournament\System
+  directory of your Unreal Tournament installation. Find the [Engine.GameEngine]
+  section and look for a group of lines that begin with: </P>
+<P><CODE>ServerActors=</CODE></P>
+<P class="defaulttext">Add this line after the last &quot;ServerActors=&quot;
+  line:</P>
+<P><CODE>ServerActors=SemiAdmin.SemiAdminSA</CODE></P>
+<P class="defaulttext">Save the .ini, restart the server, and SemiAdmin will be
+  enabled.</P>
+<P class="FunctionHeadings"><A name="gettingstarted"></A>Getting Started</P>
+<P class="PrivilegeHeadings"><A name="logginin"></A>Logging In/Out &amp; General
+  Access Commands</P>
+<P class="defaulttext">Commands-</P>
+<blockquote>
+  <P class="defaulttext"><CODE>mutate ali &lt;username&gt; &lt;password&gt;</CODE>
+	- admin login<BR>
+	<CODE>mutate alo</CODE> - admin logout<BR>
+  </P>
+</blockquote>
+<P class="defaulttext">When SemiAdmin is first installed, the default username
+  and password are both &quot;admin&quot;. You can change this once you have logged
+  in to the server. To login to SemiAdmin, bring up the console, and type:</P>
+<P class="defaulttext"><CODE>mutate ali admin admin</CODE></P>
+<P class="defaulttext">You should see a message stating that so-and-so has become
+  a limited administrator. This means that you are now logged into SemiAdmin,
+  and can now begin issuing commands. </P>
+<P class="defaulttext">From here, the first thing you should do is change the
+  admin user's login name and/or password. This is not required, but it is highly
+  recommended to maintain the security of the server. If you decide to change
+  both the name and password, you must do each seperately; you cannot change the
+  username and password with one command. </P>
+<P class="defaulttext">To change the admin's username, type the following into
+  the server console, replacing &lt;new name&gt; with the name you would like
+  to rename the server admin to:</P>
+<P class="defaulttext"><CODE>mutate users mod admin name &lt;new name&gt;</CODE></P>
+<P class="defaulttext">To change the admin's password, type the following into
+  the server console, replacing &lt;new password&gt; with the password you would
+  like to use on the admin account:</P>
+<P class="defaulttext"><CODE>mutate users mod admin pass &lt;new password&gt;
+  </CODE> </P>
+<P class="defaulttext">Keep in mind that if have renamed the admin account, you
+  will need to use that name in place of 'admin' to change the admin password.
+  So if I wanted to change the admin login and password to &quot;Evolution&quot;
+  and &quot;mypassword&quot;, the commands would be:</P>
+<P class="defaulttext"><CODE>mutate users mod admin name Evolution</CODE></P>
+<P class="defaulttext"><CODE>mutate users mod Evolution pass mypassword</CODE></P>
+<P class="PrivilegeHeadings">Groups &amp; Users</P>
+<P class="defaulttext">The next step is to create your groups. Groups are how
+  SemiAdmin assigns permissions. You will never assign a permission (such as Bots
+  or Maps) to a user. Instead, you will create groups and assign permissions to
+  these groups. Users are then added to these groups and will inherit whatever
+  permissions are applied to the group they belong to. A user may not exist in
+  more than one group. </P>
+<P class="FunctionHeadings"><FONT size="4"><A name="groups"></A>Creating Groups
+  </FONT></P>
+<P class="defaulttext">Command-</P>
+<BLOCKQUOTE>
+  <P><code>mutate groups add &lt;group name&gt; &lt;privileges&gt; &lt;user access
+	level&gt; &lt;game access level&gt;</code> - <SPAN class="defaulttext">Add
+	new groups</SPAN><BR>
+  </P>
+</BLOCKQUOTE>
+<P class="defaulttext">To create a group, use the <CODE>mutate groups add</CODE>
+  command. There are 4 parameters for this command - group name, privileges, user
+  access level, and game access level. I'll explain each of these parameters,
+  then give a few examples of using this command.</P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+	<TD class="defaulttext" valign="top" width="19%%" height="82">Group Name</TD>
+	<TD class="defaulttext" width="81%%" valign="top" height="82"> <P>This parameter
+		is self-explanatory. It's best to use names that help describe what function
+		the group will have, such as &quot;borrowserver&quot; for a group that
+		will contain users of other clans that will borrow your server for matches.
+		The group name must be one word (no spaces) and can be anything you like.</P></TD>
+  </TR>
+  <TR>
+	<TD class="defaulttext" valign="top" width="19%%" height="46">Privileges</TD>
+	<TD class="defaulttext" width="81%%" height="46" valign="top"> <P>Privileges
+		are assigned using the one letter shortcuts for the privileges. The available
+		privileges are: U (user) B (ban) G (game) K (kick) L (ladder) M (maps)
+		O (bots) S (summon). See the section titled <A href="#privileges">&quot;Privileges&quot;</A>.
+		To add more than one privilege to a group, simply string the letters together,
+		such as </P>
+	  <P><CODE>mutate groups add mygroup BKMO 140 2</CODE><BR>
+	  </P></TD>
+  </TR>
+  <TR>
+	<TD class="defaulttext" valign="top" width="19%%" height="38">User Access Level</TD>
+	<TD width="81%%" class="defaulttext" height="38" valign="top"> A number from
+	  0 - 255. This will be furthur explained in the section titled <A href="#security">&quot;Security
+	  Levels&quot;</A>.</TD>
+  </TR>
+  <TR>
+	<TD class="defaulttext" valign="top" width="19%%" height="57">Game Access Level</TD>
+	<TD width="81%%" class="defaulttext" height="57" valign="top">A number from
+	  0 - 2. This will be furthur explained in the section titled <A href="/security">&quot;Security
+	  Levels&quot;</A>.</TD>
+  </TR>
+</TABLE>
+<P class="defaulttext">&nbsp;</P>
+<P class="defaulttext">Once you have created the groups you want, you will create
+  users to be in those groups. If you would like to see sample configurations
+  of SemiAdmin, I have created a few hypothetical scenarios so that you can see
+  how the various privileges and security levels interact with each other. <A href="/semiadmin/samples.htm">Click
+  here to view the scenarios.</A></P>
+<P class="PrivilegeHeadings"><A name="users"></A>Creating Users</P>
+<P class="FunctionHeadings"><A name="privileges"></A>Privileges</P>
+<P class="defaulttext">SemiAdmin commands are grouped into privileges, based on
+  what they do. There are 8 privilege groups, each containing their own set of
+  commands. This section will explain what each group does, and list the traditional
+  admin commands each privilege handles.</P>
+<P class="defaulttext">The privilege groups are as follows:</P>
+<P class="defaulttext">U - <A href="#u">User Commands</A><BR>
+  B - <A href="#b">Ban Commands</A><BR>
+  G - <A href="#g">Game Commands</A><BR>
+  K - <A href="#k">Kick Commands</A><BR>
+  L - <A href="#l">Ladder Commands</A><BR>
+  M - <A href="#m">Map Commands</A><BR>
+  O - <A href="#o">Bot Commands</A><BR>
+  S - <A href="#s">Summon Command</A></P>
+<P class="defaulttext">Privileges B K L M O and S are either on or off. A group
+  that has M privilege, for instance, is able to use all of the commands of the
+  maps privilege, and a group that does not have M privilege, is able to use none
+  of the commands of the maps privilege. </P>
+<P class="defaulttext">U and G however, are unique, in that the commands for these
+  groups are furthur limited by access levels. Each group that you create will
+  have a user access level and a game access level. The User Access Level controls
+  which groups that group may modify (there are also other implications of this
+  security level - see <A href="#security">Security Levels</A> for more information),
+  while the game access level controls which of the &quot;Game&quot; privilege
+  commands the groups may access.</P>
+<P class="PrivilegeHeadings"><A name="u"></A>Privilege U - User</P>
+<P class="serveradmincommands">Corresponding Server Admin Commands</P>
+<P class="defaulttext">None - A configurable multi-user admin system does not
+  exist in Unreal Tournament by default</P>
+<P class="serveradmincommands">Description</P>
+<P class="defaulttext">User Privilege allows members of a group to add players
+  to a group, delete players from a group, or modify a player's login name or
+  password. Of course, this can present a problem, so the <A href="#ual">User
+  Access Level</A> was added to SemiAdmin to provide a way to control which groups
+  a user with U privilege can modify. When you create a group, you must specify
+  both a Game Access Level, and a User Access Level. The available settings for
+  User Access Levels are 0 thru 254. 255 is reserved for Master Admin Group. When
+  you login to SemiAdmin for the first time, it creates an 'admin' group that
+  has a User Access Level of 255, adds a user to this group with a name of &quot;admin&quot;
+  and a password of &quot;admin&quot;. The admin group is defined as having all
+  privileges, is able to modify all parameters of SemiAdmin, and can use all commands
+  on any player. See <A href="#ual">User Access Level</A> for a detailed explanation
+  of the way the User privilege works.</P>
+<P class="defaulttext"><EM><STRONG>NOTE:</STRONG></EM> </P>
+<BLOCKQUOTE>
+  <P class="defaulttext">Any group configured with U privilege will also have
+	access to the commands in all other privilege groups. The only exception to
+	this is the B privilege (this is by popular demand - it seemed to cause trouble
+	to allow users with User privilege to also ban players). As a result, only
+	groups configured specifically with the B privilege will be able to ban players.
+  </P>
+  <P class="defaulttext"> In future versions, this may be changed. It is undecided
+	whether User Access Levels will be applied to limit this functionality, or
+	whether it will be discarded entirely.</P>
+</BLOCKQUOTE>
+<P class="PrivilegeHeadings"><A name="b"></A>Privilege B - Ban Commands</P>
+<P class="commandnames"><FONT class="serveradmincommands">Corresponding Server
+  Admin Commands</FONT></P>
+<P class="traditionalcommandnames">kickban &lt;player name&gt;</P>
+<P class="serveradmincommands">Description</P>
+<P class="defaulttext">Allows a user to Ban/Kick a player using either the player
+  name or player id. The ability to ban a player by player id does not exist in
+  Unreal Tournament. It was included in SemiAdmin to enable you to easily administrate
+  players that use ascii symbols or control codes in their player name.</P>
+<P class="PrivilegeHeadings"><A name="g"></A>Privilege G - Game Commands</P>
+<P class="serveradmincommands">Corresponding Server Admin Commands</P>
+<P class="traditionalcommandnames">admin set &lt;game class&gt;.&lt;setting&gt;
+  &lt;value&gt;<BR>
+  admin get &lt;game class&gt;.&lt;setting&gt;</P>
+<P class="serveradmincommands">Description</P>
+<P class="defaulttext">Allows a user to enumerate and modify default game parameters.
+  All groups are configured with a game access level, though truly this parameter
+  is only applicable to those groups with are given the G privilege. Different
+  game parameters have different levels of importance and sensitivity to the server.
+  SemiAdmin allows you to limit the amount of game settings a user can change
+  by setting game access levels. For more information, see <A href="#gal">Game
+  Access Levels</A>.</P>
+<P class="PrivilegeHeadings"><A name="k"></A>Privilege K - Kick Commands</P>
+<P class="serveradmincommands">Corresponding Server Admin Commands</P>
+<P class="traditionalcommandnames">kick &lt;playername&gt;</P>
+<P class="serveradmincommands">Description</P>
+<P class="defaulttext">Same as the Ban command, except allows only kicking a player,
+  not banning them.</P>
+<P class="PrivilegeHeadings"><A name="l"></A>Privilege L - Ladder Commands</P>
+<P class="serveradmincommands">Corresponding Server Admin Commands</P>
+<P class="defaulttext">None - This concept was introduced by SemiAdmin.</P>
+<P class="serveradmincommands">Description</P>
+<P class="defaulttext">While still unimplemented in version 0.07, the Ladder Privilege
+  will allow a user to easily prepare a server for matches and/or scrims using
+  one command - </P>
+<P class="defaulttext"><CODE>ladder &lt;type&gt; &lt;gamepassword&gt; &lt;map1&gt;,&lt;map2&gt;,&lt;map3&gt;</CODE></P>
+<P class="defaulttext">as well as list the maps currently configured for the ladder.</P>
+<P class="PrivilegeHeadings"><A name="m"></A>Privilege M - Map Commands</P>
+<P class="serveradmincommands">Corresponding Server Admin Commands</P>
+<P class="traditionalcommandnames">switchlevel &lt;mapname&gt;</P>
+<P class="serveradmincommands">Description</P>
+<P class="defaulttext">Map commands allow users to switch maps, enumerate the
+  next 3 maps to be played on the server, and quickly restart the current map
+  being played.</P>
+<P class="PrivilegeHeadings"><A name="o"></A>Privilege O - Bot Commands</P>
+<P class="serveradmincommands">Corresponding Server Admin Commands</P>
+<P class="traditionalcommandnames">addbots &lt;#&gt;<BR>
+  admin addbotnamed &lt;botname&gt;</P>
+<P class="serveradmincommands">Description</P>
+<P class="defaulttext">Bot commands allow the user to add or remove bots. Users
+  may add/remove a certain number of bots, or specific bots by name.<BR>
+</P>
+<P class="PrivilegeHeadings"><A name="s"></A>Privilege S - Summon Command</P>
+<P class="serveradmincommands">Corresponding Server Admin Commands</P>
+<P class="traditionalcommandnames">summon unreali.&lt;pawn name&gt;</P>
+<P class="serveradmincommands">Description</P>
+<P class="defaulttext">Allows the user to summon pawns.</P>
+<P class="defaulttext">&nbsp;</P>
+<P class="FunctionHeadings"><A name="commands"></A>Commands</P>
+<P class="defaulttext">SemiAdmin uses its own set of commands to influence the
+  game. Instead of using 'switchlevel CTF-Face.unr' for instance, you will use
+  'mutate map CTF-Face.unr'. The following is a list of all available commands
+  for each privilege.</P>
+<P class="PrivilegeHeadings"><FONT size="4">Key:</FONT></P>
+<table bordercolor="black" border=1>
+  <tr>
+	<td> <P><CODE>&lt;&gt;</CODE><SPAN class="defaulttext">- Parameter is mandatory.
+		It must be included or you will recieve an error.</SPAN></P>
+	  <P><CODE>[ ]</CODE><SPAN class="defaulttext">- Everything inside of these
+		brackets is an optional parameter. You may include this parameter is desired,
+		but the command will still work without it.</SPAN></P>
+	  <P><CODE>a | b</CODE><SPAN class="defaulttext">- Denotes a choice. Either
+		use a or b, but not both.</SPAN></P>
+	  <P><CODE>...</CODE><SPAN class="defaulttext">- The last parameter may be
+		repeated as many times as necessary to achieve the desired effect.</SPAN></P></td>
+  </tr>
+</table>
+<P class="defaulttext">In our example, we'll use the <CODE>addbot</CODE> command.
+</P>
+<P><CODE>mutate addbot [&lt;#&gt;|&lt;botname [botname] ...&gt;]</CODE></P>
+<P class="defaulttext">There are several things you can do when you add a bot.
+  The basic command is <CODE>mutate addbot</CODE>. This works fine, and will cause
+  the server to add one randomly chosen bot to the game. Thus, the remaining parameters
+  are optional, as denoted by the <CODE>[ ]</CODE> brackets surrounding them.
+  If you decide to include parameters, you may add a particular number of bots,
+  or you may choose to add 1 or more bots by name. This choice is denoted by the
+  <CODE>|</CODE> between the required parameters <CODE>&lt;#&gt; | &lt;botname&gt;</CODE>.
+  So you must include a number, or you must include a name. If you include a name,
+  you may also include additional names, but it is not required, as denoted by
+  the [ ] surrounding the second botname parameter. The <CODE>...</CODE> tells
+  you that you may continue with as many names as you would like.</P>
+<HR>
+<P><SPAN class="PrivilegeHeadings">General (All Access) Commands</SPAN> - <SPAN class="defaulttext">These
+  commands may be performed by any player on the server.</SPAN></P>
+<P class="defaulttext"><CODE>mutate saver</CODE> - Show SemiAdmin version<BR>
+  <CODE>mutate nextmaps</CODE> - Show next map (will show up to 3)</P>
+<HR>
+<P class="PrivilegeHeadings"><FONT size="4"><A name="privu"></A>Privilege U -
+  User Commands</FONT></P>
+<P class="defaulttext">&nbsp;</P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+	<TH width="15%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Parameter</FONT></H4></TH>
+	<TH width="9%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Type</FONT></H4></TH>
+	<TH width="76%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Explanation</FONT></H4></TH>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>username</CODE></TD>
+	<TD width="9%%" class="defaulttext">Text</TD>
+	<TD width="76%%" class="defaulttext">The name that will be given to the new
+	  user. This will be the name they use to login.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>password</CODE></TD>
+	<TD width="9%%" class="defaulttext">Text</TD>
+	<TD width="76%%" class="defaulttext">The default password the new user will
+	  use to login.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>group</CODE></TD>
+	<TD width="9%%" class="defaulttext">Text</TD>
+	<TD width="76%%" class="defaulttext">The group that the user will belong to.</TD>
+  </TR>
+</TABLE>
+<P class="defaulttext"><SPAN class="commandnames">ADD</SPAN></P>
+<P class="defaulttext">syntax:<BR>
+  <CODE>mutate users add &lt;username&gt; &lt;password&gt; &lt;group&gt;</CODE></P>
+<P class="defaulttext">This command will allow you to add a new user to a group.
+  The user will inherit whatever privileges and security levels the group holds.</P>
+<P class="commandnames">DEL</P>
+<P><SPAN class="defaulttext">syntax</SPAN>: <CODE><BR>
+  mutate users del &lt;username&gt;</CODE></P>
+<P class="defaulttext"> This command will completely remove a user from semiadmin.
+  The last master admin cannot be deleted.</P>
+<P class="commandnames">MOD</P>
+<P><SPAN class="defaulttext">syntax</SPAN>: <CODE><BR>
+  mutate users mod &lt;username&gt; name &lt;new username&gt;</CODE><BR>
+  <CODE>mutate users mod &lt;username&gt; pass &lt;new password&gt;</CODE><BR>
+  <CODE>mutate users mod &lt;username&gt; group &lt;new group&gt;</CODE></P>
+<SPAN class="defaulttext">These commands allow you to modify the username, password,
+or group membership of any user. You may only change one parameter at a time,
+and changes take effect immediately.</SPAN>
+<P class="commandnames">LIST</P>
+<P><SPAN class="defaulttext">syntax</SPAN>: <CODE><BR>
+  mutate users list</CODE></P>
+<P class="defaulttext"> This command will list all the defined users. The list
+  will show all users<BR>
+  in no specific order.</P>
+<HR>
+<P class="PrivilegeHeadings"><FONT size="4"><A name="privb"></A><SPAN class="PrivilegeHeadings">Privilege
+  B - Ban Commands</SPAN></FONT></P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+	<TH width="15%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Parameter</FONT></H4></TH>
+	<TH width="9%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Type</FONT></H4></TH>
+	<TH width="76%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Explanation</FONT></H4></TH>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>playername</CODE></TD>
+	<TD width="9%%" class="defaulttext">Text</TD>
+	<TD width="76%%" class="defaulttext">The player's name, as seen on the scoreboard
+	  in Unreal Tournament.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>playerid</CODE></TD>
+	<TD width="9%%" class="defaulttext">Integer</TD>
+	<TD width="76%%" class="defaulttext">The ID given to the player by the <CODE>kicklist</CODE>
+	  command.</TD>
+  </TR>
+</TABLE>
+<P class="commandnames">BAN</P>
+<P class="defaulttext">syntax : <CODE>mutate ban &lt;playername&gt;</CODE></P>
+<P class="defaulttext"> Bans the specified player using his player name.</P>
+<P class="commandnames">BANID</P>
+<P class="defaulttext">syntax: <CODE>mutate banid &lt;playerid&gt;</CODE></P>
+<P class="defaulttext">Bans the player associated with the <CODE>playerid</CODE>.
+  A user's <CODE>playerid</CODE> may be obtained by using the <CODE>kicklist</CODE>
+  command described under <A href="#privk">Privilege K - Kick Commands</A>.</P>
+<HR>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P class="PrivilegeHeadings"><A name="privg"></A>Privilege G - Game Play Commands</P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+	<TH width="15%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Parameter</FONT></H4></TH>
+	<TH width="9%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Type</FONT></H4></TH>
+	<TH width="76%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Explanation</FONT></H4></TH>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>gamename</CODE></TD>
+	<TD width="9%%" class="defaulttext">Text</TD>
+	<TD width="76%%" class="defaulttext">The <A href="#nametable">short or long</A>
+	  version of the game name.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%" height="27"><CODE>gameclass</CODE></TD>
+	<TD width="9%%" class="defaulttext" height="27">Text</TD>
+	<TD width="76%%" class="defaulttext" height="27">The <A href="#nametable">class
+	  name</A> of a game type.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%" height="27"><CODE>setting</CODE></TD>
+	<TD width="9%%" class="defaulttext" height="27">Text</TD>
+	<TD width="76%%" class="defaulttext" height="27">The name of the setting you
+	  would like to change, as it appears in the .ini or .u file.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%" height="27"><CODE>value</CODE></TD>
+	<TD width="9%%" class="defaulttext" height="27">Varies</TD>
+	<TD width="76%%" class="defaulttext" height="27">Value you would like to assign
+	  the setting.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%" height="27"><CODE>restart?</CODE></TD>
+	<TD width="9%%" class="defaulttext" height="27">Boolean</TD>
+	<TD width="76%%" class="defaulttext" height="27">Use 0 if a restart is not
+	  necessary; Use 1 to make SemiAdmin restart the server after changes are
+	  applied</TD>
+  </TR>
+</TABLE>
+<P class="commandnames">EDIT</P>
+<P><SPAN class="defaulttext">syntax</SPAN></P>
+<P><CODE>mutate game edit [gamename | gameclass]</CODE></P>
+<P class="defaulttext"> This subcommand will make you the current game editor.
+  As the current game editor, you will be able to use the <CODE>set</CODE> and
+  <CODE>applychanges</CODE> commands. You must become the game editor before you
+  will be able to make any changes to the game (tournament mode, air speed, minimum
+  number of players, etc.). If you issue the game edit command without specifying
+  any parameters, SemiAdmin assumes you want to modify the current game class.</P>
+<P class="commandnames"> SET</P>
+<P><SPAN class="defaulttext">syntax</SPAN></P>
+<P><CODE>mutate game set &lt;setting&gt; &lt;value&gt;</CODE></P>
+<P class="defaulttext"> This command will allow you to change all configurable
+  parameters of the game type you have selected to modify using the <CODE>game
+  edit</CODE> command. Each game setting has a required access level (Presently,
+  these access levels are hard coded, and cannot be configured. Future versions
+  may include a method to set your own access levels for game settings). In order
+  to configure a game setting, the group that a SemiAdmin user belongs to must
+  be configured with a game access level equal to or greater than the required
+  game access level of the setting he is trying to change. For a more detailed
+  explanation, see <A href="#security">Security Levels</A>.</P>
+<P class="commandnames">GET</P>
+<P class="defaulttext">syntax</P>
+<P class="defaulttext"><CODE>mutate game get &lt;* | setting&gt;</CODE></P>
+<P class="defaulttext"> Allow you to enumerate the current value of a setting.
+  To see the values of all configurable settings, use <CODE>*</CODE> as the parameter.</P>
+<P class="commandnames">APPLYCHANGES</P>
+<P class="defaulttext">syntax</P>
+<P class="defaulttext"><CODE>mutate game applychanges &lt;restart&gt;</CODE></P>
+<P class="defaulttext"> Applies the changes made while in game edit mode. You
+  must use this command after editing game settings in order to make those changes
+  take effect immediately. You must also specify whether you would like the server
+  restarted in order for the changes to take effect.</P>
+<P class="defaulttext">Example : <CODE>mutate game applychanges 1</CODE></P>
+<P class="commandnames">CHANGETO</P>
+<P class="defaulttext">syntax</P>
+<P class="defaulttext"><CODE>mutate game changeto &lt;gamename | gameclass&gt;</CODE></P>
+<P class="defaulttext"> This command will switch the server to the game type you
+  specify. You may specify game type by <A href="#installation">game name</A>
+  or <A href="#nametable">game class</A>.</P>
+<!--
+***********************<BR>
+  *** Coming commands ***<BR>
+  ***********************</P>
+<P>command: GAME        subcommand: SAVE<BR>
+  syntax : mutate game save [slot] [MUTATORS] [MAPLIST]</P>
+<P>---------------------</P>
+<P>command: GAME        subcommand: LOAD<BR>
+  syntax : mutate game load [slot]</P>
+<P>---------------------</P>
+<P>command: MUTATORS<BR>
+  syntax : mutate mutators &lt;mutator [mutator] ...&gt;</P>
+<P>---------------------</P>
+<P>command: MUTATORS    subcommand: ADD<BR>
+  syntax : mutate mutators add &lt;mutator [mutator] ...&gt;</P>
+<P>---------------------</P>
+<P>command: MUTATORS    subcommand: DEL<BR>
+  syntax : mutate mutators del &lt;mutator [mutator] ...&gt;</P>
+<P>---------------------</P>
+<P>command: MUTATORS    subcommand: CLEAR<BR>
+  syntax : mutate mutators clear</P>
+<P>---------------------</P>
+<P>command: MUTATORS    subcommand: LIST<BR>
+  syntax : mutate mutators list</P>
+<P>---------------------</P>
+<P>command: MUTATORS    subcommand: USED<BR>
+  syntax : mutate mutators used</P>
+<P>---------------------</P>
+<P>command: MAPLIST<BR>
+  syntax : mutate maplist</P>
+<P>---------------------</P>
+<P>command: MAPLIST     subcommand: ADD<BR>
+  syntax : mutate maplist add &lt;mapname [mapname] ...&gt;</P>
+<P>---------------------</P>
+<P>command: MAPLIST     subcommand: DEL<BR>
+  syntax : mutate maplist del &lt;mapname [mapname] ...&gt;</P>
+<P>---------------------</P>
+<P>command: MAPLIST     subcommand: CLEAR<BR>
+  syntax : mutate maplist clear</P>
+<P>---------------------</P>
+<P>command: MAPLIST     subcommand: LIST<BR>
+  syntax : mutate maplist list</P>
+<P>---------------------</P>
+<P>command: MAPLIST     subcommand: USED<BR>
+  syntax : mutate maplist used</P>
+  -->
+<HR>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P class="PrivilegeHeadings"><A name="privk"></A>Privilege K - Kick Commands</P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+	<TH width="15%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Parameter</FONT></H4></TH>
+	<TH width="9%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Type</FONT></H4></TH>
+	<TH width="76%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Explanation</FONT></H4></TH>
+  </TR>
+  <TR>
+	<TD width="15%%" height="37"><CODE>playername</CODE></TD>
+	<TD width="9%%" class="defaulttext" height="37">Text</TD>
+	<TD width="76%%" class="defaulttext" height="37">The player's name, as seen
+	  on the scoreboard in Unreal Tournament.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%" height="36"><CODE>playerid</CODE></TD>
+	<TD width="9%%" class="defaulttext" height="36">Integer</TD>
+	<TD width="76%%" class="defaulttext" height="36">The ID given to the player
+	  by the <CODE>kicklist</CODE> command.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%" height="24"><CODE>mask</CODE></TD>
+	<TD width="9%%" class="defaulttext" height="24">Text</TD>
+	<TD width="76%%" class="defaulttext" height="24">All of part of player's name.
+	  Different from <CODE>playername</CODE> only in that if used in combination
+	  with the wildcard string <CODE>*</CODE>, it may contain only part of a player's
+	  name, or only the matching part of multiple player's names.</TD>
+  </TR>
+</TABLE>
+<P class="commandnames">KICK</P>
+<P class="defaulttext">syntax</P>
+<P class="defaulttext"><CODE>mutate kick &lt;playername [playername] ...&gt;</CODE></P>
+<P class="defaulttext"> Kicks the specified player using their player name. You
+  may specify more than one player name.</P>
+<P class="commandnames">KICKID</P>
+<P class="defaulttext">syntax</P>
+<P class="defaulttext"><CODE>mutate kickid &lt;playerid [playerid] ...&gt;</CODE></P>
+<P class="defaulttext"> Kicks the player associated with the <CODE>playerid</CODE>.
+  A player's <CODE>playerid</CODE> may be acquired using the <CODE>kicklist</CODE>
+  command.</P>
+<P class="commandnames">KICKPART</P>
+<P class="defaulttext">syntax</P>
+<P class="defaulttext"><CODE>mutate kickpart &lt;[*]&lt;mask&gt;[*] [[*]&lt;mask&gt;[*]]
+  ...&gt;</CODE></P>
+<P class="defaulttext"> Kicks a player using only a part of their name. Also used
+  to kick multiple players whose name match the wildcard.<BR>
+  (Ex: <CODE>mutate kickpart PoD*</CODE> would kick all player's whose names begin
+  with &quot;PoD&quot;)</P>
+<P class="commandnames">KICKLIST</P>
+<P class="defaulttext">syntax</P>
+<P class="defaulttext"><CODE>mutate kicklist</CODE></P>
+<P class="defaulttext"> Returns a list of currently connected players, along with
+  their associated <CODE>playerid</CODE>. This is used to enumerate the playerid
+  that will be used in the <CODE>banid</CODE> and <CODE>kickid</CODE> commands.
+  Results are generated in a table-style format, with one line per currently connected
+  player. Bots are not included in the list. Example output of the <CODE>kicklist</CODE>
+  command</P>
+<P class="defaulttext"> <CODE> &nbsp;&nbsp;&nbsp;1:FriscoKid<BR>
+  &nbsp;&nbsp;&nbsp;3:&ocirc;wnzYou<BR>
+  &nbsp;&nbsp;14:Onyx<BR>
+  &nbsp;&nbsp;21:Sir_Slamalot<BR>
+  &nbsp;&nbsp;&nbsp;8:Cool_water<BR>
+  &nbsp;&nbsp;&nbsp;6:Tooquickforyou<BR>
+  &nbsp;&nbsp;&nbsp;2:&#143;&#143;&#143;You-can't-kick-me<BR>
+  &nbsp;&nbsp;&nbsp;4:&sect;&sect;&sect;&sect;&sect;inDaHouse</CODE></P>
+<HR>
+	  <P class="PrivilegeHeadings"><A name="privl"></A>Privilege L - Ladder Commands</P>
+<P class="defaulttext">To be announced</P>
+<HR>
+	  <P class="PrivilegeHeadings"><A name="privm"></A>Privilege M - Map Commands</P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+	<TH width="15%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Parameter</FONT></H4></TH>
+	<TH width="9%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Type</FONT></H4></TH>
+	<TH width="76%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Explanation</FONT></H4></TH>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>mapname</CODE></TD>
+	<TD width="9%%" class="defaulttext">Text</TD>
+	<TD width="76%%" class="defaulttext">The name of the map, with or without the
+	  .unr extension.</TD>
+  </TR>
+</TABLE>
+<P><SPAN class="commandnames"><I>{mapname}</I></SPAN></P>
+<P> syntax</P>
+<P><CODE>mutate map &lt;mapname&gt;</CODE></P>
+<P> Switches the server to the specified map name.</P>
+<P class="commandnames">NEXT</P>
+<P>syntax</P>
+<P><CODE>mutate map next</CODE></P>
+<P> Switches the server to the next map in rotation.</P>
+<P class="commandnames">RESTART</P>
+<P>syntax</P>
+<P><CODE>mutate map restart</CODE></P>
+<P> Restarts the game on the current map.</P>
+<HR>
+	  <P class="PrivilegeHeadings"><A name="privo"></A>Privilege O - Bot Commands</P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+	<TH width="15%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Parameter</FONT></H4></TH>
+	<TH width="9%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Type</FONT></H4></TH>
+	<TH width="76%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Explanation</FONT></H4></TH>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>botname</CODE></TD>
+	<TD width="9%%" class="defaulttext">Text</TD>
+	<TD width="76%%" class="defaulttext">The name of the bot, as configured in
+	  the server's user.ini.</TD>
+  </TR>
+  <TR>
+	<TD width="15%%">#</TD>
+	<TD width="9%%" class="defaulttext">Integer</TD>
+	<TD width="76%%" class="defaulttext">Number of bots to add or remove</TD>
+  </TR>
+</TABLE>
+<P class="commandnames">KILLBOTS</P>
+<P>syntax</P>
+<P><CODE>mutate killbots</CODE></P>
+<P> This will remove all bots from the current game, but does not affect default
+  number of minimum players. Bots will join game on next map while mimimum number
+  of players is not reached.</P>
+<P class="commandnames">ADDBOT</P>
+<P>syntax</P>
+<P><CODE>mutate addbot [&lt;#&gt;|&lt;botname [botname] ...&gt;]</CODE></P>
+<P> Adds one or more bots. If no parameters are specified, the server adds one
+  randomly chose bot. You may add a certain number of bots, by specifying a number
+  as a parameter. Alternately, you may add specific bots by specifying their names
+  as parameters. You may add more than one bot at once by seperating their names
+  with spaces. If the bot's name is misspelled or doesn't exist, the server will
+  randomly choose a valid bot name and add it to the game.</P>
+<P class="commandnames">DELBOT</P>
+<P> syntax</P>
+<P><CODE>mutate delbot [#|&lt;botname [botname] ...&gt;]</CODE></P>
+<P> Removes bots from the current game, without affecting the minimum number of
+  players setting. Just as with the addbot command, you may specify a number to
+  remove a particular number of bots from the game, or you can specify one or
+  more names to remove specific bots.</P>
+<HR>
+	  <P class="PrivilegeHeadings"><A name="privs"></A>Privilege S - Summon Command</P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+	<TH width="15%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Parameter</FONT></H4></TH>
+	<TH width="9%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Type</FONT></H4></TH>
+	<TH width="76%%" height="28"> <H4><FONT face="Verdana, Arial, Helvetica, sans-serif">Explanation</FONT></H4></TH>
+  </TR>
+  <TR>
+	<TD width="15%%"><CODE>objectclass</CODE></TD>
+	<TD width="9%%" class="defaulttext">Text</TD>
+	<TD width="76%%" class="defaulttext">The class definition of the object you
+	  wish to summon. For a complete list of summon objects, and their corresponding
+	  class names, see <A href="#summontable">Summon Object Names</A></TD>
+  </TR>
+</TABLE>
+<P>&nbsp;</P>
+<P class="commandnames">SUMMON</P>
+<P class="defaulttext">syntax</P>
+<P class="defaulttext"><CODE>mutate summon &lt;objectclass&gt;</CODE></P>
+	  <P class="defaulttext"> This command works exactly the way the traditional summon
+		command does. Most pawns can be summoned anywhere, at any time. However,
+		if you find that you are unable to summon one of the larger pawns, make
+		sure that there is enough room where you are to generate the pawn (in
+		some cases, you must stand on a ledge)</P>
+<P class="FunctionHeadings"><A name="nametable"></A>Appendix A - Game names and
+  abbreviations used in SemiAdmin</P>
+<TABLE width="95%%" border="0" cellspacing="0" cellpadding="1" class="defaulttext">
+  <TR>
+	<TH width="20%%" height="24">Game Type</TH>
+	<TH width="13%%" height="24">Short Name</TH>
+	<TH width="23%%" height="24">Long Name</TH>
+	<TH width="44%%" height="24">Class Name</TH>
+  </TR>
+  <TR>
+	<TD width="20%%" height="30">Deathmatch</TD>
+	<TD width="13%%" height="30">DMP</TD>
+	<TD width="23%%" height="30">DeathMatchPlus</TD>
+	<TD width="44%%" height="30">Botpack.DeathMatchPlus</TD>
+  </TR>
+  <TR>
+	<TD width="20%%" height="27">Team Deathmatch</TD>
+	<TD width="13%%" height="27">TDM</TD>
+	<TD width="23%%" height="27">TeamDeathMatch</TD>
+	<TD width="44%%" height="27">Botpack.TeamGamePlus</TD>
+  </TR>
+  <TR>
+	<TD width="20%%" height="27">Last Man Standing</TD>
+	<TD width="13%%" height="27">LMS</TD>
+	<TD width="23%%" height="27">LastManStanding</TD>
+	<TD width="44%%" height="27">Botpack.LastManStanding</TD>
+  </TR>
+  <TR>
+	<TD width="20%%" height="26">Assault</TD>
+	<TD width="13%%" height="26">ASS</TD>
+	<TD width="23%%" height="26">Assault</TD>
+	<TD width="44%%" height="26">Botpack.Assault</TD>
+  </TR>
+  <TR>
+	<TD width="20%%" height="28">Capture The Flag</TD>
+	<TD width="13%%" height="28">CTF</TD>
+	<TD width="23%%" height="28">CatchTheFlag</TD>
+	<TD width="44%%" height="28">Botpack.CTFGame</TD>
+  </TR>
+  <TR>
+	<TD width="20%%" height="28">Domination</TD>
+	<TD width="13%%" height="28">DOM</TD>
+	<TD width="23%%" height="28">Domination</TD>
+	<TD width="44%%" height="28">Botpack.Domination</TD>
+  </TR>
+</TABLE>
+<P class="FunctionHeadings"><A name="summontable"></A>Appendix B - Summon Object
+  Class Names</P>
+<TABLE width="545" border="0" cellspacing="0" cellpadding="0">
+  <TR>
+	<TD width="1" height="19">&nbsp;</TD>
+	<TD width="141"></TD>
+	<TD width="403" rowspan="3" valign="top"> <TABLE border="0" cellspacing="3" cellpadding="1" class="defaulttext" align="center">
+		<TR>
+		  <TH width="174"><B>Monsters</B></TH>
+		  <TH width="163">Class Definition</TH>
+		</TR>
+		<TR>
+		  <TD width="174">&nbsp;</TD>
+		  <TD width="163">&nbsp;</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Warlord</TD>
+		  <TD width="163">unreali.warlord</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Titan</TD>
+		  <TD width="163">unreali.titan</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Stone Titan</TD>
+		  <TD width="163">unreali.stonetitan</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Squid</TD>
+		  <TD width="163">unreali.squid</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Slith</TD>
+		  <TD width="163">unreali.slith</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Skaarj</TD>
+		  <TD width="163">unreali.skaarj</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Warrior</TD>
+		  <TD width="163">unreali.skaarjwarrior</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Scout</TD>
+		  <TD width="163">unreali.skaarjscout</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Lord</TD>
+		  <TD width="163">unreali.skaarjlord</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Berserker</TD>
+		  <TD width="163">unreali.skaarjberserker</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Assassin</TD>
+		  <TD width="163">unreali.skaarjassassin</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Ice Skaarj</TD>
+		  <TD width="163">unreali.iceskaarj</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Trooper</TD>
+		  <TD width="163">unreali.skaarjtrooper</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Sniper</TD>
+		  <TD width="163">unreali.skaarjsniper</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Officer</TD>
+		  <TD width="163">unreali.skaarjofficer</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Infantry</TD>
+		  <TD width="163">unreali.skaarjinfantry</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Gunner</TD>
+		  <TD width="163">unreali.skaarjgunner</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Queen</TD>
+		  <TD width="163">unreali.queen</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Pupae</TD>
+		  <TD width="163">unreali.pupae</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Nali</TD>
+		  <TD width="163">unreali.nali</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Priest</TD>
+		  <TD width="163">unreali.nalipriest</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Mercenary</TD>
+		  <TD width="163">unreali.mercenary</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Elite Mercenary</TD>
+		  <TD width="163">unreali.mercenaryelite</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Manta</TD>
+		  <TD width="163">unreali.manta</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Giant Manta</TD>
+		  <TD width="163">unreali.giantmanta</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Cave Manta</TD>
+		  <TD width="163">unreali.cavemanta</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Krall</TD>
+		  <TD width="163">unreali.krall</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Small Krall</TD>
+		  <TD width="163">unreali.lesserkrall</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Elite Krall</TD>
+		  <TD width="163">unreali.krallelite</TD>
+		</TR>
+		<TR>
+		  <TD width="174">GasBag</TD>
+		  <TD width="163">unreali.gasbag</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Giant GasBag</TD>
+		  <TD width="163">unreali.giantgasbag</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Fly</TD>
+		  <TD width="163">unreali.fly</TD>
+		</TR>
+		<TR>
+		  <TD width="174">DevilFish</TD>
+		  <TD width="163">unreali.devilfish</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Cow</TD>
+		  <TD width="163">unreali.cow</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Baby Cow</TD>
+		  <TD width="163">unreali.babycow</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Tentacle</TD>
+		  <TD width="163">unreali.tentacle</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Brute</TD>
+		  <TD width="163">unreali.brute</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Small Brute</TD>
+		  <TD width="163">unreali.lesserbrute</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Behemoth</TD>
+		  <TD width="163">unreali.behemoth</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Rabbit</TD>
+		  <TD width="163">unreali.nalirabbit</TD>
+		</TR>
+		<TR>
+		  <TD width="174">HorseFly</TD>
+		  <TD width="163">unreali.horsefly</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Bloblet</TD>
+		  <TD width="163">unreali.bloblet</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Biter Fish</TD>
+		  <TD width="163">unreali.biterfish</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Bird</TD>
+		  <TD width="163">unreali.bird1</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Parent Blob</TD>
+		  <TD width="163">unreali.parentblob</TD>
+		</TR>
+		<TR>
+		  <TD width="174">HorseFly Swarm</TD>
+		  <TD width="163">unreali.horseflyswarm</TD>
+		</TR>
+		<TR>
+		  <TD width="174">DeadBody Swarm</TD>
+		  <TD width="163">unreali.deadbodyswarm</TD>
+		</TR>
+		<TR>
+		  <TD height="28" width="174">BiterFish School</TD>
+		  <TD height="28" width="163">unreali.biterfishschool</TD>
+		</TR>
+		<TR>
+		  <TD height="5" width="174"></TD>
+		  <TD height="5" width="163"></TD>
+		</TR>
+		<TR>
+		  <TH width="174">Bots</TH>
+		  <TH width="163">&nbsp;</TH>
+		</TR>
+		<TR>
+		  <TD width="174">&nbsp;</TD>
+		  <TD width="163">&nbsp;</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Skaarj</TD>
+		  <TD width="163">unreali.skaarjplayerbot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Human</TD>
+		  <TD width="163">unreali.humanbot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Male</TD>
+		  <TD width="163">unreali.malebot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">MaleOne</TD>
+		  <TD width="163">unreali.maleonebot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">MaleTwo</TD>
+		  <TD width="163">unreali.maletwobot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">MaleThree</TD>
+		  <TD width="163">unreali.malethreebot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Female</TD>
+		  <TD width="163">unreali.femalebot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">FemaleOne</TD>
+		  <TD width="163">unreali.femaleonebot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">FemaleTwo</TD>
+		  <TD width="163">unreali.femaletwobot</TD>
+		</TR>
+		<TR>
+		  <TD height="12" width="174"></TD>
+		  <TD height="12" width="163"></TD>
+		</TR>
+		<TR>
+		  <TH width="174">Objects</TH>
+		  <TH width="163">&nbsp;</TH>
+		</TR>
+		<TR>
+		  <TD width="174">&nbsp;</TD>
+		  <TD width="163">&nbsp;</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Health</TD>
+		  <TD width="163">unreali.health</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Shieldbelt</TD>
+		  <TD width="163">unreali.shieldbelt</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Jump Boots</TD>
+		  <TD width="163">unreali.jumpboots</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Cannon</TD>
+		  <TD width="163">unreali.cannon</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Unreal Rocket Launcher</TD>
+		  <TD width="163">unreali.eightball</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Unreal Flak Cannon</TD>
+		  <TD width="163">unreali.flakcannon</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Quad Shot</TD>
+		  <TD width="163">unreali.quadshot</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Warhead Launcher</TD>
+		  <TD width="163">unreali.warheadlauncher</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Enforcer</TD>
+		  <TD width="163">unreali.enforcer</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Double Enforcer</TD>
+		  <TD width="163">unreali.doubleenforcer</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Minigun</TD>
+		  <TD width="163">unreali.minigun2</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Pulsegun</TD>
+		  <TD width="163">unreali.pulsegun</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Shock Rifle</TD>
+		  <TD width="163">unreali.shockrifle</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Sniper Rifle</TD>
+		  <TD width="163">unreali.sniperrifle</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Bio Rifle</TD>
+		  <TD width="163">unreali.biorifle</TD>
+		</TR>
+		<TR>
+		  <TD width="174">UT Rocket Launcher</TD>
+		  <TD width="163">ut_eightball</TD>
+		</TR>
+		<TR>
+		  <TD width="174">UT Flak Cannon</TD>
+		  <TD width="163">ut_flakcannon</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Chainsaw</TD>
+		  <TD width="163">unreali.chainsaw</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Rifle</TD>
+		  <TD width="163">unreali.rifle</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Razorgun</TD>
+		  <TD width="163">unreali.razorjack</TD>
+		</TR>
+		<TR>
+		  <TD width="174">GES Bio Rifle</TD>
+		  <TD width="163">unreali.gesbiorifle</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Mini-gun</TD>
+		  <TD width="163">unreali.minigun</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Dispersion Pistol</TD>
+		  <TD width="163">unreali.dispersionpistol</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Stinger</TD>
+		  <TD width="163">unreali.stinger</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Auto Mag</TD>
+		  <TD width="163">unreali.automag</TD>
+		</TR>
+		<TR>
+		  <TD width="174">ASMD</TD>
+		  <TD width="163">unreali.asmd</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Clip</TD>
+		  <TD width="163">unreali.clip</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Rifle Ammo</TD>
+		  <TD width="163">unreali.rifleround</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Flak Ammo</TD>
+		  <TD width="163">unreali.flakshellammo</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Default Ammo</TD>
+		  <TD width="163">unreali.defaultammo</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Forcefield</TD>
+		  <TD width="163">unreali.forceshield</TD>
+		</TR>
+		<TR>
+		  <TD width="174">Voice Box</TD>
+		  <TD width="163">unreali.voicebox</TD>
+		</TR>
+	  </TABLE></TD>
+  </TR>
+  <TR>
+	<TD width="1" rowspan="3">&nbsp;</TD>
+	<TD height="60" valign="top">&nbsp;</TD>
+  </TR>
+  <TR>
+	<TD height="2242"></TD>
+  </TR>
+  <TR>
+	<TD height="19"></TD>
+	<TD></TD>
+  </TR>
+  <TR>
+	<TD height="0"></TD>
+	<TD></TD>
+	<TD></TD>
+  </TR>
+</TABLE>
+<td width="16" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width="16" height="1"></td>
+	<td width="9" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width="9" height="1"></td>
+  </tr>
+</table>
+<table width="100%%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td valign="bottom" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/7-1.gif" width="25" height="18" align="left"></td>
+	<td bgcolor="#226474" width="100%%" valign="top"> </td>
+	<td valign="bottom" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/7-2.gif" width="25" height="18" align="right"></td>
+	<td height="18" valign="top"> <font face='Verdana, Arial, Helvetica' size='-1'>Thanks to <a href="http://www.planetunreal.com/modcentral/ut" target="_top">Mod Central</a> for this design
+	  </font> </td>
+	<td align="right" valign="top"><img vspace="0" hspace="0" src="/images/7-3.gif" width="46" height="18" align="right"></td>
+  </tr>
+</table>
+<P>&nbsp;</P>
+</BODY>
+</HTML>

@@ -1,0 +1,26 @@
+		>>> AS-Urban Wars <<<
+
+   Map Name: Urban Wars
+   Map Type: UT-Assault
+       Game: Unreal Tornament
+     Author: Revelation
+    Players: 8 - 10
+       Bots: true
+ Build Time: about 6 weeks
+Editor Used: UnrealED 2.0
+      Files: AS-Urban Wars.unr / Midtown_tex.utx
+
+=======================================================
+
+You are allowed to copy this map and give it to friens,
+but do not change it or build other maps on it's base.
+You are not allowed to sale the map, if you want to put
+it on a CD or something, please send an E-Mail to:
+
+Revelation1984@freenet.de
+
+=======================================================
+
+Have fun playing!
+
+		Revelation

@@ -1,0 +1,68 @@
+================================================
+Title			:The Adenoid Research Facility
+Release Date		:25 August 2000
+Filename		:D0M-Adenoid.unr 
+Author			:David Herrington	
+E-mail address		:Dr_herrington@hotmail.com
+Other levels by author	:DM-Adenoid
+Editor			:UnrealEd 2.0
+Base			:DM-Adenoid
+Build time		:Too many hours which were meant to be used for work
+Time spent writing readme:30 minutes
+Addition credits	:Anyone who has reviewed or distrubuted this level
+			:Epic games, of course, for making such a great game and level editor
+=================================================
+
+---Play information---
+Game			:Unreal Tournament
+Level name		:The Adenoid Research Facility
+Game mode		:Domination
+Recomended no. of players:4-10
+New Sound		:No
+New Textures		:No
+Known bugs		:None that I know of. If you find any, I'd love to know about them.
+ 
+Installation
+
+	Unzip the file DOM-Adenoid.unr into your Unreal Tournament\Maps folder.
+
+
+Story
+	
+	In 2146 the government set up the Adenoid Research Facility at a top secret location. 
+It was set up to study alien materials and unknown objects beyond human understanding, using 
+an advanced new device, no one knows where the government got it form, but wherever it was,
+no man built it. A select group of scientists had their memorys wipped and were made to work 
+there for the rest of their lives, which wasn't going to be very long. They found out that this 
+device they had been given was poisoning them and slowly killing the planet. They swore never 
+to use it again and to bury it, they murdered everyone who new about its location and then took 
+their own lives, they beleived for the good of mankind. 
+
+And so the Adenoid Research Facility was lost for nearly a three hundred years, until one day 
+it was found by some miners, who didn't understand it's power. The mines handed it over to their 
+parent company and bosses, The Liandri Corporation.
+
+
+Author comments
+
+	This is a Smallish Domination level that used to be a Deathmatch level, but i actually prefer 
+this Domination variety to the Deathmatch, and it does make a nice domination level. Each Control Point 
+has a lot of ways into it, and is very hard to defend which produces more oportunitys to sneak up on 
+people from behind, more fast paced exchanging of control points and hopefully less camping by points.
+
+
+Copyright and permissions
+
+	This level can be used as the base for other level on the condition that 
+	I have given you permission to do so. My e-mail address is at the top.
+
+	This level may be distributed around the internet as long as this readme file stays 
+	with it and it is not used for comercial gain.
+
+
+----------------------
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

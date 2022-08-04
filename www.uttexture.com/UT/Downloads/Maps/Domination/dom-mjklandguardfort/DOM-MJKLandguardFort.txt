@@ -1,0 +1,147 @@
+DOM-MJKLandguardFort for Unreal Tournament
+by Mike Kennelly
+-----------------------------------------
+
+Map Name    : DOM-MJKLandguardFort
+Type        : Domination
+Released    : April 2000
+Editor	    : UnrealEd
+Build time  : More than I'd like to admit
+Base        : Entirely original
+Author      : Mike Kennelly
+Email       : mike.kennelly@btinternet.com
+WWW         : http://www.mike.kennelly.btinternet.co.uk/lguard/index.htm
+
+Recommended players/bots  : 8 (2 teams of 4)
+Number of Start Spots 	  : 10 or so
+Bot Pathnodes             : yes
+Number of Brushes/Polys   : approx. 1000/10000
+
+Instructions
+------------
+
+Put DOM-MJKLandguardFort.unr in UnrealTournament\Maps
+Put MJKlandguard.utx and MJKlandgDecals.utx in UnrealTournament\Textures
+
+Map info
+--------
+
+   See:
+
+      http://www.mike.kennelly.btinternet.co.uk/lguard/index.htm
+
+   to see screenshots, and to read about the features incorporated in this
+   level.
+
+
+   A Domination level for Unreal Tournament based on Landguard Fort in
+   Felixstowe, Suffolk (UK).
+
+   There has been a fort of some kind on Landguard Common since 1540.
+   Over the years it has evolved considerably as various military threats
+   have come and gone. It could almost have been purpose built
+   to become an Unreal level one day...
+
+   I've modelled the fort as accurately as I'm able from drawings,
+   photographs and video footage. The custom textures were derived from
+   video stills, using a Rombo video frame grabber attached to an Amiga
+   1200.
+
+   The level is unashamedly large, you may experience slow frame rates
+   in some areas, but I hope you will forgive this in view of the fairly
+   ambitious scale of the architecture. I have to admit, I got a bit
+   carried away.
+
+   I developed the map on a Gateway G6-350 with 64Mb RAM and a 4Mb STB
+   Velocity 128 Gfx card.
+
+   Bot paths are included.
+
+   Also, you can collect a translator from the room on your left on your
+   way into the main entrance of the fort, and enjoy a "guided tour".
+
+   If you try this level, I'd really appreciate feedback (good or bad) to
+   the e-mail address above, so that I can make my next level a better one.
+
+
+Known Problems
+--------------
+
+   Too big, I know!!
+
+   There are some areas where the design isn't quite right, due to:
+    - areas of the real fort not being accessible
+    - limited photographic records of some features
+    - a need to preserve playability at the expense of accuracy
+    - mistakes!
+
+The REAL Landguard Fort
+-----------------------
+
+   See the real thing! Visit the Landguard Fort web site at:
+
+      http://www.landguard.com
+
+
+Copyright / Permissions
+-----------------------
+
+This level design and its associated custom textures are copyrighted by
+Mike Kennelly 2000.
+
+You may use this level, and its associated texture files, for your own
+personal non-commercial use. 
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a
+CD or any other electronic medium that is sold for money without my
+explicit permission!
+
+Unreal, original game textures, and all other content copyright 1998,
+Epic Megagames/Digital Extremes
+
+Web distribution:
+
+Administrators of Unreal-related (or other game-related) web sites
+(especially Nali City - respect due!) may freely copy and re-distribute
+this level through any electronic network (internet,
+BBS etc.), provided:
+
+ - No charge is made for this service
+ - you include this file and leave the .unr file intact
+ - No changes are made without seeking my permission
+ - I am credited with authorship
+ - If you want to include this material on any physical distribution media,
+   please seek my permission first.
+
+PC GAMER CD:
+
+I warrant that the level named DOM-MJKLandguardFort was designed by myself
+alone. I warrant that the level includes no copyrighted materials belonging
+to any other person or company. I give my permission for PC GAMER and its
+licensees to include the level DOM-MJKLandguardFort on its cover CD/DVD
+and on any future editions.
+
+Credits and Acknowledgements
+----------------------------
+
+Thanks to Nali City and all its contributors for inspiration.
+
+I must give credit to the excellent historical account of Landguard Fort,
+Felixstowe by D.A. Wood, without which all this would have been a lot
+harder to achieve. (Apologies for the various minor inaccuracies and
+omissions in certain areas of my reconstruction.)
+
+Thanks also to the English Heritage, Landguard Trust, and the 
+Felixstowe Museum and Historical Society for giving the fort
+the recognition it deserves as an ancient monument, and to all those
+working on its restoration.
+
+Oh, and of course thanks to GT Interactive for the excellent Unreal game,
+Unreal Tournament, and the Unreal Editor.
+
+And if you're looking for more Unreal levels, be sure to visit
+Nali City. Awesome.
+
+

@@ -1,0 +1,71 @@
+================================================================
+Title                        : DOM-Deck16]|[
+Version                      : 3.0 (v1.0 DOM)
+Release Date                 : 02/24/2000
+Filename                     : DOM-Deck16]I[.Zip
+Original Author (DM Version) : Myscha
+Author (CTF Version)         : Paul 'Red_Dwarf' Taylor
+Email Address                : mr@paulta@force9.co.uk
+Web Page                     : http://fp.paulta.f9.co.uk/
+Description                  : A DOM map conversion of Myscha's 'DMDeck16'.
+Main Thanx to                : Willhaven and Ultron.
+Additional Credits to        : Myscha (Top DM level), Oli, Hekcorps, MMMonster, TheGrommit 
+                               and anyone else who gave me feedback for the map.
+
+================================================================
+--- Play Information ---
+Game                         : Unreal Tournament DOM
+Level Name                   : DOM-Deck16]|[
+
+Single Player                : No
+Cooperative                  : No
+Deathmatch                   : Dont see why not.
+Dark Match                   : Not by design, but there is a Darkmatch mutator (thanks Eavy!)
+Difficulty Settings          : No
+New Sounds                   : No
+New Graphics & Textures      : Yup quite a few
+Additional Brushes           : Yup quite a few
+Known bugs in map            : None I hope, long time testing this map.
+Known bugs in UT with map    : When you have picked up the Toxin suit and then pick up the shield belt, you loose the
+                               toxin suit attributes. 
+
+--- Construction --- 
+Editor(s) used               : UnrealEd Beta for UT
+Original Base                : DMDeck16 by Myscha (and of course, DM-Deck16][)
+Converted Base               : DOM-Deck16]|[ by Red_Dwarf
+Conversion Time              : 2 weeks on and off with testing and feedback (to convert to DOM)
+
+
+Installation
+------------
+Unzip the DOM-Deck16]I[.unr (map) into the \Map folder under the Unreal Tournament folder.
+Unzip the Deck16.utx (texture) into the \Texture folder under the Unreal Tournament folder.
+
+Author's Notes
+--------------
+Red_Dwarf:       I enjoyed working on the CTF version so much I decided to do a DOM conversion of this as well.
+		 I changed allot of textures, brushes and generally learnt from the weakpoints of the CTF version.
+	         CTF-Deck16]I[ was a good project to work on but this map was solely my project and therefore a little 
+		 more gratifying to see complete. Hope you all enjoy the map and look out for my DM conversion :-)
+
+
+Copyright / Permissions
+-----------------------
+This level and textures are copyrighted by Red_Dwarf (Myschas original level and UT's Textures bar 2). 
+
+Authors may use this level as a base to build additional levels, but please just confirm with us first :-).
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from 3D Realms to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

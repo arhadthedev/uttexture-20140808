@@ -1,0 +1,125 @@
+================================================================
+Title                   : Hall Of Giants - Domination
+Version                 : 0.3a
+Release Date            : 07/15/2000
+Filename                : DOM-HallOfGiants.unr
+Author(s)               : Jimmy 'Gregor' McKinney (Original by Juan Pancho 'XCeptOne' Eekels)
+Email Address           : vorlon@iglou.com
+Web Page                : http://www.mapfinger.com/members/Gregor
+Description             : The first so-called "Hall of Giants" was discovered on the planet 
+                          Euphrates (Omicron Eridani III).  The site was built on a scale
+                          much larger than human, and apparently (based on the omnipresent
+                          green lighting) was intended to be viewed by eyes used to a different
+                          part of the spectrum.  Or perhaps it was meant to be some bizarre form
+                          of alien aesthetics.  Whatever the reason, it was purchased by Liandri.
+
+                          The Hall of Giants proved to be so popular as a Capture the Flag
+                          arena that Liandri formed a special division to search for similar
+                          sites throughout known space.  Ironically, the next one they found
+                          was actually on Euphrates as well, antipodal to the first Hall, submerged 
+                          beneath the planet's liquid oxygen ocean.
+
+                          This second Hall was done in a more subdued blue color; fortunately not so
+                          saturated that the standard team colors could not be distinguished.  Liandri
+                          converted it into a Domination arena, in the hopes that it would prove to be 
+                          just as popular with that crowd.  Only time will tell...
+			  
+Other levels by author  : A whole bunch of unreleased levels, mostly not oriented 
+                          towards playability.  Refer to my mapfinger page if that
+                          makes no sense to you, one or two have been released there.
+
+Additional Credits to   : EpicMegaGames, Digital Extremes, freetextures.com, Skuld for being my personal
+                          Norn, Goddess Family Club for music, Dray'gon of UT City for the feedback that
+                          motivated me to actually finish this.
+
+================================================================
+--- Play Information ---
+Game                    : UnrealTournament
+Level Name              : DOM-HallofGiants
+Single Player           : Yes, in the UT sense (botmatch)
+Cooperative             : Yes, if Multiplayer UT team games count
+(Team) Deathmatch, LMS  : Just rename the DOM- to DM-
+Domination              : Yes
+Assault                 : What have you been smoking?
+Dark Match              : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : New texturing and lighting.  Textures in GR-bio.utx courtesy www.freetextures.com.
+                          Textures in GR-Special.utx are for my mapping convenience.  They are just Quake 2/3
+                          style textures with the words "Clip", "Sky", "Trigger", etc. on them.  I made them
+                          myself (woo).  Feel free to reuse either texture set.
+NewUnrealScript         : No
+External DLLs           : No
+Known Issues            : Zoning issue described below (not really a bug)
+
+--- Construction ---
+Editor(s) used          : UnrealED/UnrealEd 2
+Base                    : CTF-HallOfGiants (used by permission)
+Construction Time       : Way longer than it should've been.
+
+--- Installation ---
+Unzip the .unr file into your UnrealTournament/maps/ directory.
+Put the .utx files in your UnrealTournament/textures/ directory.
+Put this .txt file in your UnrealTournament/help directory (if you 
+are like me; it helps me remember what levels I've gotten).
+
+
+Author's Notes
+--------------
+
+* The teleporters are sort of lame in a "tube" style map, but adding new tubes (or pretty much any new geometry) has just created problems, so this is probably here to stay.
+
+* Three of the four control points (the flag bases and the tube station) are not zoned.  This is somewhat problematic on a big open map like this (tried effectively sealing off the opposite ends of the map as zones, but it just caused more pesky invisble walls and such)
+
+
+Update History
+--------------
+
+0.4  -  Level Released
+
+0.3  -  This will likely be the penultimate version.  The map is probably as complete as it is going 
+	to get, geometry-wise, unless there are major bugs.  I tried lowering the roof of the map to 
+	improve performance, but the way it was created makes this difficult (the major brushwork 
+	hadn't been permanently transformed, making it hard to clip, and doing so now seriously screws 
+	up the texture alignment).  It could still be done, but the map works as well as the CTF version
+	for me, so I have no problems with the way it is now.
+
+	Walkways added from the two new bridges to the Upper Control Point bridge.
+
+	Upper bridge weapons and such tweaked.  Health added as well (intentionally distant from the CP).
+
+	Put the shield belt back in (no idea how it got removed).
+
+	Changed the music after I waited longer than I estimated for a friend of mine to help me playtest
+	the level and I got sick of hearing nether.umx
+	
+
+0.2a -	Updated Alpha version.
+	Weapons added to upper bridge (can't believe I hadn't done that yet)
+	Fixed bots not going to the upper control point (either adding the weapons or some path nodes fixed it).
+	Added a bridge one "column" away from the Upper platform control point bridge in each direction, with weapons and transporters.
+	Added lights to the transporters under the ramps.
+
+0.1a -	Initial Alpha version released, using the only copy that I have that has no known "invisible walls" or HOM.
+
+
+Copyright / Permissions
+-----------------------
+This level is copyright 2000 Jimmy McKinney (or, more likely, Juan Pancho Eekels).
+
+Authors may not use this level as a base to build additional levels without explicit 
+permission from myself and Juan Pancho Eekels.
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL Tournament and the UNREAL Tournament logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

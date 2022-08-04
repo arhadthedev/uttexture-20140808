@@ -1,0 +1,54 @@
+================================================================
+Title                   :AS-KinkoYaburi
+Version                 :1.2
+Release Date            :02/18/2000
+Filename                :AS-KinkoYaburi.unr
+                         Sindemo.utx
+                         AS-KinkoYaburi.txt
+Author(s)               :Hideya
+Email Address           :hideya@poporo.ne.jp
+Web Page                :
+Description             :
+
+
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :AS-KinkoYaburi
+Single Player           :w/bots
+Cooperative             :if youre on the other persons team :)
+Deathmatch              :NO
+Dark Match              :NO
+Difficulty Settings     :HA
+New Sounds              :NO
+New Graphics            :MyLevel
+NewUnrealScript         :NO
+External DLLs           :NO
+Known bugs              :bots are evil
+
+--- Construction ---
+Editor(s) used          :Ued
+Base                    :
+Construction Time       :a while
+
+================================================================
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Hideya 2000.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

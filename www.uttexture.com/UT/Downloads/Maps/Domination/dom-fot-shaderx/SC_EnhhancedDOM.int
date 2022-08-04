@@ -1,0 +1,4 @@
+[Public]
+
+//mutators
+Object=(Name=SabbyCP.SC_DOMMutator,Class=Class,MetaClass=Engine.Mutator,Description="Enhanced DOM")

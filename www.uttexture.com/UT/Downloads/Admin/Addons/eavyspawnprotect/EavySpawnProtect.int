@@ -1,0 +1,4 @@
+; EavySpawnProtect: "EavySpawnProtect" Stefan Daniel Schwarz <unreal@eavy.de>
+[Public]
+Object=(Name=EavySpawnProtect.EavySpawnProtection,Class=Class,MetaClass=Engine.Mutator,Description="EavySpawnProtect,EavySpawnProtection")
+Object=(Name=EavySpawnProtect.EavyMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="EavySpawnProtect,EavySpawnProtection")

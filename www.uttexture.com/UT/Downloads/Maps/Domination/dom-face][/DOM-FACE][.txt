@@ -1,0 +1,83 @@
+>>>>>DOM-FACE][<<<<<
+>>UPDATE<<<
+
+
+Title                   : DOM-FACE][ (DOM)
+Version                 : 1.0
+Release Date            : May 27, 2000
+Filename                : DOM-FACE 
+Author                  : *innoxx* fiorentino ported by TaroT
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             : Most popular and infamous ctf map made into a dom :)
+this is an update in name only i found out that my version of this map is named the same as an
+earlier version and as such has overwriten that work,my sincere apologies for
+any inconvenience this has caused the mapper of the first port
+or any UT players..
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Deathmatch
+Level Name              : DOM-Face][
+Player #'s		: 2 to 20 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : YES rename it to DM-
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No.
+Known bugs              : none
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd2 From UT version 4.20
+Base                    : CTF-FACE and morphed up
+Construction Time       : about an hour with testing
+                           
+
+
+>>>Installation<<<
+Unzip DOM-FACE][.unr in your Unreal Tournament/maps directory.
+
+
+>>>Author's Notes<<<
+Added a runway ,moved the redeemer :) good luck finding it hehe and repathed the bots a bit
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+AS-alcatraz
+AS-officeworks
+AS-space
+AS-spacemars
+As-spaceonearth
+Dom-Rings
+DOM-q3meetsUT
+DOM-officeworks
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+ask Inoxx :) chris fiorentino..i think i spelt thatwrong but you all know who it is :)
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

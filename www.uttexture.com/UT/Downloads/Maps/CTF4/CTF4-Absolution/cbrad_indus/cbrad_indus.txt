@@ -1,0 +1,18 @@
+CBrad Industrial Set v1.0			September 8, 1999
+======================================================================
+
+File:		cbrad_indus.utx
+Author:		Christian Bradley
+E-mail:		cbrad@home.com
+
+
+This is a texture art file for Unreal. The set was designed for use in Unreal levels
+based on an industrial theme. There are 8 original textures in this set which Christian
+Bradley has personally created. You may use these textures in your own Unreal map for
+personal enjoyment only. You may NOT use this utx file or any of the texture images
+contained within it for commercial purposes without Christian's written permission.
+When distributing this texture set please distribute it in its original .utx form
+and with this .txt file. Please do not export and distribute individual textures
+or import them into other texture sets. Thank you.
+
+

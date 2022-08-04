@@ -1,0 +1,35 @@
+Filename             : DM-CA_Chamber.unr
+Level Name           : DM-CA_Chamber
+Author               : RedFist
+Email Address        : 
+Web Page             : 
+Date of Release      : 08/29/2004 
+Player Count         : 8 - 16
+
+
+Installation 
+Unzip into ...\Unreal Tournament\Maps
+
+
+Info
+Map got a little to cumbersome,but i tried to make rising water,but I don't code,but i tried,also added a few other items in there.Got tired of working on it,so this is it.
+
+
+Tips and Tricks
+
+
+
+Copyright
+This map" DM-CA_Chamber.unr", is copyrighted by me, Steve Quist. 
+You may distribute this map through any medium you want, but you're not allowed
+to commercially exploit this map.  No one can make money off of this. Ayt.
+Authors may not NOT use this level as a base to build additional 
+levels.
+
+--------------------------------------------------------------------
+
+UNREAL © 1998 Epic Megagames, Inc. All Rights Reserved. Distributed
+by GT Interactive Software, Inc. under license. UNREAL and the UNREAL
+logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners. 
+            

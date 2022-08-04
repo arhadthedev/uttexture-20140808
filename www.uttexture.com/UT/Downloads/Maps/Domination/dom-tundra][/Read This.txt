@@ -1,0 +1,46 @@
+                    
+Hidden Worlds
+~~~~~~~~~~~~
+File                    : DOM-Tundra][
+Author                  : Elliot "Myscha" Cannon/UT DOM Conversion by Ritch "Ebola" Flynn
+Email                   : rflynn@netmeg.net
+Released                : 18 March, 2001
+
+
+Play Info
+~~~~~~~~~~~~~~~~
+Bot support             : Yes
+Domination              : Yes
+
+
+Play Info
+~~~~~~~~~~~~~~~~
+Editor used             : UED2 (4.32 patch)
+Build Time              : A couple of days on and off
+
+I'm well aware of the "issues" here. But it is fairly playable and I wanted to use one of the better 
+conversions I'd made learning UED to learn how to navigate the upload features on sharing sites. So here it is.
+
+Installation
+~~~~~~~~~~~~~~~~
+Place the *.unr file in your \UnrealTournament\maps directory.
+
+
+
+Known Problems
+~~~~~~~~~~~~~~~~
+Bots sometimes ignore the "Tower" control point. 
+Bots sometimes get stuck in the well.
+
+
+Other Maps by Author
+~~~~~~~~~~~~~~~~~~~~
+Stay tuned. More (better) stuff coming.
+
+ 
+Copyright/Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given as I ripped this from Myscha for practice in UED and am now 
+releasing it it without permission to see if I can figure out Nali City 
+and Fileleech's FTP's, I'd be something of a hypocrite to say anything 
+here, wouldn't I? Don't redistribute this for Profit. Period.

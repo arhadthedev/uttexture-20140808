@@ -1,0 +1,28 @@
+===============================================
+Howto make your own logo texture package guide.
+===============================================
+
+1. Logo modification
+Open your logo with some grahics editor and modify it to 64x64 (recommended),
+128x128, 128x64 or 64x128 pixels and 256 colors.
+Save it as PCX file.
+
+2. Logo import
+Run Unrealed.exe, click on Texture Browser button on toolbar, select
+Import from File menu and open your PCX logo file.
+In Import Texture dialog set Package to something like MyPackage, Group
+to nothing and Name to something like MyLogo.
+Uncheck Generate MipMaps flag and if you want masked logo check Masked Flag.
+
+3. Saving
+Select Save from File menu and set filename to same as you set in
+Import Texture dialog to Package.
+Copy it to server's Textures directory.
+
+4. Finish
+Ok you now have you package with logo texture now set LogoTexture in
+MODOSUtils SplashLogo config to Package.Texture you created and
+add your package to ServerPackages.
+
+
+Copyright (c) Petr Jelinek (PJMODOS)

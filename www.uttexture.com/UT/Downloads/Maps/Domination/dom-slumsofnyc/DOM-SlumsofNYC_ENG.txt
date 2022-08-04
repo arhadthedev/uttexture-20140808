@@ -1,0 +1,49 @@
+DOM-SlumsofNYC
+Just a liitle map for hope & for future. You can see the rebuilded 2 Towers of the World Trade Center.
+A not so big map, 3 Control Points (Roof, Arturo`s bar & homeless corner). The Bot AI is not so good, but
+it works. I think it has a not so good lightning, the whole map is DOM-Condemned like.
+Enjoy
+---------------------------------------------------------------------------------------
+                                  ABOUT THE MAP
+Map name              :       DOM-SlumsofNYC
+Author                :       Denis "UT Freak" Reimer
+Release Date          :       06.10.01
+Version               :       1.00
+Music                 :       Cannon (UT)
+Build time            :       :/   I don`t know, 5 days or so
+UT Version            :       4.00, Patch 4.36
+Player count          :       6
+Editor(s) used        :       UnrealED 2.0
+
+EMail                 :       utfreak@freenet.de
+Homepage              :       www.utfreak.de.vu
+ICQ                   :       102013504
+----------------------------------------------------------------------------------------
+
+Other Stuff made by me (UT Freak)
+
+Visit my HP!   www.utfreak.de.vu
+----------------------------------------------------------------------------------------
+THX to...
+GMA Clan, unrealed.de, unrealediting.de ...
+--------------------------------------------------------------------------------------------
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Denis "UT Freak" Reimer 2001.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold for money!!! 
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact !
+
+-------------------------------------------------------------------------------------------
+
+UNREAL TOURNAMENT (c)2001 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners

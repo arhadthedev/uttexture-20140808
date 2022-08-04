@@ -1,0 +1,15 @@
+Map Name:	Funnel II evo
+Author:		MrTenPercent
+Contact:	via private message at Truff - www.truff.net
+Completed:	12-01-2006
+Reference:	http://www.birrabrothers.com/drac/ued2.html
+		http://wiki.beyondunreal.com/wiki
+
+Thanx:		Voxel on whose beta_Funnel_II.unr this map is based
+		Snoop &
+		Ro-Jaws work colleagues who inadvertently beta tested this map for me during lunch times.
+
+The discerning among you will notice that this is based on Voxel's beta_Funnel_II map hence the name _evo. Dimensionally, the map is almost identical, but I have added side cutouts which run to an invisible teleporter that fires players at the platorm opposite the redeemer stash (should have used kickers I guess). I changed the player spawn points and ensured that the players start looking towards the weapon pickups (also changed/moved); some people may find that the spawn points are a bit close together. I've also added bot navigation points (which were not present in Voxel's map), but the bots still have an annoying habit of hanging round the spawn points. Finally, I added a screenshot.
+
+Hope you enjoy my evolution (rather than revolution) of Voxel's map.
+

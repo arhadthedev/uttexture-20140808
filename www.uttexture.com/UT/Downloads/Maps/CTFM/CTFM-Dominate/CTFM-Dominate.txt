@@ -1,0 +1,34 @@
+================================================================
+Title                   : CTFM-Dominate
+Files                   : CTFM-Dominate.unr,CTFM-Dominate.txt
+Level Design 		: Lord Riff Raff
+Base Level              : Dom-Turorial
+Email Address           : jcr@ww.co.nz
+
+================================================================
+Single Player: Yes
+Multi Player : Yes
+
+================================================================
+--- Installation ---
+
+Unzip the File (You've probably already done that)
+Put the map in the UT map directory (For non-DOS people, the folder)
+Place this file anywhere you like but it's best put in the help
+directory.
+
+================================================================
+Notes: The Skarj won't attack you so don't worry and they won't 
+die easily becasue they have 1000 health. This map plays really
+well with 3 person teams and one flag mode turned on. 
+(The pathnodes are in good flag places)
+
+Bugs: The bots won't go for the Quad.
+
+================================================================
+
+----------------------
+Unreal Tournament (c) 1999 and UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo 
+are registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

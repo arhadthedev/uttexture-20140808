@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=Matrix.Trinity,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Trinity")
+
+Object=(Name=Matrix.Neo,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Neo")
+

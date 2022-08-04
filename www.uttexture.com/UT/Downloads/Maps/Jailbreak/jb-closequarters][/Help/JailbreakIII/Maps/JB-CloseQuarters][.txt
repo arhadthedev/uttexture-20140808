@@ -1,0 +1,49 @@
+================================================================
+Title                   : CloseQuarters][
+Author                  : Eric "SnowDog" Ettes
+Email Address(es)       : zeiren@hotmail.com
+Where to get it         : http://www.planetjailbreak.com/
+
+================================================================
+
+--- Play Information ---
+Game                       : Unreal Tournament
+Level Name                 : CloseQuarters][
+Single Player              : Jailbreak
+Cooperative                : Yes
+Deathmatch                 : No 
+Dark Match                 : No
+Difficulty Settings        : No
+New Sounds                 : No
+New Graphics               : Yes
+NewUnrealScript            : No
+External DLLs              : No
+Recommended no. of players : 4-10 
+Known bugs                 : None
+
+================================================================
+
+--- Description ---
+
+The followup on CloseQuarters, my first map for Jailbreak.
+
+================================================================
+
+--- Construction ---
+Editor(s) used          : UED, Photoshop
+Base                    : Scratch
+Construction Time       : 8+ hours
+
+--- Installation ---            
+
+Place the .unr file in your UnrealTournament/maps folder
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Eric Ettes 2004.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

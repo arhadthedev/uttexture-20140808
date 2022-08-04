@@ -1,0 +1,27 @@
+Author:  Rob Collins
+Title:  Abeyance
+Game Type:  Domination
+Editor Used:  UnrealED2
+
+Other titles by author:  DM-Osiris, DM-Sanctuary, DM-UTKombat, DM-UTKombat][, DM-Sisteen
+
+Build Time:  3 weeks off and on
+
+Theme:  I think it's kind of obvious, but it's a domination map in an ancient setting.
+
+Bugs:  None that I know of
+
+Notes:  The bots have many translocation points.  This may not appeal to some users.  I have placed two sets of jumpboots for those that don't like to use the translocator, i.e. for online play and such.  In my opinion though, the tranlocation points make the bots a much better adversary/teammate.
+
+Inspiration: A number of maps actually, from Passage by Pancho Ekels, to DOM-Olden by Allen Willard, to a little of DM-Pahgio by DavidM, and finally a little DOM-Cryptic by Cliffy B.
+
+ - Also Qualthwar said I needed to stop making such square looking levels, so here you go...hehe.
+
+Beta Tester:  Brian Skotko
+
+Thanks to:  My girlfriend for her patience, the Navy for giving me time to work on my map (yeah right), Infogrames, GT, Epic, etc.
+
+Now the mumbo jumbo:
+
+Authors may not use this level as a base for building other levels without the permission of the author.  Authors MAY distribute this level on electronic medium, giving credit where its due.  
+

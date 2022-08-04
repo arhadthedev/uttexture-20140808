@@ -1,0 +1,114 @@
+Game : Unreal Tournament
+========================================================================
+
+Title                   : "Lost Cry" Fixed Edition
+Date                    : November 15, 2006
+Filename                : DM-LostCry-FE.unr
+Short Description       : Large Gray Temple themed Deathmatch level
+Authors                 : Mario 'Saevus' Iannetti
+                        : E-mail - zawsaevus@alice.it              
+                        : Fixed Edition improvements by LightningHunter
+                        : E-mail - LightningHunter@hotmail.com
+                        
+Additional Credits to   : -Epic games and Gt interactive for making Unreal
+
+                          -Switch, for the new SwJumpPad actor (it really rocks!)
+
+                          -Dante and Wormbo, for the YawTeleporter Code
+
+Other Maps by Author    : DM-GreyFortress, CTF-ForgottenFields
+
+Tagline:
+
+	Don't let the invoking affliction of the Keepers degrade your soul - be courageous and face the rage of Lost Cry...
+
+========================================================================
+
+
+* Play Information *
+
+Game Type               : Deathmatch
+Players                 : 10-16
+New Sounds              : No
+New Graphics            : Yes - A few new 'MyLevel' textures, as well as new meshes
+New Music               : No
+Bot Support             : Yes - Bots should play excellent in this version
+
+
+* Construction *
+
+Base                    : New Map From Scratch
+Editor(s) used          : UnrealEd 2.0, Photoshop, Meshmaker, 3ds Max
+Known Bugs              : A few small BSP holes, Low FPS in certain locations for slower computers
+Build Time              : Around 5 Months + a few extra days for the fixes in the FE version
+	
+
+* Other Info *
+
+   -3rd published map by Saevus
+   -Can be considered "DM-GreyFortress]["
+   -The unoficial UT OpenGL driver is recomended.  It can be found here:
+    http://cwdohnal.home.mindspring.com/utglr/
+    Without the new OpenGL driver, this map may look dark and desaturated.  Other renders are old anyway, and should be 
+    upgraded. ;-)
+   -This map requires a faster PC.  Not-so-modern computers may lag!
+   -There is a new hidden item: t3h AntiShockwave/Impact Suit.  It protects you against the impact hammer and Shockwave 
+    damage from the Redeemer.
+
+
+* FE (Fixed Edition) Changes *
+
+Changes to Bot paths:
+-Added, removed, and tweaked many pathnodes
+-Deleted all the old kickers and replaced them with the SwJumpPad actor.  Visit here for more information on this 
+ AWESOME new actor!  http://www.sabbathcat.co.uk/w00t/tutorial.htm
+-Added lots of lift exits and lift centers to make bots jump off more ledges.
+-Added a few jumpspots and fixed a few others.
+-Bots will now go to nearly every secret.  There are only a few med kits the bots don't get, but for good reason.  
+ The bots would end up having to impact jump to get them, which makes no sense, so I didn't do it.
+-Added Bot-only kickers to keep them from getting stuck in a few places.
+
+Changes to Gameplay:
+-A second Rocket launcher has been added in an area that was slightly void of weapons before.  I felt the map needed a second rocket 
+ launcher on the opposite end of the first rocket launcher.
+-More PlayerStarts were added in quiet areas of the map to liven things up a little.  I felt that most of the action 
+ occurred in only a few rooms before.
+-The mover with the star appearance next to the shield belt moves faster now.  This was changed, because bots would 
+ get distracted by other bots and jump into the dark matter before.
+-A few health vials were removed.
+-In order to get bots to use the super secret with the impact armor, some fake armor has been added on teleporter 
+ to "trick" them into going up there.  Humans can grab the fake armor too, but they won't know they are getting it.  
+ The armor is invisible in the game, and has no pickup sound.  This was the only possible way to make bots grab the secret
+ with the impact armor and Redeemer!
+-The "MaxDesireability" number has been increased on several items to make bots more interested in them.  This was done to 
+ make quiet areas more active.
+-The Dark Matter pits now inflict damager per second as well as vacuum you to death.  This was changed, because the player
+ was able to swim to the surface and avoid death before.
+-An impact jump is now required to reach the super secret.  Good luck. ;-)
+-Most Teleporter Actors have been changed to the YawTeleporter, found here:
+http://wiki.beyondunreal.com/wiki/YawTeleporter
+This allows the player to always face a certain direction upon exiting the telporter destination.
+
+
+* Installation *
+
+Unzip the .unr file into your UnrealTournament/maps/ directory.
+Unzip the .u file into your UnrealTournament/System/ directory.
+
+
+* Copyright / Permissions *
+
+Unreal tournament is a registered trademark of 
+Epic Megagames and Digital Extremes
+
+This level may be electronically distributed only at 
+NO CHARGE to the recipient in its current state, MUST 
+include this .txt file, and may NOT be modified IN 
+ANY WAY.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+Authors may NOT use this level as a base to build additional levels.
+Authors may NOT use the custom contents like meshes and textures without permission. ( just to know where the heck they will go ;) )

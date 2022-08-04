@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------------------------------
+  Mapname: Corridors
+Game Type: Domination
+  Players: 8-16
+
+   Author: B-P Llama (Jason Attard)
+   E-Mail: BPLlama@canada.com
+  Webpage: http://www.crosswinds.net/~llamaworld/
+
+     Date:  April 6th, 2000
+-------------------------------------------------------------------------------------------------------
+
+This domination level started out as "shopping mall at night", but the structure became more and more 
+un-mall-like, and UT's texture set didn't really fit the theme, so it transmuted into yet another
+"futuristic battle arena" level.  Aside from that minor quibble I'm quite happy with the result.  I
+think the weapon placement and flow of the level came out really good.  The bots seem to have no
+trouble getting around, and the map works with a variety of playing styles, from sniping to
+close-quarters flak-flinging battles.
+
+Update:  April 17th, 2000
+
+Removed most of the dynamic lighting to pump up the speed, and added a little bit of eye candy to the
+narrow interior corridors.
+
+-------------------------------------------------------------------------------------------------------
+
+Please send any comments or suggestions to my E-mail address above!
+
+The music included in this level was written by Jesse "Narf Brother" Attard.  You can snag more of his
+music here:
+
+http://www.mp3.com/narfy/
+
+The .umx file included in this ZIP should go in your /UnrealTournament/Music/ directory.
+
+-------------------------------------------------------------------------------------------------------

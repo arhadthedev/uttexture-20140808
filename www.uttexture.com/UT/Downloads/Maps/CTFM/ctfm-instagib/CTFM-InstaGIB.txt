@@ -1,0 +1,34 @@
+-----------------------------------------------------------------------------
+
+			    CTFM-InstaGIB.unr
+
+-----------------------------------------------------------------------------
+
+	Nom de la carte:		Special InstaGIB
+	Type de partie:			MultiTeam CTF
+	Nombre de joueur idéal:		4x2 => 8
+	Taille:				Petite
+	Armes disponible:		[ ]
+	Téléporteur:			[ ]
+
+	Mutator:			InstaGIB DM
+	Note:				Pas de 'DefencePoint', action rapide.
+
+	Nouveaux Scripts:		Non
+	Nouveaux Sons: 			Non
+	Nouvelles Textures: 		Oui, dans 'MyLevel'
+
+	Editeur utilisé:		UnrealEd v2.00 (UTv436)
+	Temps de construction:		1 jours (3 heures)
+	Date:				07/10/01
+
+	Auteur:				Crokx
+	E-mail:                  	Crokx@Infonie.fr
+	Site:				http://crokx.chez.tiscali.fr/
+
+-----------------------------------------------------------------------------
+
+		MultiTeamCTF (c)2000/2001 Colin McCann.
+	        Unreal Tournament (c)1999 Epic Megagames, Inc.
+
+-----------------------------------------------------------------------------

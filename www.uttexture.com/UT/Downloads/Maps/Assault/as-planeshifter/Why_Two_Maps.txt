@@ -1,0 +1,16 @@
+Why two maps?
+
+Well, one of them is a multiplayer version only (no bots), and the other is a single player version.  I decided that a large zip file was the lesser of two evils than the confusion of two seperate zip files.
+So, here you should have:
+
+AS-Planeshifter.unr  (the multi-player map file)
+AS-PlaneshifterSP.unr (the single player map file)
+AscTex.utx (the texture file used by both maps)
+and various .txt readmes.
+
+Each readme contains various points specific to that version of the map.
+Look there for details!
+
+-NarkyBark
+psarris@cesium.clock.org
+http://www.clock.org/~psarris/levels

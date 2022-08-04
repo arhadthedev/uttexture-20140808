@@ -1,0 +1,394 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Portal UnrealEd Tutorial 7 - Adding Water by Cableless</title>
+<style type="text/css">
+<!-- A:link {text-decoration: none} -->
+<!-- A:visited {text-decoration: none} -->
+<!-- A:active {text-decoration: none} -->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#C0C0C0" link="#FF0000"
+vlink="#800000" alink="#FFFFFF">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td><p align="center"><img src="images/main/title.gif"
+        align="left" hspace="0" width="534" height="109"></p>
+        </td>
+        <td><img src="images/main/titlebar.gif" width="76"
+        height="118"></td>
+    </tr>
+</table>
+</center></div>
+
+<blockquote>
+    <p><font size="2" face="Arial">Got a new tutorial? Mail the </font><a
+    href="mailto:jimcable@planetunreal.com;%20mindbomb@planetunreal.com"><font
+    size="2" face="Arial">Portal Team</font></a><font size="2"
+    face="Arial">!</font></p>
+</blockquote>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>UnrealEd Tutorial 7 - Adding Water </b>by
+        </font><a href="mailto:jimcable@planetunreal.com"><font
+        size="2" face="Arial">Cableless</font></a></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p><font size="2" face="Arial">Rather than just
+            building a pool, we will add an underwater hallway
+            between two rooms. This tutorial assumes that you
+            have already built one room.</font></p>
+            <p><font size="2" face="Arial">Download </font><a
+            href="maps/portaltutorial7.unr"><font size="2"
+            face="Arial">the map</font></a><font size="2"
+            face="Arial"> for this Tutorial and install it in
+            your C:\UNREAL\MAPS directory.</font></p>
+        </blockquote>
+        <p><font size="2" face="Arial"></font>&nbsp;</p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center"><font size="2" face="Arial"></font>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Building the Underwater Hallway</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p align="center"><font size="2" face="Arial"><img
+            src="images/screenshots/tutorial7a.jpg" width="320"
+            height="240"></font></p>
+            <ol>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushbuildcube.gif"
+                    width="36" height="37"> <em>Build Cube </em>on
+                    the toolbar.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushscalesnap.gif"
+                    width="37" height="37"> <em>SnapScale Brush</em>
+                    on the toolbar. <em>CTRL-Left Click</em> or <em>CTRL-Right
+                    Click</em> on the brush to stretch the
+                    hallway to the size that you want it.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/cameramove.gif"
+                    width="36" height="37"> Camera Move. <em>Shif-Left
+                    Click</em> or <em>Shift-Right Click</em> on
+                    the <em>UnderwaterHall</em> and move it so
+                    that the roof of the <em>UnderwaterHall</em>
+                    overlaps the floor of the room. Leave enough
+                    overlap so that a player can drop out of the
+                    room into the <em>UnderwaterHall</em>.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushsubtractfromworld.gif"
+                    width="36" height="37"> <em>Subtract Brush
+                    from World</em> on the Toolbar.</font></li>
+                <li><font size="2" face="Arial">Texture the <em>UnderwaterHall</em>.</font></li>
+                <li><font size="2" face="Arial">Under the <em>Options</em>
+                    menu at the top of the screen select <em>Rebuild</em>.</font></li>
+                <li><font size="2" face="Arial">Save your level!</font></li>
+            </ol>
+        </blockquote>
+        <p><font size="2" face="Arial"></font>&nbsp;</p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center"><font size="2" face="Arial"></font>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Creating the WaterSurface and WaterZone</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p align="center"><font size="2" face="Arial"><img
+            src="images/screenshots/tutorial7b.jpg" width="320"
+            height="240"></font></p>
+            <ol>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushbuildplane.gif"
+                    width="35" height="36"> <em>Build Plane</em>
+                    on the toolbar.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushscalesnap.gif"
+                    width="37" height="37"> <em>SnapScale Brush</em>
+                    on the toolbar. <em>CTRL-Left Click</em> or <em>CTRL-Right
+                    Click</em> on the <em>WaterSurface</em> to
+                    scale it to so that it is the same length and
+                    width as the <em>UnderwaterHall</em>. The
+                    entire level will flood if the WaterSurface
+                    does not perfectly seal the bottom of the<em>
+                    UnderwaterHall</em>.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/cameramove.gif"
+                    width="36" height="37"> Camera Move. <em>CTRL-Left
+                    Click</em> or <em>CTRL-Right Click</em> on
+                    the <em>WaterSurface</em> to move it to so
+                    that it is just below the ceiling of your <em>UnderwaterHall</em>
+                    .</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushaddspecial.gif"
+                    width="35" height="36"> Add Special Brush on
+                    the toolbar. Select <em>Water</em> from the
+                    dropdown. Click <em>Build Special Brush</em>
+                    to build your <em>WaterSurface</em>.</font></li>
+                <li><font size="2" face="Arial">Click on the <em>WaterSurface</em>
+                    to select it.</font></li>
+                <li><font size="2" face="Arial">In the Browse
+                    window select <em>Textures.</em></font></li>
+                <li><font size="2" face="Arial">In the Browse
+                    window beneath <em>Textures</em> select <em>Unreal.</em></font></li>
+                <li><font size="2" face="Arial">Select <em>Load</em>
+                    at the bottom of the Browse window.</font></li>
+                <li><font size="2" face="Arial">Select <em>liquids.utx</em>
+                    and click <em>Open</em>.</font></li>
+                <li><font size="2" face="Arial">Select a texture
+                    and click on it.</font></li>
+                <li><font size="2" face="Arial"><em>Right Click</em>
+                    on the <em>WaterSurface</em> and select <em>Align
+                    Selected&gt;Align as Floor/Ceiling</em>.</font></li>
+                <li><font size="2" face="Arial">In the <em>Browse</em>
+                    window, <em>select classes</em>.</font></li>
+                <li><font size="2" face="Arial">In the <em>Browse</em>
+                    window, click on the &quot;-&quot; next to <em>Info</em>
+                    to expand the list.</font></li>
+                <li><font size="2" face="Arial">In the <em>Browse</em>
+                    window, click on the &quot;-&quot; next to <em>ZoneInfo</em>
+                    to expand the list.</font></li>
+                <li><font size="2" face="Arial">Select <em>WaterZone</em>.</font></li>
+                <li><font size="2" face="Arial"><em>Right Click</em>
+                    between your <em>WaterSurface</em> and the
+                    floor of your <em>Water Hall</em> and select <em>Add
+                    WaterZone here</em>. You may have to do this
+                    in the preview window.</font></li>
+                <li><font size="2" face="Arial">Under the <em>Options</em>
+                    menu at the top of the screen select <em>Rebuild</em>.</font></li>
+                <li><font size="2" face="Arial">Save your level!</font></li>
+            </ol>
+        </blockquote>
+        <p><font size="2" face="Arial"></font>&nbsp;</p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center"><font size="2" face="Arial"></font>&nbsp;</p>
+
+<p align="center"><font size="2" face="Arial"></font>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Adding a BiterFish School</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p align="center"><font size="2" face="Arial"><img
+            src="images/screenshots/tutorial6b.jpg" width="320"
+            height="240"></font></p>
+            <ol>
+                <li><font size="2" face="Arial">In the <em>Browse</em>
+                    window, <em>select classes</em>.</font></li>
+                <li><font size="2" face="Arial">In the <em>Browse</em>
+                    window, click on the &quot;-&quot; next to <em>Pawn</em>
+                    to expand the list.</font></li>
+                <li><font size="2" face="Arial">In the <em>Browse</em>
+                    window, click on the &quot;-&quot; next to <em>FlockMasterPawn</em>
+                    to expand the list.</font></li>
+                <li><font size="2" face="Arial">Select <em>FishSchool</em>.</font></li>
+                <li><font size="2" face="Arial"><em>Right Click</em>
+                    between your <em>WaterSurface</em> and the
+                    floor of your <em>Water Hall</em> and select <em>Add
+                    BiterFishSchool here</em>. You may have to do
+                    this in the preview window.</font></li>
+                <li><font size="2" face="Arial">Save your level!</font></li>
+            </ol>
+        </blockquote>
+        <p><font size="2" face="Arial"></font>&nbsp;</p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center"><font size="2" face="Arial"></font>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Creating Another Room</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><blockquote>
+            <p align="center"><font size="2" face="Arial"><img
+            src="images/screenshots/tutorial6b.jpg" width="320"
+            height="240"></font></p>
+            <ol>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushbuildcube.gif"
+                    width="36" height="37"> <em>Build Cube </em>on
+                    the toolbar.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushscalesnap.gif"
+                    width="37" height="37"> <em>SnapScale Brush</em>
+                    on the toolbar. <em>CTRL-Left Click</em> or <em>CTRL-Right
+                    Click</em> on the brush to stretch the new
+                    room to the size that you want it.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/cameramove.gif"
+                    width="36" height="37"> Camera Move. <em>Shift-Left
+                    Click</em> or <em>Shift-Right Click</em> on
+                    the brush and move it so that the floor of
+                    the new room overlaps the roof of the <em>UnderwaterHall</em>.
+                    Leave enough overlap so that a player can
+                    swim out of the UnderwaterHall and climb up
+                    into the new room.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/brushsubtractfromworld.gif"
+                    width="36" height="37"> <em>Subtract Brush
+                    from World</em> on the toolbar.</font></li>
+                <li><font size="2" face="Arial">Texture your new
+                    room.</font></li>
+                <li><font size="2" face="Arial"><em>Right Click</em>
+                    in your new room.</font></li>
+                <li><font size="2" face="Arial">Select <em>Add
+                    Light Here</em>.</font></li>
+                <li><font size="2" face="Arial">Click <img
+                    src="images/toolbar/cameramove.gif"
+                    width="36" height="37"> Camera Move. <em>Shift-Left
+                    Click</em> or <em>Shift-Right Click</em> on
+                    the light and move it where you want it.</font></li>
+                <li><font size="2" face="Arial">Under the <em>Options</em>
+                    menu at the top of the screen select <em>Rebuild</em>.</font></li>
+                <li><font size="2" face="Arial">Save your level!</font></li>
+                <li><font size="2" face="Arial">Select <em>Play
+                    Level</em> under the <em>File</em> menu at
+                    the top of the screen.</font></li>
+            </ol>
+        </blockquote>
+        <p><font size="2" face="Arial"></font>&nbsp;</p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="right"><a href="index.html"><font size="2" face="Arial"><em><strong>Back
+to Tutorials</strong></em></font></a></p>
+
+<p><font size="2" face="Arial"><em><strong>.</strong></em></font></p>
+</body>
+</html>

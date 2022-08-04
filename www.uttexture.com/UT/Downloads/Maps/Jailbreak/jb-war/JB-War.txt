@@ -1,0 +1,60 @@
+Unreal Tournament JB Map
+
+================================================================
+Title                   : War
+Release Date            : Sunday May 13th
+Filename                : JB-War.unr
+Author                  : Ira "Wiz" Taraday
+Email Address           : robo_wizard@hotmail.com
+Web Page                : http://www.geocities.com/wizard_ira/
+
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : JB War             
+
+Game Type               : Jail Break
+Single Player           : yes
+Multiplayer             : yes
+JB Arena		: yes
+New Sounds              : no
+New Graphics            : no
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : New level
+
+=========================================
+Special thanks
+
+A special thanks to:
+skyeric                 :for helping me out with a pth bug
+Maroth			:for the 3 mountains idea and helping me make them
+EIBundee 		:for helping me t get the endng to work
+Excalibur, WillySurvive, Caution, Daikiki, Mychaeel  and many others for ideas and beta testing.
+
+
+Copyright / Permissions
+-----------------------
+InfAdds courtesy Infiltration (http://www.planetunreal.com/infiltration/)
+NBSpecial courtesy ControledDeath (http://www.planetunreal.com/beppo/)
+
+This level is copyrighted by Ira Taraday
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

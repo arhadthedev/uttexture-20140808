@@ -1,0 +1,92 @@
+================================================================
+Title                   : DOM-Deck16][
+Version                 : 1.0
+Release Date            : January 21, 2000
+Filename                : DOM-Deck16][.unr
+Author                  : The original DM-Deck16][ by Elliot "Myscha" Cannon was
+                          modified by Neil Weber 'Dufusyte' for Domination (DOM-Deck16][)
+Email Address           : dufusyte@yahoo.com
+Web Page                : http://www.crosswinds.net/princeton/~nweber
+Description             : Deck16][ made into a Domination Map
+Where to get this map   : Try http://www.planetunreal.com/nalicity or 
+                          http://www.fileplanet.com for all your UT map needs.
+
+===============================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : DOM-Deck16][ (DOM)
+Deathmatch              : No
+Domination              : Yes
+Assault                 : No
+Capture the Flag        : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd
+Base                    : DM-Deck16][.unr
+Construction Time       : Modified a previous level, so editing time was only a few days.
+Other maps by Dufusyte  : DOM-Face = a modified version of Facing Worlds for Domination.
+
+Installation
+------------
+   Unzip the the files.  DOM-Deck16][.unr goes in the "Maps" directory.
+
+Author's Notes
+--------------
+Many DM maps can be converted to Domination with just a few tweaks.  
+Deck16][ is a classic DM map, and so I thought I'd convert it to a DOM map 
+so that Domination fans can enjoy the map in their favorite game mode.  
+Deck16][ really shines as a Domination map because the translocator is 
+enabled by default, and you can just fly like a trapeze through this 
+wonderfully open map.
+
+The Control Points cater to three different playing styles: 
+
+- The Control Point in the Dead End is very defensible, and players who 
+like to have their feet solidly on the ground will enjoy the battles to 
+conquer and defend this Point.  The goop gun will come in handy here.  When 
+you assault this Point, be careful since there may be a bot or two camping 
+in the shadows on defense.
+
+- The Control Point on the catwalk over the Slime Pool is for players who 
+have mastered precise mobility; they will enjoy the thrill of walking the 
+tight rope above the deadly slime, and they can translocate with such 
+precision that they can translocate exactly to this Control Point without 
+falling into the pool.
+
+- The Control Point on top of the Boxes in the central area is the main 
+focus of contention.  This Control Point switches hands the most, and the 
+best way to defend it is to translocate on top of the high boxes where the 
+shock rifle is and guard it from that vantage popint.  This is the Control 
+Point for fast action, and players who like fast paced deathmatch will enjoy 
+fighting around this Control Point.
+
+
+Changes
+-------
+
+Changes from the DM-Deck16][ version:
+
+1.  Added Control Points.
+2.  Tweaked bot paths for Domination gameplay.
+3.  Added a PlayerStart or two.
+4.  Rearranged weapons & ammo & items for Domination gameplay.
+5.  Added a crate or two.
+6.  Tweaked a flickering light.
+7.  Modified Level Info.
+
+
+Copyright / Permissions
+-----------------------
+Since this is merely a modification of a map that shipped with the retail UT, 
+all bets are off on the Permissions; query Epic Megagames.
+
+----------------------
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

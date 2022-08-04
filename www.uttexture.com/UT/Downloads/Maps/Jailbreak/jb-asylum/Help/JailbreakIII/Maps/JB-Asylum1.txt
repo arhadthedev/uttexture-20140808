@@ -1,0 +1,48 @@
+================================================================
+Title                   : JB-Asylum
+Version                 : 
+Release Date            : 
+Filename                : JB-Asylum1.zip
+Author(s)               : HoopDawg
+Email Address           : 
+Description             : 
+Where to get this map   : 
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : JB-Asylum1
+Ideal player count      : 
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+CTF                     : No
+JBUT			: Yes
+Dark Match              : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : 
+
+--- Construction ---
+Editor(s) used          : 
+Base                    : 
+Construction Time       : 
+
+
+Installation
+------------
+   Copy JB-Asylum1.unr to your maps directory. That's all there is to it.
+
+Extended description
+--------------------
+  
+Copyright / Permissions
+-----------------------
+   Copyright on modifications HoopDawg
+
+   Archive or its contents may not be sold for profit in any form.
+   Archive may be distributed freely in its original form with this
+   copyright notice intact.

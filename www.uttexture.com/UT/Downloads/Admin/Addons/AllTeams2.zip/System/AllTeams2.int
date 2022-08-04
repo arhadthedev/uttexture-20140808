@@ -1,0 +1,2 @@
+[Public]
+Object=(Name=AllTeams2.ATControl,Class=Class,MetaClass=Engine.Mutator,Description="AllTeams2,AllTeams2: Enables usage of all team colors in team games!")

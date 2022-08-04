@@ -1,0 +1,203 @@
+Unreal Tournament Demo v348 Full (Windows) Info
+ Download Unreal Tournament Demo v348 Full (Windows)
+Filename: UTDemo348.exe
+Author: Epic Games
+Size: 53.1 MB
+Created: 10/19/1999
+Updated: 6/17/2002
+Downloads: 464,324
+Also known as: 
+
+
+Reader Rating
+4
+ 3.5/5.0 (338 votes total) 
+Rate this file: 
+ Select 1 - Terrible 2 - Poor 3 - Average 4 - Good 5 - Outstanding  
+
+Unreal Tournament Demo v348 Full (Windows) Details
+The full installation of the Unreal Tournament version 348 demo. Note that a small upgrade is available for those of you who already have version 338. 
+
+Version 348: Changes since version 338 
+-------------------------------------- 
+
+Performance 
+- Networking bandwidth and server CPU use improved 
+- A.I. performance improvements and tweaks 
+- Replicate all player skins in use to clients when joining to avoid hitch when first see new player 
+- Performance improvements and cleanup of HUD, messaging, and console 
+- Precache left hand weapon meshes if using left hand. 
+- Improved dynamic detail dropping to maintain minframerate 
+- store list BSP nodes for decals to greatly improve decal clipping speed 
+- sort decals by texture to improve performance 
+- increased characters per font page for default font to increase performance 
+
+Direct3D 
+- Increased performance by use of vertex buffers 
+- Optimized for low memory computers 
+
+AI 
+- Improved bot AI for impact hammer 
+- Added variety of playing styles to default practice bots 
+- Improved auto adjust bot skills, and skills now remembered from level to level 
+- Bots use rocketlauncher locking on more 
+- Bots have adjustable strafing ability 
+
+Gameplay 
+- Game time now unaffected by timedilation 
+- Kill tossed weapons faster 
+- Improved/louder gib sounds 
+- Fixed switch to best weapon twice and then its always pending bug 
+- Improved reduced HUD (with just frags, ammo, health, and armor) - shows name of weapon switched to if weapon is hidden 
+
+Menus/Visuals/Audio 
+- Fixed player shadows not being deleted on the client 
+- Fixed green domination control point color 
+- Improved control over what voice messages are played on a client 
+- Fixed flashing screenshot in UBrowser during reping 
+- Removed "Advanced Options" and integrated into GUI. Still accessible with console command 
+- Added Up/Down history to console and IRC chat window 
+- Fixed crash in Options | Preferences when a very long key binding was defined 
+- If random order is checked, all bot configurations are now shown 
+- Fixed friendly fire/force team balance overlap in Assault menu 
+- Scrollytext in morpheus no longer shows spectators 
+- HUD color preview box area 
+- UBrowser right click to copy current server address 
+- Added proxy server support for in-browser news, made use HTTPClient use HTTP/1.1 
+- MenuCmd console command 
+- Demo version not longer goes straight to the menus when started with a URL (eg GameSpy) 
+
+Servers 
+- Force Respawn option 
+- Added kickban administrator console command 
+- Server passwords now work 
+- Added webserver settings to Start Multiplayer Game 
+- Listen servers are back in the server list, but show that they are a listen server in Rules 
+- WWW remote server admin: friendly fire works correctly 
+
+Changes for Mod Makers 
+- Exposed FastTrace() to UnrealScript 
+- Added color operations to UnrealScript 
+- Fixed occasional problem with view bob going crazy at extremely low frame rates 
+- Added DamageMutator attribute to GameInfo class. Points to a linked list of mutators that affect damage taken by pawns. 
+- Client-side (simulated) mutators can attach themselves to HUDs and get called in PostRender() 
+- Modmaker menu calls Setup() 
+
+Demos 
+- timedemo: no longer counts precaching time 
+- ?noframecap is the default if "timedemo 1" is set 
+
+
+Unreal Tournament Demo Changes in Version 338 since 3dfx demo 
+------------------------------------------------------------- 
+
+Network issues 
+- fixed inventory popping on network clients 
+- fixed replication of owners of unseen weapons making ambient firing sound 
+- fixed plasma bolt occasionally sticking around on client after you die 
+- improved client-side movement prediction near other players 
+- improved client side weapon animation (RL and shockrifle) 
+- added packet loss readout to the scoreboard. 
+- display network disconnection icon when server doesn't send updates frequently enough 
+
+Gameplay 
+- player no longer hear own footsteps walking 
+- reduce falling damage w/ jumpboots 
+- fixed problem with instant hit weapons at point blank range 
+- louder pain sounds 
+- startup message fades faster 
+- fixed difficulty level displayed on scoreboard 
+- translocator target no longer bounces off triggers and control points 
+- players drop flag if feign death 
+- Fixed some sudden death overtime problems (fraglimit + timelimit, tied player suicides, etc.) 
+- included nopowerups mutator in botpack.int 
+- Added frags per hour readout to the scoreboard. 
+- Added various stats features to the game. Game now tracks "Frags per Hour" and the top 3 deathmatchers on a server. 
+
+Graphics/Effects/Text 
+- improved minigun impact effect in software 
+- better blood hit effect for bullet hits in software 
+- bodies gib if they land on a player's head 
+- improved blood splat positioning on walls 
+- added grenade and shockrifle combo move decal effects 
+- adjusted first person weapon position at high FOV 
+- updated disconnect symbol 
+- support > 16 players on team scoreboards 
+- fixed "live feed from" font size changes 
+- Bigger/brighter disruption effect for translocator target 
+- removed girly death scream 
+- improved bloodsplats trying to avoid popping out while player is looking at them 
+- fixed some items playing wrong pickup message (e.g. clips claiming to have 50 bullets) 
+- made crosshair green by default 
+- Added a "ServerInfo" screen that can be accessed by hitting F2. Has various info about the server including contact info and the message of the day. 
+
+Maps 
+DM-Phobos: 
+- Made it easier to get out of courtyard and up to higher levels by punching hole/corridor through the wall where the thighpads were. 
+- Made it easier to get RL in courtyard. Being at the lowest level in that open space is risk incentive enough. 
+- Added more playerstarts 
+- Fixed that god damned hole. 
+- Added light near button up top near Damage Amp so people know how to get down from the tower. 
+- Added extra minigun on exterior to encourage more combat up top. 
+- Moved chest armor to new camping spot near top of courtyard. Put thighpads out near jumpboots/minigun/keg o health. (getting the chest armour AND Keg was far too much defensively.) 
+
+DOM-Sesmar: 
+- Improved bot AI- better translocator use through windows above Ankh control points. 
+
+CTF-Coret: 
+- Improved bot support- more translocator use. 
+- Made RL symmetrical. 
+
+DM-Tempest: 
+- Put it in the demo. :) 
+
+Servers 
+- added server option to force players to balance teams 
+- Listen (non-dedicated) servers are no longer allowed to advertise to the master server 
+- Fixed server crash "Removed != 0" 
+- Made some packages such as the GUI and webserver server side only (for mods). 
+- Fixed remote web admin failing to bind port 80 after a level change 
+- Fixed remote web admin returning truncated player list (and other) HTML pages to relatively slow clients. 
+
+Bots 
+- improved domination 1 on 1 AI 
+- fixed retreating AI bug 
+- fixed bots not playing rapid fire animation 
+
+Direct3D 
+- Implemented 32-bit color texture support in Direct3D 
+- Optimized Direct3D code for DirectX7 vertex buffers 
+- Fixed Direct3D z buffer selection 
+- Optimized D3D texture uploading a bit 
+- Matched D3D brightness to Glide brightness 
+
+Keyboard/Input 
+- Fixed keys getting stuck down forever after entering the menus with the key held down 
+- The console and quick-console (Tab) keys can now be remapped (mainly for non-US keyboards) 
+- Fixed problems when binding keys to the current voice menu key (v) 
+- Fixed binding of joystick buttons. When the joystick was enabled, no key bindings worked. 
+- Made mouse sensitivity take a floating-point number 
+- Fixed a problem where the mouse would no longer work in the GUI if you bound the voice menu to left-mouse 
+
+GUI 
+- Fixed drop down box hanging around 
+- Added cut/paste for all edit boxes 
+- Added ability to copy server URL 
+- Added option to disable mature taunts 
+- UBrowser rules now show tournament mode, turbo/hardcore/classic, max players 
+- Fixed IRC client crash when you type "/" and press enter 
+
+Audio 
+- Got A3D and EAX support back in (thanks Carlo and Aureal). 
+- You can now turn down/off the announcer sound volume. 
+
+Demo Recording 
+- Added first person demo recording/playback in botmatches 
+- Fixed demo recording crash in botmatches in Phobos 
+
+ngStats 
+- Fixed problems with ngWorldStats. 
+- Installed a new version of ngStats. 
+
+Linux Port 
+- Updated code to latest codebase 

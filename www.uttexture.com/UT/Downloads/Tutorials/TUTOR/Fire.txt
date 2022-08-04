@@ -1,0 +1,47 @@
+ 
+
+ 
+ Portals
+
+By: BEG
+
+Dated: 1/6/98 
+
+Click here to return to the main tutorial or here to go back to the main Tutorials page.
+
+ASSUMPTIONS:
+
+This tutorial assumes that you know your way around the basic interface of Unrealed. 
+TUTORIAL:
+Ok after you have UnrealED loaded you can load up the texture sets that you will need, over in the Browser pane you should see a group of buttons at the bottom of the screen, press Load and load up the Ancient and GreatFire packs. 
+Now we want to make a simple room, right click on the cube brush and select "Cube Properties..." this will pop up a box where you enter the width, height etc. Change the Height, Width, and Breadth values to 512, hit build this will resize the cube to the new values, then hit close. 
+
+Ok now goto your Browser pane and select Ancient from the dropdown menu and select a wall texture you want to use, hit subtract and we now have our room. You can now change the floor and ceiling textures if you want. 
+
+Now right click on the Cylinder brush and goto "Cylinder Properties..." Change the height to something like 128 and both Inner/Outer Radius to 64, hit build. And close the popup window. 
+
+Move the Cylinder so it is in the center of your level and is flat on the floor, select a new texture for the Cylinder if you want and Add it to the world. 
+
+Right click on the Sheet button on your toolbar menu and select "Sheet Properties..." This is what the fire will be placed on. Set the properties to Y-wall, U value of 64 and V to 128. Build the sheet and close the popup window. 
+
+Move your sheet so it is in the center and sitting on top of your Cylinder that you added into the world. Select a fire effect to apply onto the sheet, such as 'ANCPURP'. 
+
+Click on Add Special brush in your toolbar, this will popup a new window, on the drop down menu select masked texture, then change the visibility options to 2-sided, and make sure Transparent is checked in Effects. Click add special and then close. The fire texture may be tiled but dont worry about it at this point. 
+
+Click on the rotate button on the toolbar and rotate your red sheet builder so it is at a 90 degree angle from the one you just created, and repeate step 8. 
+
+Now your fire texture is probably tiled so highlight them in your perspective window and enter their surface properties, under scale make Simple Scaling 2 and hit apply, the textures should be sized correctly now. 
+
+Place lights, now place a light or mutiple lights and tweak them until you are satasified with the lighthing. 
+
+Note: Don't place lights directly above your fire effect they will drown out the texture and will make the fire like ugly.
+Add a PlayerStart and rebuild your level.  
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 

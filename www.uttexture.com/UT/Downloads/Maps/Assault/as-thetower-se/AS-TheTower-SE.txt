@@ -1,0 +1,155 @@
+================================================================
+Title                   : The Dark Tower - Special Edition
+
+Author                  : Chris "Azathoth" Pryor
+
+Date                    : April 2001
+
+Filename                : AS-TheTower-SE.zip
+
+File contents           : AS-TheTower-SE.unr (Map)
+                          AS-TheTower-SE.txt (This file) 
+			  AzTheTower.utx (Custom Textures)
+                          barbq.uax (Sounds by Bar-B-Q)
+			  Rim.umx (Music by D-Raven)
+			  TeamMonster.u (Custom UScript [version 1.1])
+			  TeamMonster11.txt (TeamMonster ReadMe)	
+
+			
+Email Address           : othergods@bigfoot.com
+
+Home Page		: none
+
+Description             : Assault map featuring a tower surrounded by 
+			lava, a wall and Unreal monsters on the 
+			defending team.  Has both outdoor and indoor
+			aspects.
+
+			AS-TheTower is designed to be played with 
+			weapon stay off.
+
+Comments		:  I've made sure the poly count isn't too
+			excessive so AS-TheTower will run well on 
+			lower end systems.
+
+			The custom sound file barbq.uax is a 
+			collection of sounds from the Action Quake 2
+			map "Actdam" by Bar-B-Q (bar-b-q@c-gate.net).
+
+			Rim.umx contains "Beyond the Rim" which was 
+			composed by D-Raven.
+
+			TeamMonster.u is some Unreal Script I hacked up
+			which allows the original Unreal monsters to be
+			put into a map and assigned a team.  It also 
+			works in ctf but I haven't tested it with 
+			dom or dm teamplay.  Mappers are welcome to use
+			TeamMonster.u in their maps as long as they tell
+			me when the map is released (so I can play it)
+			and include the TeamMonster.txt file with the
+			map.  Also you are not allowed to make any money
+			out of it (at least not without my permission).
+			There is more info in the TeamMonster11.txt file.
+
+                        The Special Edition features improvements in
+                        gameplay against a bot-only team as well as
+                        a couple of other minor graphical changes.
+                        The bots are harder to snipe from the tower
+                        and the Titan in gone - replaced with a
+                        gasbag which respawns.
+
+================================================================
+
+Play Information	
+
+Single Player           : Yes 
+Deathmatch              : No
+Assault:		: Yes
+Recommended No. Bots    : 9
+ 
+                        
+=================================================================
+
+Installation instructions
+
+Unzip "AS-TheTower-SE.unr" into your UnrealTournament/Maps folder.
+Unzip "AzTheTower.utx" into your UnrealTournament/Textures folder.
+Unzip "barbq.uax" into your UnrealTournament/Sounds folder.
+Unzip "Rim.umx" into your UnrealTournament/Music folder.
+Unzip "TeamMonster.u" into your UnrealTournament/System folder.
+
+
+KNOWN Bugs              : One of my playtesters who was using a 
+			hacked OpenGL driver with his GeForce
+			card had some graphics glitches in the
+			sky box.
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd2
+                          Vi
+
+Build Time              : Six Weeks (1 week SE)
+
+
+===================================================================
+
+Other maps by same author:
+
+                        AS-Sunspire (Edit)
+                        AS-Bluff (Edit)
+			DM-CavesOfLight
+			DM-CavesOfLight][
+			DM-AgonyMaze
+
+===================================================================
+
+Acknowledgements:	Epic
+
+			Wanderer and the other guys from the 
+			unrealized forum (www.unrealized.com)
+			for help with a lighting problem.
+
+			The authors of the various UScript Tutorials
+			I read (sorry I don't have any names)
+
+			Bar-B-Q for sound
+
+			D-Raven for music
+
+                        dinwitty for finding a bug in TeamMonster.u
+                        (now fixed)
+
+
+
+Play Testers:		Leonard
+			Bacon
+			Pigman
+			Jorji
+			Toad
+			Timbo
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

@@ -1,0 +1,888 @@
+[Setup]
+Product=Protector
+Version=230
+Archive=Protector_230.umod
+SrcPath=.
+MasterPath=..
+Group=SetupGroup
+Group=Protector_230Group
+Group=umodIncludeFilesGroup
+
+[SetupGroup]
+Copy=(Src=System\Manifest.ini,Master=System\Manifest.ini,Size=491,Flags=3)
+Copy=(Src=System\Manifest.int,Master=System\Manifest.int,Size=308,Flags=3)
+
+[Protector_230Group]
+File=(Src=Help\protector230.html,Size=7290)
+File=(Src=System\Protector230.u,Size=23904)
+File=(Src=System\Protector230.int,Size=299)
+File=(Src=System\protector230.ini,Size=264)
+
+[umodIncludeFilesGroup]
+File=(Src=help/protector230.html,Size=7290)
+File=(Src=Help\protlogo.bmp,Size=7980)
+
+[Setup]
+LocalProduct=Protector
+ReadMe=help/protector230.html
+SetupWindowTitle=Protector 2.30 Setup
+AutoplayWindowTitle=Protector Options
+ProductURL=www.utworld.net/mdisaster
+VersionURL=www.utworld.net/mdisaster
+Developer=Major Disaster
+DeveloperURL=www.utworld.net/mdisaster
+Logo=Help\protlogo.bmp
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>Protector 2.30 Documentation</TITLE>
+<META NAME="GENERATOR" CONTENT="Arachnophilia 3.9">
+<META NAME="FORMATTER" CONTENT="Arachnophilia 3.9">
+<BASEFONT SIZE=2 FACE="Arial">
+</HEAD>
+
+<BODY BACKGROUND="" BGCOLOR="#ffffff" TEXT="#000000" LINK="#0080ff" VLINK="#ff0080" ALINK="#ff00ff">
+
+
+<H3>Protector Mutator for UT </H3>
+           
+
+<FONT SIZE="1">
+<I>(c) 1999,2000 Armando Andrea BARLAAM  "Major Disaster"   </I> <BR><BR>
+Version: 2.30 <BR>
+Created: 22/01/00<BR>
+Author:  Armando A. Barlaam  (Major Disaster)<BR>
+Contact: <A HREF="mailto:mdisaster@ngi.it">mdisaster@ngi.it</A><BR>
+Homepage: <A HREF="http://www.utworld.net/mdisaster">Major Disaster UT Pages</A><BR><BR>
+
+This software is unsupported and you use it at your own risk. I am not responsable of whatever may happen if you use it.<BR>
+
+</FONT><BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<B><FONT SIZE="2">Table of contents</FONT></B><BR>
+
+<A HREF="#legal">Legal Info</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#over">Overview</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#newf">New in this version</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#install">Installation</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#start">Getting started</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#config">Configuration options</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+
+
+<A NAME="legal"><B><FONT SIZE="2">Legal Info</FONT></B></A><BR>
+You may:<BR>
+- Install Protector on UT servers for others to play.<BR>
+- Put Protector on public internet server for downloading, as long the original file is unaltered.<BR>
+Any other use requires my written consent (this includes, but is not limited to, distributing Protector alone or bundled with other software, and including Protector in any form of distributable media, whether it is free or not).   <BR>
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="over"><B><FONT SIZE="+2">Overview</FONT></B></A><BR>
+
+This server-side mutator makes all players and bots invulnerable for some seconds after respawn, in order to discourage respawn campers. <BR>
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="newf"><B><FONT SIZE="+2">New features in this version</FONT></B></A><BR>
+-Added: GUI interface, Protector options can now be set from the Mod menu.<BR>
+-Added: Translucency is now optional.<BR>
+-Added a translucency slider control<BR>
+-Added the fast loading feature (effective only in UT 4.30 or later)<BR>
+-Added optional respawn protection from Assault cannons<BR>
+-Added selective protection for humans, bots or both<BR>
+-Added optional dynamic protection: protection will expire in advance if the protected player grabs a weapon or powerup<BR>
+-Removed: the kick voting system, for better compatibility with dedicated voting mutators such as UTCV.<BR>
+-Changed: Protection time can now be from 0 to 15 seconds<BR>
+-Changed: Protected players no longer glow<BR>
+-Changed: The package name is now Protector230, to avoid problems with auto download.
+-Fixed: Workaround for the translucency bug in Epic code (sometimes playes stayed translucent) <BR>
+-Documentation updated.
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="install"><B><FONT SIZE="+2">Installation</FONT></B></A><BR>
+<B>Uninstall previous versions</B><BR>
+You should uninstall the previous version of Protector before or after installing 2.30:<BR>
+Either open Control Panel/Install-Remove Application, doubleclick on "Unreal Tournament" and select the Checkbox near "Protector", or just remove these files from c:\unrealtournament\system :<BR>
+protector.u  <BR>
+protector.int<BR>
+protector.ini  <BR><BR>
+from c:\unrealtournament\help :<BR>
+protector.txt<BR><BR>
+Also make sure to remove any ServerPackages=Protector.u from unrealtournament.ini (there shouldn't be one anyway)<BR>
+If you don't, you'll have two Protector mutators installed. This will not harm your UT installation, but it's boring ;)  
+<BR>
+<BR>
+<B>Install Protector 2.30</B><BR>
+Then unzip the archive in an empty folder on your hard disk (NOT the Unreal Tournament directory !) and click on the protector.UMOD file.<BR>
+<BR>
+When the dialog box asks for asked the name of the install directory type the UT base directory, i.e. C:\UnrealTournament .<BR>
+<BR>
+After a successful installation you should have the following new files on your system:<BR>
+<BR>
+in C:\UnrealTournament\system <BR>
+protector230.u      (the executable code)<BR>
+protector230.int    (the mutator description)<BR>
+protector230.ini    (the configuration file)<BR><BR>
+in C:\Unrealtournament\help<BR>
+protector230.txt<BR>
+<BR>
+To uninstall protector just remove the above files<BR>
+<BR>
+Admins: Protector does not require changes to config files.
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+
+<A NAME="start"><B><FONT SIZE="+2">Getting started</FONT></B></A><BR>
+Start UT and begin a practice session or a multiplayer game. Select Protector and any other mutators that you want to use with it from the mutator list. <BR>
+You will notice that freshly respawn players are translucent and can not be killed, nor they can frag other players. This is the respawn protection at work.<BR>
+Protector installs a setup dialog under the Mod menu in the UT menu bar. You can access the menu to change the Protector settings. Moving the mouse over a slider or checkbox will make appear a help line at the bottom of the screen.<BR>
+<BR>
+Protector is a server-side mutator, so it only works in multiplayer games if it is installed on the server.
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="config"><B><FONT SIZE="+2">Configuration Options</FONT></B></A><BR>
+
+The protector.ini file contains variables that can be changed to control the mutator behaviour. To change the variables open the protector.ini files with Notepad or another text editor. <BR><BR>
+This is a sample protector.ini file: the notes in italics explain the meaning of the variables and must not be typed.<BR><BR>
+NOTE: Most of these variables can now be changed directly from the Protector option panel, under the Mod menu.<BR>
+<BR>
+<TABLE style="font-size : 8pt; font-family : Arial"  border ="0">
+<TR>
+<TD>[Protector.Protector]
+</TR>
+<TR>
+<TD>EnableRespawnProt=True  </TD><TD><I>enables respawn protection </I></TD>
+</TR>
+<TR>		
+<TD>ProtectTime=10  </TD><TD><I>the time in seconds before respawn protection expires</I></TD>
+</TR>
+<TR>
+<TD>ScaleGlowBy=2  </TD><TD><I>the amount of translucency of protected players </I></TD>
+</TR>
+<TR>
+<TD>ProtNoFrags=True  </TD><TD><I>protected players cannot frag other players </I></TD>
+</TR>
+<TR>
+<TD>ProtectBots=True  </TD><TD><I>apply respawn protection to UT Bots</I></TD>
+</TR>
+<TR>
+<TD>ProtectHumans=True  </TD><TD><I>apply respawn protection to human players</I></TD>
+</TR>
+<TR>
+<TD>ProtFromCannon=True  </TD><TD><I>activate respawn protection from Assault cannons </I></TD>
+</TR>
+<TR>
+<TD>DynamicProt=True  </TD><TD><I>Enable dynamic protection </I></TD>
+</TR>
+<TR>
+<TD>pmsg1=You are under protection.  </TD><TD><I>this message is sent to a player just after respawn</I> </TD>
+</TR>
+<TR>
+<TD>pmsg2=You are no longer protected.  </TD><TD><I>this message is sent to a player when protection expires </I></TD>
+</TR>
+</TABLE>
+
+</BODY>
+
+</HTML>
+¡É*ûE      Ω   @   i   ,W  P   hT  ÄEJìÃñ‘∂Ú  Ø©®>   i   Ω   None SetText   CreateControl   SetHelpText   Protector230   isProtected   Core  UMenu   System  UWindow   Protect   ProtStatusUpdate   	GetValue   ClientMessage  vTimeChanged   	StopGlow   vGlowChanged   	SetRange   	SetValue   Created   HandlePickupQuery   PlayerPawn   Bot   MutatorTakeDamage   Close   Engine  Timer  
+ThightPad   PRDefaultText   PRDefaultHelp   WindowTitle   Weapon   
+vDynaText   
+vDynaHelp   PostBeginPlay  
+vPHumHelp   
+vPBotText   
+vPHumText   vTransText   vTransHelp   
+vPBotHelp   
+vCannHelp   
+vRespText   
+vCannText   
+vGlowText   FindInventoryType   
+vRespHelp   
+vGlowHelp   SetDefaultDisplayProperties   
+vTimeText   ModifyPlayer   DynamicProt   ProtectBots   DeActivated   RegisterDamageMutator   ProtectHumans   ProtFromCannon   ScaleGlowBy   ProtectTime   UseTranslucency   ProtectorClientWindow   ProtectorWindow   EnableRespawnProt   Armor2   HealthPack   
+protector   UDamage   UT_ShieldBelt   UT_invisibility   MenuCaption   	MenuHelp   ClientClass   
+vTimeHelp   OKHelp   Execute   OKText   Paint   GetLookAndFeelTexture   TeamCannon   Notify   ResolutionChanged   ProtectorMenuItem   H   bAllowPickup   Texture  Class k   Const 	Function 	PlayerID   	bChecked   Vector Package TextBuffer  Charge   UWindowSmallButton   NextDamageMutator   Object  Pawn   actualDamage   UWindowCheckbox   UWindowDialogControl   UWindowWindow   UWindowPulldownMenu   SetSize   CreateWindow   	GameInfo   	bSizable   Actor   Inv   	WinWidth   WinTop   Root   	OKButton   
+bByParent   Struct ByteProperty  UWindowHSliderControl   instigatedBy   UMenuFramedWindow   UMenuDialogClientWindow   UMenuModMenuItem   Initialized   	MenuItem   Botpack   Victim   Owner   NextMutator   	PawnList   UWindowDialogClientWindow   
+bTeamGame   StrProperty  	nextPawn   Game   	Momentum   Item   HitLocation   
+ScaleGlow   P   ProtNoFrags   Other   UWindowClientWindow   UWindowRootWindow   UWindowFramedWindow   Style   pmsg1   pmsg2   RespawnedIDs   ProtectorVersion   ProtectorLevel   RefreshInterval   bTG   StructProperty  NameProperty  ObjectProperty  FloatProperty  
+RespCheck   vTimeSlider   vGlowSlider   TransCheck   
+CannCheck   
+PBotCheck   
+PHumCheck   
+DynaCheck   vTime   vGlow_n   vGlow   
+WinHeight   DamageType   Level   C   Canvas   X   W   E   Y   ReturnValue   ScriptText   t   
+Inventory   StaticSaveConfig   Mutator   
+LevelInfo   PlayerReplicationInfo   DrawUpBevel   WinLeft   BoolProperty  IntProperty  UWindowPulldownMenuItem   è QYAˇˇˇˇˇˇˇˇ           ˇˇˇˇˇˇˇˇˇˇ                       -   ò•6è   =$:eó    qUmÜ    ©∆gíÜ    ©∆gíî    {#UøÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíî    {#Uøë    Ø–ìúë    Ø–ìúë    Ø–ìúë    Ø–ìúë    Ø–ìúë    Ø–ìúë    Ø–ìúÜ    ©∆gíî    {#Uøè    =$:eÜ    ©∆gíë    Ø–ìúë    Ø–ìúÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíî    {#UøÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíÜ    ©∆gíè    =$:eó    qUm¶    ˚w„¥ó    qUm¶    ˚w„¥ï>” :"   9$   @;” 8” 7” 4” 3”       Ä    Ü          ã          ã  2   Ä    ë             1                    Ü            	        Ñ  
+        Ñ          Ñ          Ñ      @             Ñ          Ñ  /   Ä    Ü      @                       ö           ë  &   Ä    Ü      @         @         @         @     #   Ä    ¬  =    @     0    @        Ä    Ü  `   Ä    Ü  8             Ä    Ü  !   Ä         Ä                …                        E     @        Ä    Ü  >   Ä    »            .   Ä   ©  5     @                   Ä      +   Ä   ©  <    @@               W   Ä    ü Ug<ˇˇˇˇˇˇˇˇ           ˇˇˇˇˇˇˇˇˇˇ                       L3   Sƒü   ±≤êpà            ò•6à            ò•6à            ò•6Ñ    |.X⁄à            ò•6Ñ    |.X⁄à            ò•6Ñ    |.X⁄à            ò•6Ñ    |.X⁄à            ò•6Ñ    |.X⁄à            ò•6Ñ    |.X⁄à            ò•6à            ò•6ã    |Î[$ã    |Î[$ã    |Î[$ã    |Î[$Ñ    |.X⁄Ñ    |.X⁄Ñ    |.X⁄à            ò•6ã    |Î[$à            ò•6ã    |Î[$ã    |Î[$ã    |Î[$ã    |Î[$à            ò•6ã    |Î[$ã    |Î[$ã    |Î[$Ñ    |.X⁄Ñ    |.X⁄Ñ    |.X⁄à            ò•6Ñ    |.X⁄Ñ    |.X⁄Ñ    |.X⁄à            ò•6Ñ    |.X⁄Ñ    |.X⁄Ñ    |.X⁄à            ò•6Ñ    |.X⁄Ñ    |.X⁄Ñ    |.X⁄à            ò•6Ñ    |.X⁄Ñ    |.X⁄Ñ    |.X⁄à            ò•6ö    ◊7X√ö    ◊7X√	ïI]Click here to save K-OK H]! Protection interval in seconds  1]Protection Seconds /]98Opacity level (lower = more translucent, 0 = Invisible) ,]Translucency .]*)If checked respawn protection is enabled *]Enable Protection )]0/Enable Respawn Protection from Assault cannons +]AS Cannon Protect  '].-If checked protected players are translucent &]Use Translucency (]"!Apply Respawn Protection to bots $]Protect Bots #]+*Apply Respawn Protection to human players %MProtect Humans !]HFProtection expires in advance when players get a weapon or a powerup   ]Dynamic Protection MReset Defaults -OK    G     @    4     @    '     @    $   Ä      9     @    6     @    ;   Ä          Ä      *    @@        @     7   Ä      H     @    ?     @    @     @    A     @  ´ SO=ˇˇˇˇˇˇˇˇ           ˇˇˇˇˇˇˇˇˇˇ    2                   C   &Cs”´   ì⁄0≥ô    o ˚ô    o ˚ô    o ˚ô    o ˚	ïG3MProtector 2.30    B     @    ,     @    J     @    F     @    Z     @    D     @    I     @        ê      M 30    2   V §   ^  t   # Ç  a/!	 Å-(F Ç  a/!	 Å-( %  ú ùó %%       ∑X :P   ;  R   ¥¨Øõ áá?,∂¨Øõ òò?,∑ : ;               gclass ProtectorMenuItem expands UMenuModMenuItem;
+
+function Execute()
+{
+        MenuItem.Owner.Root.CreateWindow(class'ProtectorWindow', 10, 10, 150, 100);
+}
+
+          y[class Protector  expands Mutator config(protector230);
+//
+// Protector 2.30 by Major Disaster
+//
+// Protect players from respawn fragging for some seconds
+//
+// New in this version: 
+//
+// Mod Menu
+// Redundant translucency code (workaround for UT bug)
+// Translucency is now optional
+// Better handling of invisibility
+// No more voting code
+// Selective protection from humans or bots
+// Fast loading (requires patch 4.30 or later)
+// Dynamic Protection
+ 
+
+//
+//  Respawn protection vars
+//
+var config bool	    EnableRespawnProt;
+var config int		ProtectTime;
+var config float  	ScaleGlowBy;
+var config bool 	ProtNoFrags;
+var config bool		UseTranslucency;
+var config bool		ProtFromCannon;
+var config bool     ProtectHumans;
+var config bool		ProtectBots;
+var config bool     DynamicProt;
+var config string	pmsg1;
+var config string	pmsg2;	
+var bool 			Initialized;
+var int  			RespawnedIDs[32];
+const          		ProtectorVersion 	= 2;
+const          		ProtectorLevel   	= 30; 
+const    			RefreshInterval 	= 1;
+var bool			bTG;
+
+
+//--------------------------------------------------------------------------
+// Init some globals, send console msg, start timer 
+//---------------------------------------------------------------------------
+function PostBeginPlay()
+{
+	if (Initialized)
+		return;
+	Initialized = True;
+	Level.Game.RegisterDamageMutator( Self );
+	SetTimer(RefreshInterval,true);
+	log( "***  Protector Mutator Initializing");
+	log( "***  (c) 2000 Andrea Barlaam [Major Disaster]");
+	log( "***  Version is " $ ProtectorVersion $ "." $ProtectorLevel);
+	log( "***  Respawn Protection = " $ EnableRespawnProt);
+	log( "***  Protector Mutator is now Operational");
+	bTG =  Level.Game.bTeamGame;
+}
+
+
+//---------------------------------------------------------------
+// Register a protected player
+//---------------------------------------------------------------
+function ModifyPlayer(Pawn Other)
+{
+	super.ModifyPlayer(Other);
+	if (EnableRespawnProt == True)
+		Protect(Other);
+}
+
+
+//---------------------------------------------------------------------------------
+// Do not damage protected players and their victims
+//---------------------------------------------------------------------------------
+function MutatorTakeDamage( out int ActualDamage, Pawn Victim, Pawn InstigatedBy, out Vector HitLocation,
+	out Vector Momentum, name DamageType)
+{
+	if (InstigatedBy.IsA('Bot') || 
+		InstigatedBy.IsA('PlayerPawn') ||
+		(InstigatedBy.IsA('TeamCannon') && ProtFromCannon == True ))
+	{
+		if (isProtected(Victim) || (isProtected(InstigatedBy) && ProtNoFrags == true))
+			{
+					ActualDamage = 0;
+					momentum = vect(0,0,0);
+			}
+	}
+	if ( NextDamageMutator != None )
+		NextDamageMutator.MutatorTakeDamage( ActualDamage, Victim, InstigatedBy, HitLocation, Momentum, DamageType );
+}
+
+
+
+//---------------------------------------------------------------
+//  Set properties of protected player
+//---------------------------------------------------------------
+function Protect(Pawn Other)
+{
+	local int k;
+	k = Other.PlayerReplicationInfo.PlayerID;
+	RespawnedIDs[k] = ProtectTime;
+	if (UseTranslucency == True)
+	{
+		Other.Style = STY_Translucent;
+		Other.ClientMessage(pmsg1);
+		Other.ScaleGlow = ScaleGlowBy;
+	}
+}
+
+
+//---------------------------------------------------------------
+//  Protection has expired, reset player
+//---------------------------------------------------------------
+function StopGlow(pawn P)
+{
+	local Inventory Inv;
+	Inv = P.FindInventoryType(class'UT_Invisibility');
+	if ( Inv != None )
+	{
+		inv.Charge = 0;
+		inv.GoToState('DeActivated');
+	}
+	if (UseTranslucency == True)
+	{
+		P.Style=P.default.Style;
+		P.ScaleGlow = P.default.ScaleGlow;
+		P.SetDefaultDisplayProperties(); // defensive
+		P.Style = STY_Normal; // other defensive 
+		P.ScaleGlow = 1.000000; // idem
+	}
+	P.clientmessage(pmsg2);
+}
+
+//--------------------------------------------------------------
+// Expire protection in advance
+//--------------------------------------------------------------
+function bool HandlePickupQuery(Pawn Other, Inventory item, out byte bAllowPickup)
+{
+	local int k;
+	if (IsProtected(Other) && DynamicProt == True)
+	{	
+		if (item.IsA('Weapon')          ||
+		   	item.IsA('Udamage')         ||
+		   	item.IsA('Healthpack')      ||
+		   	item.IsA('Armor2')          || 
+		   	item.IsA('ThightPad')       ||
+		   	item.IsA('UT_Invisibility') ||
+		   	item.IsA('UT_Shieldbelt')   )
+		{
+			k = Other.PlayerReplicationInfo.PlayerID;
+			RespawnedIDs[k] = 1;
+		}
+	}
+	if ( NextMutator != None )
+		return NextMutator.HandlePickupQuery(Other, item, bAllowPickup);
+	return false;
+}
+
+//---------------------------------------------------------------
+//  Return protection status
+//---------------------------------------------------------------
+function bool isProtected(Pawn Other)
+{
+	local int k;
+	if (Other.IsA('PlayerPawn') && !ProtectHumans)
+		return False;
+	if (Other.IsA('Bot') && !ProtectBots)
+		return False;	
+	k = Other.PlayerReplicationInfo.PlayerID;
+	return (RespawnedIDs[k] > 0);
+}
+
+
+//---------------------------------------------------------------
+//  Update protection status for all players
+//---------------------------------------------------------------
+function ProtStatusUpdate()
+{ 
+	local int k;
+	local Pawn P;
+	for( P=Level.PawnList; P!=None; P=P.nextPawn )     
+	{
+		k = P.PlayerReplicationInfo.playerID;
+		if  (RespawnedIDs[k] > 0)
+		{	
+			RespawnedIDs[k] --;
+			if (RespawnedIDs[k] < 1)
+				StopGlow(P);
+		}
+	}
+}
+
+
+//---------------------------------------------------------------
+//  Asynchronous task scheduler
+//---------------------------------------------------------------
+function Timer()
+{
+	if (EnableRespawnProt == True)
+		ProtStatusUpdate();
+}
+
+
+ ° PiQˇˇˇˇˇˇˇˇ           ˇˇˇˇˇˇˇˇˇˇ    2                   R   Ã°   â¸Õ∑≤    ;aG∞º    ’∂mÍô    o ˚	ïE]
+Protector F]Protector 2.30 Configuration           ~class ProtectorWindow extends UMenuFramedWindow;
+
+
+function Created()
+{
+        bSizable=False;
+
+        SetSize(320, 260);
+
+        WinLeft=(Root.WinWidth-WinWidth)/2;
+        WinTop=(Root.WinHeight-WinHeight)/2;
+
+        Super.Created();
+}
+
+function ResolutionChanged(float W, float H)
+{
+        WinLeft=(Root.WinWidth-WinWidth)/2;
+        WinTop=(Root.WinHeight-WinHeight)/2;
+
+        Super.ResolutionChanged(W, H);
+}
+
+   L 1          a[class ProtectorClientWindow expands UMenuDialogClientWindow;
+
+
+var UWindowSmallButton          OKButton;
+var UWindowCheckbox             RespCheck;
+var UWindowHSliderControl       vTimeSlider;
+var UWindowHSliderControl       vGlowSlider;
+var UWindowCheckbox             TransCheck;
+var UWindowCheckbox             CannCheck;
+var UWindowCheckbox             PBotCheck;
+var UWindowCheckbox             PHumCheck;
+var UWindowCheckbox             DynaCheck;
+
+var int                         vTime;
+var int							vGlow_n;
+var float						vGlow;
+var string                      OKHelp;
+var string  					OKText;
+var string                      vTimeHelp;
+var string  					vTimeText;
+var string                      vGlowHelp;
+var string  					vGlowText;
+var string                      vRespHelp;
+var string  					vRespText;
+var string                      vCannHelp;
+var string  					vCannText;
+var string                      vTransHelp;
+var string  					vTransText;
+var string                      vPBotHelp;
+var string  					vPBotText;
+var string                      vPHumHelp;
+var string  					vPHumText;
+var string                      vDynaHelp;
+var string  					vDynaText;
+var string  					PRDefaultHelp; 
+var string 						PRDefaultText; 
+ 
+function Created()
+{
+Super.Created();
+
+	RespCheck = UWindowCheckbox(CreateControl(class'UWindowCheckbox', (WinWidth - (WinWidth/4)*3)/2, 10, ((WinWidth/4)*3)*0.45, 1));
+	RespCheck.SetText(vRespText);
+	RespCheck.SetHelpText(vRespHelp);
+	RespCheck.bChecked=class'Protector230.Protector'.default.EnableRespawnProt;
+
+	vTimeSlider=UWindowHSliderControl(CreateControl(class'UWindowHSliderControl', (WinWidth - (WinWidth/4)*3)/2, 35, (WinWidth/4)*3, 1));
+	vTimeSlider.SetRange(1, 16, 1);
+	vTime=class'Protector230.Protector'.default.ProtectTime;
+	vTimeSlider.SetValue(vTime);
+	vTimeSlider.SetText(vTimeText$"["$vTime$"]:");
+	vTimeSlider.SetHelpText(vTimeHelp);
+	
+	vGlowSlider=UWindowHSliderControl(CreateControl(class'UWindowHSliderControl', (WinWidth - (WinWidth/4)*3)/2, 60, (WinWidth/4)*3, 1));
+	vGlowSlider.SetRange(0, 40, 2);
+	vGlow_n=class'Protector230.Protector'.default.ScaleGlowBy * 10;
+	vGlowSlider.SetValue(vGlow_n);
+	vGlowSlider.SetText(vGlowText$"["$vGlow_n$"]:");
+	vGlowSlider.SetHelpText(vGlowHelp);
+	
+	TransCheck = UWindowCheckbox(CreateControl(class'UWindowCheckbox', (WinWidth - (WinWidth/4)*3)/2, 85, ((WinWidth/4)*3)*0.45, 1));
+	TransCheck.SetText(vTransText);
+	TransCheck.SetHelpText(vTransHelp);
+	TransCheck.bChecked=class'Protector230.Protector'.default.UseTranslucency;
+	
+	CannCheck = UWindowCheckbox(CreateControl(class'UWindowCheckbox', (WinWidth - (WinWidth/4)*3)/2, 110, ((WinWidth/4)*3)*0.45, 1));
+	CannCheck.SetText(vCannText);
+	CannCheck.SetHelpText(vCannHelp);
+	CannCheck.bChecked=class'Protector230.Protector'.default.ProtFromCannon;
+		
+	PHumCheck = UWindowCheckbox(CreateControl(class'UWindowCheckbox', (WinWidth - (WinWidth/4)*3)/2, 135, ((WinWidth/4)*3)*0.45, 1));
+	PHumCheck.SetText(vPHumText);
+	PHumCheck.SetHelpText(vPHumHelp);
+	PHumCheck.bChecked=class'Protector230.Protector'.default.ProtectHumans;	
+		
+	PBotCheck = UWindowCheckbox(CreateControl(class'UWindowCheckbox', (WinWidth - (WinWidth/4)*3)/2, 160, ((WinWidth/4)*3)*0.45, 1));
+	PBotCheck.SetText(vPBotText);
+	PBotCheck.SetHelpText(vPBotHelp);
+	PBotCheck.bChecked=class'Protector230.Protector'.default.ProtectBots;		
+	
+	DynaCheck = UWindowCheckbox(CreateControl(class'UWindowCheckbox', (WinWidth - (WinWidth/4)*3)/2, 185, ((WinWidth/4)*3)*0.45, 1));
+	DynaCheck.SetText(vDynaText);
+	DynaCheck.SetHelpText(vDynaHelp);
+	DynaCheck.bChecked=class'Protector230.Protector'.default.DynamicProt;		
+	
+	OKButton = UWindowSmallButton(CreateControl(class'UWindowSmallButton', WinWidth-52, WinHeight-17, 48, 16));
+	OKButton.SetText(OKText);
+	OKButton.SetHelpText(OKHelp);
+}
+
+function Paint(Canvas C, float X, float Y)
+{
+        local Texture T;
+        Super.Paint(C, X, Y);
+        T = GetLookAndFeelTexture();
+        DrawUpBevel( C, 0, WinHeight-20, WinWidth, 20, T);
+}
+
+function Notify(UWindowDialogControl C, byte E)
+{
+        Super.Notify(C, E);
+        switch(E)
+        {
+        case DE_Click:
+                switch (C)
+                {
+                case OKButton:
+                        Close();
+                        break;
+                }
+        case DE_Change:
+                switch(C)
+                {
+                case vTimeSlider:
+                        vTimeChanged();
+                        break; 
+                case vGlowSlider:
+                        vGlowChanged();
+                        break;         
+                }
+        }
+}
+
+function vTimeChanged()
+{
+        vTime=vTimeSlider.GetValue();
+        vTimeSlider.SetText(vTimeText@"["$vTime@"]:");
+}
+
+function vGlowChanged()
+{
+        vGlow_n = vGlowSlider.GetValue();
+        vGlowSlider.SetText(vGlowText@"["$vGlow_n@"]:");
+        vGlow = vGlow_n / 10;
+}
+
+
+function Close(optional bool bByParent)
+{
+        vGlow = vGlow_n / 10;
+        class'Protector230.Protector'.default.ProtectTime=vTime;
+        class'Protector230.Protector'.default.ScaleGlowBy=vGlow;
+        class'Protector230.Protector'.default.UseTranslucency=TransCheck.bChecked;
+        class'Protector230.Protector'.default.EnableRespawnProt=RespCheck.bChecked;
+        class'Protector230.Protector'.default.ProtFromCannon=CannCheck.bChecked;
+		class'Protector230.Protector'.default.ProtectHumans=PHumCheck.bChecked;
+		class'Protector230.Protector'.default.ProtectBots=PBotCheck.bChecked;
+		class'Protector230.Protector'.default.DynamicProt=DynaCheck.bChecked;
+        class'Protector230.Protector'.SaveConfig();
+        class'Protector230.Protector'.static.StaticSaveConfig();
+		
+        Super.Close(bByParent);
+}
+
+  ∆_ ã   v    ﬁ Ç 
+ Ú-'ﬁ ÑÑÑÑÑÑ  a/!   a/!B   a/!@   a/!?   a/!   a/!D   a/!C -  ú ù -&w™*™    2(        -   Ä    ≥      U   `   -≈(Ω  †C  ÇC¥¨Øõ áá?,∂¨Øõ òò?,≥       √h  ∆   ∫      Ú-'        [     @          @   π  (     ã  π.Ñ Ñ¨Øá´¨á?,?,?,   A´´¨á?,?,ffÊ>  Ä?  4  5 -ê  -.ã ã¨Øá´¨á?,?,?,  B´¨á?,?,  Ä?    Ä?  ÄA&	    ?	  ppp'[ S	]:   6.ã ã¨Øá´¨á?,?,?,  pB´¨á?,?,  Ä?         B,D´  ?,
+  ?  ppp,[ S]:   E.Ñ Ñ¨Øá´¨á?,?,?,  ™B´´¨á?,?,ffÊ>  Ä?  I  J -ê  -.Ñ Ñ¨Øá´¨á?,?,?,  ‹B´´¨á?,?,ffÊ>  Ä?  F  G -ê  -.Ñ Ñ¨Øá´¨á?,?,?,  C´´¨á?,?,ffÊ>  Ä?  @  A -ê  -.Ñ Ñ¨Øá´¨á?,?,?,   C´´¨á?,?,ffÊ>  Ä?  B  D -ê  -
+.Ñ Ñ¨Øá´¨á?,?,?,  9C´´¨á?,?,ffÊ>  Ä?
+  H
+  ?
+ -ê  -.ö öØá?,4Øò?,  @B  ÄA  9  8       ∏\ )L^   |  L   ∏ ) > 7 $Mª )    Øò?,á  †A $        a 
+c     u    &  ú ù &s Ú-'  †$   0  ¢        ^ t   ‹  ’      - –E w *  ø%   q!5ø Ú-'  †  †  ¢  ¢   0  †$  ¢  Ä?   <        %   Ä    Ãc "M   {	  Œ   î ÑÑ  a/!   a/!  Ç  a/!N
+ Ú-'î Ñ ! Ç 
+ Ú-=' "% +#            Ã w¨*¨$   " !  / + .       Ø] Oe   6  m   Ø  # #
+7 $ 
+4 7 
+ˇˇ
+h $ 
+T h 
+e h 
+ˇˇ
+ˇˇ       ßd (2A   ≠  $   ß (" Ú-'
+ (       ¡T  ".     %   -*-*'§ ®  6a  Ä?'Á***  Protector Mutator Initializing Á***  (c) 2000 Andrea Barlaam [Major Disaster] Áppp***  Version is  S,. S,Áp***  Respawn Protection =  T-Á***  Protector Mutator is now Operational -1§ ® -À        b  ~   ï  ?   	D   ®p®'[ S	]:         e  Ñ     O   D   ®p®,[ S]:  ?ë,
+       µf Kå   Ã     ?ë,
+  	     - -ê  - -ê  - -ê  - -ê  - -ê  -
+ -ê   b   ƒµ- K        N ¥   !  è    § æç w *   ú ùv ó %¶ v ñ &    «        Œ   J   T   <   Õ ¿ õ ∫ C   A   A  C  »B      \    	\    \    UˇˇˇˇdUˇˇˇˇfU˝ˇˇˇb[˚ˇˇˇnU˛ˇˇˇUU˛ˇˇˇZU˛ˇˇˇCUˇˇˇˇuU˛ˇˇˇXU˝ˇˇˇlU˛ˇˇˇzU˝ˇˇˇuz¸ˇˇˇZU˝ˇˇˇs\    U˛ˇˇˇ{U˝ˇˇˇwU˛ˇˇˇaU˛ˇˇˇ[U˝ˇˇˇv[˚ˇˇˇgUˇˇˇˇNUˇˇˇˇ_Z˚ˇˇˇpZ˙ˇˇˇw{ÏˇˇˇYU˛ˇˇˇ]UÓˇˇˇxtÛˇˇˇPUÓˇˇˇy[ÛˇˇˇIUˇˇˇˇOZÛˇˇˇiU˛ˇˇˇWU˝ˇˇˇjXÒˇˇˇ2ZÈˇˇˇEsÎˇˇˇ[ZÒˇˇˇUÓˇˇˇwZÒˇˇˇ`U˛ˇˇˇXU˛ˇˇˇtX·ˇˇˇOUˇˇˇˇAUˇˇˇˇMUˇˇˇˇ|X›ˇˇˇ[˚ˇˇˇyXœˇˇˇ[˚ˇˇˇoX˚ˇˇˇPX–ˇˇˇLX˚ˇˇˇX˚ˇˇˇiX˚ˇˇˇxUˇˇˇˇgX˚ˇˇˇhZÈˇˇˇ@{Ôˇˇˇ^ZŒˇˇˇ~XÛˇˇˇ"UˇˇˇˇeXÛˇˇˇXÎˇˇˇtz›ˇˇˇkXÒˇˇˇZ˙ˇˇˇDU˝ˇˇˇkU˝ˇˇˇTU˛ˇˇˇYz⁄ˇˇˇBXÒˇˇˇZﬂˇˇˇ{XﬂˇˇˇJ\    |U±ˇˇˇD è    A  yF0â _   J  7â 3   ^  L8â 3   ]  Y8â V   G  f8ì 3   e  s8ì    S  8â h   J  K9ì 3   d  X9â 3   c  d9â 3   b  q9â 3   a  ~9â 3   `  K:é    >  X:â 3   _  d:â 3   \  q:â a   v  ~:é    ;  K;ì h   V  W;â 3   q  c;â _   m  p;â ^   L  };ì    :  J<é    8  V<é    7  b<é    4  n<â b   j  z<ñ    9  H=é    3  T=â V   L  `=â N   L  m=ñ 3   f  {=â a   }  G>ì a   c  T>Æ b   n  `>â ]   r  m>ì N   V  {>ì ^   V  G?ä 3   1  S?â c   L  `?â ]   j  m?é    z  {?≠ a   F  G@ä 3   ,  T@ì V   V  `@  a   h  l@≠ a   H  x@ä    Q  EAé    W  QAÆ V   S  ]A ü    <  ^kAä 3   *  IWä 3   .  VWä 3   H  bWñ ]   o  nWä 3   I  zWä 3   K  FXñ O   m  RXñ O   R  ^Xä    R  jXé    K  vXñ ]   l  BYä 3   !  NYä 3   %  [Yä 3   #  gYä 3   $  tY ´    =  SAZä 3   (  T\ä 3   /  a\ä 3   +  m\ä 3   )  z\ä 3      G]ä 3   &  T]ä 3   '  a]é g   r  n]•    U   	z]•    T   C^å      jJ^å∑C   P  Lt_û R   q  4 r@aû    q  4 D\rc °    Q  fvøû C   q  4 I\¬•    V   e…û 3   q  4 l[m…å∆     TY•é V   p  m®å≥C     Yy®å√     )R™ä 3     {™ä 3     H´åπ3     QT´å∏3   L  Ge∫å    
+  _lªå      _KΩé N   p  jøåÃ     evøåØ3   O  d[¬åß   2  /√å¡   "  cnƒå 3     DQ…å 3     NU åµ3     IcÀå      qlŒåŒR   J  K]–[Public]
+Object=(Name=Protector230.Protector,Class=Class,MetaClass=Engine.Mutator,Description="Protector 2.30,Protects players from respawn campers (by Major Disaster)")
+Object=(Name=Protector230.ProtectorMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="Protector Mod Menu"))
+
+[Protector230.Protector]
+EnableRespawnProt=True
+UseTranslucency=True
+ProtectTime=10
+ScaleGlowBy=2.000000
+ProtNoFrags=True
+pmsg1=You are protected.
+pmsg2=Protection has expired.
+ProtFromCannon=True
+ProtectHumans=True
+ProtectBots=True
+DynamicProt=True
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>Protector 2.30 Documentation</TITLE>
+<META NAME="GENERATOR" CONTENT="Arachnophilia 3.9">
+<META NAME="FORMATTER" CONTENT="Arachnophilia 3.9">
+<BASEFONT SIZE=2 FACE="Arial">
+</HEAD>
+
+<BODY BACKGROUND="" BGCOLOR="#ffffff" TEXT="#000000" LINK="#0080ff" VLINK="#ff0080" ALINK="#ff00ff">
+
+
+<H3>Protector Mutator for UT </H3>
+           
+
+<FONT SIZE="1">
+<I>(c) 1999,2000 Armando Andrea BARLAAM  "Major Disaster"   </I> <BR><BR>
+Version: 2.30 <BR>
+Created: 22/01/00<BR>
+Author:  Armando A. Barlaam  (Major Disaster)<BR>
+Contact: <A HREF="mailto:mdisaster@ngi.it">mdisaster@ngi.it</A><BR>
+Homepage: <A HREF="http://www.utworld.net/mdisaster">Major Disaster UT Pages</A><BR><BR>
+
+This software is unsupported and you use it at your own risk. I am not responsable of whatever may happen if you use it.<BR>
+
+</FONT><BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<B><FONT SIZE="2">Table of contents</FONT></B><BR>
+
+<A HREF="#legal">Legal Info</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#over">Overview</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#newf">New in this version</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#install">Installation</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#start">Getting started</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#config">Configuration options</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+
+
+<A NAME="legal"><B><FONT SIZE="2">Legal Info</FONT></B></A><BR>
+You may:<BR>
+- Install Protector on UT servers for others to play.<BR>
+- Put Protector on public internet server for downloading, as long the original file is unaltered.<BR>
+Any other use requires my written consent (this includes, but is not limited to, distributing Protector alone or bundled with other software, and including Protector in any form of distributable media, whether it is free or not).   <BR>
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="over"><B><FONT SIZE="+2">Overview</FONT></B></A><BR>
+
+This server-side mutator makes all players and bots invulnerable for some seconds after respawn, in order to discourage respawn campers. <BR>
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="newf"><B><FONT SIZE="+2">New features in this version</FONT></B></A><BR>
+-Added: GUI interface, Protector options can now be set from the Mod menu.<BR>
+-Added: Translucency is now optional.<BR>
+-Added a translucency slider control<BR>
+-Added the fast loading feature (effective only in UT 4.30 or later)<BR>
+-Added optional respawn protection from Assault cannons<BR>
+-Added selective protection for humans, bots or both<BR>
+-Added optional dynamic protection: protection will expire in advance if the protected player grabs a weapon or powerup<BR>
+-Removed: the kick voting system, for better compatibility with dedicated voting mutators such as UTCV.<BR>
+-Changed: Protection time can now be from 0 to 15 seconds<BR>
+-Changed: Protected players no longer glow<BR>
+-Changed: The package name is now Protector230, to avoid problems with auto download.
+-Fixed: Workaround for the translucency bug in Epic code (sometimes playes stayed translucent) <BR>
+-Documentation updated.
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="install"><B><FONT SIZE="+2">Installation</FONT></B></A><BR>
+<B>Uninstall previous versions</B><BR>
+You should uninstall the previous version of Protector before or after installing 2.30:<BR>
+Either open Control Panel/Install-Remove Application, doubleclick on "Unreal Tournament" and select the Checkbox near "Protector", or just remove these files from c:\unrealtournament\system :<BR>
+protector.u  <BR>
+protector.int<BR>
+protector.ini  <BR><BR>
+from c:\unrealtournament\help :<BR>
+protector.txt<BR><BR>
+Also make sure to remove any ServerPackages=Protector.u from unrealtournament.ini (there shouldn't be one anyway)<BR>
+If you don't, you'll have two Protector mutators installed. This will not harm your UT installation, but it's boring ;)  
+<BR>
+<BR>
+<B>Install Protector 2.30</B><BR>
+Then unzip the archive in an empty folder on your hard disk (NOT the Unreal Tournament directory !) and click on the protector.UMOD file.<BR>
+<BR>
+When the dialog box asks for asked the name of the install directory type the UT base directory, i.e. C:\UnrealTournament .<BR>
+<BR>
+After a successful installation you should have the following new files on your system:<BR>
+<BR>
+in C:\UnrealTournament\system <BR>
+protector230.u      (the executable code)<BR>
+protector230.int    (the mutator description)<BR>
+protector230.ini    (the configuration file)<BR><BR>
+in C:\Unrealtournament\help<BR>
+protector230.txt<BR>
+<BR>
+To uninstall protector just remove the above files<BR>
+<BR>
+Admins: Protector does not require changes to config files.
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+
+<A NAME="start"><B><FONT SIZE="+2">Getting started</FONT></B></A><BR>
+Start UT and begin a practice session or a multiplayer game. Select Protector and any other mutators that you want to use with it from the mutator list. <BR>
+You will notice that freshly respawn players are translucent and can not be killed, nor they can frag other players. This is the respawn protection at work.<BR>
+Protector installs a setup dialog under the Mod menu in the UT menu bar. You can access the menu to change the Protector settings. Moving the mouse over a slider or checkbox will make appear a help line at the bottom of the screen.<BR>
+<BR>
+Protector is a server-side mutator, so it only works in multiplayer games if it is installed on the server.
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="config"><B><FONT SIZE="+2">Configuration Options</FONT></B></A><BR>
+
+The protector.ini file contains variables that can be changed to control the mutator behaviour. To change the variables open the protector.ini files with Notepad or another text editor. <BR><BR>
+This is a sample protector.ini file: the notes in italics explain the meaning of the variables and must not be typed.<BR><BR>
+NOTE: Most of these variables can now be changed directly from the Protector option panel, under the Mod menu.<BR>
+<BR>
+<TABLE style="font-size : 8pt; font-family : Arial"  border ="0">
+<TR>
+<TD>[Protector.Protector]
+</TR>
+<TR>
+<TD>EnableRespawnProt=True  </TD><TD><I>enables respawn protection </I></TD>
+</TR>
+<TR>		
+<TD>ProtectTime=10  </TD><TD><I>the time in seconds before respawn protection expires</I></TD>
+</TR>
+<TR>
+<TD>ScaleGlowBy=2  </TD><TD><I>the amount of translucency of protected players </I></TD>
+</TR>
+<TR>
+<TD>ProtNoFrags=True  </TD><TD><I>protected players cannot frag other players </I></TD>
+</TR>
+<TR>
+<TD>ProtectBots=True  </TD><TD><I>apply respawn protection to UT Bots</I></TD>
+</TR>
+<TR>
+<TD>ProtectHumans=True  </TD><TD><I>apply respawn protection to human players</I></TD>
+</TR>
+<TR>
+<TD>ProtFromCannon=True  </TD><TD><I>activate respawn protection from Assault cannons </I></TD>
+</TR>
+<TR>
+<TD>DynamicProt=True  </TD><TD><I>Enable dynamic protection </I></TD>
+</TR>
+<TR>
+<TD>pmsg1=You are under protection.  </TD><TD><I>this message is sent to a player just after respawn</I> </TD>
+</TR>
+<TR>
+<TD>pmsg2=You are no longer protected.  </TD><TD><I>this message is sent to a player when protection expires </I></TD>
+</TR>
+</TABLE>
+
+</BODY>
+
+</HTML>
+BM      6  (   R   R                            ,.- îóî \cb ,.ù DFD ÃœÕ hf» |~ TRR DN¨ ,/i ¨≤Ø lii ,.⁄ 4FÄ ,:j ‰ÍÂ DR| º¬æ §ß• TUv 4:4 DJŸ |äî lrî ,@ù <Bd Tbî ‹’÷ <>‘ ,1Q DH} ,=å lrs TZW îó± |° ºµ∂ TV‹ djf LRW ,20 Ã À <@Ù ,/√ §©º T]y <?± ‹ﬁ› TRú ,.è Ù˜Ù ,Bê úüû Ã÷Ã LTz LJ¸ ååå DHå DFd t~¥ åÜá 4Hê ¿ƒ‘ ¥Æ≠ |uu \bw ≤∫∫ drå |Üå TQg ¨Æ≠ d^a T\í åè§ ‘“‘ lnÄ <<< TN‡ txê LF‘ <D» ÏÊÏ <6‰ 4Bd ÙÒÛ ƒ « ¨™™ deë <F‘ 4<ä T[f <44 ,8¿ ‹Ê‹ LTé <.. ded dd‰ LZº lnn GRŸ <=â ,6X DN} tzv ººº ìíì DBC îöü ,:ú LNL |ë <Jº ,6f ,.ˆ ƒƒ≈ îû¥ åÜ§ ,2A LF¸ -.< LJK UVV ¨≤º <H| ,;y ÏÚÏ ttt ÑÜ‹ prº T\ú LVÏ lr¸ 4>ƒ TPƒ ÑÜÃ ,:\ lj§ \]Ù |zå <6Ã §¢¨ åÇ¸ djÃ BRè LJ» TRê \jÑ ÇÜ† \^‰ DFÒ §ÆÃ DF® /6â TR¸ JNf |Üƒ DBî ƒŒ‰ db‹ <A{ îöº \jx DRl ¥º∆ lx¢ ¿æ≈ ,8≤ ln‘ 4Fú ¸˛¸ GNè <Nî ƒ ÿ pr® ‹⁄‹ LZÑ djå DBT ,6Ï ,.v Ã ◊ dp§ LQ§ 42‘ ÏÏÏ LL‹ \dä D@⁄ LJÑ ÑÇ§ DA˜ 42Ã \\y \V¨ ‘◊‘ TNÙ îåê LJ\ DD» D:Ù ú†¥ |z{ TVh LZå TVº ,.∞ 4By ,6x Ñäâ trî 4Bå ÑÜÖ DF⁄ ‰ÊÂ tnn 46\ LNÑ DJ« ¨Æº 4.- úòî ÑÇÇ ¥¥¥ \\\ 444 DB∞ ‰·‚ ¸¯˘ §°§ LJî <Hè dfx \^ê D<< \]f ƒæº úôú 44> ¥¥æ 4>x TZÙ Ã—‹ DBx úñƒ djz LSj 4:¥ \dl DFT TR\ ljt º√Ã §©¥ <A‰                                         )                     ‚ ›  ››w       ‚                                          ›› `›               y   yy yy
+ › y      y       ›y `y › ›y ` ›y `y ` ›y `y › ›y ` ››    ad `y › ›y ` ›› ›
+ssss,ss2ss2µy
+,,s››                    Ô9∂› ‚Ó∞ÌÎ‚kƒ≥ ÄKdMj ››aK*AKKv›  y,œµµ,
+µµµ
+µ
+y µœs      ›  › ›› ›  › ` z∫∫m›lÎ´Ï9{*WÀK·jÌÀ*Ä‚0l ›j◊ *´CdÀ `y   œ
+     ›   › 
+y2      ›  ›    ›  ›   Ìƒ  y Ì´ﬂlM‚ÔM{´9)MoKt)‡∫∂0´ÄoÂÊ‚› `     yy  y  ›  y››yœœœ2 ›  ››   y  y    y  ›Â’  `  ‰U‡‡‡9zÓ3´5M=0´t  KÌƒMa◊        yy22 ›  ›     y  › ›› ›     `  › ›  ›  ›  ‡Ô ‚zkt‚MlkÄ´zM3‡·l  HU´A M*›        ,  ›          y›`        ›              \!Ä@0Êl9G∞0aÄkj´’kjUj ‚´∫  ajƒÊÊÓÄy›    2µ   y         ›   ›           y ›  `     M"·z‚  o·«M› l·{M M"·l  ·› Î{··"{z››   y2µ `                       ››    ›    ››  ›   › `   )› `     `  ›     ›) ›› ›    y 2œ
+      ›  ›           y   › y`      ›  ››M  ›  ››`     `›      ››      ›yyyyyy
+yyœ
+
+        ›  ›  ›y››  › ﬂÿ `∆\›=@Ã¸ÿy ÿﬂyé   À‡Êl  {› éÏ      › yyy
+rö],],]öö®2,2~y                    ÂA ´Ã Ä∂z%Ó› ßƒ ›dÌMÊUÄ˛Ä ¸‰z´9M › yy
+—~ ]¥¥s¥]®®¯n Ò}–ËZ—y  ›› ›› `   ›  ›    t‰My≥´H ≥UÓ ›∞ ››◊Ä´ﬂ  ‰zƒ∂´9   › 
+  ]®Z Z‘‘}}ú7[¸ˆd≤Z~y            ›  ›   ›tß ›z´·‚ Gj‡Ó `‡∞ y ∫ﬂ´ ‚Maa0aGa › y~öQ¯;[¬aÏÈˆ'd!Àiˆ‘öy›      ›  ›        )aV  ﬂ´Ä 3k‡∆  @0  å´dUd  =´la‰Ml3a›y— ‘}q_¬ˆˆ'˘aaa'!d!!Ä L‘     ›  ›     › ››    {ÀK‰ÄAﬁUWMjÿÄ0´∆K´Ó‚·=ﬁU∫·{jU’KÏy4ZT7¬ª{·aaa'ÿÄ!åd∫3˘‘ y  ›       ›           ‚Àl  {Ä  A5z9dz’·‚ ›)Äﬂl ‚’’9{ r 4BÍ÷e(aaaaa'ad'!ÄÀÄjLË y  › › y› y›   y     `   ›     ›5‡      `          ›   ~4⁄[aQ«HaaaaaaadÿÄÄiÄp y           y`  ›            ` ›lM   ›      `  ›      r4 }.ˆ·úPÏaaaaaa!!A“ﬂ’ëZ  y      ››          ›   ››  ›     ›    ››          rZaaÏ7+Á·aaaHaa'ÿÄÄiﬂﬂ9Ëöy    ››       ›y›   ›  y››        ` › ›   y         
+  £Ä"a·7ó˘aaaaaddÄÀ’9“pËny        ›  › ›  ›         ›            › ›  ››    y  °Ï∞{aFª;ÃHaaaaa'ÄÄÀ’9|Éöy    ›                 `                  ›   ›     Ã5´·aÃ{aaHaadÿÄÀÀ99kä—y       ` ››  y ›   ››   ›   `  ›   › ›          yöaaÏ{Ω»°Ïaaa'adÄÀÄﬂ’9ﬁﬁ˝∑ny             ›                     › ›         yö4‘˜˘H·ÏaaaÃ»ˇÙaaaHaÄÄ’9ÓWÊt¶            › ›      ›  ›   ›  ` ›      › ›    y— ‘˜aaaaaaaa(»ˇ°aaaadÄiÀﬂ9ﬁ5W•∑ny    › ›  ›     ››   ›  › ›      › y ››        —n‘7·aaaaaaaÃΩúaaaddÄÄÀ’9ÓG•É~                     y     y› y   ›   y ›  ›yµ‘ZhaaaÏaHa··ú»ˇFaaa'ÄÄÀﬂ9kÊÊGG‡ÛÕöy    › ›y ›› ›  y   ›› › y  ›        y   ›  y
+4 ëaÏaaa{á≥÷ΩFa'ÿdÄﬂ9kﬁÊC‡jé: y       ›    ›  ›         › ›  ›y ››› ›     
+ 4}·aaaaaaaÃNŸ//ÏaÄÿÄ’=kW@‡‡jVï‘öy ›                           y       ›  › µ ‘°[aaaaaHaÏa(ªf…ç{¸dÄÀ’9kWÌß¶ ~y     `  › ›  › ››   ›  ››  ›› › ››y     ›
+  hLd·aaHa{Ãí˙fddÄÄ’9kÊW‡jj*t¨ r          y     y                  ››    
+ö }it{aÏaaÏ˘1[·æ»/Ôw"dÄÄ’99ﬁ˛@‡jjttV|Ë4y        ›  › ›  ›   ›› ›  ››y         › yn‘}(j´ÏaaaaFª«·	/, Î{!À9∆55WG‡%jÌ˝0¢ö       ›  › ›  ›  ›            › ` ››   yy24.aÄ9·aaa·aa;¿«·∏/π)‚ﬂ9kÊWG‡jÌVt∞ÆÍ Ÿ   ›                    y `   ›      › yö°˜··aaaaaaaÙYozí…ô{a9kWG‡jÌÌVt´ø~Z  ›    ` ››y›  ›y››   `      ›    ›   yö ['HaHaa·a·aûP{Y¡LÀﬂ’kﬁ@CjÌ˝jt∫V}ng      ›                  ›         ›y  ö4±˘ÏaaaHaa·aa·æûÏÃS.Àﬂ9kﬁÊWG‡%ttt‰´ßÍö~       ›y                y   ›   ›››› y2n4(aaaaaaaaaaaa·⁄ao÷+·’“kﬁ5W%jÌVj^´ƒ7ö y›  ›  y    › ›› `  ›    ›  y ›       y— –HaaaaHaaaaaaaaoΩÙa¬eód“kﬁ5˛Gjtß***Rpn4
+    ›  › ›      y          `   y›  y yµ  7aaaaaaaHaa·aaH˜ˇÙ1∏áxikﬁ5W@‡jttt∂^ïû4   ›        y › ›  › ›    ›          yµ‘§ˆ·aaHaHHaaaaaaa+ô»&1≈kWG‡jÌ*V**KtI  y ›    ›   ›  ›     ›  ›      ›  ›   y
+n‘aÏaaaaaaaaHaaaaaÃ¿ôŒ&∏k5WGjtßt**$Z4w         ›           y      y     y  
+ ‘"ÏaaaaHaHaaaaHaa¬P	X÷¿ÇWG‡jttV**◊ü∏ r   y      › y  › ›› ›  ›   ›  ›      
+ö4hÏJdaaaHaa˘aHaaaaaa'¬Ncì¿ÑïGG‡jjt*VKƒ´X~~y      ` ›    ›                › `   Z }˘9‰W·Ha˘aHaaaaaaa'ÀˆªíäñbÊGjt**Kƒ∫uZ‘y   `     › ›› ›       ›          ›  yö}[dƒ’{aaaaÏaaHaaaadÄ&ØÏÍ‡jÌt**ƒK•nr ›    ›  y       ››y›  › ››    y›     ¬a’Ä{aaHaaaaaaHa'ÿÄÀﬂå&ΩF lWCÌt*K0∫¶ ~y ›        ››    y            ››   ›y2 }Ï·˘a·aaHaaHaaaaaÿÄﬂ9$ãNú ‡jt∂KKƒ∫Ë w    ›  › ›   ›  ›   ›› ›  ›        y— BÈÏaaaaaaaaaaaaÄÄ’’ﬁpãê9dÓttVƒ%VUÂ•h ry    ›  ›          `     y       ››yµ7B≤ÈÏaÏHaaaaaHaaÿÄﬂ’9∆ãñ˛jtt***ƒ*´´◊n~y  ›       › ›  y›  y   y          y— 4Z4>ë_Õ£ÈÏÏaÏaaHaÄÄ’9kÓïõã©@jt*KƒK◊´‰XÒ  ›     › › ›    ›  ›   ›  ` ››     ö‘ 4   44≠ÕºˆÈaaa!A99kÓ5ù8bÅ˝t**KKƒƒƒ∫J  g  ›     ›  y         ››             yyggr 44Z  Z≠±º¸ÏaadÄÀ’∆kﬁ5éàÖÇfLKƒK∞∞∞∫°nÒ›       y    › ›› ›y    y  ›  ›           yÒ 4 44 ‘ëºˆaiÄﬂ9k5Ê˛ıèO›‚WKKƒ∞∫Û_ ~y       › ››   y   ›  › › › ›  ›     ››   ›   wâ
+   4}IDpi““kÓWG‡‡˛C{96Kƒƒ0ƒ^Jö   y         ›››                    ››     ›      w~4  >h“99Ó5˛@‡‡‡˝K*ƒƒ∞ƒ∞∞∞-hry›   ` ››        ›  › ››  y   › ››      ›      y     ‘ ~h≤95ÓWGGjttt*ÛƒKK∞∞∞´∂° ~y         ››  y          ›› ›            ›        y ››w  ™≤k˛G‡CjjV6ƒƒ‰∞∫´24
+             › ›   y        ›          ›       ›      ›yÔ 4  Õ %‡‡ÌtV*KKƒ∞0∞∞U¶~4››    ›   ›        ›  `  ›     `  `             › ›       y~  4.mtjÌtKKƒ∞K∫R^J~n w            ›      ›      y ››         › `  › ›          ›y r4 Ò_mVÛ**ƒƒ∞0Ì0´3#Ë 4w›   `    › ›   `  `   ›  › ›     ›y›    ›      ›    ` ››      g  _mKKKƒƒ^∞´Â˝   ›     `  › ›     y     › ›     › ›        ›     ›           y  Ÿ   ¨96∞∞00‰‰∞Xö~y    ›         › ›    ››     › y          y ›  ››y  ››             ZnÒu∞^∞‰0◊3¢}  y        y   ››   ›  ›    y › ›  ›    `y   ›            ›           r4 ~ë◊‰‰U-Ò r       ›   ›       ››    ›          ›        `    ›            ›     ‘ 7?‰∫0º 4Z)       › `     ››                 `        ›    ›   › ›   › `  ›   ››yr‘n $‰U∫$Z44w      y      ›y     ›y  ›› ›› ›  ›   y ››          y     ›              ~ ‘}ò ZZ g        ››y y   › Î≥   ›                    › ››y›  ›  `  ›    ›      ›  y4nÕ<¨n ~          \=\ ` › ›yÓ˚      ›   y›    ›  ›        ›  ›  ›Î?ÂW@U ﬂR*%Îtl ›y~  4~4~y Ä∫\›kå`Î∫tÃÌ\  `%∞Óz˚*KßHy›∆Ê›H∞ßF›             y  › ≥UÂ=«t‰≥›åK‚ K˛◊\   g   ‘ g  ◊ƒ ›ÓÌ ÔÌÀM∆ﬂ  a´˚‚‚AR*z\=å›éRH´∞\`          › ›› ›   ∆´  @0  ﬂ∞{ÄUÌ◊Ô)  ›~‘ 4  ‚´Ä  5‡› Ä‰‚z◊∂´K‚ ‚ƒÊ´Ô ›´o∫j‰M  ›   ››     y    y  ﬂ‡‚‚ j‰‚ À3k´G∫Ô›  ›–4 y›  ´{  K ‚o∫a ÄÊa´d  ‚ƒ´› ›·´{‰o’=yy› ` y     ›  ›  › ›˚∫z›l^‚‚ÀK‚ﬁ´aUo    
+4g  ` ÓzÄ´∞t‚ ÔÌ´‚ ÎÎ∞A‡Ma∫WW‰ ﬂ´l›        › ›  ›  ›  ﬂ´ ’Â‰\·K´tU·´*  › wŸ      (Ó3ÄMd∞*M `oK´·  lß´Äl∂´5Î{U´t´j‚ y y›        y     › Ô‚›yÔ  ‚‚\‚›‚‡· ››y    ››  y ‚\  ›‚)    \Ô  › zÎ) ‚‚)  Ô‚M‚‚   `      ›› ›  › › y ›   › `  ‚› )‚*·            `  ›  › ››  y›  ››)jl ›› › ›\  › ›      ›                         ››   ›         y                   y ›    y ›   ›    ›   y             ›                 ›                             ›                    ›    9 †Ù-P ‡∆P Í:System\Manifest.ini     é     System\Manifest.int é  4     Help\protector230.html ¬  z      System\Protector230.u <   `]      System\Protector230.int ú}  +      System\protector230.ini «~        help/protector230.html œ  z      Help\protlogo.bmp Iú  ,      £≈„üuª  †º     ÍüK

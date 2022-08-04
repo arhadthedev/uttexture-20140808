@@ -1,0 +1,82 @@
+>>>>>DOM-Loxi<<<<<
+<<<<UPDATE>>>>
+
+
+Title                   : LOXI (DOM)
+Version                 : 1.0
+Release Date            : March 14, 2000
+Filename                : DOM-Loxi <<<UPDATE>>>>
+Author                  :Cliff Bleszinski"ported by TaroT"
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             : this is an unreal map created by cliff b,
+i modifified a wall put in a secret room changed textures redid all health weapons and ammo
+but the base map is all Cliff Bleszinski,oh and its a small map very fast and not suited to huge numbers
+this is an updated version including new music i had a complaint about not enough of the base maps
+authors name so her eit is again Cliff Bleszinski ported by me :)
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Domination
+Level Name              : DOM-LOXI
+Player #'s		: 2 to 6 players
+Single Player           : Yes, Botmatch
+Cooperative             : yes
+Deathmatch              : yes...just change the DOM to DM
+Difficulty Settings     : No
+New Sounds              : yes music
+New Graphics            : No.
+Known bugs              : none found yet, please email me if you find any.
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.13
+Base                    : loxi a map by Cliff Bleszinski
+Construction Time       : none for the base 4 hours for the porting
+                         
+
+
+>>>Installation<<<
+Unzip DOM-LOXI.unr in your Unreal Tournament/maps directory.
+Unzip gowith.umx to the music folder
+
+>>>Author's Notes<<<
+i changed textures added a secret room and redid the weapons plus added 3 points
+hope you like..its one of my fav unreal deathmatch maps :)
+
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Rings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+Officeworks/AS/DOM/ctf
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+TaroT (aka Mark Benton)
+March 14, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

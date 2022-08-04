@@ -1,0 +1,32 @@
+File Name: DOM-Alleys
+Map Title: Dark Alley Domination
+Author: Roberto 'Homeslice' Tobar
+Ideal Player Load: 10-16
+Map Music: Razor-ub.umx
+Build time:Only took me a few days on UnrealEd.
+Email address: roberto_tobar@yahoo.com
+Website: None yet....
+
+A cool looking map, in my opinion. My brother's favorite so far. It didn't take a lot of work - so I bet I won't get such a great review.
+Anyway, there are two outside courtyards, that are a little dark....well, they are dark alleys. THere are, instead of 3, 4 control points here. There are two tunnels as well, one with a control point. A few tall buildings in one courtyard.
+It all adds up to a dark city scene....not a big map, but it's a city, all right, especially with the skybox. I kinda layered some mountains behind the city in the skybox. All in all, try this one out.
+
+Now if you feel like you want to modify this map, email me for permission first! 
+
+Here's the procedure:
+
+Just extract DOM-Alleys.unr into the maps directory in your C:\UnrealTournament folder.
+Then put a3text.utx in the textures directory in that same C:\UnrealTOurnament folder.
+This readme is extra. Do whatever you want with it, I don't actually care.
+
+Other maps by me, soon to be released:
+
+DM-Upsidedown
+DM-Purgatory
+DM-Cellblock
+DM-Stadium][ (joint project with brother, Jose A. Tobar, Jr.)
+DOM-Inferno][
+
+....and a bunch of others I've either yet to work on, or haven't thought of uploading to Nali City.
+
+Happy Gaming, people!

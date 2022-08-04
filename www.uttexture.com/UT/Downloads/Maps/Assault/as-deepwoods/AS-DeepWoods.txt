@@ -1,0 +1,62 @@
+================================================================
+Title                   : Deep Wood Facility
+Version                 : 1.0
+Filename                : AS-Valley
+Author(s)               : Jon "Athan" Yu
+Email Address           : fatredox@aol.com
+Web Page                : nah
+Description             : Assault
+Other levels by author  : Nope, first real one.
+Additional Credits to   : Tim Liu!!!
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : AS-DeepWoods
+Single Player           : Sure
+Cooperative             : Oh yeah
+Deathmatch              : No
+Dark Match              : No
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : Some
+NewUnrealScript         : the infiltration m2s
+External DLLs           : N/A
+Known bugs              : Not many.  Any problems contact me at fatredox@aol.com
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Base                    : New Level
+Construction Time       : A while
+
+--- Beta Testers ---
+Tim Liu, Kunal Aggarwall
+
+Installation
+------------
+Easy, you know how.
+
+Author's Notes
+--------------
+These level was designed to be fairly simplistic really meant for human play for true team work,
+but bots work too.  It has a different feel from the traditional assault maps where you basically 
+run around and blow stuff up.  It is meant to be more of a team deathmatch with a some extra
+objectives.  It requires caution and stealth along with skill with the gun.
+There is meant to be a large amount of players to keep the action going and to 
+create a large team feel.  Made for both normal assault and infiltration.  
+This is my first released map so any suggestions/ideas are welcome.
+
+Copyright / Permissions
+-----------------------
+This level is copyright Jonathan Yu (c) 2000.
+
+Authors may not use this level as a base to build additional levels
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.

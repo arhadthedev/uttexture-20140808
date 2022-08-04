@@ -1,0 +1,23 @@
+3-MAR-2000 =================================================================================
+
+Using the map UT-Logo-Map.unr as a base I created this fiery backdrop for the Unreal Tournament
+desktop.
+
+To install, unzip the contents of the .zip into your UT maps folder and rename UT-logo-map.unr
+to UT-logo-map.unr.bak and rename Fire-Logo-map.unr to UT-logo-map.unr
+
+Now open your UnrealTournament.ini file located in your UT system folder and replace the line
+
+LocalMap=cityintro.unr
+
+with
+
+LocalMap=UT-logo-map.unr
+
+and done! To make the most of it deselect 'show desktop' under the options menu.
+
+
+Hobbes
+-------------
+http://lightning.prohosting.com/~traversd/
+traversd@bigpond.com

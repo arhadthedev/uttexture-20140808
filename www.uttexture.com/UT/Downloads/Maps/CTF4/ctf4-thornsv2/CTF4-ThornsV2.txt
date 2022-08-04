@@ -1,0 +1,45 @@
+================================================================
+Title                   : CTF4-ThornsV2
+Author                  : SamAeL
+Email Address           : sama_hell@hotmail.com
+Version                 : v2.00
+Release Date            : 07/04/2003
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : CTF4-ThornsV2
+New Sounds              : No
+New Graphics            : Yes
+New Music:		: No
+Player Count		: 8-20
+--- Construction ---
+Editor(s) used          : UnrealEd 2 ( 436)
+Construction Time       : 5 hours
+
+
+Installation
+------------
+Unzip "CTF4-ThornsV2.zip then put CTF4-ThornsV2.unr in the UnrealTournament/Maps folder
+and put 4thorn.utx in the UnrealTournament/Texture folder"
+
+Copyright / Permissions
+-----------------------
+CTF-ThornsV2 is copyright (c) [XA]Psycho & [XA]Defiance
+
+CTF4-ThornsV2 is copyright (c) 2003 {QC1}SamAeL 
+
+I Start with a new level to creat this map but i have copy/paste some brushs and the skybox
+
+----------------------- 
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this .zip for free through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  Unreal Tournament and the Unreal Tournament logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

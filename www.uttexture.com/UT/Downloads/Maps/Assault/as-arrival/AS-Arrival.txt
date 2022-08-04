@@ -1,0 +1,77 @@
+================================================================
+Title                   :AS-Arrival
+Version                 :1
+Release Date            :3/25/2001
+Filename                :as-arrival.zip
+Author(s)               :KJ_Olson (MoUtH4WaR)
+Email Address           :mouth4war@unrealengine.com
+Web Page                :http://erector.unrealengine.com/
+Description             :A space-themed assault map for UT
+Other levels by author  :none
+Additional Credits to   : usaar33 for coding the team-switching autocannons
+Special Thanks To	: usaar33 for the special team-cannons, Hell's Guardian for letting me use his webspace, Col Kassad for converting the screenshots for the beta. Hell's Guardian and Minister Fish for letting me be a 'full partner' at Unreal Fabricators and Erectors even though they're the ones doing all the work:) And of course Spoonman for the intensive playtesting of about a million versions of the beta.
+
+Playtesters-Spoonman, Hells Guardian, Minister Fish, Shock6822, Col Kassad, Flak Harvester, Varpu, Alchemizt, WET (from CIOGO, wish I had a url but my HD got wiped out when I upgraded) and Willis. Thanks a lot, people:)
+
+================================================================
+--- Play Information ---
+Game                    :Unreal Tournament
+Level Name              :AS-Arrival
+Difficulty Settings     :no
+Single Player           :no. Only married people are allowed to play this map.  
+NewUnrealScript         :Yes, the team-switching autocannons, courtesy of usaar33
+New Graphics            :no
+New Music               :no
+New Sounds              :no  
+External DLLs           :no  
+Known bugs              :The tractor beam won't work with certain mutators that alter the physics of the game. The 'suave' mutator is the only one I'm aware of (thanks to Alchemizt), but I'm sure there are others. Also, there are some 'decorative' weapons in the attacker's initial spawn area, and it will look a little funny when weapons mutators are used. 
+
+--- Construction ---
+Editor(s) used          :Ued2.0
+Construction Time       :200 billion years
+
+Installation
+------------
+as-arrival.unr goes in the ut/maps folder
+
+Extended description:
+--------------------
+
+THE ARRIVAL
+
+	"It's been 57 years since we first detected the alien star destroyer headed towards our home planet. All long-range scans of the vessel's armor and destructive weaponry indicate that their intent is hostile, and they have the abitlity to destroy our world.
+
+	"We assembled the largest, most powerful fleet in history. We allowed the aliens to intercept falsified transmissions leading them to believe that the hub of our defensive grid is located on a small renegade moon on the outskirts of the solar system. We built a jamming device on the moon which, when activated, would temporarily disable the ship's engines and destructive weaponry, leaving them vulnerable to attack for 10 minutes.
+
+	"However, the fleet was destroyed on route by an unexplained warp core breach in the flag ship. Those of us who were sent ahead to prepare the moon for battle are now the first and only line of defense. Our only vessel is an unarmed cargo ship. We have no long-range weapons, only side arms. Our only option is to infiltrate the ship and destroy it from within. We have made modifications to the jamming device which will, hopefully, activate the star destroyer's tractor beam and allow us access..."
+
+-CapTaiN_DipShiT
+
+Author's Notes
+--------------
+It's my first release. I learned about 95% of what i know about Ued during the building of this map. You'll be able to tell by the fact that some areas are quite 'newbie-ish' and others rise to astounding levels of mediocrity:)
+
+Sorry about the suckulent bots. I tried everything, I swear. They know what to do, but you'll rarely lose a game, even at higher settings. If anyone wants to take a peek into ued and let me know WTF I'm doing wrong, please do.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by KJ Olson 2001.
+
+Authors may  NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+You HAVE the right to remain silent. Anything you say CAN and WILL be used against you in a court of law. You have the right to an attorney, and to have an attorney present during questioning. If you cannot afford a lawyer, one will be provided for you at government expense. 
+
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

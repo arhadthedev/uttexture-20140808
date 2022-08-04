@@ -1,0 +1,139 @@
+CTF Plus Game Type Mod for Unreal Tournament.
+
+Author:   Darren Latham
+Web site: http:\\www.mpz.co.uk/ctfplus/
+Version:  1.99 (2.00 beta)
+
+Please use the following e-mail addresses
+Bugs: 		2bbugs@lathamit.f9.co.uk
+Suggestions:	2bideas@lathamit.f9.co.uk
+Comments:	2bcomms@lathamit.f9.co.uk
+
+Don't expect any replies before the 9th July.  I'll not be able to check my e-mails
+until then as I am going to be working away from home.
+
+Description
+-----------
+This modification is a GameType mod for UnrealTournament.  It has been tested on
+version 4.20 of UnrealTournament, but was originally written using version 4.13.
+The patch should work against earlier versions but this is not guaranteed.  The
+GameType will show up as CTF+ in the list of game types supported.
+
+This modification is provided completely as is.  The mod is still in its beta stage
+so don't expect everything to work correctly.
+
+You run this modification completely at your own risk.  I accept no liability
+for loss or damage (to your equipment or sanity) due to the installation/use of
+this game type modification.
+
+Features and Options
+--------------------
+This mod can be used with all of the default CTF maps, and any of the CTF4 maps
+in existence.  In addition to these maps, the mod will support up to four flags
+on the map at any one time.  These flags can be owned by different teams.
+Multiple flags for the same team is also supported.
+
+The mod uses the following options:
+
+Multiple Captures	If this option is checked then players will be allowed to
+			carry more than one flag at a time - providing them with
+			the opportunity to capture more than one flag at a time on
+			maps which have more than two teams worth of flags.  This
+			option has no effect on games with only two flags.
+
+Team Captures		If this option is checked then a team must capture from all
+			teams playing before being able to repeat a capture against
+			a team.  e.g. If the Red, Blue, and Green teams are playing
+			and the Red team captures the blue flag, the Red team must
+			capture from the Green team before they can capture from the
+			Blue team again.  Teams which cannot be captured against are
+			indicated in the HUD by a cross within the flag.  This option
+			has no effect in two team or single flag games.
+
+No Extra Time		If this option is checked then there will be no "golden capture"
+			if all teams have the same number of captures when the match
+			time has expired.  Instead the winning team will be decided
+			first by the highest number of points between the team members
+			and then randomly (arf arf).
+
+Single Flag Game	If this option is checked then there will only be a single flag
+			on the map (apologies for the texture anyone want to supply me
+			with a better one?).  Points are gained by holding the flag at
+			your team's flag base (see Score Interval).  If the "Carry the
+			Flag home" option is unchecked the flag will teleport between
+			team bases when touched.  If the "Carry the flag home" option is
+			checked then teams must carry the flag back to their home base.
+			The flag can be deposited on the flag base by dropping it 
+			(use the command or teleport) when standing on the empty flag
+			base for your team.  If the map supports a single flag mode then
+			the flag will always spawn at the designated spawn point.  If
+			the map does not support the single flag mode then a team will
+			be picked at random to start with the flag.
+
+Carry the Flag Home	If this is checked then you will have to carry your flag home
+			when it gets stolen.  If "Multiple Captures" is checked then
+			you will be able to carry both your own flag and another team's
+			flag.  If "Multiple Captures" is not enabled you will only be
+			able to carry your own flag or an opposing team's flag.  In a
+			Single Flag Game, check this to have to carry the flag back home
+			rather than have it teleport between bases.  No points are awarded
+			for depositing the flag home.
+
+Score Interval		This is the amount of time in seconds between each point awarded
+			to the following:
+			A team in single flag mode when they have the flag at their home
+			base.
+			A player carrying a flag which does not belong to their team when
+			"Give Carrier Points" is checked.
+			Both the above conditions.
+
+Give Carrier Points	Check this to allow a point to be awarded to anyone carrying an
+			enemy fag every "Score Interval" seconds.
+
+
+Notes To Mappers
+----------------
+1. You should only need to use the FlagBase class when adding flags to your maps.  The
+   CTFPlusFlagBase class is now obsolete and has been included only for backwards
+   compatability.
+2. The teams must be added in the order 0, 1, 2, and 3 otherwise the spawn functions will
+   break.
+3. Many flags of the same team can be supported so you can build a map with 1 Red flag,
+   2 Blue flags, and 1 Green flag if you so wished.
+4. You are limited to 4 flags on one map.  This could be increased if enough people were
+   interested in using it - but it does have bandwidth implications.
+5. You can add support for single flag games by adding a FlagBase instance to your map
+   with an Event Tag set to "single" (without the quotes).  If anyone thinks that this
+   is the wrong property to use and knows of a better one (U-Ed is currently inaccesible
+   to me as it GPFs on start up) then get in touch.
+
+Known Issues and Bugs
+---------------------
+1. In single flag mode the bot AI is somewhat variable (actually its bust I think).  This
+   will be fixed in the final version 2 code.
+2. The single flag spawn point has not been tested for a while and may be broken.
+3. I've not had time to test all combinations of all the options yet so you may get some
+   strange results.  I would expect it to be largely stable though.
+4. I'm sure there should be loads more I'm just to tired to think of them.
+5. I really should get in touch with the author of the CTF4 mod to see if we can combine
+   mods (or at least guarantee map compatbility) - however at the moment sleep is way
+   way more important.
+
+Credits
+-------
+To be filled in when 2.0 is released properly.  I'm to tired now and its 00:00 and
+I've not had more than 4 hours sleep every night for the last 7 days and I've been
+working 12 hour days and doing this in the evenings.  Why do I do this to myself?
+
+Legal bit...
+------------
+You may freely distribute this archive, as long as it remains PERFECTLY intact, as
+distributed on the "CTF Plus" home page:  "http://mpz.co.uk/ctfplus/"
+
+If you wish to create a modification based upon the code contained within the
+CTFPlus.u package then please contact me first.  If its a good idea I'll add your
+changes to the main CTF Plus code base.
+
+You may not sell, broadcast, or otherwise market this mod without permission.  You
+may advertise this mod as much as you see fit.
+

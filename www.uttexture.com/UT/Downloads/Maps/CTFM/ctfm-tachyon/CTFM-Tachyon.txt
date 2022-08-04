@@ -1,0 +1,92 @@
+================================================================
+Title                   : Tachyon Conversion
+Version                 : 1
+Release Date            : 7th May 2002	
+Filename                : CTFM-Tachyon.zip
+Author                  : Bram 'Leto II' Verbiest (original map by Ulukai)
+Email Address           : biesie@wanadoo.be 
+Web Page                : http://biesie.i8.com
+Where to get this map   : hopefully http://www.planetunreal.com/MultiCTF
+                          and other sites where this txt-file is included
+Other things by author  : DOM-AbandonedSilos 
+                          CTFM-Penta
+                          CTFM-VoddenI
+                          CTFM-Atoll
+                          RumikoSkins_Freya for Unreal Tournament
+			
+================================================================
+
+--- Play Information ---
+
+Game                    : Unreal Tournament
+Level Name              : CTFM-Tachyon
+Game Type               : MultiTeam Capture The Flag
+                          Visit http://www.planetunreal.com/MultiCTF for more info !
+Botmatch		: Yes
+Recommended No. Bots    : 12-16 in 4 teams
+Translocator            : Available everywhere
+New Graphics            : Yep, some textures of the original game I modified to fit in my map,
+                          especially for the 4 colors.
+Known bugs              : None noticed so far
+
+--- Construction ---
+
+Editor(s) used       : UnrealEd 2.0
+Base                 : DM-Tachyon
+Construction time    : a few hours
+
+--- Level Info and Author's Notes ---
+
+I noticed that the original map DM-Tachyon by Ulukai was perfectly suited for a MultiCTF map.
+I quadripled the map, intersected, added some things here and there, some color light ... The only 
+'big' change I did was to stretch the base a bit, because it would be too small, it's still very 
+small, but the little arrangement made it a lot better I guess.
+I would say, play the original map too and compare :)
+
+
+Files Included
+--------------
+
+CTFM-Tachyon.unr
+CTFM-Tachyon.txt
+Leto5.utx
+
+
+Installation
+------------
+
+(Assuming you have installed the great MCTF mod of course)
+Unzip CTFM-Tachyon.unr file into \maps folder under the Unreal Tournament folder.
+Unzip Leto5.utx file into \textures folder under the Unreal Tournament folder.
+
+
+Credits to...
+-------------
+
+Epic for making the game of the century, Colin McCann for making the awesome mod.
+Gareth 'Ulukai' Spring for the original map !
+
+Also thanks to...
+-----------------
+
+Panalcinder, Fhomasson The Magnificent and Party-Pooper for fragging some serious ass on my 
+little LAN :).
+
+
+Copyright / Permissions
+-----------------------
+
+This level is copyrighted by Bram Verbiest 2002.
+
+Authors may not NOT use this level as a base to build additional levels without permission of
+the author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+===============================================================

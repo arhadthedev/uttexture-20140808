@@ -1,0 +1,44 @@
+==============================================
+Map for mod MultiTeam CTF of Unréal Tournament
+==============================================
+--------------------------------------------------------
+
+	Rédemption
+
+--------------------------------------------------------
+Version of UT tested:		436
+Map name:			CTFM-Rédemption
+Game type:			MultiTeam CTF
+Recomended player count:	16 (4x4)
+Stature:			average
+Weapons available:		[ ]
+Téléporteur:			[x]
+
+Bugs:				???
+
+Editor used:			UnrealEd v2.00 (UTv436)
+Release Date:			02/11/01
+Build time:			2 days (6 hours)
+--------------------------------------------------------
+Notes:
+Goes seek the UDamage => centre of the map, arrest you
+and looks to the tall... HA Ha ha!!! ;-)
+Shoots on tops them "Dave points" those functions also.
+--------------------------------------------------------
+Installation:
+Put the .unr file in the dossier \UnrealTournament\Maps
+Put the .umx file in the dossier \UnrealTournament\Music
+Put the .txt file in the dossier \UnrealTournament\Help
+--------------------------------------------------------
+Author:				Crokx
+E-Mail:                  	Crokx@Infonie.fr
+
+Other levels by author:		CTFM-LavaForme
+				CTFM-Mortal
+				CTFM-SlimeRotor
+				CTFM-Tutorial][
+--------------------------------------------------------
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ -=> Unreal Tournament (c)1999 Epic Megagames, Inc. <=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=CarryTFv102.CarryTFCTFGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=CarryTFv102.CarryTFKeyBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings)
+Object=(Name=CarryTFv102.CarryTFWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)

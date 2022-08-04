@@ -1,0 +1,77 @@
+>>>>>DOM-Doorway<<<<<
+
+
+
+Title                   : Doorway (DOM)
+Version                 : 1.0
+Release Date            : Janurary 30, 2000
+Filename                : DOM-Doorway
+Author                  : TaroT (Mark Benton)
+Country of birth	: Australia
+Age			: 235
+Email Address           : gumtrees@hotmail.com
+Description             : Multi roomed domination Arena using lifts and doors,and a few secrets
+                          3 points in all
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Domination
+Level Name              : DOM-Doorway
+Player #'s		: 2 to 12 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No.
+Known bugs              : none found yet, please email me if you find any.
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.05
+Base                    : New level
+Construction Time       : 2 Days,can i state to much how i hate lifts :)
+                           
+
+
+>>>Installation<<<
+Unzip DOM-Doorway.unr in your Unreal Tournament/maps directory.
+
+
+>>>Author's Notes<<<
+very fast compact arena points are hard to gaurd exept the lower one..but then no points in one hey :)
+most weapons and powerups are up top but there is the odd secret door
+
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+TaroT (aka Mark Benton)
+Janurary 30, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

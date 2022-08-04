@@ -1,0 +1,152 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Advanced Water - unrealed.net</title>
+</head>
+
+<body bgcolor="#29476B" topmargin="0" leftmargin="0"
+rules="none">
+
+<table border="0" cellpadding="0" cellspacing="0" width="600" text="#3EADB7" bgcolor="#29476B">
+
+<style>
+<!--
+A:link {text-decoration: none; color: #00ffff}
+A:visited {text-decoration:none; color:#00ffff}
+A:hover {text-decoration:none; color:#00bfff}
+-->
+</style>
+
+    <tr>
+        <td valign=top background="../../images/head_back_01.jpg"><table border="0" bgcolor="#53657B" cellpadding="0" cellspacing="0" border="0" text="#3EADB7">
+            <tr>
+                <td bgcolor="#53657B"><img src="../../printable/header.jpg"width="600" height="60"></td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+        <td><table valign=top border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+            <tr>
+
+                </td>
+                <td width="15"><br>
+                </td>
+                <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+                    <tr>
+                        <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+                            <tr>
+                                <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+
+
+<tr><td><br></td></tr><tr>          <td>
+                                       <table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7" bgcolor="#53657B">
+                                       <tr><td width="100%" bgcolor="#29476B"><img src="../../../images/edit.jpg"></td></tr><tr><tdbgcolor="#29476B"><br></td></tr>
+                                    <tr>
+                                        <td colspan="3"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#53657B" text="#3EADB7">
+                                        <tr>
+                                        <td background="../../images/news_bord/ls.jpg"><img src="../../images/news_bord/ls.jpg" width="10" height="2"></td>
+                                        <td><table border="0" cellpadding="0" cellspacing="0" bgcolor="#53678B" text="#3EADB7">
+                                        <tr>
+                                        <td bgcolor="#53657B">
+
+ 
+ 
+<font color="#00ffff" size=4>Advanced Water</font><br>
+
+
+
+                                        <font color="#E6E6E6">
+
+<P>By: Millenium 2002</P>
+<P><a href="mailto:millennium@planetunreal.com?subject=Tutorials">Millennium 2002</a></P>
+<P>Dated: 12/8/98 </P>
+<p>Click <a href="../advwater.phtml">here</a> to return to the main tutorial or <a href="../../../edtutes.phtml">here</a> to go back to the main Tutorials page.</p>
+
+
+<H4><font color="#00ffff">Forward:</font></H4>
+
+<P>I did the intermediate water tutorial last night, and I want to get all the cool things that can be done with water off my chest...
+</P>
+
+<H4><font color="#00ffff">Abstract:</font></H4>
+
+<P>This tutorial will pick up where the last water tutorial left off. I will explain how to make water surfaces move, how to place multiple water "openings" and how to make things jut out of the water level without spoiling the rest of the surface - and anything else I can think of while I am typing...
+</P>
+
+<H4><font color="#00ffff">Assumptions:</font></H4>
+
+<P>I assume that you know a fair bit about UnrealED by now, so I won't go into as much detail about where things are - just how to do things... 
+</P>
+
+<H4><font color="#00ffff">Tutorial:</font></H4>
+
+<H5><font color="#00ffff">Introduction:</font></H5>
+
+<P>Now that you have mastered what was in the first water tutorial, you probably want to add more cool water effects into the level, so here goes.
+</P>
+
+<H5><font color="#00ffff">Adding more then one exit from a water source:</font></H5>
+
+<P>This is actually quite simple, to have a water source with more then one exit, all you need to do is create the "hole" for the water to go into, and then place the required water "sheets" (I mean the water planes)and then add a water zone in between them. It is really not an advanced step, but most people NEVER tell anyone that it is so simple...
+</P>
+
+<H5><font color="#00ffff">Making the water surface "move":</font></H5>
+
+<P>Once again, this probably could go into a simpler tutorial, but I didn't put into the first water tute, so it goes here... If you don't want a surface texture from "liquids.utx" (they will bog down slower pc's - or for whatever reason) but you don't want the plain simple water textures that are found through the rest of the textures, then select one (of the plain ones that is) and when you have placed it where you want it to go, select the surface (top and bottom) and bring up the advanced texture options. Click on "Small Wavy" or "Big Wavy" and it will move from side to side, and up and down. This adds a lot of realism, but won't chew nearly as much resources as an animated texture...
+</P>
+
+<H5><font color="#00ffff">Waterfalls:</font></H5>
+
+<P>Waterfalls are really cool. A waterfall does look best when it does fall into a pool, so when you have a pool - and a nice ledge, crevice, cranny (whatever) for the water to come from, create a solid cone or a rectangle (whatever shape will look best for your setting - but do it using the "sheet" tool) and select the add special brush as you would normally do, select the water plane (as you would normally do) and then place a "waterzone" in the middle of the shape. If you build it well enough, you may not even have to use two separate water zone, just use the one from the pool of water. Now select the sides of the water, and bring up their texture properties. Under the "scale" section, make sure that they are stretched going up and down, then go to the first tag and make them "pan" going down. If your waterfall is in a cave, you might also want to give it a fair amount of fog around the base, but if it's out in the open, then go easy as it may drain a lot of system resources. Waterfalls should not allow players to swin up them, so you will need to either make it a narrow size, or alter the gravity setting under advanced properties. A setting of a million (1000000) I think ( I hope I remeber correctly) should do the trick, alternatley set a gravity that pushes a player to the front or back of a waterfall. Lastly waterfalls need a waterfall sound, Furthermore, you should put a ambeint sound in the "waterzone" AND around it. This will let the waterfall be heard from a distance and whilst a player is underwater.
+<br clear=left>
+</P>
+
+<H5><font color="#00ffff">Protruding objects:</font></H5>
+
+<P>This is easy, but it requires a trick to perform. That is, the water plane MUST be added AFTER all the rocks (or whatever) are put into the water surface. I mean, if you have a pool and you want to place a rock or two jutting out above the water level, you have to place the rocks into the "water" before you actually place the water sheet into the pool. You will also HAVE to deintersect the brush before you add it into the map, otherwise, you WILL get horrible effects. 
+</P>
+</tr>
+                                        </table>
+                                        </td>
+                                        <td background="../../images/news_bord/rs.jpg"><br></td>
+                                        </tr>
+                                        <tr>
+<td><br></td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                        </td>
+                                    </tr>
+
+<tr><td><br></td></tr>
+
+<tr><td><br></td></tr>
+
+
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+</td><td width="10"><br></td></tr></table>
+                                </td>
+                            </tr>
+                        </table>
+                        </td>
+                        <td><br></td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

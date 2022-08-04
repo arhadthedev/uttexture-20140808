@@ -1,0 +1,136 @@
+*** DOCUMENTATION FOR THE KOTH2 UNREAL TOURNAMENT MOD ***
+
+Author: Patrick Cyr (GorGor)
+Email: kobuster@yahoo.com
+KOTH Homepage: http://www.geocities.com/kobuster/koth
+
+* Also check out the Frogblast: The Ventcore Project site for KOTH maps:
+http://www.unrealengine.com/frogblast/index.html
+
+
+*** SUMMARY ***
+KOTH is a new "King of the Hill" game type for Unreal Tournament.  It differs 
+from the "King of the Hill" game type included with Unreal in that in 
+KOTH there are actual hill areas that players must occupy in order to 
+score points and win the match.
+
+
+*** FILE LIST ***
+Help\KOTH2.txt : This file.
+System\KOTH2.u : The scripts.
+System\KOTH2.int : File which puts the KOTH game type into the game menus.
+
+
+*** HOW TO USE ***
+(This is for "users." Server admins and level designers see below.)
+
+First of all, you not only need this mod, but you need levels that are made
+to use this mod.  These levels should begin with "KOTH" instead of "DM" or 
+anything else.  Note: this is one of the reasons why it is a new gametype
+and not a mutator--there needs to be a hill (hills) in a logical place!
+
+Start a new multiplayer game (or botmatch, but bots don't really work yet).
+Set "Select Game" to "KOTH".  (If you don't have it, it either isn't installed 
+properly, or perhaps you have too many other mods installed.  I believe there
+is an internal limit of 16.)  
+
+In the "Rules" tab, you will see a new "Hill Time Limit" option.
+This is where you set the number of seconds needed to win a game.  Set 
+it to zero if you want no limit (though if you also set the Time Limit for 
+game itself to zero the game will last forever).
+
+Thats pretty much it.  Start the game, and have fun!
+
+
+*** ADDING A KOTH TAB TO YOUR SERVER BROWSER: ***
+You can add a KOTH tab to your server browser by following two simple steps:
+
+-First, add the following lines to unrealtournament.ini (which can be found in 
+your Unreal Tournament's system directory):
+
+[UBrowserKOTH] 
+ListFactories[0]=UBrowser.UBrowserSubsetFact,SupersetTag=UBrowserAll,GameType=KOTH2Game,bCompatibleServersOnly=True 
+
+-Next, find the [UBrowser.UBrowserMainClientWindow] section, and find the first line
+which looks like "ServerListNames[10]=None".  Change the "None" to "UBrowserKOTH" and 
+that is it!
+
+
+*** SERVER ADMINS:  HOW TO RUN A KOTH SERVER: ***
+Running a KOTH game is like running any other game type. Do note that KOTH 
+uses the maps listed in the [KOTH2.KOTH2MapList] section of 
+unrealtournament.ini (by default) to determine which maps to cycle through.  
+This section will be automatically created the first time you run KOTH.
+
+
+*** LEVEL DESIGNERS: HOW TO MAKE YOUR MAP A KOTH MAP: ***
+It's rather easy, but should you have any problems or issues please
+contact me.
+
+Step 1: Load UnrealED, then load the KOTH2 package.  Do this by clicking
+"Load" down in the bottom right corner of the screen and opening KOTH2.U.
+Yup, that is KOTH2.U, not KOTH.U.
+
+Step 2: You must add one or more "hills" to your map.  Use the class 
+browser to open Triggers\Trigger\KOTH2Hill, then place one or more
+of them on your map where you want.  The size of the hill is determined
+by the "Collision\Collision Radius" and "Collision\Collision Height"
+properties of the trigger.  Experiment around to find what's right for you.
+KOTH2Hills are invisible, so you probably want to put them where there
+is some sort of visual indication in the level, such as a light, circular 
+platform, texture, etc.  They work the same way ordinary triggers do, so 
+you can use them to make sounds or whatever.
+
+Note that it is possible to overlap hills in order to make a hill with a 
+shape other than circular.
+
+Step 3: Save the level and try it out.
+
+PLEASE!: Use the "KOTH" prefix on any KOTH levels you make.
+
+As far as distribution goes, I ask that you please include the KOTH files
+with your mod.  Although that presents the usual problem of making sure you
+have the right version, etc, the sources are small and it makes it so
+much more easier for the users of your level.  The complete set of files
+needed are listed earlier in this document.
+
+
+*** SHORTCOMINGS ***
+-Bots don't know how to play (though if they happen to wander onto the hill
+they will be scored).  No, I am not willing to code this. I've tried and 
+failed.  The UT bot classes are extremely convoluted. In any case, how good 
+do you think they would be?  Bots suck at anything other than DM.  If anyone 
+else wants to do this go for it--let me know when you have something that 
+actually WORKS ;)
+
+
+*** THANKS *** 
+Hobeaux for asking me to make this, BeefEnchilada for 
+helping so much with testing, and Wolfchild for making KOTH maps and for 
+kicking me in the ass to do this.  Also, I would like to give props to 
+Mouse (from RealCTF) and the HolyWars guys, whose code I borrowed from. 
+Lastly, thanks to Bungee for making Myth and Marathon, the gameplay 
+inspiration.
+
+
+Copyright / Permissions
+-----------------------
+This mod is (c) 2000 by Patrick 'GorGor' Cyr.
+
+Authors MAY use this mod as a base to build additional mods.
+
+You are NOT allowed to commercially exploit this mod, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this mod through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the 
+archive intact.
+
+----------------------
+This map is (c) Copyright 2000 Patrick 'GorGor' Cyr. All rights reserved.
+
+UNREAL and UNREAL TOURNAMENT(c)1998 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Interactive Software, Inc. under license.  UNREAL, UNREAL 
+TOURNAMENT and their respective logos are registered trademarks of Epic Megagames, 
+Inc. All other trademarks and trade names are properties of their respective owners.

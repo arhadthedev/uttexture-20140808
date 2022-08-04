@@ -1,0 +1,101 @@
+>>>>>AS-Spacemars<<<<<
+
+
+
+Title                   : Spacemars (AS)
+Version                 : 1.0
+Release Date            : april22, 2000
+Filename                : AS-Spacemars
+Author                  : TaroT (Mark Benton)
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             :After escaping from the space staion in as-space your team
+and another ship are redirected to Mars where there is a nuclear arsenal
+being readied by the rebel corporation to cripple the moon station Zeta and strategic
+targets on earth.Your mission is to fight your way to the missils and destroy them and disable the base
+then escape to the moon station for your next mission.
+
+
+
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Domination
+Level Name              : AS-Spacemars
+Player #'s		: 6 to 12 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : NO
+Difficulty Settings     : No
+New Sounds              : yes,music
+New Graphics            : yes
+Known bugs              : due to using new brushes i had a few homs but only one that may
+affect gameplay,nithing drastic just annoying :)but this is abig lvl and will tax smaller systems
+
+
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.13
+Base                    : New level
+Construction Time       : 3 weeks...assault has to be the hardest shit 
+
+                           
+
+
+>>>Installation<<<
+Unzip AS-Spacemars.unr in your Unreal Tournament/maps directory.
+unzip sandman.umx in the music folder
+unzip jagged.utx in the textures folder
+
+>>>Author's Notes<<<
+this is my 4th attempt at an assault map and i appreciate the feedback,
+good or bad and i,d like to thank JTX for serving up a few of my maps :)
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+Dom Doorway
+DOM-Disco
+DOM-officeworks
+DOM-Rings
+DOM-Q3meetsUT...you really cant make q3 look good ehhe
+AS-officeworks
+AS-Alcatraz
+AS-Space
+plus numerous ports from unreal and tournie
+DOM-loxi
+DOM-elsinore..which i screwed the readme and forgot the credit thing oops and sorry to the author
+DOM-gothic
+Dom-Ariza..the version with colours in it :)
+
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+TaroT(aka mark benton)
+April 22, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+unless you do what i forgot from time to time and give credit :)
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

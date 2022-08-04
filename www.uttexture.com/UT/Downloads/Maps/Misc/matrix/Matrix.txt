@@ -1,0 +1,49 @@
+MATRIX Patch For Unreal
+=======================
+
+This Patch Started Of As A Way To Recreate All Thouse Impressive Bits From
+The Matrix But Ended Up Being Just Too Good!!!
+
+Installation
+------------
+
+Ok So Here Goes:
+
+Gopy The Files Into The System Directory
+
+Load The Game
+
+Press ' To Activate The Console
+
+Type "Set Input Numpad1 MWalk"
+
+Type "Set Input Numpad2 MRun"
+
+Press ' Again
+
+Goto Player Options
+
+Chose Ither Trinity Or Neo
+
+Start A Game
+
+Press 1 On The Numpad To Start Things Off
+
+Have Fun
+
+
+Whats New?
+----------
+
+In Game Press 1 On The Numpad To Make You Go Slow And Float Down Slowly.
+
+Press 2 On The Numpad To Go Back To Normal
+
+Crouch And Press Jump To Do A Big Jump (Carefull!)
+
+Stay Still For 5 secs And U'll Go Invisable
+	Shoot Or Move And Your Visable Again
+
+
+By Christopher Ward
+

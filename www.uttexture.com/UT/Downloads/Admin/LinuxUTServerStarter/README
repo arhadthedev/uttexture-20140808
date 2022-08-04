@@ -1,0 +1,47 @@
+Linux UT Server starter by El Muerte [TDS] (thekiller@cuberjunkie.com)
+version 106
+
+Creating a shell script that can keep your UT server online is pretty
+easy to write, but to use it is a bit harder. For example when you want
+to shutdown the server, you first have to lookup the right PIDs. You
+could also start the server twice by accident. Well those are the
+main reason I wrote this advance server starter. It allow you to start,
+stop or restart the server with one command.
+
+Installation:
+Copy the files in this archive to the base directory of Unreal 
+Tournament. Be sure that the following files have execute rights:
+- startutserver
+- randgen
+Make a copy of startutserver for every UT server you are going to run
+on that system. Now edit that startutserver script so that it uses
+the right settings to start the UT server.
+
+note: you may want to edit the maplist files (BotPack.* , SFGame.*)
+included with this package if you use a random startup map.
+
+After you've edited the files your ready to run the server, type:
+	./startutserver start
+to start the server
+	./startutserver stop
+will stop the UT server _AND_ the script
+	./startutserver restart
+will only shutdown the server, if the script is still running a
+new UT server will be started.
+You may want to start the script in the background:
+	./startutserver start&
+or if you want to create a log file of all the output of the script
+	./startutserver start > logfile.log&
+
+Known issues:
+If you find a good way for a random number generator within
+Bash let me know, I want to get rid of the randgen program, using
+the $RANDOM variable doesn't work right.
+It could happen that the randgen program doesn't work on your
+system, in that case recompile the randgen program (the source
+is located in randgen.c)
+
+I'm open for suggestions and improvements, just send a email to
+thekiller@cyberjunkie.com
+
+-- El Muerte [TDS]

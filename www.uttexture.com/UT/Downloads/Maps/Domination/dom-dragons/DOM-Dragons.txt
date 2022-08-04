@@ -1,0 +1,60 @@
+================================================================
+Title                   : DOM-Dragons
+Version                 : Final Version
+Release Date            : July 29, 2003
+Filename                : DOM-Dragons.unr
+Author(s)               : Rich "GroundZero" Edwards	
+Email Address           : richinvb@yahoo.com	
+Web Page                : http://members.cox.net/richisinvb
+Description             : Opposing Dragons CPs surround the Beast's Belly Center CP.  Hallways Chamber mix with platforms, 
+                          walkways, 2 lifts, shield, armor, keg and sufficient ammo and health.  Bot support for offline 
+                          play is very good and it makes a fierce 5v and a strategic 3v in UT Domination.
+                          
+Other levels by author  : DOM-Grayatta, CTF-Watchakatella, DM-ItComes, CTF-BriarHorn DOM-Herrschen CTf-BloodBowl
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament	
+Level Name              : DOM-Dragons
+Number of Players       : 6-10
+Single Player           : Botmatch
+Domination              : Yes
+Deathmatch              : No
+Assault                 : No
+CTF                     : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Yes included in MyLevel
+NewUnrealScript         : No
+Known bugs              : Let me Know!
+New Music               : No
+
+--- Construction ---
+Editor(s) used          : UnrealED 2.0
+Base                    : None
+Construction Time       : 2 weeks
+
+Installation
+------------
+Unzip the .unr file into your Unrealtournament/maps/ directory and frag away. Put the readme where you want.
+
+Author's Notes
+--------------
+Tried to be very conscious of flow and make a fun DOM map.
+
+Right/Permission
+--------------------
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.  You may not use this level as a base to build new maps.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

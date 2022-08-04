@@ -1,0 +1,66 @@
+================================================================
+Title         : DOM-Shrunk Domination Level
+Version       : 1.0
+Release Date  : 2-6-2000
+Filename      : DOM-Shrunk.unr
+Author        : Bruce Bickar
+Email Address : BruceBickar@worldnet.att.net
+Web Page      : http://home.att.net/~BruceBickar
+
+Description : In this level all of the players have been shrunk to 1/13th their original 
+              size and transported to a room within a secret location. The match location 
+              has been fitted with special jump-pads to help the players capture the control
+              points which are located higher than normal.
+              
+
+Special Features : Players are 1/13th their normal size. 
+                   (Actually everything in the map is 13 times normal size)
+                   Also, there is a little joke in the garbage can.
+
+===============================================================
+--- Play Information ---
+Game               : Unreal Tournament
+Single Player      : Yes (vs. bots)
+Cooperative        : No
+Deathmatch         : Yes (make a copy of DOM-Shrunk and rename to DM-Shrunk)
+Domination         : Yes
+Dark Match         : No
+Difficulty Settings: No
+New Sounds         : No
+New Graphics       : Yes
+New Models         : No
+Known bugs         : None
+Recommended Playres: 6
+--- Construction ---
+Editor(s) used     : UnrealEd 
+Base               : New level
+Construction Time  : ~3 weeks
+
+Version History
+----------------
+1.0 Initial release
+
+Installation
+------------
+Place DOM-Shrunk.unr in the \UnrealTournament\Maps directory.
+Place Shrunk.utx in the \UnrealTournament\Textures directory.
+
+To play as a DeathMatch game type, make a copy DOM-Shrunk.unr in the Maps 
+directory and rename it to DM-Shrunk.unr.
+
+Copyright / Permissions
+-----------------------
+Authors may NOT use this level as a base to build additional levels.
+You are NOT allowed to commercially exploit this release, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.

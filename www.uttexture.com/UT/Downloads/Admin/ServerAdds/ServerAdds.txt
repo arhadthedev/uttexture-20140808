@@ -1,0 +1,98 @@
+________                              ________________________       
+__  ___/______________   ________________    |_____  /_____  /_______
+_____ \_  _ \_  ___/_ | / /  _ \_  ___/_  /| |  __  /_  __  /__  ___/
+____/ //  __/  /   __ |/ //  __/  /   _  ___ / /_/ / / /_/ / _(__  ) 
+/____/ \___//_/    _____/ \___//_/    /_/  |_\__,_/  \__,_/  /____/  
+by El Muerte                                             version 101
+
+[=====------··········      WHO WHAT WHERE     ··········------=====]
+Server adds is an UT addition that will display a few lines of text
+every X seconds in everybody's console. You can use it do advertise
+your homepage, or what ever.
+
+[=====------·········       INSTALLATION       ··········------=====]
+Installation is easy, just place the ServerAdds.u file in you
+system directory and start editing the server .ini file.
+
+Add the following line to the [Engine.GameEngine] section:
+ServerActors=ServerAdds.ServerAdds
+
+Now the ServerAdds configuration, add the following section to the
+same server .ini:
+
+[ServerAdds.ServerAdds]
+fDelay=300
+iRepeat=1
+iGroupSize=1
+iAddType=0
+bDontWrapList=False
+sLines[0]=
+
+[=====------·········          SETUP          ··········------=====]
+- fDelay is the delay in seconds when a new message is displayed 
+(default = 300 , 5 minutes)
+- iRepeat is the numer of repeats of every message cycle, it's
+adviced to leave it to the default value (1)
+- iGroupSize is the size of a message group, this is used in some
+iAddType settings
+- iAddType defines how to display the messages, it can have the 
+following values:
+ 0	Old Skool, just display all lines every cycle, it seems to
+	be limited to only the first 4 lines.
+ 1	Cycle list, every time the next message is display, 1 line
+	at the time.
+ 2	Cycle list with groups, every time a group of messages is
+	displayed, use iGroupSize to define the size of the Groups
+ 3	Random message, displays a random message (only 1 line)
+ 4	multiple random messages, this displays a iGroupSize amouth
+	of random messages
+ 5	random multiple messages, this displays a group of messages,
+	the first message is randomly chosen, the next iGroupSize
+	lines are the lines that succeed the first line in the list
+- bDontWrapList defines if the list should be wrapped when it reaches
+the end of it (only for grouped messages, type 2,4 and 5). Default is
+false, so it will display the first line again in the group. If true
+the Grouped messages will not be filled completely, only the remaining
+items will be displayed.
+- sLines[#] are the lines of text that will be displayed, you can add
+up to 25 lines (0 to 24). If you add an # in front of the text the
+message will be an Admin message (only in ut 430 and up)
+
+[=====------·········        WEB ADMIN        ··········------=====]
+Since version 101 ServerAdds also has an webadmin, to enable the web
+admin you have to add the following to the [UWeb.WebServer] section 
+in the server .ini file:
+
+Applications[2]=ServerAdds.WebAdmin
+ApplicationPaths[2]=/ServerAdds
+
+Replace the 2 for a free entry.
+
+To protect the WebAdmin with a password you have to add the 
+following to the same .ini file:
+
+[ServerAdds.WebAdmin]
+AdminRealm=ServerAdds admin
+AdminUsername=
+AdminPassword=
+
+If you set the AdminRealm, AdminUsername, AdminPassword to the same 
+values as the Default UT WebAdmin you don't have to login again.
+
+[=====------·········         CONTACT         ··········------=====]
+If you find any bugs, or think of changes\new features feel free to
+email me (or post them on the UT Servers mailing list)
+
+email: thekiller@cyberjunkie.com
+ICQ #  48951239
+
+[=====------·········          LINKS          ··········------=====]
+TDS Unreal Tournament Servers
+http://unreal.snt.utwente.nl
+TDS ReServe (server reservation program) - development
+http://unreal.snt.utwente.nl/tdsreserve_devel
+UT Watcher (server monitor)
+http://www.planetunreal.com/utwatcher
+Planet Unreal
+http://www.planetunreal.com
+

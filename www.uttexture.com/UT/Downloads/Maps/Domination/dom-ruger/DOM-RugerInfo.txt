@@ -1,0 +1,57 @@
+================================================================
+Title		: Ruger
+Version		: 1.0
+Release Date	: August 25, 2001
+Filename	: DOM-Ruger.unr
+Author(s)	: ProJect-133 (Adam L. Hughes) /|:)|\/|
+Email Address	: shzuu@tampabay.rr.com
+Web Page	: http://web.tampabay.rr.com/dhughes6/
+Description	: Hard to descripe.
+
+Other levels by author  : Factory7, Lunar Station, Fade To Grey, Arebatra, and Ruger
+Additional Credits to   : All the play testers.
+			  Special Thanks to Redbaron for suggesting the 
+	   		  blue flames and lighting and For Cecil suggesting
+                          that this map woud be better as a Domanation map.
+================================================================
+--- Play Information ---
+Game		: Unreal Tournament
+Level Name	: Ruger
+Game Type	: Domanation
+Ideal Player Count: 8-14
+New Sounds	: None
+New Graphics	: None
+NewUnrealScript	: None
+External DLLs	: None
+Known bugs	: None
+
+--- Construction ---
+Editor(s) used	: UnrealEd 2.0
+Base		: From Scratch
+Construction Time	: Approximately 40 hours of work.
+
+Installation
+------------
+Download DOM-Ruger.zip (which you already did)
+Unzip DOM-Ruger.unr to your UnrealTournament\Maps directory
+
+Extended description (back story)
+---------------------------------
+Story Story!!?? All I can say is "DIE FOOL!"
+
+Author's Notes
+--------------
+I have not discovered any bugs in this map. You better not either, or I will be forced to train a pig to kill you
+then come to your house and let the pig have at you. bawahahah!
+
+It has some special features:
+1. The only new feature is its a new map. :P
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Adam L. Hughes 2001.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You MAY distribute this level through any means (internet, CD, etc.), 
+provided you include this file and leave the archive in tact.

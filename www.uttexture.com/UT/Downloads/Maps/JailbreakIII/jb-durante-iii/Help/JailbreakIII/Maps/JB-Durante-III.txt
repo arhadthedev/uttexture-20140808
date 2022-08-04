@@ -1,0 +1,74 @@
+================================================================
+Title             : JB-Durante
+Version           : 2.0
+Release Date      : 22-06-2002
+Filename          : JB-Durante-III
+Author            : Axel 'Comanche' Gneiting - All credits belong to him !!!
+Email Address     : TheComanche@firemail.de
+Web Page          : N/A
+Modified by	  : Sexmachine
+Email Address     : sexmachine@ut-jailbreak.de
+Description       : Gothic style outdoor JB
+
+Where to get
+this map          : http://www.ut-jailbreak.de
+
+================================================================
+--- Play Information ---
+Level Name           : JB-Durante
+Single Player        : yes (bots)
+Deathmatch           : no
+Capture the Flag     : yes
+Domination           : no
+Assault              : no
+Difficulty Settings  : no
+New Sounds           : no
+New Graphics         : no
+New UnrealScript     : no
+External DLLs        : no
+Known bugs           : No bugs
+
+--- Construction ---
+Editor(s) used       : UnrealEd 2.0
+
+
+Changes
+-------
+- Fixed the "release switch texture freezes UT if played in software mode" BUG (thanks Rob)
+- Added the "picture gallery"
+- Added mapbanner and mapslidescreen
+
+Installation
+------------
+jb-durante-iii.unr      : DRIVE:\UnrealTournament\Maps
+
+
+Mods
+------------
+UTJailBreak - Great mod for UT. A team game where your goal is to capture the other team in order to gain a point. Get it at www.planetjailbreak.com !
+
+
+Credits
+------------
+Thanks to Axel 'Comanche' Gneiting for a great CTF-Level, to Daikiki for the great mod (UTJB), thanks to ElBundee for the one and only "herostatue" and thanks to Mychaeel for the SCREEN component ""... you guys ROCK !
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Axel 'Comanche' Gneiting 2000.
+
+I've received his permission to release this modified level in February 2002 via e-mail - thanks again 'Comanche' 
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)2000 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

@@ -1,0 +1,8 @@
+-= Discovery-Logo-Map.unr =-
+
+author: Gerald "Mr_Bond" Schmid
+
+what to do:
+Extract Discovery-Logo-Map.unr to unrealtournament/maps, 
+open up unrealtournament.ini in unrealtournament/system 
+and replace LocalMap=UT-Logo-map.unr(or cityintro.unr or Entry.unr) with LocalMap=Discovery-Logo-Map.unr

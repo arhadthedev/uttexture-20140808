@@ -1,0 +1,47 @@
+DeathMatch Conversions for Unreal Tournament 400+
+Version 100
+Created by Jason Brown aka Farlander
+---------------------------------------------------------------
+
+This is a set of simple game types which let you play CTF and
+Domination maps as either Team DeathMatch or normal DeathMatch.
+Why?  Well, I saw that ATD had made one, but at the time it
+only converted to Team, and when I tried it I had problems.
+However recent versions added normal DeathMatch.  Oh, well.  :)
+Still, this took 30 minutes, and leads to bigger projects.
+Also, this is a bit smaller than ATD's, but lacks a Server
+Viewer.  You can get ATD's from their web site:
+
+http://www.atd.ozunreal.com/
+
+In reality, it was very simple.  Just needed to extend
+DeathMatchPlus or TeamGamePlus and change some default
+properties.  Also, I needed to change some of the logging
+stuff, so team games get reported right with ngStats.
+
+Known Problems:
+MutliCTF maps which shut of bases when when the score limit is
+reached will shut all the bases when the game starts.  Not fun.
+
+Creator info:
+email: jmbrown@mines.edu
+       Any ideas to add, bug reports, or enhancement ideas?
+       Please send them to me!
+web: http://farlander.home.dhs.org
+     Be warned!  There is no Unreal content there.  :)
+
+Version info:
+100: Initial release!
+
+Files Added:
+\Help\dmplay.txt
+\System\dmplay.inc
+\System\dmplay.u
+
+Rights:
+This package was created by Jason Brown, 2001.  It MAY be used
+as a basis for other projects provided credit is given to this
+package's creator and no profit is made.
+
+
+

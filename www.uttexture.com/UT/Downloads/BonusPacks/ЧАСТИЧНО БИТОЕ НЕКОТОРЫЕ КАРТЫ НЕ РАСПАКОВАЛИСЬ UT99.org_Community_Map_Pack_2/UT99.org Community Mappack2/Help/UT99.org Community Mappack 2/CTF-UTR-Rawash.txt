@@ -1,0 +1,101 @@
+ReadMe for Rawash for Unreal Tournament
+-------------------------------------------
+
+Title: Rawash
+Filename: CTF-UTR-Rawash
+Author: Dennis ''GenMoKai'' Speijers
+eMail Address: GenMoKai@hotmail.com
+Website URL: None
+Release Date: 
+Last Update: 
+Version: V1.0
+
+Credits:
+
+Thanks to the beta testers:
+
+Pichu
+Aalexanderrr
+
+And all the other who tested it 
+
+The original creator of the textures
+
+Other levels by author:
+
+DM-LP-Sepulchrum
+
+DM-LP-Sacrificum
+
+DM-Kahaynu
+
+CTF-VaeVictis
+
+CTF-Holy Sanctuary
+
+DM-Lost Catacomb
+
+DM-1on1-Barn -=[NiP]=-
+
+
+====================================================================================
+Play Information
+----------------
+
+Game: Unreal Tournament
+Level Name: Rawash
+Game Type: Capture the Flag
+Botmatch: Yes
+Single Player: No
+Teamplay: No
+New Textures: Yes
+New Sounds: Yes
+New Music: Yes
+New Mutators: No
+Mods: CTF
+
+====================================================================================
+Construction
+------------
+
+Base: 
+Build Time: 2 weeks
+Ideal Playercount: 2-6
+Editor(s) Used: Ued 2.0
+Known Bugs: 
+
+====================================================================================
+Installation
+------------
+ Copy CTF-UTR-Rawash.unr into UnrealTournament/Maps folder
+ Copy XPickups.u and xpickups.int into UnrealTournament/System folder
+====================================================================================
+Extended Description
+--------------------
+
+None
+
+====================================================================================
+Author's Notes
+--------------
+
+None
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+This level is copyright 2009, by Dennis ''GenMoKai'' Speijers.
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any 
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp), 
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by 
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal 
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other 
+trademarks and trade names are properties of their respective owners.

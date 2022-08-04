@@ -1,0 +1,96 @@
+============================================================================
+
+
+Title                :CTF4-A-I-F-O 
+Filename             :CTF4-I-F-O.zip 
+Version              :1 
+
+Author               :Itchy-Muff
+Email Address        :itchy@unreal2.org.uk 
+Downloaded From      :www.unreal2.org.uk
+
+Misc. Author Info    :
+DM-A-I-F-O
+CTF-Slime-Pit , 
+CTF-Twin-Tundra, 
+DM-Zenathon, 
+Other Original Unreal DM Converted for Unreal Tournament 
+DM-Ariza , 
+DM-Healpod , 
+DM-Deck16 , 
+DM-Curse , 
+DM-Deathfan , 
+DM-Elsinore , 
+DM-Fith , 
+DM-Morbias ( This is the copy of Morbias that came with UT but 
+I've tweaked it so that people can see how to make it look like players 
+are walking on the ceiling as well as the floor takes a bit of getting 
+use to ;0)  )
+DM-Radikus and DM-Tundra , 
+DOM-Deck16 , 
+DOM-Curse , 
+DOM-Healpod , 
+DOM-Ariza , 
+DOM-Radikus & last but not least Yosemite Sam Full Soundpack 
+                       
+                       
+Credits to : Epic for Unreal/Unreal Tournament : Dr-Alf ,Fishey-Fingers ,Prof-Steven-Hawking , 
+Emu-Bear ,  Liquid-Sh#t for being my cannon fodder ;0) whilst testing and Shrapnel-Sid &
+I-Am-The-One for being even more cannon fodder.
+============================================================================
+
+Play Information:
+
+Game		    : Unreal Tournament
+Deathmatch          :err Yes  just copy it and rename it DM-A-I-F-O-4 
+Domination	    :nope
+CTF4		    :oh yes 
+Assault		    :no
+New Sounds          :no
+New Music	    :No
+New Graphics           
+
+Base                 : I used DM-A-I-F-O as a base 
+Editors used         : UnrealEd
+Known Bugs           : None that I know of
+Time To Build        : the original took 24 hours give or take a few minutes+about
+                     : 4 hours retweaking bits , this took a couple of extra hours 
+                     : to convert to CTF4
+============================================================================
+Bot Support      : There is no bot support for this version mainly because I converted 
+it for a Slaughter fest that was taking place round mine and we dont play with bots when 
+theres real ppl to kill ;0)
+
+Recommended Human Players  : 1 player on each side = a nice deathmatch but with flags ;0)
+                           : 2 players on each side = Oi Team mate Get the Ficking flag back
+                           : 3 players on each side = well you tell me 
+============================================================================
+Description: This is just a platforms , lifts and bouncers type platform .
+If you`ve got no skill and like to play easy levels then this is not for you 
+but if you`ve think you`ve got a bit of skill then you`ll like it .
+Try picking up all 4 flags before returning to your own flag base if you think its
+a bit easy ;0)
+For those of you who wish to try from the redeemer platform if your good enough
+you are able to reach all the flag bases some you need the jumpboots others 
+ooh just try it.............. 
+You will die lots of times before you will truely be able to say that youve 
+mastered it Dr-Alf has the Most Suicides honour 80  in our stat chart guess
+he could say Arse-I-Fell-Off quite a few times ;0)
+                                
+                                 N-Joy
+
+
+                              Itchy-Muff
+
+============================================================================
+
+Legal/Copyright stuff
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+
+This is copyrighted and may NOT be distributed on collection CDs and stuff without
+asking the author first. 
+That's about it.
+============================================================================

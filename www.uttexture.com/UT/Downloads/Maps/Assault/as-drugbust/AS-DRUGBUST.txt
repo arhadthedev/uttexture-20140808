@@ -1,0 +1,60 @@
+Unreal Tournament Map
+
+================================================================
+Title                   : DrugBust (-Final Version-)
+Filename                : AS-DRUGBUST.unr
+Author                  : David R. Lamberson (OSMIUM) & Terry Cox (SkyHawk)
+Email Address           : jsusan1@qwest.net
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Game Type               : ASSAULT
+Single Player           : yes (12 player starts)
+Multiplayer             : yes (12 player starts)
+New Sounds              : yes
+New Graphics            : yes
+Known bugs              : Bots camp the 2nd floor defenders spawning door?
+Credits			: Special thanks to "OD" and to my beta testers Ogre, Death Knight, RHODIUM, and OL'ONEYE
+                          And to Terry Cox for the original idea and layout of the MAP!!!
+ 			  Also would like to thank all the players of EAST COAST ASSAULT for your
+			  ideas and input to make this map more user friendly and fun!!!
+                          Lastly would like to thank "Aahz" for his NPC A.I. system file which made
+                          a great ending for this map.
+
+Other maps by author    : AS-BANKVAULT  AS-FUEDAL  AS-OMAHA  AS-CORPORATION
+			: CTF-DREAMS  CTF-RampRage
+			: DOM-GHOSTS
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0 
+Base                    : New Map
+Build Time		: Two weeks for construction, another month for beta testing, detailing and frame rate optimizing...
+
+Information
+------------
+   
+  Terry Cox wanted to create an Assault with a realistic setting, lots of ways in to get the objectives,
+  make good use of air hammer and rocket launching, multi size battle areas and of course with all my maps a high body count!  
+  Also to win this map team work is a must, there won't be any heros!
+
+Happy Assaulting OSMIUM...& Skyhawk...
+
+ 
+
+Installation
+------------
+   Unzip the file AS-DRUGBUST.unr into your UnrealTournament\maps directory.
+You can then choose AS-DRUGBUST from the "start practice session\ASSAULT" menu.
+Put all utx. files in textures, all uax. files in sounds, all umx. files in music, and all u. files in system...
+
+Copyright/Permission
+------------
+This map was constructed for the enjoyment of my fellow players, if you wish to improve this map you will have to contact Terry Cox for permission...OSMIUM
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

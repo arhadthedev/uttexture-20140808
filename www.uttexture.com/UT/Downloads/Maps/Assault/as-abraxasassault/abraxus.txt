@@ -1,0 +1,65 @@
+================================================================
+Title: AS-Abraxus Assault Level
+Version: 1.0
+Release Date: 2-29-00
+Filename: AS-Abraxus.unr
+Author: Christopher S. Wheeler
+Email Address: cwheeler65@yahoo.com
+Web Page: no
+Description: Assault level based on caves, big outside,
+and gothic architecture. 
+Content: AS-Abraxus.unr and Abrason.uax
+Special Features:
+All is great!!!
+
+===============================================================
+--- Play Information ---
+Game: Unreal Tournament
+Level Name: AS-Abraxus.unr
+Single Player: Yes (vs. bots)
+Cooperative: yes
+Assault: Yes
+Domination: no
+Dark Match: No
+Difficulty Settings: No
+New Sounds: Yes
+New Graphics: No
+New Models: No
+Known bugs: No bugs.
+
+--- Construction ---
+Editor(s) used: UnrealEd
+Base: New level
+Construction Time: 50 hours level editing
+
+Version History
+----------------
+1.0 Initial release
+
+Installation
+------------
+Unzip "AS-Abrax.zip".  Place the .unr file into the MAPS folder
+and uax file in the sounds folder.
+
+Author's Notes
+--------------
+Please feel free to send any and all feedback, raves, complaints, or
+awesome deathmatch screenshots to cwheeler65@yahoo.com
+
+Copyright / Permissions
+-----------------------
+This release is copyright 2000 by Christopher S. Wheeler
+Authors may NOT use this level as a base to build additional levels.
+You are NOT allowed to commercially exploit this release, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.

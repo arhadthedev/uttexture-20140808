@@ -1,0 +1,175 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Theme" content="none">
+<meta name="Microsoft Border" content="none">
+<title>Tutorial #2 - Basics part 2</title>
+</head>
+
+<body bgcolor="#000000" text="#00FF00" link="#FFFF00" vlink="#00FFFF" alink="#FFFFFF"
+style="background-color: rgb(0,0,0); color: rgb(0,255,0)">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><table border="0" width="100%">
+      <tr>
+        <td width="33%"><small><a href="http://www.creativecarnage.com/unreal/tutorial2.zip"><strong><font
+        face="Verdana">Tutorial #2: Basic Part 2</font></strong></a></small></td>
+        <td width="33%" align="center"><small><a href="mailto:mrsin@creativecarnage.com"><strong><font
+        face="Verdana">Author: Dr. SiN</font></strong></a></small></td>
+        <td width="34%" align="right"><small><strong><font face="Verdana">Last Updated: May 24th</font></strong></small></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><b><font color="#0000FF" face="Verdana" size="6"><u>Unreal Tutorial #2<br>
+    </u></font><font color="#0000FF" face="Verdana"><big>The Basics Part 2</big></font></b><font
+    SIZE="2"><p></font><font size="4"><font face="Verdana"><strong><font color="#FF0000">Actors
+    and Brushes and Classes oh My:</font></strong></font></p>
+    <p></font><font SIZE="2"><font face="Verdana">Ok, after doing the first tutorial and
+    sitting in #unrealed for a day, I&#146;ve noticed that most people working with UnrealED
+    are stuck in a Quake/Quake 2 editing mindset. You need to get out of that mindset and it
+    will make editing in Unreal harder.</font></p>
+    <p><font face="Verdana">In Quake/Quake 2 editing, you laid out brushes to form levels.
+    Everything you created (with the exception of monsters and weapons) were built out of
+    multiple brushes laid against each other. A wall was a brush.. a room was at least 4
+    brushes. </font></p>
+    <p><font face="Verdana">Unreal is totally different. Throw away any 3D editing knowledge
+    you have. A brush in UnrealED is VERY different from a brush in Quake. Let&#146;s take a
+    quick look at UnrealED&#146;s terminology!</font></p>
+    <p></font><font size="3" face="Verdana"><strong>The World:</strong></font><font SIZE="2"
+    face="Verdana"> When you first start a new level, you are presented with a huge solid
+    block of matter. This is your world. Anything you do, be it create a room, place a
+    monster, whatever.. is done in the world. I like to think of the world as a huge block of
+    clay that you can manipulate.</font><font SIZE="2"></p>
+    <p></font><font size="3" face="Verdana"><strong>Your Brush:</strong></font><font SIZE="2"
+    face="Verdana"> Notice I didn&#146;t say &quot;A brush&quot; or &quot;your brushes&quot;.
+    In Unreal there is ONLY ONE brush. Think of the brush as your cookie cutter that you will
+    use to remove clay (or in some cases put clay back in) to your world. Now it&#146;s
+    important to realize that your brush does not exist in the world. It is simply a template
+    you will use to build things. The brush can take on many forms from a cube to a sphere and
+    through vertex manipulation much more is possible. HOWEVER.. your brush will always be (at
+    least as far as we have found out) a simple geometric shape. Don&#146;t expect to build a
+    custom brush of a cube with a sphere on top.&nbsp; </font><font SIZE="2"></p>
+    <p></font><font size="3" face="Verdana"><strong>Actors:</strong></font><font SIZE="2"
+    face="Verdana"> I know most of you are use to hearing the word Actor associated with
+    creatures and things inside the game (like weapons). In Unreal, anything that exists in
+    the world is an actor. This includes walls, floors, monsters, lights, EVERYTHING.</font><font
+    SIZE="2"></p>
+    <p>&nbsp;</p>
+    <p></font><font color="#FF0000" face="Verdana" size="4"><strong>HOW DO I:</strong></font><font
+    SIZE="2"></p>
+    <p><font face="Verdana">Ok.. let&#146;s get in to a few how do I do this sections. The
+    information here is the best I know of! If you know a better way to do one of these
+    procedures.. please let me know&#133;</font></p>
+    <p>&nbsp;</p>
+    <p><font face="Verdana">&nbsp;<font color="#FF0000" size="4"><strong>HOW DO I COPY A ROOM.</strong></font></font></p>
+    <p><font face="Verdana">One of the most asked questions of the day was how do you make a
+    copy of a room you created. Copying rooms in UnrealED is preaty simple. You just select
+    all of the actors that make up the room and hit <font color="#FFFFFF">CTRL-W</font> (the
+    hotkey for duplicate). Let&#146;s use the sample level from the first tutorial.</font></p>
+    <p><font face="Verdana">Load up the level by pressing <font color="#FFFFFF">CTRL-O</font>
+    and selecting TUTORIAL1.UNR. You should now be looking at the level you created in the
+    last tutorial. We want to make a copy of the main room (the one without the slope) and the
+    hallway.</font></p>
+    <p><font face="Verdana">So we pick any of the 2D views (I&#146;ll chose the side view).
+    Now we don&#146;t want the brush confusing us so click on <font color="#FFFFFF">MOVE</font>,
+    then click on the 2D view you want to work in, then press <font color="#FFFFFF">B</font>!
+    You should notice the bush is now no longer to be seen. You can bring the brush back by
+    press <font color="#FFFFFF">B</font> again, but for now let&#146;s leave it off. Notice
+    however that the brush is only hidden in your current view. </font></p>
+    <p><font face="Verdana">Ok, so we have hid the brush and now it&#146;s time to select the
+    rooms. We will do the hallway first so find a wall/ceiling/floor (I&#146;ll call these
+    linedefs from here on out) and click on it while holding down <font color="#FFFFFF">CTRL</font>.
+    The room should turn yellow (which means it&#146;s selected).</font></p>
+    <p><font face="Verdana">Now go to the main room and do the same thing (click on a linedef
+    while holding <font color="#FFFFFF">CTRL</font>). Your whole room and hallway combination
+    should be highlighted. If you have any lights or starts in these room click on them as
+    well. You must select every actor you wish to copy. Now, I think you can use the <font
+    color="#FFFFFF">Select all Inside</font> icon to speed this up, but I haven&#146;t figured
+    it out yet.</font></p>
+    <p><font face="Verdana">Once everything is select it&#146;s time to copy.. Press <font
+    color="#FFFFFF">CTRL-W</font> and UnrealED will make a duplcate of the geometry and place
+    is slightly offset of your original room. Now position it on the other side of second room
+    (the one with the ramp). To do this.. hold down <font color="#FFFFFF">CTRL</font> and
+    either mouse button, then move it in to place. Press <font color="#FFFFFF">F8</font> to
+    rebuild and now you have 2 rooms that are exact duplicates of each other.</font></p>
+    <p>&nbsp;</p>
+    <p></font><font size="4"><font face="Verdana"><strong><font color="#FF0000">HOW DO I
+    ROTATE A ROOM.</font></strong></font></p>
+    <p></font><font SIZE="2"><font face="Verdana">Ok.. now let&#146;s hook that hallway up
+    with the second room. But wait&#133; the hallway is on the wrong side. Don&#146;t sweat
+    it.. we will just rotate the rooms to fit properly. Once again, select all of the actors
+    you wish to rotate. Click on the <font color="#FFFFFF">Rotate Brush</font> icon with the
+    room selected. Now rotate the brush until it faces to opposite direction (with the hall
+    touching room 2).</font></p>
+    <p><font face="Verdana"><em>A note about rotation: As you can see.. MAJOR skewing occures
+    when rotating. If anyone figures out how to fix that.. please EMAIL me right away.</em></font></p>
+    <p>&nbsp;</p>
+    <p></font><font SIZE="2" color="#FF0000" face="Verdana"><strong>HOW DO I SCALE SOMETHING
+    IN ONLY 1 DIRECTION</strong></font><font SIZE="2"></p>
+    <p><font face="Verdana">This is called constrained scaling. In UnrealED you accomplish
+    this by locking down a vertex in the direction you do not want to move. The best way to
+    show this is to create a column. Click on <font color="#FFFFFF">Use Tube Brush</font> (if
+    you don&#146;t see the brush in one of your windows.. remember to click on the window and
+    press <font color="#FFFFFF">B</font> to make it appear). Move the brush so it&#146;s in
+    the second room and size it&#146;s width to be column like in width. Make sure it is
+    sitting flush against the floor.</font></p>
+    <p><font face="Verdana">Our next step is to pull the column up to the ceiling. To do this,
+    we are going to do a constrained scale. First step, is to lock one end of the brush (in
+    this case.. the end against the floor). Select the brush and then hold <font
+    color="#FFFFFF">ALT</font> while clicking on any of the vertexes on the floor. This will
+    put the little X over the vertex (like we saw in vertex manipulation). That face of the
+    actor is now locked in place and will not scale. Click on the <font color="#FFFFFF">Constrained
+    Scale</font> icon and scale the column to the ceiling.</font></p>
+    <p><font face="Verdana">Before we go any further, let&#146;s unlock the brush. Hold down <font
+    color="#FFFFFF">ALT</font> and click on the vertex in the very center of the brush. This
+    will unlock it. (if you tried to scale it right now, it would scale at both ends).
+    Finally.. click on <font color="#FFFFFF">Add brush to World</font> to make the brush an
+    actor. Press <font color="#FFFFFF">F8</font> to rebuild.</font></p>
+    <p></font><font size="4" color="#FF0000" face="Verdana"><strong>HOW DO I DELETE AN ACTOR</strong></font><font
+    SIZE="2"></p>
+    <p><font face="Verdana">God that pillar is ugly.. let&#146;s delete it. To delete an actor
+    from the world.. pick a view and press <font color="#FFFFFF">B</font> to hide the brush.
+    Now choose the actor you want to delete (in this case.. click on a linedef that makes up
+    the pillar). It should highlight. Now press <font color="#FFFFFF">DEL</font> on your
+    keyboard and answer poof.. gone (of course.. you might have to press <font color="#FFFFFF">F8</font>
+    to rebuild before the 3D display will update). Remember.. press <font color="#FFFFFF">B</font>
+    to bring your brush back.</font></p>
+    <p></font><font size="4" color="#FF0000" face="Verdana"><strong>SOME OTHER USEFULL THINGS</strong></font><font
+    SIZE="2"></p>
+    <p><font face="Verdana">I just want to take a second and go over some other useful
+    &quot;quirks&quot; and features of the editor. I&#146;ll be breif..</font></p>
+    <p><font face="Verdana">1) The editor stores different window layouts for each map so you
+    can set it up to what&#146;s best for you.</font></p>
+    <p><font face="Verdana">2) If you press <font color="#FFFFFF">P</font> in a view... that
+    view will automatically update when you change something in another view. Pressing it
+    again turns this feature off. Unfortunately you must do it manually for each window and it
+    doesn&#146;t even give you a message to what it&#146;s done.</font></font></p>
+    <b><p></b><font FACE="Verdana" SIZE="2">&nbsp;</p>
+    <p></font><font size="4" color="#FF0000" face="Verdana"><b>CONTACTING ME:</b></font><font
+    FACE="Verdana" size="4"></p>
+    <p></font><font FACE="Verdana" SIZE="2">If you need more help or have some ideas,
+    information, etc, you can reach me at </font><a HREF="mailto:mrsin@creativecarnage.com"><font
+    SIZE="2">mrsin@creativecarnage.com</font></a><font FACE="Verdana" SIZE="2">. I can also be
+    found on #UnrealED on EFNET irc.</font><font FACE="Verdana"><b></p>
+    <p>&nbsp;</p>
+    <p><big><font color="#FF0000">CREDITS:</font></big></b></font><font FACE="Verdana"
+    SIZE="2"></p>
+    <p>There are a bunch of us working on figuring everything out. Some of this information
+    was discovered by the many people on #unrealED including MegaHertz, Freakscne and Orion.</font></p>
+    <p>&nbsp;</td>
+  </tr>
+</table>
+
+<p align="center"><font color="#008000"><small>This page is copyright 1998, Creative
+Carnage, LLC.</small></font></p>
+</body>
+</html>

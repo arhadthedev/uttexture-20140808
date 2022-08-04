@@ -1,0 +1,164 @@
+---------------------------
+EiMmE's Unreal Command List
+v1.1 - 05 May 98
+eimme@hotmail.com
+http://members.xoom.com/EiMmE
+---------------------------
+
+A
+---------------------------
+'ActivateItem' - Use selected item in inventory
+'AllAmmo' - Gives you 999 ammo for all weapons
+'AltFire <n>' - Fire the alternative way, dont know what the <n> is for :(
+'AlwaysMouseLook <num>' - Turns on mouse look, set to 1 for mouse look (Default is 0)
+'Amphibious' - Dont die under water
+
+
+
+B
+---------------------------
+'BehindView <num>' - Gives a third person view, <num> can be 1 or 0 (Default is 0)
+
+
+C
+---------------------------
+'CauseEvent <n>' - Don't know what this does :(
+'ChangeHUD' - Cycles through six different HUD's
+'CheatAdd <thing>' - Works like the 'Give' command in Quake2, <thing> can be any
+                     of the following:
+
+                     dispersionpistol          automag
+                     stinger                   asmd
+                     eightball                 flakcannon
+                     razorjack                 gesbiorifle
+                     rifle                     minigun
+
+                     superhealth               health
+                     scubagear                 shieldbelt
+                     translator                voicebox
+                     quadshot                  peacemaker
+                     amplifier                 dampener
+                     flare                     flashlight
+                     forcefield                invisibility
+                     jumpboots
+
+                     Thats it!
+
+
+D
+---------------------------
+'DodgeClickTime <num>' - Not sure what this does, lemmie know.
+
+
+E
+---------------------------
+
+F
+---------------------------
+'FeignDeath' - Pretend to die, haha
+'Fire <num>' - Fires the weapon (dont know what the <num> is for :(
+'Fly' - Lets you fly, w00h00
+
+
+G
+---------------------------
+'Ghost' - Lets you fly and walk through walls.
+'God' - Stops you from getting hurt (unless you fall for miles)
+'Grab' - Grabs something, hehe
+
+
+H
+---------------------------
+
+I
+---------------------------
+'Invisible <num>' - Makes you invisible to others, <num> can be 1 or 0 (Default is 0)
+
+J
+---------------------------
+'Jump <n>' - Makes the player jump :P (dont know what the <n> does)
+'JumpZ <num>' - Players jump height
+
+
+K
+---------------------------
+'Kick <player>' - Kicks a player from the level
+'KillAll <class>' - Not sure, someone lemmie know.
+'KillPawns' - Not sure, someone lemmie know.
+
+L
+---------------------------
+'Listen' - Start a multiplayer server
+
+
+M
+---------------------------
+
+N
+---------------------------
+'NextItem' - Changes to the next item in the inventory
+
+
+O
+---------------------------
+
+P
+---------------------------
+'Pause' - Pauses the game
+'Players' - Shows info on all players
+'PlayersOnly' - Stops all entities in the except the players
+'PrevItem' - Moves to the previous item in the inventory
+
+
+Q
+---------------------------
+
+R
+---------------------------
+'RestartLevel' - Restarts the level :P
+
+
+S
+---------------------------
+'Say <msg>' - Send a message to all players
+'SetAutoAim <num>' - Uses automatic aiming
+'SetHand <hand>' - Sets which hand your gun is in (Default is Left)
+'SetName <name>' - Sets players name
+'SetTeam <team>' - Sets the team the player is in
+'ShowInventory' - Hmm, not sure, someone let me know.
+'ShowPath' - Used with 'RememberSpot' to show 'WayBeacons'
+'SloMo <num>' - Slow down or speed up the game (Default is 1)
+'SnapView <num>' - Not quite sure what this does, lemmie know, <num> can be 1 or 0
+'StairLook <num>' - Not quite sure what this does, lemmie know, <num> can be 1 or 0
+'Suicide' - Kills player
+'SwitchWeapon <num>' - Changes to weapon number <num>
+
+
+T
+---------------------------
+'Taunt <seq>' - I'm guessing this does something like the Q2 taunt.
+'ThrowWeapon' - Throws the current weapon away
+
+
+U
+---------------------------
+
+V
+---------------------------
+'ViewPlayer <name>' - Views a player on the level
+'ViewClass <class>' - No idea, lemmie know
+
+W
+---------------------------
+'Walk' - Stops 'Fly' or 'Ghost' modes
+
+
+X
+---------------------------
+
+Y
+---------------------------
+
+Z
+---------------------------
+

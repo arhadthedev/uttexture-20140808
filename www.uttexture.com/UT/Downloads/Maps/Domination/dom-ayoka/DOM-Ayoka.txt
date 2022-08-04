@@ -1,0 +1,47 @@
+Unreal Tournament Map                                    6.9.2001
+
+Name: DOM-Ayoka
+Author: Markus "MarkusW" Wallmüller
+email: MarkusW_@web.de	
+HP: http://www.markus-w.de.vu
+-----------------------------
+Description: A castle map with Outdoor areas and three waterfalls :)
+Player Count: 2 - 4 or more, but only for very fast pc´s ;)
+Constrction Time: hmm, maybe 2 weeks....
+Version: 1.0 
+Filenames: DOM-Ayoka.unr (map )
+           Glueh.u (made by Andreas Knoelke)
+           INFSilent.umx (Silent...:p)
+           Wot1.utx (Textures from Wheel of Time)
+           WOTDetail.utx (also Wheel of Time Textures)
+           WOTFlames.utx (Fire Textures from Wheel of Time )
+           WOTForsaken2.utx (Textures from Wheel of Time too)
+           DOM-Ayoka.txt (this importent file ;) )
+Editor used: UnrealED2
+Base: New Map....
+Known Bugs: High Polycount :( in some areas..
+Gametyp: Domination
+Other levels by author:
+                        SD-MWMapPack
+                        DM-Ayoka
+                        TO-SnowyMassacre
+                        DM-Obscura
+                        DM-Aila2
+                        SD-EgyptArena
+                        DM-1on1-Moiga
+                        RA-MarkusW
+                        and much more.....
+Were to get them:
+
+www.markus-w.de.vu
+www.planetunreal.com/nalicity
+www.unrealediting.de
+
+Thanks: Vortexx, for the idea of converting this map to DOM :)
+
+
+------------------------------------------------------------------------------------------
+Copyright Shit ;)
+
+This level is copyrighted by Markus Wallmüller 2001.
+Authors may not NOT use this level as a base to build additional levels.

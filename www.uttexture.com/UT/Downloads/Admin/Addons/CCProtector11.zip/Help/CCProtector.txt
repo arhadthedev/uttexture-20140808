@@ -1,0 +1,17 @@
+CCProtector version 1.2
+-----------------------
+
+[What is it]
+
+CCProtector is a quick little mutator that adds spawn protection.  It's ripped directly from CTF/e.  It works by making the player invincible to any damage for a set ammout of time provide they do not fire or change weapons.
+
+[INI Settings]
+
+There are 2 ini settings that can be found under the section [CCProtector.CCProtector].  They are:
+
+GuardTime (default 13)
+MinGuardTime (default 2)
+
+GuardTime is the amount of time for which the player will be protected.  
+
+MinGuardTime is the amount of time for which the player will be unconditionally protected.  This value insure at least MinGuardTime seconds of protection, even if the player is firing when they respawn.

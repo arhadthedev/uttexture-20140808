@@ -1,0 +1,55 @@
+=============================================================================
+Title                : AS-SaturdayNight
+Filename             : AS-SaturdayNight.zip 
+
+
+Description          : Assault map for Unreal Tournament
+Author               : bin
+Email Address        : binaor@hotmail.com
+
+
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the AS-SaturdayNight.unr to your unrealtournament/maps directory.
+
+Unzip the what-to-do.dem to your unrealtournament/system directory.
+
+Unzip the AssaultBounuspack418 and click on it and press next until it is finnished
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : 
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : No
+New Music               : No
+New Graphics            : No
+Ideal Player Load       : 4-12
+ 
+
+=============================================================================
+Notes: 
+ 
+                                           
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+

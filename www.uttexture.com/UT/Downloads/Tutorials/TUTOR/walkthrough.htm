@@ -1,0 +1,548 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+
+<HEAD>
+<TITLE>The Unofficial Unreal Editing FAQ - A Walkthrough to creating a simple Level</TITLE>
+<LINK REV="made" HREF="mailto:klaus@planetunreal.com">
+<META NAME="author" content="Klaus Breuer">
+<META name="generator" content="By hand. HTML Editors suck">
+<META name="description" content="FAQ for Unreal map editing">
+</HEAD>
+
+<BODY>
+
+<H1>A Walkthrough to creating a simple Level</H1>
+This chapter will guide you to designing your first level.
+<P>
+It's very much written like a cook-book - you don't have to
+understand exactly what you're doing; if you follow the
+instructions, it'll work out ok :)<BR>
+In contracst to the rest of the FAQ, this chapter is meant to be read sequentially.
+<P>
+Details about working with UnrealEd can be found in the next
+chapter.
+
+<H2>Assumptions</H2>
+I'm assuming you know nothing about UnrealEd.<BR>
+However, I'm also assuming that you're not stupid :-) - I refuse to dumb down the
+text until every moron understands it and everybody else is irritated at being
+treated like a moron...
+
+<H2>Planning</H2>
+Remember: we have to plan the map first.<BR>
+For our first map we'll build a very simple map: a storage house
+on a street. It will include a door, a window and have a nice-looking
+sky in the street outside.<P>
+By the way, if both this tutorial and the FAQ seem oddly familiar
+to you, it's because it is: I also wrote The Unofficial Duke Nukem
+3D Editing FAQ, and a lot of the info has been re-used.
+
+<H2>Start me up</H2>
+I'm assuming you have installed UnrealEd on your hard drive and you've
+had <A HREF="planning.html#unrealed">a look at the patches</A> you'll 
+need to get it to run. If you haven't done this, you won't be creating
+very many maps, I'm afraid.
+<P>
+So: doubleclick on the UnrealEd icon and make yourself some coffee while
+the program starts up. It'll take some time (told you it's a memory hog).
+
+<H2>Ooohhh, all these pretty buttons...</H2>
+<I>O</I>kay. First off, you'll need all the screen space you can get, thus
+you should run Unrealed in full-screen modus (you can't resize the windowed
+version, and it uses an akward resolution).
+<P>
+The UnrealEd interface consists of several parts:
+
+<H3>The Menu</H3>
+At the top, you have the usual menu. I'm assuming you know how to use a menu :)<BR>
+The status bar is directly underneath it, but unfortunately, the beta version of
+UnrealEd (the one you're using now - the full version will be retail, and hit the
+shelves in a month or two) doesn't use it very much.
+
+<H3>The Toolbar</H3>
+Aaaah...lots and lots of pretty icons to make the heart of any Windoze-user sing.<BR>
+Don't worry about what they all mean right now - I'll show you which ones to use, and
+you can have a look at the <A HREF="reference.html#icons">icon reference</A> later when 
+you need it.
+
+<H3>The View Windows</H3>
+Most of the screen space is given over to the four view windows.<BR>
+While you can change them all to suit your tastes, currently they're set up like this:<BR>
+<DL>
+<DT>Top Left</DT>
+<DD>The map in 2D, viewed from above.</DD>
+<DT>Bottom Left</DT>
+<DD>The 3D view.</DD>
+<DT>Top Right</DT>
+<DD>The map in 2D, seen from the south (XZ view).</DD>
+<DT>Bottom Right</DT>
+<DD>The map in 2D, seen from the west (YZ view).</DD>
+</DL>
+<P>
+Of course, you can zoom and pan all the window contents about - I'll show you that later.
+
+<H3>The Browser</H3>
+The browser is the texture list on the very right.<BR>
+It's called <I>Browser</I> instead of simply <I>Texture List</I> because it can 
+display Classes, Sound Effects and Music as well as just the Textures it's showing
+right now.
+
+<H2>Brushes and their uses</H2>
+Remember that I mentioned that the whole architecture in UnrealEd consists of
+<A HREF="preliminary.html#mapconsists">brushes</A>.
+<P>
+So when we want to build our room now, we'll need to take a big cube brush and carve it
+out of the surroundings. The result is a neat square cave, which we'll texture to
+look like a room in a storage house.
+
+<H2>The storage room</H2>
+
+<H3>Creating a Brush</H3>
+Right-click on the <B>Build A Cube</B> icon, which looks like this:
+<IMG SRC="images\tutorial\cube.gif" ALT="Cube [2K]" WIDTH=34 HEIGHT=35 ALIGN=bottom>.<BR>
+From the now appearing menu, choose <B>Cube Properties</B> to define just what the cube
+should look like.
+<P>
+Now a new window called <B>Build a Cube</B> appears where you can set the cube properties.<BR>
+We'll need a solid cube (remember, the whole empty map in front of you consists of solid
+granite, and we're just carving a bit out of it), so keep the radiobutton at the top set to
+<B>Solid</B>.<BR>
+As to the size units - well, a minimum room for our character to stand in should have a 
+Height x Width x Breath of about 128 x 64 x 64. We're looking for a nice high storage room,
+so set the cube size to a height of 256 and a Width x Breadth of 512 x 512.
+<P>
+Ignore the option <B>Wall Thickness</B> (it's for hollow cubes) and <B>Group Name</B>. You 
+can also, unfortunately, forget about the <B><U>H</U>elp</B> button, as the .HLP file is not
+included in the Beta version...
+<P>
+Click on <B><U>B</U>uild</B> to create a brush with the specified size, and <B><U>C</U>lose</B>
+to close the <B>Build a Cube</B> window again.
+
+<H3>Carving us some space</H3>
+Have a look at the View Windows. See, every 2D view is showing a red square - our current
+brush. The 3D view shows our brush as a 3D cube, as it should.
+<P>
+Now, since we haven't <I>done</I> anything with the brush yet (we haven't carved it or added
+it to our map), it has no impact on our map at all. It's not even properly visible - you might
+think of it as a cursor.
+<P>
+So this is where you take the all-important step and click on the <B>Subtract Brush from 
+World</B> icon, which is this one:
+<IMG SRC="images\tutorial\subtract.gif" ALT="Subtract [2K]" WIDTH=34 HEIGHT=35 ALIGN=top>.
+(The green square is supposed to be your brush, the grey one is the world).
+<P>
+Ta-DAH! One room created, just like that.<BR>
+What has happened is that you've used your cursor brush (shown in red) to create a 
+subtraction brush (shown in green).
+The 2D views haven't changed (the red brush is drawn over the newly created room, hiding it),
+but the 3D view shows both the red brush outline and the room, textured in a weird bubbly
+texture.<P>
+Look at this texture. Memorize it. Learn to hate it: it means you've forgotten to add a texture.
+
+<H3>Moving about</H3>
+Now, we can't use this texture for our storage room, so we'll want to change it to something
+nice. Besides, the walls shouldn't have the same texture as the floor, right?
+<P>
+But first we'll learn how to move around on our map:
+
+<H4>2D movement</H4>
+Moving in the 2D windows is easy: point the mouse into the window, hold the right mouse button
+and simply drag the map around. Do this now for all three 2D views to center the room in your
+window.
+<P>
+Now, zoom each map in until the cube fills the window comfortably: press both mouse buttons and
+move the mouse up and down to zoom.
+<P>
+Simple, isn't it?
+
+<H4>3D movement</H4>
+Moving around in the 3D View is just as easy: use the left mouse button to walk forwards and
+backwards, the right button to look around and both buttons to pan sideways.
+<P>
+Thus, position yourself inside our new room.<BR>
+Look at the 2D views when you do so: the little eye icon shows your current position, and the
+red arrow attatched to it shows your view direction.
+<IMG SRC="images\tutorial\eye.gif" ALT="Viewpoint Icon [2K]" WIDTH=32 HEIGHT=24 ALIGN=top>.
+
+<P>
+This is the perfect moment to explain an irritation in UnrealEd: you have to left-click into
+a window to update it.<BR>
+Thus, when you move your view point in the 3D map, you'll have to click in all three 2D Views
+to see how your viewpoint icon changes position. 
+
+<H3>Hiding the Brush</H3>
+Although we've carved the brush from the surroundings, it's still there.<BR>
+This allows us, for example, to move the brush and carve another room with the same size
+next to it.
+<P>
+However, at the moment the brush is an irritation, so we'll hide it:<BR>
+Click in the 3D Window and press <B>[B]</B>. This toggles the brush display on and off, so it
+you ever wonder where your brush went, it might simply be hidden (I fell for that a couple
+of times already :)
+
+<H3>Selecting faces</H3>
+In the 3D View, click on one of the walls: it'll be overlaid with a little blue dot pattern,
+meaning it's selected. Click on it again to deselect it. Click yet again to reselect it.<BR>
+In technical terminology, you've just selected one of the brush faces, and now we're ready to
+give it a proper texture.
+
+<H3>Selecting a wall texture</H3>
+Look at the top of the Browser. The first line says: <B><I>Browse</I></B> Textures.<BR>
+Good, because textures are just what we're looking for now.
+<P>
+The second line contains a selction box saying: (All).<BR>
+That's not so good, we don't want to see all textures at once. Click on the selection box to
+see which texture sets are loaded.
+<P>
+Hmmm. Currently, the texture packages <I>Editor</I>, <I>Engine</I> and <I>UnrealI</I> are 
+available.<BR>
+Not good enough - none of these texture packages really contains what we're looking for
+(btw, if you want to know which textures are all available, you might want to sneak a look at 
+<A HREF="textures.html">the texture reference</A>).
+<P>
+Now we'll have to load a new texture package. Look for the <B><U>L</U>oad</B> button at the
+bottom of the browser, and click it. A selection window pops up with a list of all the
+texture packages available.<BR>
+Load the package <B>NaliCast</B> (yes, these are textures from the Nali Castles).
+<P>
+See how the browser now shows 'NaliCastle' under the <B><I>Browse</I></B> line at the top?<BR>
+Directly underneath is yet another selection box, where you can select what subset of the
+textures you wish to view. Choose <B>Wall</B>.
+<P>
+Now have a look at all these nice textures. Use the three buttons directly above the texture
+list to change the size of the textures. Note that at maximum display size, the size of the
+textures is shown next to their names.
+<P>
+Choose the texture named <B>wall1_su</B>.<BR>
+If you've still got the one wall selected, it will now automatically change to the new texture.
+If not, select the wall and click the <B><U>A</U>pply</B> button at the bottom of the texture 
+list.
+<P>
+Now wallpaper the other three walls using the same texture.
+<P>
+<IMG SRC="images\tutorial\corner.gif" ALT="Room Corner [41K]" WIDTH=279 HEIGHT=209 ALIGN=top>.<BR>
+Looks nice, doesn't it? Have a look at the corners: see how neatly the textures fit together?
+That's one of the great advantages of using rooms which fit neatly on the grid.<BR>
+As a general rule, your wall lengths and room heights should all be a multiple of 2: 64, 128,
+256, 512, 1024, and so on. Life is made even easier by the fact that you can enter simple
+formulas when choosing a brush size: instead of just entering a number like <B>1024</B>, you
+can type <B>128*3+64</B>. Very useful if you're tired or aren't used to doing this in your head.
+
+<H3>Texturing floor and ceiling</H3>
+Now, texture the floor using <B>nCob4</B> in the 'Floor' subset and do the ceiling in
+<B>wrckr</B> (from the 'Base' subset).
+<P>
+Look around your room. Nice, isn't it? And so easy to create.
+
+<H3>Save your Work!</H3>
+It's important to save your work often. So this is where you'll choose <B><U>S</U>ave level</B>
+from the <B><U>F</U>ile</B> menu.<BR>
+Don't save your work into the \UNREAL\MAPS directory! That's where the original maps are, and
+you don't want to write around in there.<BR>
+Rather, create your own directory \UNREAL\MYWORK and save your map in there. Use the name TUTORIAL.
+
+<H3>Let There Be Light</H3>
+I bet you're eager to try your room out. Okay, but first we'll need to add some light (otherwise
+you won't see a thing) and a player start point (otherwise you won't be there to see anything
+in the first place).<BR>
+Point at the 3D view, hold the <B>[L]</B> button and leftclick the mouse to add a light icon:
+<IMG SRC="images\tutorial\torch.gif" ALT="Light Icon [3K]" WIDTH=43 HEIGHT=58 ALIGN=bottom>.
+<P>
+To move the light icon in 2D mode, click on the light (it should turn green to show it's
+selected), hold the Shift key and drag the icon around with the left mouse button.
+Position the light in the middle of the room, just under the roof.
+<P>
+To see the effect of the light, choose the <B><U>M</U>ode</B> menu in the 3D view and select
+<B><U>D</U>ynamic Lightning</B>.<BR>
+Hang on...it's <I>already</I> at this setting, how come we don't see the walls being lit?
+<P>
+That's because we have to rebuild the level first. Quake builders will groan now, but in
+Unreal rebuilding (compiling) a level is really fast: press <B>[F8]</B> to call up the
+<B>Rebuilder</B> window. Click on the <B><U>R</U>ebuild Geometry</B> button (make sure 
+that the <B><U>A</U>uto BSP</B> checkbox is active).<BR>
+
+<IMG SRC="images\tutorial\litroom.gif" ALT="The lit room [22K]" WIDTH=283 HEIGHT=194 ALIGN=top>.<BR>
+
+Voila! The 3D view changes to display a dimly lit room. Very nice.
+<P>
+If you want see more clearly, you can change the 3D View mode to <B>Textures</B>, using the
+<B><U>M</U>ode</B> menu again.
+
+<H2>Placing yourself into your world</H2>
+Now we'll add a player start point.
+
+<H3>The PlayerStart class</H3>
+To do this, change the browser mode from <B>Textures</B> to <B>Classes</B>, whereupon the
+browser changes quite a lot: the textures disappear,and are replaced by a tree view.<BR>
+Each line stands for a class. By clicking on the minus in front, it can be expanded to show
+the subclasses.<BR>
+Try it out: click on the minus sign in front of the <B>NavigationPoint</B> class. See? The 
+minus turns into a plus, and all subclasses of the NavigationPoint class are displayed.<BR>
+And hidden amongst them is <B>PlayerStart</B>.
+<P>
+To uniquely identify all classes, I'll refere to them like this: <I>Class.Subclass.Subclass</I>.
+For example, the <B>PlayerStart</B> class would correctly be called 
+<B>NavigationPoint.PlayerStart</B>.<BR>
+(More correctly, this should be Actor.NavigationPoint.PlayerStart, but since we rarely need
+anything except Actors, we'll keep it simple).
+<P>
+So. Click on <B>PlayerStart</B> to select it. Now right-click into our room in a 2D view
+and select <B><U>A</U>dd PlayerStart here</B> from the pop-up menu:
+
+<IMG SRC="images\tutorial\playerstart.gif" ALT="PlayerStart Icon [2K]" WIDTH=77 
+HEIGHT=50 ALIGN=top>.<BR>
+
+Now move the player start position until it hovers just above the floor of our room. Make sure
+to check all three 2D windows to see if it is correctly positioned.
+<P>
+(As an aside, did you have a closer look at the pop-up menu just now? There are three (count 'em)
+options who have the <B><U>A</U></B> shortcut assigned to them. Don't you love Beta software?).
+
+<H3>Entering a New World</H3>
+First off, we'll save our hard work again, this time using <B>Save <U>A</U>s</B> under the 
+filename TUTORIAL2. This way we'll have two copies of our work, just in case one gets messed
+up.
+<P>
+Press <B>^P</B> to play your map. First, the <B>Unreal Log WIndow</B> will pop up, showing
+you what Unreal is doing while starting up.<BR>
+As soon as Unreal has started, you're in your map! Walk around, fire your Pistol, have fun,
+enjoy the milestone of your first working Unreal World.
+<P>
+Quit Unreal (the fastest way is to type <B>EXIT</B> into the console) to return to the editor.
+<P>
+Just in case the earth didn't move for you and you can't find out what you did wrong: I am
+including the <A HREF="images/tutorial/tutorial2.zip">current map state</A> with this tutorial.
+Use it to find out where you went wrong.
+
+<H2>Adding a box</H2>
+The storage room looks a bit empty, right?
+<P>
+If we want to place crates into it (and we do), we have two choices: either we add a crate
+object (which can be shot, possibly containing something), or we build a crate out of a brush
+(which'll be rocksolid and indestructable).
+<P>
+I know: let's do both.
+
+<H3>The shootable crate</H3>
+The Browser should still be showing the Classes. Choose the class called
+<I>Decoration.WoodenBox</I>. Don't select one of the subclasses of WoodenBox, choose the class
+Woodenbox itself.
+<P>
+Using the rightclick-menu in one of the 2D views again, add the box to the map and position it
+on the floor in a corner.<BR>
+Now you have a box in the game, and you can try right now to start your map again and shoot it
+(remember to save your map first!).
+<P>
+But...the box is still empty. Let's put something inside: the AutoMag pistol.<BR>
+Back in the 2D View, rightclick on the box and select the very first option: 
+<B>WoodenBox <U>P</U>roperties (1 selected)</B>, which will pop up a window called
+<B>WoodenBox Properties</B>.
+<P>
+See how many properties such a simple object has? But right now we're only interested in
+a single one: click on <B>Decoration</B> to open the properties which are shared by all
+decorations.<BR>
+We want to fill in the <B>contents</B> field, so select the class 
+<I>Inventory.Weapons.AutoMag</I> in the browser and then click on the <B>contents</B> field in
+the <B>WoodenBox Properties</B> window. Select the <B>Use</B> button and you'll see the text
+<I>Class'UnrealI.AutoMag'</I> appearing in the <B>contents</B>.
+<P>
+Note: you <I>could</I> just have typed <I>Class'UnrealI.AutoMag'</I> instead of selecting
+the AutoMag class from the Browser, but it's so much easier this way, don't you think?
+<P>
+Close the <B>WoodenBox Properties</B> window and play your map again: much better!
+
+<H3>The solid crate</H3>
+The shootable crate is displayed as a so-called <I>mesh</I>. The Unreal engine does lots of fancy
+things when displaying meshes, most of which slow him down quite a bit. Thus the trick is
+using as few meshes as possible. <BR>
+Therefore, if you build a DOOM-style warehouse full of crates (none of which can be shot
+open), you don't want to use meshes - you'll simply build a brush and texture it to look
+like a crate.
+<P>
+To be fair to the player, the new box will look different to the last one.
+<P>
+First change the browser back to Texture mode and load the texture package called <B>GenLn</B>.
+From it, choose the texture called <B>mbox10</B> (in the <B>Deco</B> subset).
+<P>
+Next, we have to create a new brush, this time adding it to the world: right-click on the 
+<B>Build A Cube</B> icon, and create a brush sized 64 x 64 x 64.<BR>
+Find the red active brush both in the 2D and the 3D views (remember that you might have to
+press <B>[B]</B> to toggle active brush display) and position it on the floor, in a different
+corner of the room (you move the brush just like moving an object: leftclick to select it,
+drag it using shift-leftmouse click).<BR>
+Once the brush is just where you want it, click the <B>Add Brush To World</B> icon:
+<IMG SRC="images\tutorial\addbrush.gif" ALT="Add Brush Icon [2K]" WIDTH=34 HEIGHT=35 ALIGN=top>.
+<P>
+The newly created add brush shows up blue in the 2D views.<BR>
+Have a look at it in 3D mode (you might want to toggle the active brush display off again): 
+ugh. The textures don't fit at all.
+<P>
+Okay, to fix textures: select one of the textures and rightclick on it, and select the
+<B>Surface <U>P</U>roperties</B> Menu. Aah, lots and lots of options, just the way I like
+it!
+<P>
+Choose the <B>Scale</B> tab, set the <I>Simple Scale</I> to 0.5 and click <B><U>A</U>pply</B>.<BR>
+Next, select all other faces by leftclicking on them while holding <B>[Ctrl]</B> and select
+<B><U>A</U>pply</B> again.<BR>
+When that's done, choose <B><U>C</U>lose</B> to close the <B>Surface Properties</B> window again.
+<P>
+If you want, take some time now to explore the other surface properties. Fun things like
+<B>Pan</B>, <B>Rotate</B> or (best of all) <B>Effects</B>.
+<P>
+Rebuild your map and play it again (need I still remind you to save your work under yet another
+name?).
+<P>
+Feel free to play about, adding more decorations (like chairs or chests), mess around with the
+surface properties (have you tried <B>Mirror</B> yet?), and come back here when you're done.
+<P>
+Oh, and while you're at it, you might want to switch the 3D view mode to <B>Map Persp</B>, to see
+just how much more complex the first crate (the mesh) is to the second one. See why it would
+slow the engine down?
+
+<H2>The street outside</H2>
+The next thing we'll build is the street outside the storage room.<BR>
+Create a brush sized 1024 x 256 x 1024 and use it to carve a street just north of our room:
+<IMG SRC="images\tutorial\street.gif" ALT="Street Map [5K]" WIDTH=268 HEIGHT=211 ALIGN=top>.<BR>
+(In this example, the grid size is set to 8. Change the gridsize by rightclicking on it).
+<P>
+Use the 2D views to make sure that the floors of both rooms are at the same height. Also, you'll
+have to set the 3D view mode to <B>Textures</B>, as the new room doesn't contain a light yet and
+will thus be pitch dark.
+<P>
+As expected, the textures in the street look weird. Choose any textures you like to wallpaper
+the room with; I'm going to use NaliCast.Walls.wmbr for the walls and NaliCast.Base.block2
+for the floor. Let's ignore the sky for now, it's a special case anyway and we'll look at it
+later.
+<P>
+This might be a good moment to tell you a useful shortcut when texturing things: hold 
+<B>[Alt]</B> and rightclick on a texture to remember it, point at another wall, hold
+<B>[Alt]</B> again and leftclick on it to change the texture to the remembered one.<BR>
+Try it: it's really convenient.
+<P>
+Place two lights at the roof of the new room, right-clicking on them to change their 
+LightColor.LightBrightness property to something lighter, like 120.
+
+<H2>The Window</H2>
+Let's make a window, connecting the storage room to the street.
+<P>
+Create a brush sized 64 x 32 x 64 (assuming that the street is 32 units north from the storage
+room) and use it to carve (ie create a subtraction brush) between the street and the room:
+<IMG SRC="images\tutorial\window.gif" ALT="The Window [30K]" WIDTH=353 HEIGHT=326 ALIGN=top>.<BR>
+You'll have to rebuild your level again to see the changes in the 3D View.
+<P>
+As easy as that. Play your level again and look out the window at the street.<BR>
+Glass is a bit more complicated, and is covered in 
+<A HREF="howto.html#glass">The HowTo Section</A>.
+<P>
+You'll notice that the wall texture containing the window doesn't look very good anymore, because
+it wasn't meant to have a window cut into it. You should change it, perhaps to the same texture
+you used on the other side of the wall, in the street.
+
+<H2>The Door</H2>
+Doors are a bit more complicated than windows, because they consist of two parts: the doorway
+(the hole in the wall) and the moving door itself.
+
+<H3>The Doorway</H3>
+The doorway is created in exactly the same way as the door, except that it's larger to allow
+the player to pass through it. Doorways should have a minimum size of 64, although 128 is
+better (the SkaarjTrooper player model won't fit through 64-sized doors).<BR>
+Let's play it safe and cut a doorway sized 128 x 32 x 128 into the wall.
+<P>
+So far we haven't bothered with the texture on the sides of the window or the doorway, but let's
+take a moment to fix at least the floor texture of the doorway.<BR>
+Make the texture the same as the floor texture in the storage room, select both floors,
+rightclick and choose <B>Align as <U>F</U>loor/Ceiling</B> from the <B><U>A</U>lign Selected</B>
+menu. This makes sure that the texture flows evenly into the door - unaligned textures look
+terrible.
+<P>
+When you rebuild now (remember, you'll have to rebuild after most changes and definitively
+before playing the map), you'll see the light from the street spilling into the room.<BR>
+Such a vast improvement over the DOOM/Duke Engines, where you had to do this by hand...
+
+<H3>The Moving Door</H3>
+To create a door which automatically swings open as the player approaches it, we'll have to
+create a so-called <I>mover</I>. A mover is a brush that moves through the map according
+to previously defined keypoints.
+<P>
+First, create the door. Make it a bit thinner than the doorway but otherwise the same size
+(would be drafty otherwise). Place it in midair in the street and texture it any way you like.
+(Hint: look at the NaliCast.Door textures).<BR>
+Make sure that you texture <I>all</I> sides of the door, and if your texture uses hinges, make
+sure they're all on the right side.
+<P>
+In 2D mode, select the door (you might want to move the red brush away to make sure you're
+actually selecting the right brush). Richtclick on it and choose
+ <B><U>C</U>opy Polygons</B>/<B><U>T</U>o brush.</B><BR>
+Now the active (red) brush contains our door (although the original is still floating in 
+mid-air).
+<P>
+Move the active brush into the doorway and click the <B>Add Movable Brush</B> icon:
+<IMG SRC="images\tutorial\movingbrush.gif" ALT="Add Movable Brush Icon [2K]" WIDTH=34 HEIGHT=35 ALIGN=top><BR>
+Hide the active brush and take a look at what you've created: it looks like a normal brush,
+but it only shows up as an outline in the 3D view.
+<P>
+Rightclick on it.<BR>
+The most interesting bit in this menu is the <B>Mover <U>K</U>eyframe</B> option; it's where
+you define the keyframes of the moving brush. In the game, the brush will move from keyframe
+to keyframe (rotating if necessary) when triggered.
+<P>
+Choose <B>Key <U>1</U></B> from the keyframe list.<BR>
+Now you can drag the door to the 'open' position. You can either simply let it slide into the
+wall or use <B>[Ctrl]</B> and Rightdrag to rotate it to any position (in the 2D views).
+<P>
+Once you're happy with the final door position, select the door brush again and switch it
+back to the <B>Key <U>0</U></B> keyframe (the start position).
+<P>
+Rebuild the map and play it.
+<P>
+Once you're sure the door works okay, you can delete the original brush still floating about
+in mid-air.<BR>
+By the way, rotating doors have a little problem: if they open towards you, the bump into
+you and immediately close again. Thus they should be triggered by a button or something - it's
+safer to build 'normal' doors as sliding into walls.
+<P>
+The door isn't perfect: it doesn't make a noise, it might open too fast or too slow. You can
+fiddle with the doors properties (have a look at Mover.MoveTime, for example), or you can look
+up doors in <A HREF="howto.html#glass">The HowTo Section</A>.
+<P>
+This is just a demo map, so we'll continue to the final part: the sky.
+
+<H2>The SkyBox</H2>
+Something is still missing in our map: the sky in the street isn't a sky yet.<BR>
+In other games (like QUAKE), you'ld simply give the sky a moving texture and that's that -
+but Unreal has a much more powerful way of doing things: the SkyBox.
+<P>
+The exact details can be looked up in <A HREF="howto.html#skybox">The HowTo Section</A>, I'll
+just show you a quick way for now.
+<P>
+First, you create the SkyBox itself: this is simply room somewhere, which defines what the
+sky will look like. Carve a 128 x 512 x 512 room somewhere on your map. Of course, it
+shouldn't be connected to any of your rooms.
+<P>
+Load the <B>SkyBox</B> texture package and texture the floor with <B>grnd</B>, the walls
+and ceiling with <B>NCld</B>.<BR>
+The ceiling needs two effects set: <B>U-Pan</B> (for moving clouds) and <B>Unlit</B> (so the
+clouds are fully visible).
+<P>
+Finally, place an object on the floor in the middle of the SkyBox: Info.ZoneInfo.SkyZoneInfo.<BR>
+<P>
+To apply the SkyBox, move back to the street and give the sky texture the <B>Fake Backdrop</B>
+Effect. Rebuild the map and try it out.
+
+<H2>Done!</H2>
+All right! Looks like your first level is all done!
+<P>
+Okay, so it isn't perfect. But it does show you how to do the most important bits, and should
+provide a solid base for creating 'real' maps.
+<P>
+Have fun, and Best Of Luck!
+<P>
+(Oh, you want to add monsters? Here's a tip: have a look at Pawn.ScriptedPawn...)
+
+<P>
+<HR>
+<P>
+<A HREF="index.html">Return to the Table of Contents</A>
+
+</BODY>
+</HTML>

@@ -1,0 +1,56 @@
+_____________________________________________________
+title:            JB-Baras
+map title:	  Baras Castle Underground
+file:             JB-Baras.zip
+author:           Swanky
+email address:    ch.ahlborn@t-online.de or chunky@surfeu.de
+homepage:	  n/a
+         
+   
+_____________________________________________________
+play information
+
+Bots:             yes
+new sounds:       no
+new graphics:     some edited textures made by McClane
+new music:        no
+
+how to play       just place JB-Baras.unr in your UT-Maps dir    
+                                                            
+_____________________________________________________
+construction
+
+base:           from the scratch, theme idea by McClane & Hourences
+editor:         unreal ed 2.0
+other progs:    none              
+known bugs:     none
+build time:     about 3 days + bug killing
+
+_____________________________________________________
+misc
+This map is nothing too special, just made it for fast matches wicht 6 or 8 players
+
+______________________________________________________
+thanx to ...
+
+McClane (for cool texture edits I took from JB-Basmma, theme idea)
+Hourences (theme idea)
+un3x (first impression thoughts)
+...and to all I have forgotten...
+
+_____________________________________________________
+Distribution / Copyright / Permissions 
+
+Copyright (c) 2004 Christian "Swanky" Ahlborn	Ch.Ahlborn@T-Online.de   
+All rights reserved.
+
+Unreal tournament is a registered trademark of 
+Epic Megagames and Digital Extremes
+
+This level may be electronically distributed only at 
+NO CHARGE to the recipient in its current state, MUST 
+include this .txt file, and may NOT be modified IN 
+ANY WAY. UNDER NO CIRCUMSTANCES IS THIS LEVEL TO BE 
+DISTRIBUTED ON CD-ROM WITHOUT PRIOR WRITTEN PERMISSION.
+
+_____________________________________________________

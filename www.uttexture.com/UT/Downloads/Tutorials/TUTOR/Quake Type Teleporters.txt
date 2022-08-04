@@ -1,0 +1,61 @@
+ "Quake 2" style Teleporters
+
+By: Millennium 2002
+
+Millennium 2002
+
+Dated: 28/11/98 
+
+Download: Download Map - 15K
+
+Click here for a printable version of this Tutorial.
+
+Teleporters
+
+I was recently asked how to create the famous "Quake 2" style Teleporters.
+
+
+
+Fair enough. It's easy here is how you can do it. I will not go into detail here on how to create the shapes of teleporters, or how to create the texture that I have used here, but only deal with the Real Fun stuff. If you really want to know, I used a simply cone for the basic shape, the floor lofter for the base, and the "fire Engine" for the texture. there, that's about as detailed as that's going to get. The good stuff follows.
+
+You will need a really basic understanding of the editor here, as it's so damned simple =) First make two rooms. Do noconnect them in any way. Make sure that they are separated from each other completely. I have made these rooms 256x512x768 but's it completely up to you. I have made the two room to look completely different, but once again, tah's up to you. It might be a good idea to try to make a teleporter series that sends the player to places that seem identical just to be really confusing, but that's another story...
+
+Locate the place in the 3D voew where you want the first teleporter to go, and open the "Classes" menu. Open the "Navpoint" subclass, then choose "Teleporter" (Coincedence? I think not... ;-). Now you most likely be automatically moved to the "favorite" thing, but select the normal teleporter again, and place it in the the 3D view where you want it to go. This will be the first teleporter that your player sees. Well, actually if you are placing these into your level (and not making a little tutorial level then it makes no difference, otherwise it will be the first one that the player sees). Ok, That done, open the advanced properties of the teleporter (right click on the icon) and select the "Event" tag. name it "One" under Tag. This will name the teleporter for other teleporters to link to.
+
+
+
+Ok, that was easy wasn't it? Now go to the place where you will have your second teleporter and place it in, just like you did the first. This will be where the first teleporter sends the player when they walk through it. Now, in the "Event>Tag" entry, type in "Two". Sheit, I am so damned creative with names for teleporters eh? Hehee. This time, when you have entered the tag (the name of the teleporter) also open the "Teleporter" menu from the bottom. Right at the bottom there is a entry names URL. This has got nothing to do with the net, but actually refers to the teleporter that the player will be sent to from this one. In the feild type in "One".
+
+
+
+Now, go back to your first teleporter and in the same field (the URL entry under Teleporter) and enter "Two" as the URL. This will create a simple loop between the two. When the player walks into one, they will be sent to the other.This is the most basic of teleporters. Ie, one send to the other, and vise-versa. It will let you make nice teleporters. The following will explain some of the more complicated things (although still quite easy) that you can do with teleporters.
+
+Pathed Teleporters : I don't know what to call them, so I made up that name, but this will simply make a chain of teleporters, rather then just having the two that send the player back and forth. To make a "line" of teleporters, all you will have to do, is to create a third (or fourth or fifth etc etc) teleporter, and change the URL corresponding to the teleporter that you want it to go to.This will then send the player to a different location if they try to "weasel out" and go back to where they came from. Nice if you have a particularily nasty monster near a teleporter, and the player tries to flee back to where they just came from. Nice to send them to a dark place that has yet another monster there. ( I think that I am too nasty sometimes.... Oh Well. Sue me =)
+
+Single Destination Teleporters : You can make a whole heap of teleporters all have the same destination. All you have to do is to change their respective URL's to the same tag of a teleporter. This is a good idea to do, if you want a series of "one way" teleporters. This will allow you to have a teleporter go to another, and then send the player to a destination if they try to run back through the teleporter that they just came through. A nice deadly trap comes to mind...
+
+One Way Teleporters : This is really simple. All you have to do, is to make the teleporter's URL entry blank. This way a player will not be able to run away from whatever you have in the new part of your level.
+
+See I told you it was really easy. That's all that I can think of to place into the tutorial right now, but if you have further questions then email me.
+ 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

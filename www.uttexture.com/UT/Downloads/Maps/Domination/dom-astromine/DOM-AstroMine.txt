@@ -1,0 +1,49 @@
+<<< Unreal Tournament Map >>>								   DW001
+=================================================================================================
+-= Level Info =-
+
+Level Title:		Astro Mine
+Author:			DanW
+File Name:		DOM-AstroMine
+Version:		1
+Game Type:		Domination
+Number of Players:	6-10 (more players for more than two teams?)
+Max. Number of Players:	16 (any more than this and players are killed when they first spawn)
+Map Construction Time:	About 60 hours including testing
+Date Submitted:		13th April 2001
+Authors E-Mail:		danielwhiter@yahoo.com
+
+The Story So Far:
+----------------
+After the Human-Skarji wars, Liandri accquired a Skarji mine built into an asteroid. 
+This asteroid was brought into an Earth orbit and was given gravity similar to that of Earths, 
+along with a decent atmosphere. It is now used as a domination tournament arena.
+
+The Control Points:
+-------------------
+Crane room:	This is in a corner of the room where trains are loaded/unloaded by cranes.
+Storage:	This is in the main store room, with all the large metal crates.
+Control:	This is in the mines control room, which houses most of the mines system 
+		controls and display panels etc.
+Landing Pad:	This is in the centre of the landing pad where spaceships land and take off from.
+		It is built into a natural crater on the asteroid and can be seen from a window
+		in the control room.
+
+Secrets:
+--------
+One, gives player damage amplifier. Unknown to bots.
+
+How to play:
+------------
+Copy file "DOM-AstroMine.unr" to your unrealtournament/maps directory and then the map should
+appear on the domination map list of the "Start Practice Session" window.
+
+Known Problems:
+---------------
+I don't think there are any, but I am having problems with my graphics card at the moment so the
+lighting is probably all wrong and I just don't know about it.
+
+=================================================================================================
+
+Note to Reviewers:
+This is my first ever map, so please give me some useful teaching points. Thanks.

@@ -1,0 +1,48 @@
+//////////////////////////////////////////////////////////
+Title                   : Base
+Version                 : 1.0
+Release Date            : 20/3/2003
+Filename                : AS-Base.unr
+Author(s)               : Don Wefrt
+Email Address           : jan.frydrysek@centrum.cz
+
+Other levels by author  :
+UT:
+DM-Peacemaker
+DM-Eternity2e
+ 
+//////////////////////////////////////////////////////////
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Base
+Single Player           : No
+Cooperative             : No
+Assault                 : 6-16 players
+Dark Match              : No
+New Sounds              : No
+New Textures            : No
+NewUnrealScript         : No
+Known bugs              :  
+
+--- Construction ---
+Editor(s) used          : UnrealED2
+Base                    : New Level
+//////////////////////////////////////////////////////////
+
+Installation
+------------
+Place DM-Eternity2e.unr in the UnrealTournament/Maps folder.
+
+//////////////////////////////////////////////////////////
+
+UNREAL ©1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+
+UNREAL TOURNAMENT ©1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL TOURNAMENT and the UNREAL TOURNAMENT 
+logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+
+//////////////////////////////////////////////////////////

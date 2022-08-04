@@ -1,0 +1,190 @@
+DOM-4Fort
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: DOM-4Fort
+
+Filename: dom-4fort.zip
+
+Author: Jakey
+
+eMail Address: zergspooge@hotmail.com
+
+Website URL: http://www.crosswinds.net/~jakeyo3/nox.html
+
+Release Date: Thursday, August 04, 2001
+
+Last Update: Thursday, August 04, 2001
+
+Version: 1.03 (BOTS! YEAH! & a little cosmetic work, removed big poly mountain and replaced with simpler mountain, lowering poly count. fixed bug on fort ramps which prevent you from getting to the control point.)
+
+Credits: Me, Myself, but not }{im
+
+Other levels by author: CTF-TombsofTsunTsunae v1.01 (fixes missing file error)
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Elevator buttons can be operated by certain weapons. these include translocator, biosludge, pulse gun, ripper, flak, and rocket launcher.
+
+Game: Unreal Tournament
+
+Level Name: DOM-4Fort
+
+Game Type: UTDomination
+
+Botmatch: yes!
+
+Single Player: sure
+
+Teamplay: Yes
+
+Difficulty Settings: No
+
+New Textures: Yes
+
+New Sounds: No
+
+New Music: No
+
+New Mutators: No
+
+Mods: No
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: Made from Scratch
+
+Build Time: About a week (add another for tinker time)
+
+Recommended # of Players: 8-32
+
+Editor(s) Used: UnrealEd, TerraEdit
+
+Known Bugs: None thusfar
+
+====================================================================================
+
+Inventory
+
+---------
+
+Weapons: Flak Cannon, Ripper, Sniper Rifle, Pulse Blaster, Redeemer, GES Bio Rifle,
+Minigun, ASMD Shock Rifle, Rocket Launcher
+
+Armor and PowerUps: Translocator, Health Packs, Shield Belt, Keg O' Health
+
+====================================================================================
+
+Mods
+
+----
+
+====================================================================================
+
+Installation
+
+------------
+
+Unzip dom-4fort.zip
+
+Store the *.unr file in your Unreal Tournament/Maps directory along with the others
+(see guide below), then either doubleclick on it, or type
+
+open DOM-4Fort
+
+in the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+
+*.unr files go in Maps/
+
+*.utx files go in Textures/
+
+*.umx files go in Music/
+
+*.uax files go in Sounds/
+
+*.u and *.int files go in System/
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+In the secluded mountains of Harbrhar 69, an ancient fort complex composed of 4
+different forts was used as a military training base... but not anymore. Greedy
+Corporate bastard Liandri stole the land away by hiring a hitman to take out the
+current title owner of this land. Liandri made his own improvements to the site,
+including a mountain, tons of sniper posts, underground tunnels which connect to
+each other... and of corse our favorite lava pit!
+
+====================================================================================
+
+Author's Notes
+
+--------------
+
+- Watch out, the top of the mountain is slippery, guard rails have been placed but
+construction wasn't the greatest, nor completed. It can make for a good sniper post
+however. 
+
+- Lava is hot... Not good. 
+
+- Heh heh, you will never find the hidden health keg without cheating! (or spying on
+someone who saw me open it) 
+
+- Redeemer good, napster bad! er wait a minute...
+
+- Game is best played with full bot/player load and a high point goal (ie 300 or so, i use 500).
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+This level is copyright 2001, by Jakey
+
+Authors may use this level as a base to build additional levels without explicit
+permission from me, i would be quite flattered if you considered my work worthy of
+use, but if you do use my work, please add me to the credits, mmkay? :)
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================
+
+====================================================================================
+
+ReadMe Template generated by UTReadMeTemplate.cgi
+
+created by Fuzzbuster{G3} <fuzzbuster@planetunreal.com> for NaliCity
+
+Please e-mail me any suggestions or improvements you may have.. my ears are open
+
+Store this file in '/UnrealTournament/Help/' for best results. 
+

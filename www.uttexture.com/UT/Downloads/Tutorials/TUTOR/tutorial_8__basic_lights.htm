@@ -1,0 +1,220 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+
+<title>Tutorial #8 - Basic Lights</title>
+<meta name="Microsoft Theme" content="none"><meta name="Microsoft Border" content="none"></head>
+
+<body bgcolor="#000000" text="#00FF00" link="#FFFF00" vlink="#00FFFF" alink="#FFFFFF">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><table border="0" width="100%">
+      <tr>
+        <td width="33%"><strong><font face="Verdana"><small>Tutorial #8: Basic Lights</small><br>
+        <a href="http://www.creativecarnage.com/unreal/tutorial8.unr"><small><small><small>(click
+        to download .UNR)</small></small></small></a></font></strong></td>
+        <td width="33%" align="center"><a href="mailto:mrsin@creativecarnage.com"><strong><small><font face="Verdana">Author: Dr. SiN</font></small></strong></a></td>
+        <td width="34%" align="right"><strong><small><font face="Verdana">Last Updated: May 26th</font></small></strong></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><font face="Verdana"><font color="#0000FF"><u><b><font size="6">Unreal
+    Tutorial #8<br>
+    </font></b></u>Basic Lights (and how to use the Translator)</font><b><p><font color="#FF0000">Introduction:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    </font><p><font face="Verdana" size="2">This tutorial will introduce you to lighting in
+    Unreal.&nbsp; At this level, I will not go in to details on how to properly light a level.
+    &nbsp; This tutorial is simply to lay out what the different light effects are and what
+    the different fields do.&nbsp; Of course I'll also explain how to do a lighting flare and
+    corona and I'll also briefly cover how make the Translator display a message (it's so
+    simple).</font></p>
+    <p><font color="#FF0000" face="Verdana"><b>The Light Properties</b></font></p>
+    <p><font face="Verdana" size="2">All lights in Unreal have a similar set of properties.
+    &nbsp; To view the properties, highlight a light, right click on it and select Light
+    Properties.&nbsp; You will see a menu like this (only not expanded).</font></p>
+    <table border="0" width="100%">
+      <tr>
+        <td width="50%"><img src="8-1.jpg" alt="8-1.jpg (59171 bytes)" WIDTH="348" HEIGHT="767"></td>
+        <td width="50%" valign="top"><small><font face="Verdana">With lights, there are really
+        only 4 fields you need to be concerned with.&nbsp; They are Advance, Light Color, Lighting
+        (all show open here) and Display (which is only used for Lens Flare/corona).</font></small><p><small><font face="Verdana">Your basic light is most concerned with the all of LightColor and the
+        LightRadius field under Lighting.&nbsp; Let's look at them in a bit more detail.</font></small></p>
+        <p><small><font face="Verdana">LightBrightness:&nbsp; This is how physically bright the
+        original light source.&nbsp; </font></small></p>
+        <p><small><font face="Verdana">LightHue: This is the color the light will take on.</font></small></p>
+        <p><small><font face="Verdana">LightSaturation: This is how much hue will be used.
+        &nbsp; Lights default to 255 which is all white.&nbsp; To get colored lights, reduce the
+        LightSaturation.</font></small></p>
+        <p><small><font face="Verdana">LightRadius: This is how far out the sphere of light
+        extends.&nbsp; </font></small></p>
+        <p><small><font face="Verdana">These are the only values you need to be concerned with
+        when placing a lightsource in your map.&nbsp; While editing, you can press<font color="#FFFFFF"> P</font> in your 3D view and lights will update in real time as you
+        adjust them (of course you may still have to rebuild).</font></small></p>
+        <p><small><font face="Verdana">The next two fields of importance are LightEffect and
+        LightType.&nbsp; These modify how the light looks in the game.&nbsp; Effects like
+        blinking.. water shimmer, etc are all handled by these fields.&nbsp; There are 18 Light
+        Effects (and I under stand all but 2 of them).&nbsp; There are 8 lighting types.</font></small></p>
+        <p><small><font face="Verdana">ok.. let's dive in and see what different types of lighting
+        effects we can make...</font></small></td>
+      </tr>
+    </table>
+    <p><font color="#FF0000" face="Verdana"><b>The Effects:</b></font></p>
+    <p><font face="Verdana" size="2">As I stated above, there are 18 different lighting
+    effects.&nbsp; Most of them are preaty straight forward.&nbsp; Let's talk about them and
+    what settings they use.</font></p>
+    <p><font face="Verdana" size="2">GROUP 1: All of the effects in group one only use the
+    LightRadius setting.&nbsp; This setting is used to define the sphere where the light will
+    take effect.&nbsp; The larger the radius, the father the light travels.</font></p>
+    <table border="0" width="100%" height="476">
+      <tr>
+        <td width="5%" height="22" align="center"><font face="Verdana" size="2"></font></td>
+        <td width="25%" bgcolor="#C0C0C0" height="22" align="center"><font face="Verdana" size="2" color="#000000">Effect</font></td>
+        <td width="5%" height="22" align="center"><font face="Verdana" size="2"></font></td>
+        <td width="60%" bgcolor="#C0C0C0" height="22" align="center"><font face="Verdana" size="2" color="#000000">Description</font></td>
+        <td width="5%" height="22" align="center"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Disco</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">This causes a
+        disc dance floor type of lighting.&nbsp; It's very cool.</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Cylinder</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">At this time,
+        this is unkown</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Warp</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">This is a weird
+        effect who's use isn't clear yet.&nbsp; It seems to distort light on a given wall.</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Incadecent</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">Looks like an
+        Incadecent light bulb is lighting the area.</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Interference</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">Looks like
+        something is interfering with the light.</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Torch Wave</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">A very faint
+        flicker.&nbsp; I guess it's meant to be used with torches. </font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Fire Wave</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">A More more
+        defined flicker.&nbsp; Very nice with large fires.</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Water Shimmer</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">Looks like you
+        are in a room that is lit by light refelecting off of water.</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Slow Wave</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">Just a pulsing
+        light that comes in waves.</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Fast Wave</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">Just a pulsing
+        light the comes in waves, only faster</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+      <tr>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="25%" height="21" align="center"><font face="Verdana" size="2">Cloud Cast</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+        <td width="60%" height="21" align="center"><font face="Verdana" size="2">Adjusts light to
+        look like a cloudy day??</font></td>
+        <td width="5%" height="21"><font face="Verdana" size="2"></font></td>
+      </tr>
+    </table>
+    <font FACE="Verdana"><b><p><font color="#FF0000">&nbsp;</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>The purpose of 2 of the remaining lights dumbfounds me.&nbsp; These are Shell and
+    Roter.&nbsp; In both of these lights, the LightRadius seems to effect the way the light is
+    displayed.. but I have no idea where you would use them.</p>
+    <p>The Spotlights (normal and static) are great for making sure light gets on a given
+    object.&nbsp; Both of the spotlights need the <font color="#FFFFFF">bDirectional field</font>
+    (under advance) set.&nbsp; This allows you to point the light in a given direction by
+    rotating it.</p>
+    <p>The Search Light effect is a great effect.&nbsp; Someone really needs to do a prison
+    level.&nbsp; This light works alot like the spotlights (only without the cone control and
+    direction).&nbsp; The LightPeriod field adjusts how fast the light makes a 360 degree
+    sweep.</p>
+    <p></font><font color="#FF0000" face="Verdana"><b>Types of Lights:</b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>There are 8 different types of lights.&nbsp; The last two (Texture Palette xxx) are
+    unkowns to me.&nbsp; Most of the effects are staight forward (hey.. what does flicker
+    mean) and require no settings.&nbsp; The only two light types that require manual settings
+    are Pluse and Subtle Pulse.&nbsp; Both of these types use the LightPeriod field to
+    determine how fast they go from being bright to being dim.</p>
+    <p></font><font color="#FF0000" face="Verdana"><b>Adding a Corona to a Light:</b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>Simple.. switch on the bCorona field under Lighting.&nbsp; You can use the Scale
+    setting under Display to adjust how big the corona is.</p>
+    <p></font><b><font face="Verdana" size="3" color="#FF0000">Adding Lens Flare</font><font FACE="Verdana" size="3"><font color="#FF0000">:</font></b></p>
+    <p></font><font FACE="Verdana" SIZE="2">Adding Lens Flare to a light is also simple.
+    &nbsp; Unfortunately the obivious method does not work (setting bLensFlare to true), but
+    it is simple all the same.&nbsp; The first thing you need to do is add a corona.
+    &nbsp; Then, go to the browser and load in the GENFX graphics.&nbsp; Find the FLARExx
+    tiles.&nbsp; Now, in the properties under display find the skin field.&nbsp; Click on the
+    set button and you now have a lens flare.</p>
+    <p></font><font face="Verdana" size="3" color="#FF0000"><b>Making the Translator Sing:</b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>This part is so simple.&nbsp; First off.. remember to actually GIVE the player a
+    translator in the game.&nbsp; If they don't have one.. they can't see your messages.
+    &nbsp; Next, Add a translator trigger to your map.&nbsp; Go to the browser, select
+    classes, find triggers, select TranslatorTrigger.&nbsp; Once it's in your map, edit the
+    properties and set the message to what you want it to say.&nbsp; It's that simple.
+    &nbsp; I'll deal with the other functions of the translator.</p>
+    <p></font><font face="Verdana" size="3" color="#FF0000"><b>The Sample Map:</b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>I've created a cool sample map to go with this tutorial.&nbsp; It's basically a bunch
+    of rooms with all the different lights.&nbsp; Enough said!</p>
+    <p></font><font color="#FF0000" FACE="Verdana" size="3"><b>CONTACTING ME:</b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>If you need more help or have some ideas, information, etc, you can reach me at </font><a HREF="mailto:mrsin@creativecarnage.com"><font SIZE="2">mrsin@creativecarnage.com</font></a><font FACE="Verdana" SIZE="2">. I can also be found on #UnrealED on EFNET irc.</font><font FACE="Verdana"><b></p>
+    <p><font color="#FF0000">CREDITS:</font></b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>There are a bunch of us working on figuring everything out. Some of this information
+    was discovered by the many people on #unrealED including MegaHertz, Freakscne and Orion.</font></td>
+  </tr>
+</table>
+</body>
+</html>

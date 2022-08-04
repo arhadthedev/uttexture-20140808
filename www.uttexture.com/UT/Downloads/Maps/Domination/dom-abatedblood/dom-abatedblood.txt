@@ -1,0 +1,41 @@
+Title                     : Abated Blood
+Filename                  : DOM-AbatedBlood
+Author                    : Maz
+Email Address             : mz44@hotmail.com
+Player load			  : 6-10 (8 recommended)	                                                    
+                                                                                                                     
+
+                                                                                                                
+Additional Notes: 
+
+I recommend binding a key for the translocator within quick reach.
+
+Try playing with three teams with two on each (in case you're a little slow, that's six players)
+==================================
+--- Play Information---
+
+Game                      : Unreal Tournament
+Domination                : Yes 4 control points
+Single Player             : No
+Deathmatch                : No
+New Sounds/music          : No
+New Graphics              : No
+Known Bugs                : None 
+
+
+Construction Time         : around 100 hrs
+                          
+
+
+Copyright / Permissions
+
+***Again, thanks to Titan for generate a screen shot far better than my porgrams would allow.***
+
+-----------------------
+This level is copyrighted by Maz 2000
+
+Authors may not use this level as a base to build additional levels.
+
+You are allowed to commercially put this map on a CD or any other 
+electronic medium that is sold for money if you e-mail me and tell me
+that you are doing so.

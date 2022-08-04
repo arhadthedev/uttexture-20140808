@@ -1,0 +1,95 @@
+>>>>>AS-Space<<<<<
+<<<<PLEASE READ THE WARNING BELOW IN THE INSTALL SECTION ITS VERY IMPORTANT>>
+<<<<UPDATE>>>...NEVER EVEN RELEASED IT AND NOW I,M UPDATEING..DAMN THIS IS HARD WORK
+
+
+Title                   : Space (AS)
+Version                 : 1.0
+Release Date            : 1 april, 2000
+Filename                : AS-Space
+Author                  : TaroT (Mark Benton)
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             : you have landed in a enemy ship,you must fight your way out
+destroying supplies and personel as you go...to get to there ship to escape
+
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Domination
+Level Name              : AS-Alcatraz
+Player #'s		: 4 to 10 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : NO
+Difficulty Settings     : No
+New Sounds              : yes/music
+New Graphics            : yes.
+Known bugs              : none to date
+
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.13
+Base                    : New level
+Construction Time       : 2 weeks...bot pathing and assualt targets are th damn hardest thing.
+
+
+                           
+
+
+>>>Installation<<<
+Unzip AS-space.unr in your Unreal Tournament/maps directory.
+unzip psrush.umx in the music folder
+unzip tarot88.utx in the textures folder
+unzip sscoldsteel.utx to textures
+
+<<<<<<VERY IMPORTANT NOTE-IF YOU HAVE THE ASSAULT MAP COLDSTEEL
+DO NOT REPEAT DO NOT EXTRACT SSCOLDTEEL TO TEXTURES AS THIS IS A CUT DOWN
+VERSION AND YOU OTHER GAME WIL NOT WORK...THIS IS MY FAULT BECAUSE I,M AN IDIOT
+BUT I SUGGEST YOU GET COLDSTEEL AS ITS A DAMN FINE MAP :)>>>>>
+
+>>>Author's Notes<<<
+This is my 3rd try at an assault map...i finally go he hang of screenshots and adding textures
+you,ll probably notice a few ripped of quake3 textures :)might as well put them to good use hehe
+the map isnt overly hard but with a lot of peole can take awhile.very open areas for a big bloodfest
+the tricky bit is to get throught he teleporter without fragin each other :)its hard but i like it that way
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+Dom Doorway
+DOM-Disco
+DOM-officeworks
+AS-officeworks
+AS-Alcatraz
+
+plus numerous ports from unreal and tournie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+TaroT(aka mark benton)
+april 1, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

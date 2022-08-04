@@ -1,0 +1,24 @@
+                           
+                           DOM-MASTODONTICO
+
+
+Title : Mastodontico
+Filename: DOM-Mastodontico.zip
+Description: Domination map for UT
+Author: Alex "Alucard" D. G.
+E-Mail: Aledor@hotmail.com
+
+
+ -INSTALLATION:-
+1) Put DOM-Mastodontico.unr into your UT/maps directory.
+2) Put quake3b.utx into your UT/textures directory.
+3) Start up UT.  Start a practice session in Domination mode.
+
+
+ -Play Information-
+
+Deathmatch  : No
+Domination  : Yes!!
+CTF         : No
+Assault     : No
+Recommended Players: 10-16

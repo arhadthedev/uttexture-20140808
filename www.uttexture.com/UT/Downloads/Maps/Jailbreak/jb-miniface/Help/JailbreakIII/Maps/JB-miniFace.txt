@@ -1,0 +1,72 @@
+================================================================
+Title: miniFace
+Version: 1.0
+Release Date: 8 AUG 02
+Filename: JB-miniFace.unr
+Author: WillySurvive aka Jim Nobles (Willy)
+Email Address: jnobles@citlink.net
+Content: JB-miniFace.txt, JB-miniFace.unr and onefinalhit.umx
+
+===============================================================
+--- Play Information ---
+Game: Unreal Tournament
+Level Name: JB-miniFace
+Single Player: Yes (vs. bots)
+Cooperative: no
+Assault: no
+Domination: no
+Dark Match: No
+Capture the flag: no
+Jaibreak: yes
+Difficulty Settings: No
+New Sounds: yes (music)
+New Graphics: Yes
+New Models: no
+Known bugs: No bugs.
+
+This map uses the SCREEN component.  See http://www.planetunreal.com/screen/
+for details.  You MUST have SCREEN installed for this map to run.  If you have played
+Jailbreak then you probably already have SCREENs installed as many Jailbreak maps
+use them.
+
+--- Construction ---
+Editor(s) used: UnrealEd
+Base: New level
+Construction Time: 10899839652664 hours
+
+Version History
+----------------
+1.0 Initial release
+
+Installation
+------------
+Unzip "JB-miniFace.zip".  Place the .unr file into the MAPS folder
+and "onefinalhit.umx" file in the Music folder.
+
+Author's Notes
+--------------
+Please feel free to send any and all feedback, raves, complaints, or
+awesome  screenshots to jnobles@citlink.net
+
+Copyright / Permissions
+-----------------------
+This release is copyright 2002 by Jim Nobles
+Authors may NOT use this level as a base to build additional levels without asking first.
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.  You may NOT in any way make money off this map unless you contact me first
+and I get a cut. :-)
+
+Thank You
+-----------------------
+Much Thanks to everyone in the Jailbreak (www.planetjailbreak.com) forums and on IRC channel
+#utjb on enterthegame for the help they gave me.  Special thanks to Mychaeel for his 
+SCREEN component.  See http://www.planetunreal.com/screen/ for details.  Special thanks
+to Riot for the music track.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.

@@ -1,0 +1,101 @@
+================================================================
+Title                   :DOM-ModStation5
+Version                 :2.4 (updated and corrected)
+Release Date            :1/6/2000
+Files	                :DOM-ModStation5.UNR
+Unreal Type:		:Unreal Tournament
+Author(s)               :Jennifer Diane Reitz
+Email Address           :lupa@otakuworld.com
+Web Page                :http://Otakuworld.com
+Description             :My Anime and Manga site
+
+Where to get this map   :www.planetunreal.com/nalicity
+			 http://kokorowish.com/Unreal.html (my secret site)
+Other levels by author  :DM-Escherland][, CTF-SpacePirates, 
+			 DOM-Alofmethbin, CTF-Atari2600
+
+================================================================
+--- Play Information ---
+Game                    :Unreal Tournament
+Level Name              :Mod Station Five
+Single Player           :Bots will do moderately well with this one.
+Cooperative             :Definately
+New Sounds              :None
+New Graphics            :None
+NewUnrealScript         :None
+External DLLs           :None
+Known bugs              :The bots will play, but are slow to make the best decisions. 
+			I have done my very best in pathing them. Please forgive any 
+			inadaquacy on my part. It does make a good level for human players!
+
+--- Construction ---
+Editor(s) used          :Unreal Tournament version UnrealEd
+Construction Time       :Roughly two weeks.
+Art Programs used	:None 
+
+
+
+Installation
+--------------------------------------------------------------------------------------
+Put DOM-ModStation5.UNR in your Unreal Tournament/maps directory
+
+
+
+
+Extended description:
+--------------------------------------
+The year is 1969. It's the 'Future That Was' aboard the Super Ultra Groovy "MOD
+Station Five", the swinginest place in Near Earth Orbit! Only...something has
+gone wrong and very un-60's mayhem ensues!
+
+This is an effort to create the rounded, curving, sterile white with primary colors
+world of cheesy 60's Sci-Fi and Spy-Fi motion pictures. High budgets but silly design
+made for wasted space, but cool curves and flowing shapes. If you have seen a 60's French
+or Italian space movie, you will be at home in Mod Station Five!
+
+
+
+Author's Notes
+--------------
+This is my first attempt Domination map. I tried to create an unusual
+environment, with some unusual physics and strategies. There are many special features 
+about this map, such as air ducts to crawl through! 
+
+The great amount of curvature should be noted, as it is rare in Unreal maps, and the 
+careful use of color, light, and space. There are wide open regions mixed with narrow,
+claustophobic tunnels. There are areas of differing gravity, and some very unusual
+views.
+
+I have tried also to make the layout of the space station follow some sense of order,
+though in a wacky 60's kind of way. Many people make space station levels, and always
+they are dark, brooding, and moody places. Deep shadows and almost gothic design.
+This map is an attempt to show a whole new kind of feeling is possible within
+Unreal Tournament.
+
+The unusual colors are all within Unreal Tournament, no new textures were created! Instead
+I made the point of using graphics nobody ever uses to build levels with, and painted them 
+in many ways to acheive the pastel and primary look of the station.
+
+I hope that you will find this level great fun, and that it will succeed in feeling just
+like a cheesy 60's space movie!
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Jennifer Diane Reitz, 1999.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

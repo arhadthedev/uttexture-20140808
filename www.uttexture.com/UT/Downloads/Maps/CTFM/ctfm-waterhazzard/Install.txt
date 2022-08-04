@@ -1,0 +1,4 @@
+Put CTFM-WaterHaZZard.unr in the /maps dir.
+Put Crymine.utx in the /texture dir.
+If you already have CTFM-CrystalPower installed you don't need to 
+install Crymine.utx as it has the same file 

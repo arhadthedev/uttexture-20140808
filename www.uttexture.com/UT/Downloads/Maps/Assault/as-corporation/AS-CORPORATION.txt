@@ -1,0 +1,55 @@
+Unreal Tournament Map
+
+================================================================
+Title                   : Corporation Wars (-Final Version-)
+Filename                : AS-CORPORATION.unr
+Author                  : David R. Lamberson (OSMIUM)
+Email Address           : jsusan1@qwest.net
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Game Type               : ASSAULT
+Single Player           : yes (16 player starts)
+Multiplayer             : yes (16 player starts)
+New Sounds              : no
+New Graphics            : yes
+Known bugs              : None?
+Credits			: Special thanks to my beta testers Ogre, Death Knight, RHODIUM, and OL'ONEYE
+                         
+ 			  
+Other maps by author    : AS-BANKVAULT  AS-FUEDAL  AS-OMAHA
+			: CTF-DREAMS  CTF-RampRage
+			: DOM-GHOSTS
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0 
+Base                    : New Map
+Build Time		: Two weeks for construction, another week for beta testing, detailing and frame rate optimizing...
+
+Information
+------------
+   
+  I wanted to create an Assault with a futuristic setting, futuristic weapons, several objectives, multi size battle areas and of course with all my maps a high body count!  
+  Also to win this map team work is a must, there won't be any heros!
+
+Happy Assaulting OSMIUM...
+
+ 
+
+Installation
+------------
+   Unzip the file AS-CORPORATION.unr into your UnrealTournament\maps directory.
+You can then choose AS-CORPORATION from the "start practice session\ASSAULT" menu.
+Put all utx. files in textures, all uax. files in sounds, all umx. files in music, and all u. files in system...
+
+Copyright/Permission
+------------
+This map was constructed for the enjoyment of my fellow players, if you wish to improve it so be it...OSMIUM
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

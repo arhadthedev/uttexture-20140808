@@ -1,0 +1,68 @@
+===========================================================================================
+                             INFORMAZIONI CNQ-EMINENCE
+===========================================================================================
+--- Informazioni Livello ---
+Titolo         : Eminence
+Descrizione    : Una piccola arena in un ambiente post-futuristico
+Autore         : EDD
+E-Mail         : edd@unrealitalia.com
+               : edd@skaarj.com
+Siti Internet  : http://www.unrealitalia.com/sktown
+               : http://www.skaarj.com
+Ringraziamenti : Major Disaster per i consigli
+
+--- Informazioni di Gioco ---
+Gioco          : Unreal Tournament
+Nome Livello   : Eminence
+Tipo di Gioco  : Conquest
+Giocatori      : 6-8
+Impostazioni   : Necessita il MOD Conquest ( http://www.utworld.net/mdisaster )
+
+--- Informazioni Costruzione ---
+Data inizio    : 26/10/2000  18:00
+Data Fine      : 29/11/2000  17:30
+Programmi Usati: UnrealEd 2.0
+               : Paint Shop Pro 7
+Base           : La base fornita da FlakZone
+Tempo          : Circa un mese
+Bugs           : Non ce ne sono
+Nuove Textures : No
+Nuove Meshes   : No
+Nuovi Suoni    : No
+Nuove Musiche  : No
+
+--- Informazioni Istallazione ---
+Metti  CNQ-Eminence.unr  nella tua cartella "UnrealTournament\Maps"
+
+--- Storia ---
+Ho creato questo livello per l'"Insanity UT Map Contest" organizzato da FlakZone 
+(http://www.flakzone.it). Lo scopo del contest era di realizzare una mappa utilizzando
+come base una particolare stanza vuota proposta dagli organizzatori. Questa mappa, essendo
+creata per il MOD Conquest di Major Disaster, necessita che quest'ultimo sia installato;
+chi non lo avesse lo può scaricare al sito: http://www.utworld.net/mdisaster .
+
+--- Altri Livelli dell'Autore ---
+CtfAncientFlags        - Cattura la bandiera
+DmDangerTunnels        - Deathmatch
+DmVentus               - Deathmatch
+Bunker Island          - Cattura la bandiera
+Ancient Arena          - Deathmatch
+Hell's Towers          - Dominio
+The Last Skaarj Castle - Deathmatch
+Parasite               - Deathmatch
+
+--- Computer Utilizzato ---
+CPU           : Pentium III 667Mhz
+RAM           : 192Mb
+Video-Card    : Matrox G400 32Mb
+Audio-Card    : Opti 933
+
+--- Copyrights ---
+Tutti i diritti di questo livello sono riservati a EDD. Se hai intenzione di modificarlo,
+devi chiedermelo per e-mail. Puoi distribuire come credi questo livello a patto di mantenere 
+l'archivio intatto.
+
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are 
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

@@ -1,0 +1,85 @@
+================================================================
+Title                   : JB-Pooltable
+Version                 : 1.0
+Release Date            : 5-28-01
+Filename                : JB-Pooltable.zip
+Author(s)               : John Egan aka /=-
+Email Address           : john73580@hotmail.com
+Web Page                : None
+Description             : A map half based in my garage half based in my imagination
+Where to get this map   : NaliCity
+Other levels by author  : CTF-Pooltable, JB-Chasm][, JB-Madid
+Additional Credits to   : Daikiki for makeing UTJB such a great mod
+			  Mychaeel for designing screens and helping me install them on my map
+			  DireIce for helping me a little bit with bot pathing
+			  And last, but not least Dave Darendash for supplying me with the 
+			  Poolhall.utx texture set and for 100+ polygon brushes some which I used
+			  to make the balls. Visit his site at http://members.home.com/darendash
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : JB-Pooltable
+Single Player           : Yes
+Cooperative             : Yes
+Deathmatch              : No
+Difficulty Settings     : Adept
+New Sounds              : No
+New Graphics            : Yes
+NewUnrealScript         : No
+UTJB                    : Yes
+Known bugs              : Polys get a bit high. Sorry guys :-(
+
+--- Construction ---
+Editor(s) used          : UnrealEd2.0
+Base                    : CTF-Pooltable
+Construction Time       : Enoguh
+
+Installation
+------------
+Install Screen.umod in your Unreal Tournament directory
+Put Poolhall.utx, pooltable.utx, and JBScreenTexutres, into your UT texture directory
+Make sure you have downloaded UTJB from www.daikiki.com
+
+Extended description:
+--------------------
+This map takes place in my garage. And if you were wondering yes I do have a pool table in my garage. 
+
+Author's Notes
+--------------
+Make sure you have downloaded UTJB from www.daikiki.com
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by John Egan 2001.
+
+Authors may NOT use this level as a base to build additional levels.
+You MAY use the pooltable.utx texture package as long as you email me and show me the map your making
+(I wanna see what kinda maps people use my textures in ;-P)
+You may NOT use Poolhall.utx or JBScreenTextures with out permission from thier authors
+Dave and Mych respectivley.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by 
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT 
+logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names
+are properties of their respective owners. 
+
+UTJB (c) 2001 Daikiki This code is based on code that was originally reverse engineered from the beta5 
+release of the official Jailbreak by Team Reaction and Mongo, as is legal under European law, and 
+was extensively rewritten to represent what is in effect a new product. Subject to European 
+and Dutch law, this release may be distributed in a not-for-profit fashion over the internet
+in its original form with this copyright notice intact. All other uses are subject to explicit
+permission. This software is provided as-is. No warranty is made as to its suitability for 
+any given purpose. All use is at the user's sole risk
+
+Screen (c) 2001 by Mychaeel <mychaeel@0x01.net>

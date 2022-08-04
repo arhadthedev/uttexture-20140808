@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>%Title%</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="Black" text="Silver" link="33cc66" vlink="33cc66">
+<center>
+ <table bgcolor="#000000" width="100%%" cellspacing="4" cellpadding="0" border="0">
+  <tr>
+   <td width="1"><img src="%ImageDir%/1.gif" width=1 height=1 hspace=0 vspace=0></td>
+   <td>
+    <table width="100%%" cellspacing="0" cellpadding="0" border="0">
+     <tr>
+      <td width="194" align="LEFT" valign="TOP">
+       <IMG src="%ImageDir%/1.gif" width="194" height="1" hspace="0" vspace="0" border="0"><BR>
+       <TABLE width="187" cellspacing="0" cellpadding="0" border="0">
+	      <TR>
+	       <TD rowspan="2" colspan="2"><IMG src="%ImageDir%/m1-1.gif" width="19" height="41" hspace="0" vspace="0" border="0"></TD>
+	       <TD width="149" height="29" bgcolor="#3a7c8c"><font face="Verdana, Arial, Helvetica" size="-1" color="#CCCCCC"><b>User Settings</b></font></TD>
+	       <TD rowspan="2" colspan="2"><IMG src="%ImageDir%/m1-2.gif" width="19" height="41" hspace="0" vspace="0" border="0"></TD>
+	      </TR>
+	      <TR>
+	       <TD bgColor=#226474 height=12 width=167><IMG border=0 height=1 hspace=0 src="%ImageDir%/1.gif" width=149></TD>
+	      </TR>
+	      <TR>
+	       <TD bgColor=#3a7c8c width=7><IMG border=0 height=1 hspace=0 src="%ImageDir%/1.gif" width=1></TD>
+	       <TD bgColor=#226474 width=12><IMG border=0 height=1 hspace=0 src="%ImageDir%/1.gif" width=1></TD>
+	       <TD bgColor=#226474 width=149>
+	        <P><FONT color=white face="Verdana, Arial, Helvetica" size=-1>
+	        <B>»</B><A href="%UsersAddURI%" target="main"><B>Add Users</B></A><BR>
+	        <B>»</B><A href="%GroupsAddURI%" target="main"><B>Add Groups</B></A><BR>
+	        <BR>
+	        <B>»</B><A href="%UsersBrowseURI%" target="main"><B>Browse Users</B></A><BR>
+	        <B>»</B><A href="%GroupsBrowseURI%" target="main"><B>Browse Groups</B></A><BR>
+	        <BR>
+	        <B>»</B><A href="%NameSearchURI%" target="main"><B>Search by Name</B></A><BR>
+	        <hr>
+			<B>&nbsp;</B> <b>Help Pages</b><br>
+			<B>»</B> <b><a href="%CLHelpPage%" target="main">Command Line</a></b><br>
+			<B>»</B> <b><a href="%HelpPage%" target="main">SemiWebAdmin</a></b><br>
+	       </TD>
+	       <TD bgColor=#226474 width=12><IMG border=0 height=1 hspace=0 src="%ImageDir%/1.gif" width=1></TD>
+	       <TD bgColor=#3a7c8c width=7><IMG border=0 height=1 hspace=0 src="%ImageDir%/1.gif" width=1></TD>
+	      </TR>
+	      <TR>
+	       <TD rowspan="2" colspan="2"><IMG src="%ImageDir%/m3-1.gif" width="19" height="20" hspace="0" vspace="0" border="0"></TD>
+	       <TD width="149" height="12" bgcolor="#226474"><IMG src="%ImageDir%/1.gif" width="149" height="1" hspace="0" vspace="0" border="0"></TD>
+	       <TD rowspan="2" colspan="2"><IMG src="%ImageDir%/m3-2.gif" width="19" height="20" hspace="0" vspace="0" border="0"></TD>
+	      </TR>
+	      <TR>
+	       <TD height="8" bgcolor="#3a7c8c"><IMG src="%ImageDir%/1.gif" width="149" height="1" hspace="0" vspace="0" border="0"></TD>
+	      </TR>
+       </TABLE>
+      </td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+ </table>
+</CENTER>
+</body>
+</html>

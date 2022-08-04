@@ -1,0 +1,65 @@
+                   
+AS-WhatAreYouDoingHere
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+File                : AS-WhatAreYouDoingHere.unr
+Author              : Killer ('em all)
+Email               : keaukraine@hotmail.ru
+Released            : 08.06.2003
+Country             : Ukraine
+Credits             : My brother Diamond for playtesting the map with me on the LAN
+Other Maps by Author: AS-Desert][,CTF-GanimedAnomaly
+
+
+Play Info
+~~~~~~~~~~~~~~~~
+Single Player (Botmatch): Yes    
+Cooperative             : Yes    
+Deathmatch              : No
+Capture The Flag        : No
+Assault                 : Yes
+Domination              : No
+Difficulty Settings     : Only for bots and turrets
+Known Problems          : Yes, sometimes you can see the part of label 'Exit' can disappear.
+                        : Bots can't completely and safely defend the base (They are too slow
+                        : changing their defend points).
+                        : Polys count is high (about 400) looking from the tower.
+New Sounds              : No
+New Graphics & Textures : Yes
+
+
+Play Info
+~~~~~~~~~~~~~~~~
+Editor used         : UnrealEd 2.0
+Build Time          : about 1 week
+
+
+Installation
+~~~~~~~~~~~~~~~~
+Place files to appointed directories:
+*.unr files go in Maps/
+*.utx files go in Textures/
+*.umx files go in Music/
+*.uax files go in Sounds/
+*.u and *.int files go in System/
+
+
+Author's Notes
+~~~~~~~~~~~~~~~~
+I DON'T make myself vehicles on this map. I've found it on some German site which I can't recollect.
+
+This map is not too big and hard to assault. There are only 4 objectives you need to complete.
+I also used some new trees I taken from my UT\System directory (but I have a mod ThieveryUT which
+uses it too).
+ 
+Copyright/Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You may distribute this map via electronic means, providing that it is done so free
+of charge and that this text file is also included unchanged.
+
+You may not include or distribute this map in any sort of commercial or non-comercial
+product without permission from the author.  You may not mass distribute this level
+via any non-electronic means, including but not limited to compact disks, and floppy disks.
+This map may not be used, in whole or in part, as the basis of another map, without the
+author's permission.
+
+All other trademarks acknowledged.

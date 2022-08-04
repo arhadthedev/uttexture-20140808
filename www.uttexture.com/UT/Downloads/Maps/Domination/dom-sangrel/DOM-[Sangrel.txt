@@ -1,0 +1,49 @@
+================================================================
+Title                   : Sangrel
+Version                 : 1
+Release Date            : --
+Filename                : DOM-[Sangrel.unr
+Author(s)               : Wolf
+Email Address           : The_Wolf@prodigy.net
+Web Page                : www.unreality.org/utmp
+Description             : 
+Other levels by author  : 
+Additional Credits to   : 
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Sangrel
+Single Player           : No
+Cooperative             : DOM
+Deathmatch              : No
+Dark Match              : No
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : N/A
+NewUnrealScript         : N/A
+External DLLs           : N/A
+Known bugs              : 
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Base                    : None
+Construction Time       : --
+
+
+Installation
+------------
+Place .unr and .txt in the UnrealTournament/Maps folder.
+Place .utx in the UnrealTournament/Textures folder.
+Place .u in the UnrealTournament/System folder.
+
+Copyright / Permissions
+-----------------------
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.

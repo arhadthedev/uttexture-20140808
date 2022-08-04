@@ -1,0 +1,51 @@
+Unreal Tournament Map
+
+================================================================
+Title                   : Dom-Mummy
+Version			: 1.00
+Filename                : DOM-Mummy.zip
+Author                  : Mortan (headshot) Lestaria + Marton Xerxuon
+Email Address           : majin.mortan@zonnet.nl
+
+================================================================
+--- Play Information ---
+play on                 : Unreal Tournament 99 DOMINATION.
+                                 
+Capture the flag        : NO
+Deathmatch              : Yes (change name to DM-Mummy)
+Domination              : Yes 
+assault                 : No
+Botmatch                : yes 4-10 total competitors recommended
+Multiplayer             : yes 
+New Sounds              : No
+New Graphics            : No
+Known bugs              : None I know of.                                                            Credits			: To Marton for the request of one last DOM map  
+Weapons                 : Shock rifle, ripper, rocket launcher, Flakcannon, Sniper and Minigun
+
+Other maps by author    : DM-NoPainNoGain
+			: DM-TrialsOfFaith
+                        : AS-GreatEscape
+			: CTF-Slaughterhouse
+                        : JB-NaliAfterlife (80% complete)
+all downloadable from:
+
+			http://www.planetunreal.com/nalicity/
+                        Search for Unrealtournament maps from author Vatcilli zeitchef
+
+--- Construction ---
+Editor(s) used          : UnrealEd 
+Build Time		: 4 or 7 hours 
+
+Information
+------------
+I got annoyed by so many maps having the name mummy in it and never having one in it or even look acceptable for their filesize. This is just to settle something
+
+
+Installation
+------------
+Unzip the whole zip file to your UT root directory (the one called Unrealtournament on default) 
+
+
+
+
+

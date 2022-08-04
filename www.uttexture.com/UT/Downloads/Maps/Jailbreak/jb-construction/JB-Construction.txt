@@ -1,0 +1,76 @@
+================================================================
+Title                   : Under Construction
+Finished on             : 10-04-2001
+Filenames               : JB-Construction.unr
+Author                  : Eric "SnowDog" Ettes
+Email Address           : EricEttes@Freeler.Nl
+			: Snowdog@theDoghousemail.com
+Where to get it         : Breakout : [www.PlanetUnreal.com/Breakout] (Great work, Thoth :)
+			: JailCrew : [www.PlanetUnreal.com/JailCrew] (Great work, Caution :)
+Additional Credits to   : Wolf for creating an excellent tutorial
+			: Greygore and his website www.Unrealized.com for even more tutorials
+			: Daikiki & Mugsy for the Jailbreak scripting
+			: Caution & Thoth for hosting/promoting/reviewing my maps, you guys
+ 			  are the men :P
+			: All users of the Daikiki message board for their great feedback
+			: The testing team(TM)
+			: ElBundee for compiling the JBSpecials package
+			: Daikiki and Mychaeel for additional testing :P
+
+================================================================
+
+--- Play Information ---
+Game                       : Unreal Tournament
+Level Name                 : Under Construction
+Single Player              : JailBreak
+Cooperative                : Yes
+Deathmatch                 : No 
+Dark Match                 : No
+Difficulty Settings        : No
+New Sounds                 : No
+New Graphics               : No
+NewUnrealScript            : No
+External DLLs              : The Jailbreak 2 Mod (available at www.Daikiki.com)
+Recommended no. of players : 8-16
+Known bugs                 : The turrets sometimes don't work. This is because
+			     some turrets continued shooting eachother after an 
+			     execution. I gave them some health, so they instantly disable
+			     eachother when this happens, preventing that annoying noise.
+
+================================================================
+
+--- Description ---
+
+The level's layout is simple : 2 towers with 3 floors.
+It's quite big, so you might want to add more bots than the recommended
+number. It has z axis fighting as well as hiding spots and sniping opportunities.
+
+It also has a little surprise... you'll eventually see it :P
+
+================================================================
+
+--- Construction ---
+Editor(s) used          : UED v1.0
+Base                    : Scratch
+Construction Time       : About 7 Hours
+
+--- Installation ---            
+
+First of all, you must have the Jailbreak 2 mod installed (Available at www.Daikiki.com)
+
+After that you should put the .Unr file in your /maps directory and start playing
+
+Copyright / Permissions
+-----------------------
+This map is copyrighted by Eric Ettes 2001.
+You may use anything from it as long as you give me some credit.
+
+Jailbreak is copyrighted by Daikiki & Mugsy 2001...
+
+JBSpecials.u is copyrighted by ElBundee 2001...
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

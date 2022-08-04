@@ -1,0 +1,55 @@
+A Special Message
+**************
+This map was created for the 'Darkmagic' mod, and is designed to be big and spacious. Playing this map results in high poly counts and may slow down lame PC's, but most of you have UT2k3 anyway, -so shut it.
+
+*Visit www.planetunreal.com/ucz or the darkmagic forums at http://forums.bombardiers.org*
+
+DOM-DMUT-Deridgida
+************
+File			: DOM-DMUT-Deridgida.unr
+Author			: DAT
+Email			: N/A
+Released			: February 2003
+
+
+Play Info
+*******
+Editor used		                  : UnrealEd 2.0
+Build Time         		: About 6 hours.
+Single Player (Botmatch)	: Yes
+Cooperative            		: No
+Deathmatch             	                  : No
+Capture The Flag		: No
+Assualt			: No
+Domination		                  : Yes
+Difficulty Settings    		: All
+Known Problems		: Bsp shadows (but have you seen how much terrain it                                                         has?!).
+Where to play:		: Gumdrop house, lollypop lane, happy land.
+
+
+Installation
+*********
+(1.) Place the '.unr' file in your C:\UnrealTournament\maps directory.
+(2.) Place the '.u' and '.int' files in the C:\UnrealTournament\system directory.
+(3.) Run UT.
+
+Special Thanks to: 
+**************
+Everybody @ teh #Darkmagic IRC channel (go there) and on the Darkmagic team.
+
+Other Maps by Author
+*****************
+DM-Scotland
+
+Copyright/Permissions
+*****************
+You may distribute this map via electronic means, providing that it is done so free
+of charge and that this text file is also included unchanged.
+
+You may not include or distribute this map in any sort of commercial or non-comercial
+product without permission from the author.  You may not mass distribute this level
+via any non-electronic means, including but not limited to compact disks, and floppy disks.
+This map may not be used, in whole or in part, as the basis of another map, without the
+author's permission.
+
+All other trademarks, birthmarks and scratchmarks acknowledged.

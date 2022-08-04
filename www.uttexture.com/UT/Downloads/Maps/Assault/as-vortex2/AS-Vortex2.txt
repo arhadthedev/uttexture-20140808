@@ -1,0 +1,74 @@
+================================================================
+Title: Vortex Rikers AdrenaliZed
+Version: 1.0
+Release Date: 2k+1/01/31
+Filename: AS-Vortex2.unr
+Author: Cliff Bleszinsky - Coversion by Vasilios Papadimitriou 
+        a.k.a. Commander Assaulter Killer
+Web Page: no Internet connection (for the time being)
+Description: Assault (finally!) conversion of Unreal's first level
+Content: AS-Vortex2, Adrenali.umx, VortexR.utx and this readme file
+Special Features: blastin' music (just wait for awhile)
+
+===============================================================
+--- Play Information ---
+Game: Unreal Tournament
+Level Name: AS-Vortex2.unr
+Single Player: no
+Cooperative: no
+Assault: Oh yes!!!
+Domination: no
+Dark Match: No
+Difficulty Settings: for bots 
+New Sounds: Yes (new music)
+New Graphics: No
+New Models: No
+Known bugs: A couple of HOM bugs, and bot movement
+
+--- Construction ---
+Editor(s) used: UnrealEd 2.0 (upgraded with the 436 patch)
+Base: Unreal first level (Vortex2.unr)
+Construction Time: 'bout an hour
+
+Installation
+------------
+Unzip "AS-Vortex2.zip".  Place the .unr file into the MAPS folder,
+the utx file in the textures folder and the .umx file in the music 
+folder.
+
+Bugs
+----
+A HOM bug in one cell and bot movement (if you want to check the rest of the cell room,
+you'll have to order the bots to attack, otherwise, they'll stuck in the middle of the chamber)
+
+Author's notes
+--------------
+Try it with 10 to 16 players.
+In the ship, you'll find two other enemies: The Guards (SkaarjOfficers) who can be
+found in the NavChamb and the Officers (Mercs) in the small cargo area. They keep
+regenerating so... show'em where to stick it.
+
+Other levels
+------------
+DM/DOM/CTF-Vortex2
+Actually these four (including the AS) are my first creations. The original Unreal has a 
+great architecture and interesting places to visit (and fight in, why not?), so I
+believe that a UT game mode conversion will result in nice stuff.
+
+Copyright / Permissions
+-----------------------
+You MAY distribute this release through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.
+
+
+
+PS: Unreal Rocks!
+PS1: I thank all of you, Unrealheads. Long live Unreal!!!!!

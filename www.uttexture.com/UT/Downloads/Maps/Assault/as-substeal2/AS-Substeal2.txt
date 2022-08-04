@@ -1,0 +1,50 @@
+================================================================
+Title                   : AS-Substeal
+                          
+Author                  : Mike (hillbilly) Pulsifer
+
+Date                    : March 2000
+
+Filename                : as-substeal2.zip
+
+File contents           : as-substeal2.unr
+			: substeal.utx
+			
+Email Address           : mpulsifer@yahoo.com
+Home Page		: http://www.freewebmag.com/magazine.cfm
+Description             : UT Assault
+                         
+================================================================
+
+Play Information	
+
+Single Player           : yes (and multi...duh :) )
+Deathmatch              : No.
+Recommended No. Bots    : 9 (in single)
+Comments		: Assault-map 
+			 
+                          
+
+=================================================================
+
+Installation instructions
+
+Unzip "AS-Substeal.unr" in your UnrealTournament/Maps folder.
+Unzip "substeal.utx" in your UnrealTournament/Textures folder.
+
+KNOWN Problems: unknown
+
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd (UnrealTournament V4.00)         
+
+Build Time              : 12h
+
+
+===================================================================
+Other maps by Author:
+

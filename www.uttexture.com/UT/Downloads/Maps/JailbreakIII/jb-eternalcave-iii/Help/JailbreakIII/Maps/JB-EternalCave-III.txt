@@ -1,0 +1,46 @@
+Unreal Tournament JB Map
+
+================================================================
+Title                   : EternalCave-III
+Release Date            : Tuesday June 9th
+Filename                : JB-EternalCave-III.unr
+Author                  : Juan Pancho ' XceptOne ' Eekels: Modified by DireIce and remodified by Ira "Wiz" taraday
+Email Address           : robo_wizard@hotmail.com
+Web Page                : http://www.geocities.com/wizard_ira
+
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : EternalCave-III
+
+Game Type               : Jail Break
+Single Player           : yes
+Multiplayer             : yes
+JB Arena		: yes
+Escape Route		: yes 
+Custom Death		: yes
+New Sounds              : no
+New Graphics            : no
+New Music		: no
+Known bugs              : None
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : Conversion
+
+=========================================
+Special thanks
+
+A special thanks to:
+Sexmachine		:for beta testing
+WillySurvive		:for beta testing
+RevBillyG		:for beta testing and supplying a server.
+JB team			:for making this most excellent mod ;)
+
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

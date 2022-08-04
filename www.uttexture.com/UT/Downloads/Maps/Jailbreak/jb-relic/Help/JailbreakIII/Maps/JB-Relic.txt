@@ -1,0 +1,113 @@
+JB-Relic
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: Relic
+
+Author: Cory 'SpoonDog' Spooner
+
+eMail Address: thespoondog@planetunreal.com
+
+Website URL: http://www.planetunreal.com/spoondog/
+
+Release Date: Tuesday, September 9, 2003
+
+Version: 1.00
+
+Credits: Thanks to Sexmachine, Snowdog, Chezdog, RevBillyG and Rob for extensive testing.
+
+Other levels by author: Lots, go look at www.mapraider.com or my website.
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Game: Unreal Tournament
+
+Level Name: JB-Relic
+
+Game Type: JailBreak
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Only For Bots
+
+New Textures: No
+
+New Sounds: No
+
+New Music: No
+
+New Mutators: No
+
+Mods: No
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: Original Map
+
+Build Time: Dunno
+
+Recommended # of Players: 6-8
+
+Editor(s) Used: UnrealEd, PhotoShop.
+
+====================================================================================
+
+Mods
+
+----
+
+UT JailBreak - The best mod ever.
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+The sound of water constantly flowing into the endless depths of the ancient Slith
+temple echo in your ears as you step into the waterlogged darkness.  The sliths that
+once roamed this eerie temple of death are now gone, with just remnant statues
+remaining... or are they...
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+This level is copyright 2003, by Cory Spooner 'TheSpoonDog'
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================

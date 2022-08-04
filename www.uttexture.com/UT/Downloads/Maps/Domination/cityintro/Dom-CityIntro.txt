@@ -1,0 +1,44 @@
+=============================================================================
+Title                : DOm-CityIntro
+Filename             : DOm-CityIntro.zip 
+
+
+Description          : Domination map for Unreal Tournament
+Author               : Shane Caudle/Bin
+Email Address        : binaor@hotmail.com
+
+
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the DOm-CityIntro.unr to your unrealtournament/maps directory.
+
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : 
+Deathmatch              : No
+Domination		: YES
+CTF			: No
+Assault			: No
+New Sounds              : No
+New Music               : No
+New Graphics            : No
+Ideal Player Load       : 6-8
+ 
+
+=============================================================================
+Notes: You have all seen it now can you all play it ;)
+ 
+                                           
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Bla Bla Bla
+
+
+

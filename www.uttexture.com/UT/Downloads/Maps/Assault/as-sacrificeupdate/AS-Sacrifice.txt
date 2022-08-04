@@ -1,0 +1,16 @@
+AS-Sacrifice
+==========
+by DushnoK, 2/4/04
+
+UT assault map for 10 players .
+It's my first AS map .
+
+The story:
+Some guys dressed in flashy colored suits have stolen the assault trophy . They hid it in the old mighty forgotten temple of some cruel deity . You've got 8 minutes to take it back .
+
+Features:
+-Defending bots in the sacrifice area will sometimes joyfully jump in the pits . It's normal because the fortstandarts are down there, I couldn't really avoid it . Anyway the map's easy to defend .
+
+-There was a bug wich would prevent the attacking bots from doing their job, as their leader would be turned into a 'ghost' by the triggereddeaths . But it seems fixed now .
+
+-A redeemer is hidden somewhere .

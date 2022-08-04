@@ -1,0 +1,143 @@
+   
+  
+ 
+  News  Submissions  Prefabs  Levels  Staff  Links 
+  
+ 
+ 
+ 
+
+ 
+ 
+   
+
+ Main 
+News 
+Submissions 
+Prefabs 
+Staff 
+Levels 
+Links 
+ 
+Editing 
+Main Page 
+Tutorials 
+Ued Errors 
+Files 
+Shortcut Keys 
+#unrealed 
+Reference 
+Edit Master 
+ 
+Scripting 
+Main Page 
+Tutorials 
+Online Classes 
+Reference 
+Code Master 
+ 
+Modelling 
+Main Page 
+Tutorials 
+Reference 
+Model Master 
+ 
+Skinning 
+Skinning Guide 
+ 
+Prefabs 
+Brushes 
+Textures 
+ 
+Hosted Sites 
+Heph's Music 
+3D Model Emporium 
+Millennium 
+VerMoorD 
+Rage TC 
+Hosting Info 
+ 
+Network Sites 
+Unrealnation 
+S.U.M.E. 
+Honor Guards 
+World of Dreams 
+ 
+Your Unrealed.net 
+If you have a Tutorial, Tip, Hint or whatever! then feel free to send it down, and we will be happy to post it on the site. 
+ 
+ 
+   
+ 
+    
+   
+   
+ 
+
+ 
+ 
+
+ 
+   
+ Basic Trigger Overview
+
+By: Bostich
+
+Dated: 26/5/98 
+
+Click here for a printable version of this Tutorial.
+
+Assumptions
+I'm working under the assumption that you already know how to make a Mover, or Moving Brush. If you don't, then please grab a copy of a tutorial on that or none of the following will make any sense. For this Tutoral I have included a map that has three triggers. I made the second Trigger by right clicking the Trigger and choosing Duplicate. The third trigger is a button, which is easier than a trigger, and included here because it's not worth a whole tutorial. 
+
+Triggers1 : Triggering Movers
+I'm only going to cover how to Trigger Movers in this tutorial, otherwise it would go on forever. Okay, I also have no idea how most of the other triggers work. The important class for this tutorial is the Trigger -> Trigger class. As the name suggests, Triggers are used to activate properties of other classes, which means you must remember to edit the properties of both the Trigger and the Target. Triggers need some other object to interract with. 
+ 
+
+Making the Trigger
+Let's add a simple Trigger to the room. Go to the Classes menu -> Triggers -> Trigger. Add a Trigger to your room. For the room provided I added the Trigger right in the path between the PlayerStart and the "Door", this way all you have to do is walk forward and you'll see the Trigger in action. There will now be a beautiful little Trigger Icon floating in space. Now go to the Trigger Properties by right clicking on the Trigger Tag (Seen above). Click on Events to reveal Events/Event and Events/Tag. Event is the pointer to the object you wish to act upon and Tag is the name an Event links to. If this is a bit confusing it will be made clear in a second. In the Trigger properties set Events/Event to 'Mover1'. Now go to the Mover Properties by right clicking on your Mover and change the Events/Tag to 'Mover1' if it doesn't already say this. You will now see a red line appear in all views. This red line is the logical link between your two actors. 
+
+ 
+
+Trigger Activation
+Your Trigger is now linked to your Mover, but this is not enough. You must properly set the activation types for both the Trigger and the Mover. For this tutorial we want the door to open when the player moves towards it. In the Trigger Properties, look at the Trigger/TriggerType. You will see that it is set to 'PlayerProximity', which is what we want. Click on the right hand column to see what other types of events you can use to activate the Trigger. Now switch back to the Mover Properties and move to Object/InitialState. Click on the right hand column to bring up the states menu. The important states for us are the TriggerX states, which are as follows:
+
+
+TriggerPound :- Causes the Trigger to rapidly move between states, good for squishy traps.
+
+TriggerControl :- Causes the mover to change keyframes and remain until the player is no longer within the Trigger.
+
+TriggerToggle :- Toggles the state of the Mover from one keyframe to another, for that open and closed look.
+
+TriggerOpenTimed :- Causes the mover to open for its specified time the close. Time open found in Mover/StayOpenTime.
+
+Set your movers state to TriggerOpenTime. If you compile and run your level you will now have a door which opens whenever your player walks into the Trigger location.
+
+Button Triggers
+Not big enough for a tutorial of its own, here's how to make a "button" Trigger. Make another small Mover. Change the Events/Event of your small Mover to the Tag of the "Door" Mover. That's it, pretty simple no?
+
+Notes
+1 :- Don't forget to add another Trigger on the OTHER side of your door, if you want to get back into the room. The first map I made I forgot this and whoops!
+
+2 :- I suggest placing your Trigger no more than 64 off the floor, unless you want your player to be jumping alot :)  
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

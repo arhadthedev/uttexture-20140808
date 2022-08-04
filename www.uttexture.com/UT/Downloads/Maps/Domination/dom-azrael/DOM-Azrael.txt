@@ -1,0 +1,67 @@
+Azrael's Haven (V.1.0)
+
+================================================================
+Title                   : Azrael's Haven
+Date                    : March 2000
+Filename                : DOM-Azrael.zip
+
+Author                  : Andrew Beeken
+Email Address           : Fancyabrew@aol.com
+Home Page		: ----
+
+Description             : Years ago, Nali visitors to earth constructed
+                          this religious safehaven deep in the mountains
+                          of an unpopulated Spanish island. This rare 
+                          alien relic has stood untouched and undiscovered
+                          for centuries. However, when Liandri archeologists
+                          discovered it, the sunbleached walls of this 
+                          once holy place were soon drenched with blood...
+
+Credits to              : GT, Epic MegaGames, and Ed Duke-Cox + John Spence for their constructive criticisms
+
+================================================================
+
+*Build Time*
+
+Oh Christ...
+
+Started the map around the begining of Feb 2000 and got it completed to
+a playable standard. It then sat on my hard drive for about a month. I
+decided to complete it, and this full version is the result of one whole
+evening retexturing and remodelling elements of the map (namely the
+floor texture which was, until my playtesters pointed it out, riveted
+iron. D'oh!)
+                         
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Deathmatch              : No
+Capture the Flag	: No
+Assault			: No
+Domination              : Yes
+Last Man Standing	: No
+
+=================================================================
+
+* Know bugs *
+
+>sob!<
+
+Glitchy, glitchy, glitchy!!!!! Nasty horrid BSP errors which just won't
+go away plague areas of this map, namely the Statue Courtyard and the skybox.
+
+The bots are not all that smart - eg they won't get the Big Keg in the
+pillars courtyard no matter how many Jump-Points I put in...
+
+This map isn't perfect, but it provides a fun Domination experience. 
+All comments would be welcome. Just contact me at the address above.
+
+=================================================================
+
+Installation
+
+Unzip the map to the /map/ directory within your Unreal Tournament directory
+
+=================================================================

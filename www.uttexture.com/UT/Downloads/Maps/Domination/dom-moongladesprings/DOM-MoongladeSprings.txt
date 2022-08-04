@@ -1,0 +1,77 @@
+ReadMe for DOM-MoongladeSprings for Unreal Tournament
+-----------------------------------------------------
+
+               Title: DOM-MoongladeSprings
+            Filename: DOM-MoongladeSprings.unr
+              Author: Matt Wilmot
+       eMail Address: skorp20012000@yahoo.co.uk
+         Website URL: artbymatt.cgsociety.org
+        Release Date: 25th January 2007
+         Last Update: 
+             Version: 
+
+Credits:
+
+
+Other levels by author:
+
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: DOM-MoongladeSprings
+           Game Type: Domination
+            Botmatch: Yes
+            Teamplay: Yes
+        New Textures: Yes
+
+
+====================================================================================
+Construction
+------------
+
+   Ideal Playercount: 6 - 8
+      Editor(s) Used: Unreal Ed 2
+
+====================================================================================
+Installation
+------------
+Unzip DOM-MoongladeSprings.unr.
+Store the *.unr or *.ut2 file in your Maps\ directory along with the others 
+(see guide below), then either doubleclick on it, or type open DOM-MoongladeSprings in 
+the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+*.unr and *.ut2 files go in Maps\
+*.utx files go in Textures\
+*.umx and *.ogg files go in Music\
+*.uax files go in Sounds\
+*.u, *.int, and *.ini files go in System\
+*.usx files go in staticmeshes\
+*.ukx files go in animations\
+*.ka  files go in karma\
+*.upx files go in prefabs\
+
+====================================================================================
+
+Copyright / Permissions
+-----------------------
+This level is copyright 2007, by Matt Wilmot.
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any 
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp), 
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by 
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal 
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other 
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================

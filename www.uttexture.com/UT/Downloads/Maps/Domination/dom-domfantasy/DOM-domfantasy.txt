@@ -1,0 +1,40 @@
+===============================================================================
+Title                : Dominion Fantasy
+Filename             : DOM-domfantasy.zip
+Version              : 30/11/2000
+
+Description          : DOM map for Unreal Tournament
+Author               : Sergio 'WخM' Pizzotti
+Email Address        : worm@unrealitalia.com
+===============================================================================
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Maps                    : DOM-DominioFantasy
+Deathmatch              : No
+Domination		: Yes
+CTF			: No
+Assault			: No
+New Sounds              : No
+New Graphics            : No
+
+-=[ Construction ]=-
+
+Base                    : Map created for the FlakZone map contest
+Build Time              : Many hours, about 3 days
+Editors used            : UnrealEd 2.0
+ 
+Known Bugs              : None know.
+===============================================================================
+
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+This level is Copyright (c) 2000 Sergio 'WخM' Pizotti. 
+All textures are copyright (c) 1999 Epic Games.
+This level is not supported by Epic Games.
+
+You are allowed to distribute this level on a non-commercial base, for example
+over the internet and any other medium that is free of charge. You must distri-
+bute the whole ZIP with .unr and .txt file, though.

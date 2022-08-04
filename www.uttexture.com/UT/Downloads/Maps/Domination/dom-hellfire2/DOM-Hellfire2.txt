@@ -1,0 +1,95 @@
+================================================================
+Title                   :DOM-Hellfire2
+Version                 :version 2.0
+Release Date            :18-11-2004
+Filename                :DOM-Hellfire.zip
+Author(s)               :Cedric "Snoop" Pierron aka Derdak2rot
+Email Address           :none
+Web Page                :none
+Description             :This is a ancient industrial base made by the humans ,during
+                         the terra-forming, on a magma planet called Hellfire ....
+
+                         for the 20th anniversary of the tournament , the liandri decide to 
+                         reactualise the domination of Hellfire
+
+Where to get this map   : www.beyondunreal.com/nalicity
+Other levels by author  : check out the Derdak2rot' s maps on Nalicity
+Additional Credits to   : STeve Nabors for these beautiful scripts
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament v436
+Level Name              : Domination Of Hellfire : 2nd offense
+Single Player           : no
+Cooperative             : no
+Deathmatch              : no
+Dark Match              : no
+Difficulty Settings     : yes
+New Sounds              : yes ( unreal 1,RTNP  music : SpaceMarines.umx)
+New Graphics            : yes , custom textures from UT2003 and others made by me
+NewUnrealScript         : yes , Particle Sprayer of Steve Nabors
+                                Particle Spawner of Steve Nabors
+                                These scripts are save with the map
+External DLLs           :
+Known bugs              : All principals errors are removed . if on subsist , tell me on nalicity !
+
+--- Construction ---
+Editor(s) used          : Unreal Ed 2.0 and Photoshop 5.0
+Base                    : DOM-Hellfirev1.1
+Construction Time       : some weeks
+
+
+Installation
+------------
+Just Unzip the .unr in the unrealtournament/maps directory
+               .umx in the unrealtournament/music directory
+               .utx in the unrealtournament/textures directory
+
+
+Extended description: This is not a simply update , i rebuild 50% of the map :
+
+                      - framerate problem fixed ( down to 450 max )
+                      - new rooms added 
+                      - better connectivity between points with the help of Teleporter
+                      - better both pathing 
+                      - better lightning
+                      - better gameplay and flow
+                      - architecture improved
+                      - better skybox
+                      - Red pods for weapons 
+                      - white pods for control points
+                      - New textures
+                      - Better optimized for slow configuration
+                      - Lava pit rebuilded ( new textures )
+                      - Better sounds
+                      - New Music ( Return to Napali : SpaceMarines.umx )
+                      - Central Elevator have been removed
+                      - etc ....
+                      enjoy !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+--------------------
+
+
+Author's Notes : Thanks for the comments on the first version of DOM-HellFire
+                             
+--------------
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Derdak2rot aka Cedric "Snoop" Pierron in 2004.
+
+Authors may / may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

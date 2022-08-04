@@ -1,0 +1,71 @@
+
+Für unsere deutschen Unreal-Gamer die die englische Sprache nicht so
+gut beherschen, das ganze auch noch mal auf deutsch.
+Here we go!
+
+================================================================
+Titel                   : DOM-Domes of Death
+Version                 : 1.0
+Erscheinungstermin      : September 2000
+Dateiname               : DM-DomesofDeath.zip
+Autor                   : Paul "Master_Tonnberry" Fahss 
+E-mail Addresse         : webmaster@mastertonnberry.de
+Homepage                : www.mastertonnberry.de
+
+Beschreibung            : Eine hardcore Domination-Map mit viel offenem Kampf! Die 
+		          Domination-Variante von DM-Domes of Death! Hab ich gemacht, weil sich das
+			  Level-Layout gut für ne Domination-Map eignet!
+
+Andere Maps von mir     : DM-Deck1 
+			  DM-Tripple-Deck 
+		          DM-Domes of Death
+			  RA-Master Tonnberry
+
+			  DM-5Cubes-Master_Tonnberry1
+			  DM-5Cubes-Master_Tonnberry2
+			  DM-5Cubes-Master_Tonnberry3
+
+			  Alle für den TeamVortex 5Cube-Contest! Zu bekommen auf 
+			  www.planetuntreal.com/teamvortex/5Cubes
+
+Vielen Dank an          : Das Team von www.unrealed.de, für ihre tollen Tutorials und dafür, dass
+			  sie meine Map auf ihrer Site zum Download stellen!
+			  Außerdem möchte ich dem Forum von www.unrealed.de danken, denn sie haben
+			  mir oft geholfen! Danke Jungs!
+================================================================
+--- Play Information ---
+Spiel                   : Unreal Tournament
+Level Name              : Domes of Death
+Neue Sounds             : Nein
+Neue Texturen           : Nein
+Neue Musik		: Nein  
+Bekannte bugs           : Manchmal kommen die Bots in Stocken beim Mover mit den HealthVials,
+			  bevor sie einen Gegner sehen!
+
+--- Construction ---
+Editor(s) benutzt       : UnrealED 2.0 
+Base                    : DM-Domes of Death von mir selbst!
+Bauzeit                 : 1 Stunde
+
+Installation
+------------
+Dier .unr Datei gehört ins  UnrealTournament/Maps Verzeichnis.
+
+Anmerkungen
+--------------
+Ich hab nen maximalen Polycount von 225 erreicht, damit die Map auch auf schlechten Kisten läuft!
+
+
+Copyright / Permissions
+-----------------------
+Diese Map ist Eigentum von Master_Tonnberry 2000 und es ist nicht erlaubt mit ihr 
+Geld zu verdienen. Außerdem darf diese Map nicht als Basis für eine andere Map benutzt werden.
+Man darf die Map auf seiner Homepage zum Download stellen, wenn man die zip-Datei intakt lässt
+und nicht hinzufügt oder hinausnimmt. Außerdem muss man mir per mail bescheid sagen, weil ich
+wissen will, wo sich die Map alles herumtreibt!
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  Unreal Tournament and the Unreal Tournament logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

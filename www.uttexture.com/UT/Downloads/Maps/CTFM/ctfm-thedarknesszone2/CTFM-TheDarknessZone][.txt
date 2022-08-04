@@ -1,0 +1,90 @@
+CTFM-TheDarknessZone][  readme file
+-----------------------------------
+        By UBX Master, 2007
+
+
+Map title:		"The darkness zone (Multi CTF version)"
+Version:		v2.1
+Release date:		7/9/2007
+Filename:		CTFM-TheDarknessZone2.rar
+Who made it:		Me :P
+Email:			UBXMaster@Hotmail.com
+Web page:		None
+Where to get this:	Nalicity.beyondunreal.com
+Other maps by author:	Over 160 maps that dissapeared when I had to delete UBX 1 from the HD,
+			DOM-Metalic, DM-Mario][, CTFM-HazeMaze][, DOM-ShadowsVI,
+			DM-Mario]I[, CTFM-Tetrahedron, DM-Infinity]I[, CTFM-LavaGiant, AS-LokoMine,
+			AS-LokoBase, AS-LokoPlanet...
+Special Thanks:		Epic Games, etc.
+			Lestat
+			Alexander Brandon
+
+Info
+----
+
+Game:			Unreal Tournament
+Map name:		CTFM-TheDarknessZone][
+Single player:		It's harder with bots...
+Cooperative:		Yes
+Game type:		Multi-CTF
+Difficulty settings:	None
+New sounds:		None
+New music:		Nightvision (K_Vision.umx)
+New textures:		Lestatpack.utx
+New UScripts:		None
+External DLLs:		None
+Prefabs:		None
+Known bugs:		It's slow.
+
+Construction
+------------
+Software used:		UnrealEd 2.0, MapScale 2.0
+Base:			From scratch
+Construction Time:	5 hours
+
+
+Installation
+------------
+
+You should be smart enough to know where to put all the files, no?
+
+Extended description
+--------------------
+
+A 4-way version of the original CTF-TheDarknessZone from UBX 1.
+I used skaarj textures and removed the movers to the central area.
+
+Copyrights / Permissions
+------------------------
+
+This map is (C)2007 UBX Master.
+
+Don't modify, use as a base for other maps or sell for money.
+I'll kill you if you even think about that! >:-<
+
+This map may be distributed through any UT map pages like Nalicity or
+MapRaider, provided you include this readme file and leave the archive
+100% intact.
+
+---
+
+Unreal (C)1998 Epic Megagames Inc., All rights reserved.
+Unreal Tournament (C)1999 Epic Megagames Inc., All rights reserved.
+UBX 1 isn't copyrighted, it was a hacked version of UT.
+UBX 2 (C)2003-2004 UBX Team
+UBX 3 (C)2005-2008 UBX Team
+UBX 4 (C)2020? UBX Team
+UBX 5 (C)20?? UBX Team
+UBX 6 (C)20?? UBX Team
+UBX 7 (C)20?? UBX Team
+SWWM (C)2007 UBX Team
+SWWM II (C)2007 UBX Team
+SWWM III (C)2007 UBX Team
+SWWM 4 (C)2007 UBX Team
+Unreal and the Unreal logo are registered trademarks of Epic Megagames inc.
+Unreal Tournament and the Unreal Tournament logo are registered trademarks of Epic Megagames inc.
+UBX is a trademark of UBX Team.
+All UBX related characters, names, etc. are property of UBX Master and (C)1999-2007 UBX Master.
+UBX Master is not my real name, but that doesn't matter.
+I will never tell you my real name! >:-<
+The ">:-<" icon is also property of UBX Master and (C)2007 UBX Master.

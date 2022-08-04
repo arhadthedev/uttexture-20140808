@@ -1,0 +1,53 @@
+<=================================================================>
+
+Titolo                  : DM-Hydrophobia
+Versione                : 1.0
+Data di Rilascio        : 19 Novembre 2000
+Filename                : DOM-Hydrophobia.unr
+Contenuto del file .zip : DOM-Hydrophobia.unr, Readme.txt, Leggimi.txt
+Autore                  : Guido "Cepox" Sbrogiò
+Email                   : cepox@unrealitalia.com || cepox@ngi.it
+Web Page                : http://www.unrealitalia.com/ued
+Descrizione             : Vi è piaciuto DM-Turbine? DOM-Hydrophobia è una specie di seguito. 
+Altri livelli           : Prossima release: CTF-Tourette 
+
+<==================================================================>
+
+<=== Play Information ===>
+
+Game                    : Unreal Tournament
+Single Player           : Botmatch
+Deathmatch              : 4 giocatori
+Dark Match              : No
+New Sounds              : No
+New Graphics            : No
+New UnrealScript        : No
+Bugs conosciuti         : No   
+
+
+<=== Construction ===>
+
+Editor Usato            : Unreal Ed
+Base                    : Nessuna
+Tempo di costruzione    : Pochi giorni
+
+<=== Credits ===>
+
+Ringrazio tutte quelle persone che mi hanno fatto incazzare o in qualche modo
+hanno prodotto in me una voglia di "repressione" nei loro confronti. 
+Le ringrazio perchè mi hanno dato la forza di sfogarmi...Grazie ancora.
+
+Peace & Love
+
+<=== Copyright e Permessi ===>
+
+Non potete modificare il livello o costruire un altro livello sulle basi di questo.
+Il file dm-hydrophobia.zip deve rimanere intatto e non può essere distribuito senza il
+mio consenso. Il livello può essere incluso in un cd e essere distribuito solo avendo
+il mio permesso. Mi raccomando, non prendete iniziative. Le leggi sul copyright sono devastanti...
+
+----------------------
+Unreal Tournament (c) 1999 and UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo 
+are registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

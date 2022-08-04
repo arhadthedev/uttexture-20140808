@@ -1,0 +1,54 @@
+DOM-WE-Basicium
+================================================================
+Title                   : War Elements Basicium Clan map
+Version	       : 1.5
+E-mail	       : Hourences@pandora.be
+Website	      :users.pandora.be/Hourences  (capital letter is important ! )
+Clan site	      :users.pandora.be/war_elements
+ICQ	       : 86603524
+Release Date            : 20/12/00
+Filename                : DM-WE-Basicium
+Author(s)               : Hourences
+	
+==============================================================
+
+--- Play Information ---
+
+Game                    : UnrealTournament
+Level Name              : War Elements Basicium clan map
+Single Player           : Yes (with bots)
+Domination	            : Yes
+Cooperative             : No
+Deathmatch              : No
+Capture the Flag        : No
+New Sounds              : No
+New Graphics            : Yes 2 logo's thanks to <-WE->Woezy
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : None I think, possible a couple of bsp faults.
+	
+--- Construction ---
+
+Editor(s) used          : UnrealEd 2.0
+Construction Time       : 12 hours
+
+---Notes---
+
+- The bots don't translocate
+  I can't change that, I tried a lot of things but nothing works.
+- Sorry for my bad English
+
+---Installation---
+
+-Put the file DOM-WE-Basiucium.unr in your UT Map-directory
+
+---Copyright / Permissions---
+
+You may distribute this level on a CD-ROM, a internet-side, or whatever,
+ as long you leave this textfile with the map in the same Zip-file.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

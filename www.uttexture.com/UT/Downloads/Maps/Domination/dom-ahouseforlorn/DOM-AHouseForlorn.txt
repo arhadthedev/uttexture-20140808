@@ -1,0 +1,64 @@
+=============================================================================
+Title                : A House Forlorn
+Filename             : DOM-AHouseForlorn.umod 
+			(DOM-AHouseForlorn.unr,DOM-AHouseForlorn.txt,
+			HouseForlorn.utx,AHouseForlorn.uax)
+Version              : 1.00
+
+Description          : Domination map for Unreal Tournament
+Author               : Veinman
+Additional Credits   : G-Money (textures)
+		       Raqim (sounds)
+		       Shane Caudle (foundation of the CliffyB portrait)
+		       CliffyB (for being a good sport)
+Email Address        : mthomas@aardvarkmedia.com
+Web Site	     : http://www.aanimation.com
+=============================================================================
+
+-=[ Installation ]=-
+
+Double-click the umod, follow the prompts, and you should be done! For the zipped
+version - the txt file goes in the Help subdirectory, the unr goes in the maps,
+the utx goes in the textures folder, and the uax goes in the sounds folder.
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Maps                    : DOM-AHouseForlorn
+Deathmatch              : No
+Domination		: Yes
+CTF			: No
+Assault			: No
+New Sounds              : Yes
+New Graphics            : Oh Yes
+Ideal Player Load       : 12 - 16
+
+-=[ Construction ]=-
+
+Base                    : new map from scratch 
+Build Time              : 70+ hours
+Editors used            : UnrealED 2
+ 
+Known Bugs              : I didn't find any during normal play.
+			  Feel free to email me if you find some.
+=============================================================================
+
+-=[ Notes ]=-
+
+ATTENTION-- This is a THEME MAP! However, even if you hate theme maps, you may
+like this. It takes place in and around a haunted house. There are 4 control points,
+with many routes to each point. At least 1 of every item/weapon is in here,
+with the exception of the super shock rifle and the scuba gear.
+Look hard enough and you will find it all. Some of them require the translocator :)
+This map was tested on several different machines, and if it looks/runs like crap on
+your system, I apologize. A couple areas can get a bit demanding.
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+This level and all custom content is copyright (c) 2000 Aardvark Animations.
+This level is not supported by Epic Games.
+
+You may not use this level or its custom content as a basis for your own work.
+
+

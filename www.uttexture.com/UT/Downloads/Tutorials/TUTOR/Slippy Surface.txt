@@ -1,0 +1,52 @@
+ Slippery Surfaces
+
+By: Millennium 2002
+
+Millennium 2002
+
+Dated: 28/11/98 
+
+Click here for a printable version of this Tutorial.
+
+Slippery Surfaces
+
+This is something that is quite cool in a level, and most people want to have some part of their level slippery. It might be as simple as having a polished floor that is supposed to be slippery, or perhaps a wet bridge or whatever. Well to do it, really is quite easy, but DAMN hard to find, if you have not done it before. Here is the way to do it.
+
+I assume that you have already got your level made here, and simply want to add in a little area that is slippery.
+
+
+
+The perspective of the room that we will make slippery. You can't see it, but the floor is actually a polished mirrored surface. Now to make life a little easier for me to explain, I have also included a top down shot of the room.
+
+
+Ok, what we are going to be playing here with is actually a zone. We will need to create a zone that will completely cover the area that you want to have slippery. This in my case will be made with a box (as the room happens to be roughly a box). Here is a pic of the inseide of the room. I have made a cube brush to the same specs as the room, then intersected it just to make sure that it's exactly the right size.
+
+
+Now we have to create this into a zone. That's easy as well. All you have to do is make the following : 
+
+
+That will create the brush that you have just made into a zone portal that is not visible and does not stop the player walking through it in any way. Basically it's something that only the editor's will see if they open the map. When you have created your new brush (you should see it as a green brush in the level) you will have to place a zone-info into it. This is where we will actually set the level of slipperiness in it. Open the "Classes" Browser window (where the textures normally are) and select Info-->Zoneinfo You will most likely fin that as soon as you open the Zoneifno bit, you will automatically select "Waterzone" but highlight "Zoneinfo"again, and then place it inside your room. (I find this the easiest in the 3D view). Now you should see the lovely little zoneinfo in your room.
+
+
+Open the advanced properties of the zoneinfo, and select Zoneinfo-->ZoneGroundFriction. This will automatically be set to 4.000000. This is what we want to change. This particular setting will change the friction that the player has between the floor and the mesh. Keep in mind here that it's a ZONE setting. That means that if you want only a bridge set to be slippery, you should only make the brush (the one that will end up being your zone) only as big as you want the area to be slippery. If you want a whole area to be slick, then sure make a nice big zonearea, but otherwise be careful what you include as most people will not want everything slippery. The other thing to note, is that everything will be made slippery. I mean, if you have a an area of sand there, it will also be effected, and that would be kinda wierd. I mean I don't care where you are - Sand is NOT slippery. Feel free to tell me where you will find sand that makes you fall, but I doubt it. Sorry, too much blabbering there. Let me go on.
+
+I want this room to be quite slippery, so I have set the friction level to 1.00000. This should be more then enough to make a player go "Yikes! WTF?!?". Then it's a simple matter of rebuilding the level, and playtesting it. I have included a final image of the settings taht I have used here, just in case there is a problem in what I have said here, but I think it's actually quite simple to do.
+
+
+Well, that should be it. You should now have a lovely slippery area in your map, that will make the best of players slip up, and be extra careful =)
+
+Final Notes : When you add in the zone portal (The special brush) You will see that it seems to actually be visible in the level. That is completely normal. When you rebuild the lighting, you will see that it is not affected, and does not show up as visible anywhere apart from the editor. This is still there as a texture so that you can actually see it in the 3D window, and to make your editing life easier.
+ 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+

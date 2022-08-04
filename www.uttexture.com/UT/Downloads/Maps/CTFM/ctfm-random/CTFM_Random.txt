@@ -1,0 +1,120 @@
+================================================================
+Title                   : CTFM Random
+Version                 : 1
+Release Date            : 10/January/2001
+Filename                : CTFM-Random.zip
+Author                  : DeathCircus  
+Email Address           : Caterman5@Yahoo.com 
+Web Page                : Visit - http://www.caterman5.freeserve.co.uk/
+			
+================================================================
+
+--- Play Information ---
+
+Game                    : Unreal Tournament
+Level Name              : Random
+Single Player           : No
+Cooperative             : No
+Botmatch		: Yes
+Deathmatch              : No
+Capture the Flag 	: No
+Assault			: No
+Domination              : No
+Other			: 4 Way CTF Modification....visit.... http://www.planetunreal.com/MultiCTF for more info
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : A couple I extracted from the texture pack made by Colin McCann, for use with the mod, I didnt want to include the whole pack as this would have made it 2 Mb larger download.
+
+
+Level Info
+----------
+
+Thought my level my make a CTFM map..... do tell me what you think.
+
+
+--- Construction ---
+
+Editor(s) used          : UnrealEd 2. 
+Base                    : CTF-Random.
+Construction Time       : No Idea.
+
+Files Included
+--------------
+
+CTFM-Random.unr
+CTFM-Random.txt
+DeveloperT.utx
+CFT4Random.utx
+
+Installation
+------------
+
+Unzip .unr file into \maps folder under the Unreal Tournament folder.
+Unzip .utx file into \textures folder under the Unreal Tournament folder.
+Unzip .txt file into recycle bin ?
+
+Where to get this Map
+---------------------
+
+http://www.caterman5.freeserve.co.uk/
+Or Nali City 
+
+Other Maps by Me (Unreal)
+----------------
+
+DM-O'God (with BK-Chip) 
+DM-BK2
+Real_BK2 
+DM-Futillity
+DK-Futillity
+DM-Steps Arena
+DK-Steps Arena
+DM-Lava Hall
+DK-Lava Hall
+DM-Battlefort
+Real_Battlefort
+DM-Under Temple
+DK-Under Temple
+Real_Dark Carnival
+Real_Deathfan
+Real_No Mans Land 2 - My version of Real No Mans Land
+DM-DC
+DM-1 More Map
+DK-1 More Map
+DM-Ooer
+DK-Ooer
+
+Other Maps by me (Unreal Tournament)
+----------------
+
+CTF-CTF 
+CTF-Deathfan
+DM-1
+CTF-Burning
+CTF-Ancient
+CTF-Random
+DOM-Ancient
+DOM-Random
+CFTM-Random (ok thats this)
+
+Thanks Too...
+-------------
+
+Epic for making fun game, Colin McCann for making a fun mod..... etc.
+
+
+Copyright / Permissions
+-----------------------
+
+This level is copyrighted by Matthew Cater 2001.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+

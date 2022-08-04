@@ -1,0 +1,67 @@
+=============================================================================
+Title                : Assassination
+Filename             : assassinate.ZIP (AS-Sassinate.unr, AS-Sassinate.txt)
+Version              : 1.00
+
+Description          : Assault map for Unreal Tournament
+Author               : Mark Thomas (Veinman)
+Email Address        : mark_t@mindspring.com
+
+Misc. Author Info    : Previous Unreal 1 level: DMStorage
+                       
+Thanks to            : Everybody at Epic and Digital Extremes, 
+		       particularly Cliff for always answering my questions.
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the .unr to your unrealtournament/maps directory.
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Maps                    : AS-Sassinate
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : No
+New Graphics            : Screenshots only
+Ideal Player Load       : 8
+-=[ Construction ]=-
+
+Base                    : new map from scratch 
+Build Time              : Way Too Long
+Editors used            : UnrealEd
+ 
+Known Bugs              : I think I got rid of all the HOM effects. :)
+			  I still can't get the bots to comply with my
+			  Assault Randomizer. Feel free to email me with
+			  problems or suggestions.
+=============================================================================
+
+-=[ Notes ]=-
+
+Even though this level is small, it will often take all of your allotted time
+to complete the tasks. This assault level requires teamwork and sacrifice to succeed. 
+If your usual playing style is lone ranger, you are not likely to do very well in it. 
+Sniping is essential, regardless of which team you are on. Basically, open both 
+outside gates by pressing the buttons by them, then choose one of 3 paths into the 
+chamber where the Nali is being kept. Shoot the chain above him, and it is 
+barbecue time. While it is not perfect, it is very fun to play, and that is in my 
+opinion the most important feature of a level. 
+*If you like this level, please vote for it in the Make Something Unreal contest. 
+Thanks.
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+This level is copyright (c) 2000 Mark Thomas.
+All textures are copyright (c) 1999 Epic Games.
+This level is not supported by Epic Games.
+
+Feel free to do whatever you want with this level, as long
+as you give me credit. Any commercial efforts involving this level
+must be personally approved by me, Mark Thomas.
+
+

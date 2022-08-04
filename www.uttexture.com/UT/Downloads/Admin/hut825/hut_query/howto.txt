@@ -1,0 +1,19 @@
+=============================================================================================		
+ = Hez UT - Ath Server Controller v8 - ASC Winter 2006
+ = Released: December 2005
+ = by Mickaël DEHEZ (mike@hez-studios.net)
+ = HeZ Tech. Studio (http://www.hez-studios.net/)
+=============================================================================================
+ = for any comment, bug or resquest send an email to mike@hez-studios.net
+=============================================================================================
+ = PHP Info
+
+=================
+ HTML INSTALL :
+=================
+
+ + In your web page, Insert : 
+	<? include'hut_query/hut_query.php?addr=SERVERADDRESS&port=SERVERPORT';	?>
+
+ + example :
+	<? include'hut_query/hut_query.php?addr=82.98.225.112&port=7777'; ?>

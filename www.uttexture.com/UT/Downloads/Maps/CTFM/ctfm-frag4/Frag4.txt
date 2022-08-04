@@ -1,0 +1,35 @@
+Title                   : Frags For All!
+Filename		: CTFM-Frag4.unr
+Author			: PhoneMonkey
+Email Address		: phonemonkey@bigfoot.com
+================================================================
+
+High on Action! Low on eye candy!
+
+
+
+This is my first map so be gentle.  It's been play tested to death 
+and the bots love it.  This is a re-creation of MAP04 of FRAG4ALL.WAD
+of Doom2 fame, the original WAD was created by Christian Antkow
+(cant@softchoice.com).
+
+
+Here's what Christian had to say about his original map:
+
+MAP04 - Death To All    : Made this level while totally smashed at an office
+                          party. Had an entire office full of drunk crazees
+                          who wanted to see how long it could take me to
+                          design a deathmatch WAD. Took me an hour to build
+                          this one and we played it well into the wee hours
+                          of the morning. This one is a VERY HIGH FRAG level
+                          and with four players, it's just INSANE!!! This is
+                          my best "Heart-Pounding-Sweat-Building" level to
+                          date. Big thanks go out to my Ingram Micro,
+                          Symantec, Microsoft and Delrina reps for cheering
+                          me on while I slaughtered the other people in
+                          the office...
+
+
+This map is Larger in scale than the original and so it accommodates 8 people 
+very well.
+

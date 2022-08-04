@@ -1,0 +1,94 @@
+===============================================================================
+NoTransloc
+Copyright 2001 by Mychaeel <mychaeel@0x01.net>
+===============================================================================
+
+===============================================================================
+Installation
+===============================================================================
+
+The zip file includes information about in which subdirectories the files
+should be placed; simply extract all files in your UnrealTournament folder, and
+all files should go where they belong to.
+
+If that doesn't work out, extract the files manually into the following
+directories:
+
+  UnrealTournament\Help      NoTransloc.txt
+  UnrealTournament\System    NoTransloc.u
+
+In order to make the NoTransloc-related actors show up in UnrealEd's actor
+browser, you'll have to edit the UnrealTournament.ini file that is located in
+your UnrealTournament\System directory. Add the following lines in the given
+section of UnrealTournament.ini:
+
+  [Editor.EditorEngine]
+  EditPackages=NoTransloc
+
+If you're running a server with a map using the NoTransloc component in your
+map rotation, add the following line to your UnrealTournament.ini:
+
+  [Engine.GameEngine]
+  ServerPackages=NoTransloc
+
+
+===============================================================================
+Info
+===============================================================================
+
+This component allows you to designate zones in your map within which players
+cannot translocate: The translocator target either disrupts upon entering the
+zone, thus gibbing players that try to translocate in the zone, or simply
+disables the translocator target inside the zone.
+
+  Actor >> Info >> NoTransloc
+
+    Allows to prevent translocation within an existing zone. Set the NoTransloc
+    actor's NoTranslocZoneTag property to the same name as the ZoneTag property
+    of the zones that shouldn't allow translocation. It is however possible to
+    translocate into such a zone from the outside. See below for a way to
+    prevent this as well.
+
+  Actor >> Info >> ZoneInfo >> NoTranslocZone
+
+    Designated zone within which translocation is disallowed. In addition to
+    the functionality provided by the NoTransloc actor, it also isn't possible
+    to transloc into that zone from the outside.
+
+Common properties:
+
+  NoTranslocMethod
+    Determines how translocation is prevented in the zone.
+      NoTranslocMethod_Disable   Disables the translocator target inside the
+                                 designated zone. When the translocator target
+                                 leaves the zone, it is re-enabled.
+      NoTranslocMethod_Disrupt   Disrupts the translocator target when it
+                                 enters the zone. The target remains disrupted
+                                 even if it leaves the zone.
+    Default value is NoTranslocMethod_Disable.
+
+
+===============================================================================
+Bugs
+===============================================================================
+
+None known yet. If you find any, please drop me a line. Thanks.
+
+
+===============================================================================
+Copyright/Permissions
+===============================================================================
+
+NoTransloc (c) 2001 by Mychaeel <mychaeel@0x01.net>
+
+This component is freely available for noncommercial use and distribution 
+through any electronic network, provided you include this documentation file.
+For any other use and distribution please contact me for permission.
+
+
+===============================================================================
+
+UNREAL (c) 1998 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

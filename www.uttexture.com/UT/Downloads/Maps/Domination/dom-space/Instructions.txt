@@ -1,0 +1,84 @@
+Heres the lowdown on the map DOM-Space
+
+
+
+=================================
+Brief description of 'Space'
+
+Its a poorly constructed spaceship...'nuff said (i'll get my coat)
+
+Outside looks very impressive, i think due to it featuring
+the skybox taken from 'DM-Oblivion' (please dont sue)
+=================================
+
+Author......................Callum "Spiff" Ogden
+
+Editor(s) used..............UnrealED ver.2
+
+construction time...........1 of your "months"
+
+crowning achievment.........the stargate system
+
+am i sure?..................yes
+
+really?.....................yes
+
+... REALLY?.................yes
+
+ok then.....................its spelt 'okay' actually
+
+==================================
+
+Additional notes
+
++if this map asks for any additioanl textures that arent
+ already there then i'm sorry. Its difficult to tell which are
+ default UT these days with all the crazy mods going around
+
++instalation: copy the files to the relevant UT folders
+ (i.e the map in the maps folder, textures in textures etc)
+
+==================================
+
+Supported game types
+
+Assault..............no
+Team Deathmatch......no	
+Deathmatch...........no
+Domination...........Yes
+CTF..................no
+
+=================================
+
+Credits.....
+
+Lead design: me
+Mapper: me
+textures: Default UT
+Music: Default UT
+Sounds: Default UT
+
+Feel free to direct any/all complaints to the nearest brick wall
+
+i will accept no responsibility for the following
+
+1 spontanious conbustion of PC (has been known to happen, fixed in DOM-Space ver 2094.42.52.13.54.5.256.36.7453.5.3)
+
+2 contents of hard-drive being erased
+
+3 Unreal Tournament being corrupted on your computer
+
+4 World War 2
+
+======================================
+Feel free to think this map is rubbish, or mess with it in any way, so long as you remember how greeeeat it was originally
+
+
+(You hearby owe me £19474.64 for even reading this)
+
+
+
+
+
+
+Feedback to: Spiff_@Hotmail.com

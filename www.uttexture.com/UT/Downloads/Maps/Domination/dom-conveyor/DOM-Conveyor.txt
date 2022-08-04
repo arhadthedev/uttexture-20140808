@@ -1,0 +1,98 @@
+================================================================
+Title                   : DOM-Conveyor
+Version                 : 1.0
+Release Date            : January 28, 2000
+Filename                : DOM-Conveyor.unr
+Author                  : The original DM-Conveyor by Shane Caudle was
+                          modified by Neil Weber 'Dufusyte' for Domination (DOM-Conveyor)
+Email Address           : dufusyte@yahoo.com
+Web Page                : http://www.crosswinds.net/princeton/~nweber
+Description             : DM-Conveyor made into a Domination Map
+Where to get this map   : Try http://www.planetunreal.com/nalicity or 
+                          http://www.fileplanet.com for all your UT map needs.
+
+===============================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : DOM-Conveyor (DOM)
+Deathmatch              : No
+Domination              : Yes
+Assault                 : No
+Capture the Flag        : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd
+Base                    : DM-Conveyor.unr
+Construction Time       : Modified a previous level, so editing time was only a few days.
+Other maps by Dufusyte  :   DOM-Face = a modified version of Facing Worlds for Domination.
+                            DOM-Deck16][ = a modified version of Deck16][ for Domination.
+Installation
+------------
+   Unzip the the files.  DOM-Conveyor.unr goes in the "Maps" directory.
+
+Author's Notes
+--------------
+Many DM maps can be converted to Domination with just a few tweaks.  
+I chose to convert DM-Conveyor because the tremendous catwalks are a 
+dream for the translocator, and should be lots of fun for Domination 
+players who love mobility.  DOM-Conveyor really shines as a Domination map 
+because the translocator is enabled by default, and you can just fly 
+among the catwalks.  Also, the Control Points give the map focus: DM-Conveyor
+is a very large map, and in DM it may strike some players as simply 
+sprawling, but with the Control Points in Domination it gains clear focal
+points.  In particular, the Control Point at the "Catwalks" becomes the heart 
+of the map and the center of battle.  Domination "pulls the map together."
+
+The Control Points cater to three different playing styles: 
+
+- The Control Point in the "Pipes" room is fairly defensible, and players who 
+like to sit and defend will enjoy guarding this point.  It is a slow paced
+Point, and players who like a slower pace will enjoy attacking and defending 
+this point.
+
+- The Control Point on the beam across the "Lava" vat is for players who 
+have mastered precise mobility; they will enjoy the thrill of walking the 
+tight rope above the deadly lava, and they can translocate with such 
+precision that they can translocate exactly to this Control Point without 
+falling into the molten vat.
+
+- The Control Point at the"Catwalks" is the main focus of contention.  
+This Control Point switches hands the most, and players who like fast 
+paced action will enjoy fighting around this Control Point.  There are 
+multiple access routes, so you never know where your attacker will come from 
+next.  The best way to defend this Point is with a shock rifle, so you 
+can combo anybody coming from the catwalk side.  However, you also need a 
+buddy to watch your back, because there are two more entrace routes behind 
+your shoulders.  Good luck!  Standing guard at this Point, waiting tensely, 
+never knowing where your enemy will pop out from...somehow it reminds me of 
+the movie Alien.  The whole map has a little Alien feel to it...a sprawling 
+dark run down environment...you are often wandering alone...with enemies 
+suddenly popping out to attack you...
+
+Changes
+-------
+
+Changes from the DM-Conveyor version:
+
+1.  Added Control Points.
+2.  Tweaked bot paths for Domination gameplay.
+3.  Rearranged PlayerStarts.
+4.  Rearranged weapons & ammo & items for Domination gameplay.
+5.  Added ZoneInfo Location descriptions.
+
+
+Copyright / Permissions
+-----------------------
+Since this is merely a modification of a map that shipped with the retail UT, 
+all bets are off on the Permissions; query Epic Megagames.
+
+----------------------
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

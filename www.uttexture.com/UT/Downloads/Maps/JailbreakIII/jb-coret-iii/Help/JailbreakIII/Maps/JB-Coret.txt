@@ -1,0 +1,63 @@
+================================================================
+Title                   : JB-Coret-JB3
+Version                 : 100
+Release Date            : 01/03/2002
+Filename                : JB-Coret-JB3.zip
+Author(s)               : Alan 'Talisman' Willard
+Conversion 		: Daikiki
+Email Address           : daikiki@beyondunreal.com
+JB3-Modification	: Sexmachine
+Email Address           : sexmachine@ut-jailbreak.de
+Description             : 
+Where to get this map   : http://www.planetjailbreak.com/
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Coret Facility
+Ideal player count      : 6-12
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+CTF                     : No
+JBUT			: Yes
+Dark Match              : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd ver. 2
+Base                    : 
+Construction Time       : 
+
+
+Installation
+------------
+   Copy JB-Coret-JB3.unr to your maps directory. That's all there is to it.
+
+Extended description
+--------------------
+   Daikiki converted this (long time ago) for UTJB. All credits belong to him !
+
+   I (Sexmachine) have added the following (to get it JB3 ready) : 
+   Arena , Maplogo, Capture modified and other necessary JB3 stuff.
+
+Credits
+-------
+   Thanks to Daikiki for the great mod (UTJB) - http://www.planetjailbreak.com
+   Thanks to Mychaeel for the awesome screen component - http://www.planetunreal.com/screen/
+
+Copyright / Permissions
+-----------------------
+   Copyright on modifications Derrick Puckett (Daikiki) 2002
+
+   Authors may use this level as a base to build additional levels (with
+   restricitons, see above).
+
+   Archive or its contents may not be sold for profit in any form.
+   Archive may be distributed freely in its original form with this
+   copyright notice intact.

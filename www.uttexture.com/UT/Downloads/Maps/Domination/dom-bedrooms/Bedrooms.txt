@@ -1,0 +1,19 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+				DOM-Bedrooms
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+This map is based on CTF-Bedrooms by Kid Ying!
+
+---------------------------
+Author:  CPG-FG^EvilShadow
+Title:  Bedrooms (Domination of the Small)
+Game Type:  Domination
+Editor Used:  UnrealED2
+Construction Time:  1 day 
+---------------------------
+
+Bugs:  No bot support | Some textures look weird
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Authors may not use this level as a base for building other levels without the permission of the author.  Authors MAY distribute this level on electronic medium, giving credit where its due.  
+

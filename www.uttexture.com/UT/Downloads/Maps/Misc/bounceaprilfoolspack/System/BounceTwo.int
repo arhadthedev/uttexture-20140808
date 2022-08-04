@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=BounceTwo.BounceMutator,Class=Class,MetaClass=Engine.Mutator,Description="Bounce, You need to include Who Pushed Me.")
+
+Object=(Name=BounceTwo.BounceDeathMatchPlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Preferences=(Caption="Bounce Death Match",Parent="Game Types",Class=BounceTwo.BounceDeathMatchPlus,Immediate=True)

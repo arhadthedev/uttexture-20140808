@@ -1,0 +1,145 @@
+   
+  
+ 
+  News  Submissions  Prefabs  Levels  Staff  Links 
+  
+ 
+ 
+ 
+
+ 
+ 
+   
+
+ Main 
+News 
+Submissions 
+Prefabs 
+Staff 
+Levels 
+Links 
+ 
+Editing 
+Main Page 
+Tutorials 
+Ued Errors 
+Files 
+Shortcut Keys 
+#unrealed 
+Reference 
+Edit Master 
+ 
+Scripting 
+Main Page 
+Tutorials 
+Online Classes 
+Reference 
+Code Master 
+ 
+Modelling 
+Main Page 
+Tutorials 
+Reference 
+Model Master 
+ 
+Skinning 
+Skinning Guide 
+ 
+Prefabs 
+Brushes 
+Textures 
+ 
+Hosted Sites 
+Heph's Music 
+3D Model Emporium 
+Millennium 
+VerMoorD 
+Rage TC 
+Hosting Info 
+ 
+Network Sites 
+Unrealnation 
+S.U.M.E. 
+Honor Guards 
+World of Dreams 
+ 
+Your Unrealed.net 
+If you have a Tutorial, Tip, Hint or whatever! then feel free to send it down, and we will be happy to post it on the site. 
+ 
+ 
+   
+ 
+    
+   
+   
+ 
+
+ 
+ 
+
+ 
+   
+ Exploding Walls
+
+By: Sharky
+
+Sharky
+
+Dated: 12/8/98 
+
+Download: Download Map - 11K
+
+Click here for a printable version of this Tutorial.
+
+
+
+
+ASSUMPTIONS:
+
+This tutorial assumes you know how to make a mover and set it up with a trigger. If you don't, I suggest reading the trigger tutorials on unrealed.net
+
+TUTORIAL:
+     First make your level... now make your wall you want to have explode... make it into a mover.. Now put the mover in your level.. set its KeyFrame1 to someplace outside your level.. Now add an ExplodingWall next to it.. (its under effects)... next set your mover to the folowing properties..
+
+Events
+     Event - B1 (or whatever you name your ExplodingWall)
+Mover
+     bDamageTriggered = TRUE
+     bTriggerOnceOnly = TRUE
+     bDamageThreshold = 20.0000 (make it higher if you dont want the alt fire blaster to break it...)
+     MoverEncroachType = ME_IgnoreWhenEncroach
+     MoveTime = 0.0000
+Object
+     InitState = TriggerOpenTimed
+
+Now change the folowing properties on the Exploding Wall
+
+Events
+     Tag - B1 (same as Event on the mover..)
+ExplodingWall
+     GlassParticleSize - Play around with the size until you get what you want for the effect....
+     WallTexture - Set it to your walls texture...
+
+
+     You should now be all set.. rebuild and test out your level..Have fun.. word of advice tho.. try not to make the particles to big or they will look dumb also play around with the number of Wall Pieces... but again try to keep it low as it will slow down that part of your level if you have like 200 pieces :)  
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

@@ -1,0 +1,62 @@
+================================================================
+Title                   : BeastWays
+Version                 : 1.0
+Release Date            : 13.02.2000
+Filename                : DOM-Beastways.unr
+Author(s)               : Alexander Hoffmann
+Email Address           : hofmeister16@hotmail.com
+Web Page                : http://www.hofmeister16.purespace.de
+Description             : Domination
+Other levels by author  : DM-Hell_Fortress, DOM-Hell_Fortress, CTF-IcyBeach
+Additional Credits to   : Battle_Angel for Betatesting.
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : DOM-Beastways
+Deathmatch              : No
+Assault                 : No
+Domination              : 4-6 players suggested
+Capture the Flag        : No
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : N/A
+NewUnrealScript         : N/A
+External DLLs           : N/A
+Known bugs              : See author's notes below.
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Base                    : Completeley new level
+Construction Time       : 4 weeks with long breaks
+
+--- Beta Testers ---
+Battle_Angel
+
+
+Installation
+------------
+Unzip the .unr file into your UT/maps/ directory and enjoy.
+
+Author's Notes
+--------------
+Man, I'm really glad to have this level finished. Endless construction time but at last the
+level is not very big. Well but I guess this is my best level. A temple like ambience and
+some cool locations compared with fucking good gameplay. But enough to the words play and
+enjoy!!! Oh yeah: didn't see any bugs!
+
+Copyright / Permissions
+-----------------------
+This level is copyright Alexander Hoffmann 2000.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.

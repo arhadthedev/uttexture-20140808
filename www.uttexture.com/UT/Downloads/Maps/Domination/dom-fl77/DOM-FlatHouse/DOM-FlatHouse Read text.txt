@@ -1,0 +1,68 @@
+================================================================
+Title                   : FlatHouse
+Version                 : it's not perfect but its final(for me)	
+Release Date            : 1/26/2000
+Filename                : DM-FlatHouse
+Author(s)               : sleepyhead
+Email Address           : magicsleeper@aol.com
+Web Page                : http:/homtown.aol.com/magicsleeper/myhomepage/games
+Description             : A "medium sized" Domination
+
+Where to get this map   : me or nali city 
+Other levels by author  : DM-GarageShootout DOM-FlatHouse
+Additional Credits to   : The unreal community
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : DOM-FlatHouse
+Single Player           : no
+Cooperative   (team)    : no
+Deathmatch              : no
+Dark Match              : no
+ctf                     : no
+assault                 : no
+domination              : yes
+Difficulty Settings     : no 
+New Sounds              : no
+New Graphics            : no
+NewUnrealScript         : no
+External DLLs           : no
+Known bugs              : nope but i havent tested it.
+
+--- Construction ---
+Editor(s) used          : UnrealEd Beta
+Base                    : n/a
+Construction Time       : 1 night 
+
+
+
+Installation
+------------
+Unzip this map into your \unreal tounament\maps directory
+--------------------
+
+
+Author's Notes
+--------------
+I hope you enjoy this map and please send me feedback on it. Level designers live and die by feedback. Good or bad, tell me what you think of this map.
+Thanks to everyone who helped me play test this map. 
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Joe Wharton (a.k.a. Sleepyhead)
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL TOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

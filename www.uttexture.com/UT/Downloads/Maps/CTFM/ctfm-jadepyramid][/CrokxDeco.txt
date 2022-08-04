@@ -1,0 +1,35 @@
+	 	  _____________________
+		 /                     \
+		(   CrokxDeco - v0.60   )
+		 \_____________________/
+
+===========
+Description
+===========
+Un pack de décoration qui contient: 6 perso, avec 5 animations chacun.
+
+-Actor/Decoration/IntroDude/BossDeco
+-Actor/Decoration/IntroDude/CommandoFemaleDeco
+-Actor/Decoration/IntroDude/CommandoMaleDeco
+-Actor/Decoration/IntroDude/NaliDeco
+-Actor/Decoration/IntroDude/SoldatFemaleDeco
+-Actor/Decoration/IntroDude/SoldatMaleDeco
+
+
+===========
+Utilisation
+===========
+Met un ou plusieurs perso dans ta carte, fais un click-droit dessus et
+sélectionne "Default Properties...". Puis dans "CrokxDeco" choisi une
+animation.
+
+-----------------------------------------------------------------------------
+
+	Auteur:	Crokx
+	E-mail:	Crokx@infonie.fr
+	Site:	http://perso.infonie.fr/crokx
+	Date:	04/10/01
+
+-----------------------------------------------------------------------------
+ 
+		Unreal Tournament (c)1999 Epic Megagames, Inc.

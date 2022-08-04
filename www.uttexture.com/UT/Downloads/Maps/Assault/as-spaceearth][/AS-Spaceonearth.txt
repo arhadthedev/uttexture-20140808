@@ -1,0 +1,118 @@
+>>>>>AS-Spaceonearth][<<<<<
+<<UPDATE>>
+
+
+Title                   : Spaceonearth][ (AS)
+Version                 : 1.0
+Release Date            : june22, 2000
+Filename                : AS-Spaceonearth][
+Author                  : TaroT (Mark Benton)
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             :After your team destroys the missile silo on mars and escapes
+in the pod you recieve a disturbing transmission from Earth,it,s sketchy and seems to lack power but what you make out forces you
+to change direction from the moon base straight to earth..
+"to any troops still in th quadrant..the base...attack....brood has got a foothold
+in new city outside th spacedock..inuit gaurds have been modified to fight...for the brood queen...
+doesnt look good...times running out...mothership..on radar getting closer..i,m out of ammo and food
+i,m all thats left..if you can here me..please....help"END Transmission"
+but just as the radio died out you heard screaming a terrible shrill animal howl
+that chilled you to the bone...the captain orders an immediate ready status and hurtles you into the unknown..
+Your loved ones and home are under attack and you MUST defend them..buckle up grunts..its time to do what you were born to do.
+
+
+
+
+
+
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Assualt
+Level Name              : AS-Spacemars
+Player #'s		: 6 to 12 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : NO
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : yes an assault gun from infiltration..coolest yet
+Known bugs              : There is a major bug in my map i,m really sad to say
+what it is is an inability to play it in practise mode,you can only play by starting a multiplayer game which isnt a major hassle
+you can still kick ass offline just a bit harder...i,m working on this bug and rogue brush but until my editor comes back to life...i,m stuck
+p.s if ANYONE knows how to fix the practice plays as commander bug PLEASE email me i,ve tried everything i cna think of and emailed alot of people 
+with no good news yet..
+added are the biggass monsters i tried to add before but noone saw...hopefully now
+
+
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd2 From UT version 4.20
+Base                    : New level
+Construction Time       : 4 weeks so far...assault has to be the hardest shit 
+1 day to redo
+                           
+
+
+>>>Installation<<<
+all .unr files to maps
+all .utx files to textures
+all .u files to system
+
+
+
+>>>Author's Notes<<<
+this is my 5th map for assault and i thank everyone for the testing and feedback
+hopefully someday i,ll churn a great map :)until then we try and suffer through our lessons..
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+Dom Doorway
+DOM-Disco
+DOM-officeworks
+DOM-Rings
+DOM-Q3meetsUT...you really cant make q3 look good ehhe
+AS-officeworks
+AS-Alcatraz
+AS-Space
+AS-spaceonmars
+plus numerous ports from unreal and tournie
+DOM-loxi
+DOM-elsinore..which i screwed the readme and forgot the credit thing oops and sorry to the author
+DOM-gothic
+Dom-ArizA..the version with colours in it :)and the new version ported from xterminators mod
+Dom healpod
+Dom-curse
+Dom-doom2
+www.nalicity.com or www.fileplanet.com 
+
+
+>>>Copyright/Permissions<<<
+TaroT(aka mark benton)
+june 22, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+unless you do what i forgot from time to time and give credit :)
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

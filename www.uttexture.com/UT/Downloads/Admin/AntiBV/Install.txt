@@ -1,0 +1,16 @@
+Anti Behindview
+
+Place
+
+antibv.int
+antibv.u  
+
+in your unrealtournament/system folder
+
+Under [Engine.GameEngine] add the line 
+
+ServerPackages=antibv
+
+This is not the original readme as i could not find the original file.
+
+Bry

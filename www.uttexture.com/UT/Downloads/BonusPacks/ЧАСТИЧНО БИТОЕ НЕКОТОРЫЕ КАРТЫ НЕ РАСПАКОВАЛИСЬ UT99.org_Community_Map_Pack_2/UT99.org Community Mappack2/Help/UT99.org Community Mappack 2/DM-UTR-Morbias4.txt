@@ -1,0 +1,94 @@
+------------------------------------------------
+
+               Title: Morbias 4: Tourist Centre Station
+            Filename: DM-UTR-Morbias4.unr
+              Author: Creavion
+       eMail Address: creavion@freenet.de
+         Website URL: -
+        Release Date: with the release of the UT99.org community Mappack 2
+         Last Update: ""
+             Version: 1.00 
+
+Level specific Credits:
+
+ - Epic Megagames for the UT series
+ - Elliot "Myscha" Cannon for creating the original Morbias
+ - Kevin Riepl for the Axon Track 
+ - Proof for the plants and trees
+ - Menderis - Rotor Animation Textures
+ - Phyritox, sklare - Additional textures
+
+Other levels by author (finished stuff):
+
+DM-Ryigiar and the other map(s) for this pack
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: Morbias 4
+           Game Type: Deathmatch
+            Botmatch: True
+       Single Player: False
+            Teamplay: Optional
+        New Textures: Yes, mostly copyrighted by Epic Games (for details > credits part)
+          New Sounds: Antalus Wind Sound.. also by Epic Games
+           New Music: Axon Compressor - by Kevin Riepl
+        New Mutators: False
+                Mods: False
+
+====================================================================================
+Construction
+------------
+
+                Base: Built from scratch
+          Build Time: more or less a month
+   Ideal Playercount: 5-12
+      Editor(s) Used: Unreal Editor 2, Photoshop CS 2, 
+                      DB Amp Power Converter, Windows Audiorecorder 
+                      (for increasing of the volume)
+          Known Bugs: uhm.. a small bsp bug but it doesn`t affect gameplay in any way.
+====================================================================================
+Installation
+------------
+
+ Copy DM-UTR-Morbias4.unr into UnrealTournament/Maps folder
+ Copy XPickups.u and xpickups.int into UnrealTournament/System folder
+ Copy KamahT.utx into UnrealTournament/Textures folder
+
+====================================================================================
+Extended Description
+--------------------
+ Welcome to the new Morbias Station which was built around this old Nahkti Pyramid.
+ The Liandri use this complex as an additonal source of income.
+ This ancient pyramid is also a quite popular tourist attraction, too. 
+ When last tourist leaves, Liandri guards close gates and set bloodthirsty Tournament
+ participants free. Let the carnage begin!  
+
+====================================================================================
+Author's Notes
+--------------
+
+ I do know that quite a lot of people around don't like remakes that much...
+ ... and I don`t know why but I felt like making this map. 
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+
+Copyright 2008 Creavion
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.

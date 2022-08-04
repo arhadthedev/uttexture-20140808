@@ -1,0 +1,41 @@
+	>>> AS-Urban Wars 2<<<
+
+   Map Name: Urban Wars - Part 2
+   Map Type: UT-Assault
+       Game: Unreal Tornament
+     Author: Revelation
+    Players: 10
+       Bots: true
+ Build Time: about 3 weeks
+Editor Used: UnrealED 2.0
+      Files: AS-Urban Wars 2.unr / Midtown2_tex.utx
+
+=======================================================
+
+This is the sequel to my last Assault-Map, AS-Urban Wars, which you can download here:
+http://unrealed.planet-multiplayer.de/index.php?P=info&D=2318
+
+The requirements are Unreal Tournament v436 and Bonuspacks 3 & 4... And a VERY fast computer! If you have a smaller machine, you can forget this map immediatelly, but if you have one of those High-End-PCs, you will enjoy it ;) 
+I would decide to set your Color-Depth to 32Bit, otherwise some Textures look really ugly.
+
+=======================================================
+
+Special thanks to:
+
+- Titanus and his crew that created the fantastic "Fuhrpark 5 Final Edition"! I've thaken some models, because they are simply the best ;)
+
+- The Shock-Systems-Team that built the best AS-Map-Pack ever: The "SteelPack". I've taken the steelpack.u from there, in order to have the "GenereticSpawner"-Effect.
+
+=======================================================
+
+You are allowed to copy this map and give it to friens, but do not change it or build other maps on it's base.
+You are not allowed to sell the map, if you want to put
+it on a CD or something, please send an E-Mail to:
+
+Revelation1984@freenet.de
+
+=======================================================
+
+Have fun playing!
+
+		Revelation

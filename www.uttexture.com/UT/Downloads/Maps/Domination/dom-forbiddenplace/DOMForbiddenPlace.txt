@@ -1,0 +1,31 @@
+================================================================
+Title                   : DOM-ForbiddenPlace	
+Version                 : 1.0
+Release Date            : 29. June 2000
+Filename                : DOM-ForbiddenPlace.unr
+Author(s)               : André 'Horus' Brandes
+Email Address           : webmaster@motionexe.de
+Web Page                : www.mapcreations.de
+
+Other levels by author  : DM-RealUnderground
+			  DM-HighFrequency
+			  DM-StrangeCity
+			  DM-ForbiddenPlace
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Single Player           : Botmatch
+Cooperative             : -
+Domination              : 4 - 6 players suggested (8 player start points in total)
+New Sounds              : no
+New Graphics            : no
+Known bugs              : -
+
+--- Construction ---
+Editor(s) used          : UnrealED 
+Construction Time       : ~ 1 week
+
+Installation
+------------
+Unzip the .unr file into your Unreal Tournament/maps/ directory .

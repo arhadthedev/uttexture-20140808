@@ -1,0 +1,59 @@
+================================================================
+Title                   : AS-RailBridge
+                          
+Author                  : T. Ahlén
+
+Date                    : Jan 2000
+
+Filename                : AS-Railbridge.zip
+
+File contents           : AS-RailBridge.unr
+			: Citytex.utx
+                        : TSigns.utx
+			
+Email Address           : ebbot@localbar.com (please send your comments)
+Home Page		: none
+Description             : UT Death Match 
+                         
+================================================================
+
+Play Information	
+
+Single Player           : No.
+Deathmatch              : Yes.
+Recommended No. Bots    : 2-10 (best 4 on 4)
+Comments		: ? 
+			 
+                          
+
+=================================================================
+
+Installation instructions
+
+Unzip "as-railbridge.unr" in your UnrealTournament/Maps folder.
+Unzip "citytex.utx" in your UnrealTournament/Textures folder.
+Unzip "tsigns.utx" in your UnrealTournament/Textures folder.
+
+KNOWN Problems: some i guess....
+
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd (UnrealTournament V4.00)         
+
+Build Time              : ?
+
+
+===================================================================
+Other maps by Author:
+
+ DM-Egypt
+ DM-Garage
+ DM-Bridge
+ AS-Central
+ DM-Tyard
+ DM-Pstation
+ AS-RailBridge

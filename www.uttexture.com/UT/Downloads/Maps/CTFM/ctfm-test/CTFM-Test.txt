@@ -1,0 +1,29 @@
+*************************************************************
+Contents of CTFM-TEST.ZIP
+
+CTFM-Test.unr
+CTFM-Test.txt (Don't worry you have that one)
+
+*************************************************************
+
+Author:Lord Riff Raff
+Map: Underwater Playground
+Contact:jcr@ww.co.nz
+Comments:Just another test room
+
+
+*************************************************************
+Known bugs:Email me
+Description:Four boxes with platforms in between sitting in 
+            water.
+
+*************************************************************
+
+This map comes with no support. If you want to stick on CD or
+edit it just email me first. Oh feel free to use this txt 
+as a template
+
+*************************************************************
+<> <>
+  ?
+ \_/

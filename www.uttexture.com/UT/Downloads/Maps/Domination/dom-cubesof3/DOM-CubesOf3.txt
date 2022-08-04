@@ -1,0 +1,78 @@
+Unreal Tournament Map
+
+================================================================
+Title                   : DOM Cubes of 3
+Version                 : 1
+Release Date            : Jan 18 2000
+Filename                : DOM-CubesOf3.unr
+Author                  : BOBXXII
+Email Address           : BOBXXII@hotmail.com
+Web Page                : http://members.xoom.com/BOBXXII/unreal.html
+
+                           
+Description:
+
+  DOM-Cubes of 3 is DM-Cubes of 3 with a control point added to each 
+cube.  I wouldn't recommend playing with more than 2 people.  
+
+
+Where to get this map   : http://members.xoom.com/BOBXXII/unreal.html
+
+					
+Other levels by author  : DM-CubesOf3
+			  DM-CubesOf5
+			  DM-CubesOf15
+			  DM-HillTop
+			  DM-Machu
+			  DOM-CubesOf5
+			  DOM-CubesOf15
+			  DOM-HillTop
+			  DOM-Machu
+
+
+Additional Credits to   : ISOSCELES and LordSmack for testing.
+			  Wanderer and Jenkins from PlanetUnreal Forms. 
+			     (These guys kick arse.)
+			  The Guys and Gals @ unrealed, unrealized, and Wolf's.
+			  
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : DOM Cubes of 3 (DOM-CubesOf3.unr)             
+
+Game Type               : Domination
+Single Player           : Yes, I dare you to play against a God Mode Bot =)
+Multiplayer             : Yes, 2
+New Sounds              : No
+New Graphics            : No
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd, a couple of CAD programs
+Base                    : New level
+
+
+Installation
+------------
+   Unzip the file DOM-CubesOf3.unr into your UnrealTournament\maps directory.
+You can then choose DOM-CubesOf3 from the "start practice session\deathmatch" menu.
+
+
+Copyright / Permissions
+-----------------------
+This level is NOT copyrighted by BOBXXII.
+Authors MAY use this level as a base to build additional levels.
+
+You ARE allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money.  
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.)
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

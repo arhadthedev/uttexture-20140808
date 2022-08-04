@@ -1,0 +1,30 @@
+==============================================
+Map for mod MultiTeam CTF of Unreal Tournament
+==============================================
+--------------------------------------------------------------------------------------
+
+	CTFM-Frenzy
+
+--------------------------------------------------------------------------------------
+Map name:			Frenzy
+Game type:			MultiTeam CTF
+Recomended player count:	4x4 => 16
+Stature:			average
+Weapons available:		[ ]
+Translocator:			[x]
+
+New Sounds: 			No
+New Graphics: 			No
+
+Editor used:			UnrealEd v2.00 (UTv436)
+Release Date:			11/05/01
+Build time:			1 day geometry 1 month and a half pathing (bloody bots)
+---------------------------------------------------------------------------------------
+Author:				Darkinnit
+E-Mail:                  	Darkinnit@yahoo.co.uk
+
+Other levels by author:		None (Yet)
+-----------------------------------------------------------------------------
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ -=> Unreal Tournament (c)1999 Epic Megagames, Inc. <=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

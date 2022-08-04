@@ -1,0 +1,55 @@
+Game : Unreal Tournament
+========================================================================
+
+Title                   : "Cold Blue Skies"
+Filename                : DOM-ColdBlueSkies.unr
+Author                  : Lightning Hunter
+Email Address           : Lightninghunter@hotmail.com
+Homepage                : http://l_hunter8.tripod.com/
+Description             : A New Domination map for Unreal Tournament built from scratch.  
+                           
+Additional Credits to   : Epic games and Gt interactive for making Unreal 
+                          Thanks to the people who made sky.utx and space1.utx  (I cant name them, I don't know who made it)
+========================================================================
+
+
+* Play Information *
+
+Game Type               : Deathmatch
+Players                 : 6-8
+New Sounds              : No
+New Graphics            : Yes (Some of the sky box textures.
+New Music               : Yes (I used the crashed spaceship music from Return to Na Pali mission pack from unreal 1.)
+Bot Support             : YES
+
+
+
+* Construction *
+
+Base                    : New Map From Scratch
+Editor(s) used          : UnrealEd
+Known Bugs              : None
+Build Time              : couple of months
+Compile machine         : P4 1.3 Ghz 128mb Ram Geforce3
+	
+
+* Other Info *
+
+This map is set in a old indus. building.  There are 3 levels in the building.  The Roof top, the center of the
+building, and a lower pool area.  I spent lots of time adding in detail to this map and getting the bots to work
+properly.  The bots go everywhere and use all the lifts.  There are several ways to get to each level in this map.  
+I put some paths outside the building that are kind of like the ones found in Peak.unr.  They lead from one level to
+next and wrap around the building.  This map is very fun fast action.  I made it so that in order to get good items 
+such as the redeemer, you have to travel a little ways away from the control points.  Have fun!
+
+* How to install *
+
+Put DOM-ColdBlueSkies.unr in your unrealtournament/maps directory
+put Escape.umx in your unrealtournament/music directory
+put Sky.utx in your unrealtournament/textures directory
+put Space1.utx in your Unrealtournament/textures directory
+launch the game and the new map will be in the map selection list.
+
+* Copyright / Permissions *
+
+You must contact me if you wish to edit anything on this map.  Feel free to share this map with anyone.

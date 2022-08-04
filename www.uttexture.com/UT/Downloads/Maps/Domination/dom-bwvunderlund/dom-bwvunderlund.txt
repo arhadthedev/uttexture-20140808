@@ -1,0 +1,30 @@
+================================================================
+Title              	: DOM-BigWalt'sVunderlund     
+Version                 : 1.1
+Release Date       	: 04/21/2000
+Filename              	: DOM-BWVunderlund.unr
+Author(s)              	: Chad "GreyTiger" Barnett
+Email Address        	: greytigeris@yahoo.com
+Web Page              	: www.geocities.com/greytigeris/utmaps.htm
+			
+Description             : A guy calling himself Big Walt wanted me to make him his own level for some reason.  Since he cries and boohoos alot during games, I came up with this.  Its a mouse sized map.  Bots play the map ok, though sometimes suicide off the ledges for no good reason.
+
+Fixed the problem with the crusher removing the second sniper rifle and all the ammo for it from play for the rest of the game.
+
+Improved the Toilet Trap
+
+Removed the Enhanced Shock Rifle and replaced it with invisibility.
+
+Added a music track, Scott's a Dork by Reel Big Fish :)
+	
+			
+Other levels by author:
+			DM-SolarisFactoryUT or DM-UTSolarisFactory
+			DM-SolarisSteiner
+			DM-Jakkobozo
+			DM-Stargate
+			DM-Q3vsUT
+			DM-HouseofHollywood
+			DM-HollywoodsRevenge
+			CTF-Millencolin
+

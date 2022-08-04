@@ -1,0 +1,137 @@
+   
+  
+ 
+  News  Submissions  Prefabs  Levels  Staff  Links 
+  
+ 
+ 
+ 
+
+ 
+ 
+   
+
+ Main 
+News 
+Submissions 
+Prefabs 
+Staff 
+Levels 
+Links 
+ 
+Editing 
+Main Page 
+Tutorials 
+Ued Errors 
+Files 
+Shortcut Keys 
+#unrealed 
+Reference 
+Edit Master 
+ 
+Scripting 
+Main Page 
+Tutorials 
+Online Classes 
+Reference 
+Code Master 
+ 
+Modelling 
+Main Page 
+Tutorials 
+Reference 
+Model Master 
+ 
+Skinning 
+Skinning Guide 
+ 
+Prefabs 
+Brushes 
+Textures 
+ 
+Hosted Sites 
+Heph's Music 
+3D Model Emporium 
+Millennium 
+VerMoorD 
+Rage TC 
+Hosting Info 
+ 
+Network Sites 
+Unrealnation 
+S.U.M.E. 
+Honor Guards 
+World of Dreams 
+ 
+Your Unrealed.net 
+If you have a Tutorial, Tip, Hint or whatever! then feel free to send it down, and we will be happy to post it on the site. 
+ 
+ 
+   
+ 
+    
+   
+   
+ 
+
+ 
+ 
+
+ 
+   
+ Creating/Importing Textures
+
+By: Millennium 2002
+
+Millennium 2002
+
+Dated: 13/8/98 
+
+Click here for a printable version of this Tutorial.
+
+Forward:
+I needed to have a texture of a particular texture to a level that I am working on, and after I did it, I decided to make a tutorial on the subject as it is quite simple, but not something that is esy to work out... 
+
+Abstract:
+I wanted to have a particular texture (a shot of the moon, if you must know)for a skybox that I was creating, and when I worked it out - it was so cool, that I had to post a tutorial on it so other people out there could create them easily. 
+
+Assumptions:
+I am assuming that you have a copy of paint program. I am using Paint Shop Pro 5 (and I will be refering to some commands that are in it). If you need a copy, then download it from www.jasc.com. But enough there, as long as you have a paint program that supports .pxc files (Zsoft Paintbrushes Ver 5) the you shoudn't have any problems. 
+
+Tutorial:
+Introduction:
+I will create a simple texture to start with, then make an actual picture out of a file that I already have. 
+
+Creating a simple color:
+I always wanted to have a simple black texture for those little out of the way things, but there isn't one in Unreal, so let's create one. Firstl open your Paint program, and create a new image. Make the image about 500x500. Now we could use it with a "plain" black, but that does look a little too boring, and doesn't draw nicely, so let's add a little noise - (choose image from the menus at the top of the screen, and select "add noise".) Now we don't want to add in too much, but just enough to make it visible as blemishes in the metal. When you have added the noise, make the image greyscale (colors--> greyscale). Now to add a nice blur to it we (Image -->Blur -->Motion blur) and you should find that your black surface has a nice "blemished" look to it. If you want to do anything more to your texture at this - feel free, but I will stick to the topic and get into making the texture. You can create a seamless texture by selecting by (Selection --> Create a seamless pattern). Almost there! Resize the image (Image -->resize) and make it a power of 2 (2,4,8,16,32,64,128,256,512,1024,2048) make make it SQUARE. None of this will work if the image isn't a square (128x128 or 256x256). Now save the image as a .pcx file (Zsoft paintbrush Ver 5). You can skip the next part if you like, as it only goes through the same thing, but about an actual image... 
+
+Creating a "picture" or detailed texture:
+If you did the part above, then this is a peice of cake... All you have to do is get the image that you want, make it Square, and save it as a .pcx file (Zsoft Paintbrush Ver 5) and go onto the next part... 
+
+Importing into Unreal:
+Load into Unreal. Where you see the texture bar, select "import" from the options down the bottom. In the window that is created, open the file that you have just created. You can name the "Texture Group" by placing any name you like in the "Group" box. When you have done this, click OK. You should now have a wonderful little texture that is either a blemished metal, or the picture that you saved. Now to save the "Texture Group", select "Save" from the options below the texture bar, and you will be asked to enter a name... Name the group whatever you want, and click save. Now you will be able to give other people the the file with all your cool textures... It will also come in handy if you are posting your map anywhere as the people will (I think) need the .utx file that you created to play the level. 
+
+Important Notes:
+Make sure that the image you have created is in 256 colors, otherwise you will get a "bad something" messae, and the program will hang... (I found this out the hard way...) If you want to add multiple textures into one group, then simply choose the particular group that you want to add into (from the normal texture bar options) and click import. It will default into the open group. Just make sure that you save the file before getting out of the editor... 
+ 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

@@ -1,0 +1,183 @@
+DM-Sample
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: FD-LavaGiant
+
+Filename: fd-lavagiant.zip
+
+Author: Conversion by Ebola
+
+eMail Address: ritchflynn_2000@yahoo.com
+
+Website URL: 
+
+Release Date: Aug 22, 2001
+
+Last Update: Teusday, Aug 22, 2001
+
+Version: 1
+
+Credits: Mom (Hi, Mom! :-) 
+
+Epic for a great game and for putting together a great group of mappers.
+
+Uncommon for creating a great mod called Flag Domination. 
+
+Other levels by author: DOM-Tundra][
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Game: Unreal Tournament
+
+Level Name: FD-LavaGiant
+
+Game Type: UTFlagDomination
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Only For Bots
+
+New Textures: No
+
+New Sounds: No
+
+New Music: Yes (Sorry, just sick of Skyward.)
+
+New Mutators: No
+
+Mods: Yes
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: CTF-LavaGiant
+
+Build Time: 45 minutes
+
+Recommended # of Players: 8-14
+
+Editor(s) Used: UnrealEd 2.0
+
+Known Bugs: The mutator's decals are causing some unwanted tranparancy issues.
+
+====================================================================================
+
+Inventory
+
+---------
+
+Weapons: Flak Cannon, Ripper, Sniper Rifle, Pulse Blaster,
+GES Bio Rifle, Minigun, ASMD Shock Rifle, Rocket Launcher, Redeemer
+
+Armor and PowerUps: Health Packs, Shield Belt, Anti Grav Boots, Armor,
+
+
+====================================================================================
+
+Mods
+
+----
+
+Flag Domination - mixes CTf and DOM.
+
+You have flags in no-mans land. Go get 'em and bring them back to your base. Once 
+there, you'll find each flag has it's own place to be left off. Leave and score points
+Domination style. But unlike Domination, if all three flags aren't in a base at the same
+time, no one scores!
+
+One of Uncommon's mods. Great stuff, but barely supported. This Mod could really catch 
+on if more people mapped for it, so c'mon gang, grab the mod from one of the links below, 
+and lets get some support to this beauty! :-D
+
+http://www.uncommonplace.com
+http://www.planetunreal.com/modsquad/ 
+
+mailto: uncommon@uncommonplace.com if you have questions about it.
+
+====================================================================================
+
+Installation
+
+------------
+
+Unzip fd-lavagiant.zip
+
+Store the *.unr file in your Unreal Tournament/Maps directory along with the others
+(see guide below), then either doubleclick on it, or type
+
+open FD-LavaGiant
+
+in the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+
+*.unr files go in Maps/
+
+*.utx files go in Textures/
+
+*.umx files go in Music/
+
+*.uax files go in Sounds/
+
+*.u and *.int files go in System/
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+
+====================================================================================
+
+Author's Notes
+
+--------------
+
+I have another conversion on the way - FD-Command based of CTF-Command. It has to be...
+er...debugged first. Soon I intend to release some original maps for the mod. I encourage
+other mappers to join me. This mod is great fun, but not with only 8 maps to play!
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+Er...I stole this, but...
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================
+

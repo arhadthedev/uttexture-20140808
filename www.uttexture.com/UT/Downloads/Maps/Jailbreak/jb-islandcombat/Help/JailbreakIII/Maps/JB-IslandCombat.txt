@@ -1,0 +1,63 @@
+================================================================
+Title                   : IslandCombat
+Finished                : 
+Filename                : JB-IslandCombat.unr
+Author                  : James "Chezdog" McLean
+Email Address           : 
+			: 
+Additional Credits to   : 
+			: 
+			: 
+			  
+			: The Jailbreak community for playing, hosting, pimping
+			  mapping and coding for Jailbreak
+
+================================================================
+
+--- Play Information ---
+Game                       : Unreal Tournament
+Level Name                 : IslandCombat
+Single Player              : Jailbreak
+Cooperative                : Yes
+Deathmatch                 : No
+Dark Match                 : No
+Difficulty Settings        : No
+New Sounds                 : 			     
+New Graphics               : No
+NewUnrealScript            : No
+External DLLs              : No
+Known bugs                 : None
+Recommended no. of players : 10-14
+
+--- Description ---
+
+
+ 
+--- Construction ---
+
+Editor(s) used          : UED2
+Base                    :
+Construction Time       : 
+
+--- Installation ---            
+Put the .Unr file in your /maps directory
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by James "Chezdog" McLean.
+
+Don't modify without my permission.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

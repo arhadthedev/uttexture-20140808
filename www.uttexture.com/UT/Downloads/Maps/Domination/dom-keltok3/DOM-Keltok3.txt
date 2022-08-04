@@ -1,0 +1,27 @@
+Hello,
+
+Welcome to Keltok3
+
+This UT-Map is my second UT-Project (after DM-Coaxis),
+so don't expect too much!
+
+DOM-Keltok3 has 4-ContolPoints, one of them is
+under Water. 
+
+I read some Pathnoding Tutorials but every said Bots
+don't like to go under Water.
+
+In this Map you're getting Bots fights under Water.
+But sometimes this Map is too complex for Bots, or
+my Pathnoding experience are too low, I'm sorry.
+
+Try to find  three secrets!
+
+It was a huge work to make this Map, but I learned
+a lot.
+
+And don't forget : There is no Spoon!
+
+Bye
+
+nexx (Robert Hoffmann)

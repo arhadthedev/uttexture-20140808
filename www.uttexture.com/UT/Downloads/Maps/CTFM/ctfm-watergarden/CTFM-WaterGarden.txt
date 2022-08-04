@@ -1,0 +1,73 @@
+Author: Lord Riff Raff 
+
+=====================================================
+
+Map(s)
+
+CTFM-Water Garden
+
+=====================================================
+Contents
+
+CTFM-WaterGarden.txt (Don't worry you have this one)
+CTFM-WaterGarden.unr
+Jap.utx (I had to find a name nobody had used yet:)
+The whole lot should be Unzipped 527kb
+
+=====================================================
+Instructions
+
+Unzip the files (I'll assume you've done this)
+
+Place CTFM-WaterGarden.unr in the UT Map directory
+Place CTFM-WaterGarden.txt in the UT Help directory
+Place Jap.utx in the UT Texture directory
+
+=====================================================
+Editor(s) used
+
+UnrealEd 2.0
+Corel PhotoPaint 5.0 (Ancient I know)
+
+=====================================================
+Known Problems
+
+The devil fish don't respawn because I don't want them
+to, the cold water is enough to stop people from going
+for a swim:) 
+
+=====================================================
+Comments
+
+Don't run around the map in spectator mode first 
+because the devil-fish eat one another up.
+
+=====================================================
+Other maps by Lord Riff Raff
+
+DM-NewMexico, Dm-NewMexico][, DM-History
+CTF-NewMexico, CTF-Tidal Wave, CTF-QTube 
+CTF-Foggy Heights Coll 22 (I'm converting this soon the CTFM),
+CTF-WaterFall (Not ready Yet)
+
+=====================================================
+
+Legal Stuff
+
+You can play these maps but you must not charge
+anybody for them. You can edit them if you ASK ME FIRST. 
+
+Magazine cover disk are okay if they ask me as well
+(PC PowerPlay would be great:)
+
+THIS LEVEL IS NOT MADE BY OR SUPPORTED BY GT Interactive 
+Software Corp, The WizardWorks Group, Inc, or any of such
+parties affiliates and subsidiaries
+
+Oh and any damage it does isn't anybodys fault.
+
+(C) Copyright Jeremy Read 2001 
+=====================================================
+Contact
+
+Email jcr@ww.co.nz

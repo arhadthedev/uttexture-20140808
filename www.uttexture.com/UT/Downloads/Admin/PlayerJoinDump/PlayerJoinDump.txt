@@ -1,0 +1,24 @@
+PlayerJoinDump ServerActor for Unreal Tournament by El Muerte version 100
+
+about
+-----
+The PlayerJoinDump ServerActor will dump info about every player
+that joins during the game. Only real players are logged, no spectators,
+spectators can't be logged the way I coded this ServerActor.
+
+install
+-------
+It's very easy to install, just add PlayerJoinDump.PlayerJoinDump
+to the server actors in the server  configuration file
+
+result
+------
+The information about the players will be dumped in the server log
+file in the following format:
+[PLAYER_JOIN] <player name> <ip:port> <current netspeed>
+Every player will be listed in the log every the play in a game, that
+means that after a map change the players will be listed again.
+
+contact
+-------
+El Muerte (thekiller@cyberjunkie.com)

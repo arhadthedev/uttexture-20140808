@@ -1,0 +1,32 @@
+File Name: DOM-Inferno][
+Map Title: Inferno][
+Author: Roberto 'Homeslice' Tobar 
+Ideal Player Load: 4-8
+Map Music: firebr.umx
+Build time: Wasn't long.
+Program(s) used: UnrealEd
+Known bugs: Nothing I could find.
+Bot intelligence: It's all right.
+Email address (es): roberto_tobar@yahoo.com
+Website: Nothing yet....
+
+Ain't much here, but check it out anyway....just some strange place in a different galaxy, called Inferno. It's just a few rooms long, but the lava in one room and fiery-looking sky should call it Inferno for you.
+3 control points here - the furnace (where the lava is), the 'death fall' (small outdoor area with an exceptionally long drop) and the courtyard - another small outdoor area in the back. All in all, check it out.
+
+If there are changes you wanna make to this here map, it's a good idea to email me for permission first! 
+
+Here are your basic directions (if you're having trouble, something's wrong with you):
+
+Extract DOM-Inferno][.unr into the maps directory in your C:\UnrealTournament folder.
+And that's all it is. Don't bother installing this readme.
+
+Other maps by me, soon to be released:
+DM-StripMine
+
+Maps in progress:
+DM-1on1-Turbulence
+
+....and a bunch of others I've either yet to work on, or haven't thought of uploading to Nali City.
+
+Have fun and frag well!!
+:)

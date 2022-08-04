@@ -1,0 +1,122 @@
+=============================================================================
+Title                : Resurrection of the Warlock
+Filename             : AS-Resurrection.zip
+Version              : Version 1.0  12/30/99  (Happy Y2K!!!)
+
+Description          : Assault map for Unreal Tournament
+Author               : NarkyBark, aka Damon Psarris
+Email Address        : psarris@cesium.clock.org
+Misc. Author Info    : http://www.clock.org/~psarris
+                       
+Credits to           : Everyone on the boards for amazing feedback!
+			   : Organ sample in ending sequence from the
+			   : Faith No More album "Angel Dust".
+=============================================================================
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Maps                    : AS-Reurrection
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes!
+New Sounds              : Yes
+New Graphics            : Yes
+Recommended Players:	: 6 - 14
+
+-=[ Construction ]=-
+
+Base                    : new map from scratch 
+Build Time              : about three or four weeks?
+Editors used            : UnrealEd
+ 
+Known Bugs              : None (well, one, but it's subtle and not fixable
+			: due to the way I built the map ;) )
+
+NOTICE:  IF YOU PLAYED THE BETA VERSION OF THIS MAP, YOU WILL NEED TO REPLACE
+THE FILE "ResurrectTex.utx" in your textures folder.  The old one from the beta
+should be discarded.  If you do not do this, you will get mismatch errors when
+you attempt to play online, and some textures in the game will be missing and
+look an ugly green.
+
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the .zip file.  Look in your UnrealTournament directory.
+The .unr file goes in your MAPS folder, the .aux file goes in your SOUNDS
+folder, and the .utx file goes in your TEXTURES folder.  Voila!
+
+===============================================================
+
+-=[ Description ]=-
+
+The Warlock's Tower has remained dormant for decades, taken over by the
+forces of Order long ago, when the Warlock was imprisoned in death.  Now
+is the time for our master to rise again, and we will take back what is
+rightfully ours and spread the reign of Chaos to all lands.
+
+My first AS map for UT, even the BETA was received very well it seems
+and I found it on servers everywhere.  I can only hope that people enjoy
+my work, for I'll continue to make more of it.  My goal as a mapmaker is
+to make something OTHER than the usual warehouse and cramped indoor levels- I want atmosphere.  I hope I succeeded.
+
+I designed this map to give defense more of an edge than usual, you won't get any 30 second matches here!  The map should be FULLY bot
+compatible, and provide a decent challenge.  As always, I love feedback!
+I want to know what YOU think, for better or worse- that's the only way
+to improve!  And I also even implement a lot of suggestions for maps
+in development.
+
+
+========================================================================
+
+Changes from Beta 0.2 to Final 1.0
+
+1.  Ending sequence added.
+2.  Steps added to both mausoleums.
+3.  Brightened ambient light.  I did not *want* to do this, but I realized
+that people using software rendering are seeing a lot darker version than what
+I'm seeing with 3dfx.
+4.  Added location tags.
+5.  Changed various aspects of lightning.
+6.  Added a few secrets.
+7.  Added various sound effects.
+8.  Added jumpboot ledges.
+9.  Made bells audible from the ground.
+10.  Improved bot paths, creating more believable charges, and randomized some
+paths.
+11.  Improved flames.
+12.  Added various inventory.
+13.  Added short invisible barrier next to ground teleporter, to prevent
+accidentally warping in and running right off the cliff by accident.
+14.  Lots of little things.
+15.  Changed triggerlights and some triggers to AlwaysRelevent.  I HOPE this
+prevents a mess that I've had in the past with DmEther, where special effects
+get messed up online, even if they work fine in solo play.  I'll keep a watch
+on it.
+
+============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+This level is copyright (c) 1999 Damon Psarris.
+This level is not supported by Legend Entertainment or Epic Games.
+
+Any reproduction or commercial distribution of the map file is prohibited
+without the prior permission of Damon Psarris.  Ask me, I'll probably say yes.
+(altho I'd have to modify something first...)
+
+You are allowed to distribute this level on a non-commercial basis, for example
+over the internet and any other medium that is free of charge. You must distri-
+bute the whole ZIP with .unr and .txt file, though.
+
+
+-=[ Where to get this level ]=-
+
+Hopefully you have it already!
+http://www.clock.org/~psarris/levels
+
+I HOPE YOU LIKE THE MAP!  I Put many hours into making it, and I hope that it
+is enjoyable for you.  Cheers!
+

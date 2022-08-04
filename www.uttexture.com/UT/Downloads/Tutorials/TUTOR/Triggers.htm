@@ -1,0 +1,139 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Basic Triggers - unrealed.net</title>
+</head>
+
+<body bgcolor="#29476B" topmargin="0" leftmargin="0"
+rules="none">
+
+<table border="0" cellpadding="0" cellspacing="0" width="600" text="#3EADB7" bgcolor="#29476B">
+
+<style>
+<!--
+A:link {text-decoration: none; color: #00ffff}
+A:visited {text-decoration:none; color:#00ffff}
+A:hover {text-decoration:none; color:#00bfff}
+-->
+</style>
+
+    <tr>
+        <td valign=top background="../../images/head_back_01.jpg"><table border="0" bgcolor="#53657B" cellpadding="0" cellspacing="0" border="0" text="#3EADB7">
+            <tr>
+                <td bgcolor="#53657B"><img src="../../printable/header.jpg"width="600" height="60"></td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+        <td><table valign=top border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+            <tr>
+
+                </td>
+                <td width="15"><br>
+                </td>
+                <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+                    <tr>
+                        <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+                            <tr>
+                                <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7">
+
+
+<tr><td><br></td></tr><tr>          <td>
+                                       <table border="0" cellpadding="0" cellspacing="0" width="100%" text="#3EADB7" bgcolor="#53657B">
+                                       <tr><td width="100%" bgcolor="#29476B"><img src="../../../images/edit.jpg"></td></tr><tr><tdbgcolor="#29476B"><br></td></tr>
+                                    <tr>
+                                        <td colspan="3"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#53657B" text="#3EADB7">
+                                        <tr>
+                                        <td background="../../images/news_bord/ls.jpg"><img src="../../images/news_bord/ls.jpg" width="10" height="2"></td>
+                                        <td><table border="0" cellpadding="0" cellspacing="0" bgcolor="#53678B" text="#3EADB7">
+                                        <tr>
+                                        <td bgcolor="#53657B">
+
+ 
+ 
+<font color="#00ffff" size=4>Vertex Editing</font><br>
+
+
+                                        <font color="#E6E6E6">
+
+
+
+<P>By: Bostich</P>
+<P>Dated: 26/5/98 </P>
+<p>Click <a href="../bas_trig.phtml">here</a> to return to the main tutorial or <a href="../../../edtutes.phtml">here</a> to go back to the main Tutorials page.</p>
+
+
+<font color="#00ffff"><B><U>Assumptions</U></B></font><BR>
+I'm working under the assumption that you already know how to make a Mover, or Moving Brush.  If you don't, then please grab a copy of a tutorial on that or none of the following will make any sense. For this Tutoral I have included a map that has three triggers.  I made the second Trigger by right clicking the Trigger and choosing Duplicate. The third trigger is a button, which is easier than a trigger, and included here because it's not worth a whole tutorial.
+<p></p>
+<font color="#00ffff"><B><U>Triggers1 : Triggering Movers</U></B></font><BR>
+
+I'm only going to cover how to Trigger Movers in this tutorial, otherwise it would go on forever.  Okay, I also have no idea how most of the other triggers work.  The important class for this tutorial is the Trigger -> Trigger class.  As the name suggests, Triggers are used to activate properties of other classes, which means you must remember to edit the properties of both the Trigger and the Target.  Triggers need some other object to interract with.
+<P>
+<IMG SRC="triggers1_1.gif">
+<P>
+<font color="#00ffff"><B><U>Making the Trigger</U></B></font><BR>
+Let's add a simple Trigger to the room.  Go to the Classes menu -> Triggers -> Trigger.  Add a Trigger to your room.  For the room provided I added the Trigger right in the path between the PlayerStart and the "Door", this way all you have to do is walk forward and you'll see the Trigger in action.   There will now be a beautiful little Trigger Icon floating in space. Now go to the Trigger Properties by right clicking on the Trigger Tag (Seen above).  Click on Events to reveal  Events/Event and Events/Tag.  Event is the pointer to the object you wish to act upon and Tag is the name an Event links to.  If this is a bit confusing it will be made clear in a second.  In the Trigger properties set Events/Event to 'Mover1'.  Now go to the Mover Properties by right clicking on your Mover and change the Events/Tag to 'Mover1' if it doesn't already say this.  You will now see a red line appear in all views.  This red line is the logical link between your two actors.
+<P>
+<IMG SRC="Triggers1_2.jpg">
+<P>
+<font color="#00ffff"><B><U>Trigger Activation</U></B></font><BR>
+Your Trigger is now linked to your Mover, but this is not enough.  You must properly set the activation types for both the Trigger and the Mover. For this tutorial we want the door to open when the player moves towards it.  In the Trigger Properties, look at the Trigger/TriggerType.  You will see that it is set to 'PlayerProximity', which is what we want.  Click on the right hand column to see what other types of events you can use to activate the Trigger.  Now switch back to the Mover Properties and move to Object/InitialState.  Click on the right hand column to bring up the states menu.  The important states for us are the TriggerX states, which are as follows:<p></p>
+
+<b>TriggerPound</b> :- Causes the Trigger to rapidly move between states, good for squishy traps.<p></p>
+<b>TriggerControl</b> :- Causes the mover to change keyframes and remain until the player is no longer within the Trigger.<p></p>
+<b>TriggerToggle</b> :- Toggles the state of the Mover from one keyframe to another, for that open and closed look.<p></p>
+<b>TriggerOpenTimed</b> :- Causes the mover to open for its specified time the close. Time open found in Mover/StayOpenTime.<p></p>
+
+Set your movers state to TriggerOpenTime.  If you compile and run your level you will now have a door which opens whenever your player walks into the Trigger location.<p></p>
+<font color="#00ffff"><B><U>Button Triggers</U></B></font><BR>
+Not big enough for a tutorial of its own, here's how to make a "button" Trigger.  Make another small Mover.  Change the Events/Event of your small Mover to the Tag of the "Door" Mover. That's it, pretty simple no?<p></p>
+<font color="#00ffff"><B><U>Notes</U></B></font><BR>
+<b>1</b> :-  Don't forget to add another Trigger on the OTHER side of your door, if you want to get back into the room.  The first map I made I forgot this and whoops!<p></p>
+<b>2</b> :-  I suggest placing your Trigger no more than 64 off the floor, unless you want your player to be jumping alot :)</tr>
+   </td>
+</tr>
+                                        </table>
+                                        </td>
+                                        <td background="../../images/news_bord/rs.jpg"><br></td>
+                                        </tr>
+                                        <tr>
+<td><br></td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                        </td>
+                                    </tr>
+
+<tr><td><br></td></tr>
+
+<tr><td><br></td></tr>
+
+
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+</td><td width="10"><br></td></tr></table>
+                                </td>
+                            </tr>
+                        </table>
+                        </td>
+                        <td><br></td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

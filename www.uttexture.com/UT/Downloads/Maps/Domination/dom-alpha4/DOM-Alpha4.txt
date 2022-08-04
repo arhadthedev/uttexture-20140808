@@ -1,0 +1,33 @@
+-Level Category
+	Domination
+-Level Name
+	DOM-Alpha4
+-Level Designer
+	Caleb 'Janaroe' Aldridge (aldridge@engr.orst.edu)
+-Recommended Number of Players 
+	6-10
+-Level Information 
+
+
+	Place DOM-Alpha4.unr in your UT map folder
+
+
+The Flight Deck of Alpha 4 is my second attempt at a map for Unreal 
+Tournament. I wanted to try and place a control point on a mover that 
+would leave the level for a while. I was not very succesful at the design 
+and so here it is in its imcomplete glory. There are three zones that have 
+control points in them. Each of these zones has at least three ways to get 
+in so watch your back. I have added some movers for effect and there are 
+one or two power-ups around so keep an eye out. Bots will come at you 
+from almost every direction and they will use translocaters also. If you 
+have feed back about my levels please let me know. My e-mail is at the 
+bottom of the page. Have Fun! 
+
+--------------------------------------------------------------------------------
+
+Unreal Tournament and UnrealEd are products of Epic Games. 
+The "Make something Unreal" contest is brought to you by the following companies. 
+Mplayer.com, GT Interactive, Epic Games, Aureal, 3Dfx 
+
+--------------------------------------------------------------------------------
+

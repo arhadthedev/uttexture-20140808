@@ -1,0 +1,36 @@
+Map:
+CTF-UTR-Attempt
+----------------------------------------------------------------------------------------------------
+Version 018 [Base: CTF-1on1-Attempt-???]
+----------------------------------------------------------------------------------------------------
+Author:
+Elan "S'Calain" Maecaune
+----------------------------------------------------------------------------------------------------
+Email:
+scalain@freenet.de | maecaune@freenet.de
+----------------------------------------------------------------------------------------------------
+Play information:
+Bots:  yes
+Playercount: 2 - 4
+----------------------------------------------------------------------------------------------------
+Installation:
+Copy CTF-UTR-Attempt.unr into your UnrealTournament Maps folder
+Copy the xpickups.u/int files into your UnrealTournament System folder         
+----------------------------------------------------------------------------------------------------
+Material used
+
+Textures: Hourences, UT2004, richrig, S'Calain
+Meshes: S'Calain
+----------------------------------------------------------------------------------------------------
+Speacial Thx to:
+- Swanky, but he hates CTF-1on1-Maps ^_^.
+- Wolf
+- XepptizZ
+- Creavion
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2005 Elan "S'Calain" Maecaune   
+All rights reserved.
+----------------------------------------------------------------------------------------------------
+Unreal Tournament is a registered trademark of 
+Epic Megagames and Digital Extremes
+

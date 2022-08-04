@@ -1,0 +1,42 @@
+DOM-SlumsofNYC
+Nur eine kleine map für die Hoffnung und die Zukunft. Du kannst die wiedererbauten Türme des
+World Trade Centers sehen. Keine große map, 3 Control Points (Roof, Arturo`s bar & homeless corner)
+Die Bot KI ist nicht sehr gut, aber sie funzt. Ich glaub die map hat nicht so gutes licht, die ganze
+map ist imt style von DOM-Condemned
+Genieße sie
+---------------------------------------------------------------------------------------
+                                  ABOUT THE MAP
+Map Name              :       DOM-SlumsofNYC
+Auhor                 :       Denis "UT Freak" Reimer
+Release Datum         :       06.10.01
+Version               :       1.00
+Musik                 :       Cannon (UT)
+Aufbaudauer           :       :/   Keine Ahnung, 5 Tage oder so
+UT Version            :       4.00, Patch 4.36
+Spieler               :       6
+Editor(en)            :       UnrealED 2.0
+
+EMail                 :       utfreak@freenet.de
+Homepage              :       www.utfreak.de.vu
+ICQ                   :       102013504
+----------------------------------------------------------------------------------------
+
+Anderer Stoff von mit (UT Freak)
+
+Besuch meine HP!     (www.utfreak.de.vu)
+----------------------------------------------------------------------------------------
+THX to...
+GMA Clan, unrealed.de, unrealediting.de ...
+--------------------------------------------------------------------------------------------
+Copyright by Denis "UT Freak" Reimer
+Diese Map darf nur im Originalzustand weitergeleitet werden (original map und text usw.)
+Ich möchte (eigentlich) per em@il informiert werden wenn sie reviewt oder weitergeleitet
+wird.
+Sie darf nicht als Grundbaustein für eine andere map dienen!!!
+
+-------------------------------------------------------------------------------------------
+
+UNREAL TOURNAMENT (c)2001 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners

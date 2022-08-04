@@ -1,0 +1,66 @@
+Title        : DOM-Cruising (Just Cruising)
+Filename     : DOM-Crusing.unr
+Release Date : 30th Match 2001
+Author       : Darren "EntropicLiquid" Latham
+E-Mail       : darren@lathamit.co.uk
+Web Page     : http://www.lathamit.co.uk/snout/
+
+Description  : A small to medium sized Domination level set between two boats.  The
+               helicopter is there more for decoration than anything else ;-).  In this map
+               I have attempted to correct what I see as the flaws in most Domination maps
+               which is this - they play too much like DM levels.  Two out of the three
+               control points are emminently defendable which will almost certainly prevent
+               a relay race around the control points.
+               The map is small enough for a 1 v 1 game, but plays best with between 4 and 6
+               players although the map will take 8 players without difficulty.
+
+Credits      : The SNOUT clan who play-tested it for me, plus anyone else I've forgotten
+               about.  I'd also like to thank my kiddies for going to bed at a reasonable
+               time (at long last) allowing me to build the map in the first place.  It has
+               been great to have some evenings at long last.
+
+* Play Information *
+--------------------
+Domination       : Yes - This is what the map was designed for
+Capture the Flag : It has a couple of flag bases in, but no team starts etc.  It makes for
+                   an incredibly tough CTF level.
+Deathmatch       : If you really want.  A very tough level I would suggest, not sure how
+                   it would play though.
+Assault          : No
+New Sounds       : No
+New Graphics     : No
+Player Load      : 2-8 (4-6 Reccomended - The map also has 16 player starts for the very
+                   brave)
+
+* Construction *
+Base             : New Level
+Editor(s) used   : UnrealEd (version 2)
+Build time       : 2 weeks to get the bulk of the level built and then a further two-three
+                   weeks once I decided to enlarge the boats and redesign the interiors
+                   of the boats.
+
+* Other maps made by me *
+-------------------------
+None at all - This is my first map.
+
+* Notes from the author *
+-------------------------
+I learnt an awful lot about the editor while making this map.  Probably the two most
+important things I learnt were these:
+
+1. Semi-Solids play havoc with collisions and give rise to loads of HOM effects.  Non-Solids
+   are much more reliable.
+2. Jumps pads are great fun but trying to get the bots to navigate them properly is a real
+   pain - and I'm still not sure how I managed it.
+
+Overall I'm pretty pleased with the level.  It plays well in a manner that I find pleasing.
+It's also the first map where I've been able to hold to the original concept without
+getting bored or side tracked on to something else.
+
+* Copyrights/Persmissions/Legal Stuff *
+---------------------------------------
+Authors may NOT use this level as a base to build other levels without the author's
+permission.
+This map is intended to be distributed over the Internet/BBS's.
+You are not allowed to sell this map without prior written consent by the author.
+This text file MUST be also distributed with the unr file.

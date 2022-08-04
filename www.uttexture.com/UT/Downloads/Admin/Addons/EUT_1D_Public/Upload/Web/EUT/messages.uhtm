@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="Black" text="Silver" link="33cc66" vlink="33cc66">
+<table width="100%%" border="0" cellspacing="0" cellpadding="0"><tr>    <td colspan="3" bgcolor="#226474"><img src="/images/1-1.gif" width=26 height=6 hspace=0 vspace=0 border=0 align="left"><img src="/images/1-2.gif" width=114 height=6 hspace=0 vspace=0 border=0 align="right"></td></tr><tr>    <td width="21" bgcolor="Black"><img src="/images/2-1.gif" width=21 height=19 hspace=0 vspace=0 border=0 align="left"></td>    <td width="100%%" align="LEFT" bgcolor="Black"><font face="Verdana,Arial" color="White" size="-1"><b>
+
+Messages
+
+</b></font><br></td>    <td width="114" align="RIGHT" bgcolor="Black"><img src="/images/2-2.gif" width=114 height=19 hspace=0 vspace=0 border=0 align="right"></td></tr><tr>    <td bgcolor="#226474" colspan="3"><img src="/images/3-1.gif" width=26 height=7 hspace=0 vspace=0 border=0 align="left"><img src="/images/3-2.gif" width=114 height=7 hspace=0 vspace=0 border=0 align="right"></td></tr></table><table width="100%%" border="0" cellspacing="0" cellpadding="0"><tr>
+<td width="26" align="RIGHT" bgcolor="Black"><img vspace="0" hspace="0" src="/images/4-2.gif" width=26 height=26 align="right"></td><td align="LEFT" bgcolor="Black" width="100%%">
+<font face="Verdana,Arial" color="33cc66"><b>
+
+Messages
+
+</b>
+</font>
+</td><td width="67" align="LEFT"><img vspace="0" hspace="0" src="/images/4-1.gif" width=67 height=26 align="left"></td><td width="1" align="RIGHT" valign=middle><font face="Verdana,Arial" size="-1" color=white><b>«</b><a href="mailto:%BugAddress%">Bugs?</a><b>»</b></font>
+</td><td width="26" align="RIGHT"><img vspace="0" hspace="0" src="/images/4-2.gif" width=26 height=26 align="right"></td></tr>
+</table>
+<table width="100%%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/5-1.gif" width=24 height=21 align="left"></td><td width="100%%" height="9" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td><td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/5-2.gif" width=25 height=21 align="right"></td></tr>
+<tr>
+<td width="100%%" height="12" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td></tr>
+<tr>
+<td width="9" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td><td width="15" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td><td width="100%%" bgcolor="#135565"><a name="PQN41556"></a>
+<font face="Verdana,Arial" color="White">
+
+<form method="post" action="%PostAction%">
+<CENTER>
+  <table width="300" border="0">       
+	<tr><td nowrap width="1%%"><b>Enhanced Death Messages</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Victim Aerial</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><i>k = PlayerName (Killer)</i></td><td></td></tr>	
+	<tr><td nowrap width="1%%"><i>o = PlayerName (Victim)</i></td><td></td></tr>
+	<tr><td nowrap width="1%%"><i>w = Weapon (Killer)</i></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Tranny Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="TransKillMessage" maxlength="50" size="50" value="%TransKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Impact Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="ImpactKillMessage" maxlength="50" size="50" value="%ImpactKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Enforcer Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="EnforcerKillMessage" maxlength="50" size="50" value="%EnforcerKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Bio Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="BioKillMessage" maxlength="50" size="50" value="%BioKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>ShockRifle Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="ShockRifleKillMessage" maxlength="50" size="50" value="%ShockRifleKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>PulseGun Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="PulseGunKillMessage" maxlength="50" size="50" value="%PulseGunKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Ripper Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="RipperKillMessage" maxlength="50" size="50" value="%RipperKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>MiniGun Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="MiniGunKillMessage" maxlength="50" size="50" value="%MiniGunKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>FlakCannon Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="FlakCannonKillMessage" maxlength="50" size="50" value="%FlakCannonKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>RocketLauncher Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="RocketLauncherKillMessage" maxlength="50" size="50" value="%RocketLauncherKillMessage%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>SniperRifle Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="SniperRifleKillMessage" maxlength="50" size="50" value="%SniperRifleKillMessage%"></td><td></td></tr>
+    <tr><td nowrap width="1%%"><b>Aerial Kill Enforcer Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillEnforcer" maxlength="50" size="50" value="%AerialKillEnforcer%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Bio Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillBio" maxlength="50" size="50" value="%AerialKillBio%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Shock Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillSuper" maxlength="50" size="50" value="%AerialKillSuper%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Pulse Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillPulse" maxlength="50" size="50" value="%AerialKillPulse%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Mini Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillMini" maxlength="50" size="50" value="%AerialKillMini%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Ripper Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillRipper" maxlength="50" size="50" value="%AerialKillRipper%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Flak Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillFlak" maxlength="50" size="50" value="%AerialKillFlak%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Rockets Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillRockets" maxlength="50" size="50" value="%AerialKillRockets%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Sniper Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillSniper" maxlength="50" size="50" value="%AerialKillSniper%"></td><td></td></tr>	
+	<tr><td nowrap width="1%%"><b>Aerial Kill Trans Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillTrans" maxlength="50" size="50" value="%AerialKillTrans%"></td><td></td></tr>
+	<tr><td nowrap width="1%%"><b>Aerial Kill Combo Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillTrans" maxlength="50" size="50" value="%AerialKillTrans%"></td><td></td></tr>	
+	<tr><td nowrap width="1%%"><b>Aerial Kill Piston Message</b></td><td></td></tr>
+	<tr><td nowrap width="1%%"><input type="text" name="AerialKillPiston" maxlength="50" size="50" value="%AerialKillPiston%"></td><td></td></tr>
+    <tr><TD></TD><td colspan="1" align="left"><input type="submit" name="Apply" value="Apply"></td><td></td></tr>
+  </table>
+</CENTER>
+</form>
+
+
+</font>
+<p></td><td width="16" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width=16 height=1></td><td width="9"bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width=9 height=1></td></tr>
+<tr>
+<td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/6-1.gif" width=24 height=23 align="left"></td><td width="100%%" height="13" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td><td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/6-2.gif" width=25 height=23 align="right"></td></tr>
+<tr>
+<td width="100%%" height="10" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td></tr>
+</table>
+<table width="100%%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign=bottom bgcolor="#226474" ><img vspace="0" hspace="0" src="/images/7-1.gif" width=25 height=18 align="left"></td><td bgcolor="#226474" width="100%%" valign=top> </td><td valign=bottom bgcolor="#226474" ><img vspace="0" hspace="0" src="/images/7-2.gif" width=25 height=18 align="right"></td><td height="18" valign="TOP">
+<FONT face='Verdana, Arial, Helvetica' size='-1'>Thanks&nbsp;to&nbsp;<a href="http://www.planetunreal.com/modcentral/ut" target=_top>Mod&nbsp;Central</a>&nbsp;for&nbsp;this&nbsp;design
+</font></td><td align="RIGHT" valign=top><img vspace="0" hspace="0" src="/images/7-3.gif" width=46 height=18 align="right"></td></tr>
+</table>
+		
+		<td width="20"><img src="images/1.gif" width=1 height=1 hspace=0 vspace=0 border=0 alt=""></td>
+		
+	
+	
+</body>
+</html>
+

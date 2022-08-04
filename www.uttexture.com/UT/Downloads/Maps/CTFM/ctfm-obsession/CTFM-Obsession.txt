@@ -1,0 +1,50 @@
+================================================================
+Title                   : CTFM-Obsession - The Temple of Obsession.
+                          
+Author                  : Thespoondog 
+
+Date                    : 20 March 2001 
+
+Filename                : CTFM-Obsession.zip
+
+File contents           : CTFM-Obsession.unr
+			: CTFM-Obsession.txt
+			
+Email Address           : thespoondog@hotmail.com
+Home Page		: http://www.unreal.thespoondog.com
+Description             : UT Multi-Capture the flag level.  An 			  expression of an obsession other than unreal 			  tournament.
+================================================================
+
+Play Information	
+
+Single Player           : Of Course!  What kind of a mapper doesnt 			  allow for bots?
+Deathmatch              : Nope
+Recommended No. Players : 6-9
+
+Comments		: I Obsess in two things, Unreal Tournament, 			  and a certain car manufacturer.  What better 			  than to combine the two!
+=================================================================
+
+Installation instructions
+
+Unzip: CTFM-Obsession.unr file into your UnrealTournament\Maps folder.
+       
+KNOWN Problems:  V8 lovers.
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd 2.0        
+
+Build Time              : A While.
+
+===================================================================
+Other maps by Author:	DM-BeakersTemple, CTF-Fetid][, DOM-BlackMusk,
+			DM-Nerds, DM-Mitsubishi, CTFM-Cryptitan, 			DM-ToastBeast, DM-Stealth, DM-Yoda,  				CTFM-Aquamid, CTFM-Morpheus.
+
+=====================================================================
+(C) Copyright 2001 Cory Spooner
+
+You may distribute this map any way you like, providing that it is done so free
+of charge and that this text file is also included unchanged. Magazine coverdisks,
+etc. are okay too.  Hell play it on the net! (which is cool by the way)

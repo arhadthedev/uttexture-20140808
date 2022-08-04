@@ -1,0 +1,62 @@
+Unreal Tournament JB Map
+
+================================================================
+Title                   : Ancient
+Release Date            : Tuesday March 12th
+Filename                : JB-Ancient.unr
+Author                  : Ira "Wiz" Taraday
+Email Address           : robo_wizard@hotmail.com
+Web Page                : http://www.geocities.com/wizard_ira
+
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : Ancient
+
+Game Type               : Jail Break
+Single Player           : yes
+Multiplayer             : yes
+JB Arena		: yes
+Escape Route		: yes (hint you need a human ladder and to rember that ducking reduces player height and also buttons open all doors)
+New Sounds              : no
+New Graphics            : no
+New Music		: yes
+Known bugs              : None
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : New level
+
+=========================================
+Special thanks
+
+A special thanks to:
+tarquin                 :for ideas with the temples
+Sexmachine		:for finding lots of bsp holes
+WillySurvive		:for idea and helping to get my screen working
+JB team			:for making this most excellent mod ;)
+Special thanks also to Hourences, Foetal_Youth and many others for beta testing
+
+
+Copyright / Permissions
+-----------------------
+Hallucinations: 	I downloaded this from somewhere off Planetunreal.com and don't know how made it, if anyone knows please e-mail (and big thanks to the author)
+
+
+This level is copyrighted by Ira Taraday
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

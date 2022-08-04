@@ -1,0 +1,124 @@
+================================================================
+Title                   : Atoll	
+Version                 : 1
+Release Date            : 17th January 2002	
+Filename                : CTFM-Atoll.zip
+Author                  : Bram 'Leto II' Verbiest
+Email Address           : biesie@wanadoo.be 
+Web Page                : http://biesie.i8.com
+Where to get this map   : hopefully http://www.planetunreal.com/MultiCTF
+                          and other sites where this txt-file is included
+Other things by author  : DOM-AbandonedSilos 
+                          CTFM-Penta
+                          CTFM-VoddenI
+                          RumikoSkins_Freya for Unreal Tournament
+			
+================================================================
+
+--- Play Information ---
+
+Game                    : Unreal Tournament
+Level Name              : CTFM-Atoll
+Game Type               : MultiTeam Capture The Flag
+                          Visit http://www.planetunreal.com/MultiCTF for more info !
+Botmatch		: Yes
+Recommended No. Bots    : 16-32 in 4 teams (5-7 players per team is cool)
+                          See below for optimal MCTF rules settings.
+Translocator            : Recommended, except if you don't like shieldbelts and sniper rifles.
+New Sounds              : Music, see credits
+New Graphics            : Yep, some textures of the original game I modified to fit in my map.
+Known bugs              : Noticed no big ones so far (miraculously).
+
+--- Construction ---
+
+Editor(s) used       : UnrealEd 2.0
+Base                 : started from scratch
+Construction time    : 6 days off and on
+
+--- Level Info and Author's Notes ---
+
+It's kind of an atoll above the 'sky' where 4 teams have there own 'tower'. There are multiple 
+ways to get to another tower. 
+
+I am not the greatest mapper, I only try to make some amusing maps, and I make them as good as 
+I can, but I don't sit hours working on every inch to look perfect. I always spend much time on 
+the bots, so that a single player game can be very fun too, or a LAN game where bots may join 
+the fragfest too :). 
+About those bots : I played the map several times with some friends on a LAN to see if bots 
+sometimes do awful stupid things... I think bots do that on most maps :). Bots do quite well, 
+but they jump into oblivion pure suicidal sometimes (maybe it's a suicidal map? :p). 
+
+If you play this map with less than 4 players (bots) per team, it would be rather boring. I would 
+recommend 5 to 7 players (if you put "heavy bot defense" to ON, it will be a great challenge,
+but with 6-7 bots a team, the bots won't score often). If you prefer 4 bots a team I strongly
+suggest to set "heavy bot defense" on ! If you play without that setting (no matter how many 
+bots) you will often score an easy one :). I tested the map mostly with 5-6 bots. 8 players is 
+cool also, but for some intensive hardcore fragging :).
+
+The map runs very good on a AMD700 with a Voodoo 3. On a Celeron 433 with a Riva TNT1, it isn't 
+thát fluent, but playable.
+Originally there was a very big center weel with 4 wings, which I thougt would have increased 
+the frame rate, but it had the opposite effect, so I had to place those 4 quite ugly 'walls' 
+ahead each base to get a descent framerate again. Some spots can cause a little framerate drop, 
+but not quite heavy, I couldn't do better, or else the map would have been full of sight blockers. 
+Maybe I'll try an indoor map next time :)
+
+I added a descent zoning this time, I could avoid crossing the zone portals the semisolid glass 
+this time :).
+
+Instagib can also be very fun here, you're still able to get a flag really (even with 6 bots per
+team).
+
+If many people did like CTFM-Penta, I maybe can make a 2-2 version of CTFM-Atoll for another 
+dimension of gameplay.
+
+
+Files Included
+--------------
+
+CTFM-Atoll.unr
+CTFM-Atoll.txt
+Highmen.umx
+Leto3.utx
+
+
+Installation
+------------
+
+(Assuming you have installed the great MCTF mod of course)
+Unzip CTFM-Atoll.unr file into \maps folder under the Unreal Tournament folder.
+Unzip Highmen.umx file into \music folder under the Unreal Tournament folder.
+Unzip Leto3.utx file into \textures folder under the Unreal Tournament folder.
+
+
+Credits to...
+-------------
+
+Epic for making the game of the century, Colin McCann for making the awesome mod.
+Michiel van den Bos, who originally made the music track for the game Age of Wonders.
+
+
+Also thanks to...
+-----------------
+
+Panalcinder, Fhomasson The Magnificent and Party-Pooper for fragging some Skaarj hybrids 
+and other scum on my little LAN :).
+
+
+Copyright / Permissions
+-----------------------
+
+This level is copyrighted by Bram Verbiest 2002.
+
+Authors may not NOT use this level as a base to build additional levels without permission of
+the author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+===============================================================

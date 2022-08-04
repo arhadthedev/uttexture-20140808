@@ -1,0 +1,63 @@
+================================================================
+Title                     : Six Feet Under [Infiltration Standoff]
+Version                   : 1
+Release Date              : 6-13-2001 6:26 pm
+Filename                  : DMSixFeetUnder.Zip
+Author(s)                 : Nipple Neck
+Email Address             : 
+Web Page                  : 
+Description               : Graveyard and surrounding areas
+Where to get this map     : Anywere you can download it from
+Other levels by author    : INF_Brickyard
+Special Thanks            : 
+Files included in this zip: INF_SixFeetUnder, Graveyard.utx, INF_SixFeetUnder.txt
+Texture Files Needed      : Ancient, DecayedS, GenEarth, GenFluid, GenIn, Graveyard
+Sound Files Needed        : AmbAncient, AmbModern, AmbOutside, DoorAnc
+
+================================================================
+--- Play Information ---
+Game                    : UNREAL - Six Feet Under
+Level Name              : Six Feet Under
+Infiltration DeathMatch : No
+Stand-Off Infiltration  : Yes
+Single Player           : Botmatch
+Cooperative             : No
+Deathmatch              : No
+Dark Match              : No
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : None as of yet
+
+--- Construction ---
+Editor(s) used          : Unreal_ED
+Base                    : Blackbox with blue grid
+Construction Time       : Two weeks
+
+Installation
+------------
+Unzip the map and place it into your maps directory under the unreal
+directory. Place the .utx files in your texture directory.
+
+Author's Notes
+--------------
+Something new...  Please add it to your rotation.
+Bots move better in DM game.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Nipple Neck 2001
+Authors may freely use this level as a base to build additional levels.  Feel free to make any edits, just let me know if a new version comes out.
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my permission.
+
+Feel free to distribute this level through any electronic network.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

@@ -1,0 +1,82 @@
+================================================================
+Title                   : DOM-Chessboard
+Version                 : 1.0
+Release Date            : November 28, 1999
+Filename                : DOM-Chessboard.unr
+Author                  : Damon Psarris, aka NarkyBark
+Email Address           : psarris@cesium.clock.org
+Web Page                : http://www.clock.org/~psarris
+Description             : A Domination level set in a regal chessboard arena.
+Where to get this map   : Umm... hopefully everywhere... but don't you have it already?
+Other levels by author  : DmChessboard, DmEther, DmFaithless, the Darkside Pack, others
+Additional Credits to   : Background music by JS Bach
+===============================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : Chessboard (DOM-Chessboard.unr)             
+
+Deathmatch              : No
+Domination              : Yes (It's a medium-small level, I recommend around 8 players)
+Assault                 : No
+Dark Match      
+Capture the Flag        : No
+Difficulty Settings     : No
+New Sounds              : Yes
+New Graphics            : No
+Known bugs              : A very minor problem where if you open the Voice Commands window,
+                        : the UT theme music may start playing.  The music stops when the
+                        : window is closed.
+
+--- Construction ---
+Editor(s) used          : UnrealEd Beta
+Base                    : My previous level, DMChessboard.
+Construction Time       : Modified a previous level, so editing time was only a few days.
+
+
+Installation
+------------
+   Unzip the the files.  Place them into your  directories under the unreal
+   directory: the .unr file goes into the MAPS folder, and the .uax file goes
+   into the SOUNDS folder.
+
+Author's Notes
+--------------
+Not much new to say in this level, since I built this upon a previous Unreal DM level of
+mine.
+
+GIVE ME FEEDBACK!  I want to know what people like, what they don't like, how it runs,
+weapon placement, suggestions, etc.  I really do listen and adapt levels to what people
+like!
+
+Changes
+-------
+
+Changes from the Deathmatch version:
+1.  Changed all of the weapons and their placement.
+2.  Added free access to third level via teleporters.
+3.  Added UT improvements for the bots, such as translocator nodes.  And control points,
+of course.
+
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Damon Psarris
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit DOM-Chessboard.unr, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  Ask me, I might say yes!
+
+You MAY distribute DOM-Chessboard.unr through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

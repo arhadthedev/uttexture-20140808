@@ -1,0 +1,27 @@
+Map Name:  TwinPeaks
+Game Type:  Domination
+Author:  Rob Collins
+Email:  rmcollins3@yahoo.com
+
+Instructions for play:  extract .unr file into maps directory, .umx file into music directory
+
+Recommended player count:  8-16
+Bot support:  Yes
+
+Bugs:  bots don't use elevator much, this is due to a problem i had with them getting to the top then diving back down the shaft and killing themselves.  I tried a lot of different things to fix this, but I nor no one I talked to could figure it out.
+
+Thanks to:  Legend, GT, Epic, Planet Unreal, Naliciy, Pancho Ekels, "Faceless" (for the music), Jaspos (for his great terraedit tutorial), Chris Toth, Machismo, James Morrison, Grincoloco
+
+Time to complete:  Roughly 2 weeks
+
+Tools Used:  UED 2.0
+             TerraEdit
+             Paint Shop Pro
+
+
+Hints:  1.  You can dive into the pool of water from the bridge
+        2.  You can get the scuba gear and then snipe from the pool
+	3.  Use the translocator or impact hammer to get the redeemer, udamage and invis.
+	4.  There are several ways of getting down from the bridge if you don't want to use the teleporter, you can drop a translocator in the canyon, or you can actually ski down the mountain, ala Tribes!
+
+This map may not be used as a base for other maps, nor may it be altered and then re-released without the permission of the author.  It MAY be distributed via the internet and CD media without permission of the author, so long as credit is given where it is due.  Any distribution of this map must include this readme.txt file.

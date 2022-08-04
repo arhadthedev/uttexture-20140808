@@ -1,0 +1,68 @@
+================================================================
+Title                   : CTF4-JewelOfTheWarlord
+Version                 : 1.0
+Release Date            : 13th July 2000
+Filename                : CTF4-JewelOfTheWarlord.unr
+Author(s)               : James "Ratlord" Rakich
+Email Address           : ratboy@opera.iinet.net.au
+Web Page                : http://www.iinet.net.au/~ratboy/
+Description             : an adaption to the map that was an adaption 
+                          of my DM map under the same name to CTF
+                          under the same name to CTF4 :D
+Additional Credits      : Mayhem by IceLizard
+                          Uncommon for the exceptional CTF4 Mod
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : CTF-JewelOfTheWarlord.unr
+Single Player           : Botmatch
+Cooperative             : CTF
+Deathmatch              : 12-16 players
+Dark Match              : No
+Difficulty Settings     : Nil
+New Sounds              : Yes, Mayhem.umx
+New Graphics            : If you count the screenshot :)
+NewUnrealScript         : Nil
+External DLLs           : Nil
+Known bugs              : Nil
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Base                    : CTF-JewelOfTheCathedral
+Construction Time       : Another very long night :D
+
+Installation
+------------
+Unzip the .unr file into your Unreal Tournament/maps/ directory.
+Unzip the .umx file into your Unreal Tournament/music/ directory.
+
+Author's Notes
+--------------
+Ain't that a funky skybox? :D
+
+I've modified the central hub for the map alot. There are no side entries now, and there is alot of health vials around. Make sure your team takes advantage of it. Also the water in the central area is there so you can get back on to the stair case. It also adds an element of risk to going for the health.
+
+Finally, I removed the central altar and statue to reduce the polycount to a reasonable level.
+
+Copyright / Permissions
+-----------------------
+This level is copyright James Rakich 2000.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+Unreal Tournament (c) 1999 and UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo 
+are registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

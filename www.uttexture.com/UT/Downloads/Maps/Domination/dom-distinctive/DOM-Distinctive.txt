@@ -1,0 +1,11 @@
+DOM-Distinctive
+Dominated by: JiveTurkey
+
+
+DM-Distinctive's Author: Bastiaan (Checker) Frank
+
+Changes: Add'd CP's, a few boxes, Deleted 1 big box at the garage, Moved Armor & Spawn points,
+         Altered Ammo/Health/weapons positions, Re-arranged a couple of boxes. Fix a few "HOM"
+         errors & box Solidity of central area. and replaced the screenshot. lol
+
+

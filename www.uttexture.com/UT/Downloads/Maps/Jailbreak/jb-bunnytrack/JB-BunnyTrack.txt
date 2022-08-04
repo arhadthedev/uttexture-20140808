@@ -1,0 +1,77 @@
+===============================================================
+Unreal Tournament Level- JB-BunnyTrack.unr
+===============================================================
+
+Title                   : BunnyTrack
+Version                 : 1.0
+Release Date            : January 25th, 2006
+Filename                : JB-BunnyTrack.unr
+Author                  : Coen van der Wel
+Author System			: IBM ThinkPad Lenoto T60, Intel 1.83Ghz Duo Core
+Country of birth		: The Netherlands
+Age						: 18
+Email Address           : coenvdwel@planet.nl
+Home Page				: www.coenvdwel.com
+Description             : An attempt to mix BunnyTrack with JailBreak.
+Shouts					: m00.
+
+Other works (AKA Pimpage)	: CTF-HwC, CTF-MorbidFear, CTF-FacingHotels
+
+================================================================
+
+
+--- Play Information ---
+Game                    : Unreal Tournament JailBreak
+Level Name              : BunnyTrack
+Single Player           : Meant for online play
+Deathmatch              : No
+CTF						: No
+Domination				: No
+Assault					: No
+JailBreak				: Yes
+Dark Match              : No
+Difficulty Settings     : No
+Recommended Weapon(s)	: Shock rifle, Sniper
+New Sounds              : No
+New UScript				: No
+New Graphics            : No
+Known bugs              : Bot's will not be able to complete the track.
+
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2 from UT version 436
+Base                    : New
+Construction Time       : About a week
+Inspiration				: BunnyTrack map's
+
+
+Installation
+------------
+unzip JB-BunnyTrack.unr to UnrealTournament/Maps
+
+
+Author's Notes
+--------------
+I hope you like it. If you have any remarks, please contact me at coenvdwel@planet.nl.
+
+
+Copyright / Permissions
+-----------------------
+Copyrighted 2006 to Coen van der Wel.
+Authors may NOT use this level as a base to build additional levels (without my permission).
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL TOURNAMENT and the "UT" symbol are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

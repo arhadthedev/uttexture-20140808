@@ -1,0 +1,50 @@
+================================================================
+Title                   : DOM-Mausoleum
+Version                 : 1.0
+Release Date            : Jan 2004
+Filename                : DOM-Mausoleum.zip
+Author                  : Alex Vargas
+Email Address           : alexsandrovp@yahoo.com
+Description             : My first map
+Other levels by author  : none
+================================================================
+
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : DOM-Mausoleum
+New Sounds              : No
+New Graphics            : No
+New Music:		: No
+Known bugs              : A few small BSP errors. As far as I know, bots won't go for the redeemer.
+
+--- Construction ---
+Editor used             : UnrealEd 2
+Base                    : from scratch
+Construction Time       : i cant remember
+
+Installation
+------------
+Unzip the the .unr file and place it into the maps directories under your Unreal Tournament directory.
+
+Author's Notes
+--------------
+I have created this map a long time ago, but never released it. Then someone told me I should submit it at this Nalicity site and now I did it.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Alex Vargas.
+
+Authors may NOT use this level as a base to build additional levels unless I permit.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this .zip for free through any electronic network, provided you include this file and leave the archive
+intact.
+
+----------------------
+Unreal Tournament (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  Unreal Tournament and the Unreal Tournament logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

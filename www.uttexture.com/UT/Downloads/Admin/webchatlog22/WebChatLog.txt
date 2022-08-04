@@ -1,0 +1,136 @@
+Title         : WebChatLog
+Game          : Unreal Tournament
+Version       : 2.2
+Release Date  : 1/28/2001
+Filenames     : WebChatLog.u, WebChatLog.dll
+Author        : Bruce Bickar aka BDB
+Email Address : BDB@planetunreal.com 
+                (*Note: Please search my message board for answers to your problems and/or questions.)
+Web Page      : http://www.planetunreal.com/BDBUnreal
+
+Description   : WebChatLog is an Unreal Tournament server addon that writes in game messages such as 
+                say and teamsay messages to a separate HTML formated file.
+                It writes the messages to a separate html file for each game in a configurable directory.
+                Unique file names are generated based on the current date and time.
+                File Name Format:
+                YYYYMMDDHHMM.htm
+
+                Where:
+                YYYY = Year
+                MM = Month                
+                DD = Day
+                HH = Hour
+                MM = Minute
+
+Requirements  : - Windows 9X, NT, or 2000 
+                - Unreal Tournament version 432 or better.
+                - (Not Required, but recommended) Sometype of web server software. (example: IIS, HTTPServer)
+
+                Sorry, no Linux or Mac version is planned. 
+                I am willing to make the C++ source for the dll available to anyone who want
+                to try making a Linux or Mac version. Just EMail me.
+                
+Installation Instruction :
+              1. Copy WebChatLog.u and WebChatLog.dll to your \UnrealTournament\System directory
+              
+              2. Edit UnrealTournament.ini file and add the following: 
+              ---------------------------------------------------------------------------------- 
+              [Engine.GameEngine]
+              CacheSizeMegs=4
+              UseSound=True
+              ServerActors=IpDrv.UdpBeacon
+              ~.......
+              ServerActors=WebChatLog.WebChatLog     <===* add this
+
+              ~.........
+
+              ;* add this section to the bottom of the file. 
+--------You can copy & paste this section------------------------
+[WebChatLog.WebChatLog]
+LogFilePath=d:\inetpub\wwwroot\webchatlog
+bLogIPAddress=False
+bLogLocalizedMessages=True
+bLogGameSummary=True
+BodyBackGroundColor=#AAAAAA
+TableBackGroundColor=#BBBBBB 
+TextColor=#000000
+HeaderBackGroundColor=#000000
+HeaderTextColor=#FFFFFF
+FontSize=12
+bMakeDateDir=True
+-----------------------------------------------------------------
+              ; Explaination of settings:
+              LogFilePath=d:\WebChatLog <===* change this file path to your liking.
+                                              Default is the UnrealTournament\System directory.
+
+              bLogIPAddress=False       <===* set to True will log the IP address
+                                              of new players that join the server.
+                                              Default is False.
+
+              bLogLocalizedMessages=True <==* Set to true to log Localized messages. 
+                                              Localized messages are death messages and other types
+                                              of messages that come from the server. Default is True
+
+              bLogGameSummary=True       <==* Set to true to log the scores of all the players at
+                                              the end of the game. Default is True
+
+              BodyBackGroundColor=#AAAAAA   <===* The back-ground color of the log page. 
+
+              TableBackGroundColor=#BBBBBB  <===* The back-ground color of the message log table. 
+
+              TextColor=#000000             <===* The color of the text. 
+
+              HeaderBackGroundColor=#000000 <===* The back-ground color of the message log table header. 
+
+              HeaderTextColor=#FFFFFF       <===* The color of the message log table header text.    
+              
+                * Note: Included with this package is a color look up page (bgcolors1536.html).
+                This file will show you all of the colors and their hexidecimal value to use. 
+                Just double click it to open it or open it with your web browser.
+
+              FontSize=12         <===* Size of the text on the page, increase for larger text,
+                                              decrease for smaller.
+               
+              bMakeDateDir=True   <===* When set to True WebChatLog will automatically make subdirectories
+                                        under the set LogFilePath based on Year\Month\Day and write the
+                                        log files to that new directory based on the current date.
+               Example result directory structure: D:\WebChatLog\2002\01\27\
+                                        Set to False and all log files will be written to the LogFilePath
+                                        directory setting.
+              ---------------------------------------------------------------------------------- 
+
+              3. Configure your web server to allow directory browsing for the specified chat log directory.
+                 Note: a web server is not required if you want to just look at the files locally.
+
+              4. Start the UT server
+
+              5. Open your web browser and go to
+                 http://YourServersIPaddress/yourwebchatlogdirectory
+
+                 Note: You can look at the current games chatlog while the game is still in progress 
+                       with Internet Explorer but this will probably not work with Netscape Navigator.
+
+Change History:
+  Version 1.0 - Initial release. My first native Unreal mod.  
+  Version 1.1 - Fixed problem with Windows 98 compatiblity.
+  Version 2.0 - Fixed Team Message Logging
+              - Fixed Tactical Ops 2.0 compatiblity problem.
+              - Added a Message Type column to the chat table.  
+              - Added IP address logging that writes the IP address of any new players joining the server.
+  Version 2.1 - Added Localized Message logging (Death Messages, etc.)
+              - Reduced the number of times that the log file is opened and closed during a game 
+                to make it more efficient.
+              - Added the Game Summary logging at the end of the game. Includes map name, player and team scores.
+              - Used CSS for color specifications to reduce the over all size of the log file.
+              - Made page colors user configurable.
+  Version 2.2 - Added configurable Font Size.
+              - Added feature that creates a subdirectory structure based on the current Year\Month\Day.
+              - Fixed team summary compatiblity problem with Tactical Ops version 2.
+
+Thanks to: Usaar33 for his help with the native C code.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Software, Inc. under license.  UNREAL TOURNAMENT and 
+the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. 
+All other trademarks and trade names are properties of their respective owners.

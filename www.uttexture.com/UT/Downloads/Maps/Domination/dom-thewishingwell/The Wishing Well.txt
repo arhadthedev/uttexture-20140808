@@ -1,0 +1,68 @@
+================================================================
+Title                   : The Wishing Well
+Version                 : 1.0
+Release Date            : 13 February
+Filename                : DOM-TheWishingWell.unr
+Author(s)               : Joe "Heaven67" Dennis
+Email Address           : joe@modempool.com
+
+Description             : An Ancient battle arena best suited for Domination, but also used for deathmatch
+Other levels by author  : None, this is my first one
+Additional Credits to   : See beta testers below.
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : The Wishing Well
+Single Player           : Botmatch (full bot path noding)
+Cooperative             : Team play Domination and Deathmatch
+Deathmatch              : 4 - 8 players suggested (8 player start points in total)
+Dark Match              : Seems to work with the mutator
+Difficulty Settings     : Nil
+New Sounds              : Nil
+New Graphics            : Nil
+NewUnrealScript         : Nil
+External DLLs           : Nil
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Base                    : None
+Construction Time       : 36 hours
+
+Installation
+------------
+Unzip the .unr file into your Unreal Tournament/maps/ directory. This will make it a domination level
+if you wish also to play deathmatch, you must copy the file and rename the copy DM-TheWishingWell, then
+paste both into the Unreal Tournament/maps/ directory. 
+
+
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyright Joe Dennis 2000.
+
+Authors may not NOT use this level as a base to build additional levels.  This map may 
+NOT be modified in any way without the author's express, written permission.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL TOURNAMENT and the UNREAL TOURNAMENT 
+logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

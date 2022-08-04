@@ -1,0 +1,6 @@
+-= Jungle-Logo-Map =-
+
+author: fragswill
+
+what to do:
+Extract Jungle-Logo-Map.unr to unrealtournament/maps, open up unrealtournament.ini in unrealtournament/system and replace LocalMap=UT-Logo-map.unr(or cityintro.unr) with LocalMap=Jungle-Logo-Map.unr

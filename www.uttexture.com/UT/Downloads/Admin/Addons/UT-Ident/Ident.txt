@@ -1,0 +1,34 @@
+Ident - RFC 1413, Identd for UT
+
+These files supply UT/UT2k4 servers with Identd support.
+
+Installation, Open the server.ini, and find the list of ServerActors, add the following:
+
+UT: ServerActors=Ident.IdentServer
+UT2k4: ServerActors=Ident2k4.IdentServer
+
+To configure, add the following to the server.ini
+
+UT: [Ident.IdentServer]
+UT2k4: [Ident2k4.IdentServer]
+
+Settings:
+ListenPort=113
+SystemName="UNIX"
+UserName="UTServ"
+TimeOut=30
+bConnectOnly=True
+
+ListenPort   - The port to listen for incoming Ident requests (Default 13)
+SystemName   - Please leave this as "UNIX"
+UserName     - The username to report. Please note that server port is appended.
+               A server at port :7777 will show up as UTServ7777.
+               Also note that the Max length is 10 letters.
+TimeOut      - How long after connection is created to wait for commands.
+bConnectOnly - Dispose of IdentServer after request is complete (recommended!)
+               Setting this to false could potentially give security issues.
+
+Any programmers wishing to use this or have questions can find my email inside the sources.
+
+Have fun and don't whine.
+- TNSe

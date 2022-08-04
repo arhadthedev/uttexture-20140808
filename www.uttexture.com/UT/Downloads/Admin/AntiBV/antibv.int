@@ -1,0 +1,2 @@
+[Public]
+Object=(Name=antibv.nobv,Class=Class,MetaClass=Engine.Mutator,Description="antibv, diables the use of behindview")

@@ -1,0 +1,300 @@
+
+
+• S3TC Installation Guide for Unreal Tournament servers. Chapter 01 
+
+
+
+
+
+
+Installation
+----------------------
+
+
+Plain Unreal Tournament and Unreal Tournament G.O.T.Y.:
+
+Add the textures to your C:\UnrealTournament\Texture folder by overwriting the excisting packages inthere.
+
+
+
+Anthology Unreal Tournament:
+
+Add the textures to your C:\Unreal Anthology\UnrealTournament\Texture folder by overwriting the excisting packages inthere.
+
+
+
+Steam Unreal Tournament:
+
+No information available, but you should place the packages into your Texture folder by overwriting the excisting packages inthere.
+
+
+
+
+
+
+
+
+
+Server name
+----------------------
+
+
+It might also be helpfull for S3TC players to add something like "UTRP Ready" or simply "UTRP" in the servers name, where UTRP stands for Unreal Tournament Retexturing Project.
+
+
+
+
+
+
+
+
+
+Purpose of the S3TC server packages
+----------------------
+
+
+The sole purpose of these downloads and explanations is to make it possible for S3TC players to go play online without having to deal with the so called "skating player glitch" We asume that any server admin wants to make sure clients can play on their server(s) without any problems or hassle. If you are a server admin than you can help your clients by switching out all Default Unreal Tournament textures for the textures offered here.
+
+In effect it doesnt change anything at all on the server, the gameplay will be the same, the mods will be the same, the maps will be the same, the downloads will be the same(which is none since the packages are default packages), etc, etc.
+
+The only thing it does, is making sure S3TC players will have just as much fun playing on your server(s) as any other player. So if you want to help out the Unreal Tournament community than its highly appreciate if you go use the serverpackages for your server(s).
+
+
+
+
+
+
+
+
+
+What do you need to do ?
+----------------------
+
+
+This is a simple explanation really, for Servers you have to use the normal textures! The S3TC textures are purelly ment for ClientSided playing and should never be used for Servers nor Editing ! 
+
+Also, all textures that have been released as so called Net textures (reduced 'Server only' textures) should never be used !
+
+
+
+
+
+
+
+
+
+Skating player Glitch
+----------------------
+
+
+What is the skating player glitch ?
+
+The skating player glitch occurs when players use the S3TC textures for online playing. If the server is loaded with the improper textures than the glitch will apear. From the players point of view all other players and bots apear to be frozen and seem to skate around on oné leg. If such a player is killed, a ghost image from the dead player remains in view.
+
+Anyone can understand that this is an unwanted situation, and, actually pretty easy to solve....
+
+- Server admins should never, ever load any S3TC textures on their server(s) ! 
+- Server admins should never use the so called Net textures (reduced 'Server only' textures) !
+- Server admins should never use the textures from the 2nd CD !
+
+
+
+
+
+
+
+
+
+Additional notes
+----------------------
+
+
+The S3TC packages release by Epic did contain two textures per texture. If there was a high resolution 24 bit texture present in a package, than there was also an 8 bit index colored version sitting next to it. The S3TC packages released in the UTRP project do only contain oné texture. A texture is either present as an Indexed 8 bit texture or as a high resolution 24 bit texture, not both.
+
+
+And this is done intentionally for a simple reason, we wanted to have a split between normal and high resolution. Why you should ask ? This setup makes it possible to create new packages with an endless high resolution. Since the servers will have the normal texture package (lets say a 10 Mb texture package). The client however can have the S3TC counterpart being 410 Mb big. (As example)
+
+
+If the normal and S3TC textures would be merged into oné large 420 Mb file (410 Mb S3TC textures + 10 Mb normal textures(As example)), than this is also the file that should be sitting in the server. Which means if a client enters that server, and doesnt have the file, he/she will start to download the entire 420 Mb file from the server. Obviously this is an unwanted situation, and therefore the normal and S3TC textures are split up in two(or more) netcompatible files.
+
+
+
+
+
+
+
+
+
+Downloads
+----------------------
+
+
+If needed you can download the texture packages that are safe to use for servers. The downloads contain all texture packages from the 1st CD as well as 5 texture packages from the 2nd CD that aren't present on the 1st CD. Than there is an additional UnrealGold package in the download. Loading these textures on the server should cover all textures released by Epic for Unreal, UnrealGold, Unreal Tournament and Unreal Tournament G.O.T.Y.
+
+
+
+
+All the packages in oné large file:
+
+UT_S3TC_Server_Packages.zip (Aprox. 160 Mb)
+
+
+ 
+Al the packages split into 2 smaller files:
+
+UT_S3TC_Server_Packages_01.zip (Aprox. 80 Mb)
+UT_S3TC_Server_Packages_02.zip (Aprox. 80 Mb)
+
+
+
+
+
+
+
+
+
+Content
+----------------------
+
+
+1st UT CD
+
+AlfaFX.utx
+Ancient.utx
+ArenaTex.utx
+Belt_fx.utx
+BluffFX.utx
+BossSkins.utx
+castle1.utx
+ChizraEFX.utx
+city.utx
+commandoskins.utx
+Coret_FX.utx
+Creative.utx
+credits.utx
+Crypt.utx
+Crypt2.utx
+Crypt_FX.utx
+CTF.utx
+DacomaFem.utx
+DacomaSkins.utx
+DDayFX.utx
+DecayedS.utx
+Detail.utx
+DMeffects.utx
+Egypt.utx
+EgyptPan.utx
+eol.utx
+Faces.utx
+FCommandoSkins.utx
+Female1Skins.utx
+Female2Skins.utx
+FireEng.utx
+FlareFX.utx
+FractalFX.utx
+GenEarth.utx
+GenFluid.utx
+GenFX.utx
+GenIn.utx
+GenTerra.utx
+GenWarp.utx
+GothFem.utx
+GothSkins.utx
+GreatFire.utx
+GreatFire2.utx
+HubEffects.utx
+Indus1.utx
+Indus2.utx
+Indus3.utx
+Indus4.utx
+Indus5.utx
+Indus6.utx
+Indus7.utx 
+ISVFX.utx
+JWSky.utx
+LadderFonts.utx 
+LadrArrow.utx
+LadrStatic.utx
+LavaFX.utx
+Lian-X.utx
+Liquids.utx
+Logo.utx
+Male1Skins.utx
+Male2Skins.utx
+Male3Skins.utx
+MenuGr.utx
+Metalmys.utx
+Mine.utx
+NaliCast.utx
+NaliFX.utx
+NivenFX.utx
+noxxpack.utx
+of1.utx
+Old_FX.utx
+Palettes.utx
+PhraelFx.utx
+PlayrShp.utx
+Queen.utx
+RainFX.utx
+Render.utx
+RotatingU.utx
+Scripted.utx
+SGirlSkins.utx
+ShaneChurch.utx
+ShaneDay.utx
+ShaneSky.utx
+Skaarj.utx
+SkTrooperSkins.utx
+SkyBox.utx
+SkyCity.utx
+Slums.utx
+Soldierskins.utx
+SpaceFX.utx
+Starship.utx
+tcowmeshskins.utx
+TCrystal.utx
+Terranius.utx
+tnalimeshskins.utx
+TrenchesFX.utx
+tskmskins.utx
+UT.utx
+UT_ArtFX.utx
+UTbase1.utx
+UTcrypt.utx
+UTtech1.utx
+UTtech2.utx
+UTtech3.utx
+UWindowFonts.utx
+XbpFX.utx
+XFX.utx
+Xtortion.utx
+xutfx.utx
+
+
+
+2nd UT CD
+
+chaostex.utx
+chaostex2.utx
+JezzTex.utx
+Jezztex2.utx 
+SnowDog.utx 
+
+
+
+Unreal Gold
+
+Langs.utx
+
+
+
+
+
+
+----------------------
+(c)2003/2008 Brecht van der Sande A.K.A. DìèHárd»§ÇW§, All Rights Reserved. You are NOT allowed to commercially exploit this archive, i.e. put it on a CD or DVD or any other electronic medium that is sold for money without our explicit permission.
+
+You MAY distribute this archive through any electronic network, provided you keep the archive intact. You also may offer this archive for download.
+
+
+You can not ask me for permission to use the Epic parts in this package, since i do not held the copyright on the parts created by Epic.

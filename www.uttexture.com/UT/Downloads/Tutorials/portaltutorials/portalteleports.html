@@ -1,0 +1,331 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Portal UnrealEd Tutorial - Creating Teleports - by Panic</title>
+<style type="text/css">
+<!-- A:link {text-decoration: none} -->
+<!-- A:visited {text-decoration: none} -->
+<!-- A:active {text-decoration: none} -->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#C0C0C0" link="#FF0000"
+vlink="#800000" alink="#FFFFFF">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td><p align="center"><img src="images/main/title.gif"
+        align="left" hspace="0" width="534" height="109"></p>
+        </td>
+        <td><font size="2" face="Arial"><img
+        src="images/main/titlebar.gif" width="76" height="118"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<blockquote>
+    <p align="left"><font size="2" face="Arial">Got a new
+    tutorial? Mail the </font><a
+    href="mailto:jimcable@planetunreal.com;%20mindbomb@planetunreal.com"><font
+    size="2" face="Arial">Portal Team</font></a><font size="2"
+    face="Arial">!</font></p>
+</blockquote>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><strong>UnrealEd Tutorial -&nbsp;</strong><b>Creating
+        Teleports -</b> by </font><a
+        href="mailto:fam.nordenstrom@swipnet.se"><font size="2"
+        face="Arial">Panic</font></a></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        This tutorial will Show you how to create the awesome
+        Teleports in Unreal. This tutorial also assumes that you
+        already know the basics of UnrealED.</font><p><font
+        size="2" face="Arial"><b>*Important things to remember*</b>
+        - Teleports that are linked together MUST have the same
+        Width and Height to work correct.</font></p>
+        <p><font size="2" face="Arial">Download </font><a
+        href="maps/portalteletut.unr"><font size="2" face="Arial">the
+        map</font></a><font size="2" face="Arial"> for this
+        Tutorial and install it in your C:\UNREAL\MAPS directory.</font></p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Building the Base Geometry</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><p align="left"><font size="2" face="Arial">Start
+        with building two rooms, the size of the rooms doesn't
+        have to be the same. Build two Teleports, one in each
+        room. It doesn't make any difference how the opening in
+        the teleport is facing, it can be facing in different
+        directions for each room. Add a light in each room if you
+        want to. Now you should have something looking like this:</font></p>
+        <p align="center"><a
+        href="images/screenshots/teleport1.jpg" target="main"><font
+        size="2" face="Arial"><img
+        src="images/screenshots/teleport1-tum.jpg" border="0"
+        width="320" height="229"></font></a><font size="2"
+        face="Arial"> <br>
+        Click image to enlarge</font></p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><strong>Start working on the Teleports</strong></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><p align="left"><font size="2" face="Arial">Create
+        a Sheet-brush that are covering the whole Teleport
+        opening. Add it to the world about one grid unit (normal
+        grid) into the Teleport opening. Now add the sheet in the
+        same position in the other Teleport.</font></p>
+        <p align="center"><a
+        href="images/screenshots/teleport2.jpg" target="main"><font
+        size="2" face="Arial"><img
+        src="images/screenshots/teleport2-tum.jpg" border="0"
+        width="320" height="229"></font></a><font size="2"
+        face="Arial"> <br>
+        Click image to enlarge</font></p>
+        <p align="left"><font size="2" face="Arial"><b>!NOTE! - </b>If
+        you are building two Teleports that are facing the SAME
+        direction you will have to rotate ONE of the sheets 180
+        degrees so that it is facing the other way. Keep this in
+        mind. Two teleports facing in different directions must
+        have the Portal sheets in the SAME direction.Two
+        teleports facing in the same direction must have the
+        Portal sheets in DIFFERENT directions.<br>
+        Don't ask me why.</font></p>
+        <p><font size="2" face="Arial">Now turn off grid and
+        vertex snapping and add one more sheet in each Teleport
+        just a bit outside the first Sheet. Rotate the sheets so
+        BOTH of them are facing outwards. Also add a light in
+        each of the Teleports.</font></p>
+        <p align="center"><a
+        href="imags/screenshots/teleport3.jpg" target="main"><font
+        size="2" face="Arial"><img
+        src="images/screenshots/teleport3-tum.jpg" border="0"
+        width="320" height="229"></font></a><font size="2"
+        face="Arial"> <br>
+        Click image to enlarge</font></p>
+        <p><font size="2" face="Arial">Now select the inner
+        sheets and change their surface properties to act like a
+        Portal. They will now be visible in both directions,
+        ignore that.</font></p>
+        <p align="center"><font size="2" face="Arial"><img
+        src="images/screenshots/teleport4.jpg" width="428"
+        height="196"></font></p>
+        <p><font size="2" face="Arial">Now add a cool looking
+        texture for the outer sheets. One of the water textures
+        for example. Edit their Surface Properties like this:</font></p>
+        <p align="center"><a
+        href="images/screenshots/teleport5.jpg" target="main"><font
+        size="2" face="Arial"><img
+        src="images/screenshots/teleport5-tum.jpg" border="0"
+        width="320" height="229"></font></a><font size="2"
+        face="Arial"> <br>
+        Click image to enlarge</font></p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Creating the Teleport Effect</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><p><font size="2" face="Arial">In the browser
+        select <em>Classes</em>.</font></p>
+        <p><font size="2" face="Arial">Go to <em>Info</em>-&gt;<em>ZoneInfo</em>-&gt;</font></p>
+        <p><font size="2" face="Arial">Select <em>WarpZoneInfo</em>
+        and add one in each Teleport. Edit the Properties for one
+        of the <em>WarpZoneInfo</em> like this:</font></p>
+        <blockquote>
+            <blockquote>
+                <p><font size="2" face="Arial">WarpZoneInfo-&gt;<br>
+                +Destinations ...<br>
+                OtherSideURL T2<br>
+                ThisTag T1</font></p>
+            </blockquote>
+        </blockquote>
+        <p><font size="2" face="Arial">Descriptions:<br>
+        <em>+Destinations</em> = Have not figured it out yet.<br>
+        <em>OtherSideURL</em> = <em>ThisTag</em> on the other <em>WarpZoneInfo.</em><br>
+        <em>ThisTag</em> = <em>OtherSideURL</em> on the other <em>WarpZoneInfo.</em></font></p>
+        <p><font size="2" face="Arial">This means that the other <em>WarpZoneInfo
+        </em>Properties should look like this:</font></p>
+        <blockquote>
+            <blockquote>
+                <p><font size="2" face="Arial">WarpZoneInfo-&gt;<br>
+                +Destinations ...<br>
+                OtherSideURL T1<br>
+                ThisTag T2</font></p>
+            </blockquote>
+        </blockquote>
+        <p><font size="2" face="Arial">If you want a one-way
+        teleport you just set the <em>OtherSideURL</em> on one <em>WarpZoneInfo</em>
+        and leave the one on the other blank.</font></p>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="90%">
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif"><font size="2"
+        face="Arial"><b>Finishing Up and Troubleshooting</b></font></td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><br>
+        </font><p><font size="2" face="Arial">Well, Add a <em>playerstart</em>
+        and you are ready to go! Here's some troubleshooting
+        tips:</font></p>
+        <blockquote>
+            <p><font size="2" face="Arial">? <em>When I'm looking
+            into the teleport it is all blurred and messed up</em><br>
+            ! The portal sheet doesn't cover the whole Teleport
+            opening.</font></p>
+            <p><font size="2" face="Arial">? <em>When I'm looking
+            into the teleport it flickers and I see fragments
+            of&nbsp;&nbsp;the player model.</em><br>
+            ! The Portal sheets are facing the same direction,
+            rotate one of them 180.</font></p>
+            <p><font size="2" face="Arial">? <em>The teleport
+            doesn't work.</em><br>
+            ! Go through this Tutorial one more time.</font></p>
+        </blockquote>
+        </td>
+        <td background="images/main/red2.gif">&nbsp;</td>
+    </tr>
+    <tr>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+        <td background="images/main/red1.gif">&nbsp;</td>
+        <td background="images/main/red2.gif"><font size="2"
+        face="Arial"><img src="images/main/red2.gif" width="12"
+        height="14" naturalsizeflag="0"></font></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="right"><a href="index.html"><font size="2" face="Arial"><em><strong>Back
+to Tutorials</strong></em></font></a></p>
+
+<p><font size="2" face="Arial"><em><strong>.</strong></em></font></p>
+</body>
+</html>

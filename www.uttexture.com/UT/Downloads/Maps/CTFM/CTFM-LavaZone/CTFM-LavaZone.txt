@@ -1,0 +1,101 @@
+================================================================
+Title                   : The Underworld Research Station
+
+Author                  : Jeremy Read aka Lord Riff Raff
+
+Date                    : 24th July 2001 (New Zealand)
+
+Filename                : CTFM-LavaZone.zip
+
+File contents           : CTFM-LavaZone.unr (Map)
+                          CTFM-LavaZone.txt (This file) 	
+
+			
+Email Address           : jcr@ww.co.nz
+
+Home Page		: Maybe in a month or so
+
+Description             : Four Bases, Lava, Shock rifles, need I say more?
+
+Comments		: Have fun with the way cool +10 golden health viles
+                          Also when a team is destroyed a 5 second earthquake
+                          is spawned
+
+================================================================
+
+Play Information	
+
+
+Recommended No. Bots    : As many as you can handle, up to 30
+
+Other Mods: U4E; Set 
+
+                 Pulse to Zapper
+                 Impact to Thor's Hammer                 
+                 Enforcer to Shrinker
+                 Shock to SHOCK
+         
+=================================================================
+
+Installation instructions
+
+Unzip and place maps into your UnrealTournament/Maps folder.
+
+
+KNOWN Bugs: Bots occasionaly get stuck at pathnodes when returning flags
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd2
+
+Build Time              : 2 hours; 1 hour testing
+
+
+
+=================================================================
+
+Other Maps by Me
+
+Non-Released just ask me for them;
+
+DM-NewMexico][
+DM-NewMexico]I[ (Now with Giant Redeemer fireing Skarj)
+DM-Fallout
+CTF-RangeRules
+CTFM-FinalYard
+CTFM-Jungle
+
+Released;
+
+CTFM-WaterGardens
+CTFM-Test
+CTFM-Dominate
+CTFM-LavaZone
+
+===================================================================
+
+Acknowledgements: Colin for MultiTeam CTF 
+                  (Colin I'm waiting for MultiTeam Assault:)
+
+===================================================================
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money. Without
+asking me first
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file. And ask me first
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

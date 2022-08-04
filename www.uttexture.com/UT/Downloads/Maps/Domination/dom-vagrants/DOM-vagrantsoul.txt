@@ -1,0 +1,51 @@
+=============================================================================
+Title                : Vagrant Souls
+Filename             : DOM-VagrantSoul
+Version              : final
+Description          : Domination map for Unreal Tournament
+Author               : phil 'BansheeX' johnson
+Additional Credits   : animal[zoo],Trinux
+Email Address        : phil4@ignmail.com
+Web Site	     : 
+=============================================================================
+
+-=[ Installation ]=-
+unzip DOM-VagrantSoul to the UT map folder.
+unzip NatureT.utx,MordethT.utx,ForsakenT.utx andwotdetail.utx to the UT texture folder.
+unzip Leave-me.umx to the UT music folder
+unzip AmbientA.uax to the UT sound folder.
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Maps                    : DOM-Vagrantsoul
+Deathmatch              : No
+Domination		: Yes
+CTF			: No
+Assault			: No
+New Sounds              : Yes
+New Graphics            : Yes
+Ideal Player Load       : 10-15
+
+-=[ Construction ]=-
+
+Base                    : new map from scratch 
+Build Time              : 65 hours
+Editors used            : UnrealED 2
+ 
+Known Bugs              :bots again
+=============================================================================
+
+-=[ Notes ]=-
+
+last version was missing a file sorry.
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+This level is copyright (c) 2000 phil johnson.
+This level is not supported by Epic Games.
+
+
+
+

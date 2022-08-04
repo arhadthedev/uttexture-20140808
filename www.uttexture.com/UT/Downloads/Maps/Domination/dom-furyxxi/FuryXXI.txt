@@ -1,0 +1,65 @@
+
+================================================================
+Title : FuryXXI
+Version : 1.0
+Release Date : Nov 28, 99
+Filename : FuryXXI.umod
+Author(s) : Arbitrage Staton Richardson
+Email Address : Staton@sprintmail.com
+Web Page : http://www.unrealcontest.com/arbitrage
+Description : Domination map 
+
+Where to get this map : see webpage
+Other levels by author : see webpage
+Additional Credits to : all the ppl and bots in #unrealed
+
+================================================================
+--- Play Information ---
+Game : UnrealTornament
+Level Name : Dom-FuryXXI
+Single Player : N
+Cooperative : N
+Deathmatch : N
+Dark Match : N
+Domination : Y
+Assault : N
+CTF : N
+Difficulty Settings : N
+New Sounds : N
+New Graphics : N
+NewUnrealScript : N
+External DLLs : N
+Known bugs : N
+
+Notes:
+Best if played with 7 bots and yourself 
+
+--- Construction ---
+Editor(s) used : UnrealEd (beta version) patch 225
+Base : part of a Single player unreal map i've been working on
+Construction Time : a few days here a few days there
+
+
+Installation
+------------
+Copy the map to your unrealtournament maps directory.
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by James Staton Richardson
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL Tournament and the UNREAL Tournament logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

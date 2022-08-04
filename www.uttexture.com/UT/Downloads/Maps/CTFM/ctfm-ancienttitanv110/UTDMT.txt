@@ -1,0 +1,96 @@
+*** README FOR THE UTDMT UNREAL TOURNAMENT MOD ***
+
+Author: Patrick Cyr (GorGor)
+Email: kobuster@yahoo.com
+
+Permissions: The usual: if you use it please give me credit, you can't use
+it for money.  I'm not a lawyer, just don't be a dick.
+
+Special Thanks: Squacky for making the levels and beefenchilada for helping 
+me test this.
+
+
+*** FILE LIST ***
+Help\UTDMT.txt : This file.
+System\UTDMT.u : The scripts.
+Textures\UTDMT.utx : A texture (small).
+
+
+*** SUMMARY ***
+
+UTDMT stands for Unreal Tournament DeathMatch Titan.  It is a modified 
+Titan from Unreal which can take part in UT games.  This means that it 
+appears in the scoreboard, has score kept for it, and can win the game.  
+In addition, it also sends messages to the other players, taunting them
+when it kills them or cursing them when they hurt it.
+
+
+
+*** HOW TO USE ***
+(This is for "users." Server admins and level designers see below.)
+
+UTDMT is not and really cannot be a mutator.  The DMT needs to be placed in
+a level by a person, so to play with him you need one of those levels. 
+Might I suggest DM-Titania][ by Squacky?  Get it at 
+http://www.planetunreal.com/squacky
+
+
+
+*** HEY LEVEL DESIGNERS! HOW TO USE THE DMT: ***
+
+The class you want to place in your level is 
+Actor->Pawn->ScriptedPawn->Titan->StoneTitan->UTDMT
+
+There are a whole bunch of configurable properties of this class.  Default
+values have been set to make it so the DMT can be used with a minimum of 
+tinkering with these.  They've all been documented them in the code itself, 
+so if you want to know more look at the script.  I'll list a few points here:
+
+-All the messages are in the UTDMTMsgs properties group.  
+
+- The characters "%p" in a message are special: they will be replaced with 
+the name of the offending player or an insulting name if the player can't 
+be determined.
+
+- Prepending a message with the character "@" will cause it to be sent only
+to the Titan's teammates.  Note that this is done automatically with 
+IgnoreOrderMsgs: you don't have to specify the "@".
+
+-The default messages are specifically for the level DM-Titania][, so some
+of them may not make sense in your level.
+
+-Team 255 is no team, 0 is Red, 1 is Blue, etc.
+
+
+
+*** NOTES FOR SERVER ADMINS ***
+
+Many of the classes properies are "config," meaning you can set them in 
+an ini file for your server.  However, I'm not too sure how this really works
+in practice, so you are on your own: I don't run a server, I don't know how,
+I can't help you.
+
+One very cool (if you ask me) feature available to server admins is the 
+ability to make the titan say what you want it to.  To make every titan say
+something, type this into the console:
+
+set utdmt msg [your message here]
+
+To make a specific titan say something, type this:
+
+set utdmt msg #[Titan's name]#[your message here]
+
+To make a titan send the message to his teammates only, prepend your message 
+with "@".  For example, to make titan "Bobo" say "eat shit" to his teammates,
+type this:
+
+set utdmt msg #bobo#@eat shit
+
+In order to make this really fun you need to enable the chat logger built-in
+to the package.  To enable it, you must add the following line to your 
+server's ini's [Engine.GameEngine] section.
+
+ServerActors=UTDMT.UTDMTChatLogger 
+
+Also note that you can fiddle with a lot of the titan's properties this way
+(like respawn time, etc), though I'll leave the details for you to figure out.

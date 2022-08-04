@@ -1,0 +1,66 @@
+>>>>>DOM-CrypticLoxi<<<<<
+
+
+
+Title                   : CrypticLoxi (DOM)
+Version                 : 1.0
+Release Date            : September 31, 2000
+Filename                : DOM-CrypticLoxi
+Author                  :Cliff B"ported by TaroT"and                          alan"talisman"willard
+Country of birth	: Australia
+Age			: 36
+Email Address           : gumtrees@hotmail.com
+Description             : fused 2 domination maps together to make a large freef for all :)
+				
+
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Domination
+Level Name              : DOM-CrypticLoxi
+Player #'s		: 4 to 12 players
+Single Player           : Yes, Botmatch
+Cooperative             : yes
+Deathmatch              : no
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No.
+Known bugs              : none found yet, please email me if you find any.
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd From UT version 4.05
+Base                    : Loxi and Cryptic
+Construction Time       : hours
+                         
+
+
+>>>Installation<<<
+Unzip DOM-CrypticLoxi.unr in your Unreal Tournament/maps directory.
+
+
+>>>Author's Notes<<<
+this is made from my conversion Loxi for domination and the UT released Cryptic domination map..i thougth they were a tad small so i beefed them up :)
+all credit for the maps go to there original authors.
+
+
+
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Rings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+Officeworks/AS/DOM/ctf
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+they arent really my maps so do what you like...ask the original aithors permission for any distribution of said maps.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

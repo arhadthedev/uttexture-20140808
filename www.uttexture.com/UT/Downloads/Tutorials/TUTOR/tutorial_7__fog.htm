@@ -1,0 +1,100 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Tutorial #7 - Fog</title>
+
+
+<meta name="Microsoft Theme" content="none"><meta name="Microsoft Border" content="none"></head>
+
+<body bgcolor="#000000" text="#00FF00" link="#FFFF00" vlink="#00FFFF" alink="#FFFFFF">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><table border="0" width="100%">
+      <tr>
+        <td width="33%"><strong><font face="Verdana"><small>Tutorial #7: Fog</small><br>
+        <a href="http://www.creativecarnage.com/unreal/tutorial7.unr"><small><small><small>(click
+        to download .UNR)</small></small></small></a></font></strong></td>
+        <td width="33%" align="center"><p align="center"><a href="mailto:brett@jamisongold.com"><strong><small><font face="Verdana">Author: freakscne</font></small></strong></a></td>
+        <td width="34%" align="right"><strong><small><font face="Verdana">Last Updated: May 25th</font></small></strong></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><font face="Verdana" color="#0000FF" size="6"><u><b>Unreal Tutorial #7</b></u></font><br>
+    <font size="3" color="#0000FF" face="Verdana"><strong>Freakscne&#146;s Fog</strong></font>
+    <font SIZE="2"><p></font><font face="Verdana" SIZE="2">Note: Before getting into fog you
+    should have read through the first two basic tutorials. </p>
+    <p>Fog is a lot simpler than it may seem. The first thing you need to do is define a zone
+    that your fog will exist in (zones are used for determining visible polygons in an area
+    and for assigning zone properties to an area, but for this tutorial you just need to know
+    that they will define your fog area). </p>
+    <p><strong>Make your zone</strong> </p>
+    <p><img SRC="select_area.jpg" BORDER="0" ALIGN="right" HSPACE="5" WIDTH="282" HEIGHT="391"> There are two ways to
+    define a zone, but I'll show you the easier way, which is to make a special Zone Portal
+    brush. First decide what room or rooms you want the fog to reside in. Then right-click on
+    the selected area in your 2D view and choose Copy Selected Polys -&gt; To Brush. This will
+    copy the dimensions and location of that area to your brush. You should now see your brush
+    shape over the existing room areas. Now click on the &quot;add special brush&quot; tool.
+    This is represented by the solid green square icon on the toolbar (the 3rd column of
+    buttons, on the fourth row), which enables you to add a special type of polygon. When you
+    click on the &quot;add special brush&quot; tool, a little dialog box comes up with several
+    pull-down options. <br CLEAR="all">
+    <br>
+    </p>
+    <p><a href="http://www.creativecarnage.com/unreal/add_zone_portal_full.jpg"><img SRC="add_zone_portal.gif" ALIGN="left" HSPACE="5" border="0" WIDTH="220" HEIGHT="242"></a> Choose the &quot;Zone
+    Portal&quot; pulldown option.Click on &quot;Add Special&quot; and then click
+    &quot;Close.&quot; What you did is place a Zone Portal poly matching the area you want fog
+    to be in. <br CLEAR="all">
+    </p>
+    <p><br>
+    <strong>Getting in the zone</strong> </p>
+    <p>The next thing we have to do is add a ToggleZoneInfo class actor to the zone area. If
+    you've already worked through the Water tutorial, you know how to do this. On the right
+    side of your UnrealEd window you should see the texture list and above that a popup menu
+    that says Browse: [Textures]. Change this popup to Classes and the actor classes will
+    appear. Click on the + signs to expand a class. ToggleZoneInfo class is located under Info
+    -&gt; Zone Info. Highlight ToggleZoneInfo and then right-click somewhere in your zone area
+    and select &quot;Add ToggleZoneInfo here.&quot; After you add ToggleZoneInfo to the zone,
+    right-click on it and select ToggleZoneInfo Properties. Expand ZoneInfo and set bFogMode
+    to True. Close that window. </p>
+    <p align="center"><a href="http://www.creativecarnage.com/unreal/add_togglezoneinfo_full.jpg"><img SRC="add_togglezoneinfo_sm.jpg" BORDER="0" WIDTH="600" HEIGHT="344"></a> <br>
+    <a HREF="file:///D:/add_togglezoneinfo_full.jpg" WIDTH="1024" HEIGHT="585">Full window
+    view</a> [98KB] </p>
+    <p><br>
+    <strong>Let there be light</strong> </p>
+    <p>Now, although you now have specified your zone to have fog, you won't see it until you
+    have a light in the area. First Rebuild (F8) so that you can see the changes in your light
+    source and fog. Now right-click to Add a Light Here somewhere in the zone and right-click
+    on the light to set its properties. The two big properties to set are under Lighting:
+    Volume Brightness and Volume Radius. Volume Brightness, as far as I can tell, approximates
+    how much the fog reflects the light source. Volume Radius is the actual radius of the fog
+    - the center starts from the light source. By playing with these props and the light
+    brightness and radius, you should get a fog that suits you. Also, you can make the fog
+    colored by changing the light's hue (turn down the saturation too to do this) - these
+    props are under LightColor. You should see fog in your 3D view like this: </p>
+    <p align="center"><a href="http://www.creativecarnage.com/unreal/change_fog_settings_full.jpg"><img SRC="change_fog_settings_sm.jpg" border="0" WIDTH="600" HEIGHT="343"></a> <br>
+    <a HREF="file:///D:/change_fog_settings_full.jpg" WIDTH="1024" HEIGHT="545">Full window
+    view</a> [91KB] </p>
+    <p>If you have any further questions, look me up in #unrealed. And if anyone knows how to
+    get the ToggleZoneInfo -&gt; ZoneLight props to work with fog, send me a line. Good luck! </p>
+    <p></font><font face="Verdana" SIZE="3"><strong>FOG and Zone Boundries</strong></font><font SIZE="2"><font face="Verdana"></p>
+    <p>If you want fog to be seen from a zone, that zone MUST have a togglezoneinfo with
+    bFogMode=true, even if that zone will not have fog in it.&nbsp; To avoid your lights
+    affecting the fog, set the light's fog properties to 0.</p>
+    <p><font face="Verdana">freakscne (<a HREF="mailto:brett@jamisongold.com">brett@jamisongold.com</a>)</font></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></font>&nbsp;</p>
+    <p></font>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

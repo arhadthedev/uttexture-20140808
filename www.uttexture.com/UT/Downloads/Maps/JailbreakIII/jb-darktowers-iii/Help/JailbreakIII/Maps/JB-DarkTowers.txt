@@ -1,0 +1,46 @@
+Unreal JB Map
+
+================================================================
+Title                   : Dark Towers
+Version                 : Release 1.0
+Release Date            : 2/18/02
+Filename                : JB-DarkTowers-III.unr
+Author                  : Bill 'DireIce' Hamilton
+Email Address           : Zone@Battlezinc.com
+Web Page                : http://www.battlezinc.com/utmaps
+
+
+Description             : Face style Original JB Map.
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Level Name              : JB Dark Towers (JB-DarkTowers-III.unr)             
+
+Game Type               : JailBreak
+Single Player           : Yes
+Multiplayer             : Yes
+New Sounds              : No
+New Graphics            : No
+JB Arena		: Yes
+JB Custom Death		: Yes
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd 2.0
+Base                    : Modification/Conversion
+
+
+Installation
+------------
+   Unzip the file JB-DarkTowers-III.unr into your UnrealTournament\maps directory.
+
+You can then choose JB-DarkTowers-III from the "start practice session\JB" menu. 
+
+
+Copyright / Permissions
+-----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

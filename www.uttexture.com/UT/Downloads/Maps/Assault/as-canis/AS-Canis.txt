@@ -1,0 +1,30 @@
+================================================
+File Name : AS-Canis.zip
+Map Name : AS-Canis
+Map Author : Johan 'IceCat' Samuelsson
+Map Defaults : 
+DeathMatch : NO
+Domination : NO
+Capture The Flag : NO
+Assault : YES
+Last Man Standing : NO
+
+Authors notes :
+Please don't use this map as a beginning of a new one etc..etc..
+If you have nothing to do, please e-mail me and write down some
+things that you think I should change to get the map better.
+Of course you can also tell me good things about the map. And
+rate it if you want..my ears are open...
+
+My E-Mail Address : 
+Icecat85@hotmail.com
+
+Other maps made by author :
+DM - Adaman 
+DM - Unite
+
+Coming maps by author :
+AS - Alkura
+DM - Garm
+
+(This is not maps I'm almost done with or something, just ideas.)

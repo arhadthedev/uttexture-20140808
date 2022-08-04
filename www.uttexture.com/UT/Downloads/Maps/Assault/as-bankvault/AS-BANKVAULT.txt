@@ -1,0 +1,51 @@
+Unreal Tournament Map
+
+================================================================
+Title                   : BANK VAULT (-Final Version-)
+Filename                : AS-BANKVAULT.unr
+Author                  : David R. Lamberson (OSMIUM)
+Email Address           : jsusan1@qwest.net
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+                                 
+Game Type               : ASSAULT
+Single Player           : yes (12 player starts)
+Multiplayer             : yes
+New Sounds              : No
+New Graphics            : No
+Known bugs              : Bots won't complete last 2 objectives can't figure out why...
+Credits			: Special thanks to my beta testers Ogre, Death Knight, RHODIUM, and OL'ONEYE
+
+Other maps by author    : CTF-DREAMS
+			: DOM-GHOSTS
+
+--- Construction ---
+Editor(s) used          : UnrealEd 
+Base                    : New Map
+Build Time		: One week for construction, another for beta testing and frame rate optimizing...
+
+Information
+------------
+   
+  I wanted to create a Assault with a little more realism in tight quarters with some unique movers and with no healths and limited weapons... 
+
+Happy Assaulting OSMIUM...
+
+ 
+
+Installation
+------------
+   Unzip the file AS-BANKVAULT.unr into your UnrealTournament\maps directory.
+You can then choose AS-BANKVAULT from the "start practice session\ASSAULT" menu.
+
+Copyright/Permission
+------------
+This map was constructed for the enjoyment of my fellow players, if you wish to improve it so be it...OSMIUM
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

@@ -1,0 +1,6 @@
+[Public]
+Object=(Name=Audio.GenericAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
+Preferences=(Caption="Audio",Parent="Advanced Options",Class=Audio.GenericAudioSubsystem,Immediate=True)
+
+[GenericAudioSubsystem]
+ClassCaption="Generic Audio"

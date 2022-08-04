@@ -1,0 +1,94 @@
+=====================================================================================================
+
+Title                   : AS-Canyon
+
+Author                  : Marco "Vorlon" Fritzsche
+
+Date                    : 19 Nov 2000
+
+Filename                : AS-Canyon.zip
+
+File contents           : AS-Canyon.unr
+			  CompTex.utx 
+                          AS-Canyon.txt 	
+
+=====================================================================================================
+
+Email Address           : MarcoFritzsche@web.de 
+
+Home Page		: /
+
+=====================================================================================================
+
+Info                    : This is my first map, so it isn't completely perfect at all!
+				
+			  The map is a bit larger and seven goals are waiting for you:
+
+			  * Destroy the frontdoor and enter the castle ruins 
+			  * Open the undergrounddoor and fight your way downstairs through the complex 
+			  * Deactivate the forcefield to initiate self destruction
+			  * Reach the hangar bay and enter the escape pod before everything explodes
+
+				
+Comments		: Thanks to all the people that helped testing and gave me comments.
+			  Special thanks to "Ares" and "X-FLU" for playing again and again (also for 
+			  complaing about bot behavior again and again !!!!!!!).
+			  Comments about this new map are welcome! 
+
+			  I created the map on a Celeron 500 / 128MB RAM / ELSA Erazor][ and it 
+			  runs acceptable with 16 bots. I recommend a better graphics card and 192MB
+			  RAM. Optimal would be an Athlon 600 with GeForce (or better).  
+			  
+======================================================================================================
+
+Play Information:	
+
+Single Player Assault   : Yes (Bots act good, but set them at least to Adept!) 
+Deathmatch              : No
+Assault			: Yes
+Recommended No. Bots    : 7-15
+Comments		: Enjoy!
+                          
+==============================================================================
+
+Installation instructions:
+
+Unzip "AS-Canyon.unr" into your UnrealTournament/Maps folder.
+Unzip "CompTex.utx" into your UnrealTournament/Textures folder.
+
+
+KNOWN Problems: Some clipping errors.
+		Performance could be a bit better. 
+		You can inform me if you find any bugs! 
+
+==============================================================================
+
+Construction:
+
+Editor used             : UnrealEd / UnrealEd2
+
+Build Time              : 7 weeks over all, most time for bugfixing especially 
+			  bot behavior (sometimes I thought they want to get
+			  me a nervous breakdown!)				
+				 
+==============================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+==============================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

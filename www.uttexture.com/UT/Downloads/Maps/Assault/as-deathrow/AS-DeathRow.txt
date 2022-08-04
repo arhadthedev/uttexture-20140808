@@ -1,0 +1,93 @@
+================================================================
+Title                   : AS-DeathRow
+
+Author                  : Tynan "Dr. Crowbar" Sylvester
+
+Date                    : 5 April 2000
+
+Filename                : AS-DeathRow.zip
+
+File contents           : AS-DeathRow (Map)
+			  cbrad_indus.utx (Textures)
+                          AS-DeathRow.txt (This file) 	
+
+			
+Email Address           : dsylvester@sympatico.ca
+
+
+Description             : A massive prison break has occured from the maximum security
+                          secret deathrow prison. Most prisoners left the prison and were 
+                          captured outside the prison by police, however, some of the sickest
+                          psychos chose to remain in the prison and torture and eventually 
+                          kill the guards they kept alive. The Special Operations Team (SOT)
+                          must enter the prison, neutralizing all resistance on sight and        
+                          rescue the prisoners in as short as time as possible. 			
+			  WARNING : some of the prisoners ahve computer skills and may have 
+                          reprogrammed the security guns to fire on police insted of prisoners.                     
+  				
+Comments		: This map was originally made as a map for the SWAT mod for UT, but it
+			  was deemed unacceptable by SWAT standards and I converted it to Assault
+			  format. This is evident in teh way the level is designed (tons of cover,
+			  small areas, all realistic)	
+			
+================================================================
+
+Play Information	
+
+Single Player Assault   : Yes 			 
+Deathmatch              : No
+Assault			: Yes
+Recommended No. Bots    : 7-15
+Comments		: I could not find any way to make the bots take the downstairs route.
+			  I wish they would randomize a bit more (I put in elevator support!)
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "AS-DeathRow.unr" into your UnrealTournament/Maps folder.
+Unzip "cbrad_indus.utx" into your UnrealTournament/Textures folder.
+
+
+KNOWN Problems: Sometimes a few minor HOM effects...
+		Performance could be a bit better in outside and main cell block areas... 
+		If you find any bugs grumble and complain to yourself.
+
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd
+
+Build Time              : You dont want to know...
+
+
+===================================================================
+
+Other maps by Author:
+
+A couple of maps which I could release, but I wont because they will get less then 5 on Nalicity (I just hope DeathRow gets more then 5)
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.) or through any other means, provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file or AS-DeathRow.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

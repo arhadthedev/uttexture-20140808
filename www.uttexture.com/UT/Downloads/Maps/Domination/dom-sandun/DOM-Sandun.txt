@@ -1,0 +1,39 @@
+                       DOM-Sandun
+                     ===============
+PLAY INFORMATION
+================
+    AUTOR                   :SANDOR
+    COUNTRY                 : HOLLAND 
+    Email                   : janijhuis@wish.net
+    =============================================  
+    GameType                : DOM
+    Single Player           : Yes
+    New Sounds              : No
+    New Graphics            : No
+                            
+    ===============================
+    This level can be best play'd with min. p-2-300 and a voodoo3 VGA and 64mb!!!                         
+                          
+    ==============================================================================                       
+
+    Special thanks for testing my level to: Nick CLARK                       
+                               
+                              
+                           
+   =====================================================                          
+    Other LEVELS made by me : DM-Fragsome2 and this LEVEL is their also in DM!!!
+
+                               
+    Editor(s) used          : UnrealED
+    Build Time              : About 7 days on and off build time.
+
+AUTHOR'S NOTES
+================
+This is my first Unreal Tournament DOM-level and it was fun building it!!! so the only thing i
+can say = HAVE FUN with it!!!
+
+================================
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

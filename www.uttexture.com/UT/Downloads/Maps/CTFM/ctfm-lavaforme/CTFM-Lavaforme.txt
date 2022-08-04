@@ -1,0 +1,27 @@
+Carte pour ton super mod MultiTeam Capture the Flag.
+
+Français                  			USA
+========					===
+Nom de la carte:	 CTFM-Lavaforme		:Map name
+Type de partie:		 MCTF			:Game type
+Nombre de joueur idéal:	 12 (4x3)		:Recomended player count
+Taille:			 petite	(little)	:Height
+Armes disponible:	 Activer    [x]		:Weapons available
+Téléporteur:		 Désactiver [ ]		:Téléporteur
+
+Editeur utilisé:         UnrealEd v2.00 (UTv436):Editor used
+Date de construction:	 01/18/01		:Release Date
+Temp de construction:	 5 heures (1/2 day)	:Construction time
+
+Auteur:          	 Crokx          	:Author
+Autre carte de l'auteur: CTFM-Tutorial][	:Other levels by author
+E-Mail:                  Crokx@Infonie.fr    	:Email Address
+
+
+Notes
+-----
+Mail-me please... en français si possible. -=>Crokx@Infonie.fr<=-
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ -=> Unreal Tournament (c)1999 Epic Megagames, Inc. <=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

@@ -1,0 +1,67 @@
+===============================================================
+Title                   : 5Cubes-Sen045
+Version                 : 1.0
+Release Date            : August 23, 2000
+Filename                : DOM-5Cubes-Sen045.unr
+Author                  : Sen045
+Email Address           : sen045@sen045.com
+Web Page                : http://www.sen045.com
+Description             : Low-gravity domination map.
+Where to get this map   : It should have been with this text file.
+                          If it was not, get it from http://www.sen045.com
+Other levels by author  : DM-SunshineOasis
+                          DM-Ahlensbog (sux)
+Additional Credits to   : Maz at www.maz-sound.com, for making most of the samples I use for the music.
+
+===============================================================
+--- Play Information ---
+Game                    : Unreal Tournament                                 
+Level Name              : 5Cubes-Sen045
+Deathmatch              : Sure you can, but I doubt it would be fun...
+Domination              : Yes
+Assault                 : No
+Dark Match              : No
+Capture the Flag        : No
+Difficulty Settings     : No
+New Sounds              : New music, the song "Chicken Revolution" by me.
+New Graphics            : None
+Known bugs              : None yet...
+
+===============================================================
+--- Construction ---
+Editor(s) used          : UnrealEd, ModPlug Tracker, CoolEdit, Digital Orchestrator Plus
+Base                    : Scratch
+Construction Time       : A couple of hours, not including the soundtrack
+
+===============================================================
+Installation
+------------
+   Unzip the .UNR file to your UnrealTournament\Maps dir.
+
+===============================================================
+Author's Notes
+--------------
+This map was made for DavidM's 5Cubes contest, and thus is VERY simplistic. When I have the time, 
+I think I'll make a "normal" version of this map with decent looks, but that would have been disqualified 
+from the contest. Anyway, more info about the contest at www.planetunreal.com/teamvortex/5cubes
+
+===============================================================
+Copyright / Permissions
+-----------------------
+
+This level is copyrighted (C) 2000 by Johannes "Sen045" Åman-Pohjola. All rights reserved.
+Authors MAY use this level as a base to build additional levels, as long as you give me, 
+the original author, cred in the readme.
+
+You are NOT allowed to commercially exploit this map, i.e. put it on a CD
+or any other electronic medium that is sold for money without my permission!
+
+You MAY distribute this map through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT(c)1999 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

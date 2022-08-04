@@ -1,0 +1,79 @@
+>>>>>DOM-Cityintro<<<<<
+
+
+
+Title                   : Cityintro (DOM)
+Version                 : 1.0
+Release Date            : may 28, 2000
+Filename                : ArizaExtreme
+Author                  : shaun cardle ported by TaroT (Mark Benton)
+Country of birth	: Australia
+Age			: 35
+Email Address           : gumtrees@hotmail.com
+Description             : and you thought the intro was boring :)
+well your in for a surprise
+
+>>>Level Information<<<
+Game                    : Unreal Tournament-Domination
+Level Name              : Cityintro
+Player #'s		: 2 to 30 players
+Single Player           : Yes, Botmatch
+Cooperative             : No
+Deathmatch              : yes...just rename the file DM-Cityintro
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No.
+Known bugs              : Only that the bots will kick thy ass on godlike :)
+
+
+>>>Level Construction<<<
+Editor(s) used          : UnrealEd2 From UT version 4.20
+Base                    : cityintro
+Construction Time       : a lifetime off and on
+                           
+
+
+>>>Installation<<<
+umod away
+
+>>>Author's Notes<<<
+ive added weapons and a stack of other coding in this thing but no new graghics
+i like it the way it is :)
+
+>>>Other Levels by TaroT<<<
+DOM-Kings
+DOM-Ginza
+DOM-Bigger
+DOM-TerroR
+AS-alcatraz
+AS-officeworks
+As-space
+AS-spaceonmars
+AS-spaceonearth
+DOM-q3meetsut
+Dom-Rings
+
+plus numerous ports from unreal and tounie
+www.nalicity.com or www.unreality.com for more of my work
+
+
+>>>Copyright/Permissions<<<
+TaroT (aka Mark Benton) or more to the point shawn cardle :)
+may 28, 2000, copyrights these levels.
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from me to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+<<<>>>
+UNREAL (c)1998 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

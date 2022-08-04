@@ -1,0 +1,22 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dom-AncientsSkW, Domination level for Unreal Tournament
+_______________________________________________________
+
+New UT DOM level by [SkW]Deathwish of the SKAARJWARRIORS (http://surf.to/skaarjwarriors | http://surf.to/scragsite).
+
+Temple of Ancients is an Egyptian-themed UT Domination map. Symmetrical in design, there are rooms, waterways and corridors linking the three control points. Quite a simple map but plenty of space to move in!
+
+The map comfortably accommodates between 4 and 8 players (12 player starts are provided). Framerate is fine because of the simple layout and zoning. The looks of the map are very cool - although the layout didn't work out as well as I had planned :-( . It's more DOM to play though!
+
+Bots play fine. They translocate where they should and guard taken control points. There is a baffling tendency of some bots to run on the spot after taking the Pillar control point but they don't have a chance to stay there for long! There are few other bugs. No noticeable HOM.
+
+Don't forget to download the other SkW maps...
+
+Have fun and give me your feedback!
+skaarjwarriors@lineone.net
+
+INSTALLATION:
+Bung this in your UnrealTournament\Maps folder (or another folder with a maps path set up) and the map should automatically appear on the in-game menus.
+
+LEGAL:
+Umm, yeah, this is in no way related to id Software, Epic Megagames, Digital Extremes or GT Interactive etc etc, umm, you may put this on a distribution CD or up for download but make sure I get credit etc etc :-) . This is strictly free of charge must not be sold and so on. Hey, why are you reading this, you should be playing Dom-AncientsSkW by now (or at least starting UT).

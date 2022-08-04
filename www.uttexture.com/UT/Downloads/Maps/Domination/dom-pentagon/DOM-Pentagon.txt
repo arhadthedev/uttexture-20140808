@@ -1,0 +1,76 @@
+================================================================
+Title                   : Pentagon
+Version                 : 1.0
+Release Date            : November 2000
+Filename                : DOM-Pentagon
+Author                  : Peter 'pBOOST' Oostrik
+Email Address           : pboost@zonnet.nl or poostrik@home.nl
+
+  
+
+
+
+ Credits to : Wolf for his tutorials.
+===============================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : DOM-Pentagon
+Single Player           : Yes,playing with bots supported.
+Cooperative             : No
+Deathmatch              : No
+Domination		: Yes
+Dark Match              : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Known bugs              : The outside area is a little dull.:-((
+
+--- Construction ---
+Editor(s) used          : Unreal Tournament Editor 2
+Base                    : New level
+Construction Time       : Sorry,I lost count,I only have a few 			  hours in the evenings.
+
+---Pick-ups---
+			: They are not hard to find and they are all in it.
+
+---Other Levels by author---
+			: DM-Corwin= (this one really sucks )
+			: DOM-Kirsten
+			: CTF-Corwin's Revenge
+			: CTF-Abbey
+			: CTF-Obelisk
+			: DOM-Crystals
+			  
+ 	
+
+Installation
+------------
+Just unzip this file and place the level in your unrealtournament/maps section.
+
+Note by Author
+--------------
+I think it worked out pretty well,it's a nice kind of alien/ancient building with all kinds of different rooms, only the outside area is not for playing only for the redeemer,the bots shouldn't even go out.
+I hope that it turned out good enough for all you players out there, and that you enjoy playing this level!
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Peter 'pBOOST' Oostrik
+
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from Peter Oostrik to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+----------------------
+UNREAL TOURNAMENT (c)1999 Epic Games, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are registered
+trademarks of Epic Games, Inc. All other trademarks and trade names are
+properties of their respective owners.
+----------------------

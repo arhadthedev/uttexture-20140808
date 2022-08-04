@@ -1,0 +1,19 @@
+==========================================================================
+Title                   : Spire Temple
+Finish Date             : August 2000
+Filename                : dom-spiretemple.zip
+Author(s)               : Gareth 'Ulukai' Spring
+
+Email Address           : ulukai@planetunreal.com (feedback & bugreports appreciated)
+Home page		: http://www.planetunreal.com/ulukai/
+
+Description             : A Domination map for up to 6 players. Location is a 
+			  ancient Nali temple.			  		 
+==========================================================================				
+Author's Notes
+--------------
+
+* My first (maybe last) domination map for UT.
+
+==========================================================================
+Ulukai's Map Design - www.planetunreal.com/ulukai/

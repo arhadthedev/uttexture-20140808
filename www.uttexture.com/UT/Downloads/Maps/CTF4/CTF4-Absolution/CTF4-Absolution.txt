@@ -1,0 +1,75 @@
+================================================================
+Title                   :CTF4-Absolution
+Version                 :1
+Release Date            :9/21/00
+Filename                :CTF4Absolution
+Author(s)               :Paul "icepick59" Fritts
+Email Address           :icepick59@hotmail.com
+Description             :In 2050 the Bio-Research company bought the rites to an astroid in order to do test on convering 
+			 the Bio-waste into energy. First building two bases on top of the surface and then two in the caverns
+			 underneath. One of the subterranian bases studied the bio-waste itself and the other studied the
+			 electrical charge produced from the process. While the upper faculities were pretty much abandoned
+			 the lower two were kept up too up to date and well maintained. Liandri bought the rites to the 
+			 research center after a horrible flooding killed everyone below surface. The water was pumped into a lower
+			 cavern below that was used for storage.   
+			
+
+Additional Credits to   :David Cambell at www.uncommonplace.com for the CTF4 mod and all the texture artists that I borrowed
+			 textures from, PlanetUnreal and all the mapping sites(UnrealEDexe)
+			
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :CTF4-Absolution
+Single Player           :no
+Cooperative             :yes
+Deathmatch              :no
+Dark Match              :no
+Difficulty Settings     :whatever
+New Sounds              :nope
+New Graphics            :level screenshots etc :)
+NewUnrealScript         :nope
+External DLLs           :what the hell?
+Known bugs              :ants, bees, wasps, and if you get knocked into the mountains you'll have to use the transponder or
+			 other jump techniques to get out/ The background doesn't look right and the mountains just drop off.
+			
+
+--- Construction ---
+Editor(s) used          :Ued,Ued2
+Base                    :
+Construction Time       :about 2 months
+
+
+Installation
+------------
+put it in your unrealtournament/maps directory
+
+
+--------------------
+
+
+Author's Notes
+--------------
+
+This is my first public map, hope you enjoy
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted to Paul Fritts
+
+Authors may not use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

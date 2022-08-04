@@ -1,0 +1,2 @@
+[Public]
+Object=(Name=MatrixMoves.MatrixMutator,Class=Class,MetaClass=Engine.Mutator,Description="MatrixMoves,Ability to run on the walls and do backflips. (c) Reactor 4, 2000 - www.planetunreal.com/reactor4")

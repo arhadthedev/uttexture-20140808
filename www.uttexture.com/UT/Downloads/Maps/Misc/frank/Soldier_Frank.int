@@ -1,0 +1,8 @@
+[public]
+
+Object=(Name=Soldier_Frank.FnF01,Class=Texture,Description="Dr Frank N Furter")
+Object=(Name=Soldier_Frank.FnF02,Class=Texture)
+Object=(Name=Soldier_Frank.FnF03,Class=Texture)
+Object=(Name=Soldier_Frank.FnF04,Class=Texture)
+Object=(Name=Soldier_Frank.FnF04Frank,Class=Texture,Description="Frank")
+Object=(Name=Soldier_Frank.FnF05Frank,Class=Texture)

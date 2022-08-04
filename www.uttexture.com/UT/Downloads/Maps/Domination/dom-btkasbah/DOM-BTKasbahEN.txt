@@ -1,0 +1,81 @@
+==============================================================================
+Title                   : South Kasbah
+Filename                : DOM-BTKasbah.unr
+Version                 : january 6, 2000
+
+Author                  : Bernard TEXIER
+Email Address           : btexier@club-internet.fr
+
+Description             : Map built with Unreal editor (UT). 
+                          Starting from a picture of a south Morocco Kasbah, I
+                          built that map and put 3 control points to play
+                          domination system of UT : one control point on the 
+                          last floor (TOP), 1 CT on the second floor (MIDDLE),
+                          and he last one on the first floor (LOWER). 
+                            
+Others UT Maps          : DM-BTDAIKATAN-UT (like "storm sector 7" of Daikatana
+                                            demo)
+                          CTF-BTGoldenKrall (capture the flag) for UT.
+ 
+Additional Credits to   : Epic Megagames for the software delivered.
+                          All guys which had spend a lot of time to write some
+                          tutorials and FAQ for Unreal and UnrealED.
+                          
+                          Peter (QAPete) for the posting of the maps on 
+                          PlanetUnreal (Nali City)
+                          
+                          tests by : Gotz, Andy, ftx, ...
+                          Thanks for their helps and feedbacks.
+===============================================================================
+
+* Play Information *
+
+Game                    : UNREAL TOURNAMENT
+Single Player           : No
+Cooperative             : No
+Team game               : No,
+Domination game         : Yes
+Deathmatch              : No,
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Demos Replaced          : No
+Screenshots             : Yes, 4
+
+* Construction *
+
+Base                    : from scratch 
+Build Time              : a few days 
+Editor used             : UnrealED (UT)
+Known Bugs              : none now, I hope. 
+                          Tested on my machine with UT (patch 402)
+                          
+Computer                : Built on P II 350, SB64 & 3DFx TechWorks board
+                          tested up to 16 bots (8*2 teams).
+
+* How to use this level *
+                        : Unzip the files and place the DOM-BTKasbah.unr
+                          into your MAPS directory under your UT directory. 
+                          DOM-BTKasbah is set to DOM as a default.
+                          Double-clicking on the file will start a DOM match.
+                          You may also start UT as normal and choose 
+                          DOM-BTKasbah from your map list in the DOMINATION
+                          menu. 
+                          
+                          Use 5-7 bots. Number of points to reach = 150
+  
+* Copyright / Permissions *
+
+This level is (c) by Bernard Texier.
+If you find it on the Net, I hope it is free of bugs !.
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD 
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this BSP through any electronic network (internet, 
+FIDO, local BBS etc.), provided you include this file and leave the archive 
+intact.
+
+===============================================================================
+                
+

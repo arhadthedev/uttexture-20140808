@@ -1,0 +1,14 @@
+Map Name:	Funnel II evo II
+Author:		MrTenPercent
+Contact:	via private message at Truff - www.truff.net
+Completed:	12-01-2006
+Reference:	http://www.birrabrothers.com/drac/ued2.html
+		http://wiki.beyondunreal.com/wiki
+
+Thanx:		Voxel on whose beta_Funnel_II.unr this map is based
+		Snoop &
+		Ro-Jaws work colleagues who inadvertently beta tested this map for me during lunch times.
+
+This map is based on my map beta_Funnel_II_evo. The architecture consists of two _evo maps joined side by side with one of the maps spun through 180 degrees about the vertical axis. Some of the components had to be removed/remodelled to enable this. I also changed the nature of the cutout below the sniper platform - making it easier to spawnkill! I changed the range of all the sniper rifles so they can hit anywhere within the map (did this on _evo but forgot to say so). Hmmm, and I managed to resist the urge to up the fire rate on the sniper rifle. ;-)
+
+Happy fragging.

@@ -1,0 +1,79 @@
+Advanced Web Admin Version 1.0 (17/2/2001)
+Created by TheFury 
+
+http://www.fury.co.uk/ut
+
+
+Advanced Web Admin (AWA) isn't actually that advanced. It's purpose is very specific, to provide multiple named users access to UT's web admin system. Further, you can assign different access privileges to each user. There is a hard limit of 50 named users - if you want more than this number then I'd question how your running your server setup :) If you still want more than 50 then tough...
+
+Advanced Web Admin (AWA) is a server side only module. There are no client downloads of any kind.
+
+
+Installation
+============
+
+Backup your Unreal Tournament\Web directory - this is important as AWA destructively overwrites the defaults_menu.uhtm file.
+
+Copy the supplied files into your respective UT directory.
+
+Edit your UnrealTournament.ini file
+
+Find the section [UWeb.WebServer] -  should look something like this:
+
+[UWeb.WebServer]
+Applications[0]=UTServerAdmin.UTServerAdmin
+ApplicationPaths[0]=/ServerAdmin
+Applications[1]=UTServerAdmin.UTImageServer
+ApplicationPaths[1]=/images
+DefaultApplication=0
+bEnabled=True
+ListenPort=12345
+
+
+Now change the first four lines to read as the following:
+
+[UWeb.WebServer]
+Applications[0]=AdvWebAdmin.AdvServerAdmin
+ApplicationPaths[0]=/ServerAdmin
+Applications[1]=AdvWebAdmin.AdvImageServer
+ApplicationPaths[1]=/images
+
+
+This will disable the standard Webadmin server and enable the advanced webadmin server. 
+
+Thats it :)
+
+
+*NOTE* After installation your webadmin will initially only respond to a user of ADMIN with a password of ADMIN. Don't worry this can be changed.
+
+
+If everything was successful then you should be able to point your browser at the specified webadmin listen port and the new webadmin pages should be visible. Don't be fooled into thinking it hasn't worked - there are only 2 new screens !!!
+
+
+
+
+Usage
+=====
+
+
+AWA adds two new menu options to the defaults page. These are Change Password and Config WebAdmin.
+
+Change Password: Allows the currently logged on user to change his or her password.
+
+Config WebAdmin: This provides access to per user configuration screens. From here you can add, edit and delete users. I'll leave you to figure out the add and delete...
+
+On selecting Edit user a further screen is displayed that enables you to select which of the webadmin screens that user is allowed to access. You may also change the user's password from this screen. It goes without saying that for all but your very trusted users you will want to disable the Config WebAdmin access for users...
+
+
+All configuration information is stored in the file AdvWebAdmin.ini - which should make it portable across all the machines that you may be running.
+
+
+
+
+
+
+
+
+
+
+

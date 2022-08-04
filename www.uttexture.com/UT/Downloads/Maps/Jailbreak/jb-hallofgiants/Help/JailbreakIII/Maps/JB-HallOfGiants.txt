@@ -1,0 +1,57 @@
+== JB-HallOfGiants by Will "ZedMaestro" Zeal ==
+A conversion of the classic CTF map by Juan Pancho "XCeptOne" Eekels
+
+== Map Statistics ==
+* A construction time of 5 months (its been a nightmare to convert, hence the huge time)
+* No major change to playing area structure, except that the redeemer ledge is a lot higher and thicker, to accomodate the   arena speed tubes.
+* Loads of new textures, mostly due to the adverts and map
+* A few bot path changes, most importantly including attack route variations, plus the odd bug here-n-there.
+* Nothing else really... its a conversion!
+
+== Features ==
+* Jails and Arena part of the actual map, with see-thru walls
+* A nasty but amusing (also colourful) Skaarj execution
+* Frantic, exciting, and frustrating arena complete with speed tubes (and really annoying ammo placement!)
+* Numerous team tactics and attack routes, including the classic speed tubes
+* Excellent bot support, especially when they're down to their last man
+* Translocating is allowed anywhere in the playing area of the map; a very useful ability for all sorts of reasons
+* 21 amusing/hilarious/mocking adverts/displays featuring 23 Jailbreak regulars and/or developers
+* Fully interactive jail "video wall", featuring the adverts/displays as well as the scores of the top 4 players on each       team, a live map, and all the latest PlanetJailbreak.com news
+* Great jail release tube which throws you straight back into the action
+
+== Known Bugs ==
+This map has been a nightmare to compile, especially the hundreds of BSP holes and resulting hall-of-mirror's (how ironic) that had to be sorted. However, it still is not perfect (they rarely are anyway), but its as good as I can get it.
+* Tiny "extra surface" that appears on the right side of the rocket launcher ledge as you look towards the middle of the map,   and an even smaller BSP hole in the far right of it. However, this even happens in Epic's CTF-HallOfGiants...
+* Tiny "unnoticeable during play" BSP hole if you look upwards while in the jail exit tube, where the 4 door uprights meet   the floor rim of that tube. You'll never have time to see this during play, so whats the problem.
+* A "falling state" bug that will cause the game to crash with a General Protection Fault. This is due to a bug deep within   Unreal Tournament's or Jailbreak's code. No one really knows why this happens or how to eliminate it. The more bots you   have, the more likely this will occur (simply due to probability), although even then it rarely happens.
+* There is also a small chance that there are other hall-of-mirrors that are only visible if you stand in a certain place   looking a certain direction. By comparison to the problems I've had, this is insignificant. Since it wont affect the   gameplay, it doesn't really matter. Just dont look too hard.
+
+== Credits ==
+Below is a list of all those who are a part of JB-HallOfGiants, and many of them assisted in its creation, directly and by testing. A huge thanks from me goes to them. All of those who helped or are in other ways featured in this map have been compiled on the Credits Display in the advertisments sequence on the jail "video wall", but I'll list them here anyway:
+* Map Assistance: 			Katana
+					RevBillyG
+					Rob
+* Official Jailbreak Mothership host: 	Sexmachine
+* Those featured on the advert screens: Anathema
+					Angie
+					Bathory
+					Boost
+					Borenson
+					Bunny
+					ChezDog
+					CoolDude
+					Dalton
+					Dynamite
+					Katana
+					Mychaeel
+					RevBillyG
+					Rob
+					Sexmachine
+					SnowDog
+					SpoonDog
+					Tarquin
+					Trueblood
+					Wormbo
+					Zero-Ping
+					& me, ZedMaestro
+* For the original CTF-HallOfGiants:	Juan Pancho "XCeptOne" Eekels

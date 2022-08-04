@@ -1,0 +1,321 @@
+                                  _   _                  _
+                                 | | | | ___ ___   ___  | |
+               ==================| | | |/ __/ _ \ /   \ | |   ==================
+               ==================| |_| | | | |___|  /\ \| |__ ==================
+                                  \___/|_|  \____|\___/\\____\  
+                                    Tweak Guide and Bug Fixes
+
+
+
+ by Ben Aultowski                                                           version 0.9
+ ______________________________________________________________________________________
+|Info
+`--------------------------------------------------------------------------------------
+
+     Unreal is the first of a new generation of games which will push the envelope
+     further than ever before. It is optimized for many of the newest advances in
+     gaming hardware, including Voodoo 2, MMX, and 3D Audio. And while prices for this
+     equipment continue to fall, it's still out of the reach of many gamers. So Epic
+     decided to give Unreal scalable performance to allow the gamer to tweak it so
+     that it runs fast on his system.
+
+     Unfortuantly, Epic did not document many of the advanced options that can tweak
+     the game's performance. Several fans have released tweaking guides for getting
+     better framerates in Unreal, but they have been incomplete, focusing on one
+     aspect while ignoring others. There have been many posts to Unreal messageboards
+     announcing a new tweak or improvement for Unreal, but they have not been collected
+     into one easy reference.
+     
+     Hopefully, this Guide will become that reference. I plan to update regularly with
+     information on new tweaks and bug fixes. And if you have discovered a new tweak or
+     have something else to add to the Guide (like info about PowerVR), please email me
+     at webmaster@jedi-visions.com!
+
+     History:
+
+          · Version 0.9
+            
+            Initial release!
+
+ ______________________________________________________________________________________
+|Game Tweaks
+`--------------------------------------------------------------------------------------
+
+
+     Graphics:
+          
+          · Display\CurvedSurfaces
+
+            This smooths out Actors' polygons to make them look more realistic. It's
+            best to set this to False, as it is a big performance hit for something
+            you probably wouldn't even notice.
+
+
+          · Display\LowDetailTextures
+
+            This lets Unreal use lower resolution textures. As highres textures cause
+            a big performance hit, this should be set to True unless you have a PII
+            or a fast graphics accelerator.
+
+
+          · Display\NoLighting
+
+            Desperate times call for desperate measures. If are trying to run Unreal on
+            a P133 with 16Mb of RAM and no graphics accelerator, you could try turning
+            off dynamic lighting all together by setting this to True.
+
+
+          · Display\ScreenFlashes
+
+            Setting this to False turns off that red tint your screen gets when you
+            are taking damage. If you don't have a graphics accelerator its best to
+            disable this setting because the last thing you need when you are in a
+            fight is to have your computer chugging away. You might also want to
+            turn in off as a matter of preference.
+
+
+          · Display\SlowVideoBuffering
+
+            Turning this option to True can speed up transparency a little. If you are
+            playing in Software Rendermode, you'll definately want to turn this on.
+
+
+          · Display\StartupFullscreen
+
+            I found that in playing in a window on the desktop, Unreal performed better
+            than playing fullscreen with the window shrunk down. Set this to False to
+            play in windowed mode.
+
+
+          · Rendering\SoftwareRendering\Coronas
+            Rendering\3DFX Glide Support\Coronas
+
+            Changing this to False will turn off the Coronas that appear around the
+            lights in the game. Because they are transparent, they do cause a
+            signifigant performance hit and should only be enabled on a PII or a 
+            macine with a graphics accelerator. You also may want to disable them
+            because they can obstruct your view in the game.
+
+
+          · Rendering\SoftwareRendering\DetailBias
+            Rendering\3DFX Glide Support\DetailBias
+
+            I'm not sure what this setting does, but I think it has to do with the
+            mip mapping used in the engine. Use a setting of 0.25 in Software
+            Rendermode and 0.0 in Glide Rendermode. (thanks to Mark Rein for the tip)
+
+
+          · Rendering\SoftwareRendering\FastTranslucency
+
+            This setting causes gives the engine a break when dealing with trans-
+            lucent textures. When this setting is set to True, the engine works with
+            every other translucent pixel, providing a huge perfomance increase. If
+            you are using the Software Rendermode, set this to True.
+
+
+          · Rendering\SoftwareRendering\HighDetailActors
+            Rendering\3DFX Glide Support\HighDetailActors
+
+            Setting this to False turns of some of the extra scenery, namely dead
+            bodies, used in the game. It also disables the more detailed blood,
+            which is translucent and thus slows down the engine during a fight.
+
+
+          · Rendering\SoftwareRendering\HighResTextureSmoothing and
+            Rendering\SoftwareRendering\LowResTextureSmoothing
+
+            Unreal supports texture smoothing in both Hardware and Software
+            Rendermodes. If you are using the Software mode and don't have an MMX
+            machine, you should set these to False. Otherwise, your machine should
+            run fine with them turned on and the game will look less pixelated.
+
+
+          · Rendering\SoftwareRendering\ShinySurfaces
+            Rendering\3DFX Glide Support\ShinySurfaces
+
+            Turning this to False disables the reflective floors and mirrors used in
+            the game. I recommend that you keep this setting disabled unless you have
+            a PII or a graphics accelerator.
+
+
+          · Rendering\SoftwareRendering\VolumetricLighting
+            Rendering\3DFX Glide Support\VolumetricLighting
+
+            This setting controls the fog effects used in the game. Changing it to
+            False will speed up the engine signifigantly in Software Rendermode. You
+            might also want to disable it because it can give enemies an advantage
+            when they are hiding in the fog.
+
+
+          · Rendering\3DFX Glide Support\DetailTextures
+
+            This setting allows Unreal to overlay a highres texture over a standard
+            texture when you move in close. This effect is used to add a fine grain to
+            wood or more detail to rock textures. Setting this to False will give you
+            a performance increase.
+
+
+          · Rendering\3DFX Glide Support\FastUglyRefresh
+
+            Setting this to True allows your Voodoo card to spit out frames as quick as
+            it can without waiting for the monitor's refresh cycle to catch up. This
+            can make the game run a lot smoother but can create strange side-effects.
+            It's worth the speed increase, though.
+
+
+          · Rendering\3DFX Glide Support\RefreshRate
+
+            Turning this up to 85Hz will make your monitor redraw faster, allowing
+            faster framerates.
+
+
+          · Rendering\3DFX Glide Support\ScreenSmoothing
+
+            Setting this to False will turn off anti-aliasing. Actors will look a
+            little more pixelated, but you will get a slight performance increase.
+
+
+
+     Audio:
+
+          · Audio\LowSoundQuality
+
+            This option disables high-quality sounds, a feature you probably wouldn't
+            even notice. If you have less than 32Mb of RAM and do not have an MMX CPU,
+            you'll get a big speed increase by setting this to True.
+
+
+          · Audio\OutputRate
+
+            You can get a boost in performance by lowering the quaility of the sound
+            even further. Set the Output Rate to 11025Hz, especially if you don't have
+            an MMX CPU.
+
+
+          · Audio\Use3DHardware
+
+            This option enables 3D sound, but only works if you have a 3D soundcard.
+            You'll be better off setting this to False even if you have one, as
+            plotting 3D sound is a very CPU intensive task.
+
+
+          · Audio\UseFilter and
+            Audio\Reverb
+
+            The Unreal engine is capable of calculation how sound would be distorted
+            when bouncing of a certain surface. Setting both these options to False
+            will disable this feature, speeding up the game especially if you do not
+            have an MMX CPU.
+
+
+          · Audio\UseSurround
+
+            This option is only for those lucky games who have a surround sound system.
+            I recommend setting this to False unless you have surround sound and a PII.
+
+
+          · Advanced\Game Engine Settings\UseSound
+
+            If you're really desperate for more speed, or you're like me and can't get
+            your sound card to work, turn off sound all together by setting this to False.
+
+
+
+     Multiplayer:
+
+          · Networking\TCP/IP Network Play\MaxClientByteLimit
+
+            This tells a server what is the maximum speed at which you can recieve data.
+            Use your modem's speed divided by ten for this setting (ie 28.8K = 2800).
+
+
+          · Networking\TCP/IP Network Play\MaxTicksPerSecond
+
+            People have complained that Unreal's multiplayer performance is very lagged,
+            even with a fast modem and good connection. While Epic is working on a patch,
+            setting this option to 1 will cut packetloss so much that multiplayer will
+            become playable.
+
+
+          · From Main Menu select Multiplayer\Start Game\Configure Game\Reduced Gore
+
+            Setting this to True will improve multiplayer performance not keeping track
+            of all the little gibs that go flying when you blow somebody up.
+
+
+
+     Misc:
+
+          · Advanced\Game Engine Settings\CacheSizeMegs
+
+            This is the amount of memory reserved for caching textures and such by 
+            Unreal. I'd set it for at leat half of your total memory, but keeping 16M
+            free for other game functions. For example, if you have 32Mb of RAM, set it
+            for 16; if you have 64Mb, set it for 48
+
+
+          · Display\UseJoyskick
+           
+            Joysticks can use of a signifigant chuck of your CPU. And besides, who plays
+            FPS games with a joystick anyway? Set this option to False.
+
+ _____________________________________________________________________________________
+|Windows Tweaks
+ `------------------------------------------------------------------------------------
+
+          · Background Programs
+
+            Before you start Unreal, hit Alt-Ctrl-Delete and close down every program but
+            Explorer. You may not think that ICQ or your anti-virus software are slowing
+            down your system much but they are. And if you have 32Mb or less memory,
+            you'll find Unreal coming to a crawl as it competes with your other programs
+            for memory.
+
+
+          · Windows NT 4.0 Boost
+
+            If you are running Windows NT 4.0, open Notepad and type:
+
+                 START /HIGH c:\unreal\system\unreal.exe
+
+            Save the file as UNRLHIGH.BAT in your Unreal directory and run it instead
+            of UNREAL.EXE. This batch file makes NT run the game with a higher execution
+            priority, improving performance. (thanks to Inoxx for the tip)
+
+
+          · Windows 95 Memory Cache
+
+            Windows 95 is very ineffecient when it comes to handling its resources.
+            It eats up all your physical memory and then instead of clearing it out,
+            it switches over to a swap file. You can force Windows to keep some memory
+            open though by adding these lines to the SYSTEM.INI file right after the line
+            that reads "[vcache]":
+
+                 MinFileCache=1024
+                 MaxFileCache=4096
+
+
+          · Defrag
+
+            Unreal, weighing in at over 400Mb, takes up a significant chunk of your
+            hard drive. With all that real estate, it's bound to become fragmented over
+            time. But if you Defrag your hard regularly, say once a week, you'll keep all
+            its files together so your computer doesn't have to search over your whole
+            hard drive to find what it needs.
+
+
+          · Take Control of Your Swap File
+
+            Windows doesn't do a very good job handling its swap file, so why no take
+            over? In the Control Panel, open up System, then click on Performance, and
+            then on Virtual Memory. Tell Windows you want to handle it set the Mminimum
+            and Maximum values to two or two-and-a-half times the amount of physical
+            memory you have. (ie. If you have 32Mb, set it for 64 or 80)
+ _____________________________________________________________________________________
+|Coming soon!
+ `------------------------------------------------------------------------------------
+
+            Hardware tweaks: Overclocking your Voodoo card and your CPU...
+            PowerVR tweaks...
+            Performance comparisons between different CPUs and graphic accelerators...
+            Info on Unreal and UnrealEd bug fixes...

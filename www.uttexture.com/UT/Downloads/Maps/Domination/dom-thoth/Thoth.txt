@@ -1,0 +1,46 @@
+Map Title :  Chambers Of Thoth
+
+Author    :  Tony Collins aka Walrus(ShaMaN)
+             psykowalrus@eidosnet.co.uk
+Release
+Date      :  20 July 2000
+	     
+
+
+
+Files     :  Don't forget to paste the WarGate.umx file into your UT/Music
+             folder.
+
+Game Type :  DOMination !  You know it makes sense.  I have also released a DM version
+             for the less DOMinating players ;)
+
+
+NOTE :       The bots have a few defense points and translocator spots which they will
+             make good use of.  Of course if you don't play DOM or Team DM you'll never
+             realise this :)
+	     
+             
+Description :  The Ancient Egyptians had some very way-out gods and some equally way-out 
+               technology for their time.  Detailed investigations of the Egyptian mythos
+               have unearthed links with the Nali race.  As the combined Human and Nali
+               forces rolled back the Skaarj occupation of Na Pali more and more relics and
+               ancient sites were discovered - one of them being the Chambers of Thoth.
+               It seems Thoth would summon mortals from Ancient Egypt to do battle for His
+               pleasure in these chambers........His favourite form of event being the
+               battle to capture and hold parts of the site.  A more cerebral form of
+               entertainment than mindless Free-For-Alls.
+                
+               
+Ideal Loads :  2 teams of 6-8 or 3 teams of 4-7.  Hell why not go for it and drop in
+               4 teams of 4 ??
+               Team DM loads are almost the same, FFA Deathmatches work best with 8-14
+               players, more than 14 if you want to really up the Gibbage factor.
+
+Shouts !       All my superb colleagues in the ShaMaN UT Clan, Shadrach and DeadDred - this
+               one should keep you happy :).  
+               GetteW at TCP, Clawfist and the regs in the UKUTCL ladder.
+               And lastly all the DOMination lovers out there !
+
+
+Legal Stuff :  This map may be distributed freely on UT internet fan sites, but my consent
+               must be obtained for distribution by other means such as on CD.

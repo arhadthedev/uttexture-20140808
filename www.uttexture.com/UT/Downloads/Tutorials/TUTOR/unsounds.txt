@@ -1,0 +1,153 @@
+   
+  
+ 
+  News  Submissions  Prefabs  Levels  Staff  Links 
+  
+ 
+ 
+ 
+
+ 
+ 
+   
+
+ Main 
+News 
+Submissions 
+Prefabs 
+Staff 
+Levels 
+Links 
+ 
+Editing 
+Main Page 
+Tutorials 
+Ued Errors 
+Files 
+Shortcut Keys 
+#unrealed 
+Reference 
+Edit Master 
+ 
+Scripting 
+Main Page 
+Tutorials 
+Online Classes 
+Reference 
+Code Master 
+ 
+Modelling 
+Main Page 
+Tutorials 
+Reference 
+Model Master 
+ 
+Skinning 
+Skinning Guide 
+ 
+Prefabs 
+Brushes 
+Textures 
+ 
+Hosted Sites 
+Heph's Music 
+3D Model Emporium 
+Millennium 
+VerMoorD 
+Rage TC 
+Hosting Info 
+ 
+Network Sites 
+Unrealnation 
+S.U.M.E. 
+Honor Guards 
+World of Dreams 
+ 
+Your Unrealed.net 
+If you have a Tutorial, Tip, Hint or whatever! then feel free to send it down, and we will be happy to post it on the site. 
+ 
+ 
+   
+ 
+    
+   
+   
+ 
+
+ 
+ 
+
+ 
+   
+ Sounds
+
+By: Darkz
+
+Darkz
+
+Dated: 9/6/98 
+
+Click here for a printable version of this Tutorial.
+
+I will use a flare as an example:
+
+First go to the "Browser" menu and choose "classes" Now a new menu will open. Now click on the – mark infront of "inventory", and do the same with "pickup". Now right click on "flare" and crete a new class bellow flare (chose create new class below flare). Now copy the information below.
+
+
+state Activated // Delete from inventory and toss in front of player.
+{
+function Timer()
+{
+if( bFirstTick )
+{
+bFirstTick=False;
+PlayAnim('out',0.1);
+PlaySound(ActivateSound);
+LightType = LT_Steady;
+LightBrightness = 250;
+LightRadius = 33;
+LightSaturation = 89;
+AmbientGlow = 200;
+SetTimer(1.0,True);
+AmbientSound = sound'flarel1';
+}
+
+Charge--;
+if (Charge<=0) TakeDamage(10,None, Vect(0,0,0), Vect(0,0,0), 'Detonated');
+} 
+
+Now let´s get to the modify of sound bit.
+Now click on the "brows" button again, now choose sound fx,
+Now you will get acces to the soundfx library, here you can find all the sound fx! Now click on the "asmd" button and a new menu will open, now you can choose sound fx from all the weapons and other stuff now look thru it and test the sound util you find some soundfx you like.
+When you have found the sound fx that you will like find this line in the class code that you have created bellow the flare class:
+
+AmbientSound = sound'flarel1';
+
+Here you can find the sound that is curently played when the flare has been thrown out, the sound fx file is "flarel1", now type in the sound fx that you have choosen in there instead. 
+
+AmbientSound = sound'brufly1';
+
+That´s what it should say if you have picked the "brufly1" sound in "general" sound fx.
+Now compile youre script (hit f7) and don´t forget to save it!!!
+ 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

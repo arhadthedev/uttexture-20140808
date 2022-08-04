@@ -1,0 +1,91 @@
+###################################
+UT99.org Community Mappack 2 
+Version: 1.0
+
+for the classic Unreal Tourament/UT99
+or simply Unreal Tournament
+###################################
+
+This is our second release which includes following maps
+by following authors:
+
+CTF-UTR-Attempt    	by S'Calain
+CTF-UTR-Dargrok    	by editor Dave
+CTF-UTR-Otherworld	by Mr. Tom
+CTF-UTR-Rawash		by GenMoKai
+DM-UTR-Abicio][    	by S'Calain
+DM-UTR-Epitaph][    	by Rob Master Builder
+DM-UTR-Kamah       	by Creavion
+DM-UTR-Morbias4    	by Creavion
+DM-UTR-Nadaus      	by Creavion
+DM-UTR-Ravage		by FrozenDozer
+DM-UTR-Ryigiar-III   	by Creavion
+DM-UTR-Sacrimossa   	by Creavion
+SP-01/02-UTR-Unforchers	by editor Dave
+
+###################################
+
+For credits, help and more information, check level-specific readmes.
+Extract and install the files into the following directories:
+
+unr       	- maps
+utx      	- textures
+u and int    	- system
+
+###################################
+Thanks to the following people:
+
+- Feralidragon, for designing after my request the 
+xpickups package or how I would call it: UT3099
+and thanks also to him for writting the very detailed 
+manual part for "using of xpickups".
+
+- proof for recreating the UT3 Udamage and Berserk 
+Powerup Modells and an extra "thank you" for your
+many plants I used mostly in Kamah. Thanks buddy,
+really well done (:
+
+- Shade for the website and the (intern) 
+forums for preparing the mappack 
+
+---=Aalexanderrr=-- for checking various readmes
+for correcting of grammatic mistakes. I'm not really that good at English.
+(I hope you can finish your map for the expansion pack...)
+
+- Epic for designing UT, UT2004, UT3 and UC2, the UT series itself
+
+- for more detailed thanksgiving check the readmes in the help
+directory of the adequated authors
+
+- thank you to the team for the good collaboration
+
+
+###################################
+
+Copyright (c) 2008/09 all authors mentioned here
+All rights reserved.
+
+Unreal, Unreal Tournament and Unreal Championship 
+are registered trademarks of Epic Megagames and Digital Extremes
+
+This Package may be electronically distributed only at 
+NO CHARGE to the recipient in its current state, MUST 
+include this .txt file, and may NOT be modified IN 
+ANY WAY. 
+
+You are allowed to upload this package on your website but without any changes 
+of the content and this archive.
+
+Authors may NOT use these levels as a base to build additional levels without explicit
+permission from the Original Authors.
+Authors may NOT modify the xpickups package without permission from the author (Feralidragon).
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+For questions you can contact us (Creavion and Feralidragon) on UT99.org.
+
+All contents used are reserved by their owners.

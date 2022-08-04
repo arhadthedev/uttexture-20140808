@@ -1,0 +1,143 @@
+Unreal Tournament Linux Readme
+
+Linux Bug Reports: utlinuxbugs@epicgames.com
+
+Version: 348 Demo
+
+IMPORTANT NOTE: Read this file all the way through.  There is a lot of information here that is very important.
+
+I. Installation.
+
+Currently, the demo server is being distributed as a tarball.  Copy the tarball into the root target directory and unarchive it:
+
+> cp UTDemo-337.tar.gz /usr/local/games
+> gunzip UTDemo-337.tar.gz
+> tar xvf UTDemo-337.tar
+
+This will unarchive the utdemo directory into the current directory.  I use /usr/local as my demo directory, but you might want to use /usr/local/games.
+
+The Linux client and server require glibc 2.1.  It doesn't run on Cyrix processors right now and certainly not 486s ;)
+
+Here is a guide to upgrading to glibc 2.1:
+
+http://www.math.cmu.edu/softdoc/howtos/Glibc2-HOWTO.html
+
+The Linux client and server also requires libpthread 0.8 or better.  Here is a link to learn about LinuxThreads (which you should already have):
+
+http://pauillac.inria.fr/~xleroy/linuxthreads/
+
+Finally, if you want to use ngStats you need to get a Java distribution.  I suggest BlackDown JDK:
+
+http://www.blackdown.org/
+
+II. Starting a Dedicated Server.
+
+The best way to configure a server is to start a basic server and then configure it using the remote administration tool.  Change to the utdemo/System directory and edit the UnrealTournament.ini.  Do a search for the [UWeb.WebServer] section and set bEnabled=True.  This will enable remote server administration.  Start your server using the following command: 
+
+> ucc server DM-TurbineDEMO
+
+This will start a deathmatch server on the Turbine map.  Its important to use the correct case when specifying the startup map as the demo map check is case sensitive right now (this will be fixed soon).
+
+Now that your server has started, open up Netscape and connect to your server:
+
+http://127.0.0.1/ServerAdmin/
+
+Username: admin
+Password: admin
+
+You can change the username and password under the [UTServerAdmin.UTServerAdmin] section in the UnrealTournament.ini.
+
+Configure your server using this interface.  You might need to change the ListenPort for the server web interface inside the UnrealTournament.ini
+
+Alternatively, you can configure your server using the "Start New Internet Game" option inside the client.  Hit "Dedicated" to start the server once you've chosen your options.
+
+Refer to UT documentation on unreal.epicgames.com for further information.
+
+III. Video Issues
+
+This distribution of Linux UT only supports 3dfx cards and the Glide rendering library.  I have plans to develop a Mesa renderer as well.  Currently, Linux driver support for the TNT and TNT2 is very slow.  This will be fixed when XFree86 4.0 is released, but there isn't anything I can do about it now.  I'll try other OpenGL cards when I get a chance (and the Mesa renderer is ready).
+
+Information on installing 3dfx drivers for Linux can be found at www.3dfxgamers.com.
+
+You don't have to run UnrealTournament as root if you have the 3dfx module successfully installed.  In fact, I highly recommend against running Unreal Tournament as root.  However, if you get an error saying that the 3dfx board can't be found, but you know the drivers are installed try running the game as root.  If it works, this means you need to go to www.3dfxgamers.com and follow the instructions for installing the 3dfx module.
+
+IV. Sound Issues
+
+I have found that (in RedHat at least) the default mixer level is very high.  Make sure you check your mixer setting before you start Unreal Tournament or you could damage your speakers.  Use a mixing program such as the KDE Sound Mixer Panel to adjust your master volume.
+
+If you do not have a sound card, Unreal Tournament should safely start up and run normally.  If you are having difficulty, you can try using the -nosound option.
+
+Remember, your kernel has to have support for your sound card either directly or through modules.  You can find more information on building a sound compatible kernel by look in /usr/src/linux/Documentation/sound.
+
+V. Configuration Files
+
+When the Linux UT client starts it will try and find a file called ~/.utconf  If it cannot locate this file it will use the current User.ini located in the System directory.  If it can find the file, it will be copied over the User.ini in the System directory.  When the game exits, it will copy the contents of User.ini into ~/.utconf, creating it if necessary.  In this way, each user can have their own input configuration and saved games.
+
+VI. Mouse Wheel Support
+
+Linux UT has full mouse wheel support.  You'll need to be running XFree86
+3.3.2 or better.  Open your XF86Config file and add
+	ZAxisMapping 4 5
+to the Pointer section.  This will bind MouseWheelUp and MouseWheelDown
+to X server button events 4 and 5.
+The Linux UT client currently does not support a 6th (thumb) button, but
+I'll add it when I get a chance.
+
+VII. Build Notes
+
+This was built under RedHat 6.0 (Hedwig) on a 2.2.9 kernel/glibc 2.1.1 with gcc 2.95.1.  Hacked using Code Crusader 2.1.2 (http://www.cco.caltech.edu/~jafl/jcc/) and doctored using Code Medic 1.0.2 (http://www.its.caltech.edu/~glenn/medic/).
+
+VIII. Bad Stuff That Happens When You Crash
+
+Usually Linux UT will safely catch nasty things like segmentation faults and odd system signals and shutdown safely.  A complete log with stack trace will be written and the 3dfx hardware will get shutdown.  Usually.
+
+If this doesn't happen you'll experience something like a hang.  The game isn't really frozen, its quite dead.  The problem is that there are some places in the code where an ill-timed segmentation fault can cause an abort without UT safely catching it.  I haven't found all of these places, but am cleaning them up as much as possible.  If UT aborts without safely shutting down, your 3dfx card will still be chugging away with the last scene rendered on screen.  This makes it look like the game as locked up.
+
+To fix the situation, telnet in to your machine and get root privledges (usually by typing 'su').  Then type ps -u root to see what process id belongs to X and kill it.  No fancy arguments to kill.  This will reset your X server (or shut it down depending on your initlevel).
+
+When an unprotected crash like this happens chances are your audio device will be left open and busy.  I haven't figured out a way to close the device once I've lost it, so subsequent executions of UT will be without sound.  You'll have to reboot to fix the problem.
+
+The other nasty thing that happens with an unprotected crash is that the pointer doesn't get surrendered to the window manager in a neat way and so it just reverts back.  This causes the pointer to be stuck as whatever icon it was when the crash happened...usually the X.  You'll have to completely restart your X server or reboot to fix that.
+
+Chances are you won't get unprotected crashes unless something goes really wrong.  If you do get one, try to snatch a log of it by running UT like so:
+
+$ ./UnrealTournament -log > UTCrashLog.log
+
+This will dump the console output to a log file that won't get truncated during the crash.  Email this to the bug list above so I can fix the problem.
+
+If you get a nice happy crash that shuts UT down safely, I still want your log file.  It'll contain important information that I can use to find the cause of the problem.
+
+IX. ngStats Configuration
+
+First things first.  Snag a Java distribution from www.blackdown.org.  Its easy to install and its a good thing to have.  You can't run ngStats without one.  Get the latest JDK 1.2 "Preview Release."  The current one is PR2.
+
+Here is an FTP URL for the lazy:
+
+ftp://iodynamics.com/pub/mirror/linux-jdk/JDK-1.2/i386/pre-v2/glibc2.1/
+
+You might need to get bzip2 to uncompress it.  Just search metacrawler and show some adaptability.
+
+Now.  Change directory to NetGamesUSA.com/ngStats/
+
+Open up "ngStatsUT" with your favorite editor.  Change the variables inside there to fit your needs.  Specifically, point NGHOME to /myUTpath/NetGamesUSA.com/ngStats and JAVA to wherever you installed the JDK (point to the java binary).
+
+Don't mess with the stuff at the bottom.  Just save the file and you are ready to rock.
+
+When you select "View Local Stats" or "View World Stats" from inside of Unreal Tournament, Netscape will launch to the appropriate URL (and compile your local stats if that's what you are looking at).  In this version, you'll have to shutdown UT after you hit the "View" option to see the window.  In a later version, UT will iconify for you.
+
+X. Other Stuff
+
+- Make sure you read the release notes in the Help directory!
+
+- ngStats and ngWorldStats for Linux are very close to being finished.  Might be
+finished tonight (Oct 19, 1999).  
+
+- Dynamic lighting is slow right now.  Keep it turned off until I get the light merging function moved to assembly (it is in assembly for the Windows version, but enough of the inline assembly format between msc and gcc is different that it takes a bit of playing to get everything working.)
+
+- DO NOT HIT ALT-TAB.  Some window managers will move keyboard focus to some other window.  If that happens its gone.  I know this sucks!  The next version will iconify on focus-leave so you can do other things like read your ngStats.
+
+October 20, 1999
+Brandon "GreenMarine" Reinhart
+brandon@epicgames.com
+Epic Games, Inc.
+

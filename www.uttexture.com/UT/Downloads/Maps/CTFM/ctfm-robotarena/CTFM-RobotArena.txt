@@ -1,0 +1,98 @@
+ReadMe for CTFM-RobotArena for Unreal Tournament
+------------------------------------------------
+
+               Title: CTFM-RobotArena
+            Filename: CTFM-RobotArena.zip
+              Author: NutSac
+       eMail Address: 
+         Website URL: 
+        Release Date: 
+         Last Update: 
+             Version: 
+
+Credits:
+Thx to UTISA
+
+Other levels by author:
+
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: CTFM-RobotArena
+           Game Type: CTFM
+            Botmatch: Yes
+       Single Player: Yes
+            Teamplay: Yes
+        New Textures: No
+          New Sounds: No
+           New Music: Yes
+        New Mutators: No
+                Mods: CTFM
+
+====================================================================================
+Construction
+------------
+
+                Base: 
+          Build Time: 
+   Ideal Playercount: 4 teams of 3 or more
+      Editor(s) Used: UED
+          Known Bugs: 
+
+====================================================================================
+Installation
+------------
+Unzip CTFM-RobotArena.zip.
+Store the *.unr or *.ut2 file in your Maps\ directory along with the others 
+(see guide below), then either doubleclick on it, or type open CTFM-RobotArena in 
+the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+*.unr and *.ut2 files go in Maps\
+*.utx files go in Textures\
+*.umx and *.ogg files go in Music\
+*.uax files go in Sounds\
+*.u, *.int, and *.ini files go in System\
+*.usx files go in staticmeshes\
+*.ukx files go in animations\
+*.ka  files go in karma\
+*.upx files go in prefabs\
+
+====================================================================================
+Extended Description
+--------------------
+
+
+
+====================================================================================
+Author's Notes
+--------------
+
+
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+This level is copyright 2003, by NutSac.
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any 
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp), 
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by 
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal 
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other 
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================
+====================================================================================
+ReadMe created by NC3's ReadMe Generator.
+http://nalicity.beyondunreal.com/

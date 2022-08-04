@@ -1,0 +1,80 @@
+================================================================
+Title                   : Area51Gamma
+                          
+Author                  : Sean "obi wan kaNEWBIE" Henry
+
+Date                    : March 2000
+
+Filename                : AS-Area51
+
+File contents           : AS-Area51Gamma
+			: 
+			
+Email Address           : shenry@indemand.com (please send your comments)
+Home Page		: none
+
+Notes                   : A large map that may require a decent system.
+
+Bugs			: Original map had scripted pawn showing up in
+                          single and LAN play, but not the network.  This
+                          version should fix that.
+
+Description             : 
+
+The good news is that you are finally going to see what's hiding
+inside the top secret "Area 51".  The bad new is that a half-starved
+captive Nali Queen is your goal!
+
+Break your way through the front gates (intelligence has reported that
+blowing out the spot lights will open the gates); take out the security 
+system; disable the satellite station; storm the base and kill the
+captive Nali Queen.
+
+---
+
+Note:  Defenders attempting to cheat by killing the Nali Queen themselves
+will find that they've forefitted the game.  This is also true if you fall
+into the Queen's holding pen and kill the Queen to protect yourself!
+
+In this level you'll find moving spotlights that you can blow out,
+breaking skylights, a 'secret' fan area, and jump boots that will allow you
+to reach a redeemer.
+                         
+================================================================
+
+Play Information	
+
+Single Player           : No.
+Deathmatch              : No
+Recommended No. Bots    : 8-12
+Comments		: My 'make something unreal"
+                          entry...if you like it, VOTE! 
+			 
+                          
+
+=================================================================
+
+Installation instructions
+
+Unzip "AS-Area51" in your UnrealTournament/Maps folder.
+
+
+KNOWN Problems: none
+
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd (UnrealTournament V4.00)         
+
+Build Time              : 3 weeks...bot pathing for assault
+                          is somewhat demanding!
+
+
+===================================================================
+Other maps by Author:
+
+DMSpaceDonut
+DMRecycle

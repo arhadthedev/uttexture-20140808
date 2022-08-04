@@ -1,0 +1,2 @@
+[Public]
+Object=(Name=KickIdlePlayers2.KickIdlePlayers2,Class=Class,MetaClass=Engine.Mutator,Description="Kick Idle-Players V2")

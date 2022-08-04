@@ -1,0 +1,40 @@
+Map Title :  Chemical Complex
+
+Author    :  Tony Collins aka Walrus(ShaMaN)
+             psykowalrus@eidosnet.co.uk
+Release
+Date      :  10 July 2000
+	     Serious Walrus watchers will note that this is a total
+             reworking of my Unreal 1 map DM-Phuture released in July 1999.
+
+A Dedication :  My original Unreal map this is based on was heavily tested by 
+                Mealeam(HR) back in 1999.  Unfortunately he's no longer on this mortal
+                coil.........this one is for him !
+
+
+Game Type :  Deathmatch and team DM. A DOM version of this map is also available.
+	     
+             
+Description :  Acknowledged as a classic piece of map design in it's original
+               incarnation, the original Water Treatment concept has really benefitted
+               from the "industrial" UT textures.  There are many ways to frag in here,
+               with flat plazas, cramped indoor areas, ramps, ledges and rooftops.
+               The bots run the map very well, using all the lifts and making use of
+               some of the sniping locations.  They also know where all of the out-of-the
+               way goodies are located, including the shieldbelt, the hidden armour vest 
+               and both of the Redeemers.  They won't get the amp unless translocators 
+               are in use.  
+               
+Ideal Loads :  Depends on your style of play.  8 players is about the minimum for a 
+               decent pace while leaving plenty of room for tactics and a spot of camping.
+               I've tested it with 16 bots and that's guaranteed to get your pulse racing !
+               Team players (and PLEASE play this in team DM) will be happy with 4 - 6 per
+               side - and why limit yourself to 2 teams ?  
+               DOM play is best with 2 teams of 5-8 or 3 teams of 5 players.
+
+Shouts !       All my superb colleagues in the ShaMaN UT Clan. 
+               GetteW at TCP, Clawfist and the regs in the UKUTCL ladder.
+
+
+Legal Stuff :  This map may be distributed freely on UT internet fan sites, but my consent
+               must be obtained for distribution by other means such as on CD.

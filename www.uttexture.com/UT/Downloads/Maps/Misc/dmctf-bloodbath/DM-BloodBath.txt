@@ -1,0 +1,57 @@
+================================================================
+Title                   : [DM] - Blood Bath                     
+Author                  : Lord Dill
+Date                    : 4-30-01
+Filename                : DM-BloodBath
+		
+Email Address           : lord_dill@hotmail.com
+Home Page		: none
+                         
+================================================================
+Play Information	
+
+Single Player           : No.
+Deathmatch              : Yes
+Recommended No. Bots    : 6-12
+Comments		: 4th map... got the idea from Michael
+			  (^]Dious_/\cts[]|||) Thanx.  Watch out for
+			  the lava at the bottom of the pool.  It was
+			  a flaw but i liked it.  Bots even use the jump
+			  pads!!!  Sometimes they fly into the lava.  But
+			  so will you if your not carefull.
+Description             : Small, open, add jumppads (first time using them) 
+New Textures            : No
+			 
+New Music               : No. wanted to keep the file small
+=================================================================
+Installation instructions
+
+Unzip "DM-BloodBath" in your UnrealTournament/Maps folder.  Unzip JumpPad.u
+into your UnrealTournament/System folder
+KNOWN Problems: ?  E-mail me if you find any, or just want to talk
+		   about UT.
+
+=================================================================
+Editor used             : UnrealEd 2 (UnrealTournament V4.36)         
+Build Time              : 1 day to convert from CTF and add jumppads (what
+			  a bitch for bots)
+
+Copyright / Permissions
+
+-----------------------
+Authors may NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  You must obtain
+written permission from Jack Gilson to exploit this level commercially.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+----------------------
+Unreal Tournament (c)1998/2000 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.  	

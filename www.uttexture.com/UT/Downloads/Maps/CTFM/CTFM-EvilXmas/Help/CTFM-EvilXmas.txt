@@ -1,0 +1,153 @@
+CTFM-EvilXmas.txt
+======================================================================
+Title                  :CTFM-EvilXmas
+Version                :2.1
+Release Date           :2004-12-05
+Filename               :CTFM-EvilXmas.zip
+Author                 :Doctor Evil
+Email Address          :doctor@evilut.com
+Web Page               :http://www.evilut.com
+Description            :MultiCTF conversion of DM-Xmas-UT
+Where to get this map  :If you're reading this, then you probably 
+                        know where by now (;-) 
+Other levels by author :DM-EvilHex, various EvilMazes,  
+                        DM-AdamlyRooms5, DM-Escher, DM-Giger4, 
+                        CTFM-7Hexagons, CTFM-EvilMotionV2, 
+                        CTF-EvilHex, CTF-EvilMaze4, CTF-EvilSkyPad,
+                        CTFM-EvilLiftsV2, DM-EvilDoorsSky, 
+                        CTF-EvilTower2, DM-EvilDoors5,
+                        DOM-EvilHex, DOM-EvilMaze, DOM-EvilDoors
+                        and quite a few more - see the web site!
+Additional Credits to  :-Epic Megagames
+                        -Whoever designed the Unreal Editor 
+                         and all those nice textures and music. 
+                        -Various authors of web tutorials for 
+                         the Unreal Editor.
+                        -Denis "UT-Freak" Reimer, creator of the 
+                         level on which CTFM-EvilXmas is based.
+
+======================================================================
+--- Play Information ---
+Game                   :Unreal Tournament
+Level Name             :CTFM-EvilXmas
+Single Player          :Yes, botmatch.
+Cooperative            :Four teams each of 4 to 6 seem to work best.
+Deathmatch             :No 
+Dark Match             :No
+Difficulty Settings    :No
+New Sounds             :The music track ("Scotch.umx") is not 
+                        standard.
+New Graphics           :Some textures are not standard:
+                        "UTF winter" - the space in the file name
+                        is a problem for internet play
+NewUnrealScript        :No
+External DLLs          :No
+Known bugs             :None.
+
+--- Construction ---
+Editor(s) used         :UnrealEd2.0
+Base                   :New Level
+Construction Time      :perhaps 10 hours to Doctor the original map. 
+
+Installation
+-------------
+Unzip the file into your UnrealTournament/ directory. 
+The files should then unzip into the correct locations:
+- CTFM-EvilXmas.unr  in the  UnrealTournament/Maps/      directory;
+- UTF winter.utx     in the  UnrealTournament/Textures/  directory;
+- UTF.utx            in the  UnrealTournament/Textures/  directory;
+- TAcars.utx         in the  UnrealTournament/Textures/  directory;
+- TAconeytex.utx     in the  UnrealTournament/Textures/  directory;
+- Scotch.umx         in the  UnrealTournament/Music/     directory;
+- this CTFM-EvilXmas.txt file in the  UnrealTournament/Help/ directory; 
+- start the game and choose the level under the Multi Capture the Flag
+  Game type.
+***********************************************************************
+*** NOTE:   if you do not have the various files for Multi Capture the
+  Flag play, then you will need to download them from another site, 
+  such as "www.planetunreal.com/multictf/" or "www.fileplanet.com".
+
+  In Internet play, the space in the filename "UTF winter.utx" is a 
+  problem.   The file "UTF.utx" is an exact copy of the texture file. 
+***********************************************************************
+
+Extended description:
+---------------------
+CTFM-EvilXmas is Doctor Evil's conversion of Denis "UT-Freak" Reimer's 
+deathmatch creation to a MultiCTF map. 
+
+The original deathmatch map, which Doctor Evil found on a UT server 
+late one evening in 2004 November, involves many firefights in a 
+cathedral and the surrounding streets, including a nearby Christmas 
+tree.   The cathedral was the only building that one could enter.
+The other buildings were all solid blocks.   The Degenerate Doctor 
+especially likes the music that "UT Freak" chose for this map, 
+"Scotch.umx".
+
+In CTFM-EvilXmas, rooms have been carved out of many of the 
+surrounding buildings and out of the bell tower of the cathedral.
+The locations of the four flag bases are clearly indicated by team 
+icons on the buildings and by smaller team icons at each principal 
+entrance to the base.
+
+The cathedral is now the gold flag base, with the flag at the altar.
+The only redeemer in the map is on the cathedral roof, at the far 
+end from the belltower.   One needs to break the rectangular window 
+on the top floor of the belltower and use the jump boots to reach 
+the very narrow ledge on the roof.   The altar alcove, where the gold 
+flag is located, is a health zone, regenerating two units of health 
+every second, up to a maximum of 100.   However, the central location
+of the cathedral makes the gold base a very unhealthy place to be!
+A sniper post in the bell tower overlooks the nave on one side and 
+the approach to the main door on the other side.   Despite the 
+firepower available to gold team bots upon spawning, the gold team 
+is usually at the greatest disadvantage in the game.
+
+To one side of the cathedral is the green flag base, in a small 
+stone tower.   The main route in, which the bots prefer to use, is 
+a cramped stairwell, winding its way up the tower to the flag on 
+the top floor.   An alternate route tunnels through a Tudor building, 
+up a lift to rooftop level and in through a hole on the roof.   
+The tight quarters give quite an advantage to the green team 
+defenders.   The safest exit with the green flag is to break a 
+window and jump out onto the nearby Christmas tree and from there 
+onto the ground.
+
+On the other side of the cathedral is a four story building, the 
+Blue Palace.   The blue flag can be found on level 4.   There are 
+alternate entrances from the adjoining Tudor house on levels 1 and 2.
+Red team bots seem to find the blue flag very quickly, but are less
+adept at getting that flag back to their home base.
+
+Beyond the Blue Palace is the Chapel of Flak, home of the red base.
+A large red team icon on one wall indicates the location of a simple 
+platform lift up towards the red flag, which is at the top of the 
+chapel tower. 
+
+The map contains extensive zone information.   With the 
+"omniscience" options of MultiCTF turned on, one can quickly tell 
+where any flag in transit is.
+
+Many a time Doctor Evil has not even bothered to try to win the 
+match, as he is distracted by the therapeutic practice of shooting 
+out many of the windows.   The sound of breaking glass seems 
+especially fulfilling in the belltower and nave of the cathedral.
+Another sacriligeous pleasure is to see the hymn books go flying 
+off the pews when they are shot. 
+
+Have an Evil Christmas ...
+
+
+Copyright / Permissions
+------------------------
+This level cannot be copyrighted by Doctor Evil, as it is based on 
+someone else's map.   Credit for the original concept goes to 
+Denis "UT-Freak" Reimer, 2004.
+
+
+-----------------------
+UNREAL TOURNAMENT (c)1998 Epic Megagames, Inc.  All Rights Reserved.  
+Distributed by GT Interactive Software, Inc. under license.  
+UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are registered 
+trademarks of Epic Megagames, Inc. All other trademarks and trade 
+names are properties of their respective owners.

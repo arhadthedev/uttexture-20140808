@@ -1,0 +1,38 @@
+Filename             : DM-Q1DM3rf.unr
+Level Name           : FROM QUAKE1 DM-3 "The Abandoned Base"
+Author    : An original from (id software) quake1,U1 Version,Peder Nordenström;UT Ver. redone Red_Fist
+Email Address        : 
+Web Page             :
+Date of Release      : 07/30/2004 
+Player Count         : 4 - 12
+
+
+Installation 
+Unzip into ...\Unreal Tournament\Maps
+
+
+Info
+"The Abandoned Base"
+Only original quake1 players will think this is cool.
+I don't know original authors name.from (id)
+It was a DM level  from quake1
+
+
+Tips and Tricks
+
+
+
+Copyright
+This map " DM-Q1DM3rf.unr", is copyrighted by ,(id software), redone by Red_Fist. 
+You may distribute this map through any medium you want, but you're not allowed
+to commercially exploit this map.  No one can make money off of this. Ayt.
+Authors may not NOT use this level as a base to build additional 
+levels.
+
+--------------------------------------------------------------------
+
+UNREAL © 1998 Epic Megagames, Inc. All Rights Reserved. Distributed
+by GT Interactive Software, Inc. under license. UNREAL and the UNREAL
+logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners. 
+            

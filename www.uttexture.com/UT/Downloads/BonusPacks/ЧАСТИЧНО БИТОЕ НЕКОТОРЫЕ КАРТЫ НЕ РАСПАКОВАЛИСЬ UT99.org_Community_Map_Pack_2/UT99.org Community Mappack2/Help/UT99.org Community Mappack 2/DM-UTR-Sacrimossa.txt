@@ -1,0 +1,98 @@
+------------------------------------------------
+
+               Title: The Shrine of Sacrimossa
+            Filename: DM-UTR-Sacrimossa.unr
+              Author: Creavion
+       eMail Address: creavion@freenet.de
+         Website URL: -
+        Release Date: with the release of the UT99.org community Mappack 2
+         Last Update: ""
+             Version: 1.00 
+
+Level specific Credits:
+
+ - Epic Megagames for the UT series
+ - Kevin Riepl for the Sovereign Track 
+ - Proof for the plants and trees
+ - Phyritox, sklare - Additional textures
+
+Other levels by author (finished stuff):
+
+DM-Ryigiar and the other map(s) for this pack
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: Shrine of Sacrimossa
+           Game Type: Deathmatch
+            Botmatch: True
+       Single Player: False
+            Teamplay: Optional
+        New Textures: Yes, mostly copyrighted by Epic Games (for details > credits part)
+          New Sounds: False
+           New Music: Sovereign - by Kevin Riepl
+        New Mutators: False
+                Mods: False
+
+====================================================================================
+Construction
+------------
+
+                Base: Built from scratch
+          Build Time: I guess.. 5 or 6 weeks.. 
+   Ideal Playercount: 4-8
+      Editor(s) Used: Unreal Editor 2, Photoshop CS 2, 
+                      DB Amp Power Converter, Windows Audiorecorder 
+                      (for increasing of the volume)
+          Known Bugs: ARGH.. the polycount.. the polycount.. this map is a 
+		      serious assault. I cannot guarantee  that
+		      this map will run good enough to say.. its ok from the framerate.
+                      I have to say that the map is a complete design failure. 
+                      Too open and too many empty surfaces make me sick so I 
+		      didn`t have a real possibility as to fill these surfaces 
+		      with details. And this is the result. Will never build
+		      something like that again.. at least not in such extreme manner.
+                      Ok.. You will also sometimes notice some minor BSP errors but for the most
+		      part they are harmless.
+
+====================================================================================
+Installation
+------------
+
+ Copy DM-UTR-Sacrimossa.unr into UnrealTournament/Maps folder
+ Copy XPickups.u and xpickups.int into UnrealTournament/System folder
+ Copy KamahT.utx into UnrealTournament/Textures folder
+
+====================================================================================
+Extended Description
+--------------------
+An offical sacrificial altar by the Nahktis. But if there is no one to sacrifice,
+tournament participants fight each other around the altar. The winner will leave this place 
+alive while loser will stay there untill next sacrificial ceremony... 
+====================================================================================
+Author's Notes
+--------------
+
+Like I said.. the polycount are a little high...
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+
+Copyright 2008 Creavion
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.

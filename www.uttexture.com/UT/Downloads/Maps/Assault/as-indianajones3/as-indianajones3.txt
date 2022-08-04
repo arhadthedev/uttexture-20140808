@@ -1,0 +1,162 @@
+ReadMe for AS-IndianaJones3 for Unreal Tournament
+-------------------------------------------------
+
+               Title: AS-IndianaJones3
+            Filename: as-indianajones3
+              Author: Tihomir Marinov
+       eMail Address: tgm79@abv.bg
+         Website URL: 
+        Release Date: 2.09.2004
+         Last Update: 
+             Version: 1.0
+
+Credits:
+
+
+Other levels by author:
+CTF-Forests Of Tuul
+
+====================================================================================
+Play Information
+----------------
+
+                Game: Unreal Tournament
+          Level Name: AS-IndianaJones3
+           Game Type: Assault
+            Botmatch: Yes
+       Single Player: Yes
+            Teamplay: Yes
+        New Textures: Yes
+          New Sounds: Yes
+           New Music: No
+        New Mutators: No
+                Mods: 
+
+====================================================================================
+Construction
+------------
+
+                Base: from scratch
+          Build Time: two weeks
+   Ideal Playercount: 1
+      Editor(s) Used: 
+          Known Bugs:
+
+====================================================================================
+Installation
+------------
+Unzip as-indianajones3.
+Store the *.unr or *.ut2 file in your Maps\ directory along with the others 
+(see guide below), then either doubleclick on it, or type open AS-IndianaJones3 in 
+the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+*.unr and *.ut2 files go in Maps\
+*.utx files go in Textures\
+*.umx and *.ogg files go in Music\
+*.uax files go in Sounds\
+*.u, *.int, and *.ini files go in System\
+*.usx files go in staticmeshes\
+*.ukx files go in animations\
+*.ka  files go in karma\
+*.upx files go in prefabs\
+
+====================================================================================
+Extended Description
+--------------------
+
+It is a map based on the last twenty minutes from the "Indiana Jones and the Last Crusade" movie. You must get past the three challenges and claim the holly Grail. It is designed for only one player but you can try with more bots to see how they handle the traps.
+Important: Volumetric fog must be ON. Otherwise it just doesen't look good.
+====================================================================================
+Author's Notes
+--------------
+
+Author’s notes on How It All Began:
+
+Well, I was playing one day DM-Relics from Angelheart with the Infiltration mod. So while I was playing, it got me thinking on the Indiana Jones theme. I noticed that DM-Relics has nice made terrain. I always wanted to make a map with terrain in it. So I opened the editor, subtracted a big cube, placed a terrain in it, pulled some vertices down a bit and it started to become a very rough version of the present canyon from the map. Five minute work. Testing things. At that point I didn’t know I was going to make a map, moreover an assault map. Maybe year ago I tried to make it for UT2003 but the work stopped after I made the six supporting pillars of the Khazneh. So, then I decided to make a quick rough pillar and to place it in front of my “canyon”. So I did. Just to see how it would look like. Then I decided to make a steep cliff. Then I subtracted an entrance in it and placed the pillar. Then placed a player start and tested it in game. So I noticed my pillar isn’t the right size. I deleted it and made a new one. Twice as big, with more proper shape. I duplicated it five more times. And so on and so on. Until I realize it, the Khazneh was ready, facing the exit of the canyon. One day work. Well, now I couldn’t just leave it. It was a good Khazneh.
+Two weeks later, after maybe thousand rebuilds I had a working level. Just for the record, I want to say it was great fun building it. I learned so many new things about the editor. Learned that the assault maps are not that hard to do. Also found out a dozen new ways of crashing the Editor:)
+
+Author’s notes on the movie with big “M”: 
+
+What can I say – “Indiana Jones and the Last Crusade” is one of my most favorite movies. I’ve watched it maybe over two hundred times – or more. I don’t know exactly. 
+
+Author’s notes on Petra:
+
+The Grail Temple is an actual place. It is in today Jordan and is part of ancient city called Petra. The temple itself is called El Khazneh – The Treasury. Inside it is pretty simple – only one room three by three meters. The people who build it – the Nabataeans, almost two thousand years ago, chose the place because of its strategic importance. The canyon – also known as the Siq is the only way in and is very easy to defend. Petra was once a city of great importance and wealth, but after many different conquerors and several severe earthquakes the place was abandoned.
+I’ve never been there personally, so all the needed data had to be gathered through Internet. Anyway I was collecting images of Petra from certain time. They helped me a lot to build the temple facade. Of course, I had to change few things a bit. First of all I saved eight additional pillars from the back side of the second floor that would have slowed performance even more and would have created additional BSP holes. Other things I saved were the winged statues from the back wall of the second floor and the horseman statues. Anyway I didn’t have suitable pictures to make textures for them. The small details were, of course, not possible with that engine. The other thing that is different is the size of the rock where the temple is carved. It is actually little higher and three times wider. The Siq, or the canyon is twice higher or maybe even more. Overall I think I hit the right proportions. I was amazed how high it looks from the second floor. You can’t really tell that from the pictures.
+Well what can I say – Petra is a magical place. If you like to travel - visit it someday.
+
+Author’s notes on team play and bot support:
+
+The entire premise of the map is designed for one human player. I concentrated mainly on designing the traps from the movie scenario point of view and recreating the proper atmosphere. Obviously there was no way to make the bots able to get to the last fort on their own. Not with all the traps on the way. Still, I tried to make some path network and thought of ways to make them actually do what the human player would do. I thought that the Breath of God would be the hardest of the three but surprisingly it was the easiest. I lost one entire day trying to think of way to make the bots jump before triggering the blades and finally figured it out. You just have to put a “block monsters” actor little before the trigger and set its height radius to 16. It can’t block human players but blocks the bots so they try to jump over it, triggering the blade, landing on it and use it to flip over the second blade. Just what a human would do. Indiana Jones like style. It is very impressive to watch from aside. Suddenly the death rate of the bots dropped with 95%, unless they tried to pass in groups. I realized that my carefully constructed blades weren’t killing anything. With that depressing thought and having in mind that they weren’t able to continue after that anyway I quickly restored the previous state of things. It is way more fun, and there is 1% chance someone to get through with his head still on.
+At one point the bots were able to pass easily over the second challenge too, but then I reconstructed it entirely and made it way too complicated for them to get over. Still, I placed a jump spot there. Once I saw with my own eyes one of the bots succeeded to get through the blades, continued ahead and actually tried to jump over the pit without using his impact hammer. He missed with few inches. Poor bastard.
+The third challenge is the thing that the bots seem to dislike the most. I guess they lack faith. They are willing to pass the abyss only if there is a solid bridge and that’s the way they like it, aha, aha.
+Just in case, I put enough player starts for both teams and placed few defense points and enough ammo for the defenders. The attackers have only sniper rifles but still they have the advantage because the defenders can’t leave their spawn area. It is on purpose. Of course I could’ve placed some player starts inside but I really didn’t want any distracting for the people trying to pass the challenges.
+
+Authors notes on The Breath of God:
+ Since the day I found out that you can do death traps with movers in the UEd I wanted to make that spinning disks from the movie. In the end I’m proud of the way it turned out to be. Now it is totally different from the first test rectangular popping out slowly from the wall with tired creaky noise. Now it is a deadly, whirling and whooshing, killing machine.
+
+Author’s notes on The Word of God:
+I tried once to made it with exploding walls, to make it look like the tiles are crumbling, but this turned out to be a bad idea. Why? Well you know what is happening when you are standing on a mover set to MoveByTime and MoveTime to 0. You just travel with the speed of light to the nearest wall.
+
+Autor’s notes on: Do the bots believe in God? I think not. There is no pathnode that leads to the Righteous Way…
+
+Author’s notes on bot sixth sense: Weird thing, but sometimes a bot would stop just before the blades not wanting to go ahead – and after a while meets his doom. They REMEMBER!
+
+List of people to thank to:
+I want to thank to Machismo. His tutorials were my first source of information on editing.
+Thanks to Angelheart for the inspiration. 
+Thanks to Rachel Cordone for teaching me how to make masked textures with Photoshop.
+Thanks to all the people who support Nali City, and take their time to give feedback in Nali City Forums.
+Thanks to the creators of the Unreal games.
+Thanks to all mappers who continue to develop the Unreal world in their own way.
+Thanks to all the people who downloaded and played my first map.
+Thanks to the creators of Indiana Jones trilogy.
+Thanks to everybody!
+
+
+No bots were harmed during the making of this level…Yeah, right.
+It’s a lie of course. Only in the blade testing were killed two thousand bots at least. The disks killed them, Padme. Every single one of them. Raynor. Illana. And Loque too…
+
+Any similarity to existing real architectural monuments carved in red sandstone rock is fully intentional and sought after.
+
+Cast (in non-alphabetical order)
+
+
+Alarik:          Pain voice talent
+Loque:           Best sharpshooter boy 
+Drimacus:        Lead stunt and stunt coordinator
+Athena:          Lead blade tester
+Ichtys:          Extra
+Tamerlane:       HOM assistant
+MaleBot1:        Spectator Camera men (though didn’t make it in the final cut)
+Necroth:         Quality blade assurance
+Kosac:           Lead freefall tester
+Cilia:           Weapon master
+Aryss and Alyss: Snake trainers
+
+====================================================================================
+Copyright / Permissions
+-----------------------
+This level is copyright 2004, by Tihomir Marinov.
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any 
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp), 
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+Unreal® Tournament (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by 
+GT Interactive Software, Inc. under license. Unreal Tournament and the Unreal 
+Tournament logo are registered trademarks of Epic Megagames, Inc. All other 
+trademarks and trade names are properties of their respective owners.
+
+TM & © 1981, 1984, 1989, 2004 Lucasfilm Ltd. All Rights Reserved. 
+TM, © & Copyright © 2004 by Paramount Pictures. All Rights Reserved.
+====================================================================================
+====================================================================================
+ReadMe created by NC3's ReadMe Generator.
+http://nalicity.beyondunreal.com/

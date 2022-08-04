@@ -1,0 +1,22 @@
+Beavis and Butthead.
+
+A voice pack for Unreal Tournament.
+
+Compiled by [ILAR]Grudgrbringer.
+
+-Installation: Extract BeavisPackage.u and BeavisPackage.int to your UnrealTournament/System folder. Then open your Unrealtournament.ini also located in your UnrealTournamnet/System folder, scroll down to the [Engine.GameEngine] heading and add this line to the bottom of the existing ones:
+
+ServerPackages=BeavisPackage
+
+Now your all set to laugh your heads off as you kill bots, assualt bases and capture flags.
+
+Enjoy!
+
+
+Oh and check out the cool voice site below:
+
+www.planetunreal.com/Utterance
+
+It rocks!
+
+PS. For all you kids out there, this pack contains stong language.  You were warned!

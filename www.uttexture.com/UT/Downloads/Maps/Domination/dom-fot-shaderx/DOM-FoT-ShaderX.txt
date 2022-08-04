@@ -1,0 +1,78 @@
+================================================================
+Title                   : ShaderX-Megaman Rebirth
+Version                 : v1.0
+Release Date            : 01-09-06
+Filename                : DOM-FoT-ShaderX.unr
+Author(s)               : Cedric "Snoop " Pierron aka Derdak2rot
+Email Address           : Pierron.Cedric@wanadoo.fr
+Web Page                : soon
+Description             : Its a map i made half a year ago , was originally made for the second LowPoly pack , but i felt tired to see it waiting on my Hd without
+                          sharing it with people , so here we go , I profit of the FOT pack to make it a Domination map . Honestly , I think the 
+				layout serves very well for that purpose.
+                          for this gametype , hope you will like it . dedicated to all Megaman Fans , and i know there are a lot ;) ,enjoy :)
+
+
+Where to get this map   : only available in the third FoT package from the initiative of Swanky and milb 
+Other levels by author  : check out author's levels at nalicity
+Additional Credits to   : Swanky - for the great helps on betatests and the great talk we have on ICQ ;) - and the Megaman X story
+                          Evil Lair - he made these nice cell-shading textures :)
+                          XYZ8000 - for the great feedback he gave me about the first version , i used his advices to upadte the map better
+                          thanks to all :)
+                          SabbathCat and Switch , for their beautiful DOM lights and control points , note that the mutator can be used on every DOM map ;)
+
+================================================================
+--- Story ---
+
+It has been years since the Reploid armada under the lead of the MaverickHunters Megaman X and Zero finally wiped out the threat of Sigma, the most evil
+villain humankind had ever met until that point. He was created through some virus infection and was then able to spread every computer system with this 
+virus forcing normal Reploids to go berserk. The former thinking robots turned into cruel warmachines.
+However, the Reploid Wars came to an end a mere hundred years after they had been started by Sigma himself. ShaderX is a rebuilt station of one part 
+of Sigma's moon station, where the last battle had been fought long ago. They intended the place to be a flying fortress, however, and so it's flying 
+over the endless oceans. With this fortress Liandri is providing a rebuilt of the last clash between the forces of Good and Evil. 
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament v 436
+Level Name              : DOM-FoT-ShaderX
+Single Player           : no
+Cooperative             : no
+Deathmatch              : no
+Dark Match              : no
+Difficulty Settings     : yes
+New Sounds              : yes , the WilyWars.umx , remix from a MegamanX game 
+New Graphics            : yes , cell shading texs from EvilLair ecel texture pack 
+NewUnrealScript         : yes 
+External DLLs           : no
+Known bugs              : there appenrently no bugs known , but probably a couple of places with small bsp holes , not really noticeable are they are out of view :P
+
+--- Construction ---
+Editor(s) used          : Unreal ED 2.0 + Adobe Photoshop 5.0
+Base                    : DM-ShaderX
+Construction Time       : 1 week , probably 
+
+
+Installation :  put the "DOM-FoT-ShaderX.unr" in your "UnrealTournament/Maps" directory
+
+                all the stuff has been mylevel-ed so no problem on files needed ;)
+------------
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Derdak2rot ,2006.
+
+Authors CAN NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

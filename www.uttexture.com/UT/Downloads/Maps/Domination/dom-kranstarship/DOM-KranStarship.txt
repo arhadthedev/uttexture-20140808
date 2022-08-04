@@ -1,0 +1,19 @@
+Name : Kran Starship Facility
+Author : Elliott "Myscha" Cannon UNREAL 1 sp
+         DOM convertion par Pierron"Snoop"Cedric aka Derdak2rot
+
+Gametype : UT DOMINATION - 4 Control Points
+
+This map is an convertion of the original ISV KRAN 32 for Unreal 1
+I have customized a lot of thing :
+
+- new sky box 
+- add teleporters
+- custom architecture
+- Full bots supports
+- Gameplay for teammatch adapted
+
+
+have fun !!!!!!!!
+
+made by snoop

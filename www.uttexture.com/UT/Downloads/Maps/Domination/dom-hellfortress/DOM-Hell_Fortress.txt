@@ -1,0 +1,63 @@
+================================================================
+Title                   : The Hellfortress
+Version                 : 1.0
+Release Date            : 4.12.1999
+Filename                : DOM-Hell_Fortress.unr
+Author(s)               : Alexander Hoffmann
+Email Address           : hofmeister16@hotmail.com
+Web Page                : http://www.hofmeister16.purespace.de
+Description             : Domination
+Other levels by author  : DM-Hell_Fortress for Unreal, DM-Hell_Fortress for UT
+Additional Credits to   : Battle_Angel and Master Mike for Betatesting. Without them
+                          the map would be even more bad :-)
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : DOM-Hell_Fortress
+Single Player           : No
+Cooperative             : No
+Deathmatch              : 4 players suggested
+Dark Match              : No
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : N/A
+NewUnrealScript         : N/A
+External DLLs           : N/A
+Known bugs              : See author's notes below.
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Base                    : DM-Hell_Fortress
+Construction Time       : Mmh... 30 Minutes for Modification
+
+--- Beta Testers ---
+Batlle_Angel and Master Mike
+
+
+Installation
+------------
+Unzip the .unr file into your UT/maps/ directory and enjoy.
+
+Author's Notes
+--------------
+Ok, this is the last step from my DM-Hell_Fortress - terror: I converted the DM - Map into an Domination Map. And I must say:
+it makes fun. It's VERY fast because the level is not very big. Feedback is welcome. And it would be very very very very very 
+very very very very very very very very very very very very very very very very very very very very very very very very very 
+nice if I would see a review at NaliCity.
+
+Copyright / Permissions
+-----------------------
+This level is copyright Alexander Hoffmann 1999.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.

@@ -1,0 +1,12 @@
+
+======================================================================
+Title           : CTFM - Hanging Garden
+Original Author : Adam Sims aka Oblivion_Soldier
+Author          : Sid 'SoniBang' Lannord
+E-Mail          : sidlannord@hotmail.com
+Filename        : CTFM-HangingGarden.unr
+Realease date   : April 6, 2004
+Last Update     : March 29, 2004
+Description     : Conversion of the card death match Hanging Garden in to MultiTeam CTF.
+File Contents   : CTFM-HangingGarden.unr, CTFM-HangingGarden.txt, screenshot.jpg
+======================================================================

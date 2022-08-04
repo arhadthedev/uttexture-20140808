@@ -1,0 +1,67 @@
+================================================================
+Title                   :CTFM-Sphere
+Version                 :1
+Release Date            :01/14/01
+Filename                :CTFM-Sphere.unr
+Author(s)               :Chris(slayerA)Powell
+Email Address           :cpowell@softcom.net
+Web Page                :none
+Description             :It's a Sphere, what can I say.
+Where to get this map   :http://www.planetunreal.com/multictf/ 
+
+Other levels by author  :Not yet, I'm just a starting mapper.
+Additional Credits to   :Wyzard, thanks for a bitch'n mod.  
+			 Thanks to jasper Lodder for striping out his level notes .txt.(were this doc came from)
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :Sphere
+Assault			:No
+CTF                     :yes 
+Deathmatch              :NO
+Domination		:No
+Difficulty Settings     :NO
+New Sounds              :No
+New Graphics            :No
+NewUnrealScript         :No
+External DLLs           :No
+Known bugs              :None found so far.
+
+--- Construction ---
+Editor(s) used          :UnrealEd 2
+Base                    :None
+Construction Time       :48 hours
+
+
+Installation
+------------
+Unzip the file  
+put CTFM-Sphere.unr in your unrealtournament/maps directory
+ 
+Author's Notes
+--------------
+You need Wyzards MultiCTF mod to play this map, get it here
+http://www.planetunreal.com/multictf/
+
+
+ 
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Chris Powell. 
+
+I don't care what you do to this map. It's a litle cheap to take someone's idea, though. I spent hard working to this map so if you do something with it, please give me credit for the original.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

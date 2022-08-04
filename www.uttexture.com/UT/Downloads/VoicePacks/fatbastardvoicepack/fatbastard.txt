@@ -1,0 +1,17 @@
+Fat Bastard Voice for Unreal Tournament
+by, Tracker (tracker@skingpin.cjb.net)
+
+Model:  Male
+uses:	A comical voice that goes well with any male model
+Content:Useful for bots only, contains some order sounds
+
+
+Intructions
+
+Place the .int and .u files into your Unreal Tournament system folder.
+Make sure you have a male character selected.  Look for "Fat Bastard" under 
+the voice drop down menu.
+
+
+This voice may be freely distrubuted.  All rights reserved.
+2000

@@ -1,0 +1,43 @@
+ Natural Landscapes
+
+By: Millennium 2002
+
+Millennium 2002
+
+Dated: 7/11/98 
+
+Click here for a printable version of this Tutorial.
+
+Natural Landscapes
+
+Natural Landscapes seem to be what everyone wants to do when they are creating an outdoor level, so I best be having a little talk here and talking about some of my own methods of acheiving a good looking level. I do have a few tricks here that I will explain, but a lot of it is simple technique that has been used and grown from simple editing. I mainly use a technique that grows slowly using the basic primitives and then manipulates the brushes, and adds in more brushes until slowly the main object that we are trying to create gorws to look natural becuase of the irregularity of the brushes, then once that has been done to a level that we are happy with, an intersection of the entire brush will be made and the new builder brush is used to create a realistic looking mountan or cavern or whatever in the place where we want it.
+
+To start with I think that an example of how I created a damn good looking cavern will do the best job of explaining all the rambling that I have done so far. I needed a cavern to look like a natural cave in one half of it (The level is actually for the up and forthcoming Mionions of Evil TC). I needed a cavern with a realistic looking rock-fall and a waterfall flowing over the rocks and into anali-made pool of water. I started off deciding just how big my room would have to be, then added a little "play" on each side so that I would be able to add in extra crevases with a realistic amount of ease, rather then toying with additional brushes that would have to be subtracted. When I had decided upon the actual size of the room (about 1024x2048x1024 if you are really interested) and I made this room off a little from the level. This was then where I was working the most with all the additional brushes that I would be using. It is much better to create something like this off from where it will actually be going, as it then allows you to "test it out" by doing an intersection and putting it into the level before you have to delete any of the older brushes. Ok, getting back to where we were. I then created a few "base" brushes. I wanted the rocks to look as natural as I could, so I made a basic cube brush, then intersected it against the wall of the room, until it looked fairly realistic. This was actually fairly easy, as I simply rotated the brush so that all the main angled sides were overlapping against the wall, then did an intersection to get rid of it, and rotated it some more, then did another intersection and so forth, until the brush no longer looked like a cube, but a boulder. When it did look like a large rock, I put if off to the side, and added it to the world, so that it would not go anywhere and I could use it over and over again if need be. I then made another cube and followed the steps above until I had another boulder although I made sure that it looked different to the first that I had made. I kept this up, until I had made about four or five (I can't remember exactly how many) and they were all sitting nicely off to the side of the room. When I was satisfied with what I had for base brushes, I "drew" the entire inside of the cave inside my head.
+
+Then with the brushes that I had made, I started to build the cave little by little, and made sure that I intersected the brushes EACH time before actually added it to the world. This was quite important, becuase if you didn't do this, then you would actually be causing horrible BSP holes (If you are not sure what these are, please look up the Jargon tutorial) and then most likely create a HOM effect. Slowly as ech of the brushes was added, the cave interrior was begining to look more and more like a real cave would look. To stop the repetition as I was only using a few main brushes I was rotating the side that would be visible all the time, and also changing the size of the brushes so that if I did have the same faces of the brush showing, I would not have them the same size as well. Even though this was fairly tedious and did take a long time for it to be as good as I wanted it to be, the final product was nothing short of "real". When I had finished createing the actual rocks that would make the "fallen in" section of the room, I was ready to start adding in the pool and the water. Using the 3D view of the editor, I made completely sure that I would have no holes in the bottom of the pool and the sides of the pool, so that I would be able to create a sheet of water, and safely place a water zone below it. I had to "patch up" a few holes that were there, and I also made (I got a little carried away here, and I admit that freely) a little rock fall or "rapids" for the water to flow into, then finally I made sure that the "water level" would be as natural as possible by adding in a few extra rocks to make sure that the pool would look as natural as possible. When I had made the actual sides and interior of the pool, I added in the nali-made pool edge, which was made from a cylinder (I think about 40 sides) and hollow. I made it to be an elongated shape by simply streching one plave of the shape so that it would grow longer, but nothing else. When I had the right shape built, I intersected the brush and found that I had the brush just to the exact dimensions so that the water would flow easily and freely into it like a real water would flow. When this was complete and I had the brush textured and just what I wanted it to look like (still without a drop of water though) I did an intersection of the entire room, and placed it into the level where it was supposed to go. I then saved the level ( Something that you should do as often as possible) and started to work out how to create the water itself.
+
+Who ever said that water had to be made from a sheet? I think that this is a great misleading theory that everyone seems to have. I actually used a cube and like I was making a boulder, slowly intersected to and from the brush until I had the red builder brush looking just like the water would look when I had finished. This was done in a few steps, as it was simply too much work to create the entire brush from a single brush, so I made a few brushes and created them in a way that they would overlap each other, and the player would not be able to see where any of them did actually meet. The fact that I was using a solid brush here also made the job a lot easier as it allowed me to work within a finite space and not work with a sheet that would intersect poorly, if not all the edges were surrounded. I finally managed to create the brushes that would make the water and placed them into the level just like I would place water normally. I prefer to create water so that it actually flows, and so I went to each individual facet of the water, and made them "flow" downward, even though thus did take a lot of playing about and changeing the individual directions of the faces and changing the panning scale. Finaly when they all looked good enough so that I would be happy with them, and then I placed in the water zones where I knew the player could reach without cheating. I actually did leave a few places there that were not filed with water, but this was simply becuase it would not be possible for the player to get to them and so placing water into them would simlpy add to the resource list that would have to be filled, and it would slow down the level just that little bit more.
+
+Finally I added the lighting to the the cavern and did a final rebuild and then then cavern was complete. There is no "one" way to do natural landscapes and rocks, but this should be a good and reliable way to create very realistic looking rock formations that will look really good in your levels. If you want to add to this tutorial, then please email me, and I will happily add useful comments to this, and there is simply so much to cover, and what I have done here is simply one method of doing rocks.
+ 
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998

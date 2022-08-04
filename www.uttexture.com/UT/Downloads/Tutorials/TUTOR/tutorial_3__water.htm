@@ -1,0 +1,99 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Tutorial #3 - Water</title>
+
+
+<meta name="Microsoft Theme" content="none"><meta name="Microsoft Border" content="none"></head>
+
+<body bgcolor="#000000" text="#00FF00" link="#FFFF00" vlink="#00FFFF" alink="#FFFFFF">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><table border="0" width="100%">
+      <tr>
+        <td width="33%"><strong><font face="Verdana"><small>Tutorial #3: Water </small><br>
+        <a href="http://www.creativecarnage.com/unreal/tutorial3.unr"><small><small><small>(click
+        to download .UNR)</small></small></small></a></font></strong></td>
+        <td width="33%" align="center"><p align="center"><a href="mailto:megahertz@smcgrath.com"><strong><small><font face="Verdana">Author: MegaHertz</font></small></strong></a></td>
+        <td width="34%" align="right"><strong><small><font face="Verdana">Last Updated: May 25th</font></small></strong></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%"><u><b><font face="Verdana" color="#0000FF" size="6">Unreal Tutorial #3</font></b></u><br>
+    <font face="Verdana"><font size="4"><font color="#0000FF">Water Tutorial</font></font><p><big><b>Introduction:</b></big></p>
+    <font size="3"><p></font></font><font FACE="Verdana" SIZE="2">This tutorial is designed to
+    instruct you on how to add a simple pool of water to your unreal levels. This tutorial
+    assumes that you have a basic understanding of how to create rooms and assign textures to
+    them. If you are having trouble doing this, refer the documentation found in the help
+    directory of the Unreal CD-ROM or Tutorial #1. If you have any suggestions, corrections or
+    additional information please drop me some email at </font><a HREF="mailto:megahertz@smcgrath.com"><font SIZE="2">megahertz@smcgrath.com</font></a><font FACE="Verdana" SIZE="2">. It&#146;s my hope that tutorials like this will help us all
+    figure out UnrealED faster.</p>
+    <p></font><font FACE="Verdana"><b><big>Starting Out:</big></p>
+    </b><font size="3"><p></font></font><font FACE="Verdana" SIZE="2">Start out by making a
+    decent sized room. Large enough so that you can place a hole in the floor of the room
+    where the water will go and still have plenty of room to walk around it. Next size the
+    carving brush down so that its about 1/5<sup>th</sup> the width and depth of the original
+    room. Once your finished with that you should have something that looks similar to this:</font></p>
+    <p align="center"><img src="t3-1.gif" width="669" height="322" alt="t3-1.gif (38148 bytes)"><br>
+    <a href="http://www.creativecarnage.com/unreal/t3-1.gif">(click on image to view full
+    screen)</a></p>
+    <p><font FACE="Verdana" SIZE="2">&nbsp;</p>
+    <p>You&#146;ll notice I went ahead and added some light actors and a playerstart actor, if
+    u haven&#146;t already done so, go ahead and do so now.</p>
+    <p>&nbsp;</p>
+    </font><font FACE="Verdana"><b><p>Adding the water:</b></font><font FACE="Verdana" SIZE="2"></p>
+    <p>Now we have to lay out where we want our water to begin. We&#146;ll use whats called a <b><em><font color="#FFFFFF">zone porta</font></em>l</b> to separate the empty space of our room from
+    the empty space of the pit so that we can fill up the pit with water and not have it over
+    flow into our room space. The way we create a <em><font color="#FFFFFF"><b>zone portal</b></font></em>
+    is by using a <font color="#00FF00">sheet brush</font> to create a plane that will
+    completle separtate and cut off one area from the other. Click on the <font color="#FFFFFF"><strong><em>Use Plane</em></strong></font> icon and position like its
+    shown here:</font></p>
+    <p align="center"><img src="t3-2.gif" width="680" height="330" alt="t3-2.gif (42667 bytes)"><br>
+    <a href="http://www.creativecarnage.com/unreal/t3-2.gif">(click on image to view full
+    screen)</a></p>
+    <font FACE="Verdana" SIZE="2"><p>Notice my red line is a little lower than the ground ,
+    this is because you&#146;ll want a lip around your pool which makes it seem more
+    realistic. Also when sizing your brush in the over head view , make sure it covers the
+    entire area , the easiest way to do this is to use Snap to Grid scaling. If you don&#146;t
+    have the entire area completely sealed off, your whole room will be filled with water.</p>
+    <p>Now select the <font color="#FFFFFF"><em><b>Brush</b></em></font> menu and select <font color="#FFFFFF"><em><b>Add Special</b></em></font>, pull down the combo box and select
+    water, then click on the <b><font color="#FFFFFF"><em>Add Special</em></font> </b>button.</font></p>
+    <p align="center"><img src="t3-3.gif" alt="t3-3.gif (6069 bytes)" WIDTH="275" HEIGHT="306"></p>
+    <p>&nbsp;</p>
+    <font FACE="Verdana" SIZE="2"><p>Now hit <b><font color="#FFFFFF"><em>F8</em></font> </b>and
+    rebuild the geometry and the BSP. Now position your cursor in the 3d view on what would be
+    the top layer of the water, you may have to re-orient your view to see it. The top of the
+    brush should be highlighted with a blue tinge to it. Load up the liquids.utx file and
+    assign a texture to the top of the water. Next <b>browse</b> the list of classes listed on
+    the right side of the screen. Expand the <font color="#FFFFFF"><em><b>info</b></em></font>
+    class, you should see another class called<font color="#FFFFFF"> <b><em>ZoneInfo</em></font>,</b>
+    Expand this class and then highlight <b><font color="#FFFFFF"><em>WaterZone</em></font>.</b>
+    Go back to your 2d views and point to somewhere in the brush that will contain the water.
+    Hold down the &#145;<font color="#FFFFFF"><em><b>A</b></em></font>&#146; key and <em><font color="#FFFFFF"><b>left click</b></font></em>. A <font color="#FFFFFF"><em><b>WaterZone</b></em></font>
+    icon should have appeared inside the water area of your level. If not , try clicking
+    again.</p>
+    </font><font FACE="Verdana"><b><p><big>Lets go for a swim:</big></b><font size="3"></p>
+    <p></font></font><font FACE="Verdana" SIZE="2">You should now be able to compile your
+    level one last time, and go swimming in your new inground pool, and don&#146;t forget to
+    invite me to your first pool party!! <font FACE="Wingdings">J</font> </p>
+    <p></font><font FACE="Verdana" size="4"><b>CONTACTING ME:</b></p>
+    <p></font><font FACE="Verdana" SIZE="2">If you need more help or have some ideas,
+    information, etc, you can reach me at </font><a HREF="mailto:megahertz@smcgrathc.com"><font SIZE="2">megahertz@smcgrath.com</font></a><font FACE="Verdana" SIZE="2"> . I can also be
+    found on #UnrealED on EFNET irc.</font></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+</body>
+</html>

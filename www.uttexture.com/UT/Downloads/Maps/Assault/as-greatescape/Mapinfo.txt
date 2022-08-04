@@ -1,0 +1,31 @@
+///////////////////////////////////////////////////////////////////////||
+||        Map name:  AS-GreatEscape                                    ||
+||Autor: Mortan (Headshot) Lestaria (also called Vatcilli zeitchef)    ||
+||        Game type: Assault                               ||
+||                                                                     ||
+||                                                                     ||
+||                                                                     ||
+||                                                                     ||
+///////////////////////////////////////////////////////////////////////||
+
+
+Botmatch: Yes
+Multiplayer: Yes
+Players: 2-6 
+New music: No
+New textures: Only schreenshots (I wanted to spare you from needing a new texture pack)
+Build time: About a week
+
+Map Description:
+In this Assault map you need to escape a prison (how origional  :P )
+any way don't play this map if you come for the details (I suck at that this being my first AS map)   
+but for the fun, The skaarj in this map are to help the attackers to escape but have friendly fire damage. The only little detailed thing is the city becouse I no longer cared about creating bsp cuts.
+And Yipee there are none! (that I found)
+
+
+Known bugs: 
+1 The mercenaries are often distracted and no longer go for the switches, If that happens kill them
+(they will respawn)
+2 I could not make the final assault target so that everyone had to bet there 
+(I tried movers to block the path but that did not work)
+ 

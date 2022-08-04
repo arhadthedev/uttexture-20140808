@@ -1,0 +1,30 @@
+I have decided to release this in DOM version as the UT scene for mods isnt all that good. This was orignally released for the CNQ conquest mod.
+All I have done from the CNQ-Highspeed version I released is to rename the map. 
+
+I liked both the idea and levels so much I thought I may as well release it as DOM as a few ppl still play that.
+
+If you want to get the neat features of conquest You can get the mod here.
+
+Conquest		-	http://www.utworld.net/mdisaster/conquest/index.htm
+
+Just rename the map to CNQ-Highspeed instead of DOM-Highspeed.
+
+
+Heres what the mods all about ;-
+
+
+
+What is Conquest ?
+
+Conquest is a mod that plays like Domination, but has a single Control Point. 
+
+How is Conquest different from regular Domination ? 
+
+Conquest encourages team cooperation. You can play DOM without coordinating your moves with your teammates and still score a lot and eventually win. You won't go very far in Conquest if your teamplay sucks. 
+Winning in Conquest is much more gratifying that Domination. Capturing the one Control point is a "goal" scored by the team, not one of a hundred game events. And the Attack-Defend cycle will keep your adrenaline pumps going until last second. 
+Conquest scales well with respect to the number of players. While it is difficult to play a good DOM game with less than 4vs4 players, Conquest will play well with almost any number of player - in small maps even 1vs1 is a possibility. 
+Why a separate mod ? Couldn't you make just the 1CP DOM maps ? 
+Actually the 1CP maps appeared first, thanks to talented mappers like Dufusyte and Post Mortem. The separate gametype idea came later, in a forum thread started by Dufusyte about the things that make a good gametype.
+The reasoning behind the Conquest mod is being able to group 1CP maps on dedicated servers, this way people can find easily the 1CP maps and admins can set the server for best 1CP play (i.e. the score limit can be set to a lower value than regular DOM).
+At the moment that's what Conquest does, but I am planning to add new features such as custom sounds or player classes.
+Anyway the gameplay in Conquest is really a function of the quality of maps. 

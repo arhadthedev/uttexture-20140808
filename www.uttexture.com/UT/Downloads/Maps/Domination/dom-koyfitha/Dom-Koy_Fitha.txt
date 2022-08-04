@@ -1,0 +1,70 @@
+================================================================
+Title                   : Koy Fitha
+Version                 : What ever number is first.
+Release Date            : Sometime after the Y2k bug
+Filename                : DOM-Koy_Fitha.unr
+Author(s)               : Hanh "Wanderer" Court
+Email Address           : odc21@hotmail.com	
+Web Page                : None that I'm willing to admit to.
+Description             : Domination map intended for those who might still believe
+			  that I work for Epic or any licensee's (most notably the PU
+			  Editing Forum dwellers). This should make it clear why
+			  I don't and never will.
+Other levels by author  : None that I'm willing to admit to.
+Additional Credits to   : The neighbors letting me toss the dog poop in their yard :)
+
+			  Everyone at Rust's Unreal forum, PlanetUnreal's Editing forum, and
+			  Unrealized's Forum for giving me something to do in between 
+			  brainfarts and mappers block.
+
+			  Every RoadRunner Records band out there for giving me the inspiration
+			  and raw stupidity to take the time to help out beginning mappers who
+			  will hopefully make kick-ass maps, get jobs for it and provide me with
+			  entertaining maps and games for years to come... wow that was a hell
+			  of a run-on sentence :)
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : Dom-Koy_Fitha
+Single Player           : No
+Cooperative             : No
+Deathmatch              : 4-9
+Dark Match              : No
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : N/A
+NewUnrealScript         : N/A
+External DLLs           : N/A
+Known bugs              : Not counting Z-buffer bugs...
+			  VisibleTeleporters won't change yaw. I've set them up right, they just
+			  don't follow through.
+
+--- Construction ---
+Editor(s) used          : UnrealED Beta
+Base                    : New Level
+Construction Time       : When the Poland Springs gets here it'll end.
+
+Installation
+------------
+Manual's, read'em.
+
+Author's Notes
+--------------
+I'm pissed, I'm cranky, and I'm going to hell. Best off I'm driving!
+Now I'm off, I'm crawling back into the hole I came out of.
+
+Copyright / Permissions
+-----------------------
+This level is copyright Hanh Court (c) 2000.
+
+Authors may use this level as a base to build additional levels (as long as I get initial credit).
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.

@@ -1,0 +1,49 @@
+Here is what I always use:
+
+================================================================
+Title : Football
+Version : 1.00
+Release Date : 12-23-00
+Fixes : None
+Filename : AS-Football.zip
+Author : SniperMonkey
+
+Description :  An answer to the recent outcry for simpler, tactical maps as opposed to strategic maps, AS Football is American football adapted to a popular UT style.
+
+Where to get this map :
+http://www.planetunreal.com/nalicity/
+
+================================================================
+--- Play Information ---
+Level Name : AS-Football
+Single Player : botmatch
+Deathmatch : no
+Capture the Flag : no
+Domination : no
+Assault : Yes
+Difficulty Settings : no
+New Sounds : no
+New Graphics : 1 texture from CTF-ThornsV2.
+New UnrealScript : no
+External DLLs : no
+Known bugs : None
+
+--- Construction ---
+Time:  A couple evenings
+Editor(s) used : UnrealEd 2, Paint Shop Pro
+
+Special thanks goes to:
+[XA]PsychoP@t & [XA]Defiance for the map that inspired this one.
+
+
+Copyright / Permissions
+-----------------------
+This level is not copyrighted at all, not even the least bit.  Authors may do as they please with this level under a single condition - let me know what you did with it, because I can't imagine what you'd use it for!
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any other electronic medium that is sold for money without my explicit permission!  And probably a token sum of cash.  Ten bucks ought to do it.
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+----------------------
+UNREAL TOURNAMENT (c)2000 Epic Megagames, Inc. All Rights Reserved. Distributed by GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other trademarks and trade names are properties of their respective owners.

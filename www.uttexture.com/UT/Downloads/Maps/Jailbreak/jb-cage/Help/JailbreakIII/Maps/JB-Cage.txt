@@ -1,0 +1,31 @@
+Carte pour le jeu Unréal Tournament.
+-----------------------------------------------------------------------------
+
+			    JB-Cage
+
+-----------------------------------------------------------------------------
+
+	Nom de la carte:		Cage
+	Type de partie:			JailBreak
+	Nombre de joueur idéal:		4-6
+	Taille:				Petite
+	Armes disponible:		[ ]
+
+	Nouveaux Scripts:		Non
+	Nouveaux Sons: 			Non
+	Nouvelles Textures: 		Non
+	Nouvelle musique:		Non
+
+	Editeur utilisé:		UnrealEd v2.00
+	Temps de construction:		1 jours (6 heures)
+	Date:				09/11/01
+
+	Auteur:				Crokx
+	E-mail:                  	Crokx@Infonie.fr
+	Site:				http://perso.infonie.fr/crokx
+
+-----------------------------------------------------------------------------
+
+	        Unreal Tournament (c)1999 Epic Megagames, Inc.
+
+-----------------------------------------------------------------------------

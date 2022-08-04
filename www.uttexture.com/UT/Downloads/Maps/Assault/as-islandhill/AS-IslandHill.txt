@@ -1,0 +1,27 @@
+AS-IslandHill
+-------------
+File				: AS-IslandHill.unr
+Author				: HOB
+Email				: cwindler@rocketmail.com
+Released			: January 27, 2000
+
+
+Play Info
+-------------
+    Single Player (Botmatch)	: Yes
+    Cooperative             	: No
+    Deathmatch              	: No
+    Capture The Flag		: No
+    Assualt			: Yes
+    Domination			: No
+    Known Problems		: Its almost impossible for the bots to get up the hill.
+
+
+Play Info
+----------------
+    Editor used 	         : UnrealED (UT)
+    Build Time          	 : 1 week
+
+Installation
+~~~~~~~~~~~~~~~~
+Place the AS-IslandHill.unr file in your \UnrealTournament\maps directory.

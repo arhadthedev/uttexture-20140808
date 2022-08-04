@@ -1,0 +1,250 @@
+<html>
+
+
+<!-- Mirrored from www.uttexture.com/UT/Downloads/Tutorials/UnrealClasses.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Apr 2017 16:42:55 GMT -->
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Unreal Class Reference</title>
+</head>
+
+<body>
+
+<h1>Unreal Classes</h1>
+
+<address>
+  Tim Sweeney<br>
+  Epic MegaGames, Inc.<br>
+  tim@epicgames.com<br>
+  http://www.epicgames.com/ 
+</address>
+
+<p>Audience: Level Designers, UnrealScript Programmers, C++ Programmers.</p>
+
+<h3>About this document</h3>
+
+<p>This is a quick attempt to describe the most important classes and variables in Unreal.
+&nbsp; It is currently very sparse but will be expanded over time.</p>
+
+<h3>Engine.Object</h3>
+
+<h4>Purpose:</h4>
+
+<p>Serves as the base class of all objects in Unreal.&nbsp; All objects inherit from
+Object.</p>
+
+<h4>Variables:</h4>
+
+<ul>
+  <li><strong>Parent:</strong> The object's parent object (for scoping).</li>
+  <li><strong>ObjectFlags:</strong> The object's flags, described in the <a
+    href="../../../../welcome.yota.ru/sa/index647a.html">Packages</a> document.</li>
+  <li><strong>Name:</strong> The object's name.</li>
+  <li><strong>Class:</strong> The object's class.</li>
+</ul>
+
+<h4>Functions:</h4>
+
+<ul>
+  <li><strong>Log</strong>: Writes a message to the log file, usually
+    \Unreal\System\Unreal.log.</li>
+  <li><strong>Warn:</strong> Writes a script warning to the log file, including the current
+    script and function.</li>
+  <li><strong>Localize</strong>: Returns a localized (internationally translated) string from
+    a package's .int file.</li>
+  <li><strong>GotoState</strong>: Sets the object's current state, None means no state. If no
+    label is specified, the Begin label is gone to.</li>
+  <li><strong>IsInState</strong>: Returns whether this object is in the specified state.</li>
+  <li><strong>GetStateName</strong>: Returns the name of this object's current stae, None if
+    none.</li>
+  <li><strong>Enable</strong>: Enables a probe event. The only functions which work with
+    Enable and Disable are: Spawned, Destroyed, GainedChild, LostChild, Trigger, UnTrigger,
+    Timer, HitWall, Falling, Landed, ZoneChange, Touch, UnTouch, Bump, BeginState, EndState,
+    BaseChange, Attach, Detach, ActorEntered, ActorLeaving, KillCredit, AnimEnd,
+    EndedRotation, InterpolateEnd, EncroachingOn, EncroachedBy, FootZoneChange,
+    HeadZoneChange, PainTimer, SpeechTimer, MayFall, Die, Tick, PlayerTick, Expired,
+    SeePlayer, EnemyNotVisible, HearNoise, UpdateEyeHeight, SeeMonster, SeeFriend,
+    SpecialHandling, BotDesireability.</li>
+  <li><strong>Disable</strong>: Disables a probe event.</li>
+  <li><strong>GetPropertyText</strong>: Converts the value of an arbirary variable to text.</li>
+  <li><strong>SetPropertyText</strong>: Sets the value of an arbitrary variable from text.</li>
+  <li><strong>SaveConfig</strong>: Saves the current values of all &quot;config&quot;
+    variables to the Unreal.ini file.</li>
+  <li><strong>ResetConfig</strong>: Resets the values of the &quot;config&quot; variables to
+    the originals in the Default.ini file.</li>
+</ul>
+
+<p><strong>Static Functions:</strong>
+
+<ul>
+  <li><strong>ClassIsChildOf</strong>: Returns whether one class is a subclass of another
+    class.</li>
+  <li><strong>GetEnum</strong>: Returns the nth element of an enumeration.</li>
+  <li><strong>DynamicLoadObject</strong>: Tries to load an object from a file, and returns it.</li>
+</ul>
+
+<h4>Events:</h4>
+
+<ul>
+  <li><strong>BeginState</strong>: Called when a new state is entered.</li>
+  <li><strong>EndState</strong>: Called when the current state is ended.</li>
+</ul>
+
+<h3>Engine.Actor</h3>
+
+<h4>Functions:</h4>
+
+<ul>
+  <li><strong>Error</strong>: Causes a critical error; exits the engine.</li>
+  <li><strong>SetCollision</strong>: Changes the actor's collision flags.</li>
+  <li><strong>SetCollisionSize</strong>: Changes the actor's collision size.</li>
+  <li><strong>Move</strong>: Moves the actor by the specified displacement vector, handling
+    collision (based on the collision flags), Touch and Bump notifications.</li>
+  <li><strong>MoveSmooth</strong>: Like move, but smoothly brushes against walls.</li>
+  <li><strong>SetLocation</strong>: Teleports the actor to a new location.</li>
+  <li><strong>SetRotation</strong>: Sets the actor's new rotation.</li>
+  <li><strong>SetBase</strong>: Sets the actor's Base. A base of None means that the actor
+    moves alone; setting the base to another actor in the world causes this actor to move and
+    rotate along with its base. An example of using a base is standing on a moving platform.</li>
+  <li><strong>SetOwner</strong>: Sets this actor's owner.</li>
+  <li><strong>IsA</strong>: Return whether this actor belongs in a named class.</li>
+  <li><strong>PlayAnim</strong>: Plays a named animation sequence in the actor's Mesh once
+    (use the Mesh Viewer in UnrealEd to see the animation sequence names for a given mesh).
+    The optional Rate scales the animation's default rate. If a nonzero TweenTime is
+    specified, the animation is first tweened from whatever is currently displayed to the
+    start of the named animation sequence, before the animation sequence plays. When the
+    animation playing completes, it stops and calls your optional AnimEnd() event and causes
+    any latent FinishAnim() calls to return.</li>
+  <li><strong>LoopAnim</strong>: Like PlayAnim, but loops the animation sequence over and over
+    without end.&nbsp; As with PlayAnim, the AnimEnd() is called at the end of the sequence,
+    and FinishAnim() calls return at the end of each iteration of the loop.</li>
+  <li><strong>TweenAnim</strong>: Tweens from whatever animation is currently being displayed,
+    to the start of the specified animation sequence, then stops and calls AnimEnd() and
+    releases any latent FinishAnim() calls.</li>
+  <li><strong>IsAnimating</strong>: Returns whether the actor's mesh is currently animating.</li>
+  <li><strong>GetAnimGroup</strong>: Returns the group name of the specified animation
+    sequence.</li>
+  <li><strong>SetPhysics</strong>: Sets the actor's current physics mode.</li>
+  <li><strong>BroadcastMessage</strong>: Sends a text message to all players.</li>
+</ul>
+
+<h4>Latent Functions:</h4>
+
+<ul>
+  <li><strong>Sleep</strong>: Waits for a certain (fractional) number of seconds to pass, then
+    continues.</li>
+  <li><strong>FinishAnim</strong>: Waits for the currently playing or looping animation to
+    reach the end of the sequence.</li>
+  <li><strong>FinishInterpolation</strong>: Only relevent with the physics mode
+    PHYS_Interpolating. Waits until the next interpolation point is reached.</li>
+</ul>
+
+<h4>Iterator Functions</h4>
+
+<ul>
+  <li>AllActors: Iterates through all actors in the level with the specified tag; if you don't
+    specify a tag, it iterates through all actors in the level. This is pretty slow if you
+    specify a tag, and very slow if you don't.</li>
+  <li>ChildActors: Iterates through all actors owned by this actor.</li>
+  <li>BasedActors: Iterates through all actors directly based on this actor.</li>
+  <li>TouchingActors: Iterates through all actors touching this actor. This is fast.</li>
+  <li>TraceActors: Iterates through all actors hit by a trace along a line with an optional
+    collision extent. This is pretty fast.</li>
+  <li>RadiusActors: Iterates through all actors within a specified radius. This is fast.</li>
+  <li>VisibleActors: Iterates through all actors visible to this actor (using a simple line
+    trace, rather than exact mesh-to-mesh visible). This is very, very slow.</li>
+  <li>VisibleCollidingActors: Iterates through all actors visible to this actor which have
+    collision enabled; this is much faster than VisibleActors.</li>
+</ul>
+
+<h4>Events:</h4>
+
+<ul>
+  <li><strong>AnimEnd</strong>: Called when the currently playing or looping animation reaches
+    the end of the sequence.</li>
+  <li><strong>Spawned</strong>: Called when an actor is spawned during gameplay. Never called
+    if the actor is preexisting when a level is loaded.</li>
+  <li><strong>Destroyed</strong>: Called immediately when an actor is destroyed. This event is
+    not delayed like Java's Finalize() event is.</li>
+  <li><strong>Expired</strong>: Called immediately before Destroyed() when an actor's LifeTime
+    has counted downward past zero.</li>
+  <li><strong>GainedChild</strong>: Another actor has done a SetOwner() to this actor.</li>
+  <li><strong>LostChild</strong>: An actor owned by this actor has been destroyed or done a
+    SetOwner() to another actor.</li>
+  <li><strong>Tick</strong>: Called each iteration of the game loop; varies depending on frame
+    rate. DeltaTime indicates how much time has passed.</li>
+  <li><strong>Trigger</strong>: This actor has been triggered by another actor Other,
+    optionally caused by a pawn EventInstigator.</li>
+  <li><strong>UnTrigger</strong>: This actor has been untriggered by another actor Other,
+    optionally caused by a pawn EventInstigator.</li>
+  <li><strong>BeginEvent</strong>: A simple protocol to indicate that this actor called a
+    Trigger() function that began a complex chain of events. This enables switches to be
+    coordinated with doors intelligently, i.e.: You press a switch. The switch moves in. It
+    triggers a door which calls your BeginEvent() then slowly opens. The door then calls your
+    EndEvent(). Now you move the button back out to give the user feedback that the button is
+    finished with what it was doing.</li>
+  <li><strong>EndEvent</strong>: The event specified by BeginEvent has ended.</li>
+  <li><strong>Timer</strong>: If you call SetTimer, this Timer() function is called each time
+    the timer has counted down from your time value.</li>
+  <li><strong>HitWall</strong>: This actor ran into a wall while moving.</li>
+  <li><strong>Falling</strong>: This actor has transitioned into PHYS_Falling.</li>
+  <li><strong>Landed</strong>: This actor has transitioned out of PHYS_Falling.</li>
+  <li><strong>ZoneChange</strong>: This actor has entered a new zone.</li>
+  <li><strong>Touch</strong>: This actor has begun touching (interpenetrating) another actor.</li>
+  <li><strong>UnTouch</strong>: This actor has stopped touching (interpenetrating) another
+    actor.</li>
+  <li><strong>Bump</strong>: This actor has bumped into an impenetrable actor.</li>
+  <li><strong>BaseChange</strong>: This actor's base has changed.</li>
+  <li><strong>Attach</strong>: Some other actor has set its base to this actor.</li>
+  <li><strong>Detach</strong>: Some other actor based on this one is no longer based on this
+    actor.</li>
+  <li><strong>KillCredit</strong>: This actor has successfully killed another actor.</li>
+  <li><strong>SpecialHandling</strong>: ?</li>
+  <li><strong>EncroachingOn</strong>: This actor is now encroaching on (overlapping with)
+    another actor as a result of moving and it may return true to abort the move, or false to
+    continue the move.</li>
+  <li><strong>EncroachedBy</strong>: This actor has been successfully encroached by
+    (overlapped by) another actor. This is where players may opt to telefrag themselves or
+    ignore the encroach.</li>
+  <li><strong>InterpolateEnd</strong>: Called when Physics==PHYS_Interpolating and the next
+    interpolation point has been reached.</li>
+  <li><strong>KilledBy</strong>: Called when killed by another actor (killed just means dead,
+    it doesn't mean destroyed).</li>
+  <li><strong>TakeDamage</strong>: A certain amount of damage has been imparted on this actor.</li>
+  <li><strong>PreTeleport</strong>: Called before this actor is teleported by a teleporter.</li>
+  <li><strong>PostTeleport</strong>: Called after this actor is teleported by a teleporter.</li>
+</ul>
+
+<h4>Physics Modes:</h4>
+
+<ul>
+  <li>To be written.<br>
+  </li>
+</ul>
+
+<h4>Game Startup:</h4>
+
+<p>When programming new actor scripts, you need to be wary of the order in which actors
+that pre-exist in a level (at load time) are initialized, and the order in which new
+actors are initialized when they are spawned. The exact order of initialization is:
+
+<ol>
+  <li>The actor object is created and its variables are initialized to their default values
+    (if spawning an actor), or loaded from a file (if loading a pre-existing actor).</li>
+  <li>The actor's location, rotation, and owner are set.</li>
+  <li>If the actor is being spawned, its Spawn() event is called.</li>
+  <li>The actor's PreBeginPlay() event is called.</li>
+  <li>The actor's BeginPlay() event is called.</li>
+  <li>The actor's zone is set, and any ZoneChange messages are sent to the actor, and any
+    ActorEntered messages are sent to its zone.&nbsp; Prior to this point, the actor is not in
+    a valid zone, and you must not call the Move, MoveSmooth, SetLocation, or SetRotation
+    functions, or any functions which call them.</li>
+  <li>The actor's PostBeginPlay() event is called.</li>
+  <li>The actor's SetInitialState() event is called.</li>
+  <li>If the actor hasn't set its base yet, its base is set.</li>
+</ol>
+
+<p>&nbsp;</p>
+</body>
+
+<!-- Mirrored from www.uttexture.com/UT/Downloads/Tutorials/UnrealClasses.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Apr 2017 16:42:55 GMT -->
+</html>

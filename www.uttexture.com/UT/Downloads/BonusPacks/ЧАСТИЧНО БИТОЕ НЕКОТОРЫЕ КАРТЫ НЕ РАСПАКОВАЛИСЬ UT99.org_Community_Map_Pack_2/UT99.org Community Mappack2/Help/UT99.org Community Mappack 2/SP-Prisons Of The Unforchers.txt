@@ -1,0 +1,102 @@
+SP-UTR-Unforchers Readme File.
+============================================================================
+Title :SP-01-UTR-Unforchers/SP-02-UTR-Unforchers
+Version :v1.0 
+Author :editor Dave
+Email Address :david.rauh@web.de
+Web Page :coming
+============================================================================
+--- Level Info ---
+Level Name risons Of The Unforchers
+Gameplay Style :Singleplayer
+Player Count :1
+New Sounds :Yes but you won't notice them(MyLevel)
+New Music :Yes (MyLevel)
+New Textures :Yes (my own are in MyLevel), mostly made by Myth (AincentXXL)
+NewUnrealScript :Yes, a few little things (MyLevel)
+New Meshes :Yes (MyLevel)
+Bugs :In the second map the Nali sometimes make their animation too late or too early. Monsters don't react when spawned by a GenericSpawners
+============================================================================
+--- Credits ---
+- Thanks to Mr. Tom, Creavion and especially UBerseker for giving me Feedback and helping with problems
+- Thanks to Mister Prophet who helped me with translating and corrected my English
+- Thanks to Epic, who made the great game Unreal and the UT series
+- Thanks to Feralidragon for his XPickups and giving the Conrop the modified texture
+- Thanks to (FXD) Shadow who scripted the new Conrop
+- Thanks to UsAaR who scripted the NonBuggyViewSpot
+- Thanks to Mr. Tom, who made all the new music tracks
+- Thanks again to Creavion who motivated me everytime and also converted some music tracks
+- Thanks to Myth for his cool "AincentXXL" package which is used everywhere in the maps
+- Thanks to Mr. Tom who build the last area in the second map except the terrain and everything outside of the building
+- Thanks to Myth who created the really cool sunset skybox
+- Thanks to sinot for his Far cry AGM
+- Thanks to Lightning Hunter for his work to make my map compatible with Oldskool
+- Thanks to everyone else, who I might have forgotten
+============================================================================
+--- Construction ---
+Editor(s) used :UnrealEd 2.0, XnView, Microsoft Paint, Mod Plug Tracker
+Base :None - built from scratch
+Construction Time : ~ 11 months
+============================================================================
+--- Installation ---
+Copy the SP-01-UTR-Unforchers.unr file to your UnrealTournament/Maps directory
+Copy the SP-02-UTR-Unforchers.unr file to your UnrealTournament/Maps directory
+Copy the AincentXXLpk.utx file to your UnrealTournament/Textures directory
+Copy the xpickups.u/int packages to your UnrealTournament/System directory
+Copy the UnforchersPack.u/.int packages to your UnrealTournament/System directory (optional | With that you can start the map as its own mappack from Oldskool)
+============================================================================
+--- Story Line --- 
+The most important excepts out of the 
+---"Diary For The Unforchers' Prisoners"---
+
+They've given me the privilege of having my own diary. It is now the only possession I have in the world. I don't remember what day it is. I can't believe I lost track of something like that. The only thing I can do now is keep a record of what is happening to me. I don't want to forget anything ever again.
+
+
+I don't even remember why they imprisoned me in the first place. Maybe I did nothing. All I know yet is what's written in these pages. With these words I can put some pieces of the puzzle together. I was in a forest or something. A place with many trees. On that day I heard a noise and all of a sudden those creatures rushed me from all sides. I was powerless. The weapon I had didn't do much damage. I got some good shots in, but I couldn't even kill one of them. They closed in and then the world faded to black.
+When I woke up I found myself in a weak lit, little room with practically no sunlight. I touch those cold metal bars with tired hands. I never felt so alone. They come once a day to bring food and something for me to drink. They said when the time is right they will release me. It seems they don't want to kill me, otherwise they would have done that already. Many days passed by until I got this diary. Every day happened the same: They come for one minute and leave me until the next day comes. But today it was a bit different: They brought this diary but apart from that nothing special went on. There is still this little-lit room with little space and those icy bars...
+
+2nd day after getting this diary: After giving me vittles they called me and dragged me to come with them. I had no idea what would happen next. I envisioned the worst things. But it was better than I expected: It was the first time I saw light again! I was fascinated by this shiny power. I want to see this place once again! They led me to another cell because the old one "is used for a better specimen". Probably they meant the Nali. I've heard them crying. Praying. But how could I help them? Should I say "I'll rescue you when I get out first"?! The new place they brought me to was even darker and more abandoned. I hate this grand prison! Perhaps I should make a weapon...?
+
+7th day: Just before I heard a loud scream and it was not the guards or from the Nali. It was horrible. After hearing his sound I realized: On the one hand I am not the only man in here. On the other hand, someday that could also happen to me. I'm afraid...
+
+25th day: At least I have this diary otherwise I would die of boredom. Today I was curious when I heard another scream. It was another human again. I asked my guard what they intend to do with me.
+The guard had no idea. According to him, he only follows his orders. I eavesdropped on some dialogue between two of these aliens.
+One asked the other what occurs after "The Great Day". The other one had the answer but I only understood part of what he said: They are going to get something, but what exactly I knew not. I wonder what that could be. Perhaps a liberation of all inmates? I would celebrate this day every year...
+
+26th day: When the guard came to bring me water and bread I asked him what exactly is "The Great Day". At once he ran out of my cell to a keeper with a higher rank with the words: "He knows more than me!" Then I was alone again for hours. Or were they minutes? I don't have any sense of time anymore. Then they returned. "You know too much" they said, and brought me to another cell in a small temple, isolated from the rest of the prison. That was the first time when I saw sunlight, when they transported me. Before they left me, one of the keepers aimed my old AutoMag at my face. I thought that I lived my last day. But he threw it against the wall and scoffed: "When you ever manage to escape, then you can have your old weapons again" and disappeared with uproarious laughter. But what is better for me? The hope of freedom or a fast death by way of rope...? Every evening I think how happy I could be if I would've got into this situation...
+
+34th day: Bending is my new hobby. Unfortunate I have only the half of the buk to write anymore. I made some interesting figures yet but every time I finish a new one they scrunch it when they bring me eatings. My hate against them grows with each day...
+
+96th day: I notice that I am forget things. Little things. Like words. Sometimes I stare at my diary for hours unable to find the right word. The more I spend my days in this...what is it called? I only write something in my buk, when it is real important. I can't think straight and my buk don't help me to pass my time anymore. I wonder, that my eyes stil work fine.Care they when someone is missing? Where is a chance for hurt? My life has not worth...
+
+Anywhen: I'm giving up to counting the days. To sleep is that, what I do all the time, eat and to drink is only alternation. I cannot bear days here. I want to see this bright things, that made me hopeing for better...
+
+
+
+============================================================================
+--- Author's Notes ---
+This map was divided into two seperate ones otherwise it wouldn't compile properly. The beginning is probably the hardest part. Afterwards, however, it becomes a bit easier. Don't get discouraged if you die several times at the beginning. I also would suggest that you play my map two times because there are two ways you can stick with in order to reach the end. One has more fights while the other one is focused more on puzzles, traps and the story.
+This map might be difficult for you. I'd suggest you to play this map one difficulty less than you normally play SP maps, only to avoid frustration. 
+I will continue the story line in my other SP maps but that would take a while. Those maps will not be shipped with any mappack because I cannot stand the pressure when it comes to deadline. I wish that you have fun playing this one - I spent nearly hundred hours working on it . Good luck with prisonbreak!  
+============================================================================
+--- Other levels by author ---
+-SP-Vulkantempel: Please don't search for it because that is my first map and as a result, a very ugly one so please don't play it.
+-CTF-UTR-Dargrok: My first and only MP-Map which is also included in the second UT99.org-Community-Pack 
+
+============================================================================
+--- Copyright / Permissions ---
+This level is copyrighted by editor Dave.
+You MAY NOT use this map as a base for other levels unless you ask me about that.
+
+You MAY NOT commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+============================================================================
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

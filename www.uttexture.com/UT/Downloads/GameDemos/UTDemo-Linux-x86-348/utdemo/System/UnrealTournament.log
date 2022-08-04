@@ -1,0 +1,155 @@
+Log: Log file open, Wed Oct 20 08:09:46 1999
+Init: Name subsystem initialized
+Init: Version: 348
+Init: Compiled: Oct 20 1999 06:58:08
+Init: Command line: 
+Init: Base directory: /usr/local/utdemo/System/
+Init: Character set: ANSI
+Log: Bound to Engine.so
+Log: Bound to Core.so
+Init: Object subsystem initialized
+Init: CPU Speed=400.986272 MHz
+Log: Loading: Package Engine
+Log: Loading: Package Core
+Init: Unreal engine initialized
+Log: Bound to XDrv.so
+Init: XClient initialized.
+Log: Bound to Render.so
+Init: Lighting subsystem initialized
+Init: Rendering initialized
+Log: LoadMap: Entry
+Log: Loading: Package Entry
+Log: Loading: Package Logo
+Log: Bound to Fire.so
+Log: Loading: Package Fire
+Log: Case-insensitive search: Botpack -> ../System/BotPack.u
+Log: Loading: Package Botpack
+Log: Loading: Package UnrealShare
+Log: Loading: Package Male2Voice
+Log: Loading: Package MaleSounds
+Log: Loading: Package Announcer
+Log: Loading: Package UMenu
+Log: Loading: Package UWindow
+Log: Loading: Package UBrowser
+Log: Bound to IpDrv.so
+Log: Loading: Package IpDrv
+Log: Game class is 'UTIntro'
+Log: Bringing Level Entry.MyLevel up for play (0)...
+ScriptLog: InitGame: 
+ScriptLog: Base Mutator is Entry.Mutator0
+Log: Browse: Entry.unr?Name=GreenMarine?Class=Botpack.TMale2?team=255?skin=SoldierSkins.RawS?Face=SoldierSkins.Arkon?Voice=BotPack.VoiceMaleTwo
+Log: LoadMap: Entry.unr?Name=GreenMarine?Class=Botpack.TMale2?team=255?skin=SoldierSkins.RawS?Face=SoldierSkins.Arkon?Voice=BotPack.VoiceMaleTwo
+Log: Created and initialized a new X viewport.
+Log: Loading: Package UTMenu
+Log: Loading: Package LadderSounds
+Log: Bound to UWeb.so
+Log: Loading: Package UWeb
+Log: Loading: Package UTServerAdmin
+Log: Loading: Package IpServer
+Log: Loading: Package LadrArrow
+ScriptLog: Team 255
+ScriptLog: Login: GreenMarine
+Log: Loading: Package SoldierSkins
+Log: Possessed PlayerPawn: TMale2 Entry.TMale0
+Init: Input system initialized for XViewport0
+Log: Opening X viewport.
+Log: Bound to GlideDrv.so
+Log: Loaded render device class.
+Log: Initializing renderer at 640x480.
+Init: Initializing Glide...
+Init: Found Glide: 2.60.00.0415
+Init: Glide info: Type=0, fbRam=12 fbiRev=4098 nTexelfx=2 Sli=0
+Init: grSstOpen Res=7 Ref=0 Buffers=3
+Init: Glide tmu 0: tmuRev=4098 tmuRam=2 Space=5140464
+Init: Glide tmu 1: tmuRev=4098 tmuRam=2 Space=5140464
+Log: Resizing X viewport.
+Log: Flushed Glide TMU 0
+Log: Flushed Glide TMU 1
+Log: Bound to Audio.so
+Init: Allocating an audio buffer of 4096 bytes.
+Init: Created a new audio thread.
+Init: Generic audio subsystem initialized.
+Init: Reopening audio device.
+Init: Allocating an audio buffer of 4096 bytes.
+Init: Game engine initialized
+Log: Startup time: 15.140112 seconds.
+Log: Entering main loop.
+Log: Loading: Package LadderFonts
+ScriptLog: Creating root window: UMenu.UMenuRootWindow
+Log: Loading: Package UWindowFonts
+Log: Loading: Package utmenu23
+Log: Loading: Package UTBrowser
+Log: Resolving unreal.epicgames.com...
+Log: Resolved unreal.epicgames.com (216.27.43.133)
+Init: Sockets: I am codeforge.epicgames.com (216.27.43.234)
+Log: Loading: Package DM-TempestDEMO
+Log: Case-insensitive search: uttech2 -> ../Textures/UTtech2.utx
+Log: Loading: Package uttech2
+Log: Loading: Package Detail
+Log: Loading: Package UTtech1
+Log: Loading: Package GenFX
+Log: Case-insensitive search: demo-city -> ../Textures/Demo-city.utx
+Log: Loading: Package demo-city
+Log: Loading: Package UTtech3
+Log: Loading: Package Doorsmod
+Log: Loading: Package GenIn
+Log: Loading: Package ShaneSky
+Warning: Failed to load 'UnrealI': Can't find file for package 'UnrealI'
+Warning: Failed to load 'UnrealI': Can't find file for package 'UnrealI'
+Log: Case-insensitive search: Botpck10 -> ../Music/botpck10.umx
+Log: Loading: Package Botpck10
+Log: URL: Adding default option Name=GreenMarine
+Log: URL: Adding default option Class=Botpack.TMale2
+Log: URL: Adding default option team=255
+Log: URL: Adding default option skin=SoldierSkins.RawS
+Log: URL: Adding default option Face=SoldierSkins.Arkon
+Log: URL: Adding default option Voice=BotPack.VoiceMaleTwo
+Log: Browse: 216.27.43.214/Index.unr?LAN?Name=GreenMarine?Class=Botpack.TMale2?team=255?skin=SoldierSkins.RawS?Face=SoldierSkins.Arkon?Voice=BotPack.VoiceMaleTwo
+Init: Sockets: Socket queue 65536 / 65536
+DevNet: Game client on port 0, rate 20000
+DevNet: PendingLevel received: CHALLENGE VER=348 CHALLENGE=1406985889 STATS=1
+DevNet: PendingLevel received: USES GUID=E43B76A011D37434E0006BA2D2321081 PKG=DM-TempestDEMO FLAGS=1 SIZE=2152238 GEN=1
+DevNet: PendingLevel received: USES GUID=6436658B11D385ED100063B9F6F8975A PKG=Engine FLAGS=1 SIZE=1118823 GEN=1
+DevNet: PendingLevel received: USES GUID=6436658A11D385ED100063B9F6F8975A PKG=Core FLAGS=1 SIZE=56044 GEN=1
+DevNet: PendingLevel received: USES GUID=2DB0A1E011D36FC4E0006BA2D2321081 PKG=uttech2 FLAGS=1 SIZE=1785519 GEN=1
+DevNet: PendingLevel received: USES GUID=4E9D6A4C11D3696CE0006BA2D2321081 PKG=Detail FLAGS=1 SIZE=583859 GEN=1
+DevNet: PendingLevel received: USES GUID=6436658E11D385ED100063B9F6F8975A PKG=Fire FLAGS=1 SIZE=14926 GEN=1
+DevNet: PendingLevel received: USES GUID=4E9D6A6211D3696CE0006BA2D2321081 PKG=UTtech1 FLAGS=1 SIZE=2224433 GEN=1
+DevNet: PendingLevel received: USES GUID=BAC692A011D3865E100064B9F6F8975A PKG=Botpack FLAGS=1 SIZE=24151194 GEN=1
+DevNet: PendingLevel received: USES GUID=3106860011D385F1100063B9F6F8975A PKG=UnrealShare FLAGS=1 SIZE=3412206 GEN=1
+DevNet: PendingLevel received: USES GUID=38AF489F11D31F6F1000B5B8F6F8975A PKG=Male2Voice FLAGS=1 SIZE=701045 GEN=1
+DevNet: PendingLevel received: USES GUID=A1BBF46E11D355EC100013B9F6F8975A PKG=MaleSounds FLAGS=1 SIZE=597900 GEN=1
+DevNet: PendingLevel received: USES GUID=4535604011D363B600007591F801EFC0 PKG=Announcer FLAGS=1 SIZE=1416909 GEN=1
+DevNet: PendingLevel received: USES GUID=6436659411D385ED100063B9F6F8975A PKG=UMenu FLAGS=1 SIZE=1901645 GEN=1
+DevNet: PendingLevel received: USES GUID=6436658D11D385ED100063B9F6F8975A PKG=UWindow FLAGS=1 SIZE=643932 GEN=1
+DevNet: PendingLevel received: USES GUID=6436659111D385ED100063B9F6F8975A PKG=UBrowser FLAGS=1 SIZE=324736 GEN=1
+DevNet: PendingLevel received: USES GUID=6436658F11D385ED100063B9F6F8975A PKG=IpDrv FLAGS=1 SIZE=19851 GEN=1
+DevNet: PendingLevel received: USES GUID=4E9D6A5211D3696CE0006BA2D2321081 PKG=GenFX FLAGS=1 SIZE=145647 GEN=1
+DevNet: PendingLevel received: USES GUID=B46F8A0011D37282E0006BA2D2321081 PKG=demo-city FLAGS=1 SIZE=617185 GEN=1
+DevNet: PendingLevel received: USES GUID=67A42B7111D3191BE0005D95BE341081 PKG=UTtech3 FLAGS=1 SIZE=132434 GEN=1
+DevNet: PendingLevel received: USES GUID=4E9D6A4411D3696CE0006BA2D2321081 PKG=Doorsmod FLAGS=1 SIZE=458279 GEN=1
+DevNet: PendingLevel received: USES GUID=4E9D6A5311D3696CE0006BA2D2321081 PKG=GenIn FLAGS=1 SIZE=23460 GEN=1
+DevNet: PendingLevel received: USES GUID=4E9D6A5B11D3696CE0006BA2D2321081 PKG=ShaneSky FLAGS=1 SIZE=69653 GEN=1
+DevNet: PendingLevel received: USES GUID=645D850011D36FC4E0006BA2D2321081 PKG=Botpck10 FLAGS=1 SIZE=1514831 GEN=1
+DevNet: PendingLevel received: USES GUID=47BABC2211D3218A10003B9DBA3C5E5A PKG=SoldierSkins FLAGS=1 SIZE=2879129 GEN=1
+DevNet: PendingLevel received: WELCOME LEVEL=DM-TempestDEMO LONE=0
+DevNet: Welcomed by server: LEVEL=DM-TempestDEMO LONE=0
+Log: Case-insensitive search: uttech2 -> ../Textures/UTtech2.utx
+Log: Case-insensitive search: Botpack -> ../System/BotPack.u
+Log: Case-insensitive search: demo-city -> ../Textures/Demo-city.utx
+Log: Case-insensitive search: Botpck10 -> ../Music/botpck10.umx
+Log: LoadMap: 216.27.43.214/DM-TempestDEMO?LAN?Name=GreenMarine?Class=Botpack.TMale2?team=255?skin=SoldierSkins.RawS?Face=SoldierSkins.Arkon?Voice=BotPack.VoiceMaleTwo?Checksum=8ff98bfcfa84cc460736477147b40079
+Log: Flushed Glide TMU 0
+Log: Flushed Glide TMU 1
+Log: Collecting garbage
+Log: Purging garbage
+Log: Garbage: objects: 21118->21111; refs: 485962
+Log: Bringing Level DM-TempestDEMO.MyLevel up for play (312)...
+Log: Spawning new actor for Viewport XViewport0
+ScriptLog: Team 255
+ScriptLog: Login: GreenMarine
+Log: Possessed PlayerPawn: TMale2 Entry.TMale1
+Init: Initialized moving brush tracker for Level DM-TempestDEMO.MyLevel
+Log: Flushed Glide TMU 0
+Log: Flushed Glide TMU 1
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierS

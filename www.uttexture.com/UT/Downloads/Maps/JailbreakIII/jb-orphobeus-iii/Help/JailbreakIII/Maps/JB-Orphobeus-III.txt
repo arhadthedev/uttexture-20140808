@@ -1,0 +1,171 @@
+JB-Orphobeus-III
+
+ReadMe for Unreal Tournament
+
+----------------------------
+
+Title: JB-Orphobeus-III
+
+Filename: jb-orphobeus-iii.zip
+
+Author: Cory Spooner 'TheSpoonDog'
+
+eMail Address: thespoondog@planetunreal.com
+
+Website URL: http://www.planetunreal.com/spoondog/
+
+Release Date: Tuesday, Nov 21, 2001
+
+Last Update: Tuesday, April 2, 2002
+
+Version: 2.00 (JB3 enabled and enhanced)
+
+Credits: Thanks to SnowDog first of all, for hounding me (no pun intended) to convert this map to JB, and testing/helping etc.  Thanks to all the JB community beta testers, and to Mychaeel for the Camspots :)
+
+Other levels by author: JB-Hydro32, JB-IndusRage, JB-Hydro16 +v2 +-300, JB-Antipody-100 +110, JB-CrypTitan +200 +300, JB-Mutiny-100, JB-XeneX, JB-EpicBoy, Dm-M0f0, DM-XeneX, JB-Orphobeus, CTF-Hydro32, CTF-Orphobeus, CTF-Mutiny, CTF-IndusRage, CTFM-TechDream, CTFM-Hammer, CTFM-Cryptitan, CTFM-Aquamid][, CTFM-Obsession, CTFM-Morpheus.
+
+====================================================================================
+
+Play Information
+
+----------------
+
+Game: Unreal Tournament
+
+Level Name: JB-Orphobeus-III
+
+Game Type: JailBreak
+
+Botmatch: Yes
+
+Single Player: No
+
+Teamplay: Yes
+
+Difficulty Settings: Only For Bots
+
+New Textures: No
+
+New Sounds: No
+
+New Music: No
+
+New Mutators: No
+
+Mods: No
+
+====================================================================================
+
+Construction
+
+------------
+
+Base: Original Map
+
+Build Time: Cant remember
+
+Recommended # of Players: 8-12
+
+Editor(s) Used: UnrealEd, PhotoShop 6.0
+
+Known Bugs:  Quite a few probably :P
+
+====================================================================================
+
+Inventory
+
+---------
+
+Weapons: Flak Cannon, Sniper Rifle, Pulse Blaster,  Minigun, ASMD Shock Rifle, Rocket Launcher, Redeemer.
+
+Armor and PowerUps: Shield Belt, Thigh Pads, Med Packs, Anti Grav Boots, Health Vials, Damage Amplifier, Armor, Keg O' Health, Invisibility.
+
+====================================================================================
+
+Mods
+
+----
+
+UT JailBreak - The best mod ever.
+
+====================================================================================
+
+Installation
+
+------------
+
+Unzip jb-orphobeus-iii.zip
+
+Store the *.unr file in your Unreal Tournament/Maps directory along with the others
+(see guide below), then either doubleclick on it, or type
+
+open JB-Orphobeus-III
+
+in the console, or select the Map in a Botmatch or an Internet game.
+
+Guide:
+
+*.unr files go in Maps/
+
+*.utx files go in Textures/
+
+*.umx files go in Music/
+
+*.uax files go in Sounds/
+
+*.u and *.int files go in System/
+
+====================================================================================
+
+Extended Description
+
+--------------------
+
+An engineer named Kane Moran designed the ultimate building - a set of towers that would touch the sky and be able to monitor all of the aircraft on earth, as well as the spacecraft around it.  The construction of this beast was amazing.  The industrial materials were sure to withstand even a nuclear explosion.... they did.  After the interplanetary wars, the nuclear explosion left earth bare, with only the Orphobeus towers still standing...and only the employed staff there remaining.  The remaining humans were baffled as to what they could do.  How would they ever trigger a new beginning.  Their immediate thoughts were how they were going to stay alive... Soon dimensia set in, and provisions started to get low.  The water generator and grain cultivating machine were the only resources left to aid the humans' survival.  It was inevitable that someone would lose the plot and try to secure it for themselves, it was bound to happen.... it did.  The battle is on among the mighty towers of Orphobeus.  Only one set of beings will earn their right to live for at least a while longer.  Have fun while you still can...
+
+====================================================================================
+
+Author's Notes
+
+--------------
+
+I made this stage ages ago.  Anyone that knows mapping can look at it in the ed and see my ghastly construction.  Just play with your dildo if you don't like it, but make sure you invite me around before using the dildo.  Edit:  This version has been fixed for JB3.
+
+====================================================================================
+
+Copyright / Permissions
+
+-----------------------
+
+This level is copyright 2001, by Cory Spooner 'TheSpoonDog'
+
+Authors may NOT use this level as a base to build additional levels without explicit
+permission from the Original Author.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any
+other electronic medium that is sold for money without my explicit permission!
+
+You MAY distribute this level through any electronic network (internet (web/ftp),
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+
+UNREAL (c)1998 Epic Megagames, Inc. All Rights Reserved. Distributed by GT
+Interactive Software, Inc. under license. UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+
+UNREAL TOURNAMENT (c)1999 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL
+TOURNAMENT logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners.
+
+====================================================================================
+
+====================================================================================
+
+ReadMe Template generated by UTReadMeTemplate.cgi
+
+created by Fuzzbuster{G3} <fuzzbuster@planetunreal.com> for NaliCity
+
+Please e-mail me any suggestions or improvements you may have.. my ears are open
+
+Store this file in '/UnrealTournament/Help/' for best results. 

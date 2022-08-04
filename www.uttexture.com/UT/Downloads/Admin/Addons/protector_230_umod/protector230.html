@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>Protector 2.30 Documentation</TITLE>
+<META NAME="GENERATOR" CONTENT="Arachnophilia 3.9">
+<META NAME="FORMATTER" CONTENT="Arachnophilia 3.9">
+<BASEFONT SIZE=2 FACE="Arial">
+</HEAD>
+
+<BODY BACKGROUND="" BGCOLOR="#ffffff" TEXT="#000000" LINK="#0080ff" VLINK="#ff0080" ALINK="#ff00ff">
+
+
+<H3>Protector Mutator for UT </H3>
+           
+
+<FONT SIZE="1">
+<I>(c) 1999,2000 Armando Andrea BARLAAM  "Major Disaster"   </I> <BR><BR>
+Version: 2.30 <BR>
+Created: 22/01/00<BR>
+Author:  Armando A. Barlaam  (Major Disaster)<BR>
+Contact: <A HREF="mailto:mdisaster@ngi.it">mdisaster@ngi.it</A><BR>
+Homepage: <A HREF="http://www.utworld.net/mdisaster">Major Disaster UT Pages</A><BR><BR>
+
+This software is unsupported and you use it at your own risk. I am not responsable of whatever may happen if you use it.<BR>
+
+</FONT><BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<B><FONT SIZE="2">Table of contents</FONT></B><BR>
+
+<A HREF="#legal">Legal Info</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#over">Overview</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#newf">New in this version</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#install">Installation</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#start">Getting started</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<A HREF="#config">Configuration options</A>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+
+
+<A NAME="legal"><B><FONT SIZE="2">Legal Info</FONT></B></A><BR>
+You may:<BR>
+- Install Protector on UT servers for others to play.<BR>
+- Put Protector on public internet server for downloading, as long the original file is unaltered.<BR>
+Any other use requires my written consent (this includes, but is not limited to, distributing Protector alone or bundled with other software, and including Protector in any form of distributable media, whether it is free or not).   <BR>
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="over"><B><FONT SIZE="+2">Overview</FONT></B></A><BR>
+
+This server-side mutator makes all players and bots invulnerable for some seconds after respawn, in order to discourage respawn campers. <BR>
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="newf"><B><FONT SIZE="+2">New features in this version</FONT></B></A><BR>
+-Added: GUI interface, Protector options can now be set from the Mod menu.<BR>
+-Added: Translucency is now optional.<BR>
+-Added a translucency slider control<BR>
+-Added the fast loading feature (effective only in UT 4.30 or later)<BR>
+-Added optional respawn protection from Assault cannons<BR>
+-Added selective protection for humans, bots or both<BR>
+-Added optional dynamic protection: protection will expire in advance if the protected player grabs a weapon or powerup<BR>
+-Removed: the kick voting system, for better compatibility with dedicated voting mutators such as UTCV.<BR>
+-Changed: Protection time can now be from 0 to 15 seconds<BR>
+-Changed: Protected players no longer glow<BR>
+-Changed: The package name is now Protector230, to avoid problems with auto download.
+-Fixed: Workaround for the translucency bug in Epic code (sometimes playes stayed translucent) <BR>
+-Documentation updated.
+
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="install"><B><FONT SIZE="+2">Installation</FONT></B></A><BR>
+<B>Uninstall previous versions</B><BR>
+You should uninstall the previous version of Protector before or after installing 2.30:<BR>
+Either open Control Panel/Install-Remove Application, doubleclick on "Unreal Tournament" and select the Checkbox near "Protector", or just remove these files from c:\unrealtournament\system :<BR>
+protector.u  <BR>
+protector.int<BR>
+protector.ini  <BR><BR>
+from c:\unrealtournament\help :<BR>
+protector.txt<BR><BR>
+Also make sure to remove any ServerPackages=Protector.u from unrealtournament.ini (there shouldn't be one anyway)<BR>
+If you don't, you'll have two Protector mutators installed. This will not harm your UT installation, but it's boring ;)  
+<BR>
+<BR>
+<B>Install Protector 2.30</B><BR>
+Then unzip the archive in an empty folder on your hard disk (NOT the Unreal Tournament directory !) and click on the protector.UMOD file.<BR>
+<BR>
+When the dialog box asks for asked the name of the install directory type the UT base directory, i.e. C:\UnrealTournament .<BR>
+<BR>
+After a successful installation you should have the following new files on your system:<BR>
+<BR>
+in C:\UnrealTournament\system <BR>
+protector230.u      (the executable code)<BR>
+protector230.int    (the mutator description)<BR>
+protector230.ini    (the configuration file)<BR><BR>
+in C:\Unrealtournament\help<BR>
+protector230.txt<BR>
+<BR>
+To uninstall protector just remove the above files<BR>
+<BR>
+Admins: Protector does not require changes to config files.
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+
+<A NAME="start"><B><FONT SIZE="+2">Getting started</FONT></B></A><BR>
+Start UT and begin a practice session or a multiplayer game. Select Protector and any other mutators that you want to use with it from the mutator list. <BR>
+You will notice that freshly respawn players are translucent and can not be killed, nor they can frag other players. This is the respawn protection at work.<BR>
+Protector installs a setup dialog under the Mod menu in the UT menu bar. You can access the menu to change the Protector settings. Moving the mouse over a slider or checkbox will make appear a help line at the bottom of the screen.<BR>
+<BR>
+Protector is a server-side mutator, so it only works in multiplayer games if it is installed on the server.
+<BR>
+<BR>
+<HR WIDTH="95%" ALIGN=CENTER>
+<BR>
+<BR>
+
+<A NAME="config"><B><FONT SIZE="+2">Configuration Options</FONT></B></A><BR>
+
+The protector.ini file contains variables that can be changed to control the mutator behaviour. To change the variables open the protector.ini files with Notepad or another text editor. <BR><BR>
+This is a sample protector.ini file: the notes in italics explain the meaning of the variables and must not be typed.<BR><BR>
+NOTE: Most of these variables can now be changed directly from the Protector option panel, under the Mod menu.<BR>
+<BR>
+<TABLE style="font-size : 8pt; font-family : Arial"  border ="0">
+<TR>
+<TD>[Protector.Protector]
+</TR>
+<TR>
+<TD>EnableRespawnProt=True  </TD><TD><I>enables respawn protection </I></TD>
+</TR>
+<TR>		
+<TD>ProtectTime=10  </TD><TD><I>the time in seconds before respawn protection expires</I></TD>
+</TR>
+<TR>
+<TD>ScaleGlowBy=2  </TD><TD><I>the amount of translucency of protected players </I></TD>
+</TR>
+<TR>
+<TD>ProtNoFrags=True  </TD><TD><I>protected players cannot frag other players </I></TD>
+</TR>
+<TR>
+<TD>ProtectBots=True  </TD><TD><I>apply respawn protection to UT Bots</I></TD>
+</TR>
+<TR>
+<TD>ProtectHumans=True  </TD><TD><I>apply respawn protection to human players</I></TD>
+</TR>
+<TR>
+<TD>ProtFromCannon=True  </TD><TD><I>activate respawn protection from Assault cannons </I></TD>
+</TR>
+<TR>
+<TD>DynamicProt=True  </TD><TD><I>Enable dynamic protection </I></TD>
+</TR>
+<TR>
+<TD>pmsg1=You are under protection.  </TD><TD><I>this message is sent to a player just after respawn</I> </TD>
+</TR>
+<TR>
+<TD>pmsg2=You are no longer protected.  </TD><TD><I>this message is sent to a player when protection expires </I></TD>
+</TR>
+</TABLE>
+
+</BODY>
+
+</HTML>

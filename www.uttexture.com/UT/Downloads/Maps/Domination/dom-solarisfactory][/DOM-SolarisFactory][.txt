@@ -1,0 +1,61 @@
+================================================================
+Title             : DOM-SolarisFactory][
+Version           : 1.00
+Release Date      : 05-28-2000
+Fixes             : None
+Filename          : DOM-SolarisFactory][.unr
+Author            : Chad "GreyTiger" Barnett
+Email Address     : greytiger@evilnet.net
+Web Page          : http://www.evilnet.net/~greytiger
+Description       : Battletech's Marik Arena - The Factory from Solaris 7
+
+Where to get
+this map          :http://www.evilnet.net/~greytiger
+                  :http://www.planetunreal.com/nalicity/
+
+================================================================
+--- Play Information ---
+Level Name           : goobers
+Single Player        : no
+Deathmatch           : yes
+Capture the Flag     : no
+Domination           : yes
+Assault              : no
+Difficulty Settings  : no
+New Sounds           : no
+New Graphics         : no
+New UnrealScript     : no
+External DLLs        : no
+Known bugs           : No bugs
+
+--- Construction ---
+Editor(s) used       : UnrealEd
+
+
+Installation
+------------
+*.unr          : DRIVE:\UnrealTournament\Maps
+*.umx	       : DRIVE:\UnrealTournament\Music	
+
+
+
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by goobers 1999.
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (Internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL TOURNAMENT (c)2000 Epic Megagames, Inc. All Rights Reserved. Distributed by
+GT Interactive Software, Inc. under license. UNREAL TOURNAMENT and the UNREAL TOURNAMENT logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

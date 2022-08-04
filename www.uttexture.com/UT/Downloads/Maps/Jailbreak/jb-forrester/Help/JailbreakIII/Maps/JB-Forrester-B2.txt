@@ -1,0 +1,51 @@
+================================================================
+Title                   : JB-Forrester
+Version                 : 028
+Release Date            : 11/1/2001
+Filename                : JB-Forrester.zip
+Author(s)               : Daikiki
+Email Address           : twitch@dds.nl
+Description             : 
+Where to get this map   : http://www.daikiki.com/
+
+================================================================
+--- Play Information ---
+Game                    : Unreal Tournament
+Level Name              : JB-Forrester
+Ideal player count      : 10-16
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+CTF                     : No
+JBUT			: Yes
+Dark Match              : No
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+NewUnrealScript         : No
+External DLLs           : No
+Known bugs              : None
+
+--- Construction ---
+Editor(s) used          : UnrealEd ver. 2
+Base                    : 
+Construction Time       : 
+
+
+Installation
+------------
+   Copy JB-Forrester.unr to your maps directory. That's all there is to it.
+
+Extended description
+--------------------
+  
+Copyright / Permissions
+-----------------------
+   Copyright on modifications Derrick Puckett (Daikiki) 2001
+
+   Authors may use this level as a base to build additional levels (with
+   restricitons, see above).
+
+   Archive or its contents may not be sold for profit in any form.
+   Archive may be distributed freely in its original form with this
+   copyright notice intact.

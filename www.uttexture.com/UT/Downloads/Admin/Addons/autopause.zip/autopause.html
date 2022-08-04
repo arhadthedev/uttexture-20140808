@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<table width="700" border="1">
+  <tr>
+    <td>
+      <p align="center"><font face="Arial, Helvetica, sans-serif"><b>AutoPause 
+        0.80</b></font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Many months ago I wrote a little 
+        utility that would automatically pause games when a player drops. I installed 
+        it on our server and we tested it once in a game vs [T], and it worked 
+        nicely.. But I never got around to actually releasing it.. But [T]Beefcake 
+        asked me a few days ago about it and since it was finished anyway I guess 
+        I can put it up for download.. Hopefully someone will find it useful. 
+        :)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">It can be found in the <a href="http://utv.clan-sy.com/download.html">Download</a> 
+        section, and it is installed on the server as a server actor, no client 
+        download necessary. When a teamgame is started in tournament mode it is 
+        activated.</font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif"><img src="ap1.jpg" width="538" height="308"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif">When the game is started it 
+        will monitor the number of players to see if anyone drops, and instantly 
+        pause the game.</font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif"><img src="ap2.jpg" width="538" height="380"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif">When the missing players enters 
+        the game again, it will count down from five and then unpause. It will 
+        also only allow the game to be paused for a certain amount of time per 
+        pause, and a total amount per game. These can be set by the admin before 
+        the countdown begins. The times are calculated separately for the teams 
+        so one team can't use up the others time.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Also, if a team decides they 
+        don't want to wait for their missing player one of them can type '<b>say 
+        go</b>' and the game will resume. The other time can also type '<b>say 
+        hold</b>' to give the other team one more minute of time. An admin can 
+        also force an unpause of the game instantly by pressing pause as usual.</font></p>
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif">To install it on a server, 
+        find the section [Engine.GameEngine] and add the line<br>
+        <b>ServerActors=AutoPause.APActor</b> </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">A spectator or player logged 
+        in as admin can use these commands before countdown:</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><b>admin set autopause.apactor 
+        enabled &lt;true/false&gt;</b><br>
+        Setting this to false will disable autopause even in tournament mode.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><b>admin set autopause.apactor 
+        maxpause &lt;minutes&gt;</b><br>
+        The maximum amount of time the game will be paused per pause in minutes. 
+        (per team)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><b>admin set autopause.apactor 
+        maxtotalpause &lt;minutes&gt;</b><br>
+        The total maximum amount of time the game can be paused. (per team)<br>
+        </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">This little utility has not 
+        been tested extensively but it have been tested and it's simple code so 
+        I don't expect any problems to occur. If however something should go wrong 
+        the admin can always issue a '<b>killall apactor</b>' to remove the AutoPause 
+        actor from the game, which will stop it from interfering. It will come 
+        back the next level though so if it is a confirmed problem it is probably 
+        good to disable it then.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Oh well, if you find any problems 
+        or find it useful feel free to <a href="mailto:d97-rwe@nada.kth.se">tell 
+        me</a>. :)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">-Fnordia</font></p>
+</td>
+  </tr>
+</table>
+</body>
+</html>

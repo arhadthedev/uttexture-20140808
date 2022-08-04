@@ -1,0 +1,149 @@
+   
+  
+ 
+  News  Submissions  Prefabs  Levels  Staff  Links 
+  
+ 
+ 
+ 
+
+ 
+ 
+   
+
+ Main 
+News 
+Submissions 
+Prefabs 
+Staff 
+Levels 
+Links 
+ 
+Editing 
+Main Page 
+Tutorials 
+Ued Errors 
+Files 
+Shortcut Keys 
+#unrealed 
+Reference 
+Edit Master 
+ 
+Scripting 
+Main Page 
+Tutorials 
+Online Classes 
+Reference 
+Code Master 
+ 
+Modelling 
+Main Page 
+Tutorials 
+Reference 
+Model Master 
+ 
+Skinning 
+Skinning Guide 
+ 
+Prefabs 
+Brushes 
+Textures 
+ 
+Hosted Sites 
+Heph's Music 
+3D Model Emporium 
+Millennium 
+VerMoorD 
+Rage TC 
+Hosting Info 
+ 
+Network Sites 
+Unrealnation 
+S.U.M.E. 
+Honor Guards 
+World of Dreams 
+ 
+Your Unrealed.net 
+If you have a Tutorial, Tip, Hint or whatever! then feel free to send it down, and we will be happy to post it on the site. 
+ 
+ 
+   
+ 
+    
+   
+   
+ 
+
+ 
+ 
+
+ 
+   
+ Custom Brushes In Unreal
+
+By: Nemesis
+
+Nemesis
+
+Dated: 13/8/98 
+
+Download: Download Map - 160K
+
+Click here for a printable version of this Tutorial.
+
+
+
+UnrealEd has a fine selection of brushes for you to choose from, but there's ALWAYS a point where you need a special brush, and you just can't figure out how to get it. This tutorial is designed to help you shape your brushes within UnrealEd, and make your world building easier. 
+
+This Example: A room with shaved corners 
+
+Start by subtracting from your world a room that is 256 Height x 512 Width & Bredth. Now lets assume we want each of the walls to be 256 wide, and the "shaving" to occur from the 128 pt. mark on each side: 
+
+
+
+
+
+To do this is way easy. First thing, we need to resize our brush to 256x181x181 (I'll explain in a second). Now rotate it 45 degrees and line the center of the cube up with a corner of our room. You'll notice that the angle created shaves the cube's corner by exactly 128 pts. on each side: 
+
+
+
+
+
+Here's how we determined the size to be 181 x 181. Simple pythagorian therom (remember Geometry class?). A(squared) + B(squared) = C(squared). In other words, to figure out how big to make the brush (because 1 side is our "shave" or hypoteneuse) you figure that we want to shave off 128 pts. each side, so 128 (squared) is 16384 multiplied by 128 (squared-- 16384) gives us 32768, and the square root of that is roughly 181. Dont' worry if you don't understand, you can just do the trial-and-error thing (but it'll take longer :) ). 
+
+Ok, back to the tut... Just ADD the cube back to your world. Now take the rotated cube and move it to the other 3 corners, ADDing them back to the world: 
+
+
+
+
+
+Now we've got our room shaped up the way we want it, but there are big obnoxious blue cubes everywhere, and we just don't want them, or can't have them in the way... So reset your brush, or rotate it back, and make it 550 x 550. Center it over the square room: 
+
+
+
+
+
+All you've got to do now is hit DEintersect (4th button down the 3rd column) and WHAM! the brush has assumed the shape of the room, just the way it's been cut out. Now move the brush out of the way, SAVE IT if you like, and delete the room (the big box and 4 smaller boxes). Now you can use your custom brush to subtract the room from your world just the way you want it, without a million little additions back into the world! 
+
+Stay tuned to this website for another tutorial along the same lines, with a more advanced example. Happy editing!  
+  
+   
+ 
+
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+
+
+Site Design | Coding | Graphics by | Millennium 2002 | 
+Unreal and UnrealED are Copyright Epic Megagames 1998
